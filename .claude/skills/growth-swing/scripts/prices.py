@@ -11,6 +11,8 @@ Usage:
             market.price/price_date/regime into <universe_dir>/cases/<T>.json. pivot, stop and type are never
             written: candidates are proposals for the analyst (setup.notes explains the choice).
 
+  --reaction T AAAA-MM-DD amc|bmo   prints the market-reaction fields (catalysts.md §6) for a catalyst and exits.
+
 Returns use adjusted close; ADR, EMAs, highs and candidates use raw (split-adjusted) OHLC.
 """
 import argparse, csv, io, json, os, statistics, sys, time, urllib.request
@@ -199,6 +201,23 @@ def cooled_leader(t, M, RS, universe_tickers, fund=None):
     return "cooled_leader" if intact else "cooled_leader_broken"
 
 
+# ---------- market reaction to a catalyst (catalysts.md §6) ----------
+def reaction(rows, day, timing="amc"):
+    """gap_pct, rvol (vs 50 prior sessions), close_in_range, day2_follow for a catalyst released on `day`.
+    timing 'amc' (after the close) → next session; 'bmo' (before the open) → same session. None if not traded yet."""
+    idx = next((i for i, r in enumerate(rows) if (r["date"] > day if timing == "amc" else r["date"] >= day)), None)
+    if idx is None or idx == 0:
+        return None
+    r, prev = rows[idx], rows[idx - 1]
+    v50 = sum(x["volume"] for x in rows[max(0, idx - 50):idx]) / min(50, idx)
+    rng = r["high"] - r["low"]
+    return dict(gap_pct=round((r["open"] / prev["close"] - 1) * 100, 2), rvol=round(r["volume"] / v50, 2) if v50 else None,
+                close_in_range=round((r["close"] - r["low"]) / rng, 2) if rng else None,
+                day2_follow=bool(rows[idx + 1]["close"] > r["close"]) if idx + 1 < len(rows) else None,
+                dollar_volume=round(r["volume"] * r["close"]), estimate_revisions="unknown",
+                reaction_date=r["date"], reaction_close_chg_pct=round((r["close"] / prev["close"] - 1) * 100, 2))
+
+
 # ---------- regime proxy (swing.md §1) ----------
 def regime_proxy(M, idx=("QQQ", "IWM")):
     """Trend-only proxy: both indices with close > EMA20 > EMA50 → risk_on; both below EMA50 → risk_off;
@@ -234,7 +253,14 @@ def main():
     ap.add_argument("--etfs", default="SMH,SOXX,QQQ,IWM")
     ap.add_argument("--no-download", action="store_true")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--reaction", nargs=3, metavar=("TICKER", "AAAA-MM-DD", "amc|bmo"),
+                    help="solo imprime la reacción de mercado a un catalizador (JSON para el caso) y sale")
     a = ap.parse_args()
+    if a.reaction:
+        t, day, timing = a.reaction
+        rows = read_csv(os.path.join(os.path.dirname(os.path.abspath(a.universe)), "data", t, "prices.csv"))
+        print(json.dumps(reaction(rows, day, timing), ensure_ascii=False))
+        return
     root = os.path.dirname(os.path.abspath(a.universe))
     uni = json.load(open(a.universe, encoding="utf-8"))
     tickers = [u["ticker"] for u in uni["tickers"] if u.get("status") != "excluido"]

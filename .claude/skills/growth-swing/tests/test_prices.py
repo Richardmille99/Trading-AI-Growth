@@ -5,7 +5,7 @@ import os, sys, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "scripts"))
-from prices import (adr_pct, candidates, cooled_leader, ema, metrics, percentile, read_csv, regime_proxy,  # noqa: E402
+from prices import (reaction, adr_pct, candidates, cooled_leader, ema, metrics, percentile, read_csv, regime_proxy,  # noqa: E402
                     rs_table, write_csv)
 
 
@@ -83,7 +83,10 @@ def test_candidates_and_regime():
     assert regime_proxy({"QQQ": dn, "IWM": dn})[0] == "risk_off"
     assert regime_proxy({"QQQ": up, "IWM": dn})[0] == "neutral"
     assert regime_proxy({"QQQ": up})[0] == "unknown"
-    print("candidates + regime ok")
+    rx = reaction(rows, rows[-2]["date"], "amc")
+    assert rx["gap_pct"] == 12.0 and rx["rvol"] == 5.0 and rx["reaction_date"] == "2099-01-01" and rx["day2_follow"] is None
+    assert reaction(rows, "2099-01-02", "amc") is None, "not traded yet"
+    print("candidates + regime + reaction ok")
 
 
 if __name__ == "__main__":
