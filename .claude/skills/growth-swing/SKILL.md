@@ -14,6 +14,7 @@ Archivos:
 - `references/swing.md` — régimen, setups, matriz de convicción, eventos y diario de calibración.
 - `references/schema.md` — campos del caso, markup y métricas.
 - `examples/EXMP_synthetic.json` — caso **sintético** completo; copia su forma, nunca sus cifras.
+- `scripts/prices.py` — precios diarios (Stooq → Yahoo), ADR%, EMAs, RS, «líder enfriado», candidatos de setup y proxy de régimen.
 - `scripts/xbrl.py` · `catalysts.py` · `fundamentals.py` · `compute.py` · `validate.py` · `render.py` · `rank.py` (ranking de un universo de casos) · `tests/test_engines.py`.
 - `assets/sector_profiles.json` · `assets/journal_template.csv` · `assets/report.css` · `assets/charts.js`.
 
@@ -43,12 +44,14 @@ Archivos:
    - Calcula sus métricas con el mismo método y la misma fecha de precio.
    - Sin datos de precio, `rs_3m` y `ev_sales` quedan `null` y la posición sale `unknown`.
 7. **Setup y régimen.**
+   - Precios: `python scripts/prices.py --universe <dir>/universe.json [--apply]`. Descarga 2 años de OHLCV de cada ticker y de los ETF (por defecto SMH, SOXX, QQQ, IWM) a `data/<T>/prices.csv` y escribe `data/prices_metrics.json`. Con `--apply` rellena en cada caso `setup.rs_1m/rs_3m/rs_6m` (percentil dentro del universo + ETF), `adr_pct`, `ema_stack`, `cooled_leader` (swing.md §6), `setup_candidates` y `market.price/price_date/regime` (proxy de tendencia de QQQ e IWM; sin amplitud). Nunca escribe `type`, `pivot` ni `stop`: los candidatos son propuestas; confírmalos con el gráfico y explica la elección en `setup.notes`.
+   - Funciones: `download`, `metrics` (ADR% 20, EMA 10/20/50, SMA 200, máximo y caída de 52 semanas, rentabilidad 1/3/6/12 meses), `rs_table`, `candidates` (EP, breakout_flag, exhaustion_watch), `cooled_leader`, `regime_proxy`, `apply_to_case`. Test: `python tests/test_prices.py`.
    - Con datos de precio: pivote, stop, ADR%, RS y EMAs.
    - Sin ellos: déjalos en `null`; el informe lo muestra y la convicción no puede ser Alta.
 8. **Construir y comprobar.**
    - `python scripts/validate.py case.json` debe dar OK; lee los avisos.
    - `python scripts/render.py case.json <TICKER>_swing.html`.
-   - Si tocas los scripts: `python tests/test_engines.py`.
+   - Si tocas los scripts: `python tests/test_engines.py` y `python tests/test_prices.py`.
 9. **Publicar.**
    - Carga la skill de diseño de artifacts y publica el HTML como artifact (icono `chart`).
    - Resume en una línea la convicción y lo que la limita.

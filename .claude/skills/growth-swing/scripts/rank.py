@@ -73,7 +73,7 @@ def rank(cases, universe):
             fund=m["fund_score"], rev_yoy=m["rev_yoy"], accel_pp=m["accel_pp"], flags=m["flags_on"],
             cat=(f'{best["grade"]} {best["score"]} ({best["id"]})' if best else ""), supply=R["supply"]["total"],
             value_pct=m["value_pct"], ev_sales=m["ev_sales"], group=R["group"],
-            cooled=c.get("setup", {}).get("cooled_leader", ""), earnings=(f'{nxt["date"]} · {nxt["sessions"]} ses.' if nxt else ""),
+            cooled=c.get("setup", {}).get("cooled_leader") or "", earnings=(f'{nxt["date"]} · {nxt["sessions"]} ses.' if nxt else ""),
             report=f'reports/{t}_swing.html', trace=" | ".join(R["trace"])))
     rows.sort(key=lambda r: (-STEP.index(r["conviction"]), -r["negocio"]))
     for i, r in enumerate(rows, 1):
