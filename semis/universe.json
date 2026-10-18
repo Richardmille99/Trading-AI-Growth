@@ -52,7 +52,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "abril/mayo",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Parte relevante de ingresos son cables activos (AEC), producto de sistema; concentración en pocos hyperscalers",
    "purity_pct": null,
    "purity_evidence": "Los AEC (cables activos, producto de sistema) explican > 90% del aumento interanual de ingresos del 1T FY27 (10-Q). El % del total no se publica. Desde mayo-2026 incluye fotónica de silicio (DustPhotonics)"

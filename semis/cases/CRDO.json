@@ -16,7 +16,7 @@
   "descriptor": "SerDes, DSP y cables activos (AEC) para centros de datos de IA, y desde mayo-2026 fotónica de silicio (DustPhotonics). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001628280-26-066139",
   "last_filing_seen_date": "2026-10-16",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 169.6999969482422,
@@ -309,8 +309,8 @@
     ]
    },
    {
-    "name": "Peso de los AEC (cables activos)",
-    "value": "> 90% del aumento interanual de ingresos; % del total [VERIFY: no publicado]",
+    "name": "Peso de los AEC",
+    "value": "> 90% del aumento interanual de ingresos; % del total no publicado",
     "prior": "—",
     "src": [
      [
@@ -342,8 +342,9 @@
     ]
    }
   ],
-  "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_adj_pct": 0.2296,
+  "nongaap_recurring_items": false,
+  "nongaap_note": "Ajustes del 1T FY27: 23,0% de ingresos (SBC $88,0M, amortización $11,6M, adquisición e integración $10,4M). Las partidas no recurrentes de los últimos trimestres (adquisición $10,4M y $9,3M, deterioro $1,5M) suman el 1,3% de ingresos: < 2%."
  },
  "catalysts": [
   {
@@ -351,22 +352,30 @@
    "type": "earnings",
    "date": "2026-09-01",
    "time_et": "after-hours",
-   "headline": "Resultados 1T FY27: ingresos $479,0M (+114,7%), guía 2T $525–535M",
+   "headline": "Resultados 1T FY27: ingresos $479,0M (+115%), BPA non-GAAP $1,20 frente a $1,17; guía 2T $525–535M frente a $514,7M de consenso",
    "sources": [
     [
      "EX-99.1 8-K 1-sep-2026",
      "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm"
+    ],
+    [
+     "TIKR: consenso de la guía 2T $514,7M; la acción cayó hasta un 17,9%",
+     "https://www.tikr.com/de/blog/credo-technology-crdo-stock-drops-q1-fiscal-2027-earnings-beat"
+    ],
+    [
+     "Zacks: consenso BPA $1,17; ingresos +0,69% sobre el consenso",
+     "https://www.zacks.com/stock/news/2983426/"
     ]
    ],
    "rev_growth_yoy": 1.1472829643974647,
    "rev_growth_yoy_prev": 1.5702279076606382,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": 0.7,
+   "eps_surprise_pct": 2.6,
+   "guide_raise": true,
+   "guide_change_pct": 3.0,
    "gm_change_bp": -288,
    "nonrecurring_in_beat": false,
-   "note": "Primer trimestre con DustPhotonics (compra cerrada el 28-may-2026). [VERIFY: aportación de DustPhotonics al crecimiento; sin consenso]",
+   "note": "El crecimiento sigue siendo muy alto, pero desacelera desde +157% y el margen bruto GAAP baja a 64,5% (68,2% en el 4T FY26) por la amortización de DustPhotonics y la mezcla de AEC. Octavo beat seguido; al día siguiente, gap −8,7%.",
    "gap_pct": -8.71,
    "rvol": 4.72,
    "close_in_range": 0.11,
@@ -375,36 +384,180 @@
    "estimate_revisions": "unknown",
    "reaction_date": "2026-09-02",
    "reaction_close_chg_pct": -20.04
+  },
+  {
+   "id": "pre_q3fy26",
+   "type": "earnings",
+   "date": "2026-02-09",
+   "time_et": "premarket",
+   "headline": "Preanuncio 3T FY26: ingresos de $404–408M frente a una guía de $335–345M; eleva la guía del 4T (crecimiento secuencial de un dígito medio, > 200% en el año)",
+   "sources": [
+    [
+     "EX-99.1 8-K 9-feb-2026",
+     "https://www.sec.gov/Archives/edgar/data/1807794/000162828026006370/feb20268-kex991.htm"
+    ]
+   ],
+   "rev_growth_yoy": 2.0148590391253465,
+   "rev_growth_yoy_prev": 2.7208401588138935,
+   "rev_surprise_pct": 19.4,
+   "eps_surprise_pct": null,
+   "guide_raise": true,
+   "guide_change_pct": null,
+   "gm_change_bp": 487,
+   "nonrecurring_in_beat": false,
+   "note": "rev_surprise frente al punto medio de la guía previa ($340M), como aproximación del consenso [VERIFY].",
+   "gap_pct": 1.8,
+   "rvol": 1.42,
+   "close_in_range": 0.93,
+   "day2_follow": true,
+   "dollar_volume": 1118551250,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-02-09",
+   "reaction_close_chg_pct": 10.78
+  },
+  {
+   "id": "q4fy26",
+   "type": "earnings",
+   "date": "2026-06-01",
+   "time_et": "after-hours",
+   "headline": "Resultados 4T FY26: $437,0M (+157%)",
+   "sources": [
+    [
+     "8-K 1-jun-2026",
+     "https://www.sec.gov/Archives/edgar/data/1807794/000162828026039474/crdo-20260528.htm"
+    ]
+   ],
+   "rev_growth_yoy": 1.5702279076606382,
+   "rev_growth_yoy_prev": 2.0148590391253465,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 105,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": -3.12,
+   "rvol": 2.36,
+   "close_in_range": 0.52,
+   "day2_follow": false,
+   "dollar_volume": 3720746200,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-06-02",
+   "reaction_close_chg_pct": 1.28
+  },
+  {
+   "id": "dust",
+   "type": "mna",
+   "date": "2026-04-13",
+   "time_et": null,
+   "headline": "Compra de DustPhotonics (fotónica de silicio) por $1.300M: $769,6M en efectivo, $169,1M en acciones y $310M contingentes (sobre todo en acciones)",
+   "sources": [
+    [
+     "8-K 13-abr-2026 (Item 3.02)",
+     "https://www.sec.gov/Archives/edgar/data/1807794/000162828026024892/crdo-20260413.htm"
+    ]
+   ],
+   "counterparty": "DustPhotonics Ltd.",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "definitive",
+   "value_firm": null,
+   "value_ceiling": null,
+   "duration_years": null,
+   "economics_disclosed": true,
+   "recurring": false,
+   "issuer_history": "unknown",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Cerrada el 28-may-2026. Según el 10-Q, su efecto en resultados no es material (no hay pro forma): el crecimiento del 1T FY27 es orgánico."
+  },
+  {
+   "id": "atm",
+   "type": "financing",
+   "date": "2025-10-06",
+   "headline": "ATM de $750M con Goldman Sachs (completado en FY26: 4,82M acciones, $736,3M netos)",
+   "sources": [
+    [
+     "8-K 7-oct-2025 (Item 8.01)",
+     "https://www.sec.gov/Archives/edgar/data/1807794/000162828025044360/crdo-20251006.htm"
+    ],
+    [
+     "10-K FY26 (patrimonio)",
+     "https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm"
+    ]
+   ],
+   "financing_type": "atm",
+   "price_vs_market_pct": null,
+   "warrants": false,
+   "note": "Agotado: no queda capacidad. Precio medio ≈ $153 por acción. Financió la compra de DustPhotonics."
   }
  ],
  "supply": [
   {
-   "id": "dust",
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $442.9M; 8 marcados",
+   "shares": 2558119.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "$442,9M vendidos en 12 meses: CTO Chi Fung Cheng $203M (4,8% de su posición en el trimestre máximo), COO Yat Tung Lam $158M (14%), CEO Bill Brennan $57M (7%). La mayoría con plan 10b5-1. Cheng Chi Fung (consejero, Chief Technology Of) $202.9M, máx. 5% en 2025-T4, 2 ventas sin 10b5-1; Lam Yat Tung (consejero, Chief Operating Off) $157.1M, máx. 14% en 2025-T4; Brennan William Joseph (consejero, Pres & Chief Execut) $56.0M, máx. 7% en 2026-T1, 28 ventas sin 10b5-1; Laufman James (Chief Legal Officer, Secretary) $7.5M, máx. 10% en 2026-T2, 6 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "atm",
+   "kind": "atm",
+   "name": "ATM de $750M (agotado en FY26)",
+   "shares": 4820000,
+   "capacity_usd": 0,
+   "price_basis": 152.8,
+   "gate": "dated",
+   "date": null,
+   "notes": "Sin capacidad restante; precio medio ≈ $153 (nivel de oferta histórico).",
+   "src": [
+    [
+     "10-K FY26",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "dust_ms",
    "kind": "pipe_resale",
-   "name": "Acciones emitidas por la compra de DustPhotonics (≈ 0,92M)",
+   "name": "Acciones de DustPhotonics (≈ 0,92M) y contingente de $300M en acciones",
    "shares": 920000,
    "capacity_usd": null,
    "price_basis": null,
    "gate": "gated",
    "date": null,
-   "notes": "Contraprestación: $769,6M en efectivo + $169,1M en acciones + $310M contingentes. [VERIFY: forma de pago del contingente y restricciones de reventa — Fase 2]",
+   "notes": "Contingente: $10M de pasivo + $300M en patrimonio (acciones si se cumplen hitos) ≈ 1,8M acciones a precio actual [VERIFY: hitos y fechas].",
    "src": [
     [
-     "8-K 13-abr-2026 (Item 3.02)",
-     "https://www.sec.gov/Archives/edgar/data/1807794/000162828026024892/crdo-20260413.htm"
-    ],
-    [
      "10-Q 1T FY27, nota 5",
-     "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm"
+     ""
     ]
    ]
   }
  ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 171000000.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "10-K: $30.000M de no afiliados a 31-oct-2025 ÷ $187,62 = 159,9M (≈ 91%); aplicado a 188,0M actuales ≈ 171M [VERIFY]"
  },
  "peers": [
   {
@@ -500,7 +653,7 @@
   "type": null,
   "pivot": null,
   "stop": null,
-  "notes": null,
+  "notes": "Sin setup: {m.price:px}, bajo la EMA 50 (≈ $202) y la SMA 200 (≈ $180).",
   "rs_1m": 100.0,
   "rs_3m": 8.333333333333332,
   "rs_6m": 18.181818181818183,
@@ -518,12 +671,12 @@
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo de semis."
+  "verdict": "+115% pero desacelerando; el mercado vendió el beat. Inventario y concentración pesan.",
+  "setup": "Bajo la EMA 50 y la SMA 200; sin setup.",
+  "catalyst": "1T FY27: beat pequeño y desaceleración de −42 pp.",
+  "quality": "Inventario > ventas; dilución del 5,3% (ATM agotado).",
+  "supply": "ATM agotado; insiders $442,9M sobre todo con 10b5-1.",
+  "group": "RS 3 meses percentil 8."
  },
  "snapshot": [
   [
@@ -560,16 +713,34 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "narrative_flags": [
+   "Concentración extrema: los dos mayores clientes directos son el 71% de los ingresos y cuatro clientes finales superan el 10%.",
+   "El inventario crece mucho más que las ventas (+168% frente a +115%): preparación de la rampa de AEC o riesgo de exceso."
+  ],
+  "catalyst_read": "El catalizador principal (1T FY27) puntúa {m.cat_q1fy27_score:sc}: crecimiento enorme, pero **desacelera** {m.accel_pp:pp}, con beats pequeños y margen a la baja. El mercado lo vendió (−18% en el día). El preanuncio de febrero (+19% sobre la guía) fue el catalizador de verdad del año.",
   "financials_note": "Trimestres de XBRL contrastados con el EX-99.1 del 1T FY27. La caja bajó de $1.443M a $764M por la compra de DustPhotonics ($1.300M en total). El crecimiento del 1T FY27 incluye esa compra: [VERIFY] su aportación.",
-  "quality": [],
-  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "quality": [
+   "**INVENTARIO > VENTAS** (+54 pp) y **DILUCIÓN** (+5,3% de acciones diluidas por el ATM y la compra).",
+   "Non-GAAP sin partidas repetidas materiales; SBC del {m.sbc_pct:pctf} de ingresos TTM.",
+   "Caja de $764M tras pagar $770M por DustPhotonics; el ATM de $750M ya está agotado."
+  ],
+  "supply_read": "Sin ATM vivo (agotado en FY26 a ≈ $153). Las ventas de insiders son grandes ($442,9M), pero sobre todo con 10b5-1. Contingente de DustPhotonics en acciones (≈ 1,8M). Shelf: [VERIFY].",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; sobre la guía anualizada del 2T (≈ $2.120M), ≈ 15×. DCF inverso: {m.implied_g:pctf} anual durante 5 años."
+  ],
+  "group_read": "RS a 3 meses en percentil 8 tras la caída de septiembre; fundamentales en el percentil {m.fund_pct:sc}.",
+  "risks": [
+   "Desaceleración desde crecimientos de tres dígitos.",
+   "Concentración en 2–4 hyperscalers.",
+   "Competencia en AEC y paso a la óptica coempaquetada."
+  ],
+  "plan": [
+   "Resultados del 2T FY27 hacia el 1-dic [VERIFY].",
+   "**EP A/B:** ingresos ≥ $557M (+5% sobre el techo de la guía), guía del 3T con crecimiento secuencial ≥ 10% y margen bruto non-GAAP ≥ 68%.",
+   "**D:** ingresos dentro del rango y guía de un dígito: confirma la desaceleración.",
+   "Técnica: bajo la EMA 50 (≈ $202) y la SMA 200 (≈ $180), −45% desde máximos. Sin setup."
+  ],
+  "verdict": "Crecimiento real pero que desacelera, con inventario disparado y concentración extrema. Sin setup y con la RS rota: esperar a diciembre."
  },
  "sources": [
   [
@@ -577,12 +748,40 @@
    "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm"
   ],
   [
+   "TIKR: consenso de la guía 2T $514,7M; la acción cayó hasta un 17,9%",
+   "https://www.tikr.com/de/blog/credo-technology-crdo-stock-drops-q1-fiscal-2027-earnings-beat"
+  ],
+  [
+   "Zacks: consenso BPA $1,17; ingresos +0,69% sobre el consenso",
+   "https://www.zacks.com/stock/news/2983426/"
+  ],
+  [
+   "EX-99.1 8-K 9-feb-2026",
+   "https://www.sec.gov/Archives/edgar/data/1807794/000162828026006370/feb20268-kex991.htm"
+  ],
+  [
+   "8-K 1-jun-2026",
+   "https://www.sec.gov/Archives/edgar/data/1807794/000162828026039474/crdo-20260528.htm"
+  ],
+  [
    "8-K 13-abr-2026 (Item 3.02)",
    "https://www.sec.gov/Archives/edgar/data/1807794/000162828026024892/crdo-20260413.htm"
   ],
   [
-   "10-Q 1T FY27, nota 5",
+   "8-K 7-oct-2025 (Item 8.01)",
+   "https://www.sec.gov/Archives/edgar/data/1807794/000162828025044360/crdo-20251006.htm"
+  ],
+  [
+   "10-K FY26 (patrimonio)",
+   "https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm"
+  ],
+  [
+   "10-Q 1T FY27",
    "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm"
+  ],
+  [
+   "insiders.json",
+   ""
   ]
  ]
 }
