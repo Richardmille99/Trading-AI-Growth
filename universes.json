@@ -1,0 +1,19 @@
+{
+ "_doc": "Universos que recorre /ciclo (.claude/commands/ciclo.md) y que publica sitepage.py. dir = carpeta con universe.json; title = título de rank.py; cycle_notes = particularidades de carga que el ciclo debe respetar.",
+ "universes": [
+  {
+   "dir": "semis",
+   "name": "Semis y adyacentes de IA",
+   "title": "Semis · ranking",
+   "active": true,
+   "cycle_notes": "TSEM y ASX son emisores extranjeros: trimestres desde el 6-K (TSEM US GAAP; ASX Taiwan-IFRS en US$ a tipo fijo, ADS = 2 acciones; ver notas.md). ASX publica ventas mensuales por 6-K. SWKS: el caso usa quarters_proforma.json (SWKS + Qorvo); desde el 1T FY27 los trimestres ya son combinados. QRVO está excluido: no lo toques."
+  },
+  {
+   "dir": "memoria",
+   "name": "Memoria: DRAM, HBM, NAND y módulos",
+   "title": "Memoria · ranking",
+   "active": true,
+   "cycle_notes": "Negocio cíclico de commodity: lee siempre bits, ASP por bit, días de inventario y capex de los KPIs junto al crecimiento. SKHY (SK hynix, ADR) y SIMO son emisores extranjeros: trimestres desde el 6-K (ver notas.md de cada uno)."
+  }
+ ]
+}

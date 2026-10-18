@@ -18,6 +18,8 @@ semis/
   journal.csv            diario de señales (cabeceras de assets/journal_template.csv)
 ```
 
+Universos activos en `universes.json` (raíz): `semis/`, `memoria/`. Amplitud de mercado común en `market/` (`market.py`). Ciclo diario: `/ciclo` (todos) o `/semis-ciclo` (solo semis); registro en `LOG.md`. Alta de un ticker: añádelo a `<univ>/universe.json` con status `pendiente` y ejecuta `new_case.py`.
+
 ## Reglas de trabajo
 - Red: SEC exige cabecera `User-Agent` con nombre y email → usa la variable de entorno `SEC_USER_AGENT`. Máximo ~5 peticiones/s y en serie si hay 503.
 - Cada cifra lleva fuente (`[[etiqueta|url]]`) o `[VERIFY: motivo]`. No inventes precios, consenso ni pares.

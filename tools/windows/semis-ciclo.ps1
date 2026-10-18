@@ -1,8 +1,9 @@
-# Lanzador del ciclo /semis-ciclo para el Programador de tareas de Windows.
+# Lanzador del ciclo /ciclo (todos los universos de universes.json) para el Programador de tareas de Windows.
+# Con -Comando semis-ciclo ejecuta solo el universo semis.
 # Copia este fichero FUERA del repo (p. ej. C:\Users\<tú>\semis-ciclo\) y ajusta $Repo y $LogDir.
 # El log también va fuera del repo: si quedara dentro como fichero sin commit, el paso 0.1 del ciclo pararía.
 #
-# Antes de registrarla: ejecuta /semis-ciclo una vez a mano desde Cursor y revisa el diff y semis/LOG.md;
+# Antes de registrarla: ejecuta /ciclo una vez a mano desde Cursor y revisa el diff y LOG.md;
 # así compruebas también que `git push` tiene credenciales guardadas.
 #
 # Registro de la tarea (PowerShell, una vez; martes a sábado a las 8:00 y, si el equipo estaba apagado,
@@ -12,10 +13,12 @@
 #   $s = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 3)
 #   Register-ScheduledTask -TaskName "semis-ciclo" -Action $a -Trigger $t -Settings $s
 
+param([string]$Comando = "ciclo")
+
 $Repo   = "C:\ruta\a\Trading-AI-Growth"
 $LogDir = Join-Path $PSScriptRoot "logs"
 New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
-$Log = Join-Path $LogDir ("semis-ciclo_{0:yyyy-MM-dd_HHmm}.log" -f (Get-Date))
+$Log = Join-Path $LogDir ("{0}_{1:yyyy-MM-dd_HHmm}.log" -f $Comando, (Get-Date))
 
 if (-not $env:SEC_USER_AGENT) { "SEC_USER_AGENT no definida" | Out-File $Log -Encoding utf8; exit 1 }
 
@@ -36,7 +39,10 @@ $env:GCM_INTERACTIVE = "never"
 $OutputEncoding           = [Text.UTF8Encoding]::new($false)
 
 Set-Location $Repo
-$prompt = Get-Content -Raw -Encoding UTF8 ".claude\commands\semis-ciclo.md"
+# Siempre ciclo.md; $ARGUMENTS (los universos) se sustituye aquí porque claude -p no expande comandos.
+$prompt = Get-Content -Raw -Encoding UTF8 ".claude\commands\ciclo.md"
+$Univ = if ($Comando -eq "semis-ciclo") { "semis" } else { "todos los activos" }
+$prompt = $prompt -replace '\$ARGUMENTS', $Univ
 $prompt | & $Claude -p --permission-mode acceptEdits `
   --allowedTools "Bash(py:*)" "Bash(python3:*)" "Bash(git:*)" "Bash(curl:*)" "WebSearch" "WebFetch" `
   *>&1 | Out-File $Log -Encoding utf8
