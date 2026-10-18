@@ -1,9 +1,11 @@
 Ejecuta el ciclo automático del universo de semiconductores. Trabaja sin pedirme confirmación salvo en los casos de PARADA. Idioma: español. Es investigación, no consejo de inversión: no operes, no conectes con brókers y no escribas órdenes.
 
+**Intérprete de Python:** donde este documento dice `python3`, usa el que exista en esta máquina: `python3` en Mac/Linux; en Windows, `py -3` (no uses `python` a secas: puede apuntar a otro entorno virtual). Los scripts solo usan la librería estándar.
+
 Lee primero CLAUDE.md, .claude/skills/growth-swing/SKILL.md (y sus references cuando las necesites), semis/universe.json y semis/resumen.md. Hoy = fecha del sistema. Rutas de scripts: S=.claude/skills/growth-swing/scripts.
 
 ## 0. Preparación
-1. `git pull --ff-only`. Si hay cambios locales sin commit o conflicto → PARADA.
+1. `git pull --ff-only`. Si hay cambios locales sin commit o conflicto → PARADA. (Los logs del lanzador automático viven fuera del repo; `*.log` está en `.gitignore`.)
 2. Comprueba que `$SEC_USER_AGENT` existe y tiene nombre y email. Si no → PARADA.
 3. Pasa los tests: `python3 .claude/skills/growth-swing/tests/test_engines.py`, `test_prices.py`, `test_insiders.py`, `test_forensic.py`. Si alguno falla → PARADA.
 
