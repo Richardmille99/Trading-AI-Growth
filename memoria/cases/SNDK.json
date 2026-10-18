@@ -1,0 +1,596 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "SNDK",
+  "issuer": "Sandisk",
+  "cik": "0002023554",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_memory",
+  "theme": "Memoria · ciclo de IA",
+  "group": "Fabricantes de NAND flash y SSD",
+  "subgroup": "nand",
+  "synthetic": false,
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Fabricante de NAND flash y SSD (fabricación en joint venture con Kioxia), escindido de Western Digital en febrero de 2025; centro de datos, edge y consumo. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001308179-26-000425",
+  "last_filing_seen_date": "2026-10-06",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 1299.300048828125,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "sec-xbrl-companyfacts",
+  "shares_out": 146419001,
+  "shares_out_date": "2026-08-07",
+  "shares_out_note": "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)",
+  "quarters": [
+   {
+    "period": "dic-23",
+    "end": "2023-12-29",
+    "revenue": 1665000000,
+    "gross_profit": 161000000,
+    "op_income": -245000000,
+    "net_income": -301000000,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": 37000000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null
+   },
+   {
+    "period": "mar-24",
+    "end": "2024-03-29",
+    "revenue": 1705000000,
+    "gross_profit": 463000000,
+    "op_income": 65000000,
+    "net_income": 27000000,
+    "cfo": -12000000,
+    "capex": 29000000,
+    "capitalized_sw": null,
+    "sbc": 38000000,
+    "diluted_shares": 145000000,
+    "basic_shares": 145000000,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null
+   },
+   {
+    "period": "jun-24",
+    "end": "2024-06-28",
+    "revenue": 1760000000,
+    "gross_profit": 636000000,
+    "op_income": 199000000,
+    "net_income": 120000000,
+    "cfo": -130000000,
+    "capex": 38000000,
+    "capitalized_sw": null,
+    "sbc": 34000000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 935000000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 1955000000,
+    "cash": 328000000,
+    "debt": 0,
+    "total_assets": 13506000000
+   },
+   {
+    "period": "sep-24",
+    "end": "2024-09-27",
+    "revenue": 1883000000,
+    "gross_profit": 726000000,
+    "op_income": 291000000,
+    "net_income": 211000000,
+    "cfo": -131000000,
+    "capex": 67000000,
+    "capitalized_sw": null,
+    "sbc": 41000000,
+    "diluted_shares": 145000000,
+    "basic_shares": 145000000,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-27",
+    "revenue": 1876000000,
+    "gross_profit": 606000000,
+    "op_income": 195000000,
+    "net_income": 104000000,
+    "cfo": 95000000,
+    "capex": 48000000,
+    "capitalized_sw": null,
+    "sbc": 48000000,
+    "diluted_shares": 145000000,
+    "basic_shares": 145000000,
+    "ar": 904000000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 2172000000,
+    "cash": 804000000,
+    "debt": null,
+    "total_assets": 14234000000
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-28",
+    "revenue": 1695000000,
+    "gross_profit": 382000000,
+    "op_income": -1881000000,
+    "net_income": -1933000000,
+    "cfo": 26000000,
+    "capex": 44000000,
+    "capitalized_sw": null,
+    "sbc": 44000000,
+    "diluted_shares": 145000000,
+    "basic_shares": 145000000,
+    "ar": 979000000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 2160000000,
+    "cash": 1507000000,
+    "debt": 1947000000,
+    "total_assets": 12960000000
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-27",
+    "revenue": 1901000000,
+    "gross_profit": 498000000,
+    "op_income": 18000000,
+    "net_income": -23000000,
+    "cfo": 94000000,
+    "capex": 45000000,
+    "capitalized_sw": null,
+    "sbc": 49000000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 1068000000,
+    "deferred_rev": 25000000,
+    "rpo": null,
+    "inventory": 2079000000,
+    "cash": 1481000000,
+    "debt": 1849000000,
+    "total_assets": 12985000000
+   },
+   {
+    "period": "oct-25",
+    "end": "2025-10-03",
+    "revenue": 2308000000,
+    "gross_profit": 687000000,
+    "op_income": 176000000,
+    "net_income": 112000000,
+    "cfo": 488000000,
+    "capex": 50000000,
+    "capitalized_sw": null,
+    "sbc": 53000000,
+    "diluted_shares": 149000000,
+    "basic_shares": 146000000,
+    "ar": 1193000000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 1907000000,
+    "cash": 1442000000,
+    "debt": 1351000000,
+    "total_assets": 12749000000
+   },
+   {
+    "period": "ene-26",
+    "end": "2026-01-02",
+    "revenue": 3025000000,
+    "gross_profit": 1541000000,
+    "op_income": 1065000000,
+    "net_income": 803000000,
+    "cfo": 1019000000,
+    "capex": 39000000,
+    "capitalized_sw": null,
+    "sbc": 58000000,
+    "diluted_shares": 156000000,
+    "basic_shares": 147000000,
+    "ar": 1239000000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 1970000000,
+    "cash": 1539000000,
+    "debt": 603000000,
+    "total_assets": 12998000000
+   },
+   {
+    "period": "abr-26",
+    "end": "2026-04-03",
+    "revenue": 5950000000,
+    "gross_profit": 4662000000,
+    "op_income": 4111000000,
+    "net_income": 3615000000,
+    "cfo": 3038000000,
+    "capex": 45000000,
+    "capitalized_sw": null,
+    "sbc": 54000000,
+    "diluted_shares": 157000000,
+    "basic_shares": 148000000,
+    "ar": 2726000000,
+    "deferred_rev": 323000000,
+    "rpo": 41600000000,
+    "inventory": 2238000000,
+    "cash": 3735000000,
+    "debt": 0,
+    "total_assets": 17075000000
+   },
+   {
+    "period": "jul-26",
+    "end": "2026-07-03",
+    "revenue": 8965000000,
+    "gross_profit": 7582000000,
+    "op_income": 7037000000,
+    "net_income": 6903000000,
+    "cfo": 7126000000,
+    "capex": 43000000,
+    "capitalized_sw": null,
+    "sbc": 67000000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 4708000000,
+    "deferred_rev": 849000000,
+    "rpo": 59800000000,
+    "inventory": 2698000000,
+    "cash": 4762000000,
+    "debt": 0,
+    "total_assets": 22507000000
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Mercados finales (4T FY26)",
+    "value": "Centro de datos $2.977M (33%; +103% secuencial) · Edge $5.432M (+48%) · Consumo $556M (−32%)",
+    "prior": "Centro de datos $213M · Edge $1.103M · Consumo $585M (4T FY25)",
+    "src": [
+     [
+      "EX-99.1 8-K 5-ago-2026",
+      "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Origen del crecimiento secuencial",
+    "value": "≈ 1/3 más volumen y 2/3 más precio",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 5-ago-2026",
+      "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 1T FY27",
+    "value": "Ingresos $10.300–10.800M; margen bruto 83,0–85,0% (ajustado); BPA ajustado $44,00–46,00; ≈ 155M acciones",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 5-ago-2026",
+      "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Acuerdos «New Business Model» (NBM)",
+    "value": "10 acuerdos firmados (5 en abril + 3 con clientes nuevos y 2 ampliaciones) [VERIFY: duración, volúmenes y prepagos; contrapartes sin nombre]",
+    "prior": "5 (abril de 2026)",
+    "src": [
+     [
+      "EX-99.1 8-K 5-ago-2026",
+      "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Recompras",
+    "value": "Nuevo programa de $14.000M; $15.500M de autorización restante",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 5-ago-2026",
+      "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Inversión en Nanya",
+    "value": "$1.000M por ≈ 139M acciones (3,9%), con 15% de descuento y lock-up de 3 años",
+    "prior": "—",
+    "src": [
+     [
+      "8-K 25-mar-2026 (Item 1.01)",
+      "https://www.sec.gov/Archives/edgar/data/2023554/000119312526122705/d136592d8k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Inventario (días, 4T FY26)",
+    "value": "≈ 178 días",
+    "prior": "—",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q4fy26",
+   "type": "earnings",
+   "date": "2026-08-05",
+   "time_et": "after-hours",
+   "headline": "Resultados 4T FY26: ingresos $8.965M (+372%; +51% secuencial) frente a ≈ $8.562M de consenso; BPA ajustado $39,25 frente a $35,14; guía 1T FY27 $10.300–10.800M",
+   "sources": [
+    [
+     "EX-99.1 8-K 5-ago-2026",
+     "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+    ],
+    [
+     "Chartmill: consenso ingresos ≈ $8.562M, BPA ≈ $35,14",
+     "https://www.chartmill.com/news/SNDK/Chartmill-52845-SanDisk-NASDAQSNDK-Beats-Q4-Estimates-But-Shares-Slide-After-Hours"
+    ],
+    [
+     "Earnings Whispers: consenso $33,28 y $8.300M; consenso 1T FY27 $44,21 y $10.560M",
+     "https://www.earningswhispers.com/epsdetails/SNDK"
+    ],
+    [
+     "Rivkin: consenso $8.480M y $34,96",
+     "https://rivkin.com.au/?p=37238"
+    ]
+   ],
+   "rev_growth_yoy": 3.7159389794844815,
+   "rev_growth_yoy_prev": 2.510324483775811,
+   "rev_surprise_pct": 4.7,
+   "eps_surprise_pct": 11.7,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 5838,
+   "nonrecurring_in_beat": false,
+   "note": "El consenso discrepa entre fuentes ($8.300–8.562M de ingresos; $33,28–35,14 de BPA): se usa el de Chartmill, el más alto, para no inflar la sorpresa [VERIFY]. Sin consenso previo para la guía del 1T FY27 (después del informe, Earnings Whispers da $10.560M, en el punto medio de la guía). El crecimiento secuencial fue ≈ 1/3 volumen y 2/3 precio, según la compañía. El neto GAAP ($6.903M) supera al ajustado ($6.162M): el beat se mide con el ajustado.",
+   "gap_pct": -13.12,
+   "rvol": 1.41,
+   "close_in_range": 0.59,
+   "day2_follow": false,
+   "dollar_volume": 24116531544,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-08-06",
+   "reaction_close_chg_pct": -6.81
+  }
+ ],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $131,6M; 5 marcados",
+   "shares": 85395.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Goeckeler David (consejero, Chairman & CEO) $105,0M, máx. 15% en 2026-T3; Ilkbahar Alper (EVP & Chief Technology Officer) $11,4M, máx. 10% en 2026-T3, 3 ventas sin 10b5-1; Shek Bernard (Chief Legal Officer and Secty) $9,0M, máx. 14% en 2026-T3; Pokorny Michael (VP, Chief Accounting Officer) $3,5M, máx. 10% en 2026-T2, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 147144316.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-08-17): $40.500,0M de no afiliados a 2026-01-02 ÷ cierre de $275,24 = 147,1M acciones [VERIFY: estimación; no recoge cambios posteriores]"
+ },
+ "peers": [
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "rev_yoy": 3.7926646045072916,
+   "accel_pp": 33.55094598991846,
+   "gm": 0.8071598041865633,
+   "gm_rel": 0.4071598041865633,
+   "rule40": 300.5977561745952,
+   "ev_sales": 7.160540033779174,
+   "rs_3m": 77.77777777777779
+  },
+  {
+   "ticker": "PENG",
+   "name": "Penguin Solutions",
+   "rev_yoy": 0.6769698332751346,
+   "accel_pp": 20.060430163452292,
+   "gm": 0.2766005493604271,
+   "gm_rel": -0.2233994506395729,
+   "rule40": 17.054006408131055,
+   "ev_sales": 1.771733601030944,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "RMBS",
+   "name": "Rambus",
+   "rev_yoy": 0.2042634240951402,
+   "accel_pp": 12.311212567436547,
+   "gm": 0.7946560434518749,
+   "gm_rel": 0.19465604345187493,
+   "rule40": 56.77566114914798,
+   "ev_sales": 11.421349728822433,
+   "rs_3m": 11.11111111111111
+  },
+  {
+   "ticker": "SIMO",
+   "name": "Silicon Motion Technology",
+   "rev_yoy": 1.2700440417767713,
+   "accel_pp": 21.52606287599297,
+   "gm": 0.4886941348969142,
+   "gm_rel": -0.11130586510308577,
+   "rule40": 61.70182948827737,
+   "ev_sales": 5.4428355168131946,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK hynix",
+   "rev_yoy": 2.56778145245594,
+   "accel_pp": 58.71211696555396,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 22.22222222222222
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 11.11111111111111,
+  "rs_3m": 44.44444444444444,
+  "rs_6m": 62.5,
+  "adr_pct": 5.175120475930117,
+  "ema_stack": false,
+  "cooled_leader": "cooled_leader",
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-11-05",
+   "kind": "earnings",
+   "text": "Resultados 1T FY27 [VERIFY: fecha estimada; el 1T FY26 se publicó el 6-nov-2025]",
+   "src": [
+    [
+     "8-K 6-nov-2025 (Item 2.02)",
+     "https://www.sec.gov/Archives/edgar/data/2023554/000162828025050180/sndk-20251106.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "+372% y margen del 85%, pero el mercado vendió el informe: líder enfriado.",
+  "setup": "−45% desde máximos; sin setup.",
+  "catalyst": "4T FY26: beat; hueco del −13%.",
+  "quality": "Sin banderas; márgenes de pico.",
+  "supply": "WDC ya vendió su participación; recompras de $15.500M.",
+  "group": "Líder enfriado del universo."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Fabricante de NAND flash y SSD (fabricación en joint venture con Kioxia), escindido de Western Digital en febrero de 2025; centro de datos, edge y consumo"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Fabricantes de NAND flash y SSD · puro"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "Los acuerdos NBM no tienen contraparte, volumen ni importe publicados: son una señal de demanda, no cartera verificable.",
+   "El 2/3 del crecimiento secuencial es precio: el NAND es aún más cíclico que la DRAM."
+  ],
+  "catalyst_read": "El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: beat de ingresos y de BPA con aceleración {m.accel_pp:pp}, pero el mercado lo vendió (hueco del −13%). Sin consenso previo para la guía, no se puntúa la sorpresa de guía.",
+  "financials_note": "Trimestres de XBRL (companyfacts) hasta el 4T FY26 (cerrado el 3-jul-2026). Algunos flujos y saldos de 2023–2024 faltan (periodo previo a la escisión de Western Digital, feb-2025). El 1T FY26 (oct-25) tuvo 14 semanas.",
+  "quality": [
+   "Sin banderas automáticas; FCF TTM alto con capex bajo (la capacidad es de la joint venture con Kioxia).",
+   "Márgenes de pico de ciclo (84,6% en el 4T): el objetivo del perfil (40%) no dice nada de su sostenibilidad."
+  ],
+  "supply_read": "Western Digital vendió en febrero de 2026 las 7,5M acciones que retenía de la escisión (S-3ASR y 424B7): sale ese exceso de papel. Recompras de $15.500M disponibles. Insiders: ver la fila de oferta.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; con la guía del 1T FY27 anualizada (≈ $42.200M) ≈ 4–5×. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "Es el «líder enfriado» del universo: +800% en 12 meses y −45% desde el máximo con los fundamentales intactos.",
+  "risks": [
+   "Precio del NAND: dos tercios del crecimiento secuencial vienen del precio.",
+   "Capacidad nueva de NAND (Kioxia, Samsung, SK hynix, YMTC) en 2027.",
+   "Dependencia de la joint venture con Kioxia para la fabricación."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 hacia el 5-nov [VERIFY].",
+   "**EP A/B si:** ingresos ≥ $11.090M (+5% sobre el consenso de $10.560M), margen bruto ≥ 85% y guía del 2T FY27 ≥ +5% sobre el consenso.",
+   "**D si:** ingresos dentro de la guía y margen < 83%: confirmaría que el precio del NAND ha tocado techo.",
+   "Técnica: líder enfriado (−45% desde el máximo). Sin setup hoy; es el candidato más claro del universo a un EP en noviembre."
+  ],
+  "verdict": "Fundamentales al máximo y líder enfriado: el mercado ya castiga el riesgo de pico del NAND. Candidato a EP el 5-nov si el informe vuelve a superar y la guía sube; si no, el ciclo manda."
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 5-ago-2026",
+   "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+  ],
+  [
+   "Chartmill: consenso ingresos ≈ $8.562M, BPA ≈ $35,14",
+   "https://www.chartmill.com/news/SNDK/Chartmill-52845-SanDisk-NASDAQSNDK-Beats-Q4-Estimates-But-Shares-Slide-After-Hours"
+  ],
+  [
+   "Earnings Whispers: consenso $33,28 y $8.300M; consenso 1T FY27 $44,21 y $10.560M",
+   "https://www.earningswhispers.com/epsdetails/SNDK"
+  ],
+  [
+   "Rivkin: consenso $8.480M y $34,96",
+   "https://rivkin.com.au/?p=37238"
+  ],
+  [
+   "S-3ASR 17-feb-2026 (venta de WDC)",
+   "https://www.sec.gov/Archives/edgar/data/2023554/000119312526054652/d947131ds3asr.htm"
+  ]
+ ]
+}

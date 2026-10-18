@@ -1,0 +1,564 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 2023554,
+ "form4_count": 69,
+ "form144_count": 25,
+ "schedule13_count": 8,
+ "owners": [
+  {
+   "name": "Goeckeler David",
+   "role": "consejero, Chairman & CEO",
+   "sold": 67679.0,
+   "sold_value": 104972834,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 74356.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1502,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001242648-26-000032",
+    "0001242648-26-000041"
+   ]
+  },
+  {
+   "name": "Ilkbahar Alper",
+   "role": "EVP & Chief Technology Officer",
+   "sold": 7112.0,
+   "sold_value": 11397901,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 10087.0,
+   "exercised": 276.0,
+   "max_quarter_pct": 0.1038,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-01",
+     "shares": 999.0,
+     "price": 1755.3132,
+     "accession": "0001363249-26-000048"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 401.0,
+     "price": 1757.0,
+     "accession": "0001363249-26-000048"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 600.0,
+     "price": 1758.3967,
+     "accession": "0001363249-26-000048"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001242648-26-000028",
+    "0001242648-26-000029",
+    "0001363249-26-000048"
+   ]
+  },
+  {
+   "name": "Shek Bernard",
+   "role": "Chief Legal Officer and Secty",
+   "sold": 5308.0,
+   "sold_value": 9027018,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4897.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1397,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001242648-26-000027",
+    "0001242648-26-000045",
+    "0001363249-26-000052",
+    "0001363249-26-000056",
+    "0001363249-26-000058",
+    "0001363249-26-000074"
+   ]
+  },
+  {
+   "name": "Pokorny Michael",
+   "role": "VP, Chief Accounting Officer",
+   "sold": 2446.0,
+   "sold_value": 3488436,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 3533.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0985,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-12",
+     "shares": 2446.0,
+     "price": 1426.18,
+     "accession": "0001363249-26-000032"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001363249-26-000032"
+   ]
+  },
+  {
+   "name": "Visoso Luis Felipe",
+   "role": "EVP & CFO",
+   "sold": 1000.0,
+   "sold_value": 1568830,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 37852.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0076,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001242648-26-000033"
+   ]
+  },
+  {
+   "name": "Sayiner Necip",
+   "role": "consejero",
+   "sold": 1850.0,
+   "sold_value": 1118327,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2676,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-08",
+     "shares": 579.0,
+     "price": 1503.11,
+     "accession": "0001363249-26-000028"
+    },
+    {
+     "date": "2025-12-03",
+     "shares": 1271.0,
+     "price": 195.1429,
+     "accession": "0001242648-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001242648-25-000003",
+    "0001363249-26-000028"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "DAVID GOECKELER",
+   "relationship": "Director",
+   "shares": 33841.0,
+   "value": 51437304.77,
+   "outstanding": 146419001.0,
+   "approx_date": "09/17/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-009626",
+   "filed": "2026-09-17",
+   "form": "144"
+  },
+  {
+   "person": "LUIS VISOSO",
+   "relationship": "Officer",
+   "shares": 3000.0,
+   "value": 4655970.0,
+   "outstanding": 146419001.0,
+   "approx_date": "09/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009525",
+   "filed": "2026-09-15",
+   "form": "144"
+  },
+  {
+   "person": "DAVID GOECKELER",
+   "relationship": "Director",
+   "shares": 33838.0,
+   "value": 55269297.3,
+   "outstanding": 146419001.0,
+   "approx_date": "09/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009430",
+   "filed": "2026-09-14",
+   "form": "144"
+  },
+  {
+   "person": "BERNARD SHEK",
+   "relationship": "Officer",
+   "shares": 4108.0,
+   "value": 7147920.0,
+   "outstanding": 146419001.0,
+   "approx_date": "09/08/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-009200",
+   "filed": "2026-09-08",
+   "form": "144"
+  },
+  {
+   "person": "ALPER ILKBAHAR",
+   "relationship": "Officer",
+   "shares": 6270.0,
+   "value": 9739818.0,
+   "outstanding": 146419001.0,
+   "approx_date": "09/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009088",
+   "filed": "2026-09-03",
+   "form": "144"
+  },
+  {
+   "person": "BERNARD SHEK",
+   "relationship": "Officer",
+   "shares": 2400.0,
+   "value": 4119264.0,
+   "outstanding": 148089758.0,
+   "approx_date": "06/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005589",
+   "filed": "2026-06-03",
+   "form": "144"
+  },
+  {
+   "person": "ALPER ILKBAHAR",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 3513153.0,
+   "outstanding": 148090000.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005387",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL POKORNY",
+   "relationship": "Officer",
+   "shares": 2446.0,
+   "value": 3488436.28,
+   "outstanding": 148089758.0,
+   "approx_date": "05/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004421",
+   "filed": "2026-05-12",
+   "form": "144"
+  },
+  {
+   "person": "NECIP SAYINER",
+   "relationship": "Director",
+   "shares": 579.0,
+   "value": 870300.69,
+   "outstanding": 148089758.0,
+   "approx_date": "05/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004245",
+   "filed": "2026-05-08",
+   "form": "144"
+  },
+  {
+   "person": "MIYUKI SUZUKI",
+   "relationship": "Director",
+   "shares": 3500.0,
+   "value": 2196359.55,
+   "outstanding": 147567249.0,
+   "approx_date": "02/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001800",
+   "filed": "2026-02-25",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Affiliate",
+   "shares": 2000.0,
+   "value": 1331060.4,
+   "outstanding": 146553179.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000871",
+   "filed": "2026-02-03",
+   "form": "144/A"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Affiliate",
+   "shares": 2000.0,
+   "value": 1331060.4,
+   "outstanding": 213047472.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000789",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "KIMBERLY ALEXY",
+   "relationship": "Former Director",
+   "shares": 1367.0,
+   "value": 690335.0,
+   "outstanding": 146553179.0,
+   "approx_date": "01/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000644",
+   "filed": "2026-01-22",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Affiliate",
+   "shares": 2000.0,
+   "value": 984571.0,
+   "outstanding": 146553179.0,
+   "approx_date": "01/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000616",
+   "filed": "2026-01-21",
+   "form": "144"
+  },
+  {
+   "person": "KIMBERLY ALEXY",
+   "relationship": "Former Director",
+   "shares": 1737.0,
+   "value": 739962.0,
+   "outstanding": 146553179.0,
+   "approx_date": "01/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000505",
+   "filed": "2026-01-16",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Affiliate",
+   "shares": 1000.0,
+   "value": 421459.4,
+   "outstanding": 146553179.0,
+   "approx_date": "01/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000441",
+   "filed": "2026-01-15",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING",
+   "relationship": "Former Affiliate",
+   "shares": 2000.0,
+   "value": 693838.6,
+   "outstanding": 146553179.0,
+   "approx_date": "01/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000230",
+   "filed": "2026-01-07",
+   "form": "144"
+  },
+  {
+   "person": "KIMBERLY ALEXY",
+   "relationship": "Director",
+   "shares": 3000.0,
+   "value": 1011939.6,
+   "outstanding": 146553179.0,
+   "approx_date": "01/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000170",
+   "filed": "2026-01-06",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Affiliate",
+   "shares": 2816.0,
+   "value": 953009.02,
+   "outstanding": 146553179.0,
+   "approx_date": "01/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000168",
+   "filed": "2026-01-06",
+   "form": "144"
+  },
+  {
+   "person": "NECIP SAYINER",
+   "relationship": "Director",
+   "shares": 1271.0,
+   "value": 248026.63,
+   "outstanding": 146553179.0,
+   "approx_date": "12/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009676",
+   "filed": "2025-12-03",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Affiliate",
+   "shares": 2340.0,
+   "value": 508394.95,
+   "outstanding": 146553179.0,
+   "approx_date": "11/26/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009438",
+   "filed": "2025-11-26",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Director",
+   "shares": 1500.0,
+   "value": 335625.0,
+   "outstanding": 146553179.0,
+   "approx_date": "11/25/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009342",
+   "filed": "2025-11-25",
+   "form": "144"
+  },
+  {
+   "person": "MASSENGILL LIVING TRUST",
+   "relationship": "Former Affiliate",
+   "shares": 1000.0,
+   "value": 225220.0,
+   "outstanding": 146553179.0,
+   "approx_date": "11/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009273",
+   "filed": "2025-11-24",
+   "form": "144"
+  },
+  {
+   "person": "KIMBERLY ALEXY",
+   "relationship": "Director",
+   "shares": 2401.0,
+   "value": 485830.35,
+   "outstanding": 146553179.0,
+   "approx_date": "11/21/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009219",
+   "filed": "2025-11-21",
+   "form": "144"
+  },
+  {
+   "person": "KIMBERLY ALEXY",
+   "relationship": "Director",
+   "shares": 3000.0,
+   "value": 652663.5,
+   "outstanding": 146553179.0,
+   "approx_date": "11/20/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009124",
+   "filed": "2025-11-20",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 11000476.0,
+   "pct": 7.17,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000998"
+  },
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 8825007.0,
+   "pct": 6.0,
+   "filed": "2026-01-21",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0002012383-26-000718"
+  },
+  {
+   "name": "FMR LLC",
+   "shares": 7861064.22,
+   "pct": 5.3,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002110"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 7861064.22,
+   "pct": 5.3,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002110"
+  },
+  {
+   "name": "JANE STREET GROUP, LLC",
+   "shares": 7409437.0,
+   "pct": 5.0,
+   "filed": "2026-08-05",
+   "form": "SCHEDULE 13G",
+   "event_date": "07/30/2026",
+   "accession": "0001595888-26-000078"
+  },
+  {
+   "name": "Jane Street Capital, LLC",
+   "shares": 5886992.0,
+   "pct": 4.0,
+   "filed": "2026-08-05",
+   "form": "SCHEDULE 13G",
+   "event_date": "07/30/2026",
+   "accession": "0001595888-26-000078"
+  },
+  {
+   "name": "Jane Street Global Trading, LLC",
+   "shares": 1284343.0,
+   "pct": 0.9,
+   "filed": "2026-08-05",
+   "form": "SCHEDULE 13G",
+   "event_date": "07/30/2026",
+   "accession": "0001595888-26-000078"
+  },
+  {
+   "name": "DNB Asset Management AS",
+   "shares": 1025373.0,
+   "pct": 0.7,
+   "filed": "2025-11-10",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0000912282-25-001223"
+  },
+  {
+   "name": "Western Digital Corporation",
+   "shares": 1038681.0,
+   "pct": 0.7,
+   "filed": "2026-05-15",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001193125-26-225475"
+  },
+  {
+   "name": "Leonard Street Holdings, LP",
+   "shares": 238102.0,
+   "pct": 0.2,
+   "filed": "2026-08-05",
+   "form": "SCHEDULE 13G",
+   "event_date": "07/30/2026",
+   "accession": "0001595888-26-000078"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002232"
+  }
+ ],
+ "errors": []
+}

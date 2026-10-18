@@ -1,0 +1,95 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 4994000000,
+   "end": "2026-07-03",
+   "tag": "Goodwill",
+   "form": "10-K"
+  },
+  "intangibles": null,
+  "equity": {
+   "val": 15736000000,
+   "end": "2026-07-03",
+   "tag": "StockholdersEquity",
+   "form": "10-K"
+  },
+  "total_assets": {
+   "val": 22507000000,
+   "end": "2026-07-03",
+   "tag": "Assets",
+   "form": "10-K"
+  }
+ },
+ "goodwill_intang_to_equity": 0.31736146415861716,
+ "goodwill_intang_to_assets": 0.22188652419247346,
+ "impairments": [
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2024-06-29",
+   "end": "2025-03-28",
+   "val": 1830000000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2024-12-28",
+   "end": "2025-03-28",
+   "val": 1830000000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2024-06-29",
+   "end": "2025-06-27",
+   "val": 1830000000,
+   "form": "10-K"
+  }
+ ],
+ "public_float": {
+  "usd": 40500000000,
+  "date": "2026-01-02",
+  "filed": "2026-08-17",
+  "form": "10-K",
+  "close": 275.239990234375,
+  "close_date": "2026-01-02",
+  "float_shares": 147144316
+ },
+ "governance": [
+  {
+   "filed": "2026-09-16",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001628280-26-062267",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026062267/sndk-20260910.htm"
+  },
+  {
+   "filed": "2026-01-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001628280-26-000127",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026000127/sndk-20251230.htm"
+  },
+  {
+   "filed": "2025-03-11",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0002023554-25-000007",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000007/sndk-20250306.htm"
+  },
+  {
+   "filed": "2025-02-24",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001193125-25-033433",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312525033433/d849281d8k.htm"
+  }
+ ]
+}
