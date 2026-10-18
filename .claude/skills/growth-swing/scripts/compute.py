@@ -91,6 +91,13 @@ def supply_score(case, f, today, window, price):
 PEER_KEYS = [("rev_yoy", True), ("accel_pp", True), ("gm", True), ("rule40", True), ("ev_sales", False), ("rs_3m", True)]
 
 
+def _gm_key(rows):
+    """Gross margin is compared relative to each row's profile target (gm − gm_target) when every row carries
+    `gm_rel`; a foundry at 27% vs a 25% target is not 'worse' than a fabless chip at 60% vs 60%."""
+    return "gm_rel" if all(r.get("gm_rel") is not None or r.get("gm") is None for r in rows) and any(
+        r.get("gm_rel") is not None for r in rows) else "gm"
+
+
 def _pct(v, others, higher_better=True):
     vals = [o for o in others if o is not None]
     if v is None or not vals:
@@ -102,9 +109,13 @@ def _pct(v, others, higher_better=True):
 
 def peers_table(subject, peers):
     rows = [dict(subject, subject=True)] + [dict(p, subject=False) for p in peers]
+    gk = _gm_key(rows)
+    keys = [(gk if k == "gm" else k, hb) for k, hb in PEER_KEYS]
     for i, r in enumerate(rows):
         others = rows[:i] + rows[i + 1:]
-        r["pct"] = {k: _pct(r.get(k), [o.get(k) for o in others], hb) for k, hb in PEER_KEYS}
+        r["pct"] = {k: _pct(r.get(k), [o.get(k) for o in others], hb) for k, hb in keys}
+        r["pct"]["gm"] = r["pct"][gk]
+        r["gm_basis"] = gk
         fp = [r["pct"][k] for k in ("rev_yoy", "accel_pp", "gm", "rule40") if r["pct"][k] is not None]
         r["fund_pct"] = sum(fp) / len(fp) if fp else None
         r["rs_pct"] = r["pct"]["rs_3m"]
@@ -208,8 +219,10 @@ def compute(case):
 
     # peers
     st = case.get("setup", {})
+    gm_target = FA["profile"]["gm_target"]
     subject = dict(ticker=meta["ticker"], name=meta["issuer"], rev_yoy=f["rev_yoy"], accel_pp=f["accel_pp"],
-                   gm=f["gm_ttm"], rule40=f["rule40"], ev_sales=m["ev_sales"], rs_3m=st.get("rs_3m"))
+                   gm=f["gm_ttm"], gm_rel=None if f["gm_ttm"] is None else f["gm_ttm"] - gm_target,
+                   rule40=f["rule40"], ev_sales=m["ev_sales"], rs_3m=st.get("rs_3m"))
     P, group = peers_table(subject, case.get("peers", []))
     s_row = next(r for r in P if r["subject"])
     m.update(fund_pct=s_row["fund_pct"], rs_pct=s_row["rs_pct"], value_pct=s_row["value_pct"], n_peers=len(P) - 1)

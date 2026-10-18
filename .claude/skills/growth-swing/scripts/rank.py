@@ -34,8 +34,10 @@ def load(cases_dir):
 
 def subject_row(case):
     m, R, _ = compute(case)
+    target = R["fund"]["profile"]["gm_target"]
     return dict(ticker=case["meta"]["ticker"], name=case["meta"]["issuer"], rev_yoy=m["rev_yoy"], accel_pp=m["accel_pp"],
-                gm=m["gm_ttm"], rule40=m["rule40"], ev_sales=m["ev_sales"], rs_3m=case.get("setup", {}).get("rs_3m"))
+                gm=m["gm_ttm"], gm_rel=None if m["gm_ttm"] is None else m["gm_ttm"] - target,
+                rule40=m["rule40"], ev_sales=m["ev_sales"], rs_3m=case.get("setup", {}).get("rs_3m"))
 
 
 def sync_peers(cases):

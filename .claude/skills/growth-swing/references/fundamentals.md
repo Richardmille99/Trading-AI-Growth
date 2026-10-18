@@ -102,7 +102,7 @@ Lectura: ≥ 65 fuerte · 45–64 aceptable · < 45 débil.
 `case.json → peers[]`: cada par con `rev_yoy`, `accel_pp`, `gm`, `rule40`, `ev_sales`, `rs_3m`, sacados con el mismo método (XBRL + precio del mismo día). El caso se añade solo.
 
 - Percentil de cada métrica frente al resto del grupo (0–100; en EV/ventas, más bajo = mejor).
-- **Percentil de fundamentales** = media de crecimiento, aceleración, margen bruto y Rule of 40.
+- **Percentil de fundamentales** = media de crecimiento, aceleración, margen bruto y Rule of 40. El margen bruto se compara **relativo al objetivo del perfil de cada empresa** (`gm_rel` = margen bruto TTM − `gm_target`) cuando todas las filas lo traen (pares sincronizados con `rank.py --sync-peers`): una foundry al 27% con objetivo 25% puntúa por encima de un fabless al 55% con objetivo 60%. Con pares cargados a mano sin `gm_rel`, se usa el margen bruto absoluto.
 - **Percentil de valor** = EV/ventas ÷ crecimiento (en %), más bajo = más barato.
 - **Posición:** `leader` si fundamentales ≥ 80 y RS ≥ 80 · `strong` si ≥ 60 y ≥ 60 · `weak` si alguno < 40 · `neutral` el resto · `unknown` con menos de 3 pares o sin RS.
 - Gráfico de cuadrantes: crecimiento (x) frente a EV/ventas (y), con las medianas del grupo. La zona interesante es «más crecimiento · múltiplo menor», siempre que la calidad (§3) no lo explique.

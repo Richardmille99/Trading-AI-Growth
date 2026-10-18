@@ -22,7 +22,7 @@ Cada fuente: `id`, `kind` (`atm` / `shelf` / `secondary` / `convertible` / `warr
 `supply_context`: `float_shares`, `window_days` (56 por defecto), `ep_recent_days`, `atm_used_last_q` (bool).
 
 ## peers[]
-`ticker`, `name`, `rev_yoy`, `accel_pp` (pp), `gm`, `rule40` (puntos), `ev_sales`, `rs_3m` (percentil 0–100).
+`ticker`, `name`, `rev_yoy`, `accel_pp` (pp), `gm`, `gm_rel` (opcional: gm − `gm_target` de su perfil), `rule40` (puntos), `ev_sales`, `rs_3m` (percentil 0–100).
 
 ## setup
 `type` (ver `references/swing.md` §2), `pivot`, `stop`, `adr_pct` (en %), `rs_1m`, `rs_3m`, `rs_6m`, `ema_stack` (bool), `notes` (markup). Sin datos de precio: `null`.

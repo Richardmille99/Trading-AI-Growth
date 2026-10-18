@@ -126,6 +126,21 @@ def test_dilution_and_runway_rules():
     print("dilution + runway rules ok")
 
 
+def test_peer_gm_relative_to_profile():
+    from compute import peers_table
+    foundry = dict(ticker="F", rev_yoy=.2, accel_pp=0, gm=.27, gm_rel=.27 - .25, rule40=20, ev_sales=5, rs_3m=50)
+    fabless = [dict(ticker=f"P{i}", rev_yoy=.2, accel_pp=0, gm=.55, gm_rel=.55 - .60, rule40=20, ev_sales=5, rs_3m=50)
+               for i in range(3)]
+    rows, _ = peers_table(foundry, fabless)
+    s = next(r for r in rows if r["subject"])
+    assert s["gm_basis"] == "gm_rel" and s["pct"]["gm"] == 100, "above its own target beats peers below theirs"
+    raw = [{k: v for k, v in p.items() if k != "gm_rel"} for p in fabless]
+    rows, _ = peers_table({k: v for k, v in foundry.items() if k != "gm_rel"}, raw)
+    s = next(r for r in rows if r["subject"])
+    assert s["gm_basis"] == "gm" and s["pct"]["gm"] == 0, "without gm_rel, absolute margin"
+    print("peer gm relative ok")
+
+
 def test_example():
     case = json.load(open(os.path.join(HERE, "..", "examples", "EXMP_synthetic.json"), encoding="utf-8"))
     m, R, _ = compute(case)
@@ -135,4 +150,4 @@ def test_example():
 
 
 if __name__ == "__main__":
-    test_xbrl(); test_catalysts(); test_dcf_and_conviction(); test_dilution_and_runway_rules(); test_example()
+    test_xbrl(); test_catalysts(); test_dcf_and_conviction(); test_dilution_and_runway_rules(); test_peer_gm_relative_to_profile(); test_example()
