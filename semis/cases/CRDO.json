@@ -718,7 +718,7 @@
    "El inventario crece mucho más que las ventas (+168% frente a +115%): preparación de la rampa de AEC o riesgo de exceso."
   ],
   "catalyst_read": "El catalizador principal (1T FY27) puntúa {m.cat_q1fy27_score:sc}: crecimiento enorme, pero **desacelera** {m.accel_pp:pp}, con beats pequeños y margen a la baja. El mercado lo vendió (−18% en el día). El preanuncio de febrero (+19% sobre la guía) fue el catalizador de verdad del año.",
-  "financials_note": "Trimestres de XBRL contrastados con el EX-99.1 del 1T FY27. La caja bajó de $1.443M a $764M por la compra de DustPhotonics ($1.300M en total). El crecimiento del 1T FY27 incluye esa compra: [VERIFY] su aportación.",
+  "financials_note": "Trimestres de XBRL contrastados con el EX-99.1 del 1T FY27. La caja bajó de $1.443M a $764M por la compra de DustPhotonics ($1.300M en total). Según el 10-Q, la aportación de DustPhotonics no es material: el crecimiento es orgánico.",
   "quality": [
    "**INVENTARIO > VENTAS** (+54 pp) y **DILUCIÓN** (+5,3% de acciones diluidas por el ATM y la compra).",
    "Non-GAAP sin partidas repetidas materiales; SBC del {m.sbc_pct:pctf} de ingresos TTM.",
