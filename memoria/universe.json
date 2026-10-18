@@ -1,0 +1,112 @@
+{
+ "name": "Memoria: DRAM, HBM, NAND y módulos — otoño 2026",
+ "theme": "Memoria · ciclo de IA",
+ "created": "2026-10-18",
+ "note": "Clasificación preliminar (18-oct-2026), pendiente de revisar con la nota de segmentos en la Fase 1. Excluidos: WDC y STX (discos duros, no memoria de semiconductores) y NLST (OTC, negocio dominado por litigios de patentes: forensic-microcap).",
+ "purity_levels": {
+  "puro": "≥ 90% de ingresos por memoria o chips para memoria de diseño propio",
+  "mixto": "memoria + otros negocios con peso relevante (licencias, sistemas, servicios)",
+  "adyacente": "no fabrica ni diseña memoria: integra módulos o sistemas"
+ },
+ "subgroups": {
+  "dram_hbm": "Fabricantes de DRAM y HBM (con NAND en algunos casos)",
+  "nand": "Fabricantes de NAND flash y SSD",
+  "interfaz_controladores": "Chips que acompañan a la memoria: buffers y PMIC de módulos DDR5, controladores NAND, IP de interfaz",
+  "modulos_sistemas": "Módulos de memoria especiales y sistemas para IA"
+ },
+ "tickers": [
+  {
+   "ticker": "MU",
+   "issuer": "Micron Technology",
+   "cik": 723125,
+   "subgroup": "dram_hbm",
+   "model": "IDM",
+   "purity": "puro",
+   "profile": "semis_memory",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "agosto/septiembre",
+   "status": "auditado",
+   "notes": "DRAM, HBM y NAND; mayor exposición de EE. UU. a HBM"
+  },
+  {
+   "ticker": "SKHY",
+   "issuer": "SK hynix",
+   "cik": 2120882,
+   "subgroup": "dram_hbm",
+   "model": "IDM",
+   "purity": "puro",
+   "profile": "semis_memory",
+   "filer": "20-F/6-K (K-IFRS)",
+   "fiscal_year_end": "diciembre",
+   "status": "auditado",
+   "exchange": "Nasdaq (ADR)",
+   "notes": "Líder de HBM; ADR en Nasdaq desde el 10-jul-2026 (424B4): poco historial de precios"
+  },
+  {
+   "ticker": "SNDK",
+   "issuer": "Sandisk",
+   "cik": 2023554,
+   "subgroup": "nand",
+   "model": "IDM (joint venture con Kioxia)",
+   "purity": "puro",
+   "profile": "semis_memory",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "junio",
+   "status": "auditado",
+   "notes": "NAND y SSD; escindida de Western Digital en feb-2025"
+  },
+  {
+   "ticker": "RMBS",
+   "issuer": "Rambus",
+   "cik": 917273,
+   "subgroup": "interfaz_controladores",
+   "model": "fabless + licencias",
+   "purity": "mixto",
+   "profile": "semis_fabless",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "auditado",
+   "notes": "Chips de interfaz para módulos DDR5 (RCD, PMIC) más licencias de patentes e IP"
+  },
+  {
+   "ticker": "SIMO",
+   "issuer": "Silicon Motion Technology",
+   "cik": 1329394,
+   "subgroup": "interfaz_controladores",
+   "model": "fabless",
+   "purity": "puro",
+   "profile": "semis_fabless",
+   "filer": "20-F/6-K (US GAAP)",
+   "fiscal_year_end": "diciembre",
+   "status": "auditado",
+   "exchange": "Nasdaq (ADS)",
+   "notes": "Controladores NAND para SSD y móviles; arbitraje contra MaxLinear (MXL, universo semis) por la fusión fallida"
+  },
+  {
+   "ticker": "PENG",
+   "issuer": "Penguin Solutions",
+   "cik": 1616533,
+   "subgroup": "modulos_sistemas",
+   "model": "integrador",
+   "purity": "adyacente",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "agosto",
+   "status": "auditado",
+   "notes": "Memoria especial (SMART Modular), sistemas de IA y LED (Cree); vigilar el peso de cada segmento"
+  },
+  {
+   "ticker": "NLST",
+   "issuer": "Netlist",
+   "cik": 1282631,
+   "subgroup": "modulos_sistemas",
+   "model": "módulos",
+   "purity": "adyacente",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "excluido",
+   "notes": "Excluido: OTC y valor dominado por litigios de patentes con Samsung y Micron; usar forensic-microcap si se quiere analizar"
+  }
+ ]
+}
