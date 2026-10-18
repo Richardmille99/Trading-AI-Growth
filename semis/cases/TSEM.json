@@ -16,7 +16,7 @@
   "descriptor": "Foundry analógica especializada (RF-SOI, SiGe, SiPho, sensores) que fabrica para terceros; su motor actual es la fotónica de silicio para transceptores ópticos de IA. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001178913-26-004761",
   "last_filing_seen_date": "2026-10-13",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 195.5800018310547,
@@ -272,10 +272,33 @@
     "value": "[VERIFY: transcript]",
     "prior": "—",
     "src": []
+   },
+   {
+    "name": "Concentración de clientes (2025)",
+    "value": "NTCJ 11% (parte vinculada, socio en TPSCo); 7 clientes entre 4% y 7%; resto 50%",
+    "prior": "NTCJ 13% y 4 clientes de 3–11% (2024)",
+    "src": [
+     [
+      "20-F 2025",
+      "https://www.sec.gov/Archives/edgar/data/928876/000117891326002318/zk2635149.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Objetivo 2028",
+    "value": "$3.600M de ingresos y $1.200M de beneficio neto («fully spoken for by our customers»)",
+    "prior": "Objetivo anterior más bajo [VERIFY]",
+    "src": [
+     [
+      "6-K 4-ago-2026",
+      ""
+     ]
+    ]
    }
   ],
-  "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_adj_pct": 0.0216,
+  "nongaap_recurring_items": false,
+  "nongaap_note": "Único ajuste: SBC + amortización de intangibles ($9,9M, 2,2% de ingresos). Sin reestructuraciones ni «otros» repetidos."
  },
  "catalysts": [
   {
@@ -283,22 +306,30 @@
    "type": "earnings",
    "date": "2026-08-04",
    "time_et": "premarket",
-   "headline": "Resultados 2T26: ingresos récord $460,1M (+24%), guía 3T $520M ± 5% (+31%)",
+   "headline": "Resultados 2T26: ingresos récord $460,1M (+24%), BPA ajustado $0,88 frente a $0,76; guía 3T $520M frente a un consenso de $490M; objetivo 2028 sube a $3.600M",
    "sources": [
     [
      "6-K 4-ago-2026 (EX-99.1)",
      "https://www.sec.gov/Archives/edgar/data/928876/000117891326003776/exhibit_99-1.htm"
+    ],
+    [
+     "MarketBeat / 24/7 Wall St: consenso BPA $0,76 e ingresos $454,7M",
+     "https://www.marketbeat.com/instant-alerts/tower-semiconductor-nasdaqtsem-posts-earnings-results-beats-expectations-by-003-eps-2026-08-04/"
+    ],
+    [
+     "Finviz: consenso 3T $490,0M",
+     "https://finviz.com/news/376894/tower-semiconductor-beats-second-quarter-estimates-and-issues-strong-q3-revenue-outlook"
     ]
    ],
    "rev_growth_yoy": 0.2365687346967298,
    "rev_growth_yoy_prev": 0.15484546444425829,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": 1.2,
+   "eps_surprise_pct": 15.8,
+   "guide_raise": true,
+   "guide_change_pct": 6.1,
    "gm_change_bp": 844,
    "nonrecurring_in_beat": false,
-   "note": "Margen bruto 30% (21,5% en el 2T25). [VERIFY: hora de publicación (antes de la apertura, como es habitual); sin consenso]",
+   "note": "BPA ajustado (sin SBC ni amortización); Finviz citaba un consenso de $0,67 e ingresos de $437,3M [VERIFY]. Margen bruto 30,0% frente a 21,5%. Objetivo 2028: $3.600M de ingresos y $1.200M de beneficio neto, «fully spoken for by our customers».",
    "gap_pct": -3.79,
    "rvol": 3.36,
    "close_in_range": 0.75,
@@ -307,14 +338,220 @@
    "estimate_revisions": "unknown",
    "reaction_date": "2026-08-04",
    "reaction_close_chg_pct": 2.22
+  },
+  {
+   "id": "q1_26",
+   "type": "earnings",
+   "date": "2026-05-13",
+   "time_et": "premarket",
+   "headline": "Resultados 1T26: $413,6M (+15%); $290M de anticipos de clientes de SiPho",
+   "sources": [
+    [
+     "6-K 13-may-2026 (EX-99.1)",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891326002607/exhibit_99-1.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.15484546444425829,
+   "rev_growth_yoy_prev": 0.13692208754852264,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 639,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": 15.0,
+   "rvol": 2.03,
+   "close_in_range": 0.96,
+   "day2_follow": true,
+   "dollar_volume": 1654377556,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-05-13",
+   "reaction_close_chg_pct": 22.61
+  },
+  {
+   "id": "q4_25",
+   "type": "earnings",
+   "date": "2026-02-11",
+   "time_et": "premarket",
+   "headline": "Resultados 4T25: récord $440,2M (+14%); $270M más de capex para SiPho (total $920M)",
+   "sources": [
+    [
+     "6-K 11-feb-2026 (EX-99.1)",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891326000404/exhibit_99-1.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.13692208754852264,
+   "rev_growth_yoy_prev": 0.06789253789350957,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 429,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": 5.46,
+   "rvol": 3.18,
+   "close_in_range": 0.32,
+   "day2_follow": false,
+   "dollar_volume": 761495062,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-02-11",
+   "reaction_close_chg_pct": -1.56
+  },
+  {
+   "id": "q3_25",
+   "type": "earnings",
+   "date": "2025-11-10",
+   "time_et": "premarket",
+   "headline": "Resultados 3T25: $395,7M (+7%); guía 4T récord de $440M",
+   "sources": [
+    [
+     "6-K 10-nov-2025 (EX-99.1)",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891325003706/exhibit_99-1.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.06789253789350957,
+   "rev_growth_yoy_prev": 0.059456519572528066,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": -160,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": 3.49,
+   "rvol": 4.4,
+   "close_in_range": 0.87,
+   "day2_follow": true,
+   "dollar_volume": 517281292,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2025-11-10",
+   "reaction_close_chg_pct": 16.69
+  },
+  {
+   "id": "sipho_prepay",
+   "type": "commercial_contract",
+   "date": "2026-05-13",
+   "time_et": null,
+   "headline": "Anticipos de clientes de SiPho por $290M para reservar capacidad",
+   "sources": [
+    [
+     "6-K 13-may-2026",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891326002607/exhibit_99-1.htm"
+    ]
+   ],
+   "counterparty": "Clientes de SiPho no identificados",
+   "counterparty_named": false,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "definitive",
+   "value_firm": 290000000.0,
+   "value_ceiling": null,
+   "duration_years": 3,
+   "economics_disclosed": false,
+   "recurring": false,
+   "issuer_history": "partial",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Efectivo cobrado (visible en el CFO del 1T26 y en el pasivo por anticipos de $321M), pero sin contraparte nombrada ni contrato presentado. Duración supuesta de 3 años para la materialidad [VERIFY]. Puede tener que devolverse si Tower no entrega la capacidad (factor de riesgo del 20-F)."
+  },
+  {
+   "id": "japan_meti",
+   "type": "partnership",
+   "date": "2026-07-14",
+   "time_et": null,
+   "headline": "Ampliación de capacidad SiPho/SiGe de 300 mm en Japón con subvenciones del METI",
+   "sources": [
+    [
+     "6-K 14-jul-2026",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891326003477/zk2635682.htm"
+    ]
+   ],
+   "counterparty": "Gobierno de Japón (METI)",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "partnership_undefined",
+   "value_firm": null,
+   "value_ceiling": null,
+   "duration_years": null,
+   "economics_disclosed": false,
+   "recurring": false,
+   "issuer_history": "partial",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Importe de las subvenciones y condiciones aún sin cerrar («finalizing METI grants terms»). [VERIFY: anuncio del METI]"
+  },
+  {
+   "id": "tpsco",
+   "type": "mna",
+   "date": "2026-03-25",
+   "time_et": null,
+   "headline": "Reestructuración de TPSCo con Nuvoton Japan: Tower se queda con la fábrica de 300 mm de Uozu (cierre 1-abr-2027)",
+   "sources": [
+    [
+     "6-K 17-ago-2026 (estados semestrales, nota 3)",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891326004158/R9.htm"
+    ]
+   ],
+   "counterparty": "Nuvoton Technology Corporation Japan",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "loi",
+   "value_firm": 25000000.0,
+   "value_ceiling": null,
+   "duration_years": null,
+   "economics_disclosed": false,
+   "recurring": false,
+   "issuer_history": "unknown",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Acuerdo marco: NTCJ paga $25M a Tower al cierre y se queda con la fábrica de Tonami. NTCJ es parte vinculada y el 11% de los ingresos de 2025."
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $60.0M; 2 marcados",
+   "shares": 248731.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "El CEO (Russell Ellwanger) vendió 248.499 acciones (≈ $60M) en 12 meses, hasta el 32% de su posición en un trimestre, sin plan 10b5-1 declarado. Ellwanger Russell Craig (Chief Executive Officer) $60.0M, máx. 32% en 2026-T3, 37 ventas sin 10b5-1; Chelouche Yoav (consejero) $0.0M, máx. 1% en 2026-T3, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 111500000.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "112,5M acciones (20-F) sin un accionista de control; se restan ≈ 1M de insiders [VERIFY]. Mayores tenedores: T. Rowe 6,6%, Migdal 6,0%, Menora 6,2%, Harel 5,1% (13G)."
  },
  "peers": [
   {
@@ -410,7 +647,7 @@
   "type": null,
   "pivot": null,
   "stop": null,
-  "notes": null,
+  "notes": "Sin setup: cierra bajo las EMA 10/20/50 y apenas sobre la SMA 200 ({m.price:px}). Etiqueta «líder enfriado». Plan EP para el 2-nov.",
   "rs_1m": 25.0,
   "rs_3m": 16.666666666666664,
   "rs_6m": 0.0,
@@ -433,12 +670,12 @@
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo de semis."
+  "verdict": "Líder enfriado con fundamentales intactos y guía por encima del consenso; esperar a un EP el 2-nov.",
+  "setup": "Bajo las EMA 10/20/50 y apenas sobre la media de 200; −39% desde máximos. Sin setup hoy.",
+  "catalyst": "2T26 real parcial (B): beat del 16% en BPA y guía +6% sobre el consenso; el crecimiento del 24% limita la nota.",
+  "quality": "Nota {m.fund_score:sc}; sin banderas; non-GAAP limpio.",
+  "supply": "Sin dilución corporativa; el CEO vendió ≈ $60M.",
+  "group": "Líder enfriado; RS 3 meses percentil 17."
  },
  "snapshot": [
   [
@@ -475,21 +712,79 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "narrative_flags": [
+   "«$3.600M en 2028, fully spoken for by our customers»: es un objetivo presentado como si fuera cartera comprometida. Los $290M de anticipos dan cierta base, pero no hay contratos ni clientes publicados.",
+   "La ampliación en Japón depende de subvenciones del METI aún sin cerrar."
+  ],
+  "catalyst_read": "El catalizador principal (2T26) es **real parcial** (B): beat de BPA del 16%, margen bruto +850 pb y guía del 3T un 6% por encima del consenso. Nota {m.cat_q2_26_score:sc}. Los anticipos de SiPho ({m.cat_sipho_prepay_score:sc}) son caja real sin contraparte nombrada.",
   "financials_note": "Emisor extranjero (20-F/6-K, **US GAAP**): sin trimestres en XBRL. **Trimestres cargados a mano** desde los 6-K de resultados (2T25, 3T25, 4T25, 1T26 y 2T26). Cada uno da el trimestre, el anterior y el del año pasado; los totales anuales y semestrales cuadran. El beneficio neto es el atribuible a la compañía. El CFO GAAP del 1T26 ($510,0M) incluye $285,1M de anticipos de clientes de SiPho; sin ellos, $224,9M. Eso infla el FCF TTM. El SBC no se publica aparte (va junto a la amortización de intangibles, $9,9M en el 2T26) y queda vacío. Los saldos solo están disponibles desde el 2T25. Acciones: 112,5M de la portada del 20-F (31-dic-2025).",
-  "quality": [],
-  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "quality": [
+   "Beneficio de calidad: el non-GAAP solo excluye SBC y amortización (2,2% de ingresos). FCF TTM positivo pero inflado por los anticipos de clientes ($285M en el 1T26).",
+   "Caja neta $1.340M; sin fondo de comercio relevante.",
+   "Parte vinculada: NTCJ (socio en TPSCo y 11% de ingresos)."
+  ],
+  "supply_read": "Sin ATM, shelf ni convertibles. La oferta viene de insiders: el CEO vendió ≈ $60M (hasta el 32% de su posición en un trimestre). Accionariado institucional israelí y de EE. UU. por encima del 5%.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} sobre ingresos TTM; con la guía del 3T anualizada (≈ $2.080M) baja a ≈ 10×. DCF inverso: descuenta {m.implied_g:pctf} anual durante 5 años, por encima del {m.rev_yoy:pctf} actual: el precio ya incluye el plan de 2028."
+  ],
+  "group_read": "Líder enfriado con fundamentales intactos: +164% en 12 meses, −39% desde máximos y RS 1m/3m en percentil 25/17.",
+  "risks": [
+   "**GlobalFoundries** demandó a Tower en mar-2026 ante la ITC (riesgo de orden de exclusión), en Texas y en China. [VERIFY: calendario de la ITC]",
+   "Ejecución del capex de $920M en SiPho/SiGe; posible devolución de anticipos si no se entrega capacidad.",
+   "Israel: riesgo geopolítico en la fábrica de Migdal Haemek."
+  ],
+  "plan": [
+   "Resultados el **lunes 2-nov antes de la apertura** (conferencia a las 10:00 ET).",
+   "**EP A/B:** ingresos ≥ $546M (+5% sobre la guía de $520M; consenso [VERIFY]), guía del 4T ≥ +5% sobre el consenso, margen bruto ≥ 30% y avances en la capacidad de SiPho para 2027. En el gráfico: gap ≥ 10% con volumen ≥ 3× que recupere la EMA 50 (≈ $226).",
+   "**D:** ingresos por debajo de $520M, guía plana o noticias negativas de la ITC.",
+   "Es «líder enfriado»: candidato natural a un EP en resultados. Sin EP, esperar a que recupere la media de 200 sesiones (≈ $202) y forme base."
+  ],
+  "verdict": "Líder enfriado con fundamentales intactos y un catalizador real. Lo limitan el régimen risk_off, la RS débil y el litigio con GlobalFoundries. El 2-nov es la cita."
  },
  "sources": [
   [
    "6-K 4-ago-2026 (EX-99.1)",
    "https://www.sec.gov/Archives/edgar/data/928876/000117891326003776/exhibit_99-1.htm"
+  ],
+  [
+   "MarketBeat / 24/7 Wall St: consenso BPA $0,76 e ingresos $454,7M",
+   "https://www.marketbeat.com/instant-alerts/tower-semiconductor-nasdaqtsem-posts-earnings-results-beats-expectations-by-003-eps-2026-08-04/"
+  ],
+  [
+   "Finviz: consenso 3T $490,0M",
+   "https://finviz.com/news/376894/tower-semiconductor-beats-second-quarter-estimates-and-issues-strong-q3-revenue-outlook"
+  ],
+  [
+   "6-K 13-may-2026 (EX-99.1)",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891326002607/exhibit_99-1.htm"
+  ],
+  [
+   "6-K 11-feb-2026 (EX-99.1)",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891326000404/exhibit_99-1.htm"
+  ],
+  [
+   "6-K 10-nov-2025 (EX-99.1)",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891325003706/exhibit_99-1.htm"
+  ],
+  [
+   "6-K 13-may-2026",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891326002607/exhibit_99-1.htm"
+  ],
+  [
+   "6-K 14-jul-2026",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891326003477/zk2635682.htm"
+  ],
+  [
+   "6-K 17-ago-2026 (estados semestrales, nota 3)",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891326004158/R9.htm"
+  ],
+  [
+   "20-F 2025",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891326002318/zk2635149.htm"
+  ],
+  [
+   "insiders.json",
+   ""
   ]
  ]
 }
