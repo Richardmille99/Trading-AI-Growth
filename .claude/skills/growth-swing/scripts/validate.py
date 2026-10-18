@@ -46,9 +46,12 @@ def validate(case):
     ends = [x.get("end") for x in q]
     if ends != sorted(ends):
         E.append("financials.quarters no está ordenado de antiguo a reciente")
-    for x in q:
+    for i, x in enumerate(q):
         if x.get("revenue") is None:
-            E.append(f"trimestre {x.get('period')}: revenue vacío")
+            if x.get("gap") and x.get("gap_note") and 0 < i < len(q) - 1:
+                W.append(f"trimestre {x.get('period')}: sin datos publicados ({x['gap_note']}); TTM y métricas que lo usan saldrán n/d")
+            else:
+                E.append(f"trimestre {x.get('period')}: revenue vacío" + (" (un hueco con gap: true solo vale entre trimestres con datos)" if x.get("gap") else ""))
     if not case.get("financials", {}).get("shares_out"):
         W.append("financials.shares_out vacío: sin market cap")
 

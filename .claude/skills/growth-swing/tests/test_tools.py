@@ -37,6 +37,9 @@ def test_new_case_helpers():
     idx = dict(filings=[dict(form="4", items=None), dict(form="8-K", items="5.02"), dict(form="8-K", items="2.02,9.01", filed="2026-08-05"),
                         dict(form="8-K", items="2.02", filed="2026-05-05")])
     assert last_earnings_8k(idx)["filed"] == "2026-08-05"
+    from new_case import same_day_earnings_8ks
+    idx["filings"].insert(0, dict(form="8-K", items="2.02,5.02,9.01", filed="2026-08-05"))
+    assert len(same_day_earnings_8ks(idx, last_earnings_8k(idx))) == 2
     q = [_q("2026-03-31", 1, 1), _q("2026-06-30", 1, 1)]
     assert quarter_for(q, "2026-08-05")["end"] == "2026-06-30"
     assert quarter_for(q, "2026-06-30")["end"] == "2026-03-31", "a release on the quarter-end day reports the previous quarter"
@@ -127,6 +130,22 @@ def test_site_markdown():
     print("site ok")
 
 
+def test_validate_gap_quarter():
+    from validate import validate
+    case = json.load(open(os.path.join(HERE, "..", "examples", "EXMP_synthetic.json"), encoding="utf-8"))
+    q = case["financials"]["quarters"]
+    mid = dict(q[3], revenue=None, gross_profit=None)
+    q[3] = mid
+    errs, _ = validate(case)
+    assert any("revenue vacío" in e for e in errs), "a silent hole is an error"
+    mid.update(gap=True, gap_note="no publicado")
+    errs, warns = validate(case)
+    assert not any("revenue vacío" in e for e in errs) and any("sin datos publicados" in w for w in warns)
+    q[-1] = dict(q[-1], revenue=None, gap=True, gap_note="x")
+    assert any("revenue vacío" in e for e in validate(case)[0]), "the last quarter can never be a gap"
+    print("validate gap ok")
+
+
 def test_profiles():
     p = json.load(open(os.path.join(HERE, "..", "assets", "sector_profiles.json"), encoding="utf-8"))
     for k, v in p.items():
@@ -141,4 +160,4 @@ def test_profiles():
 
 if __name__ == "__main__":
     test_casekit(); test_new_case_helpers(); test_consensus(); test_breadth_and_regime(); test_journal_outcome()
-    test_site_markdown(); test_profiles()
+    test_site_markdown(); test_validate_gap_quarter(); test_profiles()

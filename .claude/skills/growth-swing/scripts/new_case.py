@@ -43,18 +43,32 @@ def last_earnings_8k(index):
     return next((r for r in index["filings"] if r["form"] in ("8-K", "8-K/A") and "2.02" in (r.get("items") or "")), None)
 
 
-def exhibit_991(cik, filing, ua):
-    """[label, url] of the press release exhibit of an 8-K; falls back to the primary document."""
-    acc = filing["accession"].replace("-", "")
-    try:
-        items = _json(f"{E}/{int(cik)}/{acc}/index.json", ua)["directory"]["item"]
-        ex = [i["name"] for i in items if i["name"].lower().endswith((".htm", ".html")) and "99" in i["name"]
-              and i["name"] != filing.get("primary_doc")]
-        if ex:
-            return [f'EX-99.1 8-K {filing["filed"]}', f"{E}/{int(cik)}/{acc}/{sorted(ex)[0]}"]
-    except Exception:  # noqa: BLE001 — the index is a convenience; the 8-K itself is a valid source
-        pass
-    return [f'8-K {filing["filed"]} (Item 2.02)', filing["url"]]
+def same_day_earnings_8ks(index, first):
+    """Every 8-K with Item 2.02 filed the same day as `first` (a company may file the results and, say, a CFO change apart)."""
+    return [r for r in index["filings"] if r["form"] in ("8-K", "8-K/A") and "2.02" in (r.get("items") or "")
+            and r["filed"] == first["filed"]]
+
+
+def exhibit_991(cik, filings, ua):
+    """[label, url] of the press-release exhibit: the largest '99' exhibit among `filings` (the results release is
+    longer than a same-day announcement); falls back to the first filing's primary document."""
+    best = None
+    for f in filings:
+        acc = f["accession"].replace("-", "")
+        try:
+            items = _json(f"{E}/{int(cik)}/{acc}/index.json", ua)["directory"]["item"]
+        except Exception:  # noqa: BLE001 — the index is a convenience; the 8-K itself is a valid source
+            continue
+        for i in items:
+            n = i["name"]
+            if n.lower().endswith((".htm", ".html")) and "99" in n and n != f.get("primary_doc"):
+                size = int(i.get("size") or 0)
+                if best is None or size > best[0]:
+                    best = (size, f, f"{E}/{int(cik)}/{acc}/{n}")
+        time.sleep(.2)
+    if best:
+        return [f'EX-99.1 8-K {best[1]["filed"]}', best[2]]
+    return [f'8-K {filings[0]["filed"]} (Item 2.02)', filings[0]["url"]]
 
 
 def quarter_for(quarters, day):
@@ -109,7 +123,7 @@ def build(uni_path, t, ua, today, force=False, earn=None, log=print):
         e_date, e_timing, e_src = earn["date"], earn["timing"], [earn.get("label") or f"Resultados {earn['date']}", earn.get("url", "")]
     else:
         f8 = None if foreign else last_earnings_8k(idx)
-        e_date, e_timing, e_src = (f8["filed"], f8.get("session") or "amc", exhibit_991(cik, f8, ua)) if f8 else (None, None, None)
+        e_date, e_timing, e_src = (f8["filed"], f8.get("session") or "amc", exhibit_991(cik, same_day_earnings_8ks(idx, f8), ua)) if f8 else (None, None, None)
         if f8 and f8.get("session") == "intraday":
             e_timing = "amc"  # released during the session: the reaction is the next session's
     lastq = quarter_for(q, e_date) if e_date else None
@@ -136,12 +150,12 @@ def build(uni_path, t, ua, today, force=False, earn=None, log=print):
     cpath = casekit.case_path(root, t)
     if os.path.exists(cpath) and not force:
         raise SystemExit(f"{t}: {cpath} ya existe (usa --force para rehacerlo; en modo actualización no se rehace nada)")
-    casekit.save(root, t, case)
     errs, warns = validate(case)
     for w in warns:
         log(f"  AVISO: {w}")
     if errs:
-        raise SystemExit(f"{t}: validate.py → {errs}")
+        raise SystemExit(f"{t}: validate.py → {errs} (caso no guardado)")
+    casekit.save(root, t, case)
     u["status"] = "fundamentales"
     json.dump(uni, open(uni_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     notes = os.path.join(d, "notas.md")
