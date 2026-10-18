@@ -149,5 +149,44 @@ def test_example():
     print("example ok")
 
 
+IXBRL = """<html><body><xbrli:context id="Q"><xbrli:entity><xbrli:identifier>1</xbrli:identifier></xbrli:entity>
+<xbrli:period><xbrli:startDate>2026-04-01</xbrli:startDate><xbrli:endDate>2026-06-30</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="QSEG"><xbrli:entity><xbrli:identifier>1</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="x">y</xbrldi:explicitMember></xbrli:segment></xbrli:entity>
+<xbrli:period><xbrli:startDate>2026-04-01</xbrli:startDate><xbrli:endDate>2026-06-30</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="I"><xbrli:entity><xbrli:identifier>1</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2026-06-30</xbrli:instant></xbrli:period></xbrli:context>
+<ix:nonFraction name="us-gaap:Revenues" contextRef="Q" unitRef="usd" scale="6" decimals="-5">1,234.5</ix:nonFraction>
+<ix:nonFraction name="us-gaap:Revenues" contextRef="QSEG" unitRef="usd" scale="6">999</ix:nonFraction>
+<ix:nonFraction name="us-gaap:NetIncomeLoss" contextRef="Q" unitRef="usd" scale="6" sign="-">(<span>12</span>)</ix:nonFraction>
+<ix:nonFraction name="us-gaap:InventoryNet" contextRef="I" unitRef="usd" scale="3" format="ixt:fixed-zero">—</ix:nonFraction>
+<ix:nonFraction name="us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding" contextRef="Q" unitRef="shares" scale="6">50.5</ix:nonFraction>
+</body></html>"""
+
+
+def test_ixbrl_fallback():
+    from xbrl import facts_from_ixbrl, merge_facts
+    base = {"facts": {"us-gaap": {"Revenues": {"units": {"USD": [fact("2026-01-01", "2026-03-31", 1.1e9, "2026-05-01")]}}}}}
+    extra = facts_from_ixbrl(IXBRL, "2026-08-01", "10-Q")
+    rev = extra["facts"]["us-gaap"]["Revenues"]["units"]["USD"]
+    assert len(rev) == 1 and rev[0]["val"] == 1234.5e6, "segment context must be skipped, scale applied"
+    assert extra["facts"]["us-gaap"]["NetIncomeLoss"]["units"]["USD"][0]["val"] == -12e6, "sign=- negates"
+    assert extra["facts"]["us-gaap"]["InventoryNet"]["units"]["USD"][0]["val"] == 0, "fixed-zero"
+    merge_facts(base, extra)
+    res = quarters_from_facts(base, inline_ends={"2026-06-30"})
+    q = res["quarters"][-1]
+    assert q["end"] == "2026-06-30" and q["revenue"] == 1234.5e6 and q["diluted_shares"] == 50.5e6 and "src" in q
+    assert "src" not in res["quarters"][0]
+    print("ixbrl fallback ok")
+
+
+def test_edgar_session():
+    from edgar import to_new_york, session_of
+    et = to_new_york("2026-10-01T00:02:00.000Z")
+    assert et.strftime("%Y-%m-%d %H:%M") == "2026-09-30 20:02" and session_of(et) == "amc"
+    w = to_new_york("2026-12-02T12:00:00.000Z")
+    assert w.hour == 7 and session_of(w) == "bmo", "EST in winter"
+    assert session_of(to_new_york("2026-07-01T15:00:00.000Z")) == "intraday"
+    print("edgar session ok")
+
+
 if __name__ == "__main__":
-    test_xbrl(); test_catalysts(); test_dcf_and_conviction(); test_dilution_and_runway_rules(); test_peer_gm_relative_to_profile(); test_example()
+    test_xbrl(); test_catalysts(); test_dcf_and_conviction(); test_dilution_and_runway_rules(); test_peer_gm_relative_to_profile(); test_example(); test_ixbrl_fallback(); test_edgar_session()

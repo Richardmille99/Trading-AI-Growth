@@ -9,8 +9,12 @@ consecutive cumulative facts that share a fiscal-year start (6M−3M, 9M−6M, F
 and discretises year-to-date cash-flow lines. Balances: instant facts at the quarter end.
 Average diluted shares are not additive: only direct quarterly facts are used (Q4 stays null unless
 reported). Output quarters are ordered oldest → newest and carry `src` with the tag used.
+
+companyfacts can lag a new 10-Q/10-K by weeks. With --filings data/<T>/filings.json, every 10-Q/10-K whose period
+ends after the last quarter in companyfacts is read directly (inline XBRL of its primary document, facts without
+dimensions only) and merged before computing the quarters; the quarter's `src` says so.
 """
-import argparse, json, sys, urllib.request
+import argparse, html as _html, json, re, sys, time, urllib.request
 from datetime import date
 
 CONCEPTS = {
@@ -133,7 +137,7 @@ def _label(end):
     return f"{mes}-{d.year % 100:02d}"
 
 
-def quarters_from_facts(facts, n=12):
+def quarters_from_facts(facts, n=12, inline_ends=()):
     series, src = {}, {}
     for k, (kind, tags) in CONCEPTS.items():
         tag, ser = pick(facts, kind, tags)
@@ -152,12 +156,92 @@ def quarters_from_facts(facts, n=12):
             q["debt"] += q["debt_current"]
         for k in ("cost_of_revenue", "st_investments", "debt_current"):
             q.pop(k)
+        if end in inline_ends:
+            q["src"] = "XBRL incrustado del 10-Q/10-K (companyfacts aún no lo incluía)"
         quarters.append(q)
     dei = facts.get("facts", {}).get("dei", {}).get("EntityCommonStockSharesOutstanding", {}).get("units", {}).get("shares", [])
     shares_out = max(dei, key=lambda e: (e["end"], e.get("filed", ""))) if dei else None
     return dict(quarters=quarters, shares_out=shares_out and shares_out["val"],
                 shares_out_date=shares_out and shares_out["end"], tags=src, source="sec-xbrl-companyfacts",
                 entity=facts.get("entityName"), cik=facts.get("cik"))
+
+
+# ---------- inline XBRL fallback (filings not yet in companyfacts) ----------
+_CTX = re.compile(r"<(?:\w+:)?context\b[^>]*\bid=\"([^\"]+)\"[^>]*>(.*?)</(?:\w+:)?context>", re.S | re.I)
+_FACT = re.compile(r"<ix:nonFraction\b([^>]*)>(.*?)</ix:nonFraction>", re.S | re.I)
+_ATTR = re.compile(r'([\w:]+)="([^"]*)"')
+
+
+def _tagval(block, name):
+    m = re.search(rf"<(?:\w+:)?{name}>\s*([^<\s]+)\s*</(?:\w+:)?{name}>", block, re.I)
+    return m.group(1) if m else None
+
+
+def facts_from_ixbrl(doc, filed, form):
+    """companyfacts-shaped dict from an inline-XBRL document. Dimensional contexts (segments) are skipped."""
+    ctx = {}
+    for cid, body in _CTX.findall(doc):
+        if re.search(r"<(?:\w+:)?segment\b", body, re.I):
+            continue
+        inst = _tagval(body, "instant")
+        ctx[cid] = dict(end=inst) if inst else dict(start=_tagval(body, "startDate"), end=_tagval(body, "endDate"))
+    out = {"facts": {}}
+    seen = set()
+    for attrs, inner in _FACT.findall(doc):
+        a = dict(_ATTR.findall(attrs))
+        c = ctx.get(a.get("contextRef"))
+        if not c or not c.get("end") or ":" not in a.get("name", ""):
+            continue
+        txt = _html.unescape(re.sub(r"<[^>]+>", "", inner)).strip().replace(",", "").replace(" ", "").strip("()")
+        if "fixed-zero" in a.get("format", "") or txt in ("", "—", "-", "–"):
+            val = 0.0
+        else:
+            try:
+                val = float(txt)
+            except ValueError:
+                continue
+        val *= 10 ** int(a.get("scale", "0") or 0)
+        if a.get("sign") == "-":
+            val = -val
+        prefix, local = a["name"].split(":", 1)
+        ns = {"us-gaap": "us-gaap", "dei": "dei", "ifrs-full": "ifrs-full"}.get(prefix)
+        if not ns:
+            continue
+        u = (a.get("unitRef") or "").lower()
+        unit = "USD/shares" if "usd" in u and "share" in u else "USD" if "usd" in u else "shares" if "share" in u else u
+        key = (ns, local, c.get("start"), c["end"], unit)
+        if key in seen:
+            continue
+        seen.add(key)
+        e = dict(c, val=int(val) if val == int(val) else val, filed=filed, form=form, src="inline-xbrl")
+        out["facts"].setdefault(ns, {}).setdefault(local, {"units": {}})["units"].setdefault(unit, []).append(e)
+    return out
+
+
+def merge_facts(base, extra):
+    for ns, tags in extra.get("facts", {}).items():
+        for tag, node in tags.items():
+            dst = base.setdefault("facts", {}).setdefault(ns, {}).setdefault(tag, {"units": {}})["units"]
+            for unit, es in node["units"].items():
+                dst.setdefault(unit, []).extend(es)
+    return base
+
+
+def supplement(facts, index, ua, log=print):
+    """Merge inline XBRL of 10-Q/10-K filings whose period ends after the last revenue quarter in companyfacts."""
+    _, rev = pick(facts, "flow", CONCEPTS["revenue"][1])
+    last = max(rev) if rev else "0000"
+    added = []
+    for r in sorted(index["filings"], key=lambda x: x["filed"]):
+        if r["form"] in ("10-Q", "10-K", "10-Q/A", "10-K/A") and (r.get("report_date") or "") > last and r.get("url"):
+            req = urllib.request.Request(r["url"], headers={"User-Agent": ua, "Accept-Encoding": "identity"})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                doc = resp.read().decode("utf-8", "replace")
+            merge_facts(facts, facts_from_ixbrl(doc, r["filed"], r["form"]))
+            added.append(r["report_date"])
+            log(f"  + {r['form']} {r['report_date']} leído del XBRL del documento (companyfacts aún no lo tenía)")
+            time.sleep(.25)
+    return added
 
 
 def fetch(cik, ua):
@@ -174,6 +258,7 @@ def main():
     ap.add_argument("--file")
     ap.add_argument("--out")
     ap.add_argument("--n", type=int, default=12)
+    ap.add_argument("--filings", help="data/<T>/filings.json: lee del documento los 10-Q/10-K que companyfacts aún no tiene")
     a = ap.parse_args()
     if a.file:
         facts = json.load(open(a.file, encoding="utf-8"))
@@ -181,7 +266,8 @@ def main():
         facts = fetch(a.cik, a.ua)
     else:
         ap.error("--file o --cik con --ua")
-    res = quarters_from_facts(facts, a.n)
+    added = supplement(facts, json.load(open(a.filings, encoding="utf-8")), a.ua) if a.filings and a.ua else []
+    res = quarters_from_facts(facts, a.n, inline_ends=set(added))
     txt = json.dumps(res, ensure_ascii=False, indent=1)
     if a.out:
         open(a.out, "w", encoding="utf-8").write(txt)

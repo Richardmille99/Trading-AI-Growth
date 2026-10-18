@@ -4,9 +4,11 @@ Usage:
   python edgar.py --cik 1835632 --ua "Nombre email" --out semis/data/MRVL/filings.json [--since 2024-01-01]
   python edgar.py --file filings.json --after <accession>     (update mode: filings newer than last_filing_seen)
 
-Each row: form, filed, report_date, accession, primary_doc, items (8-K items), url (primary document).
+Each row: form, filed, report_date, accession, primary_doc, items (8-K items), url (primary document),
+accepted_et (acceptance time in New York, AAAA-MM-DDTHH:MM) and session ('bmo' before 9:30, 'intraday', 'amc' from 16:00).
 """
 import argparse, json, sys, time, urllib.request
+from datetime import datetime, timedelta
 
 
 def _get(url, ua):
@@ -21,12 +23,37 @@ def _get(url, ua):
             time.sleep(2 ** i)
 
 
+def _nth_sunday(year, month, n):
+    d = datetime(year, month, 1)
+    d += timedelta(days=(6 - d.weekday()) % 7)
+    return d + timedelta(weeks=n - 1)
+
+
+def to_new_york(utc_iso):
+    """EDGAR acceptanceDateTime (UTC, '...Z') → New York local time, US DST rules (no tzdata needed)."""
+    if not utc_iso:
+        return None
+    u = datetime.strptime(utc_iso[:19], "%Y-%m-%dT%H:%M:%S")
+    start = _nth_sunday(u.year, 3, 2) + timedelta(hours=7)   # 2:00 EST = 7:00 UTC
+    end = _nth_sunday(u.year, 11, 1) + timedelta(hours=6)    # 2:00 EDT = 6:00 UTC
+    return u - timedelta(hours=4 if start <= u < end else 5)
+
+
+def session_of(et):
+    if et is None:
+        return None
+    hm = et.hour * 60 + et.minute
+    return "bmo" if hm < 9 * 60 + 30 else "amc" if hm >= 16 * 60 else "intraday"
+
+
 def _rows(block, cik):
-    keys = ("form", "filingDate", "reportDate", "accessionNumber", "primaryDocument", "items")
-    cols = [block.get(k, []) for k in keys]
-    for form, filed, rep, acc, doc, items in zip(*cols):
+    keys = ("form", "filingDate", "reportDate", "accessionNumber", "primaryDocument", "items", "acceptanceDateTime")
+    cols = [block.get(k, [None] * len(block.get("form", []))) for k in keys]
+    for form, filed, rep, acc, doc, items, accepted in zip(*cols):
+        et = to_new_york(accepted)
         yield dict(form=form, filed=filed, report_date=rep or None, accession=acc, primary_doc=doc, items=items or None,
-                   url=f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}" if doc else None)
+                   url=f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}" if doc else None,
+                   accepted_et=et.strftime("%Y-%m-%dT%H:%M") if et else None, session=session_of(et))
 
 
 def filings(cik, ua, since="2023-01-01"):
