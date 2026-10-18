@@ -1,0 +1,594 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "RMBS",
+  "issuer": "Rambus",
+  "cik": "0000917273",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_fabless",
+  "theme": "Memoria · ciclo de IA",
+  "group": "Chips que acompañan a la memoria: buffers y PMIC de módulos DDR5, controladores NAND, IP de interfaz",
+  "subgroup": "interfaz_controladores",
+  "synthetic": false,
+  "primary_catalyst": "q2_26",
+  "descriptor": "Chips de interfaz para módulos de memoria DDR5 (buffers y PMIC) más licencias de patentes e IP de interfaz y seguridad. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001193125-26-413981",
+  "last_filing_seen_date": "2026-10-05",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 87.25,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "sec-xbrl-companyfacts",
+  "shares_out": 108461603,
+  "shares_out_date": "2026-06-30",
+  "shares_out_note": "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)",
+  "quarters": [
+   {
+    "period": "sep-23",
+    "end": "2023-09-30",
+    "revenue": 105298000,
+    "gross_profit": 81266000,
+    "op_income": 104871000,
+    "net_income": 103198000,
+    "cfo": 51588000,
+    "capex": 7967000,
+    "capitalized_sw": null,
+    "sbc": 10039000,
+    "diluted_shares": 110775000,
+    "basic_shares": 108317000,
+    "ar": 65101000,
+    "deferred_rev": 17459000,
+    "rpo": 20000000,
+    "inventory": 34615000,
+    "cash": 375546000,
+    "debt": 0,
+    "total_assets": 1184331000
+   },
+   {
+    "period": "dic-23",
+    "end": "2023-12-31",
+    "revenue": 122225000,
+    "gross_profit": 98109000,
+    "op_income": 35131000,
+    "net_income": 58545000,
+    "cfo": 54850000,
+    "capex": 786000,
+    "capitalized_sw": null,
+    "sbc": 10534000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 82925000,
+    "deferred_rev": 17393000,
+    "rpo": 19300000,
+    "inventory": 36154000,
+    "cash": 425844000,
+    "debt": null,
+    "total_assets": 1258227000
+   },
+   {
+    "period": "mar-24",
+    "end": "2024-03-31",
+    "revenue": 117871000,
+    "gross_profit": 94212000,
+    "op_income": 30131000,
+    "net_income": 32898000,
+    "cfo": 39119000,
+    "capex": 3008000,
+    "capitalized_sw": null,
+    "sbc": 9496000,
+    "diluted_shares": 110037000,
+    "basic_shares": 108090000,
+    "ar": 86940000,
+    "deferred_rev": 16399000,
+    "rpo": 18100000,
+    "inventory": 47599000,
+    "cash": 391057000,
+    "debt": null,
+    "total_assets": 1208836000
+   },
+   {
+    "period": "jun-24",
+    "end": "2024-06-30",
+    "revenue": 132138000,
+    "gross_profit": 105307000,
+    "op_income": 40322000,
+    "net_income": 36056000,
+    "cfo": 70422000,
+    "capex": 11330000,
+    "capitalized_sw": null,
+    "sbc": 11651000,
+    "diluted_shares": 109047000,
+    "basic_shares": 107721000,
+    "ar": 83210000,
+    "deferred_rev": 15385000,
+    "rpo": 18900000,
+    "inventory": 52596000,
+    "cash": 432886000,
+    "debt": null,
+    "total_assets": 1250623000
+   },
+   {
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "revenue": 145513000,
+    "gross_profit": 117411000,
+    "op_income": 54695000,
+    "net_income": 48665000,
+    "cfo": 62074000,
+    "capex": 9870000,
+    "capitalized_sw": null,
+    "sbc": 11998000,
+    "diluted_shares": 108474000,
+    "basic_shares": 107235000,
+    "ar": 87198000,
+    "deferred_rev": 18404000,
+    "rpo": 28200000,
+    "inventory": 48905000,
+    "cash": 432697000,
+    "debt": null,
+    "total_assets": 1251570000
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "revenue": 161102000,
+    "gross_profit": 129587000,
+    "op_income": 57861000,
+    "net_income": 62202000,
+    "cfo": 58984000,
+    "capex": 6489000,
+    "capitalized_sw": null,
+    "sbc": 11735000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 122813000,
+    "deferred_rev": 19903000,
+    "rpo": 25700000,
+    "inventory": 44634000,
+    "cash": 481797000,
+    "debt": null,
+    "total_assets": 1343136000
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 166664000,
+    "gross_profit": 133822000,
+    "op_income": 63144000,
+    "net_income": 60303000,
+    "cfo": 77414000,
+    "capex": 7872000,
+    "capitalized_sw": null,
+    "sbc": 11383000,
+    "diluted_shares": 108628000,
+    "basic_shares": 107236000,
+    "ar": 119142000,
+    "deferred_rev": 20336000,
+    "rpo": 25900000,
+    "inventory": 44701000,
+    "cash": 514393000,
+    "debt": null,
+    "total_assets": 1379365000
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 172209000,
+    "gross_profit": 137439000,
+    "op_income": 62993000,
+    "net_income": 57935000,
+    "cfo": 94359000,
+    "capex": 6507000,
+    "capitalized_sw": null,
+    "sbc": 14233000,
+    "diluted_shares": 108520000,
+    "basic_shares": 107586000,
+    "ar": 107077000,
+    "deferred_rev": 18845000,
+    "rpo": 31300000,
+    "inventory": 38603000,
+    "cash": 594830000,
+    "debt": null,
+    "total_assets": 1467811000
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": 178513000,
+    "gross_profit": 141921000,
+    "op_income": 63255000,
+    "net_income": 48377000,
+    "cfo": 88429000,
+    "capex": 5946000,
+    "capitalized_sw": null,
+    "sbc": 14206000,
+    "diluted_shares": 109304000,
+    "basic_shares": 107622000,
+    "ar": 105377000,
+    "deferred_rev": 23809000,
+    "rpo": 23900000,
+    "inventory": 44606000,
+    "cash": 673303000,
+    "debt": null,
+    "total_assets": 1406372000
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": 190244000,
+    "gross_profit": 150033000,
+    "op_income": 70826000,
+    "net_income": 63840000,
+    "cfo": 99817000,
+    "capex": 6517000,
+    "capitalized_sw": null,
+    "sbc": 14445000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 137476000,
+    "deferred_rev": 29980000,
+    "rpo": 34700000,
+    "inventory": 44098000,
+    "cash": 761827000,
+    "debt": null,
+    "total_assets": 1529545000
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 180189000,
+    "gross_profit": 143657000,
+    "op_income": 61758000,
+    "net_income": 59858000,
+    "cfo": 83209000,
+    "capex": 11635000,
+    "capitalized_sw": null,
+    "sbc": 11453000,
+    "diluted_shares": 109716000,
+    "basic_shares": 108030000,
+    "ar": 109297000,
+    "deferred_rev": 23719000,
+    "rpo": 30900000,
+    "inventory": 58424000,
+    "cash": 786139000,
+    "debt": null,
+    "total_assets": 1533146000
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 207385000,
+    "gross_profit": 165412000,
+    "op_income": 72731000,
+    "net_income": 67605000,
+    "cfo": 61249000,
+    "capex": 9071000,
+    "capitalized_sw": null,
+    "sbc": 15886000,
+    "diluted_shares": 109977000,
+    "basic_shares": 108428000,
+    "ar": 144094000,
+    "deferred_rev": 21179000,
+    "rpo": 34300000,
+    "inventory": 74836000,
+    "cash": 824954000,
+    "debt": null,
+    "total_assets": 1612328000,
+    "src": "XBRL incrustado del 10-Q/10-K (companyfacts aún no lo incluía)"
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Mezcla de ingresos (2T26)",
+    "value": "Producto $99,2M (+22%) · royalties $84,2M · contratos y otros $24,0M",
+    "prior": "Producto $81,3M · royalties $68,6M · contratos $22,3M (2T25)",
+    "src": [
+     [
+      "EX-99.1 8-K 27-jul-2026",
+      "https://www.sec.gov/Archives/edgar/data/917273/000119312526318063/rmbs-ex99_1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Facturación de licencias (2T26)",
+    "value": "$84,1M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 27-jul-2026",
+      "https://www.sec.gov/Archives/edgar/data/917273/000119312526318063/rmbs-ex99_1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T26",
+    "value": "Ingresos $210–216M; producto $110–116M; royalties $69–75M; BPA ajustado $0,75–0,82",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 27-jul-2026",
+      "https://www.sec.gov/Archives/edgar/data/917273/000119312526318063/rmbs-ex99_1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Recompra acelerada (ASR)",
+    "value": "$100M con Mizuho; entrega inicial ≈ 796.000 acciones (5-ago-2026)",
+    "prior": "—",
+    "src": [
+     [
+      "8-K 5-ago-2026 (Item 1.01)",
+      "https://www.sec.gov/Archives/edgar/data/917273/000119312526333887/d122300d8k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Inventario (días, 2T26)",
+    "value": "≈ 162 días; inventario +94% interanual",
+    "prior": "—",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto de producto",
+    "value": "[VERIFY: 10-Q 2T26; una fuente lo sitúa en el 60% bajo]",
+    "prior": "—",
+    "src": [
+     [
+      "",
+      ""
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": false
+ },
+ "catalysts": [
+  {
+   "id": "q2_26",
+   "type": "earnings",
+   "date": "2026-07-27",
+   "time_et": "after-hours",
+   "headline": "Resultados 2T26: ingresos récord $207,4M (+20%) frente a $199,3M de consenso; BPA ajustado $0,77 frente a $0,72; guía 3T $210–216M (consenso $212,97M)",
+   "sources": [
+    [
+     "EX-99.1 8-K 27-jul-2026",
+     "https://www.sec.gov/Archives/edgar/data/917273/000119312526318063/rmbs-ex99_1.htm"
+    ],
+    [
+     "MarketBeat: consenso BPA $0,72 e ingresos $199,3M",
+     "https://www.marketbeat.com/stocks/NASDAQ/RMBS/earnings/"
+    ],
+    [
+     "Hudson Labs: consenso $0,71 y $198,3M; guía 3T frente a $0,78 y $212,97M",
+     "https://hudson-labs.com/research/rambus-q2-2026-earnings"
+    ]
+   ],
+   "rev_growth_yoy": 0.2042634240951402,
+   "rev_growth_yoy_prev": 0.08115129842077473,
+   "rev_surprise_pct": 4.1,
+   "eps_surprise_pct": 6.9,
+   "guide_raise": false,
+   "guide_change_pct": 0.0,
+   "gm_change_bp": -5,
+   "nonrecurring_in_beat": false,
+   "note": "La guía del 3T queda en el consenso (punto medio $213M frente a $212,97M). El mercado vendió el informe (−9% al cierre); una fuente lo atribuye a la caída del margen bruto de producto hacia el 60% bajo [VERIFY]. Sin partidas no recurrentes en el beat.",
+   "gap_pct": -5.5,
+   "rvol": 1.85,
+   "close_in_range": 0.26,
+   "day2_follow": false,
+   "dollar_volume": 491663250,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-07-28",
+   "reaction_close_chg_pct": -8.99
+  }
+ ],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $21,0M; 9 marcados",
+   "shares": 169474.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "FAN XIANZHI SEAN (EVP, COO) $5,8M, máx. 18% en 2026-T2, 2 ventas sin 10b5-1; Seraphin Luc (consejero, President and CEO) $4,4M, máx. 11% en 2026-T1; Higashi Emiko (consejero) $2,4M, máx. 23% en 2026-T2, 3 ventas sin 10b5-1; Sayiner Necip (consejero) $2,1M, máx. 45% en 2026-T2, 2 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 81224622.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-18): $5.200,0M de no afiliados a 2025-06-30 ÷ cierre de $64,02 = 81,2M acciones [VERIFY: estimación; no recoge cambios posteriores]"
+ },
+ "peers": [
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "rev_yoy": 3.7926646045072916,
+   "accel_pp": 33.55094598991846,
+   "gm": 0.8071598041865633,
+   "gm_rel": 0.4071598041865633,
+   "rule40": 300.5977561745952,
+   "ev_sales": 7.160540033779174,
+   "rs_3m": 77.77777777777779
+  },
+  {
+   "ticker": "PENG",
+   "name": "Penguin Solutions",
+   "rev_yoy": 0.6769698332751346,
+   "accel_pp": 20.060430163452292,
+   "gm": 0.2766005493604271,
+   "gm_rel": -0.2233994506395729,
+   "rule40": 17.054006408131055,
+   "ev_sales": 1.771733601030944,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "SIMO",
+   "name": "Silicon Motion Technology",
+   "rev_yoy": 1.2700440417767713,
+   "accel_pp": 21.52606287599297,
+   "gm": 0.4886941348969142,
+   "gm_rel": -0.11130586510308577,
+   "rule40": 61.70182948827737,
+   "ev_sales": 5.4428355168131946,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK hynix",
+   "rev_yoy": 2.56778145245594,
+   "accel_pp": 58.71211696555396,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 22.22222222222222
+  },
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "rev_yoy": 3.7159389794844815,
+   "accel_pp": 120.56144957086703,
+   "gm": 0.7147372580007902,
+   "gm_rel": 0.3147372580007902,
+   "rule40": 232.06181755477493,
+   "ev_sales": 9.160421530455615,
+   "rs_3m": 44.44444444444444
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 88.88888888888889,
+  "rs_3m": 11.11111111111111,
+  "rs_6m": 0.0,
+  "adr_pct": 5.443180366974443,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-10-26",
+   "kind": "earnings",
+   "text": "Resultados 3T26 [VERIFY: fecha estimada; el 3T25 se publicó el 27-oct-2025]",
+   "src": [
+    [
+     "8-K 27-oct-2025 (Item 2.02)",
+     "https://www.sec.gov/Archives/edgar/data/917273/000119312525251595/rmbs-20251027.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "Calidad y caja, crecimiento del 20% y caro; el mercado vendió la guía en línea.",
+  "setup": "−50% desde máximos; sin setup.",
+  "catalyst": "2T26: beat, guía en línea; −9%.",
+  "quality": "Inventario > ventas.",
+  "supply": "Limpia; recompras.",
+  "group": "El menos cíclico del universo."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Chips de interfaz para módulos de memoria DDR5 (buffers y PMIC) más licencias de patentes e IP de interfaz y seguridad"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Chips que acompañan a la memoria: buffers y PMIC de módulos DDR5, controladores NAND, IP de interfaz · mixto"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "El PR habla de «IA» y de «AI inference», pero la mitad de los ingresos son royalties y contratos con poco crecimiento; el motor es el producto (buffers y PMIC de DDR5)."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: beat de ingresos y de BPA con aceleración {m.accel_pp:pp}, pero guía en línea y el mercado lo vendió (−9%).",
+  "financials_note": "Trimestres de XBRL; el 2T26 (jun-26) se leyó del XBRL incrustado del 10-Q porque companyfacts aún no lo tenía, y coincide con el EX-99.1. En los 4T no hay acciones diluidas trimestrales en XBRL.",
+  "quality": [
+   "**INVENTARIO > VENTAS** activa: inventario +94% interanual frente a ingresos +20%. Puede ser preparación para el 3T (guía de producto +11–17% secuencial) o acumulación [VERIFY: 10-Q].",
+   "SBC ≈ 7% de los ingresos; recompras que lo compensan (ASR de $100M)."
+  ],
+  "supply_read": "Sin convertibles ni ampliaciones; recompras activas. Insiders: ver la fila de oferta.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM con crecimiento del 20%: el más caro por crecimiento del universo. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "Es el único del universo que no vive del precio de la memoria sino del contenido por módulo DDR5: crece menos, pero es menos cíclico. −50% desde el máximo.",
+  "risks": [
+   "Competencia en buffers DDR5 (Montage, Renesas) y presión en el margen de producto.",
+   "Royalties planos: el crecimiento depende solo del producto.",
+   "Resultados en ≈ 6 sesiones: solo vale un EP."
+  ],
+  "plan": [
+   "Resultados del 3T26 hacia el 26-oct [VERIFY]: en la ventana de ≤ 3 sesiones a partir del 21-oct, solo vale un EP.",
+   "**EP A/B si:** ingresos ≥ $224M (+5% sobre el consenso de ≈ $213M), producto ≥ $116M (techo de la guía) y guía del 4T ≥ +5% sobre el consenso.",
+   "**D si:** ingresos dentro de la guía y margen de producto en el 60% bajo: confirmaría la presión de precios.",
+   "Técnica: −50% desde el máximo, bajo la SMA 200; RS 1m en percentil 89 (rebote). Sin setup."
+  ],
+  "verdict": "Negocio de calidad (margen bruto del 80%, caja neta) con crecimiento moderado y caro; el mercado le quitó la prima de IA. Solo interesa con un EP el 26-oct."
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 27-jul-2026",
+   "https://www.sec.gov/Archives/edgar/data/917273/000119312526318063/rmbs-ex99_1.htm"
+  ],
+  [
+   "MarketBeat: consenso BPA $0,72 e ingresos $199,3M",
+   "https://www.marketbeat.com/stocks/NASDAQ/RMBS/earnings/"
+  ],
+  [
+   "Hudson Labs: consenso $0,71 y $198,3M; guía 3T frente a $0,78 y $212,97M",
+   "https://hudson-labs.com/research/rambus-q2-2026-earnings"
+  ]
+ ]
+}
