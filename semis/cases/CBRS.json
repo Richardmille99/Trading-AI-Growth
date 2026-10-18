@@ -16,7 +16,7 @@
   "descriptor": "Sistemas de cómputo de IA a escala de oblea (WSE) vendidos como hardware y, sobre todo, como servicio de inferencia en la nube. Salida a bolsa el 14-may-2026 a $185. Ingresos {m.revenue_ttm:usdM} TTM.",
   "last_filing_seen": "0001104659-26-114412",
   "last_filing_seen_date": "2026-10-07",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 127.20999908447266,
@@ -308,10 +308,22 @@
       ""
      ]
     ]
+   },
+   {
+    "name": "Principales tenedores (13G/13D)",
+    "value": "FMR 25,7% de la clase A · Foundation Capital 12,2% · Atreides 10,7% · JPMorgan 10,1% · Tiger Global 10,0% · Eclipse/Lior Susan (consejero) 4,3%",
+    "prior": "—",
+    "src": [
+     [
+      "insiders.json (Schedules 13G/13D)",
+      ""
+     ]
+    ]
    }
   ],
   "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_recurring_items": null,
+  "nongaap_note": "La conciliación non-GAAP del 2T26 está dominada por el SBC de la OPV ($377M). [VERIFY: desglose en el EX-99.1]. La compañía presenta además ingresos «core» que suman la amortización de warrants."
  },
  "catalysts": [
   {
@@ -319,22 +331,30 @@
    "type": "earnings",
    "date": "2026-08-12",
    "time_et": "after-hours",
-   "headline": "Resultados 2T26: ingresos $180,1M (+74%), con −$44,3M de amortización de warrant de cliente",
+   "headline": "Resultados 2T26: ingresos $180,1M (+74%) frente a un consenso de $193,6M; ingresos «core» $209,9M (+103%); guía 3T $214–216M; previsión anual elevada a $880–890M",
    "sources": [
     [
      "EX-99.1 8-K 12-ago-2026",
      "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrsannouncesfinancialresu.htm"
+    ],
+    [
+     "Benzinga / Barchart: consenso de ingresos $193,6M; BPA non-GAAP −$0,05 frente a −$0,19",
+     "https://www.benzinga.com/quote/CBRS/earnings-forecasts"
+    ],
+    [
+     "Newsquawk: el fallo es todo hardware; consenso 3T $211,9M",
+     "https://www.newsquawk.com/headlines/cerebras-cbrs-q2-2026-usd-revenue-1801mln-exp-194mln"
     ]
    ],
    "rev_growth_yoy": 0.7431911887110199,
    "rev_growth_yoy_prev": 0.9435444971460729,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": -7.0,
+   "eps_surprise_pct": 73.7,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": -1688,
    "nonrecurring_in_beat": false,
-   "note": "Ingresos reducidos en $44,3M por la amortización del warrant de cliente (contra-ingreso). SBC del trimestre $377,0M por la salida a bolsa. [VERIFY: hora de publicación; guía 3T $214–216M según terceros; sin consenso]",
+   "note": "Ingresos GAAP reducidos en $44,3M por la amortización de warrants de clientes; «core» es una medida de la compañía. Fallo en hardware y beat en nube. Margen bruto GAAP 14,2% (41,1% en el 1T); guía del 3T de 38–40% (non-GAAP) [VERIFY]. Al día siguiente, −12%.",
    "gap_pct": -16.05,
    "rvol": 2.63,
    "close_in_range": 0.57,
@@ -343,6 +363,120 @@
    "estimate_revisions": "unknown",
    "reaction_date": "2026-08-13",
    "reaction_close_chg_pct": -11.85
+  },
+  {
+   "id": "q1_26",
+   "type": "earnings",
+   "date": "2026-06-23",
+   "time_et": "after-hours",
+   "headline": "Resultados 1T26 (primero como cotizada): ingresos $193,4M (+94%)",
+   "sources": [
+    [
+     "8-K 23-jun-2026",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026044941/cbrs-20260623.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.9435444971460729,
+   "rev_growth_yoy_prev": 1.1027952557922753,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 275,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": -8.26,
+   "rvol": 2.71,
+   "close_in_range": 0.02,
+   "day2_follow": false,
+   "dollar_volume": 3895588671,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-06-24",
+   "reaction_close_chg_pct": -19.61
+  },
+  {
+   "id": "openai",
+   "type": "commercial_contract",
+   "date": "2025-12-01",
+   "time_et": null,
+   "headline": "MRA con OpenAI: 750 MW de capacidad de inferencia comprometida a 3–4 años (ampliable a 5), opción de 1,25 GW más; préstamo de $1.000M y warrant de hasta 33,4M acciones clase N",
+   "sources": [
+    [
+     "10-Q 2T26",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm"
+    ],
+    [
+     "424B4 (contratos materiales)",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    ]
+   ],
+   "counterparty": "OpenAI OpCo, LLC",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "definitive",
+   "value_firm": 20000000000.0,
+   "value_ceiling": null,
+   "duration_years": 4,
+   "economics_disclosed": true,
+   "recurring": true,
+   "issuer_history": "converted",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Fecha: diciembre de 2025 (día no publicado en el 10-Q). value_firm = estimación conservadora de la parte de OpenAI dentro de un RPO de $25.400M («a significant amount»); el 22% se reconoce en 24 meses [VERIFY: importe exacto]. Ingresos ya reconocidos: $74,4M en el 1S26. El préstamo de $1.000M es exigible si se rescinde el MRA. OpenAI recibe casi gratis (precio $0,00001) hasta 33,4M acciones por hitos: el cliente cobra en acciones."
+  },
+  {
+   "id": "aws",
+   "type": "partnership",
+   "date": "2026-06-15",
+   "time_et": null,
+   "headline": "Warrant a Amazon (AWS) de hasta 2,70M acciones clase N a $100, ligado a umbrales de pago",
+   "sources": [
+    [
+     "10-Q 2T26",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm"
+    ]
+   ],
+   "counterparty": "Amazon Web Services",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "partnership_undefined",
+   "value_firm": null,
+   "value_ceiling": null,
+   "duration_years": null,
+   "economics_disclosed": false,
+   "recurring": false,
+   "issuer_history": "unknown",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Fecha: junio de 2026 (día no publicado). 269.668 acciones vencidas al emitirse; el resto, por pagos de AWS. Sin importe de compras comprometido."
+  },
+  {
+   "id": "ipo",
+   "type": "financing",
+   "date": "2026-05-14",
+   "headline": "OPV de 30M acciones a $185 (+4,5M de sobreasignación)",
+   "sources": [
+    [
+     "424B4 13-may-2026",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    ]
+   ],
+   "financing_type": "underwritten",
+   "price_vs_market_pct": null,
+   "warrants": false,
+   "note": "Captación primaria de ≈ $5.550M antes de comisiones. La acción cotiza hoy a {m.price:px}, un 31% por debajo del precio de la OPV."
   }
  ],
  "supply": [
@@ -377,6 +511,75 @@
     [
      "424B4 (Lock-up Period)",
      "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $382.3M; 7 marcados",
+   "shares": 1855248.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "$382,3M vendidos tras las liberaciones de lock-up (jun–oct 2026): CTO Sean Lie $187M, COO Dhiraj Mallick $94M (50 ventas sin 10b5-1) y CEO Andrew Feldman $55M. El % de posición solo cuenta acciones clase A del Form 4; los fundadores conservan clase B convertible. ",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "openai_wt_v",
+   "kind": "warrants",
+   "name": "Warrant de OpenAI: tramo vencido (10,03M acciones clase N a $0,00001)",
+   "shares": 10033508,
+   "capacity_usd": null,
+   "price_basis": 1e-05,
+   "gate": "live",
+   "date": null,
+   "notes": "Vencidos en ene-2026 (4,46M) y jun-2026 (5,57M) y sin ejercer a 30-jun. Clase N convertible en A [VERIFY: restricciones de venta].",
+   "src": [
+    [
+     "10-Q 2T26",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm"
+    ]
+   ]
+  },
+  {
+   "id": "openai_wt_u",
+   "kind": "warrants",
+   "name": "Warrant de OpenAI: tramos pendientes (23,41M acciones)",
+   "shares": 23411518,
+   "capacity_usd": null,
+   "price_basis": 1e-05,
+   "gate": "gated",
+   "date": null,
+   "notes": "Vencen con la entrega de capacidad y con umbrales de capitalización o de pagos.",
+   "src": [
+    [
+     "10-Q 2T26",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm"
+    ]
+   ]
+  },
+  {
+   "id": "aws_wt",
+   "kind": "warrants",
+   "name": "Warrant de AWS (2,70M acciones a $100)",
+   "shares": 2696678,
+   "capacity_usd": null,
+   "price_basis": 100.0,
+   "gate": "gated",
+   "date": null,
+   "notes": "269.668 vencidas; el resto por pagos de AWS.",
+   "src": [
+    [
+     "10-Q 2T26",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm"
     ]
    ]
   }
@@ -481,7 +684,7 @@
   "type": null,
   "pivot": null,
   "stop": null,
-  "notes": null,
+  "notes": "Sin setup: bajo las EMA 10/20/50 y −67% desde el máximo. No hay media de 200 sesiones (cotiza desde mayo).",
   "rs_1m": 0.0,
   "rs_3m": 0.0,
   "rs_6m": null,
@@ -521,12 +724,12 @@
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo de semis."
+  "verdict": "OpenAI compromete 750 MW, pero la oferta (lock-ups y warrants) y un margen del 14% mandan hasta noviembre.",
+  "setup": "−67% desde máximos, bajo todas las medias; sin setup.",
+  "catalyst": "2T26 por confirmar: fallo del 7% en ingresos y aceleración negativa; OpenAI es el activo.",
+  "quality": "SBC pesada por la OPV; margen bruto GAAP del 14% en el 2T26.",
+  "supply": "Lock-ups el 28-oct y el 9-nov + 10M acciones de OpenAI vencidas.",
+  "group": "Peor RS del universo."
  },
  "snapshot": [
   [
@@ -563,16 +766,37 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "narrative_flags": [
+   "El cliente principal (OpenAI) cobra en acciones: hasta 33,4M acciones casi gratis, el 14% del capital. Los ingresos GAAP ya restan la amortización de esos warrants.",
+   "«Core revenue» (una medida propia) se presenta por delante de los ingresos GAAP en el titular del PR.",
+   "Clientes A y D son partes vinculadas entre sí. [VERIFY: si son G42 y MBZUAI, citados en los factores de riesgo]"
+  ],
+  "catalyst_read": "El catalizador principal (2T26) es **por confirmar**: crecimiento alto pero desacelerando ({m.accel_pp:pp}) y fallo del 7% en ingresos frente al consenso. El acuerdo con OpenAI (nota {m.cat_openai_score:sc}) es el activo real: compromiso de compra en firme y RPO de $25.400M, pero la contraparte cobra en acciones.",
   "financials_note": "Solo 10 trimestres públicos: 1T24–4T25 de la tabla «Quarterly Results of Operations» del 424B4 y 1T26–2T26 del XBRL de los 10-Q. El 424B4 no da CFO ni capex trimestrales del 3T25 y 4T25: el FCF TTM, la Rule of 40 y los accruals salen n/d [VERIFY]. Las acciones diluidas anteriores a la OPV no son comparables y se dejan vacías. El neto del 2T25 (+$309,5M) y del 3T24 (−$309,3M) incluye variaciones de valor razonable no operativas. Acciones: clases A + B + N de la portada del 10-Q (5-ago-2026).",
-  "quality": [],
-  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "quality": [
+   "Margen bruto GAAP del 14,2% en el 2T26 por el despliegue de la nube: TTM {m.gm_ttm:pctf}.",
+   "SBC de $377M en el 2T26 por la OPV: **SBC PESADA** ({m.sbc_pct:pctf} de ingresos TTM).",
+   "Capex de $417M en el trimestre, financiado con la OPV y el préstamo de OpenAI. CFO y capex del 3T25 y 4T25 no publicados: FCF TTM n/d.",
+   "Concentración: A 34%, B 32% y C 10% en el 2T26."
+  ],
+  "supply_read": "**Oferta en ventana alta** (nota {m.supply_score:sc}, «vigilar»; el tramo vencido de OpenAI no resta en la fórmula): 19,4M acciones el 28-oct y ≈ 36,5M el 9-nov por lock-up; 10,0M acciones vencidas del warrant de OpenAI; los fundadores ya vendieron $382M desde junio. Accionariado concentrado en fondos (FMR 25,7% de la clase A).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; sobre la previsión anual de $885M, ≈ 26×. El precio está −67% desde el máximo de 52 semanas y −31% bajo la OPV."
+  ],
+  "group_read": "Último del universo en RS (percentil 0 a 1 y 3 meses) y con fundamentales en el percentil {m.fund_pct:sc}.",
+  "risks": [
+   "Dependencia de OpenAI: el préstamo de $1.000M es exigible si se rescinde el MRA.",
+   "Ejecución de la nube: márgenes por debajo del 40% mientras se despliega capacidad.",
+   "Cascada de lock-ups y warrants en las próximas 4 semanas.",
+   "Partes vinculadas y Oriente Medio (G42 / MBZUAI) [VERIFY]."
+  ],
+  "plan": [
+   "Lock-ups el 28-oct (19,4M) y el 9-nov (resto). Resultados ≈ 11-nov [VERIFY]: si llegan después del 9-nov, el lock-up final cae **antes** del informe.",
+   "**No operar antes del 9-nov:** la oferta en ventana pasa del 30% del float.",
+   "**EP A/B tras el lock-up:** ingresos GAAP ≥ $226M (+5% sobre la guía), margen bruto ≥ 38% y previsión de 2027 con la entrega de capacidad a OpenAI, con gap ≥ 10% y volumen ≥ 3×.",
+   "**D:** nuevo fallo en hardware o margen bruto por debajo del 30%."
+  ],
+  "verdict": "Contrato real con OpenAI y crecimiento alto, pero con mucha oferta en ventana (lock-ups, warrants de clientes, fundadores vendiendo), margen hundido y la peor RS del universo. Esperar a que pase el 9-nov."
  },
  "sources": [
   [
@@ -580,12 +804,36 @@
    "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrsannouncesfinancialresu.htm"
   ],
   [
-   "424B4 (Shares Eligible for Future Sale)",
+   "Benzinga / Barchart: consenso de ingresos $193,6M; BPA non-GAAP −$0,05 frente a −$0,19",
+   "https://www.benzinga.com/quote/CBRS/earnings-forecasts"
+  ],
+  [
+   "Newsquawk: el fallo es todo hardware; consenso 3T $211,9M",
+   "https://www.newsquawk.com/headlines/cerebras-cbrs-q2-2026-usd-revenue-1801mln-exp-194mln"
+  ],
+  [
+   "8-K 23-jun-2026",
+   "https://www.sec.gov/Archives/edgar/data/2021728/000162828026044941/cbrs-20260623.htm"
+  ],
+  [
+   "10-Q 2T26",
+   "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm"
+  ],
+  [
+   "424B4 (contratos materiales)",
    "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
   ],
   [
-   "424B4 (Lock-up Period)",
+   "10-Q 2T26",
+   "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm"
+  ],
+  [
+   "424B4 13-may-2026",
    "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+  ],
+  [
+   "insiders.json",
+   ""
   ]
  ]
 }

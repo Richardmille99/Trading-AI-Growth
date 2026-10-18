@@ -66,7 +66,7 @@
    "profile": "ai_systems",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "El usuario escribió CRBS; el ticker es CBRS. IPO 14-may-2026 a $185: lock-up probable en noviembre (verificar en el prospecto). Pocos trimestres públicos",
    "purity_pct": 0,
    "purity_evidence": "No vende chips sueltos: hardware (sistemas de IA) 30% y nube y servicios 70% en el 2T26 (10-Q). Un solo segmento"
