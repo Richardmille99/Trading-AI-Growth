@@ -15,7 +15,7 @@ Usage:
 
 Returns use adjusted close; ADR, EMAs, highs and candidates use raw (split-adjusted) OHLC.
 """
-import argparse, csv, io, json, os, statistics, sys, time, urllib.request
+import argparse, csv, io, json, os, statistics, sys, time, urllib.error, urllib.request
 from datetime import date, datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -56,15 +56,24 @@ def from_yahoo(ticker):
     return out
 
 
+_UNREACHABLE = set()  # sources that failed at the network level: skipped for the rest of the run
+
+
 def download(ticker):
     errs = []
     for name, fn in (("stooq", from_stooq), ("yahoo", from_yahoo)):
+        if name in _UNREACHABLE:
+            continue
         try:
             rows = fn(ticker)
             if len(rows) >= 30:
                 return name, rows
             errs.append(f"{name}: {len(rows)} filas")
-        except Exception as e:  # network or format: try the next source
+        except urllib.error.URLError as e:  # blocked or down (HTTPError is a subclass: a 404 only skips this ticker)
+            if not isinstance(e, urllib.error.HTTPError):
+                _UNREACHABLE.add(name)
+            errs.append(f"{name}: {e}")
+        except Exception as e:  # format: try the next source
             errs.append(f"{name}: {e}")
     raise RuntimeError(f"{ticker}: sin precios ({'; '.join(errs)})")
 
@@ -219,17 +228,38 @@ def reaction(rows, day, timing="amc"):
 
 
 # ---------- regime proxy (swing.md §1) ----------
-def regime_proxy(M, idx=("QQQ", "IWM")):
-    """Trend-only proxy: both indices with close > EMA20 > EMA50 → risk_on; both below EMA50 → risk_off;
-    else neutral. Breadth (Stockbee ratio, T2108) is not computed: the evidence says so."""
+def regime_proxy(M, idx=("QQQ", "IWM"), breadth=None):
+    """Trend proxy: both indices with close > EMA20 > EMA50 → risk_on; both below EMA50 → risk_off; else neutral.
+    `breadth` (latest row of market.py's breadth.json, with 'state' and an 'evidence' text) adjusts it one step:
+    risk_on with weak breadth → neutral; risk_off with strong breadth → neutral; neutral with weak breadth and
+    < 30% of members over their SMA 50 → risk_off. Without breadth the evidence says so."""
     if any(i not in M or M[i]["ema50"] is None for i in idx):
         return "unknown", "Sin datos de índices."
     up = [M[i]["close"] > M[i]["ema20"] > M[i]["ema50"] for i in idx]
     down = [M[i]["close"] < M[i]["ema50"] for i in idx]
-    reg = "risk_on" if all(up) else "risk_off" if all(down) else "neutral"
+    trend = "risk_on" if all(up) else "risk_off" if all(down) else "neutral"
     ev = "; ".join(f'{i} {M[i]["close"]:.2f} vs EMA 10/20/50 {M[i]["ema10"]:.2f}/{M[i]["ema20"]:.2f}/{M[i]["ema50"]:.2f}'
                    for i in idx)
-    return reg, f"Proxy de tendencia ({M[idx[0]]['last_date']}): {ev}. Sin amplitud (ratio de Stockbee, T2108)."
+    ev = f"Proxy de tendencia ({M[idx[0]]['last_date']}): {ev} → {trend}."
+    if not breadth or breadth.get("state") in (None, "unknown"):
+        return trend, ev + " Sin amplitud (market.py no ejecutado o sin datos)."
+    st, reg = breadth["state"], trend
+    if trend == "risk_on" and st == "weak":
+        reg = "neutral"
+    elif trend == "risk_off" and st == "strong":
+        reg = "neutral"
+    elif trend == "neutral" and st == "weak" and (breadth.get("pct_above_sma50") or 100) < 30:
+        reg = "risk_off"
+    return reg, ev + " " + breadth.get("evidence", f"Amplitud: {st}") + (f". Régimen ajustado: {trend} → {reg}." if reg != trend else ".")
+
+
+def load_breadth(path, last_date):
+    """Latest breadth row from market.py if it is from the same session as the indices (else None)."""
+    if not path or not os.path.exists(path):
+        return None
+    b = json.load(open(path, encoding="utf-8"))
+    row = dict(b["latest"], evidence=b.get("evidence", ""))
+    return row if row["date"] == last_date else None
 
 
 def apply_to_case(case, t, M, RS, CAND, uni_tickers, regime, regime_ev, src):
@@ -253,6 +283,7 @@ def main():
     ap.add_argument("--etfs", default="SMH,SOXX,QQQ,IWM")
     ap.add_argument("--no-download", action="store_true")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--breadth", help="breadth.json de market.py (por defecto market/breadth.json junto a la carpeta del universo)")
     ap.add_argument("--reaction", nargs=3, metavar=("TICKER", "AAAA-MM-DD", "amc|bmo"),
                     help="solo imprime la reacción de mercado a un catalizador (JSON para el caso) y sale")
     a = ap.parse_args()
@@ -284,7 +315,8 @@ def main():
         M[t] = metrics(rows)
         CAND[t] = candidates(rows, M[t])
     RS = rs_table(M)
-    regime, regime_ev = regime_proxy(M)
+    bpath = a.breadth or os.path.join(os.path.dirname(root), "market", "breadth.json")
+    regime, regime_ev = regime_proxy(M, breadth=load_breadth(bpath, M.get("QQQ", {}).get("last_date")))
     out = dict(generated=date.today().isoformat(), universe_plus_etfs=list(M), regime=regime, regime_evidence=regime_ev,
                metrics=M, rs=RS, candidates=CAND, sources=srcs)
     json.dump(out, open(mpath, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

@@ -64,7 +64,7 @@ def filings(cik, ua, since="2023-01-01"):
             rows += list(_rows(_get(f"https://data.sec.gov/submissions/{f['name']}", ua), cik))
     rows = sorted({r["accession"]: r for r in rows if r["filed"] >= since}.values(), key=lambda r: r["filed"], reverse=True)
     return dict(cik=int(cik), name=base.get("name"), tickers=base.get("tickers"), fiscal_year_end=base.get("fiscalYearEnd"),
-                sic=base.get("sic"), sic_description=base.get("sicDescription"), filings=rows)
+                exchanges=base.get("exchanges"), sic=base.get("sic"), sic_description=base.get("sicDescription"), filings=rows)
 
 
 def after(index, accession):

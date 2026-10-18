@@ -75,6 +75,11 @@ Cada perfil define el margen FCF objetivo del DCF inverso, las métricas que pes
 |---|---|---|
 | `saas` | NRR, RPO/cRPO, clientes > $100k, payback CAC | DIFERIDOS SE FRENAN, CAPITALIZACIÓN |
 | `semis_hardware` | Book-to-bill, inventario en canal, concentración de clientes | INVENTARIO > VENTAS |
+| `semis_fabless` | Centro de datos / IA, concentración de clientes, book-to-bill, inventario en canal, design wins | INVENTARIO > VENTAS |
+| `semis_idm` | Utilización de fábricas, cliente principal, contenido por dispositivo, inventario, sinergias | INVENTARIO > VENTAS |
+| `semis_manufacturing` | Utilización, capex/ventas, ventas mensuales, encapsulado avanzado o SiPho, concentración | INVENTARIO > VENTAS |
+| `semis_memory` | Bits y ASP por bit (DRAM/NAND), % HBM, días de inventario, capex/ventas, LTA y prepagos | INVENTARIO > VENTAS |
+| `ai_systems` | Concentración de clientes, backlog o compromisos | — |
 | `defense_gov` | Backlog financiado/no financiado, tasa de victoria, % ingresos públicos | TECHO ≠ INGRESO (catalizadores) |
 | `biotech_commercial` | Prescripciones, ventas netas por producto, guía de producto | Dependencia de un producto |
 | `consumer` | Ventas comparables, tiendas, inventario | INVENTARIO > VENTAS |
@@ -96,6 +101,8 @@ Seis componentes, cada uno de 0 a 100, ponderados con los pesos del perfil. Si f
 | Calidad | 100 − 15 por cada bandera activa de §3 |
 
 Lectura: ≥ 65 fuerte · 45–64 aceptable · < 45 débil.
+
+**Memoria (`semis_memory`).** Es un commodity cíclico: el margen bruto pasa de pérdidas a más del 60% dentro de un ciclo, y el crecimiento interanual puede ser de ±100%. Por eso el perfil usa un `gm_target` de 0,40 (media de ciclo de los fabricantes de DRAM), un `fcf_target` de 0,15 (el capex absorbe el FCF), más peso en aceleración (0,25: el punto de giro es lo que mueve la acción) y menos en Rule of 40 (0,10). Un crecimiento del +100% en plena subida de precios no es comparable con el de un fabless: léelo junto al ASP por bit y los días de inventario de los KPIs.
 
 ## 7. Comparación con el grupo (`scripts/compute.py`)
 

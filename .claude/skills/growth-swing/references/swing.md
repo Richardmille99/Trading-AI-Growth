@@ -6,6 +6,18 @@ La entrada la da el precio. Esta skill decide **convicción, tamaño y horizonte
 
 `risk_on` / `neutral` / `risk_off`, con la evidencia: ratio de Stockbee (nº de acciones +4% ÷ −4% en 5 y 10 días), % sobre la media de 20 y 50 sesiones, T2108, tendencia del Nasdaq y del Russell 2000 frente a sus medias de 10/20/50. Sin datos de mercado se deja `unknown` y la convicción máxima baja un escalón.
 
+**Cálculo mecánico** (`scripts/prices.py` → `regime_proxy`, con la amplitud de `scripts/market.py`):
+
+1. **Tendencia.** QQQ e IWM con cierre > EMA 20 > EMA 50 → `risk_on`; los dos bajo su EMA 50 → `risk_off`; el resto → `neutral`.
+2. **Amplitud** sobre el Nasdaq-100 (`market/members.json`, lista aproximada), misma sesión que los índices:
+   - `strong`: ≥ 60% sobre la SMA 50 y ratio +4%/−4% de 10 sesiones ≥ 1,5.
+   - `weak`: < 40% sobre la SMA 50, o ratio de 10 sesiones < 0,67.
+   - El ratio solo cuenta con al menos 3 movimientos de ±4% en las 10 sesiones; con menos, decide el % sobre la SMA 50.
+   - `mixed`: el resto.
+3. **Ajuste de un escalón:** `risk_on` con amplitud `weak` → `neutral`; `risk_off` con amplitud `strong` → `neutral`; `neutral` con amplitud `weak` y < 30% sobre la SMA 50 → `risk_off`. Sin `breadth.json` de la misma sesión se usa solo la tendencia y la evidencia lo dice.
+
+T2108 (% sobre la media de 40 sesiones de todo el mercado) no se calcula: el Nasdaq-100 es una muestra de grandes compañías y la amplitud de small caps puede ir por otro lado.
+
 ## 2. Setups (`case.json → setup.type`)
 
 | `type` | Escuela | Definición operativa |

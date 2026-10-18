@@ -18,13 +18,19 @@ Archivos:
 - `scripts/edgar.py` — índice de filings por CIK (`--after <accession>` para el modo actualización).
 - `scripts/insiders.py` — Forms 4 (ventas, compras, 10b5-1, % de la posición por trimestre), Forms 144 y 13D/13G desde el XML de EDGAR → `data/<T>/insiders.json`.
 - `scripts/forensic.py` — fondo de comercio e intangibles frente a patrimonio, deterioros, float público de la portada del 10-K en acciones y 8-K 4.01/4.02/5.02 → `data/<T>/forensic.json`.
+- `scripts/new_case.py` — alta automática de un ticker de `universe.json` (CIK, filings, trimestres XBRL con respaldo del documento, precios, últimos resultados con su reacción y próximos estimados con `[VERIFY]`) → caso de Fase 1 validado. Emisores extranjeros: `quarters.json` a mano antes.
+- `scripts/casekit.py` — funciones para construir y actualizar casos: `earnings` (con `prices.reaction`), `contract`, `insider_supply`, `growth_at`, `usd_m`.
+- `scripts/consensus.py` — consenso de finviz (BPA próximo trimestre, sorpresa BPA/ventas, fecha de resultados) a `data/<T>/consensus.json`; si la web está bloqueada, `--set` con las fuentes de la búsqueda.
+- `scripts/market.py` — amplitud del Nasdaq-100 (`market/members.json`): % sobre la SMA 20/50 y ratio +4%/−4% → `market/breadth.json`, que `prices.py` usa para ajustar el régimen (swing.md §1).
+- `scripts/journal.py` — diario: `--add` señales del día (convicción ≥ Media con setup) y `--update` resultados a +5/+20/+60 sesiones en R.
+- `scripts/sitepage.py` — página índice de todos los universos (`universes.json`): amplitud, ranking y resumen.
 - `scripts/xbrl.py` · `catalysts.py` · `fundamentals.py` · `compute.py` · `validate.py` · `render.py` · `rank.py` (ranking de un universo de casos) · `tests/test_engines.py`.
 - `assets/sector_profiles.json` · `assets/journal_template.csv` · `assets/report.css` · `assets/charts.js`.
 
 ## Procedimiento
 
 1. **Lista de tareas**: perfil, fundamentales, catalizadores, oferta, pares, setup, caso, validar y renderizar, publicar, diario.
-2. **Perfil sectorial.** Elige la clave de `sector_profiles.json` (`saas`, `semis_fabless`, `semis_idm`, `semis_manufacturing`, `ai_systems`, `semis_hardware`, `defense_gov`, `biotech_commercial`, `consumer`, `industrial_energy`, `fintech`, `generic`). Define el margen objetivo del DCF inverso, los pesos de la nota y los KPIs manuales que hay que buscar.
+2. **Perfil sectorial.** Elige la clave de `sector_profiles.json` (`saas`, `semis_fabless`, `semis_idm`, `semis_manufacturing`, `semis_memory`, `ai_systems`, `semis_hardware`, `defense_gov`, `biotech_commercial`, `consumer`, `industrial_energy`, `fintech`, `generic`). Define el margen objetivo del DCF inverso, los pesos de la nota y los KPIs manuales que hay que buscar.
 3. **Fundamentales.**
    - Con red hacia la SEC (Claude Code en local): `python scripts/xbrl.py --cik <cik> --ua "Nombre email" --out q.json` y copia `quarters` y `shares_out` al caso.
    - Sin red desde el shell: lee las tablas de los 10-Q/10-K o del EX-99.1 con WebFetch y escribe los trimestres a mano con el mismo formato (flujos discretos; deriva el Q4 como anual − 9 meses y discretiza el CFO acumulado). Marca con `[VERIFY]` lo que no salga de un filing.
@@ -47,14 +53,14 @@ Archivos:
    - Calcula sus métricas con el mismo método y la misma fecha de precio.
    - Sin datos de precio, `rs_3m` y `ev_sales` quedan `null` y la posición sale `unknown`.
 7. **Setup y régimen.**
-   - Precios: `python scripts/prices.py --universe <dir>/universe.json [--apply]`. Descarga 2 años de OHLCV de cada ticker y de los ETF (por defecto SMH, SOXX, QQQ, IWM) a `data/<T>/prices.csv` y escribe `data/prices_metrics.json`. Con `--apply` rellena en cada caso `setup.rs_1m/rs_3m/rs_6m` (percentil dentro del universo + ETF), `adr_pct`, `ema_stack`, `cooled_leader` (swing.md §6), `setup_candidates` y `market.price/price_date/regime` (proxy de tendencia de QQQ e IWM; sin amplitud). Nunca escribe `type`, `pivot` ni `stop`: los candidatos son propuestas; confírmalos con el gráfico y explica la elección en `setup.notes`.
+   - Precios: `python scripts/prices.py --universe <dir>/universe.json [--apply]`. Descarga 2 años de OHLCV de cada ticker y de los ETF (por defecto SMH, SOXX, QQQ, IWM) a `data/<T>/prices.csv` y escribe `data/prices_metrics.json`. Con `--apply` rellena en cada caso `setup.rs_1m/rs_3m/rs_6m` (percentil dentro del universo + ETF), `adr_pct`, `ema_stack`, `cooled_leader` (swing.md §6), `setup_candidates` y `market.price/price_date/regime` (tendencia de QQQ e IWM ajustada con la amplitud de `market/breadth.json` si es de la misma sesión; ejecuta antes `scripts/market.py`). Nunca escribe `type`, `pivot` ni `stop`: los candidatos son propuestas; confírmalos con el gráfico y explica la elección en `setup.notes`.
    - Funciones: `download`, `metrics` (ADR% 20, EMA 10/20/50, SMA 200, máximo y caída de 52 semanas, rentabilidad 1/3/6/12 meses), `rs_table`, `candidates` (EP, breakout_flag, exhaustion_watch), `cooled_leader`, `regime_proxy`, `apply_to_case`. Test: `python tests/test_prices.py`.
    - Con datos de precio: pivote, stop, ADR%, RS y EMAs.
    - Sin ellos: déjalos en `null`; el informe lo muestra y la convicción no puede ser Alta.
 8. **Construir y comprobar.**
    - `python scripts/validate.py case.json` debe dar OK; lee los avisos.
    - `python scripts/render.py case.json <TICKER>_swing.html`.
-   - Si tocas los scripts: `python tests/test_engines.py`, `tests/test_prices.py`, `tests/test_insiders.py` y `tests/test_forensic.py`.
+   - Si tocas los scripts: `python tests/test_engines.py`, `tests/test_prices.py`, `tests/test_insiders.py`, `tests/test_forensic.py` y `tests/test_tools.py`.
 9. **Publicar.**
    - Carga la skill de diseño de artifacts y publica el HTML como artifact (icono `chart`).
    - Resume en una línea la convicción y lo que la limita.

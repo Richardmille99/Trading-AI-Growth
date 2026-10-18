@@ -4,7 +4,7 @@ Investigación interna, no es consejo de inversión. Precios al cierre del 16-oc
 
 ## Lo primero: el régimen
 
-El proxy de régimen es **risk_off**: QQQ (709,80) e IWM (270,44) cerraron por debajo de sus EMA 10/20/50 tras la caída de la semana. Sin amplitud de mercado (ratio de Stockbee, T2108). La matriz pone un máximo de **Baja** a todo el universo. **Con un régimen neutral, 8 de los 9 serían «Media»**; SWKS seguiría en Baja por fundamentales. No hay ninguna convicción Alta posible hoy: ningún ticker es «líder» o «fuerte» en su grupo.
+El proxy de régimen es **risk_off**: QQQ (709,80) e IWM (270,44) cerraron por debajo de sus EMA 10/20/50 tras la caída de la semana. La amplitud del Nasdaq-100 (`market.py`) es **mixta** y no cambia el régimen: 45% de los valores sobre su SMA 50 y 57% sobre la SMA 20; en 10 sesiones, 44 subidas del 4% frente a 53 caídas. La matriz pone un máximo de **Baja** a todo el universo. **Con un régimen neutral, 8 de los 9 serían «Media»**; SWKS seguiría en Baja por fundamentales. No hay ninguna convicción Alta posible hoy: ningún ticker es «líder» o «fuerte» en su grupo.
 
 ## Ranking
 
@@ -74,6 +74,7 @@ Sin filas: ningún ticker tiene convicción Media o Alta. Cuando el régimen dej
 ## Cambios de método en esta ronda
 
 - `prices.py`, `edgar.py`, `insiders.py` y `forensic.py`, con tests.
+- Herramientas nuevas (18-oct): `new_case.py`, `casekit.py`, `consensus.py`, `market.py` (amplitud que ajusta el régimen), `journal.py` y `sitepage.py`; respaldo de XBRL incrustado en `xbrl.py` y sesión de publicación (bmo/amc) en `edgar.py`.
 - **DILUCIÓN:** si un trimestre tiene pérdidas y el otro beneficios, se comparan acciones básicas.
 - **RUNWAY:** con CFO positivo se mide sobre la caja bruta.
 - **Pares:** el margen bruto se compara relativo al objetivo del perfil de cada empresa.

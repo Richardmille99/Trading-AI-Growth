@@ -113,6 +113,30 @@
       "INVENTARIO > VENTAS"
     ]
   },
+  "semis_memory": {
+    "label": "Memoria (DRAM / HBM / NAND) y módulos",
+    "fcf_target": 0.15,
+    "gm_target": 0.4,
+    "weights": {
+      "growth": 0.2,
+      "accel": 0.25,
+      "gross_margin": 0.15,
+      "rule40": 0.1,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Bits vendidos y precio medio (ASP) por bit, DRAM y NAND (variación secuencial)",
+      "Ingresos de HBM / centro de datos (% y crecimiento)",
+      "Inventario (días) propio y en clientes",
+      "Capex / ventas y guía de capex",
+      "Acuerdos de suministro a largo plazo (LTA) y prepagos de clientes"
+    ],
+    "extra_flags": [
+      "INVENTARIO > VENTAS"
+    ],
+    "_note": "Negocio de commodity cíclico: el margen bruto oscila entre pérdidas y > 60% a lo largo del ciclo. 0,40 es la media de ciclo de los fabricantes de DRAM. Pesa más la aceleración (punto de giro) y menos el Rule of 40 (el FCF lo absorbe el capex)."
+  },
   "ai_systems": {
     "label": "Sistemas de cómputo IA (chip propio + sistemas + nube)",
     "fcf_target": 0.15,
