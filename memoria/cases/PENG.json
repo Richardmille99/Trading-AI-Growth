@@ -1,0 +1,654 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "PENG",
+  "issuer": "Penguin Solutions",
+  "cik": "0001616533",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_hardware",
+  "theme": "Memoria · ciclo de IA",
+  "group": "Módulos de memoria especiales y sistemas para IA",
+  "subgroup": "modulos_sistemas",
+  "synthetic": false,
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Memoria especial (60% de las ventas del 4T FY26), sistemas y servicios de IA para neoclouds, y LED; integrador sin fábricas de chips. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001439598-26-000006",
+  "last_filing_seen_date": "2026-10-08",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 57.099998474121094,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "sec-xbrl-companyfacts",
+  "shares_out": 51242699,
+  "shares_out_date": "2026-07-02",
+  "shares_out_note": "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)",
+  "quarters": [
+   {
+    "period": "dic-23",
+    "end": "2023-12-01",
+    "revenue": 274247000,
+    "gross_profit": 82850000,
+    "op_income": 1305000,
+    "net_income": -19921000,
+    "cfo": 31478000,
+    "capex": 4648000,
+    "capitalized_sw": null,
+    "sbc": 10970000,
+    "diluted_shares": 52068000,
+    "basic_shares": 52068000,
+    "ar": 170590000,
+    "deferred_rev": 59082000,
+    "rpo": 59100000,
+    "inventory": 208441000,
+    "cash": 553444000,
+    "debt": 776810000,
+    "total_assets": 1630865000
+   },
+   {
+    "period": "mar-24",
+    "end": "2024-03-01",
+    "revenue": 284821000,
+    "gross_profit": 81934000,
+    "op_income": -3312000,
+    "net_income": -13620000,
+    "cfo": -21917000,
+    "capex": 5204000,
+    "capitalized_sw": null,
+    "sbc": 10639000,
+    "diluted_shares": 52031000,
+    "basic_shares": 52031000,
+    "ar": 169718000,
+    "deferred_rev": 58776000,
+    "rpo": 58800000,
+    "inventory": 172763000,
+    "cash": 465768000,
+    "debt": 740663000,
+    "total_assets": 1517454000
+   },
+   {
+    "period": "may-24",
+    "end": "2024-05-31",
+    "revenue": 300580000,
+    "gross_profit": 88906000,
+    "op_income": 11511000,
+    "net_income": 5616000,
+    "cfo": 79780000,
+    "capex": 3777000,
+    "capitalized_sw": null,
+    "sbc": 11192000,
+    "diluted_shares": 54283000,
+    "basic_shares": 52570000,
+    "ar": 211842000,
+    "deferred_rev": 111472000,
+    "rpo": 111500000,
+    "inventory": 177299000,
+    "cash": 467537000,
+    "debt": 667042000,
+    "total_assets": 1546133000
+   },
+   {
+    "period": "ago-24",
+    "end": "2024-08-30",
+    "revenue": 311148000,
+    "gross_profit": 87086000,
+    "op_income": 8791000,
+    "net_income": -24547000,
+    "cfo": -12156000,
+    "capex": 5795000,
+    "capitalized_sw": null,
+    "sbc": 10359000,
+    "diluted_shares": 53071000,
+    "basic_shares": 53071000,
+    "ar": 251743000,
+    "deferred_rev": 76178000,
+    "rpo": 76200000,
+    "inventory": 151213000,
+    "cash": 389484000,
+    "debt": 657347000,
+    "total_assets": 1474506000
+   },
+   {
+    "period": "nov-24",
+    "end": "2024-11-29",
+    "revenue": 341102000,
+    "gross_profit": 97812000,
+    "op_income": 17356000,
+    "net_income": 5217000,
+    "cfo": 13819000,
+    "capex": 1836000,
+    "capitalized_sw": null,
+    "sbc": 11531000,
+    "diluted_shares": 54312000,
+    "basic_shares": 53482000,
+    "ar": 275629000,
+    "deferred_rev": 53960000,
+    "rpo": 54000000,
+    "inventory": 246952000,
+    "cash": 393725000,
+    "debt": 658070000,
+    "total_assets": 1583015000
+   },
+   {
+    "period": "feb-25",
+    "end": "2025-02-28",
+    "revenue": 365519000,
+    "gross_profit": 104648000,
+    "op_income": 18488000,
+    "net_income": 8082000,
+    "cfo": 72877000,
+    "capex": 2335000,
+    "capitalized_sw": null,
+    "sbc": 11580000,
+    "diluted_shares": 54384000,
+    "basic_shares": 53454000,
+    "ar": 330384000,
+    "deferred_rev": 133509000,
+    "rpo": 133500000,
+    "inventory": 199737000,
+    "cash": 647005000,
+    "debt": 658791000,
+    "total_assets": 1811344000
+   },
+   {
+    "period": "may-25",
+    "end": "2025-05-30",
+    "revenue": 324251000,
+    "gross_profit": 95083000,
+    "op_income": 9843000,
+    "net_income": 2661000,
+    "cfo": 92821000,
+    "capex": 1916000,
+    "capitalized_sw": null,
+    "sbc": 10251000,
+    "diluted_shares": 53738000,
+    "basic_shares": 53130000,
+    "ar": 292504000,
+    "deferred_rev": 116220000,
+    "rpo": 116200000,
+    "inventory": 184348000,
+    "cash": 735547000,
+    "debt": 659478000,
+    "total_assets": 1802782000
+   },
+   {
+    "period": "ago-25",
+    "end": "2025-08-29",
+    "revenue": 337922000,
+    "gross_profit": 96731000,
+    "op_income": 12448000,
+    "net_income": 9431000,
+    "cfo": -70433000,
+    "capex": 2925000,
+    "capitalized_sw": null,
+    "sbc": 7814000,
+    "diluted_shares": 54371000,
+    "basic_shares": 52553000,
+    "ar": 307904000,
+    "deferred_rev": 89943000,
+    "rpo": 89900000,
+    "inventory": 255182000,
+    "cash": 453754000,
+    "debt": 461838000,
+    "total_assets": 1617200000
+   },
+   {
+    "period": "nov-25",
+    "end": "2025-11-28",
+    "revenue": 343071000,
+    "gross_profit": 96109000,
+    "op_income": 19582000,
+    "net_income": 5270000,
+    "cfo": 31058000,
+    "capex": 2853000,
+    "capitalized_sw": null,
+    "sbc": 10080000,
+    "diluted_shares": 54991000,
+    "basic_shares": 52900000,
+    "ar": null,
+    "deferred_rev": 59326000,
+    "rpo": 59300000,
+    "inventory": 213205000,
+    "cash": 461451000,
+    "debt": 462307000,
+    "total_assets": 1598195000
+   },
+   {
+    "period": "feb-26",
+    "end": "2026-02-27",
+    "revenue": 342999000,
+    "gross_profit": 93702000,
+    "op_income": 25689000,
+    "net_income": 37452000,
+    "cfo": 54952000,
+    "capex": 1603000,
+    "capitalized_sw": null,
+    "sbc": 5119000,
+    "diluted_shares": 53186000,
+    "basic_shares": 52283000,
+    "ar": null,
+    "deferred_rev": 111231000,
+    "rpo": 111200000,
+    "inventory": 322360000,
+    "cash": 489172000,
+    "debt": 442777000,
+    "total_assets": 1749757000
+   },
+   {
+    "period": "may-26",
+    "end": "2026-05-29",
+    "revenue": 478713000,
+    "gross_profit": 133214000,
+    "op_income": 50863000,
+    "net_income": 44689000,
+    "cfo": -74788000,
+    "capex": 2841000,
+    "capitalized_sw": null,
+    "sbc": 9996000,
+    "diluted_shares": 55063000,
+    "basic_shares": 50998000,
+    "ar": null,
+    "deferred_rev": 136589000,
+    "rpo": 136600000,
+    "inventory": 498318000,
+    "cash": 440301000,
+    "debt": 443164000,
+    "total_assets": 2191034000
+   },
+   {
+    "period": "ago-26",
+    "end": "2026-08-28",
+    "revenue": 566685000.0,
+    "gross_profit": 155900000.0,
+    "op_income": 69462000.0,
+    "net_income": 93204000.0,
+    "cfo": -163136000.0,
+    "capex": 4272000.0,
+    "capitalized_sw": null,
+    "sbc": 6620000.0,
+    "diluted_shares": 64040000.0,
+    "basic_shares": 55645000.0,
+    "ar": 796264000.0,
+    "deferred_rev": 123283000.0,
+    "rpo": null,
+    "inventory": 748785000.0,
+    "cash": 647208000.0,
+    "debt": 788950000.0,
+    "total_assets": 2778134000.0,
+    "src": "Cargado a mano del EX-99.1 del 8-K 6-oct-2026 (acc. 0001616533-26-000046): el 10-K FY26 aún no se ha presentado. Deuda = corriente $53,4M + largo plazo $735,5M; capex = «capital expenditures and deposits on equipment»."
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Segmentos (4T FY26)",
+    "value": "Integrated Memory $340,8M (60%; +158%) · Advanced Computing $154,0M (+11%) · Optimized LED $71,9M (+7%)",
+    "prior": "Memory $132,2M · Computing $138,3M · LED $67,4M (4T FY25)",
+    "src": [
+     [
+      "EX-99.1 8-K 6-oct-2026",
+      "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía FY27",
+    "value": "Ventas ≈ $2.430M (+40% ± 10 pp); BPA GAAP $3,50 ± $0,70; ajustado $4,45 ± $0,70; 63M acciones diluidas",
+    "prior": "Preliminar: $2.170M (+30%)",
+    "src": [
+     [
+      "EX-99.1 8-K 6-oct-2026",
+      "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Clientes de infraestructura de IA",
+    "value": "6 nuevos en el 4T (4 neoclouds); 17 en FY26. Un neocloud con > $3.000M en contratos firmados y otro con $10.000M de cómputo contratado con un laboratorio de IA (36.000 GPU en Noruega) [VERIFY: lo que corresponde a Penguin no se publica]",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 6-oct-2026",
+      "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Inventario y cobros (4T FY26)",
+    "value": "Inventario $748,8M (+193%; ≈ 166 días); cuentas por cobrar $796,3M (+159%)",
+    "prior": "$255,2M y $307,9M (4T FY25)",
+    "src": [
+     [
+      "EX-99.1 8-K 6-oct-2026",
+      "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Flujo operativo",
+    "value": "−$163,1M en el 4T y −$151,9M en FY26 por capital circulante (inventario y cobros)",
+    "prior": "+$109,1M en FY25",
+    "src": [
+     [
+      "EX-99.1 8-K 6-oct-2026",
+      "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Suministro",
+    "value": "Nuevo acuerdo con un fabricante de memoria líder y un proveedor adicional de infraestructura de IA [VERIFY: nombres]",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 6-oct-2026",
+      "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q4fy26",
+   "type": "earnings",
+   "date": "2026-10-06",
+   "time_et": "after-hours",
+   "headline": "Resultados 4T FY26: ventas récord $566,7M (+68%) frente a $521M de consenso; BPA ajustado $1,00 frente a $0,77; guía FY27 ≈ $2.430M (+40%) frente a $2.210M",
+   "sources": [
+    [
+     "EX-99.1 8-K 6-oct-2026",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+    ],
+    [
+     "TIKR: consenso $0,77 y $521M; FY27 frente a $2.210M y $3,38",
+     "https://www.tikr.com/blog/penguin-solutions-soars-13-on-record-quarter-and-raised-outlook-the-proof-is-in-the-results"
+    ],
+    [
+     "Earnings Whispers: consenso $0,75 y $512,5M",
+     "https://earningswhispers.com/epsdetails/PENG"
+    ]
+   ],
+   "rev_growth_yoy": 0.6769698332751346,
+   "rev_growth_yoy_prev": 0.4763655316406117,
+   "rev_surprise_pct": 8.8,
+   "eps_surprise_pct": 29.9,
+   "guide_raise": true,
+   "guide_change_pct": 10.0,
+   "gm_change_bp": -111,
+   "nonrecurring_in_beat": false,
+   "note": "Se usa el consenso de TIKR (el más alto); con Earnings Whispers ($512,5M y $0,75) la sorpresa sería mayor [VERIFY]. La guía de FY27 sube desde la preliminar de $2.170M a $2.430M ± 10 pp. El BPA GAAP ($1,29) incluye un beneficio fiscal de $57,6M y un gasto de $33,2M por la conversión anticipada de los bonos 2029/2030: el beat se mide con el ajustado.",
+   "gap_pct": 4.86,
+   "rvol": 10.62,
+   "close_in_range": 0.66,
+   "day2_follow": false,
+   "dollar_volume": 1525478025,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-10-07",
+   "reaction_close_chg_pct": 13.08
+  }
+ ],
+ "supply": [
+  {
+   "id": "conv31",
+   "kind": "convertible",
+   "name": "Convertibles 0% 2031 ($750M, conversión ≈ $116,70)",
+   "shares": 6426750,
+   "capacity_usd": null,
+   "price_basis": 116.7,
+   "gate": "gated",
+   "date": "2031-08-01",
+   "notes": "Conversión inicial de 8,5690 acciones por $1.000 (≈ $116,70, el doble de {m.price:px}); máximo 9,64M acciones con el ajuste por cambio de control. Capped call comprado por $49,1M. Convertibles solo si la acción supera el 130% del precio de conversión: fuera de dinero hoy. Los fondos recompraron parte de los bonos 2029 y 2030 (con un gasto de inducción de $33,2M en el 4T).",
+   "src": [
+    [
+     "8-K 17-jul-2026 (convertibles 2031)",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000119312526307989/d103073d8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "pref_skt",
+   "kind": "convertible",
+   "name": "Preferentes convertibles de SK Telecom ($200M)",
+   "shares": 6096103,
+   "capacity_usd": null,
+   "price_basis": 32.81,
+   "gate": "live",
+   "date": null,
+   "notes": "6,10M acciones (10,3%) en manos de Astra AI Infra LLC (SK Telecom), muy en dinero. SK Telecom es del mismo grupo que SK hynix (SKHY, en este universo). [VERIFY: restricciones de venta y derechos de conversión en el certificado de designación]",
+   "src": [
+    [
+     "Schedule 13D/A de SK Telecom, 28-jul-2026",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000119312526318891/xslSCHEDULE_13D_X02/primary_doc.xml"
+    ]
+   ]
+  },
+  {
+   "id": "conv2930",
+   "kind": "convertible",
+   "name": "Restos de los convertibles 2029 y 2030",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "notes": "El 10-Q del 3T FY26 recoge $148,4M (2029) y $194,8M (2030), los 2029 convertibles por precio; en el 4T se recompraron $135,5M de los 2029 y se indujo la conversión de parte de ambos [VERIFY: saldo y acciones entregadas en el 10-K FY26].",
+   "src": [
+    [
+     "10-Q 3T FY26",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000043/peng-20260529.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $4,4M; 3 marcados",
+   "shares": 113578.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Clark Joseph Gates (SVP and Pres, Optimized LED) $1,9M, máx. 40% en 2026-T2; NAYYAR SANDEEP (consejero) $0,9M, máx. 44% en 2026-T2, 2 ventas sin 10b5-1; Straub Maximiliane C (consejero) $0,7M, máx. 22% en 2026-T2, 3 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 52684395.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2025-10-21): $1.050,0M de no afiliados a 2025-02-28 ÷ cierre de $19,93 = 52,7M acciones [VERIFY: estimación; no recoge cambios posteriores]"
+ },
+ "peers": [
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "rev_yoy": 3.7926646045072916,
+   "accel_pp": 33.55094598991846,
+   "gm": 0.8071598041865633,
+   "gm_rel": 0.4071598041865633,
+   "rule40": 300.5977561745952,
+   "ev_sales": 7.160540033779174,
+   "rs_3m": 77.77777777777779
+  },
+  {
+   "ticker": "RMBS",
+   "name": "Rambus",
+   "rev_yoy": 0.2042634240951402,
+   "accel_pp": 12.311212567436547,
+   "gm": 0.7946560434518749,
+   "gm_rel": 0.19465604345187493,
+   "rule40": 56.77566114914798,
+   "ev_sales": 11.421349728822433,
+   "rs_3m": 11.11111111111111
+  },
+  {
+   "ticker": "SIMO",
+   "name": "Silicon Motion Technology",
+   "rev_yoy": 1.2700440417767713,
+   "accel_pp": 21.52606287599297,
+   "gm": 0.4886941348969142,
+   "gm_rel": -0.11130586510308577,
+   "rule40": 61.70182948827737,
+   "ev_sales": 5.4428355168131946,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK hynix",
+   "rev_yoy": 2.56778145245594,
+   "accel_pp": 58.71211696555396,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 22.22222222222222
+  },
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "rev_yoy": 3.7159389794844815,
+   "accel_pp": 120.56144957086703,
+   "gm": 0.7147372580007902,
+   "gm_rel": 0.3147372580007902,
+   "rule40": 232.06181755477493,
+   "ev_sales": 9.160421530455615,
+   "rs_3m": 44.44444444444444
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 100.0,
+  "rs_3m": 100.0,
+  "rs_6m": 100.0,
+  "adr_pct": 7.725624011144938,
+  "ema_stack": true,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2027-01-05",
+   "kind": "earnings",
+   "text": "Resultados 1T FY27 [VERIFY: fecha estimada; el 1T FY26 se publicó el 6-ene-2026]",
+   "src": [
+    [
+     "8-K 6-ene-2026 (Item 2.02)",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000008/peng-20260106.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "+68% con guía FY27 +10% sobre el consenso y EP confirmado; calidad de beneficio débil.",
+  "setup": "Tras el EP del 7-oct, sin base.",
+  "catalyst": "4T FY26: beat amplio y guía al alza; +13%.",
+  "quality": "6 banderas: capital circulante.",
+  "supply": "Preferentes SK Telecom 10,3% y convertibles 2031.",
+  "group": "RS percentil 100."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Memoria especial (60% de las ventas del 4T FY26), sistemas y servicios de IA para neoclouds, y LED; integrador sin fábricas de chips"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Módulos de memoria especiales y sistemas para IA · adyacente"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "Los contratos de $3.000M y $10.000M son de los clientes (neoclouds), no de Penguin: lo que le toca a la compañía no se publica.",
+   "«AI Factory Platform» es la marca; los números dicen que el motor del 4T fue la memoria (+158%), no los sistemas (+11%)."
+  ],
+  "catalyst_read": "El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: beat amplio, guía de FY27 +10% sobre el consenso y aceleración {m.accel_pp:pp}, con confirmación de mercado (+13% al cierre, volumen alto).",
+  "financials_note": "Trimestres de XBRL hasta el 3T FY26; el **4T FY26 (ago-26) se cargó a mano** del EX-99.1 del 6-oct porque el 10-K aún no está presentado. Deuda del 4T = corriente + largo plazo. El neto del 4T incluye un beneficio fiscal de $57,6M y un gasto de inducción de $33,2M.",
+  "quality": [
+   "Seis banderas: COBROS > VENTAS, BENEFICIO SIN CAJA, ACCRUALS ALTOS, INVENTARIO > VENTAS, DILUCIÓN y RUNWAY CORTO. El crecimiento se financia con capital circulante: inventario +193% y cobros +159% frente a ventas +68%; CFO negativo en FY26.",
+   "La DILUCIÓN viene de las acciones de los convertibles en las diluidas; el RUNWAY CORTO no tiene en cuenta los $735M netos de los bonos 2031, ya en la caja de agosto.",
+   "Margen bruto del 27,5% (integrador): el más bajo del universo con diferencia."
+  ],
+  "supply_read": "Mucho papel potencial: preferentes de SK Telecom (6,1M acciones, 10,3%, en dinero), convertibles 2031 (6,4M acciones a $116,70, fuera de dinero) y restos de los 2029/2030. Insiders: ver la fila de oferta.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM: el más barato del universo, coherente con un margen bruto del 28%. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El de mayor fuerza relativa del universo (percentil 100 a 1, 3 y 6 meses), pero el de peor calidad de beneficio.",
+  "risks": [
+   "Capital circulante: si las ventas se frenan, el inventario de memoria comprado en pico de precios se deprecia.",
+   "Concentración en pocos neoclouds con financiación propia incierta.",
+   "Oferta: preferentes de SK Telecom en dinero y convertibles."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 hacia el 5-ene [VERIFY].",
+   "Sin setup: tras el +13% del 7-oct no hay base. Vigilar un retroceso a la EMA 10/20 en tendencia (ema_crossback) con el stop bajo el mínimo del día del EP.",
+   "**D si:** el 1T FY27 vuelve a dar CFO negativo con inventario creciendo más que las ventas."
+  ],
+  "verdict": "El único con tendencia y confirmación de mercado, pero con la peor calidad de beneficio (capital circulante, margen bajo, mucho papel convertible). Táctico, no tesis."
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 6-oct-2026",
+   "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm"
+  ],
+  [
+   "TIKR: consenso $0,77 y $521M; FY27 frente a $2.210M y $3,38",
+   "https://www.tikr.com/blog/penguin-solutions-soars-13-on-record-quarter-and-raised-outlook-the-proof-is-in-the-results"
+  ],
+  [
+   "Earnings Whispers: consenso $0,75 y $512,5M",
+   "https://earningswhispers.com/epsdetails/PENG"
+  ],
+  [
+   "8-K 17-jul-2026 (convertibles 2031)",
+   "https://www.sec.gov/Archives/edgar/data/1616533/000119312526307989/d103073d8k.htm"
+  ],
+  [
+   "Schedule 13D/A de SK Telecom, 28-jul-2026",
+   "https://www.sec.gov/Archives/edgar/data/1616533/000119312526318891/xslSCHEDULE_13D_X02/primary_doc.xml"
+  ]
+ ]
+}

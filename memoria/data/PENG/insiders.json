@@ -1,0 +1,385 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 1616533,
+ "form4_count": 49,
+ "form144_count": 13,
+ "schedule13_count": 12,
+ "owners": [
+  {
+   "name": "Clark Joseph Gates",
+   "role": "SVP and Pres, Optimized LED",
+   "sold": 57101.0,
+   "sold_value": 1893336,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 22221.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4005,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001944970-26-000004",
+    "0001944970-26-000006",
+    "0001944970-26-000008",
+    "0001944970-26-000010",
+    "0001944970-26-000013",
+    "0001944970-26-000015",
+    "0001944970-26-000017",
+    "0001944970-26-000019",
+    "0001944970-26-000023"
+   ]
+  },
+  {
+   "name": "Kuykendall Anne",
+   "role": "SVP and Chief Legal Officer",
+   "sold": 21477.0,
+   "sold_value": 893858,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 33125.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0675,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001855880-26-000004",
+    "0001855880-26-000006",
+    "0001855880-26-000008",
+    "0001855880-26-000010",
+    "0001855880-26-000012",
+    "0001855880-26-000014",
+    "0001855880-26-000016"
+   ]
+  },
+  {
+   "name": "NAYYAR SANDEEP",
+   "role": "consejero",
+   "sold": 20000.0,
+   "sold_value": 890346,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4404,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-11",
+     "shares": 12893.0,
+     "price": 45.0891,
+     "accession": "0001230307-26-000004"
+    },
+    {
+     "date": "2026-05-12",
+     "shares": 7107.0,
+     "price": 43.48,
+     "accession": "0001230307-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001230307-26-000004"
+   ]
+  },
+  {
+   "name": "Straub Maximiliane C",
+   "role": "consejero",
+   "sold": 15000.0,
+   "sold_value": 684359,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.224,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-14",
+     "shares": 3000.0,
+     "price": 49.0,
+     "accession": "0001696393-26-000006"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 8000.0,
+     "price": 44.9994,
+     "accession": "0001696393-26-000004"
+    },
+    {
+     "date": "2026-05-12",
+     "shares": 4000.0,
+     "price": 44.3409,
+     "accession": "0001696393-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001696393-26-000004",
+    "0001696393-26-000006"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 1327.0,
+   "value": 78558.4,
+   "outstanding": 51242699.0,
+   "approx_date": "07/23/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-007276",
+   "filed": "2026-07-23",
+   "form": "144"
+  },
+  {
+   "person": "ANNE KUYKENDALL",
+   "relationship": "Officer",
+   "shares": 4739.0,
+   "value": 275335.9,
+   "outstanding": 51242699.0,
+   "approx_date": "07/22/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-007262",
+   "filed": "2026-07-22",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 10351.0,
+   "value": 577896.33,
+   "outstanding": 50747508.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-005410",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "NAYYAR AND B NAYYAR REV LIVING TRUST",
+   "relationship": "Director",
+   "shares": 7107.0,
+   "value": 309012.36,
+   "outstanding": 50747508.0,
+   "approx_date": "05/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004393",
+   "filed": "2026-05-12",
+   "form": "144"
+  },
+  {
+   "person": "NAYYAR AND B NAYYAR REV LIVING TRUST",
+   "relationship": "Director",
+   "shares": 12893.0,
+   "value": 581333.77,
+   "outstanding": 50748000.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004322",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 4649.0,
+   "value": 181218.02,
+   "outstanding": 50747508.0,
+   "approx_date": "05/08/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-004252",
+   "filed": "2026-05-08",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 11836.0,
+   "value": 326436.88,
+   "outstanding": 50747508.0,
+   "approx_date": "04/23/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-003717",
+   "filed": "2026-04-23",
+   "form": "144"
+  },
+  {
+   "person": "ANNE KUYKENDALL",
+   "relationship": "Officer",
+   "shares": 8738.0,
+   "value": 243964.96,
+   "outstanding": 50747508.0,
+   "approx_date": "04/22/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-003693",
+   "filed": "2026-04-22",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 5000.0,
+   "value": 132500.0,
+   "outstanding": 50747508.0,
+   "approx_date": "04/16/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-003559",
+   "filed": "2026-04-16",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 12546.0,
+   "value": 277517.52,
+   "outstanding": 50747508.0,
+   "approx_date": "04/09/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-003355",
+   "filed": "2026-04-09",
+   "form": "144"
+  },
+  {
+   "person": "ANNE KUYKENDALL",
+   "relationship": "Officer",
+   "shares": 8000.0,
+   "value": 161840.0,
+   "outstanding": 52560157.0,
+   "approx_date": "02/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001771",
+   "filed": "2026-02-25",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 10046.0,
+   "value": 193385.5,
+   "outstanding": 52560157.0,
+   "approx_date": "02/24/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-001735",
+   "filed": "2026-02-24",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH CLARK",
+   "relationship": "Officer",
+   "shares": 1346.0,
+   "value": 25574.0,
+   "outstanding": 52560157.0,
+   "approx_date": "02/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001101",
+   "filed": "2026-02-10",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "FMR LLC",
+   "shares": 6319538.48,
+   "pct": 12.4,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002127"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 6319538.48,
+   "pct": 12.4,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002127"
+  },
+  {
+   "name": "SK Telecom Co., Ltd.",
+   "shares": 6096103.0,
+   "pct": 10.3,
+   "filed": "2026-07-28",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "07/27/2026",
+   "accession": "0001193125-26-318891"
+  },
+  {
+   "name": "Astra AI Infra LLC",
+   "shares": 6096103.0,
+   "pct": 10.3,
+   "filed": "2026-07-28",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "07/27/2026",
+   "accession": "0001193125-26-318891"
+  },
+  {
+   "name": "BANK OF NOVA SCOTIA",
+   "shares": 4439943.0,
+   "pct": 8.52,
+   "filed": "2026-07-15",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000009631-26-000019"
+  },
+  {
+   "name": "Invesco Ltd.",
+   "shares": 3988140.0,
+   "pct": 7.6,
+   "filed": "2026-08-13",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0000914208-26-000337"
+  },
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 3623264.0,
+   "pct": 6.89,
+   "filed": "2026-04-29",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100121-26-000638"
+  },
+  {
+   "name": "STATE STREET CORPORATION",
+   "shares": 2866133.0,
+   "pct": 5.5,
+   "filed": "2025-11-10",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2025",
+   "accession": "0000093751-25-000625"
+  },
+  {
+   "name": "Crosslink Capital, Inc.",
+   "shares": 1848074.0,
+   "pct": 3.5,
+   "filed": "2025-11-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0001104329-25-000014"
+  },
+  {
+   "name": "Michael J. Stark",
+   "shares": 1848074.0,
+   "pct": 3.5,
+   "filed": "2025-11-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0001104329-25-000014"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002044"
+  }
+ ],
+ "errors": []
+}
