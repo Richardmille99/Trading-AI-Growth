@@ -1,0 +1,501 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "SKHY",
+  "issuer": "SK hynix",
+  "cik": "0002120882",
+  "exchange": "Nasdaq (ADR)",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_memory",
+  "theme": "Memoria · ciclo de IA",
+  "group": "Fabricantes de DRAM y HBM (con NAND en algunos casos)",
+  "subgroup": "dram_hbm",
+  "synthetic": false,
+  "primary_catalyst": "q2_26",
+  "descriptor": "Fabricante de DRAM (72% de los ingresos del 2T26), líder en HBM, y de NAND (28%); cotiza en Seúl y, desde julio de 2026, con ADR en Nasdaq. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001193125-26-420934",
+  "last_filing_seen_date": "2026-10-14",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 136.49000549316406,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "424B4 de 9/10-jul-2026 (acc. 0001193125-26-299963: anuales 2023-25 auditados e intermedios 1T26/1T25), 6-K resultados preliminares 2T26 (acc. 0001193125-26-321989) y 6-K informe semestral 1S26 (acc. 0001193125-26-354777) (K-IFRS, convertido a US$ a ₩1.523,5/US$)",
+  "shares_out": 7288665960,
+  "shares_out_date": "2026-08-19",
+  "shares_out_note": "ADS equivalentes (1 ADS = 1/10 acción ordinaria): 730.492.365 acciones emitidas − 1.625.769 en autocartera (1.625.696 + 73) = 728.866.596 ordinarias en circulación, según 6-K del 19-ago-26 (acc. 0001193125-26-356133 y -356141), antes de la recompra para amortizar de hasta 24.070.000 acciones (≈₩40,0 billones; 20-ago a 19-nov-2026, en curso, sin informe de resultado aún). Cuadra con el prospecto: 728.865.500 tras la OPV. El 19-ago se entregaron además 82 acciones de autocartera a consejeros (acc. 0001193125-26-359825).",
+  "quarters": [
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 11578038070,
+    "gross_profit": 6630778471,
+    "op_income": 4883822777,
+    "net_income": 5321352806,
+    "cfo": 5922987201,
+    "capex": 4124858549,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 7108341070,
+    "basic_shares": 6896404070,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 2026-07-09 acc. 0001193125-26-299963 (estados intermedios 1T25: cuenta de resultados, flujos, BPA nota 27); op_income = bruto − gastos de venta y admin. − I+D (cuadra con 6M25 − 2T25 del 6-K informe semestral 2026-08-18 acc. 0001193125-26-354777)"
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 14592682639,
+    "gross_profit": 7865654086,
+    "op_income": 6047161798,
+    "net_income": 4592863800,
+    "cfo": 6016521168,
+    "capex": 2843135543,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 7114676420,
+    "basic_shares": 6903950220,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K informe semestral 2026-08-18 acc. 0001193125-26-354777 (columna 3M 2T25; también 6-K resultados preliminares 2T26 2026-07-29 acc. 0001193125-26-321989); cfo y capex = 6M25 (6-K informe semestral 2026-08-18 acc. 0001193125-26-354777) − 1T25 (424B4 2026-07-09 acc. 0001193125-26-299963)"
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": null,
+    "gross_profit": null,
+    "op_income": null,
+    "net_income": null,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "SIN DATOS: el 3T25 no figura en ningún documento de SK hynix en EDGAR (no era registrante; el prospecto solo da anuales y 1T). Solo se conoce 2S25 = FY25 − 6M25 (ver notes)",
+    "gap": true,
+    "gap_note": "trimestre no publicado en EDGAR: SK hynix no era registrante; solo se conoce el 2S25 agregado (ver notas.md)"
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": null,
+    "gross_profit": null,
+    "op_income": null,
+    "net_income": null,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 11945571382,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 9379317361,
+    "cash": 22935512307,
+    "debt": 14603153922,
+    "total_assets": 115594131277,
+    "src": "Flujos SIN DATOS (4T25 no publicado en EDGAR; solo 2S25 agregado). Saldos: balance auditado a 31-dic-25 del 424B4 2026-07-09 acc. 0001193125-26-299963",
+    "gap": true,
+    "gap_note": "trimestre no publicado en EDGAR: SK hynix no era registrante; solo se conoce el 2S25 agregado (ver notas.md)"
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 34510198228,
+    "gross_profit": 27357672465,
+    "op_income": 24686762717,
+    "net_income": 26472055136,
+    "cfo": 17282651132,
+    "capex": 5026191664,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 7115926410,
+    "basic_shares": 7053834560,
+    "ar": 22190904496,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 10485154578,
+    "cash": 35661149327,
+    "debt": 12679793239,
+    "total_assets": 146261072530,
+    "src": "424B4 2026-07-09 acc. 0001193125-26-299963 (estados intermedios 1T26); op_income = bruto − gastos de venta y admin. − I+D (= 37.610.283 M₩ del 6-K resultados preliminares 2T26 2026-07-29 acc. 0001193125-26-321989)"
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 52063502461,
+    "gross_profit": 43315625862,
+    "op_income": 39739158517,
+    "net_income": 61582038727,
+    "cfo": 42935596981,
+    "capex": 7004550706,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 7116476170,
+    "basic_shares": 7100833260,
+    "ar": 31389166393,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 11805517558,
+    "cash": 57734114211,
+    "debt": 12199956679,
+    "total_assets": 228987340991,
+    "src": "6-K informe semestral 2026-08-18 acc. 0001193125-26-354777 (columna 3M 2T26 y balance a 30-jun-26; cifras = 6-K resultados preliminares 2T26 2026-07-29 acc. 0001193125-26-321989); cfo y capex = 6M26 − 1T26 (424B4 2026-07-09 acc. 0001193125-26-299963)"
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Mezcla 2T26",
+    "value": "DRAM ₩56,98 billones (71,8%) · NAND ₩21,96 billones (27,7%)",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 29-jul-2026: resultados preliminares 2T26",
+      "https://www.sec.gov/Archives/edgar/data/2120882/000119312526321989/d115239d6k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Bits y precios (2T26 frente al 1T26)",
+    "value": "DRAM: bits ligeramente al alza, precio medio +«mid-30%» · NAND: bits +«mid-10%», precio medio +«mid-50%»",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 29-jul-2026: resultados preliminares 2T26",
+      "https://www.sec.gov/Archives/edgar/data/2120882/000119312526321989/d115239d6k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cuota de mercado (1T26, IDC)",
+    "value": "HBM 56,4% · DRAM 29,1% · NAND 18,5% [VERIFY: % de HBM sobre ingresos no publicado]",
+    "prior": "—",
+    "src": [
+     [
+      "424B4 9-jul-2026 (OPV del ADR)",
+      "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Clientes ≥ 10% (1S26)",
+    "value": "A 13,35% · B 13,03%",
+    "prior": "Un cliente 23,9% (2025)",
+    "src": [
+     [
+      "6-K informe semestral 1S26",
+      "https://www.sec.gov/Archives/edgar/data/2120882/000119312526354777/d147827d6k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Inversión anunciada",
+    "value": "Yongin Fab 1 y P&T7 (₩45,5 billones con la OPV); M17 ₩19,1 billones; Yongin Fab 2 fases 1–6 ₩35,2 billones (7-ago)",
+    "prior": "—",
+    "src": [
+     [
+      "424B4 9-jul-2026 (OPV del ADR)",
+      "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Retribución al accionista",
+    "value": "> 50% del FCF acumulado 2025–2027; recompra para amortizar de hasta 24,07M acciones (≈ ₩40 billones) del 20-ago al 19-nov",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 20-ago-2026: política de retribución y recompra de ₩40 billones",
+      "https://www.sec.gov/Archives/edgar/data/2120882/000119312526356139/d425596d6k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Tipo de cambio de los trimestres",
+    "value": "₩1.523,5 por US$ (conversión de conveniencia del 424B4, 31-mar-2026)",
+    "prior": "—",
+    "src": [
+     [
+      "424B4 9-jul-2026 (OPV del ADR)",
+      "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm"
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2_26",
+   "type": "earnings",
+   "date": "2026-07-28",
+   "time_et": "after-hours",
+   "headline": "Resultados 2T26: ingresos ₩79,32 billones (+257%) y beneficio operativo ₩60,54 billones (margen 76,3%), por debajo del consenso FnGuide (₩63,99 billones)",
+   "sources": [
+    [
+     "6-K 29-jul-2026: resultados preliminares 2T26",
+     "https://www.sec.gov/Archives/edgar/data/2120882/000119312526321989/d115239d6k.htm"
+    ],
+    [
+     "Edaily: consenso FnGuide de beneficio operativo ₩63,99 billones",
+     "https://en.edaily.co.kr/news/eda202607295090/"
+    ],
+    [
+     "Korea JoongAng Daily: récord, pero la acción cae un 9,6% en Seúl",
+     "https://www.koreajoongangdaily.com/business/sk-hynix-posts-record-q2-profit-on-ai-demand-but-shares-slide-on-growth-doubts/12796737"
+    ]
+   ],
+   "rev_growth_yoy": 2.56778145245594,
+   "rev_growth_yoy_prev": 1.9806602828004003,
+   "rev_surprise_pct": -5.5,
+   "eps_surprise_pct": -5.4,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 2930,
+   "nonrecurring_in_beat": false,
+   "note": "Fallo frente al consenso: el beneficio operativo queda un 5,4% por debajo de FnGuide; se usa como sorpresa de beneficio porque no hay consenso de BPA comparable [VERIFY]. Los ingresos quedan ≈ ₩4,6 billones por debajo (≈ −5,5%) [VERIFY: cifra exacta del consenso de ingresos]. Publicado en Seúl el 29-jul a las 9:00 (28-jul a las 20:00 ET): la reacción del ADR es la sesión del 29-jul; en Seúl la acción cayó un 9,6%. El neto (₩93,8 billones) supera a los ingresos por ₩53,2 billones de ganancias de valoración de instrumentos financieros: no recurrente.",
+   "gap_pct": -0.17,
+   "rvol": 1.2,
+   "close_in_range": 0.16,
+   "day2_follow": true,
+   "dollar_volume": 8344049960,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-07-29",
+   "reaction_close_chg_pct": -2.6
+  }
+ ],
+ "supply": [
+  {
+   "id": "ipo_lockup",
+   "kind": "lockup",
+   "name": "Lock-up de la OPV del ADR (90 días, compañía y filiales)",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": 149.0,
+   "gate": "dated",
+   "date": "2026-10-07",
+   "notes": "177,9M ADS a $149 (17,79M acciones nuevas, ≈ 2,4% del capital). Fin del lock-up ≈ 7-oct-2026, ya vencido [VERIFY: fecha exacta]. SK square no puede bajar del 20% por la ley coreana de holdings.",
+   "src": [
+    [
+     "424B4 9-jul-2026 (OPV del ADR)",
+     "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm"
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 5827665960.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false,
+  "float_note": "Acciones en circulación (728,87M, 6-K 19-ago-2026) menos SK square (146,1M, obligada por ley a mantener ≥ 20%), en ADS equivalentes (1 ADS = 1/10 de acción). Solo 177,9M ADS cotizan en Nasdaq; el resto cotiza en Seúl [VERIFY]"
+ },
+ "peers": [
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "rev_yoy": 3.7926646045072916,
+   "accel_pp": 33.55094598991846,
+   "gm": 0.8071598041865633,
+   "gm_rel": 0.4071598041865633,
+   "rule40": 300.5977561745952,
+   "ev_sales": 7.160540033779174,
+   "rs_3m": 77.77777777777779
+  },
+  {
+   "ticker": "PENG",
+   "name": "Penguin Solutions",
+   "rev_yoy": 0.6769698332751346,
+   "accel_pp": 20.060430163452292,
+   "gm": 0.2766005493604271,
+   "gm_rel": -0.2233994506395729,
+   "rule40": 17.054006408131055,
+   "ev_sales": 1.771733601030944,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "RMBS",
+   "name": "Rambus",
+   "rev_yoy": 0.2042634240951402,
+   "accel_pp": 12.311212567436547,
+   "gm": 0.7946560434518749,
+   "gm_rel": 0.19465604345187493,
+   "rule40": 56.77566114914798,
+   "ev_sales": 11.421349728822433,
+   "rs_3m": 11.11111111111111
+  },
+  {
+   "ticker": "SIMO",
+   "name": "Silicon Motion Technology",
+   "rev_yoy": 1.2700440417767713,
+   "accel_pp": 21.52606287599297,
+   "gm": 0.4886941348969142,
+   "gm_rel": -0.11130586510308577,
+   "rule40": 61.70182948827737,
+   "ev_sales": 5.4428355168131946,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "rev_yoy": 3.7159389794844815,
+   "accel_pp": 120.56144957086703,
+   "gm": 0.7147372580007902,
+   "gm_rel": 0.3147372580007902,
+   "rule40": 232.06181755477493,
+   "ev_sales": 9.160421530455615,
+   "rs_3m": 44.44444444444444
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 0.0,
+  "rs_3m": 22.22222222222222,
+  "rs_6m": null,
+  "adr_pct": 3.655816722897942,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-10-27",
+   "kind": "earnings",
+   "text": "Resultados 3T26: conferencia el 28-oct a las 9:00 de Seúl = 27-oct a las 20:00 ET (tras el cierre en EE. UU.)",
+   "src": [
+    [
+     "6-K 14-oct-2026: conferencia del 3T26",
+     "https://www.sec.gov/Archives/edgar/data/2120882/000119312526420934/d413172d6k.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "Líder de HBM con +257%, pero falló el consenso del 2T26; datos con huecos.",
+  "setup": "ADR nuevo (≈ 70 sesiones); −32% desde máximos.",
+  "catalyst": "2T26 por debajo del consenso (−5%).",
+  "quality": "Neto inflado por ganancias de valoración.",
+  "supply": "Recompra de ₩40 billones; lock-up vencido.",
+  "group": "Sin RS fiable aún."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Fabricante de DRAM (72% de los ingresos del 2T26), líder en HBM, y de NAND (28%); cotiza en Seúl y, desde julio de 2026, con ADR en Nasdaq"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Fabricantes de DRAM y HBM (con NAND en algunos casos) · puro"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "El neto del 2T26 (₩93,8 billones) es mayor que los ingresos por ganancias de valoración: no sirve para medir el negocio.",
+   "Solo ≈ 2,4% del capital cotiza como ADR: la liquidez y el precio los marca Seúl."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: crecimiento enorme (+257%) y aceleración {m.accel_pp:pp}, pero por debajo del consenso coreano y con la acción vendida en Seúl.",
+  "financials_note": "Emisor extranjero (K-IFRS, wones): **trimestres cargados a mano** del 424B4 y de los 6-K del 2T26 y del informe semestral, convertidos a US$ a un tipo fijo de ₩1.523,5. **El 3T25 y el 4T25 no están en ningún documento de EDGAR** (SK hynix no era registrante y el folleto solo da años completos y el 1T): quedan como huecos (`gap`), y el TTM, el Rule of 40 y el margen TTM salen n/d. Del 2S25 solo se conoce el agregado (notas.md). Acciones diluidas en ADS equivalentes (× 10).",
+  "quality": [
+   "El neto GAAP está inflado por ganancias de valoración y dividendos cobrados (también inflan el CFO del 2T).",
+   "Sin TTM no se calculan varias banderas: la nota de fundamentales se apoya en el último trimestre."
+  ],
+  "supply_read": "Sin convertibles; la recompra de ≈ ₩40 billones para amortizar reduce acciones hasta el 19-nov. El lock-up de la OPV venció ≈ 7-oct. El riesgo de oferta es el propio ADR: poco papel en Nasdaq frente a Seúl.",
+  "valuation": [
+   "Market cap {m.mcap:usdM}. Con el 2T26 anualizado (≈ $208.000M de ingresos), ≈ 4–5× ventas, en línea con MU. EV/ventas TTM n/d por los huecos."
+  ],
+  "group_read": "Líder de HBM (56% de cuota en el 1T26 según IDC). Comparable con MU en tamaño; peor reacción a resultados y sin historial de precios suficiente para la fuerza relativa.",
+  "risks": [
+   "Consenso alto: el 2T26 ya falló frente a FnGuide.",
+   "Capex masivo anunciado (Yongin, M17, P&T7) justo en pico de precios.",
+   "Clientes: dos ≥ 13% (probablemente NVIDIA y un hyperscaler) [VERIFY].",
+   "Riesgo de cambio ₩/US$ para el inversor en ADR."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 27-oct tras el cierre (28-oct en Seúl): dentro de la ventana de ≤ 3 sesiones a partir del 22-oct, solo vale un EP.",
+   "**EP A/B si:** beneficio operativo ≥ +5% sobre el consenso de FnGuide [VERIFY: consenso actualizado] y detalles de retribución que superen la recompra de ₩40 billones.",
+   "**D si:** segundo fallo frente al consenso: confirmaría que las expectativas van por delante del ciclo.",
+   "Técnica: ADR desde el 14-jul (≈ 70 sesiones); −32% desde el máximo. Sin setup."
+  ],
+  "verdict": "El líder de HBM a un múltiplo parecido al de MU, pero con el último informe por debajo del consenso, poco ADR en circulación y huecos de datos. Esperar al 27-oct."
+ },
+ "sources": [
+  [
+   "6-K 29-jul-2026: resultados preliminares 2T26",
+   "https://www.sec.gov/Archives/edgar/data/2120882/000119312526321989/d115239d6k.htm"
+  ],
+  [
+   "424B4 9-jul-2026 (OPV del ADR)",
+   "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm"
+  ],
+  [
+   "Edaily: consenso FnGuide de beneficio operativo ₩63,99 billones",
+   "https://en.edaily.co.kr/news/eda202607295090/"
+  ],
+  [
+   "Korea JoongAng Daily: récord, pero la acción cae un 9,6% en Seúl",
+   "https://www.koreajoongangdaily.com/business/sk-hynix-posts-record-q2-profit-on-ai-demand-but-shares-slide-on-growth-doubts/12796737"
+  ],
+  [
+   "6-K 20-ago-2026: política de retribución y recompra de ₩40 billones",
+   "https://www.sec.gov/Archives/edgar/data/2120882/000119312526356139/d425596d6k.htm"
+  ],
+  [
+   "6-K 14-oct-2026: conferencia del 3T26",
+   "https://www.sec.gov/Archives/edgar/data/2120882/000119312526420934/d413172d6k.htm"
+  ]
+ ]
+}

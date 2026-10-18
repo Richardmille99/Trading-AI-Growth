@@ -1,0 +1,402 @@
+{
+ "cik": 2120882,
+ "name": "SK hynix Inc.",
+ "tickers": [
+  "SKHY",
+  "HXSCL"
+ ],
+ "fiscal_year_end": "1231",
+ "exchanges": [
+  "Nasdaq",
+  "OTC"
+ ],
+ "sic": "3674",
+ "sic_description": "Semiconductors & Related Devices",
+ "filings": [
+  {
+   "form": "6-K",
+   "filed": "2026-10-14",
+   "report_date": "2026-10-14",
+   "accession": "0001193125-26-420934",
+   "primary_doc": "d413172d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526420934/d413172d6k.htm",
+   "accepted_et": "2026-10-14T10:02",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-09-18",
+   "report_date": "2026-09-18",
+   "accession": "0001193125-26-394998",
+   "primary_doc": "d140793d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526394998/d140793d6k.htm",
+   "accepted_et": "2026-09-18T10:02",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-09",
+   "accession": "0001193125-26-385841",
+   "primary_doc": "d80436d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526385841/d80436d6k.htm",
+   "accepted_et": "2026-09-09T10:06",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-09-04",
+   "report_date": "2026-09-04",
+   "accession": "0001193125-26-382688",
+   "primary_doc": "d111778d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526382688/d111778d6k.htm",
+   "accepted_et": "2026-09-04T10:02",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-21",
+   "report_date": "2026-08-21",
+   "accession": "0001193125-26-359830",
+   "primary_doc": "d246122d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526359830/d246122d6k.htm",
+   "accepted_et": "2026-08-21T10:03",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-21",
+   "report_date": "2026-08-21",
+   "accession": "0001193125-26-359825",
+   "primary_doc": "d182120d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526359825/d182120d6k.htm",
+   "accepted_et": "2026-08-21T10:01",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-19",
+   "report_date": "2026-08-19",
+   "accession": "0001193125-26-356141",
+   "primary_doc": "d436722d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526356141/d436722d6k.htm",
+   "accepted_et": "2026-08-19T11:22",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-19",
+   "report_date": "2026-08-19",
+   "accession": "0001193125-26-356139",
+   "primary_doc": "d425596d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526356139/d425596d6k.htm",
+   "accepted_et": "2026-08-19T11:19",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-19",
+   "report_date": "2026-08-19",
+   "accession": "0001193125-26-356133",
+   "primary_doc": "d428222d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526356133/d428222d6k.htm",
+   "accepted_et": "2026-08-19T11:14",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-18",
+   "report_date": "2026-08-18",
+   "accession": "0001193125-26-354777",
+   "primary_doc": "d147827d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526354777/d147827d6k.htm",
+   "accepted_et": "2026-08-18T12:32",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-14",
+   "report_date": "2026-08-14",
+   "accession": "0001193125-26-350177",
+   "primary_doc": "d158635d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526350177/d158635d6k.htm",
+   "accepted_et": "2026-08-14T10:01",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-10",
+   "report_date": "2026-08-10",
+   "accession": "0001193125-26-341163",
+   "primary_doc": "d64707d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526341163/d64707d6k.htm",
+   "accepted_et": "2026-08-10T10:45",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-07",
+   "report_date": "2026-08-07",
+   "accession": "0001193125-26-339031",
+   "primary_doc": "d123529d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526339031/d123529d6k.htm",
+   "accepted_et": "2026-08-07T10:07",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-07",
+   "report_date": "2026-08-07",
+   "accession": "0001193125-26-339024",
+   "primary_doc": "d13432d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526339024/d13432d6k.htm",
+   "accepted_et": "2026-08-07T10:05",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-07",
+   "report_date": "2026-08-07",
+   "accession": "0001193125-26-339011",
+   "primary_doc": "d140960d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526339011/d140960d6k.htm",
+   "accepted_et": "2026-08-07T10:04",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-07",
+   "report_date": "2026-08-07",
+   "accession": "0001193125-26-339002",
+   "primary_doc": "d104981d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526339002/d104981d6k.htm",
+   "accepted_et": "2026-08-07T10:01",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-06",
+   "report_date": "2026-08-06",
+   "accession": "0001193125-26-336490",
+   "primary_doc": "d174813d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526336490/d174813d6k.htm",
+   "accepted_et": "2026-08-06T10:02",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-29",
+   "report_date": "2026-07-29",
+   "accession": "0001193125-26-321989",
+   "primary_doc": "d115239d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526321989/d115239d6k.htm",
+   "accepted_et": "2026-07-29T10:01",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-22",
+   "report_date": "2026-07-22",
+   "accession": "0001193125-26-311230",
+   "primary_doc": "d121520d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526311230/d121520d6k.htm",
+   "accepted_et": "2026-07-22T10:04",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-22",
+   "report_date": "2026-07-22",
+   "accession": "0001193125-26-311226",
+   "primary_doc": "d139467d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526311226/d139467d6k.htm",
+   "accepted_et": "2026-07-22T10:03",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-15",
+   "report_date": "2026-07-15",
+   "accession": "0001193125-26-303983",
+   "primary_doc": "d19380d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526303983/d19380d6k.htm",
+   "accepted_et": "2026-07-15T10:09",
+   "session": "intraday"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-15",
+   "report_date": "2026-07-15",
+   "accession": "0001193125-26-303972",
+   "primary_doc": "d143606d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526303972/d143606d6k.htm",
+   "accepted_et": "2026-07-15T10:03",
+   "session": "intraday"
+  },
+  {
+   "form": "424B4",
+   "filed": "2026-07-10",
+   "report_date": null,
+   "accession": "0001193125-26-299963",
+   "primary_doc": "d32785d424b4.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm",
+   "accepted_et": "2026-07-09T23:48",
+   "session": "amc"
+  },
+  {
+   "form": "EFFECT",
+   "filed": "2026-07-09",
+   "report_date": null,
+   "accession": "9999999995-26-002244",
+   "primary_doc": "xslEFFECTX01/primary_doc.xml",
+   "items": ",,",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/999999999526002244/xslEFFECTX01/primary_doc.xml",
+   "accepted_et": "2026-07-10T04:15",
+   "session": "bmo"
+  },
+  {
+   "form": "EFFECT",
+   "filed": "2026-07-09",
+   "report_date": null,
+   "accession": "9999999995-26-002238",
+   "primary_doc": "xslEFFECTX01/primary_doc.xml",
+   "items": ",,",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/999999999526002238/xslEFFECTX01/primary_doc.xml",
+   "accepted_et": "2026-07-10T04:15",
+   "session": "bmo"
+  },
+  {
+   "form": "CERT",
+   "filed": "2026-07-09",
+   "report_date": null,
+   "accession": "0001354457-26-000656",
+   "primary_doc": "SKHY_8A_Cert_2120882.pdf",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000135445726000656/SKHY_8A_Cert_2120882.pdf",
+   "accepted_et": "2026-07-09T13:44",
+   "session": "intraday"
+  },
+  {
+   "form": "8-A12B",
+   "filed": "2026-07-09",
+   "report_date": null,
+   "accession": "0001193125-26-299071",
+   "primary_doc": "d28812d8a12b.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299071/d28812d8a12b.htm",
+   "accepted_et": "2026-07-09T10:02",
+   "session": "intraday"
+  },
+  {
+   "form": "F-1/A",
+   "filed": "2026-07-06",
+   "report_date": null,
+   "accession": "0001193125-26-295501",
+   "primary_doc": "d32785df1a.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526295501/d32785df1a.htm",
+   "accepted_et": "2026-07-06T10:19",
+   "session": "intraday"
+  },
+  {
+   "form": "F-6",
+   "filed": "2026-07-01",
+   "report_date": null,
+   "accession": "0001193805-26-000898",
+   "primary_doc": "e665622_f6-skhynix.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119380526000898/e665622_f6-skhynix.htm",
+   "accepted_et": "2026-07-01T15:24",
+   "session": "intraday"
+  },
+  {
+   "form": "F-1/A",
+   "filed": "2026-06-30",
+   "report_date": null,
+   "accession": "0001193125-26-289345",
+   "primary_doc": "d32785df1a.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526289345/d32785df1a.htm",
+   "accepted_et": "2026-06-30T10:47",
+   "session": "intraday"
+  },
+  {
+   "form": "F-1",
+   "filed": "2026-06-24",
+   "report_date": null,
+   "accession": "0001193125-26-280172",
+   "primary_doc": "d32785df1.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526280172/d32785df1.htm",
+   "accepted_et": "2026-06-24T10:04",
+   "session": "intraday"
+  },
+  {
+   "form": "DRS/A",
+   "filed": "2026-06-11",
+   "report_date": null,
+   "accession": "0001193125-26-266801",
+   "primary_doc": "filename1.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526266801/filename1.htm",
+   "accepted_et": "2026-06-11T13:32",
+   "session": "intraday"
+  },
+  {
+   "form": "DRS/A",
+   "filed": "2026-05-29",
+   "report_date": null,
+   "accession": "0001193125-26-246418",
+   "primary_doc": "filename1.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526246418/filename1.htm",
+   "accepted_et": "2026-05-29T12:57",
+   "session": "intraday"
+  },
+  {
+   "form": "DRS/A",
+   "filed": "2026-05-08",
+   "report_date": null,
+   "accession": "0001193125-26-213985",
+   "primary_doc": "filename1.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526213985/filename1.htm",
+   "accepted_et": "2026-05-08T16:23",
+   "session": "amc"
+  },
+  {
+   "form": "DRS",
+   "filed": "2026-03-24",
+   "report_date": null,
+   "accession": "0001193125-26-120672",
+   "primary_doc": "filename1.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526120672/filename1.htm",
+   "accepted_et": "2026-03-24T10:48",
+   "session": "intraday"
+  }
+ ]
+}
