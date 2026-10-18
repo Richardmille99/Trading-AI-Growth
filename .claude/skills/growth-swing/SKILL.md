@@ -15,6 +15,9 @@ Archivos:
 - `references/schema.md` — campos del caso, markup y métricas.
 - `examples/EXMP_synthetic.json` — caso **sintético** completo; copia su forma, nunca sus cifras.
 - `scripts/prices.py` — precios diarios (Stooq → Yahoo), ADR%, EMAs, RS, «líder enfriado», candidatos de setup y proxy de régimen.
+- `scripts/edgar.py` — índice de filings por CIK (`--after <accession>` para el modo actualización).
+- `scripts/insiders.py` — Forms 4 (ventas, compras, 10b5-1, % de la posición por trimestre), Forms 144 y 13D/13G desde el XML de EDGAR → `data/<T>/insiders.json`.
+- `scripts/forensic.py` — fondo de comercio e intangibles frente a patrimonio, deterioros, float público de la portada del 10-K en acciones y 8-K 4.01/4.02/5.02 → `data/<T>/forensic.json`.
 - `scripts/xbrl.py` · `catalysts.py` · `fundamentals.py` · `compute.py` · `validate.py` · `render.py` · `rank.py` (ranking de un universo de casos) · `tests/test_engines.py`.
 - `assets/sector_profiles.json` · `assets/journal_template.csv` · `assets/report.css` · `assets/charts.js`.
 
@@ -36,8 +39,8 @@ Archivos:
    - ATM: capacidad restante y ventas por trimestre (notas de patrimonio del 10-Q).
    - Shelf efectivo, warrants y convertibles con precio y fecha.
    - Lock-ups con fecha y acciones.
-   - Forms 4 y 144: marca las ventas fuera de plan o mayores del 10% de la posición.
-   - Float de no afiliados de la portada.
+   - Forms 4 y 144: `python scripts/insiders.py --filings data/<T>/filings.json --ua "$SEC_USER_AGENT" --out data/<T>/insiders.json`. Marca las ventas fuera de plan o mayores del 10% de la posición.
+   - Float de no afiliados de la portada: `python scripts/forensic.py --cik … --filings … --prices … --out data/<T>/forensic.json` (también goodwill/patrimonio y 8-K de auditor, reexpresiones y directivos).
    - Si hay splits, reverse splits o equity lines, aplica `forensic-microcap` (base actual, Rule 144, baby shelf).
 6. **Pares.**
    - Usa 4–8 compañías del mismo tema o industria.
@@ -51,7 +54,7 @@ Archivos:
 8. **Construir y comprobar.**
    - `python scripts/validate.py case.json` debe dar OK; lee los avisos.
    - `python scripts/render.py case.json <TICKER>_swing.html`.
-   - Si tocas los scripts: `python tests/test_engines.py` y `python tests/test_prices.py`.
+   - Si tocas los scripts: `python tests/test_engines.py`, `tests/test_prices.py`, `tests/test_insiders.py` y `tests/test_forensic.py`.
 9. **Publicar.**
    - Carga la skill de diseño de artifacts y publica el HTML como artifact (icono `chart`).
    - Resume en una línea la convicción y lo que la limita.

@@ -1,0 +1,605 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 1288469,
+ "form4_count": 28,
+ "form144_count": 18,
+ "schedule13_count": 9,
+ "owners": [
+  {
+   "name": "SEENDRIPU KISHORE",
+   "role": "consejero, Chairman, President and CEO, ≥10%",
+   "sold": 591454.0,
+   "sold_value": 50435857,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 182577.0,
+   "exercised": 124108.0,
+   "max_quarter_pct": 0.1137,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-14",
+     "shares": 35963.0,
+     "price": 83.3059,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 77501.0,
+     "price": 84.5372,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 6536.0,
+     "price": 84.8652,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 36743.0,
+     "price": 83.3078,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 77515.0,
+     "price": 84.8373,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 5742.0,
+     "price": 84.8647,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 19373.0,
+     "price": 84.6516,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 68482.0,
+     "price": 85.4449,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 72298.0,
+     "price": 86.4859,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 13289.0,
+     "price": 87.1067,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 2285.0,
+     "price": 88.1354,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 17766.0,
+     "price": 84.6305,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 68976.0,
+     "price": 85.4284,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 71163.0,
+     "price": 86.4674,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 13919.0,
+     "price": 87.1157,
+     "accession": "0001478340-26-000008"
+    },
+    {
+     "date": "2026-08-17",
+     "shares": 3903.0,
+     "price": 88.1621,
+     "accession": "0001478340-26-000008"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001478340-26-000008"
+   ]
+  },
+  {
+   "name": "Kwong Connie H.",
+   "role": "Corporate Controller & PAO",
+   "sold": 54168.0,
+   "sold_value": 4404472,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 16958.0,
+   "exercised": 11054.0,
+   "max_quarter_pct": 0.7952,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-08",
+     "shares": 6539.0,
+     "price": 97.1451,
+     "accession": "0001666994-26-000010"
+    },
+    {
+     "date": "2026-05-08",
+     "shares": 28461.0,
+     "price": 96.9203,
+     "accession": "0001666994-26-000010"
+    },
+    {
+     "date": "2026-04-29",
+     "shares": 4118.0,
+     "price": 58.0,
+     "accession": "0001666994-26-000008"
+    },
+    {
+     "date": "2026-04-27",
+     "shares": 15050.0,
+     "price": 51.2922,
+     "accession": "0001666994-26-000006"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001666994-26-000006",
+    "0001666994-26-000008",
+    "0001666994-26-000010"
+   ]
+  },
+  {
+   "name": "ARTUSI DANIEL A",
+   "role": "consejero",
+   "sold": 40302.0,
+   "sold_value": 1288779,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 15741.0,
+   "max_quarter_pct": 0.7105,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-04",
+     "shares": 10500.0,
+     "price": 78.6408,
+     "accession": "0001197847-26-000002"
+    },
+    {
+     "date": "2025-10-29",
+     "shares": 9055.0,
+     "price": 15.8693,
+     "accession": "0001197847-25-000005"
+    },
+    {
+     "date": "2025-10-30",
+     "shares": 20747.0,
+     "price": 15.3928,
+     "accession": "0001197847-25-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001197847-25-000005",
+    "0001197847-26-000002"
+   ]
+  },
+  {
+   "name": "MOYER ALBERT J",
+   "role": "consejero",
+   "sold": 15741.0,
+   "sold_value": 1227798,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 56077.0,
+   "max_quarter_pct": 0.1778,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-04",
+     "shares": 15741.0,
+     "price": 78.0,
+     "accession": "0001016366-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001016366-26-000002"
+   ]
+  },
+  {
+   "name": "PARDUN THOMAS E",
+   "role": "consejero",
+   "sold": 11000.0,
+   "sold_value": 1155000,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1403,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-26",
+     "shares": 11000.0,
+     "price": 105.0,
+     "accession": "0001232833-26-000008"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001232833-26-000008"
+   ]
+  },
+  {
+   "name": "Tewksbury Ted L III",
+   "role": "consejero",
+   "sold": 10660.0,
+   "sold_value": 838687,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 15741.0,
+   "max_quarter_pct": 0.1175,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001375681-26-000003"
+   ]
+  },
+  {
+   "name": "LITCHFIELD STEVEN G",
+   "role": "See remarks",
+   "sold": 44929.0,
+   "sold_value": 746427,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 42532.0,
+   "exercised": 29315.0,
+   "max_quarter_pct": 0.1157,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-03-04",
+     "shares": 20000.0,
+     "price": 17.4959,
+     "accession": "0001286030-26-000004"
+    },
+    {
+     "date": "2026-03-05",
+     "shares": 4929.0,
+     "price": 16.8061,
+     "accession": "0001286030-26-000004"
+    },
+    {
+     "date": "2026-03-06",
+     "shares": 20000.0,
+     "price": 15.6836,
+     "accession": "0001286030-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001286030-26-000004"
+   ]
+  },
+  {
+   "name": "BEAVER CAROLYN",
+   "role": "consejero",
+   "sold": 6000.0,
+   "sold_value": 461747,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 15741.0,
+   "max_quarter_pct": 0.1526,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-04",
+     "shares": 6000.0,
+     "price": 76.9578,
+     "accession": "0001335581-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001335581-26-000002"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Kishore V. Seendripu",
+   "relationship": "Officer",
+   "shares": 351454.0,
+   "value": 29789241.04,
+   "outstanding": 90693191.0,
+   "approx_date": "08/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001958244-26-000519",
+   "filed": "2026-08-17",
+   "form": "144"
+  },
+  {
+   "person": "Kishore V. Seendripu",
+   "relationship": "Officer",
+   "shares": 240000.0,
+   "value": 20361600.0,
+   "outstanding": 90693191.0,
+   "approx_date": "08/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001958244-26-000517",
+   "filed": "2026-08-14",
+   "form": "144"
+  },
+  {
+   "person": "PARDUN THOMAS E",
+   "relationship": "Director",
+   "shares": 11000.0,
+   "value": 1155000.0,
+   "outstanding": 89545959.0,
+   "approx_date": "05/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001232833-26-000007",
+   "filed": "2026-05-26",
+   "form": "144"
+  },
+  {
+   "person": "ALBERT J MOYER",
+   "relationship": "Director",
+   "shares": 40336.0,
+   "value": 3916690.14,
+   "outstanding": 89545959.0,
+   "approx_date": "05/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004943",
+   "filed": "2026-05-22",
+   "form": "144"
+  },
+  {
+   "person": "CONNIE KWONG",
+   "relationship": "Officer",
+   "shares": 35000.0,
+   "value": 3393680.47,
+   "outstanding": 89545959.0,
+   "approx_date": "05/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004239",
+   "filed": "2026-05-08",
+   "form": "144"
+  },
+  {
+   "person": "THEODORE TEWKSBURY PH D",
+   "relationship": "Director",
+   "shares": 3935.0,
+   "value": 314800.0,
+   "outstanding": 89545959.0,
+   "approx_date": "05/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004040",
+   "filed": "2026-05-05",
+   "form": "144"
+  },
+  {
+   "person": "CAROLYN D. BEAVER",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 461746.8,
+   "outstanding": 89545959.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004010",
+   "filed": "2026-05-04",
+   "form": "144"
+  },
+  {
+   "person": "ALBERT J MOYER",
+   "relationship": "Director",
+   "shares": 15741.0,
+   "value": 1227798.0,
+   "outstanding": 89545959.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003955",
+   "filed": "2026-05-04",
+   "form": "144"
+  },
+  {
+   "person": "DANIEL ARTUSI",
+   "relationship": "Director",
+   "shares": 10500.0,
+   "value": 825728.4,
+   "outstanding": 89545959.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003954",
+   "filed": "2026-05-04",
+   "form": "144"
+  },
+  {
+   "person": "THEODORE TEWKSBURY PH D",
+   "relationship": "Director",
+   "shares": 3935.0,
+   "value": 304411.6,
+   "outstanding": 89545959.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003953",
+   "filed": "2026-05-04",
+   "form": "144"
+  },
+  {
+   "person": "THEODORE TEWKSBURY",
+   "relationship": "Director",
+   "shares": 2790.0,
+   "value": 219475.35,
+   "outstanding": 89545959.0,
+   "approx_date": "05/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003906",
+   "filed": "2026-05-01",
+   "form": "144"
+  },
+  {
+   "person": "CONNIE KWONG",
+   "relationship": "Officer",
+   "shares": 4118.0,
+   "value": 238844.0,
+   "outstanding": 89545959.0,
+   "approx_date": "04/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003823",
+   "filed": "2026-04-29",
+   "form": "144"
+  },
+  {
+   "person": "CONNIE KWONG",
+   "relationship": "Officer",
+   "shares": 15050.0,
+   "value": 771948.29,
+   "outstanding": 89545959.0,
+   "approx_date": "04/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003769",
+   "filed": "2026-04-27",
+   "form": "144"
+  },
+  {
+   "person": "STEVEN LITCHFIELD",
+   "relationship": "Officer",
+   "shares": 20000.0,
+   "value": 313672.0,
+   "outstanding": 86451150.0,
+   "approx_date": "03/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-002336",
+   "filed": "2026-03-06",
+   "form": "144"
+  },
+  {
+   "person": "STEVEN LITCHFIELD",
+   "relationship": "Officer",
+   "shares": 4929.0,
+   "value": 82837.27,
+   "outstanding": 86451150.0,
+   "approx_date": "03/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-002287",
+   "filed": "2026-03-05",
+   "form": "144"
+  },
+  {
+   "person": "STEVEN LITCHFIELD",
+   "relationship": "Officer",
+   "shares": 20000.0,
+   "value": 349918.0,
+   "outstanding": 86451150.0,
+   "approx_date": "03/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-002219",
+   "filed": "2026-03-04",
+   "form": "144"
+  },
+  {
+   "person": "DANIEL ARTUSI",
+   "relationship": "Director",
+   "shares": 20747.0,
+   "value": 319352.35,
+   "outstanding": 87372834.0,
+   "approx_date": "10/30/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008277",
+   "filed": "2025-10-30",
+   "form": "144"
+  },
+  {
+   "person": "DANIEL ARTUSI",
+   "relationship": "Director",
+   "shares": 9055.0,
+   "value": 143696.51,
+   "outstanding": 87372834.0,
+   "approx_date": "10/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008252",
+   "filed": "2025-10-29",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 7008350.0,
+   "pct": 7.82,
+   "filed": "2026-07-31",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002100121-26-000943"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 4480681.0,
+   "pct": 5.0,
+   "filed": "2026-07-31",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0002100119-26-001469"
+  },
+  {
+   "name": "STATE STREET CORPORATION",
+   "shares": 4325471.0,
+   "pct": 4.8,
+   "filed": "2026-08-07",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000093751-26-000495"
+  },
+  {
+   "name": "FMR LLC",
+   "shares": 1650823.96,
+   "pct": 1.8,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002084"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 1650823.96,
+   "pct": 1.8,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002084"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-000470"
+  }
+ ],
+ "errors": []
+}
