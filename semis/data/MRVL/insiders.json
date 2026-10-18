@@ -1,0 +1,588 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 1835632,
+ "form4_count": 70,
+ "form144_count": 28,
+ "schedule13_count": 8,
+ "owners": [
+  {
+   "name": "Bharathi Sandeep",
+   "role": "President, Data Center Group",
+   "sold": 126235.0,
+   "sold_value": 16472424,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 132157.0,
+   "exercised": 250758.0,
+   "max_quarter_pct": 0.5545,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-021836",
+    "0001628280-26-025592",
+    "0001628280-26-044030",
+    "0001628280-26-048556",
+    "0001628280-26-066137"
+   ]
+  },
+  {
+   "name": "MURPHY MATTHEW J",
+   "role": "consejero, Chairman of the Board and CEO",
+   "sold": 82500.0,
+   "sold_value": 14323050,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 665445.0,
+   "exercised": 1270137.0,
+   "max_quarter_pct": 0.0882,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001628280-26-021531",
+    "0001628280-26-025675",
+    "0001628280-26-034988",
+    "0001628280-26-043503",
+    "0001628280-26-048541",
+    "0001628280-26-057525",
+    "0001628280-26-062124",
+    "0001628280-26-066130"
+   ]
+  },
+  {
+   "name": "Koopmans Chris",
+   "role": "President and COO",
+   "sold": 70000.0,
+   "sold_value": 14066100,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 171217.0,
+   "exercised": 343102.0,
+   "max_quarter_pct": 0.121,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-023978",
+    "0001628280-26-029789",
+    "0001628280-26-039656",
+    "0001628280-26-046627",
+    "0001628280-26-051905",
+    "0001628280-26-060112",
+    "0001628280-26-064351"
+   ]
+  },
+  {
+   "name": "Meintjes Willem A",
+   "role": "Chief Financial Officer",
+   "sold": 34000.0,
+   "sold_value": 4721260,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 86428.0,
+   "exercised": 207737.0,
+   "max_quarter_pct": 0.1304,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-025578",
+    "0001628280-26-035865"
+   ]
+  },
+  {
+   "name": "Casper Mark",
+   "role": "EVP & Chief Legal Officer",
+   "sold": 41007.0,
+   "sold_value": 4599415,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 64541.0,
+   "exercised": 129394.0,
+   "max_quarter_pct": 0.4296,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-17",
+     "shares": 10000.0,
+     "price": 135.5,
+     "accession": "0001628280-26-026152"
+    },
+    {
+     "date": "2026-04-06",
+     "shares": 6900.0,
+     "price": 109.45,
+     "accession": "0001628280-26-024047"
+    },
+    {
+     "date": "2026-04-01",
+     "shares": 7000.0,
+     "price": 105.11,
+     "accession": "0001628280-26-023325"
+    },
+    {
+     "date": "2026-04-02",
+     "shares": 10854.0,
+     "price": 107.01,
+     "accession": "0001628280-26-023325"
+    },
+    {
+     "date": "2026-01-05",
+     "shares": 5000.0,
+     "price": 93.08,
+     "accession": "0001628280-26-001239"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 1253.0,
+     "price": 101.0,
+     "accession": "0001628280-25-055852"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-25-055852",
+    "0001628280-26-001239",
+    "0001628280-26-023325",
+    "0001628280-26-024047",
+    "0001628280-26-026152"
+   ]
+  },
+  {
+   "name": "Durn Daniel",
+   "role": "Chief Financial Officer",
+   "sold": 2250.0,
+   "sold_value": 632272,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 3408.0,
+   "exercised": 10409.0,
+   "max_quarter_pct": 0.2458,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-23",
+     "shares": 2250.0,
+     "price": 281.01,
+     "accession": "0001628280-26-044905"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-044905"
+   ]
+  },
+  {
+   "name": "Scarpulla Justin",
+   "role": "SVP, Chief Accounting Officer",
+   "sold": 1100.0,
+   "sold_value": 300949,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 2076.0,
+   "exercised": 4186.0,
+   "max_quarter_pct": 0.5475,
+   "max_quarter": "2026-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-10-08",
+     "shares": 1100.0,
+     "price": 273.59,
+     "accession": "0001628280-26-065570"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-065570"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "SANDEEP BHARATHI",
+   "relationship": "Officer",
+   "shares": 3685.0,
+   "value": 865864.45,
+   "outstanding": 876900000.0,
+   "approx_date": "10/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-010292",
+   "filed": "2026-10-16",
+   "form": "144"
+  },
+  {
+   "person": "JUSTIN SCARPULLA",
+   "relationship": "Officer",
+   "shares": 1100.0,
+   "value": 300949.0,
+   "outstanding": 876900000.0,
+   "approx_date": "10/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-010117",
+   "filed": "2026-10-08",
+   "form": "144"
+  },
+  {
+   "person": "KOOPMANS FAMILY TRUST U/A DTD 03/28/2013",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 2620515.0,
+   "outstanding": 876900000.0,
+   "approx_date": "10/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009912",
+   "filed": "2026-10-01",
+   "form": "144"
+  },
+  {
+   "person": "KOOPMANS FAMILY TRUST U/A DTD 03/28/2013",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 2032703.0,
+   "outstanding": 876900000.0,
+   "approx_date": "09/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008892",
+   "filed": "2026-09-01",
+   "form": "144"
+  },
+  {
+   "person": "Matthew Murphy",
+   "relationship": "Officer",
+   "shares": 22500.0,
+   "value": 5272425.0,
+   "outstanding": 874800000.0,
+   "approx_date": "08/17/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000520",
+   "filed": "2026-08-17",
+   "form": "144"
+  },
+  {
+   "person": "KOOPMANS FAMILY TRUST U/A DTD 03/28/2013",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 1805004.0,
+   "outstanding": 874800000.0,
+   "approx_date": "08/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-007514",
+   "filed": "2026-08-03",
+   "form": "144"
+  },
+  {
+   "person": "SANDEEP BHARATHI",
+   "relationship": "Officer",
+   "shares": 9013.0,
+   "value": 1795778.06,
+   "outstanding": 874800000.0,
+   "approx_date": "07/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-007147",
+   "filed": "2026-07-16",
+   "form": "144"
+  },
+  {
+   "person": "KOOPMANS FAMILY TRUST U/A DTD 03/28/2013",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 2819225.0,
+   "outstanding": 874800000.0,
+   "approx_date": "07/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006701",
+   "filed": "2026-07-01",
+   "form": "144"
+  },
+  {
+   "person": "Durn Daniel",
+   "relationship": "Officer",
+   "shares": 2250.0,
+   "value": 632264.58,
+   "outstanding": 874800000.0,
+   "approx_date": "06/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001965301-26-000078",
+   "filed": "2026-06-23",
+   "form": "144"
+  },
+  {
+   "person": "SANDEEP BHARATHI",
+   "relationship": "Officer",
+   "shares": 2231.0,
+   "value": 667359.03,
+   "outstanding": 874800000.0,
+   "approx_date": "06/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006177",
+   "filed": "2026-06-16",
+   "form": "144"
+  },
+  {
+   "person": "WILLEM MEINTJES",
+   "relationship": "Officer",
+   "shares": 207329.0,
+   "value": 60131256.68,
+   "outstanding": 874800000.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006151",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "WILLEM MEINTJES",
+   "relationship": "Officer",
+   "shares": 4000.0,
+   "value": 1185226.8,
+   "outstanding": 874800000.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006147",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "KOOPMANS FAMILY TRUST U/A DTD 03/28/2013",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 2058657.0,
+   "outstanding": 874800000.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005345",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "WILLEM MEINTJES",
+   "relationship": "Officer",
+   "shares": 4000.0,
+   "value": 700970.8,
+   "outstanding": 874300000.0,
+   "approx_date": "05/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004582",
+   "filed": "2026-05-15",
+   "form": "144"
+  },
+  {
+   "person": "Matthew Murphy",
+   "relationship": "Officer",
+   "shares": 22500.0,
+   "value": 4003875.0,
+   "outstanding": 874300000.0,
+   "approx_date": "05/13/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000279",
+   "filed": "2026-05-13",
+   "form": "144"
+  },
+  {
+   "person": "KOOPMANS FAMILY TRUST U/A DTD 03/28/2013",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 1627644.0,
+   "outstanding": 874300000.0,
+   "approx_date": "05/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003873",
+   "filed": "2026-05-01",
+   "form": "144"
+  },
+  {
+   "person": "MARK CASPER",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 1355000.0,
+   "outstanding": 874300000.0,
+   "approx_date": "04/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003585",
+   "filed": "2026-04-17",
+   "form": "144"
+  },
+  {
+   "person": "SANDEEP BHARATHI",
+   "relationship": "Officer",
+   "shares": 66892.0,
+   "value": 8719111.32,
+   "outstanding": 874458245.0,
+   "approx_date": "04/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003548",
+   "filed": "2026-04-16",
+   "form": "144"
+  },
+  {
+   "person": "Matthew Murphy",
+   "relationship": "Officer",
+   "shares": 7500.0,
+   "value": 1009500.0,
+   "outstanding": 874300000.0,
+   "approx_date": "04/15/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000220",
+   "filed": "2026-04-15",
+   "form": "144"
+  },
+  {
+   "person": "WILLEM MEINTJES",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 4020300.0,
+   "outstanding": 874300000.0,
+   "approx_date": "04/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003476",
+   "filed": "2026-04-15",
+   "form": "144"
+  },
+  {
+   "person": "KOOPMANS FAMILY TRUST U/A DTD 03/28/2013",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 1102427.0,
+   "outstanding": 874300000.0,
+   "approx_date": "04/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003236",
+   "filed": "2026-04-06",
+   "form": "144"
+  },
+  {
+   "person": "MARK J.& STEPHANIE CASPER TRUST",
+   "relationship": "Officer",
+   "shares": 6900.0,
+   "value": 755205.0,
+   "outstanding": 874458245.0,
+   "approx_date": "04/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003234",
+   "filed": "2026-04-06",
+   "form": "144"
+  },
+  {
+   "person": "MARK CASPER",
+   "relationship": "Officer",
+   "shares": 10854.0,
+   "value": 1161453.98,
+   "outstanding": 874300000.0,
+   "approx_date": "04/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003196",
+   "filed": "2026-04-02",
+   "form": "144"
+  },
+  {
+   "person": "MARK CASPER",
+   "relationship": "Officer",
+   "shares": 7000.0,
+   "value": 735735.0,
+   "outstanding": 874300000.0,
+   "approx_date": "04/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003133",
+   "filed": "2026-04-01",
+   "form": "144"
+  },
+  {
+   "person": "Matthew Murphy",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 2930400.0,
+   "outstanding": 874300000.0,
+   "approx_date": "03/26/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000173",
+   "filed": "2026-03-26",
+   "form": "144"
+  },
+  {
+   "person": "SANDEEP BHARATHI",
+   "relationship": "Officer",
+   "shares": 44414.0,
+   "value": 4424220.67,
+   "outstanding": 874300000.0,
+   "approx_date": "03/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003014",
+   "filed": "2026-03-26",
+   "form": "144"
+  },
+  {
+   "person": "MARK CASPER",
+   "relationship": "Officer",
+   "shares": 5000.0,
+   "value": 465400.0,
+   "outstanding": 848100000.0,
+   "approx_date": "01/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000093",
+   "filed": "2026-01-05",
+   "form": "144"
+  },
+  {
+   "person": "MARK CASPER",
+   "relationship": "Officer",
+   "shares": 1253.0,
+   "value": 126553.0,
+   "outstanding": 848100000.0,
+   "approx_date": "12/05/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009828",
+   "filed": "2025-12-05",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 79080745.0,
+   "pct": 9.0,
+   "filed": "2026-07-29",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002012383-26-002903"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 66748129.0,
+   "pct": 7.63,
+   "filed": "2026-07-31",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002100119-26-001498"
+  },
+  {
+   "name": "FMR LLC",
+   "shares": 56893463.46,
+   "pct": 6.5,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002090"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 56893463.46,
+   "pct": 6.5,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002090"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001722"
+  }
+ ],
+ "errors": []
+}

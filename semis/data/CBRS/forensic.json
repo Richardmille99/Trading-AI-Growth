@@ -1,0 +1,23 @@
+{
+ "balance": {
+  "goodwill": null,
+  "intangibles": null,
+  "equity": {
+   "val": 9154642000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 11627872000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.0,
+ "goodwill_intang_to_assets": 0.0,
+ "impairments": [],
+ "public_float": null,
+ "governance": []
+}

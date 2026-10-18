@@ -1,0 +1,436 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 928876,
+ "form4_count": 13,
+ "form144_count": 1,
+ "schedule13_count": 10,
+ "owners": [
+  {
+   "name": "Ellwanger Russell Craig",
+   "role": "Chief Executive Officer",
+   "sold": 248499.0,
+   "sold_value": 59958538,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3205,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-10",
+     "shares": 1025.0,
+     "price": 245.93,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 2062.0,
+     "price": 246.71,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 5498.0,
+     "price": 248.02,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 5559.0,
+     "price": 248.94,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 1123.0,
+     "price": 250.05,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 6474.0,
+     "price": 251.04,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 3341.0,
+     "price": 252.07,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 9022.0,
+     "price": 253.53,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 7343.0,
+     "price": 254.15,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 3116.0,
+     "price": 255.24,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 9720.0,
+     "price": 256.56,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 5407.0,
+     "price": 257.27,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 6486.0,
+     "price": 258.47,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 2519.0,
+     "price": 259.94,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 5316.0,
+     "price": 261.03,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 1471.0,
+     "price": 262.16,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-10",
+     "shares": 1827.0,
+     "price": 263.78,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 3060.0,
+     "price": 243.32,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 2507.0,
+     "price": 244.69,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 11624.0,
+     "price": 245.78,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 5065.0,
+     "price": 246.74,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 23028.0,
+     "price": 248.08,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 35208.0,
+     "price": 248.78,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 15816.0,
+     "price": 249.66,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 3331.0,
+     "price": 250.9,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 2098.0,
+     "price": 252.74,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-08-11",
+     "shares": 2489.0,
+     "price": 253.92,
+     "accession": "0001976408-26-000719"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 10899.0,
+     "price": 210.8201,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 17173.0,
+     "price": 211.9483,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 9797.0,
+     "price": 212.7959,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 9878.0,
+     "price": 213.8328,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 3025.0,
+     "price": 217.9321,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 2118.0,
+     "price": 219.01,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 4936.0,
+     "price": 219.8235,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 4772.0,
+     "price": 220.8834,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 1856.0,
+     "price": 222.4827,
+     "accession": "0001976408-26-000651"
+    },
+    {
+     "date": "2026-07-13",
+     "shares": 2510.0,
+     "price": 234.7107,
+     "accession": "0001976408-26-000651"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001976408-26-000651",
+    "0001976408-26-000719"
+   ]
+  },
+  {
+   "name": "Chelouche Yoav",
+   "role": "consejero",
+   "sold": 232.0,
+   "sold_value": 49894,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0068,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-10",
+     "shares": 232.0,
+     "price": 215.06,
+     "accession": "0001976408-26-000839"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001976408-26-000839"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Amir Elstein",
+   "relationship": "Chairman",
+   "shares": 64000.0,
+   "value": 6186880.0,
+   "outstanding": 111550761.0,
+   "approx_date": "11/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001968582-25-001081",
+   "filed": "2025-11-19",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "T. Rowe Price Associates, Inc.",
+   "shares": 7388751.0,
+   "pct": 6.6,
+   "filed": "2026-05-15",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0000080255-26-000396"
+  },
+  {
+   "name": "Migdal Sal Domestic Equities",
+   "shares": 7306078.0,
+   "pct": 6.5,
+   "filed": "2025-11-13",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2025",
+   "accession": "0001178913-25-003820"
+  },
+  {
+   "name": "Menora Mivtachim Holdings Ltd",
+   "shares": 6898163.0,
+   "pct": 6.17,
+   "filed": "2026-02-10",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001178913-26-000396"
+  },
+  {
+   "name": "Migdal Insurance & Financial Holdings Ltd.",
+   "shares": 6744227.47,
+   "pct": 5.98,
+   "filed": "2026-07-23",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001178913-26-003574"
+  },
+  {
+   "name": "Menora Mivtachim Pensions & Gemel Ltd.",
+   "shares": 6046352.0,
+   "pct": 5.41,
+   "filed": "2026-02-10",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001178913-26-000396"
+  },
+  {
+   "name": "Harel Insurance Investments & Financial Services Ltd.",
+   "shares": 5700478.0,
+   "pct": 5.1,
+   "filed": "2026-06-15",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/10/2026",
+   "accession": "0001178913-26-003184"
+  },
+  {
+   "name": "Phoenix Financial Ltd.",
+   "shares": 5654349.46,
+   "pct": 5.01,
+   "filed": "2026-06-09",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/05/2026",
+   "accession": "0001178913-26-003146"
+  },
+  {
+   "name": "Clal Insurance Enterprises Holdings Ltd",
+   "shares": 5395560.0,
+   "pct": 4.8,
+   "filed": "2025-11-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0001178913-25-003775"
+  },
+  {
+   "name": "Senvest Management, LLC",
+   "shares": 3971656.0,
+   "pct": 3.6,
+   "filed": "2026-02-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0000902664-26-000942"
+  },
+  {
+   "name": "Richard Mashaal",
+   "shares": 3971656.0,
+   "pct": 3.6,
+   "filed": "2026-02-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0000902664-26-000942"
+  },
+  {
+   "name": "Point72 Asset Management, L.P.",
+   "shares": 2854352.0,
+   "pct": 2.6,
+   "filed": "2025-11-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0000902664-25-004998"
+  },
+  {
+   "name": "Point72 Capital Advisors, Inc.",
+   "shares": 2854352.0,
+   "pct": 2.6,
+   "filed": "2025-11-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0000902664-25-004998"
+  },
+  {
+   "name": "Steven A. Cohen",
+   "shares": 2854352.0,
+   "pct": 2.6,
+   "filed": "2025-11-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0000902664-25-004998"
+  },
+  {
+   "name": "Migdal Mutual Funds Ltd.",
+   "shares": 1457657.0,
+   "pct": 1.3,
+   "filed": "2025-11-13",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2025",
+   "accession": "0001178913-25-003820"
+  },
+  {
+   "name": "Migdal Insurance & Financial Holdings Ltd",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2025-11-13",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2025",
+   "accession": "0001178913-25-003820"
+  },
+  {
+   "name": "Migdal Insurance Company Ltd.",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2025-11-13",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2025",
+   "accession": "0001178913-25-003820"
+  }
+ ],
+ "errors": []
+}

@@ -51,6 +51,10 @@ def test_form4():
         "</nonDerivativeHolding></nonDerivativeTable>")
     r = summarize_form4([doc(trust, "f1")])[0]
     assert abs(r["max_quarter_pct"] - 0.01) < 1e-4, "a trust emptied, but the direct holding remains"
+    stc = doc(f4("Gus", [("2026-08-01", "S", 400, 50, 9600)],
+                 footnote="Represents shares required to be sold to satisfy tax withholding obligations upon vesting of RSUs"), "g1")
+    r = summarize_form4([stc])
+    assert not r, "sell-to-cover only: no discretionary sale, owner not listed"
     print("form 4 ok")
 
 

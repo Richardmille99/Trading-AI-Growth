@@ -1,0 +1,154 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 4127,
+ "form4_count": 34,
+ "form144_count": 2,
+ "schedule13_count": 9,
+ "owners": [
+  {
+   "name": "Kasnavi Reza",
+   "role": "EVP, Chief Ops & Tech Officer",
+   "sold": 7332.0,
+   "sold_value": 456519,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 13814.0,
+   "exercised": 16067.0,
+   "max_quarter_pct": 0.2115,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001894643-25-000014"
+   ]
+  },
+  {
+   "name": "TERRY ROBERT JOHN",
+   "role": "SVP, Gen. Counsel & Secretary",
+   "sold": 4945.0,
+   "sold_value": 307982,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 11071.0,
+   "exercised": 12720.0,
+   "max_quarter_pct": 0.1763,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001689676-25-000013"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "REZA KASNAVI",
+   "relationship": "Officer",
+   "shares": 7332.0,
+   "value": 456541.64,
+   "outstanding": 148679767.0,
+   "approx_date": "11/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009062",
+   "filed": "2025-11-19",
+   "form": "144"
+  },
+  {
+   "person": "ROBERT TERRY",
+   "relationship": "Officer",
+   "shares": 4945.0,
+   "value": 308002.29,
+   "outstanding": 148679767.0,
+   "approx_date": "11/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009056",
+   "filed": "2025-11-19",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "FMR LLC",
+   "shares": 19006368.57,
+   "pct": 12.6,
+   "filed": "2026-10-07",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2026",
+   "accession": "0000315066-26-002332"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 19006368.57,
+   "pct": 12.6,
+   "filed": "2026-10-07",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2026",
+   "accession": "0000315066-26-002332"
+  },
+  {
+   "name": "PZENA INVESTMENT MANAGEMENT LLC",
+   "shares": 17552125.0,
+   "pct": 11.7,
+   "filed": "2026-02-04",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "01/30/2026",
+   "accession": "0001027796-26-000008"
+  },
+  {
+   "name": "Capital World Investors",
+   "shares": 15174123.0,
+   "pct": 10.1,
+   "filed": "2026-10-06",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/30/2026",
+   "accession": "0001422849-26-000156"
+  },
+  {
+   "name": "T. Rowe Price Associates, Inc.",
+   "shares": 11751544.0,
+   "pct": 7.8,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000080255-26-000530"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 11096564.0,
+   "pct": 7.37,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-001075"
+  },
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 10152543.0,
+   "pct": 6.75,
+   "filed": "2026-04-29",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100121-26-000688"
+  },
+  {
+   "name": "STATE STREET CORPORATION",
+   "shares": 8443107.0,
+   "pct": 5.6,
+   "filed": "2026-05-12",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0000093751-26-000290"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002322"
+  }
+ ],
+ "errors": []
+}

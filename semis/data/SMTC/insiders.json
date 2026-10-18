@@ -1,0 +1,924 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 88941,
+ "form4_count": 88,
+ "form144_count": 43,
+ "schedule13_count": 10,
+ "owners": [
+  {
+   "name": "Silberstein Asaf",
+   "role": "EVP and COO",
+   "sold": 54000.0,
+   "sold_value": 5650685,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 38034.0,
+   "exercised": 44542.0,
+   "max_quarter_pct": 0.2674,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-03",
+     "shares": 2000.0,
+     "price": 164.0,
+     "accession": "0001514954-26-000021"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001514954-25-000006",
+    "0001514954-26-000002",
+    "0001514954-26-000004",
+    "0001514954-26-000006",
+    "0001514954-26-000021",
+    "0001514954-26-000027",
+    "0001514954-26-000029",
+    "0001514954-26-000031"
+   ]
+  },
+  {
+   "name": "HOU HONG Q",
+   "role": "consejero, President and CEO",
+   "sold": 33605.0,
+   "sold_value": 4122456,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 67612.0,
+   "exercised": 74708.0,
+   "max_quarter_pct": 0.3169,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-29",
+     "shares": 7319.0,
+     "price": 152.4341,
+     "accession": "0001156899-26-000023"
+    },
+    {
+     "date": "2026-06-29",
+     "shares": 2286.0,
+     "price": 152.9933,
+     "accession": "0001156899-26-000023"
+    },
+    {
+     "date": "2025-12-03",
+     "shares": 10000.0,
+     "price": 74.0768,
+     "accession": "0001156899-25-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001156899-25-000005",
+    "0001156899-26-000012",
+    "0001156899-26-000015",
+    "0001156899-26-000018",
+    "0001156899-26-000023",
+    "0001156899-26-000027",
+    "0001156899-26-000029",
+    "0001156899-26-000031",
+    "0001156899-26-000035"
+   ]
+  },
+  {
+   "name": "Lin Mark",
+   "role": "EVP and CFO",
+   "sold": 28020.0,
+   "sold_value": 2526716,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 38944.0,
+   "exercised": 44989.0,
+   "max_quarter_pct": 0.4206,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001994152-26-000002",
+    "0001994152-26-000004",
+    "0001994152-26-000006",
+    "0001994152-26-000008",
+    "0001994152-26-000010",
+    "0001994152-26-000014",
+    "0001994152-26-000016",
+    "0001994152-26-000018",
+    "0001994152-26-000020"
+   ]
+  },
+  {
+   "name": "Green Jason Elliot",
+   "role": "EVP and CCO",
+   "sold": 12530.0,
+   "sold_value": 1433586,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 10161.0,
+   "exercised": 15064.0,
+   "max_quarter_pct": 0.4598,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-01",
+     "shares": 7500.0,
+     "price": 81.7323,
+     "accession": "0001801730-26-000006"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001801730-26-000006",
+    "0001801730-26-000014",
+    "0001801730-26-000018"
+   ]
+  },
+  {
+   "name": "WILSON JOHN MICHAEL",
+   "role": "Chief Quality Officer and CTO",
+   "sold": 10500.0,
+   "sold_value": 1310600,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 24553.0,
+   "exercised": 29281.0,
+   "max_quarter_pct": 0.0768,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-22",
+     "shares": 5500.0,
+     "price": 170.0,
+     "accession": "0001189923-26-000020"
+    },
+    {
+     "date": "2026-01-08",
+     "shares": 5000.0,
+     "price": 75.12,
+     "accession": "0001189923-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001189923-26-000004",
+    "0001189923-26-000020"
+   ]
+  },
+  {
+   "name": "Li Ye Jane",
+   "role": "consejero",
+   "sold": 5285.0,
+   "sold_value": 881758,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 5321.0,
+   "max_quarter_pct": 0.4498,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-28",
+     "shares": 5285.0,
+     "price": 166.8416,
+     "accession": "0001628280-26-039449"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-039449"
+   ]
+  },
+  {
+   "name": "Cardenuto Rodolpho C",
+   "role": "consejero",
+   "sold": 5321.0,
+   "sold_value": 877978,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 5321.0,
+   "max_quarter_pct": 1.0,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-16",
+     "shares": 5321.0,
+     "price": 165.0025,
+     "accession": "0001753689-26-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001753689-26-000005"
+   ]
+  },
+  {
+   "name": "Walsh Paul V Jr",
+   "role": "consejero",
+   "sold": 6000.0,
+   "sold_value": 649290,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 5321.0,
+   "max_quarter_pct": 0.0582,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001628280-25-046262",
+    "0001628280-25-053583",
+    "0001628280-25-058279",
+    "0001628280-26-003280",
+    "0001628280-26-010191",
+    "0001628280-26-020161",
+    "0001628280-26-027239",
+    "0001628280-26-037727",
+    "0001628280-26-045737",
+    "0001628280-26-049581",
+    "0001628280-26-058410",
+    "0001628280-26-063558"
+   ]
+  },
+  {
+   "name": "Fischer Gregory Michael",
+   "role": "consejero",
+   "sold": 3534.0,
+   "sold_value": 477112,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 5321.0,
+   "max_quarter_pct": 0.3057,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-28",
+     "shares": 1000.0,
+     "price": 164.685,
+     "accession": "0001973342-26-000008"
+    },
+    {
+     "date": "2026-01-09",
+     "shares": 1034.0,
+     "price": 75.5,
+     "accession": "0001973342-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001973342-26-000002",
+    "0001973342-26-000008",
+    "0001973342-26-000012"
+   ]
+  },
+  {
+   "name": "Gillai Saar",
+   "role": "consejero",
+   "sold": 3600.0,
+   "sold_value": 270945,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 5321.0,
+   "max_quarter_pct": 0.2743,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-01-07",
+     "shares": 3600.0,
+     "price": 75.2625,
+     "accession": "0001674214-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001674214-26-000002"
+   ]
+  },
+  {
+   "name": "Burvill Martin",
+   "role": "consejero",
+   "sold": 2500.0,
+   "sold_value": 222449,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3618,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-09",
+     "shares": 2500.0,
+     "price": 88.9795,
+     "accession": "0001826529-26-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001826529-26-000003"
+   ]
+  },
+  {
+   "name": "Ruehl Julie Garcia",
+   "role": "consejero",
+   "sold": 1500.0,
+   "sold_value": 217500,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 2661.0,
+   "max_quarter_pct": 0.1736,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-061121"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Green Jason Elliot",
+   "relationship": "Officer",
+   "shares": 2766.0,
+   "value": 526508.1,
+   "outstanding": 93325626.0,
+   "approx_date": "10/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-007304",
+   "filed": "2026-10-07",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 382420.0,
+   "outstanding": 93325626.0,
+   "approx_date": "10/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-007205",
+   "filed": "2026-10-02",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 967.0,
+   "value": 172967.29,
+   "outstanding": 93325626.0,
+   "approx_date": "10/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-007188",
+   "filed": "2026-10-01",
+   "form": "144"
+  },
+  {
+   "person": "Cardenuto Rodolpho C",
+   "relationship": "Director",
+   "shares": 5321.0,
+   "value": 877978.2,
+   "outstanding": 93325626.0,
+   "approx_date": "09/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-007005",
+   "filed": "2026-09-16",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 683.0,
+   "value": 109211.7,
+   "outstanding": 93325626.0,
+   "approx_date": "09/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006847",
+   "filed": "2026-09-10",
+   "form": "144"
+  },
+  {
+   "person": "Ruehl Julie Garcia",
+   "relationship": "Director",
+   "shares": 1500.0,
+   "value": 217500.0,
+   "outstanding": 93325626.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006748",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 277420.0,
+   "outstanding": 93325626.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006731",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 280000.0,
+   "outstanding": 93151168.0,
+   "approx_date": "08/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005743",
+   "filed": "2026-08-07",
+   "form": "144"
+  },
+  {
+   "person": "Walsh Paul V Jr",
+   "relationship": "Director",
+   "shares": 1500.0,
+   "value": 199605.0,
+   "outstanding": 93151168.0,
+   "approx_date": "07/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001949846-26-000433",
+   "filed": "2026-07-22",
+   "form": "144"
+  },
+  {
+   "person": "Silberstein Asaf",
+   "relationship": "Officer",
+   "shares": 8000.0,
+   "value": 1160320.0,
+   "outstanding": 93151168.0,
+   "approx_date": "07/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000781",
+   "filed": "2026-07-14",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 266000.0,
+   "outstanding": 93151168.0,
+   "approx_date": "07/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005186",
+   "filed": "2026-07-10",
+   "form": "144"
+  },
+  {
+   "person": "Silberstein Asaf",
+   "relationship": "Officer",
+   "shares": 8500.0,
+   "value": 1086319.0,
+   "outstanding": 93151168.0,
+   "approx_date": "07/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000772",
+   "filed": "2026-07-08",
+   "form": "144"
+  },
+  {
+   "person": "Green Jason Elliot",
+   "relationship": "Officer",
+   "shares": 2264.0,
+   "value": 294085.45,
+   "outstanding": 93151168.0,
+   "approx_date": "07/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005140",
+   "filed": "2026-07-07",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 970.0,
+   "value": 145892.85,
+   "outstanding": 93151168.0,
+   "approx_date": "07/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005010",
+   "filed": "2026-07-01",
+   "form": "144"
+  },
+  {
+   "person": "Fischer Gregory Michael",
+   "relationship": "Director",
+   "shares": 1500.0,
+   "value": 234360.0,
+   "outstanding": 93151168.0,
+   "approx_date": "06/30/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004961",
+   "filed": "2026-06-30",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 9605.0,
+   "value": 1465407.82,
+   "outstanding": 93151168.0,
+   "approx_date": "06/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004949",
+   "filed": "2026-06-29",
+   "form": "144"
+  },
+  {
+   "person": "The John Michael & Noemi Wilson Family Trust DTD 01/22/20",
+   "relationship": "Officer",
+   "shares": 5500.0,
+   "value": 935000.0,
+   "outstanding": 89770000.0,
+   "approx_date": "06/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000706",
+   "filed": "2026-06-16",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 683.0,
+   "value": 105974.28,
+   "outstanding": 93151168.0,
+   "approx_date": "06/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004500",
+   "filed": "2026-06-10",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 324200.0,
+   "outstanding": 93151168.0,
+   "approx_date": "06/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004378",
+   "filed": "2026-06-05",
+   "form": "144"
+  },
+  {
+   "person": "Silberstein Family Trust",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 320000.0,
+   "outstanding": 93150000.0,
+   "approx_date": "06/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000633",
+   "filed": "2026-06-03",
+   "form": "144"
+  },
+  {
+   "person": "Li Revocable Trust DTD 11/27/2013",
+   "relationship": "Director",
+   "shares": 5500.0,
+   "value": 907500.0,
+   "outstanding": 89770000.0,
+   "approx_date": "05/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000604",
+   "filed": "2026-05-28",
+   "form": "144"
+  },
+  {
+   "person": "Fischer Gregory Michael",
+   "relationship": "Director",
+   "shares": 1000.0,
+   "value": 164685.0,
+   "outstanding": 93151168.0,
+   "approx_date": "05/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004084",
+   "filed": "2026-05-28",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 206020.0,
+   "outstanding": 92951167.0,
+   "approx_date": "05/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003169",
+   "filed": "2026-05-01",
+   "form": "144"
+  },
+  {
+   "person": "Walsh Paul V Jr",
+   "relationship": "Director",
+   "shares": 1500.0,
+   "value": 158895.0,
+   "outstanding": 92951167.0,
+   "approx_date": "04/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001949846-26-000213",
+   "filed": "2026-04-22",
+   "form": "144"
+  },
+  {
+   "person": "HOU HONG Q",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 180220.0,
+   "outstanding": 92951167.0,
+   "approx_date": "04/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002861",
+   "filed": "2026-04-10",
+   "form": "144"
+  },
+  {
+   "person": "Martin Burvill",
+   "relationship": "Director",
+   "shares": 2500.0,
+   "value": 212500.0,
+   "outstanding": 92950000.0,
+   "approx_date": "04/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000437",
+   "filed": "2026-04-09",
+   "form": "144"
+  },
+  {
+   "person": "Green Jason Elliot",
+   "relationship": "Officer",
+   "shares": 7500.0,
+   "value": 612989.55,
+   "outstanding": 92951167.0,
+   "approx_date": "04/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002707",
+   "filed": "2026-04-01",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 974.0,
+   "value": 76381.08,
+   "outstanding": 92951167.0,
+   "approx_date": "04/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002696",
+   "filed": "2026-04-01",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 9186.0,
+   "value": 689409.3,
+   "outstanding": 92951167.0,
+   "approx_date": "03/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002585",
+   "filed": "2026-03-24",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 3908.0,
+   "value": 340933.92,
+   "outstanding": 92540057.0,
+   "approx_date": "03/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002184",
+   "filed": "2026-03-11",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 2734.0,
+   "value": 233128.18,
+   "outstanding": 92540057.0,
+   "approx_date": "03/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002127",
+   "filed": "2026-03-10",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 6582.0,
+   "value": 551242.5,
+   "outstanding": 92540057.0,
+   "approx_date": "03/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002003",
+   "filed": "2026-03-06",
+   "form": "144"
+  },
+  {
+   "person": "Silberstein Asaf",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 920000.0,
+   "outstanding": 92540057.0,
+   "approx_date": "02/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000129",
+   "filed": "2026-02-09",
+   "form": "144"
+  },
+  {
+   "person": "Silberstein Asaf",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 880000.0,
+   "outstanding": 92540057.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000087",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "Silberstein Asaf",
+   "relationship": "Officer",
+   "shares": 5000.0,
+   "value": 415000.0,
+   "outstanding": 92540057.0,
+   "approx_date": "01/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000058",
+   "filed": "2026-01-22",
+   "form": "144"
+  },
+  {
+   "person": "Walsh Paul V Jr",
+   "relationship": "Director",
+   "shares": 1500.0,
+   "value": 89125.0,
+   "outstanding": 92540057.0,
+   "approx_date": "01/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001949846-26-000014",
+   "filed": "2026-01-21",
+   "form": "144"
+  },
+  {
+   "person": "John Michael Wilson",
+   "relationship": "Chief Quality Officer and Chief Technology Officer",
+   "shares": 5000.0,
+   "value": 375000.0,
+   "outstanding": 89773000.0,
+   "approx_date": "01/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000027",
+   "filed": "2026-01-08",
+   "form": "144"
+  },
+  {
+   "person": "Gregory Fischer",
+   "relationship": "Director",
+   "shares": 1034.0,
+   "value": 77550.0,
+   "outstanding": 92540000.0,
+   "approx_date": "01/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000026",
+   "filed": "2026-01-07",
+   "form": "144"
+  },
+  {
+   "person": "Saar Gillai",
+   "relationship": "Director",
+   "shares": 3600.0,
+   "value": 270000.0,
+   "outstanding": 89773000.0,
+   "approx_date": "01/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000022",
+   "filed": "2026-01-07",
+   "form": "144"
+  },
+  {
+   "person": "Lin Mark",
+   "relationship": "Officer",
+   "shares": 1333.0,
+   "value": 101574.6,
+   "outstanding": 92540057.0,
+   "approx_date": "01/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000080",
+   "filed": "2026-01-05",
+   "form": "144"
+  },
+  {
+   "person": "Silberstein Asaf",
+   "relationship": "Officer",
+   "shares": 10500.0,
+   "value": 828660.0,
+   "outstanding": 92540057.0,
+   "approx_date": "12/05/2025",
+   "plan_10b5_1": false,
+   "accession": "0001969223-25-001035",
+   "filed": "2025-12-05",
+   "form": "144"
+  },
+  {
+   "person": "Hong Hou",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 750000.0,
+   "outstanding": 89770000.0,
+   "approx_date": "12/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001969223-25-001021",
+   "filed": "2025-12-03",
+   "form": "144"
+  },
+  {
+   "person": "Walsh Paul V Jr",
+   "relationship": "Director",
+   "shares": 1500.0,
+   "value": 99360.0,
+   "outstanding": 86773988.0,
+   "approx_date": "10/22/2025",
+   "plan_10b5_1": false,
+   "accession": "0001949846-25-000537",
+   "filed": "2025-10-22",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 9348019.0,
+   "pct": 10.0,
+   "filed": "2026-09-04",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "08/31/2026",
+   "accession": "0002012383-26-003266"
+  },
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 5354281.0,
+   "pct": 5.74,
+   "filed": "2026-07-31",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002100121-26-000963"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 4852794.0,
+   "pct": 5.22,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-001001"
+  },
+  {
+   "name": "Capital Research Global Investors",
+   "shares": 4502720.0,
+   "pct": 4.9,
+   "filed": "2026-02-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001422848-26-000033"
+  },
+  {
+   "name": "Ameriprise Financial, Inc.",
+   "shares": 3472763.0,
+   "pct": 3.7,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001193125-26-351134"
+  },
+  {
+   "name": "Columbia Management Investment Advisers, LLC",
+   "shares": 3148407.0,
+   "pct": 3.4,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001193125-26-351134"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002271"
+  }
+ ],
+ "errors": []
+}

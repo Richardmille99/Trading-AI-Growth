@@ -5,7 +5,10 @@ Usage:
 
 Form 4  — open-market sales (code S) and purchases (P) per owner and calendar quarter. A sale is flagged when it is not
           under a 10b5-1 plan (aff10b5One = 0 and no footnote citing 10b5-1) or when the owner sold > 10% of the position
-          in a quarter: sold ÷ (sold + total position, all accounts, after the owner's last sale of that quarter). Tax withholding (F),
+          in a quarter: sold ÷ (sold + total position, all accounts, after the owner's last sale of that quarter).
+          Position = non-derivative table only (options/RSUs not counted; a separate class such as Class B is counted
+          only when listed in that filing). Sales whose footnote says they cover tax withholding on RSU vesting are
+          treated like code F. Tax withholding (F),
           option exercises (M), grants (A) and gifts (G) are counted apart and never flagged.
 Form 144 — notices of proposed sales (shares, value, approximate date).
 13D/13G — reporting person, shares, % of class, event date (XML schedules only, i.e. since Dec-2024).
@@ -59,7 +62,9 @@ def parse_form4(xml):
                        ad=_t(t, "transactionAmounts/transactionAcquiredDisposedCode"),
                        after=_f(_t(t, "postTransactionAmounts/sharesOwnedFollowingTransaction")),
                        nature=_t(t, "ownershipNature/directOrIndirectOwnership"),
-                       plan=plan_box or any(re.search(r"10b5-?1", notes.get(i, ""), re.I) for i in ids) or (plan_note and not ids)))
+                       plan=plan_box or any(re.search(r"10b5-?1", notes.get(i, ""), re.I) for i in ids) or (plan_note and not ids),
+                       tax_sale=any(re.search(r"tax withholding|satisfy (the )?(applicable )?tax|sell.to.cover", notes.get(i, ""), re.I)
+                                    for i in ids)))
     # total position after the filing: last balance of every account (direct, each trust/entity), including
     # accounts listed only as holdings; a sale from one trust does not empty the owner's position
     acct = {}
@@ -120,7 +125,9 @@ def summarize_form4(docs):
         for t in d["transactions"]:
             if not t["shares"] or not t["date"]:
                 continue
-            if t["code"] == "S":
+            if t["code"] == "S" and t.get("tax_sale"):  # mandatory sell-to-cover on RSU vesting: like F
+                r["tax"] += t["shares"]
+            elif t["code"] == "S":
                 r["sold"] += t["shares"]
                 r["value"] += t["shares"] * (t["price"] or 0)
                 q = r["quarters"][quarter(t["date"])]

@@ -1,0 +1,121 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 470850000,
+   "end": "2026-04-26",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 59286000,
+   "end": "2026-04-26",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 573322000,
+   "end": "2026-04-26",
+   "tag": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 1438943000,
+   "end": "2026-04-26",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.9246740923948497,
+ "goodwill_intang_to_assets": 0.36842043083013015,
+ "impairments": [
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2024-01-29",
+   "end": "2025-01-26",
+   "val": 7490000,
+   "form": "10-K"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-01-27",
+   "end": "2025-07-27",
+   "val": 41991000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-04-28",
+   "end": "2025-07-27",
+   "val": 42000000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-01-27",
+   "end": "2025-10-26",
+   "val": 41991000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-01-27",
+   "end": "2026-01-25",
+   "val": 84785000,
+   "form": "10-K"
+  },
+  {
+   "tag": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "start": "2025-01-27",
+   "end": "2026-01-25",
+   "val": 1777000,
+   "form": "10-K"
+  }
+ ],
+ "public_float": {
+  "usd": 4000000000,
+  "date": "2025-07-27",
+  "filed": "2026-03-23",
+  "form": "10-K",
+  "close": 53.06999969482422,
+  "close_date": "2025-07-25",
+  "float_shares": 75372150
+ },
+ "governance": [
+  {
+   "filed": "2026-06-08",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000088941-26-000019",
+   "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000019/smtc-20260602.htm"
+  },
+  {
+   "filed": "2025-06-09",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000088941-25-000135",
+   "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894125000135/smtc-20250603.htm"
+  },
+  {
+   "filed": "2025-02-24",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000088941-25-000028",
+   "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894125000028/smtc-20250220.htm"
+  },
+  {
+   "filed": "2024-11-27",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000088941-24-000129",
+   "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894124000129/smtc-20241126.htm"
+  }
+ ]
+}

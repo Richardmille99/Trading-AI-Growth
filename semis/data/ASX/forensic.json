@@ -1,0 +1,33 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 1674909000,
+   "end": "2025-12-31",
+   "tag": "ifrs:Goodwill",
+   "form": "20-F"
+  },
+  "intangibles": {
+   "val": 411878000,
+   "end": "2025-12-31",
+   "tag": "ifrs:IntangibleAssetsOtherThanGoodwill",
+   "form": "20-F"
+  },
+  "equity": {
+   "val": 11751006000,
+   "end": "2025-12-31",
+   "tag": "ifrs:Equity",
+   "form": "20-F"
+  },
+  "total_assets": {
+   "val": 28355108000,
+   "end": "2025-12-31",
+   "tag": "ifrs:Assets",
+   "form": "20-F"
+  }
+ },
+ "goodwill_intang_to_equity": 0.17758368943050493,
+ "goodwill_intang_to_assets": 0.07359474702053682,
+ "impairments": [],
+ "public_float": null,
+ "governance": []
+}

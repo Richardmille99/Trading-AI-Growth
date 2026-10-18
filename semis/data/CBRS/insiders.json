@@ -1,0 +1,1272 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 2021728,
+ "form4_count": 61,
+ "form144_count": 14,
+ "schedule13_count": 15,
+ "owners": [
+  {
+   "name": "Lie Sean",
+   "role": "Chief Technology Officer",
+   "sold": 900000.0,
+   "sold_value": 187361881,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 127417.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.7441,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-058506",
+    "0001628280-26-060988",
+    "0001628280-26-063713"
+   ]
+  },
+  {
+   "name": "Mallick Dhiraj",
+   "role": "Chief Operating Officer",
+   "sold": 469760.0,
+   "sold_value": 94248079,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 535665.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 1.0,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-18",
+     "shares": 444.0,
+     "price": 231.57,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 506.0,
+     "price": 232.62,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 410.0,
+     "price": 233.31,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 1078.0,
+     "price": 234.47,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 550.0,
+     "price": 235.5,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 371.0,
+     "price": 236.43,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 21.0,
+     "price": 237.23,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 17.0,
+     "price": 238.78,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-08-18",
+     "shares": 1417.0,
+     "price": 240.01,
+     "accession": "0001628280-26-058313"
+    },
+    {
+     "date": "2026-06-30",
+     "shares": 10000.0,
+     "price": 206.51,
+     "accession": "0001628280-26-046550"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 184.0,
+     "price": 175.61,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 230.0,
+     "price": 178.92,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 606.0,
+     "price": 180.19,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 330.0,
+     "price": 181.17,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 138.0,
+     "price": 182.5,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 1074.0,
+     "price": 184.3,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 7282.0,
+     "price": 185.19,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 1618.0,
+     "price": 186.23,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 1752.0,
+     "price": 186.85,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 100.0,
+     "price": 187.9,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 161.46,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 300.0,
+     "price": 162.75,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 400.0,
+     "price": 163.9,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 300.0,
+     "price": 165.09,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 400.0,
+     "price": 166.62,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 400.0,
+     "price": 167.76,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 700.0,
+     "price": 169.07,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 100.0,
+     "price": 169.76,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 300.0,
+     "price": 171.45,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 839.0,
+     "price": 172.78,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 11761.0,
+     "price": 173.65,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 600.0,
+     "price": 174.7,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 175.94,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 177.23,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 178.12,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 1100.0,
+     "price": 179.67,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 1200.0,
+     "price": 180.5,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 800.0,
+     "price": 181.62,
+     "accession": "0001628280-26-046042"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 276.0,
+     "price": 162.24,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 690.0,
+     "price": 163.62,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 1051.0,
+     "price": 164.81,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 2198.0,
+     "price": 166.05,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 7399.0,
+     "price": 166.82,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 4106.0,
+     "price": 167.78,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 2200.0,
+     "price": 168.83,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 484.0,
+     "price": 170.17,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 4192.0,
+     "price": 171.1,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 2560.0,
+     "price": 172.02,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 338.0,
+     "price": 172.85,
+     "accession": "0001628280-26-046040"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 138.0,
+     "price": 173.71,
+     "accession": "0001628280-26-046040"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-046040",
+    "0001628280-26-046042",
+    "0001628280-26-046550",
+    "0001628280-26-058313",
+    "0001628280-26-064042"
+   ]
+  },
+  {
+   "name": "Feldman Andrew D.",
+   "role": "consejero, CEO, President",
+   "sold": 275000.0,
+   "sold_value": 55218522,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 151710.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.9397,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-058961",
+    "0001628280-26-060987"
+   ]
+  },
+  {
+   "name": "Vassallo Steven",
+   "role": "consejero",
+   "sold": 100000.0,
+   "sold_value": 21424237,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.243,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-04",
+     "shares": 21117.0,
+     "price": 209.81,
+     "accession": "0001628280-26-060989"
+    },
+    {
+     "date": "2026-09-04",
+     "shares": 21773.0,
+     "price": 210.37,
+     "accession": "0001628280-26-060989"
+    },
+    {
+     "date": "2026-09-04",
+     "shares": 7110.0,
+     "price": 211.56,
+     "accession": "0001628280-26-060989"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 6081.0,
+     "price": 216.38,
+     "accession": "0001567929-26-000003"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 16671.0,
+     "price": 217.47,
+     "accession": "0001567929-26-000003"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 11834.0,
+     "price": 218.46,
+     "accession": "0001567929-26-000003"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 14323.0,
+     "price": 219.41,
+     "accession": "0001567929-26-000003"
+    },
+    {
+     "date": "2026-08-14",
+     "shares": 1091.0,
+     "price": 219.97,
+     "accession": "0001567929-26-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001567929-26-000003",
+    "0001628280-26-060989"
+   ]
+  },
+  {
+   "name": "Vishria Eric",
+   "role": "consejero",
+   "sold": 68268.0,
+   "sold_value": 15685957,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3242,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-098846"
+   ]
+  },
+  {
+   "name": "Komin Robert Patrick Jr.",
+   "role": "Chief Financial Officer",
+   "sold": 32500.0,
+   "sold_value": 6614882,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 1.0,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-064044"
+   ]
+  },
+  {
+   "name": "Patel Yagnesh",
+   "role": "Chief Accounting Officer",
+   "sold": 9720.0,
+   "sold_value": 1719630,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 25336.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.359,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-25",
+     "shares": 46.0,
+     "price": 189.36,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 100.0,
+     "price": 161.61,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 300.0,
+     "price": 163.29,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 100.0,
+     "price": 164.79,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 166.66,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 168.45,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 300.0,
+     "price": 169.31,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 400.0,
+     "price": 171.99,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 500.0,
+     "price": 173.36,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 175.01,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 100.0,
+     "price": 176.12,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 200.0,
+     "price": 178.36,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 300.0,
+     "price": 179.56,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 700.0,
+     "price": 180.83,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-26",
+     "shares": 354.0,
+     "price": 182.05,
+     "accession": "0001628280-26-046038"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 193.0,
+     "price": 162.45,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 185.0,
+     "price": 164.19,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 269.0,
+     "price": 165.85,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 796.0,
+     "price": 166.93,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 663.0,
+     "price": 168.59,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 239.0,
+     "price": 169.21,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 993.0,
+     "price": 171.57,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 200.0,
+     "price": 172.33,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 100.0,
+     "price": 173.91,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 46.0,
+     "price": 175.74,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 100.0,
+     "price": 178.5,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 46.0,
+     "price": 179.8,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 46.0,
+     "price": 180.93,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 46.0,
+     "price": 182.38,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 93.0,
+     "price": 183.6,
+     "accession": "0001628280-26-046035"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 385.0,
+     "price": 185.01,
+     "accession": "0001628280-26-046035"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-046035",
+    "0001628280-26-046038",
+    "0001628280-26-064040"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "DHIRAJ MALLICK",
+   "relationship": "Officer",
+   "shares": 396000.0,
+   "value": 77909040.0,
+   "outstanding": 112247109.0,
+   "approx_date": "09/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009863",
+   "filed": "2026-09-29",
+   "form": "144"
+  },
+  {
+   "person": "ROBERT KOMIN",
+   "relationship": "Officer",
+   "shares": 32500.0,
+   "value": 6394050.0,
+   "outstanding": 112247109.0,
+   "approx_date": "09/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009861",
+   "filed": "2026-09-29",
+   "form": "144"
+  },
+  {
+   "person": "SEAN LIE",
+   "relationship": "Officer",
+   "shares": 120000.0,
+   "value": 24769200.0,
+   "outstanding": 112247109.0,
+   "approx_date": "09/25/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-009828",
+   "filed": "2026-09-25",
+   "form": "144"
+  },
+  {
+   "person": "Vassallo Family Revocable Trust dated 7/15/02",
+   "relationship": "Director",
+   "shares": 50000.0,
+   "value": 9522000.0,
+   "outstanding": 112247109.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-060754",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "ANDREW FELDMAN",
+   "relationship": "Director",
+   "shares": 37441.0,
+   "value": 7130264.04,
+   "outstanding": 112247109.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-009144",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "SEAN LIE",
+   "relationship": "Officer",
+   "shares": 53460.0,
+   "value": 10180922.4,
+   "outstanding": 112247109.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-009132",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "SEAN LIE",
+   "relationship": "Officer",
+   "shares": 16293.0,
+   "value": 3419086.05,
+   "outstanding": 112247109.0,
+   "approx_date": "08/21/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-008559",
+   "filed": "2026-08-21",
+   "form": "144"
+  },
+  {
+   "person": "ANDREW FELDMAN",
+   "relationship": "Director",
+   "shares": 237559.0,
+   "value": 49851756.15,
+   "outstanding": 112247109.0,
+   "approx_date": "08/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008555",
+   "filed": "2026-08-21",
+   "form": "144"
+  },
+  {
+   "person": "SEAN LIE",
+   "relationship": "Officer",
+   "shares": 710247.0,
+   "value": 153193175.43,
+   "outstanding": 112247109.0,
+   "approx_date": "08/20/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008483",
+   "filed": "2026-08-20",
+   "form": "144"
+  },
+  {
+   "person": "Andrew D. Feldman",
+   "relationship": "Officer, Director",
+   "shares": 26644.0,
+   "value": 6713755.12,
+   "outstanding": 112247109.0,
+   "approx_date": "08/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001493152-26-039068",
+   "filed": "2026-08-18",
+   "form": "144"
+  },
+  {
+   "person": "Sean Lie",
+   "relationship": "Officer",
+   "shares": 21257.0,
+   "value": 5356338.86,
+   "outstanding": 112247109.0,
+   "approx_date": "08/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001493152-26-039065",
+   "filed": "2026-08-18",
+   "form": "144"
+  },
+  {
+   "person": "Dhiraj Mallick",
+   "relationship": "Officer",
+   "shares": 38889.0,
+   "value": 9799250.22,
+   "outstanding": 112247109.0,
+   "approx_date": "08/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001493152-26-039063",
+   "filed": "2026-08-18",
+   "form": "144"
+  },
+  {
+   "person": "Vishria Eric",
+   "relationship": "10% Stockholder",
+   "shares": 68268.0,
+   "value": 15701640.0,
+   "outstanding": 112247109.0,
+   "approx_date": "08/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001974078-26-000308",
+   "filed": "2026-08-17",
+   "form": "144"
+  },
+  {
+   "person": "Vassallo Family Revocable Trust dated 7/15/02",
+   "relationship": "Director",
+   "shares": 50000.0,
+   "value": 11550500.0,
+   "outstanding": 112247109.0,
+   "approx_date": "08/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-057184",
+   "filed": "2026-08-14",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "FMR LLC",
+   "shares": 28878217.29,
+   "pct": 25.7,
+   "filed": "2026-07-08",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-001451"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 28878217.29,
+   "pct": 25.7,
+   "filed": "2026-07-08",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-001451"
+  },
+  {
+   "name": "Foundation Capital Management Co. VIII, L.L.C.",
+   "shares": 14210932.0,
+   "pct": 12.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001645076-26-000004"
+  },
+  {
+   "name": "Foundation Capital VIII, L.P.",
+   "shares": 13911305.0,
+   "pct": 12.0,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001645076-26-000004"
+  },
+  {
+   "name": "Atreides Management, LP",
+   "shares": 10543836.0,
+   "pct": 10.7,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "6/30/2026",
+   "accession": "0001777813-26-000008"
+  },
+  {
+   "name": "Atreides Management, LLC",
+   "shares": 10543836.0,
+   "pct": 10.7,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "6/30/2026",
+   "accession": "0001777813-26-000008"
+  },
+  {
+   "name": "Gavin Baker",
+   "shares": 10543836.0,
+   "pct": 10.7,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "6/30/2026",
+   "accession": "0001777813-26-000008"
+  },
+  {
+   "name": "JPMORGAN CHASE & CO",
+   "shares": 3486503.0,
+   "pct": 10.1,
+   "filed": "2026-06-04",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/29/2026",
+   "accession": "0000019617-26-000234"
+  },
+  {
+   "name": "Tiger Global Management, LLC",
+   "shares": 3496222.0,
+   "pct": 9.99,
+   "filed": "2026-05-22",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/15/2026",
+   "accession": "0000919574-26-003680"
+  },
+  {
+   "name": "Charles P. Coleman III",
+   "shares": 3496222.0,
+   "pct": 9.99,
+   "filed": "2026-05-22",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/15/2026",
+   "accession": "0000919574-26-003680"
+  },
+  {
+   "name": "Benchmark Capital Management Co. VIII, L.L.C.",
+   "shares": 12227545.0,
+   "pct": 9.8,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Andrew Feldman",
+   "shares": 10397232.0,
+   "pct": 9.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001493152-26-038435"
+  },
+  {
+   "name": "Tiger Global Investments, L.P.",
+   "shares": 2999000.0,
+   "pct": 8.69,
+   "filed": "2026-05-22",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/15/2026",
+   "accession": "0000919574-26-003680"
+  },
+  {
+   "name": "Tiger Global Performance, LLC",
+   "shares": 2999000.0,
+   "pct": 8.69,
+   "filed": "2026-05-22",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/15/2026",
+   "accession": "0000919574-26-003680"
+  },
+  {
+   "name": "Benchmark Capital Partners VIII, L.P.",
+   "shares": 9306378.0,
+   "pct": 7.7,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "COATUE MANAGEMENT LLC",
+   "shares": 7011028.0,
+   "pct": 7.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000919574-26-005577"
+  },
+  {
+   "name": "Philippe Laffont",
+   "shares": 7011028.0,
+   "pct": 7.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000919574-26-005577"
+  },
+  {
+   "name": "Altimeter Capital Management, LP",
+   "shares": 7160181.0,
+   "pct": 6.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001541617-26-000009"
+  },
+  {
+   "name": "Altimeter Capital Management General Partner, LLC",
+   "shares": 7160181.0,
+   "pct": 6.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001541617-26-000009"
+  },
+  {
+   "name": "Gerstner Bradley Thomas",
+   "shares": 7226432.0,
+   "pct": 6.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001541617-26-000009"
+  },
+  {
+   "name": "Coatue Private Fund II LP",
+   "shares": 6129242.0,
+   "pct": 6.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000919574-26-005577"
+  },
+  {
+   "name": "Coatue Private II GP LLC",
+   "shares": 6129242.0,
+   "pct": 6.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000919574-26-005577"
+  },
+  {
+   "name": "JANE STREET GROUP, LLC",
+   "shares": 5222522.0,
+   "pct": 5.1,
+   "filed": "2026-08-13",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001595888-26-000104"
+  },
+  {
+   "name": "Jane Street Capital, LLC",
+   "shares": 5222522.0,
+   "pct": 5.1,
+   "filed": "2026-08-13",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001595888-26-000104"
+  },
+  {
+   "name": "Lior Susan",
+   "shares": 9555990.0,
+   "pct": 4.3,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "JPMORGAN CHASE & CO.",
+   "shares": 3100807.0,
+   "pct": 3.3,
+   "filed": "2026-07-22",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000019617-26-000274"
+  },
+  {
+   "name": "Benchmark AI Infrastructure Management Co., L.L.C.",
+   "shares": 2527646.0,
+   "pct": 2.2,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Eclipse SPV II GP, LLC",
+   "shares": 4472603.0,
+   "pct": 2.0,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Eclipse SPV II, L.P.",
+   "shares": 4472603.0,
+   "pct": 2.0,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Eclipse Ventures GP I, LLC",
+   "shares": 3768448.0,
+   "pct": 1.7,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Eclipse Ventures Fund I, L.P.",
+   "shares": 3768448.0,
+   "pct": 1.7,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Benchmark Founders' Fund VIII, L.P.",
+   "shares": 1480808.0,
+   "pct": 1.3,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Benchmark Founders' Fund VIII-B, L.P.",
+   "shares": 1440359.0,
+   "pct": 1.3,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Benchmark AI Infrastructure Fund, L.P.",
+   "shares": 1436291.0,
+   "pct": 1.3,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Benchmark AI Infrastructure Fund B, L.P.",
+   "shares": 1091355.0,
+   "pct": 1.0,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Foundation Capital Management Co. LF II, L.L.C.",
+   "shares": 1091411.0,
+   "pct": 1.0,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001645076-26-000004"
+  },
+  {
+   "name": "Foundation Capital Leadership Fund II, L.P.",
+   "shares": 1091411.0,
+   "pct": 1.0,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001645076-26-000004"
+  },
+  {
+   "name": "Benchmark Capital Management Co. IX, L.L.C.",
+   "shares": 689990.0,
+   "pct": 0.6,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Benchmark Capital Partners IX, L.P.",
+   "shares": 487993.0,
+   "pct": 0.4,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Foundation Capital VIII Principals Fund, L.L.C.",
+   "shares": 299627.0,
+   "pct": 0.3,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001645076-26-000004"
+  },
+  {
+   "name": "Eclipse Continuity GP I, LLC",
+   "shares": 546645.0,
+   "pct": 0.2,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Eclipse Continuity Fund I, L.P.",
+   "shares": 546645.0,
+   "pct": 0.2,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Eclipse SPV XIII GP, LLC",
+   "shares": 409719.0,
+   "pct": 0.2,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Eclipse SPV XIII, L.P.",
+   "shares": 409719.0,
+   "pct": 0.2,
+   "filed": "2026-08-18",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "08/14/2026",
+   "accession": "0001193125-26-355477"
+  },
+  {
+   "name": "Benchmark Founders' Fund IX, L.P.",
+   "shares": 147115.0,
+   "pct": 0.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Benchmark Founders' Fund IX-A, L.P.",
+   "shares": 9783.0,
+   "pct": 0.0,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  },
+  {
+   "name": "Benchmark Founders' Fund IX-B, L.P.",
+   "shares": 45099.0,
+   "pct": 0.0,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0001104659-26-097224"
+  }
+ ],
+ "errors": []
+}
