@@ -1,0 +1,252 @@
+{
+  "_doc": "fcf_target: margen FCF objetivo (año 5) del DCF inverso. gm_target: margen bruto de referencia del perfil. weights: peso de cada componente en la nota de fundamentales (suman 1). kpis: KPIs manuales a buscar. extra_flags: banderas de calidad que solo aplican a este perfil.",
+  "saas": {
+    "label": "SaaS / software",
+    "fcf_target": 0.25,
+    "gm_target": 0.75,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.15,
+      "rule40": 0.2,
+      "op_leverage": 0.05,
+      "quality": 0.15
+    },
+    "kpis": [
+      "NRR",
+      "RPO / cRPO",
+      "Clientes > $100k",
+      "Payback CAC"
+    ],
+    "extra_flags": [
+      "DIFERIDOS SE FRENAN",
+      "CAPITALIZACIÓN"
+    ]
+  },
+  "semis_hardware": {
+    "label": "Semis / hardware",
+    "fcf_target": 0.2,
+    "gm_target": 0.5,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.15,
+      "rule40": 0.15,
+      "op_leverage": 0.1,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Book-to-bill",
+      "Inventario en canal",
+      "Concentración de clientes (top 1 / top 5)"
+    ],
+    "extra_flags": [
+      "INVENTARIO > VENTAS"
+    ]
+  },
+  "semis_fabless": {
+    "label": "Semis fabless (diseño de chips propios)",
+    "fcf_target": 0.25,
+    "gm_target": 0.6,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.15,
+      "rule40": 0.15,
+      "op_leverage": 0.1,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Ingresos de centro de datos / IA (% y crecimiento)",
+      "Concentración de clientes (≥10%)",
+      "Book-to-bill o backlog",
+      "Inventario en canal (días)",
+      "Diseños ganados (design wins) con producción fechada"
+    ],
+    "extra_flags": [
+      "INVENTARIO > VENTAS"
+    ]
+  },
+  "semis_idm": {
+    "label": "Semis con fábricas propias (IDM)",
+    "fcf_target": 0.18,
+    "gm_target": 0.45,
+    "weights": {
+      "growth": 0.2,
+      "accel": 0.2,
+      "gross_margin": 0.15,
+      "rule40": 0.15,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Utilización de fábricas",
+      "Concentración de clientes (top 1)",
+      "Contenido por dispositivo",
+      "Inventario (días)",
+      "Sinergias y costes de integración (si hay fusión)"
+    ],
+    "extra_flags": [
+      "INVENTARIO > VENTAS"
+    ]
+  },
+  "semis_manufacturing": {
+    "label": "Fabricación para terceros (foundry / OSAT)",
+    "fcf_target": 0.1,
+    "gm_target": 0.25,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.1,
+      "rule40": 0.15,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Utilización de capacidad",
+      "Capex / ventas",
+      "Ingresos mensuales (Taiwán) o por tecnología",
+      "Ingresos de encapsulado avanzado o SiPho/SiGe",
+      "Concentración de clientes"
+    ],
+    "extra_flags": [
+      "INVENTARIO > VENTAS"
+    ]
+  },
+  "ai_systems": {
+    "label": "Sistemas de cómputo IA (chip propio + sistemas + nube)",
+    "fcf_target": 0.15,
+    "gm_target": 0.45,
+    "weights": {
+      "growth": 0.3,
+      "accel": 0.2,
+      "gross_margin": 0.1,
+      "rule40": 0.1,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Concentración de clientes (top 1 / top 3)",
+      "Backlog / compromisos de compra",
+      "Mezcla hardware vs servicios en nube",
+      "Partes vinculadas",
+      "Calendario de lock-ups"
+    ],
+    "extra_flags": [
+      "INVENTARIO > VENTAS"
+    ]
+  },
+  "defense_gov": {
+    "label": "Defensa / gobierno",
+    "fcf_target": 0.12,
+    "gm_target": 0.35,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.1,
+      "rule40": 0.15,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Backlog financiado",
+      "Backlog no financiado",
+      "Tasa de victoria",
+      "% ingresos públicos"
+    ],
+    "extra_flags": []
+  },
+  "biotech_commercial": {
+    "label": "Biotech comercial",
+    "fcf_target": 0.25,
+    "gm_target": 0.75,
+    "weights": {
+      "growth": 0.3,
+      "accel": 0.2,
+      "gross_margin": 0.1,
+      "rule40": 0.1,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Prescripciones (TRx / NRx)",
+      "Ventas netas por producto",
+      "Guía de producto"
+    ],
+    "extra_flags": []
+  },
+  "consumer": {
+    "label": "Consumo",
+    "fcf_target": 0.08,
+    "gm_target": 0.4,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.15,
+      "rule40": 0.15,
+      "op_leverage": 0.1,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Ventas comparables",
+      "Nº de tiendas",
+      "Inventario por tienda"
+    ],
+    "extra_flags": [
+      "INVENTARIO > VENTAS"
+    ]
+  },
+  "industrial_energy": {
+    "label": "Industrial / energía",
+    "fcf_target": 0.1,
+    "gm_target": 0.25,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.1,
+      "rule40": 0.15,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Backlog",
+      "Book-to-bill",
+      "Margen de proyecto"
+    ],
+    "extra_flags": []
+  },
+  "fintech": {
+    "label": "Fintech",
+    "fcf_target": 0.18,
+    "gm_target": 0.5,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.1,
+      "rule40": 0.15,
+      "op_leverage": 0.15,
+      "quality": 0.15
+    },
+    "kpis": [
+      "Volumen procesado",
+      "Take rate",
+      "Provisiones / cartera"
+    ],
+    "extra_flags": []
+  },
+  "generic": {
+    "label": "Genérico",
+    "fcf_target": 0.12,
+    "gm_target": 0.4,
+    "weights": {
+      "growth": 0.25,
+      "accel": 0.2,
+      "gross_margin": 0.15,
+      "rule40": 0.15,
+      "op_leverage": 0.1,
+      "quality": 0.15
+    },
+    "kpis": [],
+    "extra_flags": []
+  }
+}

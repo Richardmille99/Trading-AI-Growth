@@ -1,0 +1,697 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "EXMP",
+  "issuer": "Example Aerial Systems Inc. (sintético)",
+  "cik": "0000000000",
+  "exchange": "Nasdaq (ficticio)",
+  "report_date": "2026-10-17",
+  "price_basis": "cierre previo (ficticio)",
+  "profile": "defense_gov",
+  "theme": "Defensa · drones",
+  "group": "Aeroespacial y defensa · small caps",
+  "synthetic": true,
+  "primary_catalyst": "c1",
+  "descriptor": "Fabricante ficticio de drones tácticos y sistemas anti-dron. Ingresos {m.revenue_ttm:usdM} TTM, creciendo {m.rev_yoy:pctf} interanual en el último trimestre con aceleración de {m.accel_pp:pp}. Todo el caso es inventado para probar la plantilla."
+ },
+ "market": {
+  "price": 14.2,
+  "price_date": "2026-10-16",
+  "regime": "risk_on",
+  "regime_evidence": "Ratio de Stockbee 10 días 2,1; 68% del universo sobre la media de 50; Nasdaq y Russell 2000 sobre sus medias de 10/20/50 (cifras ficticias)."
+ },
+ "financials": {
+  "source": "sintético (formato de scripts/xbrl.py)",
+  "shares_out": 55000000.0,
+  "shares_out_date": "2026-08-05",
+  "quarters": [
+   {
+    "period": "mar-24",
+    "end": "2024-03-31",
+    "revenue": 22000000.0,
+    "gross_profit": 6600000.0,
+    "op_income": -3000000.0,
+    "net_income": -3200000.0,
+    "cfo": -2500000.0,
+    "capex": 800000.0,
+    "capitalized_sw": null,
+    "sbc": 1200000.0,
+    "diluted_shares": 40000000.0,
+    "ar": 15000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 9000000.0,
+    "cash": 30000000.0,
+    "debt": 5000000.0,
+    "total_assets": 110000000.0
+   },
+   {
+    "period": "jun-24",
+    "end": "2024-06-30",
+    "revenue": 24000000.0,
+    "gross_profit": 7200000.0,
+    "op_income": -2800000.0,
+    "net_income": -3000000.0,
+    "cfo": -3500000.0,
+    "capex": 900000.0,
+    "capitalized_sw": null,
+    "sbc": 1300000.0,
+    "diluted_shares": 40500000.0,
+    "ar": 16000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 9500000.0,
+    "cash": 26000000.0,
+    "debt": 5000000.0,
+    "total_assets": 108000000.0
+   },
+   {
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "revenue": 26000000.0,
+    "gross_profit": 8100000.0,
+    "op_income": -2500000.0,
+    "net_income": -2700000.0,
+    "cfo": -1000000.0,
+    "capex": 900000.0,
+    "capitalized_sw": null,
+    "sbc": 1400000.0,
+    "diluted_shares": 41000000.0,
+    "ar": 17000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 10000000.0,
+    "cash": 24000000.0,
+    "debt": 5000000.0,
+    "total_assets": 112000000.0
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "revenue": 29000000.0,
+    "gross_profit": 9000000.0,
+    "op_income": -2000000.0,
+    "net_income": -2200000.0,
+    "cfo": -500000.0,
+    "capex": 1000000.0,
+    "capitalized_sw": null,
+    "sbc": 1500000.0,
+    "diluted_shares": 41500000.0,
+    "ar": 19000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 10500000.0,
+    "cash": 22000000.0,
+    "debt": 5000000.0,
+    "total_assets": 115000000.0
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 30000000.0,
+    "gross_profit": 9600000.0,
+    "op_income": -1800000.0,
+    "net_income": -2000000.0,
+    "cfo": -2000000.0,
+    "capex": 1100000.0,
+    "capitalized_sw": null,
+    "sbc": 1800000.0,
+    "diluted_shares": 42000000.0,
+    "ar": 21000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 11000000.0,
+    "cash": 20000000.0,
+    "debt": 5000000.0,
+    "total_assets": 118000000.0
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 33000000.0,
+    "gross_profit": 10900000.0,
+    "op_income": -1200000.0,
+    "net_income": -1400000.0,
+    "cfo": -800000.0,
+    "capex": 1200000.0,
+    "capitalized_sw": null,
+    "sbc": 2000000.0,
+    "diluted_shares": 43000000.0,
+    "ar": 26000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 12000000.0,
+    "cash": 24000000.0,
+    "debt": 5000000.0,
+    "total_assets": 125000000.0
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": 36000000.0,
+    "gross_profit": 12200000.0,
+    "op_income": -500000.0,
+    "net_income": -700000.0,
+    "cfo": 500000.0,
+    "capex": 1300000.0,
+    "capitalized_sw": null,
+    "sbc": 2200000.0,
+    "diluted_shares": 45000000.0,
+    "ar": 30000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 13000000.0,
+    "cash": 35000000.0,
+    "debt": 5000000.0,
+    "total_assets": 140000000.0
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": 41000000.0,
+    "gross_profit": 14400000.0,
+    "op_income": 800000.0,
+    "net_income": 600000.0,
+    "cfo": 1500000.0,
+    "capex": 1400000.0,
+    "capitalized_sw": null,
+    "sbc": 2500000.0,
+    "diluted_shares": 46000000.0,
+    "ar": 35000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 14000000.0,
+    "cash": 36000000.0,
+    "debt": 5000000.0,
+    "total_assets": 150000000.0
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 45000000.0,
+    "gross_profit": 16200000.0,
+    "op_income": 1500000.0,
+    "net_income": 1200000.0,
+    "cfo": -1500000.0,
+    "capex": 1600000.0,
+    "capitalized_sw": null,
+    "sbc": 3000000.0,
+    "diluted_shares": 48000000.0,
+    "ar": 40000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 15500000.0,
+    "cash": 30000000.0,
+    "debt": 5000000.0,
+    "total_assets": 165000000.0
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 52000000.0,
+    "gross_profit": 19200000.0,
+    "op_income": 3100000.0,
+    "net_income": 2800000.0,
+    "cfo": -500000.0,
+    "capex": 1800000.0,
+    "capitalized_sw": null,
+    "sbc": 3400000.0,
+    "diluted_shares": 52000000.0,
+    "ar": 48000000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 17000000.0,
+    "cash": 38000000.0,
+    "debt": 5000000.0,
+    "total_assets": 190000000.0
+   }
+  ]
+ },
+ "manual": {
+  "nongaap_adj_pct": 0.06,
+  "nongaap_recurring_items": false,
+  "kpis": [
+   {
+    "name": "Backlog financiado",
+    "value": "$96M",
+    "prior": "$58M (jun-25)",
+    "src": [
+     [
+      "10-Q ficticio",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Backlog no financiado",
+    "value": "$210M",
+    "prior": "$140M",
+    "src": [
+     [
+      "10-Q ficticio",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "% ingresos públicos",
+    "value": "81%",
+    "prior": "74%",
+    "src": [
+     [
+      "10-Q ficticio",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Tasa de victoria",
+    "value": "[VERIFY: no publicada]",
+    "prior": "—",
+    "src": []
+   }
+  ]
+ },
+ "catalysts": [
+  {
+   "id": "c1",
+   "type": "gov_contract",
+   "date": "2026-10-14",
+   "time_et": "premarket",
+   "headline": "Contrato de producción del Ejército de EE. UU. por $48M a 2 años (ficticio)",
+   "sources": [
+    [
+     "8-K 1.01",
+     ""
+    ],
+    [
+     "USASpending",
+     ""
+    ]
+   ],
+   "counterparty": "US Army (ficticio)",
+   "counterparty_named": true,
+   "counterparty_confirms": true,
+   "filed_8k_101": true,
+   "exhibit_attached": false,
+   "binding": "award_funded",
+   "value_firm": 48000000.0,
+   "value_ceiling": 48000000.0,
+   "duration_years": 2,
+   "economics_disclosed": true,
+   "recurring": false,
+   "issuer_history": "partial",
+   "pr_count_90d": 4,
+   "financing_after_days": null,
+   "insider_selling_after": false,
+   "lockup_within_days": 37,
+   "promo_language": false,
+   "gap_pct": 18.0,
+   "rvol": 6.2,
+   "close_in_range": 0.85,
+   "day2_follow": true,
+   "estimate_revisions": "up",
+   "note": "Obligación con fondos visible en el registro público el mismo día (ficticio). El exhibit con precios unitarios no se adjuntó: [VERIFY: pedir en el 10-Q]."
+  },
+  {
+   "id": "c2",
+   "type": "gov_contract",
+   "date": "2026-07-08",
+   "headline": "«Seleccionada» para un IDIQ multiproveedor de hasta $500M (ficticio)",
+   "sources": [
+    [
+     "PR",
+     ""
+    ],
+    [
+     "SAM.gov",
+     ""
+    ]
+   ],
+   "counterparty": "Agencia ficticia",
+   "counterparty_named": true,
+   "counterparty_confirms": true,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "idiq_ceiling",
+   "value_firm": null,
+   "value_ceiling": 500000000.0,
+   "duration_years": 5,
+   "economics_disclosed": false,
+   "recurring": false,
+   "issuer_history": "partial",
+   "pr_count_90d": 7,
+   "financing_after_days": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": true,
+   "gap_pct": 24.0,
+   "rvol": 9.0,
+   "close_in_range": 0.3,
+   "day2_follow": false,
+   "estimate_revisions": "flat"
+  },
+  {
+   "id": "c3",
+   "type": "partnership",
+   "date": "2026-03-02",
+   "headline": "MOU «estratégico» con un «contratista Fortune 500» sin nombre (ficticio)",
+   "sources": [
+    [
+     "PR",
+     ""
+    ]
+   ],
+   "counterparty": null,
+   "counterparty_named": false,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "mou",
+   "value_firm": null,
+   "value_ceiling": null,
+   "economics_disclosed": false,
+   "recurring": false,
+   "issuer_history": "not_converted",
+   "pr_count_90d": 6,
+   "financing_after_days": 3,
+   "financing_discount_pct": 12,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": true
+  },
+  {
+   "id": "c4",
+   "type": "earnings",
+   "date": "2026-08-11",
+   "headline": "Resultados del 2T26: ingresos +57,6% y guía al alza (ficticio)",
+   "sources": [
+    [
+     "8-K 2.02 / EX-99.1",
+     ""
+    ]
+   ],
+   "rev_growth_yoy": 0.576,
+   "rev_growth_yoy_prev": 0.5,
+   "rev_surprise_pct": 6.0,
+   "eps_surprise_pct": 25.0,
+   "guide_raise": true,
+   "guide_change_pct": 8.0,
+   "gm_change_bp": 390,
+   "nonrecurring_in_beat": false,
+   "gap_pct": 11.0,
+   "rvol": 4.1,
+   "close_in_range": 0.75,
+   "day2_follow": true,
+   "estimate_revisions": "up"
+  },
+  {
+   "id": "c5",
+   "type": "financing",
+   "date": "2026-03-05",
+   "headline": "Registered direct de $20M con descuento del 12% y warrants (ficticio)",
+   "sources": [
+    [
+     "424B5",
+     ""
+    ]
+   ],
+   "financing_type": "registered_direct",
+   "price_vs_market_pct": -12,
+   "warrants": true
+  }
+ ],
+ "supply": [
+  {
+   "id": "atm",
+   "kind": "atm",
+   "name": "ATM de $75M (agente ficticio)",
+   "shares": null,
+   "capacity_usd": 42000000.0,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "notes": "$33M vendidos entre sep-25 y mar-26; sin ventas en el 2T26",
+   "src": [
+    [
+     "424B5",
+     ""
+    ],
+    [
+     "10-Q",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "shelf",
+   "kind": "shelf",
+   "name": "S-3 de $250M efectivo",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "notes": "Capacidad restante ≈ $175M tras el ATM y el registered direct",
+   "src": [
+    [
+     "S-3 EFFECT",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "rdw",
+   "kind": "warrants",
+   "name": "Warrants del registered direct",
+   "shares": 1600000.0,
+   "price_basis": 11.5,
+   "gate": "live",
+   "date": null,
+   "notes": "Ejercitables desde sep-26; en dinero",
+   "src": [
+    [
+     "8-K",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "lk",
+   "kind": "lockup",
+   "name": "Lock-up de la compra de SkyCo (ficticia)",
+   "shares": 2500000.0,
+   "price_basis": 9.8,
+   "gate": "dated",
+   "date": "2026-11-20",
+   "notes": "Acciones emitidas como contraprestación",
+   "src": [
+    [
+     "8-K 2.01",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "ceo",
+   "kind": "insider",
+   "name": "CEO · ventas bajo plan 10b5-1",
+   "shares": 400000.0,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": false,
+   "notes": "Plan adoptado en feb-26; ~3% de su posición",
+   "src": [
+    [
+     "Form 4",
+     ""
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 48000000.0,
+  "window_days": 56,
+  "ep_recent_days": 3,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "PEER-A",
+   "name": "Par ficticio A",
+   "rev_yoy": 0.35,
+   "accel_pp": 2.0,
+   "gm": 0.42,
+   "rule40": 38,
+   "ev_sales": 7.5,
+   "rs_3m": 85
+  },
+  {
+   "ticker": "PEER-B",
+   "name": "Par ficticio B",
+   "rev_yoy": 0.22,
+   "accel_pp": -4.0,
+   "gm": 0.3,
+   "rule40": 15,
+   "ev_sales": 3.1,
+   "rs_3m": 60
+  },
+  {
+   "ticker": "PEER-C",
+   "name": "Par ficticio C",
+   "rev_yoy": 0.48,
+   "accel_pp": 9.0,
+   "gm": 0.38,
+   "rule40": 30,
+   "ev_sales": 9.8,
+   "rs_3m": 95
+  },
+  {
+   "ticker": "PEER-D",
+   "name": "Par ficticio D",
+   "rev_yoy": 0.12,
+   "accel_pp": -1.0,
+   "gm": 0.25,
+   "rule40": 8,
+   "ev_sales": 1.9,
+   "rs_3m": 40
+  },
+  {
+   "ticker": "PEER-E",
+   "name": "Par ficticio E",
+   "rev_yoy": 0.28,
+   "accel_pp": 3.5,
+   "gm": 0.33,
+   "rule40": 26,
+   "ev_sales": 5.2,
+   "rs_3m": 70
+  },
+  {
+   "ticker": "PEER-F",
+   "name": "Par ficticio F",
+   "rev_yoy": 0.65,
+   "accel_pp": -6.0,
+   "gm": 0.2,
+   "rule40": 20,
+   "ev_sales": 12.0,
+   "rs_3m": 78
+  }
+ ],
+ "setup": {
+  "type": "ep",
+  "pivot": 14.6,
+  "stop": 12.9,
+  "adr_pct": 6.1,
+  "rs_1m": 97,
+  "rs_3m": 92,
+  "rs_6m": 88,
+  "ema_stack": true,
+  "notes": "EP del 14-oct sobre el contrato del Ejército: gap del 18% con RVOL 6,2 y cierre en el 85% del rango. Entrada en la ruptura del máximo del día del EP ({m.pivot:px}); stop en el mínimo del día ({m.stop:px})."
+ },
+ "events": [
+  {
+   "date": "2026-11-10",
+   "kind": "earnings",
+   "text": "Resultados del 3T26: primer trimestre con ingresos del contrato del Ejército",
+   "src": []
+  },
+  {
+   "date": "2026-11-20",
+   "kind": "lockup",
+   "text": "Fin del lock-up de SkyCo: 2,5M acciones con base de $9,80",
+   "src": []
+  },
+  {
+   "date": "2026-12-01",
+   "kind": "regulatory",
+   "text": "Decisión de la opción del año 2 del IDIQ (ficticia)",
+   "src": []
+  },
+  {
+   "date": "2026-08-11",
+   "kind": "earnings",
+   "text": "Resultados del 2T26 (pasado)",
+   "src": []
+  }
+ ],
+ "header": {
+  "verdict": "Catalizador real y fundamentales fuertes; la oferta (ATM vivo y lock-up en ventana) impide la convicción alta.",
+  "setup": "EP limpio, pero el stop en el mínimo del día supera 1 ADR: tamaño reducido o entrada en el retroceso a la EMA de 10.",
+  "catalyst": "Adjudicación con fondos, confirmada en el registro público y material ({m.cat_c1_mat:pctf} de ingresos anualizados).",
+  "quality": "Crecimiento que acelera y apalancamiento operativo; cobros creciendo más que las ventas.",
+  "supply": "Oferta viva ≈ {m.overhang_pct:pctf} del float (ATM y warrants) y lock-up el 20-nov.",
+  "group": "Mejor combinación crecimiento/múltiplo del grupo."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Drones tácticos y anti-dron para defensa (ficticio)"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ],
+  [
+   "Float",
+   "{m.float_shares:M1} acciones"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "El IDIQ de «hasta $500M» (c2) es un techo multiproveedor sin valor obligado: el mercado lo compró (gap del 24%) pero cerró en el tercio inferior. **TECHO ≠ INGRESO.**",
+   "El MOU de marzo (c3) con una contraparte sin nombre fue seguido 3 días después por un registered direct con descuento del 12% y warrants (c5): patrón **PR→FINANCIACIÓN** heredado del forense de micro caps.",
+   "Siete PRs en 90 días antes del IDIQ: cadencia promocional; el contrato de octubre es el primero con fondos obligados verificables."
+  ],
+  "catalyst_read": "El catalizador principal (c1) es **real**: adjudicación con fondos, contraparte que lo confirma en registro público y materialidad del {m.cat_c1_mat:pctf}. La empresa también tiene historial de PRs especulativos (c2, c3): no se extrapola el tono, solo lo verificable.",
+  "financials_note": "Cifras sintéticas en el mismo formato que devuelve scripts/xbrl.py. El FCF TTM es negativo por la inversión en capital circulante (cobros).",
+  "quality": [
+   "Las cuentas por cobrar crecen {m.ar_yoy:pctf} frente a ingresos {m.rev_yoy:pctf}: típico de contratistas públicos con hitos, pero hay que ver si se cobran en el 3T26. DSO {m.dso:n1} días.",
+   "Las acciones diluidas suben {m.dil_yoy:pctf} interanual por el ATM y el registered direct: el crecimiento por acción es menor que el de ingresos."
+  ],
+  "supply_read": "Nota {m.supply_score:sc}/100. La compañía tiene caja ({m.runway_m:n1} meses de runway con el consumo actual) y no usó el ATM en el último trimestre, así que no se marca riesgo de colocación inmediato, pero con el ATM vivo cualquier fortaleza puede venderse. [VERIFY: ventas del ATM en el 3T26 en el próximo 10-Q]",
+  "valuation": [
+   "Con EV/ventas de {m.ev_sales:x1}, el precio descuenta un crecimiento de {m.implied_g:pctf} anual durante 5 años frente al {m.rev_ttm_yoy:pctf} TTM actual ({m.implied_vs_now_pp:pp})."
+  ],
+  "group_read": "Percentil {m.fund_pct:sc} en fundamentales y {m.rs_pct:sc} en fuerza relativa dentro de {m.n_peers:int} pares ficticios. PEER-C crece menos pero cotiza a más del doble de múltiplo.",
+  "risks": [
+   "Cobros que no se convierten en caja en el 3T26.",
+   "Venta en el ATM aprovechando el EP.",
+   "Lock-up de SkyCo el 20-nov: 2,5M acciones con base de $9,80 (≈ 45% de plusvalía).",
+   "Resultados el 10-nov dentro de la ventana: reducir antes si no hay colchón."
+  ],
+  "plan": [
+   "Entrada: ruptura de {m.pivot:px} con volumen; alternativa: retroceso a la EMA de 10.",
+   "Stop: {m.stop:px} (mínimo del EP); riesgo {m.risk_pct:pctf} = {m.risk_adr:x1} ADR → tamaño {m.size_r:x2} del riesgo base.",
+   "Parciales a los 3–5 días; resto con la EMA de 10/20.",
+   "Revisar antes del 10-nov (resultados) y del 20-nov (lock-up)."
+  ],
+  "verdict": "**Media.** Catalizador A, fundamentales fuertes ({m.fund_score:sc}) y líder del grupo, pero la oferta ({m.supply_score:sc}) no llega a 60. Si el 10-Q del 3T26 confirma que el ATM no se usó y los cobros bajan, la convicción sube a Alta."
+ },
+ "sources": [
+  [
+   "Caso sintético: sin fuentes reales",
+   ""
+  ]
+ ]
+}

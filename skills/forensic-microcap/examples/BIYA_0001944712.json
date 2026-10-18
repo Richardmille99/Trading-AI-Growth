@@ -1,0 +1,1167 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "BIYA",
+  "issuer": "Baiya International Group Inc.",
+  "cik": "0001944712",
+  "exchange": "Nasdaq CM",
+  "report_date": "2026-10-17",
+  "price_basis": "cierre previo (vie 16 oct 2026: $1,30)",
+  "descriptor": "Holding de recursos humanos y matching laboral con tesorería cripto (BNB, USDT) · operaciones en China (Chengdu, Chuzhou) bajo holding de Islas Caimán, emisor privado extranjero · IPO mar 2025 · servicios de empleo (SIC 7361) · auditor Onestop Assurance PAC, Singapur (desde 1 ago 2025)",
+  "language": "es"
+ },
+ "market": {
+  "prev_close": 1.3,
+  "prev_close_date": "2026-10-16",
+  "change_pct": -5.11,
+  "volume": 97635,
+  "high60": 2.63,
+  "high60_date": "2026-08-17",
+  "daily": [
+   [
+    "2026-09-15",
+    2.07,
+    57667
+   ],
+   [
+    "2026-09-16",
+    2.08,
+    52034
+   ],
+   [
+    "2026-09-17",
+    2.11,
+    31180
+   ],
+   [
+    "2026-09-18",
+    2.13,
+    15343
+   ],
+   [
+    "2026-09-21",
+    2.13,
+    32873
+   ],
+   [
+    "2026-09-22",
+    2.09,
+    21895
+   ],
+   [
+    "2026-09-23",
+    2.07,
+    50756
+   ],
+   [
+    "2026-09-24",
+    2.07,
+    12070
+   ],
+   [
+    "2026-09-25",
+    2.11,
+    33394
+   ],
+   [
+    "2026-09-28",
+    2.03,
+    39785
+   ],
+   [
+    "2026-09-29",
+    2.05,
+    47950
+   ],
+   [
+    "2026-09-30",
+    1.96,
+    11416015
+   ],
+   [
+    "2026-10-01",
+    1.62,
+    362906
+   ],
+   [
+    "2026-10-02",
+    1.6,
+    119783
+   ],
+   [
+    "2026-10-05",
+    1.4,
+    188416
+   ],
+   [
+    "2026-10-06",
+    1.37,
+    3280567
+   ],
+   [
+    "2026-10-07",
+    2.3,
+    114599370
+   ],
+   [
+    "2026-10-08",
+    1.74,
+    2023291
+   ],
+   [
+    "2026-10-09",
+    1.83,
+    1454194
+   ],
+   [
+    "2026-10-12",
+    1.57,
+    359698
+   ]
+  ],
+  "adv_window_note": "20 sesiones completas 15 sep – 12 oct 2026 (13–15 oct sin volumen final)",
+  "src": "https://stockanalysis.com/stocks/biya/history/"
+ },
+ "shares": {
+  "os_primary": 4015475,
+  "os_primary_label": "F-3/A n.º 2, cálculo de no afiliados al 14 oct 2026",
+  "os_alternates": [
+   {
+    "value": 4615475,
+    "label": "mismo F-3/A, «a 7 oct» (según informe propio)"
+   },
+   {
+    "value": 3229864,
+    "label": "mismo F-3/A, «a la fecha del prospecto» (según informe propio)"
+   }
+  ],
+  "non_affiliates": 2665455,
+  "class_b": {
+   "shares": 3600000,
+   "votes_per_share": 60,
+   "convertible": null
+  },
+  "authorized_A": 506400000,
+  "reference_os": {
+   "label": "31 dic 2025",
+   "shares": 118584
+  },
+  "ipo_os": 50080,
+  "splits": [
+   {
+    "date": "2025-12-29",
+    "ratio": 25
+   },
+   {
+    "date": "2026-07-10",
+    "ratio": 10,
+    "note": "efectivo 4:01 PM; cotiza ajustado el 13 jul"
+   }
+  ],
+  "ladder": [
+   {
+    "label": "01/25",
+    "shares": 40000,
+    "src": "Saldo 1/1/25, EX-99.1 (retroactivo 1:250)"
+   },
+   {
+    "label": "03/25 IPO",
+    "shares": 50080,
+    "src": "13G Datong: 12.520.000 brutas post-IPO"
+   },
+   {
+    "label": "06/25",
+    "shares": 79994,
+    "src": "EX-99.1, 30/6/25"
+   },
+   {
+    "label": "12/25",
+    "shares": 118584,
+    "src": "Balance 31/12/25"
+   },
+   {
+    "label": "01/26",
+    "shares": 120961,
+    "src": "424B3 3/2/26: 1.209.609 post-1:25"
+   },
+   {
+    "label": "03/26",
+    "shares": 160525,
+    "src": "424B3 1/4/26: 1.605.251 post-1:25"
+   },
+   {
+    "label": "06/26",
+    "shares": 2746211,
+    "src": "Balance 30/6/26"
+   },
+   {
+    "label": "10/26",
+    "shares": 4015475,
+    "src": "F-3/A2, 14/10/26"
+   }
+  ],
+  "os_at_financials": 2746211
+ },
+ "financials": {
+  "as_of": "2026-06-30",
+  "cash": 1181159,
+  "equity": 27450974,
+  "total_assets": 29740104,
+  "big_asset": {
+   "label": "préstamos a terceros",
+   "value": 18794286
+  },
+  "cash_like": [
+   {
+    "label": "caja",
+    "value": 1181159
+   },
+   {
+    "label": "USDT",
+    "value": 1997776
+   },
+   {
+    "label": "BNB",
+    "value": 1710836
+   }
+  ],
+  "equity_adjustments": [
+   {
+    "label": "préstamos a terceros",
+    "value": 18794286
+   },
+   {
+    "label": "acciones Starfish prepagadas",
+    "value": 1173920
+   },
+   {
+    "label": "compensación en acciones prepagada",
+    "value": 717753
+   },
+   {
+    "label": "cobro aplazado de Juxing",
+    "value": 1635936
+   }
+  ],
+  "opcf": {
+   "value": -983857,
+   "months": 6
+  },
+  "pre_wc_burn": {
+   "loss": 3340540,
+   "noncash": 1484754,
+   "months": 6
+  },
+  "going_concern": true
+ },
+ "compliance_inputs": {
+  "bid_min": 1.0,
+  "mvphs_min": 1000000,
+  "mvls_rule_line": 5000000,
+  "no_cure_overlays": [
+   {
+    "label": "Lookback de 1 año",
+    "until": "2027-07-10"
+   },
+   {
+    "label": "250:1 acumulado en dos años",
+    "until": "2027-12-29"
+   }
+  ]
+ },
+ "chart": {
+  "pmin": 0.5,
+  "pmax": 20,
+  "ymax": 14000000,
+  "price_marks": [
+   [
+    0.91,
+    "$0,91 compra SESA"
+   ],
+   [
+    1.0,
+    "$1,00 bid"
+   ],
+   [
+    1.3,
+    "$1,30 cierre"
+   ],
+   [
+    2.63,
+    "$2,63 máx. 60 días"
+   ],
+   [
+    3.12,
+    "$3,12 Zeyun"
+   ],
+   [
+    6.82,
+    "$6,82 techo 28 jul"
+   ],
+   [
+    11.85,
+    "$11,85 techo SESA #2"
+   ],
+   [
+    16.93,
+    "$16,93 techo muerde"
+   ]
+  ]
+ },
+ "instruments": [
+  {
+   "id": "sesa",
+   "name": "SESA restante (#1 Victoria Harbour/Yatian + #2 Peakrise/Stratosphere)",
+   "short": "SESA restante",
+   "gate": "live",
+   "shares_min": 911159,
+   "shares_max": 2180423,
+   "supply": {
+    "model": "fixed"
+   },
+   "fd": true,
+   "gate_label": "VIVA — registrada",
+   "arming": "Advance notice del emisor; precio = menor de 70% de la media de 3 cierres o techo ($11,85 #2 / $50,925 #1); F-1 333-294510 EFFECT 26 mar 2026 y 333-292480 EFFECT 30 ene 2026; vencen 26 feb 2029 / 5 nov 2028. Uso por línea [VERIFY: advance notices]",
+   "src": [
+    [
+     "424B3 4/1",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026038595/ea0284668-424b3_baiyainter.htm"
+    ],
+    [
+     "424B3 2/3",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026011517/ea0275377-424b3_baiyainter.htm"
+    ]
+   ],
+   "discount": 0.7
+  },
+  {
+   "id": "zeyun",
+   "name": "Zeyun Holdings (SPA 17 abr 2026)",
+   "short": "Zeyun 1,35M",
+   "gate": "gated",
+   "shares_max": 1350000,
+   "in_os": true,
+   "basis": 3.12,
+   "supply": {
+    "model": "fixed"
+   },
+   "fd": false,
+   "gate_label": "EFFECT o 144",
+   "arming": "EFFECT del F-3 333-297647, o 144 desde 29 oct 2026 si pagó al cierre; $4,81M de suscripción por cobrar a 30 jun [VERIFY]; el emisor la trata como afiliada (límites de volumen)",
+   "src": [
+    [
+     "F-3/A2",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026110244/ea0307268-f3a2_baiya.htm"
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "name": "S-8 segundo plan 2026 (7 ago 2026)",
+   "short": "S-8 2026",
+   "gate": "gated",
+   "shares_max": 1200000,
+   "supply": {
+    "model": "fixed"
+   },
+   "fd": true,
+   "gate_label": "Concesión / devengo",
+   "arming": "Concesiones del consejo; emisión no desglosada [VERIFY]. S-8 previos 333-288618 y 333-292837 sin tamaño post-split verificado",
+   "src": [
+    [
+     "S-8 333-298157",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "classB",
+   "name": "Class B (60 votos, ex-CEO y ex-Chairman)",
+   "short": "Class B",
+   "gate": "gated",
+   "shares_max": 3600000,
+   "supply": {
+    "model": "fixed"
+   },
+   "fd": true,
+   "gate_label": "Conversión",
+   "arming": "Derecho y ratio de conversión a Class A sin confirmar tras el 1:10, que no consolidó la B [VERIFY]; titulares exdirectivos → 144 con límites de afiliado",
+   "src": [
+    [
+     "EX-99.1 N.11",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026104687/ea030676301ex99-1.htm"
+    ]
+   ]
+  },
+  {
+   "id": "shelf",
+   "name": "Shelf F-3 $200M (I.B.5)",
+   "short": "Shelf I.B.5",
+   "gate": "gated",
+   "supply": {
+    "model": "shelf_ib5"
+   },
+   "fd": false,
+   "gate_label": "EFFECT",
+   "arming": "Tope = 1/3 del public float por 12 meses, valorado al máximo de 60 días; declara $0 vendidos en 12 meses",
+   "src": [
+    [
+     "F-3/A2 portada",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026110244/ea0307268-f3a2_baiya.htm"
+    ]
+   ]
+  }
+ ],
+ "ledger_extra": [
+  {
+   "name": "Depósito de inversor (liquidación en acciones)",
+   "shares": "n/d",
+   "gate_level": "a",
+   "gate_label": "Sin registro verificado",
+   "arming": "$1.585.437 de depósito reembolsable; tras el 30 jun se acordó liquidar parte en acciones [VERIFY: recuento]",
+   "src": [
+    [
+     "EX-99.1 N.8",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026104687/ea030676301ex99-1.htm"
+    ]
+   ]
+  },
+  {
+   "name": "Acciones Starfish",
+   "shares": "9.280",
+   "gate_level": "b",
+   "gate_label": "Emitidas; posible cancelación",
+   "arming": "Entregadas a vendedores, consultores y empleados en sep 2025; la compañía estudia sus derechos tras vender Starfish",
+   "src": [
+    [
+     "EX-99.1 N.11/13",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026104687/ea030676301ex99-1.htm"
+    ]
+   ]
+  },
+  {
+   "name": "Capital autorizado sin emitir",
+   "shares": "{m.headroom_A:int}",
+   "gate_level": "b",
+   "gate_label": "Jurídico",
+   "arming": "506,4M Class A autorizadas ({m.headroom_x:x} el O/S); práctica del país de origen: sin voto para emisiones >20% a descuento",
+   "src": [
+    [
+     "F-3/A2 EGM",
+     "https://www.sec.gov/Archives/edgar/data/1944712/000121390026110244/ea0307268-f3a2_baiya.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "MIXTO",
+  "mixed": "{m.printable_lo:M2}–{m.printable_hi:M2} acciones pueden imprimirse hoy vía dos equity lines efectivas al 70% del precio ({m.printable_lo_xadv:x1}–{m.printable_hi_xadv:x1} la ADV mediana); otras {m.gated_total:M2}, más el shelf, esperan detrás de un EFFECT, un reloj 144, concesiones S-8 o una conversión no confirmada.",
+  "live": "**{m.printable_lo:M2}–{m.printable_hi:M2}** acciones: capacidad restante de las SESA, registradas en F-1 efectivos y libres al emitirse. Float del emisor **{m.non_aff:int}** · ADV mediana 20 sesiones **{m.adv_median:int}** · sesión máxima **{m.largest_vol:M1}** ({m.largest_date}).",
+  "gated": "1,35M Zeyun (reventa en F-3 333-297647 pendiente de EFFECT, o 144 ≥ 29 oct 2026 si se pagó) + 3,6M Class B (convertibilidad [VERIFY]) + 1,2M S-8 + shelf I.B.5 ({m.shelf_sh_floor:M2}–{m.shelf_sh_now:M2} acciones).",
+  "actors": "Inversores SESA: compran al 70% de la media de 3 cierres y ganan a cualquier precio. Zeyun: base $3,12, a {m.zeyun_pnl:pct} con {m.prev_close:px}. Emisor: caja estimada ≤ {m.cash_pf_hi:usdM} y bid ≥ $1,00 sin periodo de cura. Class B: {m.voteshare_B:pct} del voto.",
+  "changes": "EFFECT del F-3 333-297647 (arma la reventa Zeyun y el shelf a la vez); vencimiento de los préstamos de $16,8M el 16 dic 2026; la sesión 30 seguida bajo $1 (exclusión sin cura)."
+ },
+ "grades": {
+  "overhead": {
+   "level": "Alto",
+   "why": "SESA viva = {m.printable_lo_xfloat:pct0x}–{m.printable_hi_xfloat:pct0x} del float; Zeyun = {m.zeyun_pct_float:pct0} del float detrás de un EFFECT"
+  },
+  "dilution": {
+   "level": "Alto",
+   "why": "Class A {m.growth_ref_x:x} desde 31 dic 2025"
+  },
+  "frequency": {
+   "level": "Alto",
+   "why": "Dos SESA, un SPA, tres S-8 y dos splits en 13 meses"
+  },
+  "offering": {
+   "level": "Medio",
+   "why": "SESA viva pero capada por número; shelf pendiente y limitado a ≈{m.shelf_cap_now:usdM}–{m.shelf_cap_high:usdM}/12m"
+  },
+  "cash": {
+   "level": "Alto",
+   "why": "{m.cash:usdM} a 30 jun; going concern; nada publicado después"
+  },
+  "compliance": {
+   "level": "Medio",
+   "why": "Bid {m.prev_close:px} cumple; sin periodo de cura si cae (colchón {m.bid_cushion:pct})"
+  }
+ },
+ "grades_note": "Calificado solo con filings. Capacidad de oferta queda en Medio y no Alto: la única ruta registrada viva son las SESA, cuyo techo es de acciones y no de dólares, y el shelf de $200M tiene un tope real de un tercio del public float mientras el float valga menos de $75M. Necesidad de caja va al grado más arriesgado de los adyacentes porque no hay balance después del 30 de junio [VERIFY].",
+ "alert": "**Alerta de mecánica de oferta + control (ámbar, sin screening negativo de SEC/DOJ):** no hay litigios ni contingencias declaradas [[6-K 9/29 EX-99.1|https://www.sec.gov/Archives/edgar/data/1944712/000121390026104687/ea030676301ex99-1.htm]]. El motor de oferta son dos SESA que entregan acciones libres al 70% del precio. **Firma de captación:** dos reverse splits en 7 meses (250:1 acumulado), cada uno seguido de papel nuevo en menos de 9 semanas, 2 de 2. **Caja:** {m.cash:usdM} a 30 jun frente a $16,8M prestados sin interés a dos holdings el 15 dic 2025, catorce días antes del primer split. **Coincidencias:** resultados a las 4:28 PM del 29 sep → 11,4M acciones y techo +55% al día siguiente; F-3 con la reventa Zeyun el 23 jul → +116% y +54% el 27 y 28 jul. **Salida de emergencia:** el consejo puede consolidar hasta 1:5.000 sin nueva votación hasta el 9 feb 2028. **Lectura:** máquina de dilución con oferta a descuento fijo y un balance que depende de préstamos a terceros.",
+ "snapshot": [
+  [
+   "Market cap",
+   "**{m.mcap_A:usd}** — {m.prev_close:px} × {m.os:int} Class A. Con Class B al mismo precio: {m.mcap_AB:usdM} [VERIFY: conversión]"
+  ],
+  [
+   "Cierre previo",
+   "**{m.prev_close:px}** ({m.prev_close_date}; {m.change_pct:pct}; {m.volume:int} acciones) [[precio|https://stockanalysis.com/stocks/biya/]]"
+  ],
+  [
+   "Float / O/S",
+   "**{m.non_aff:int}** float (no afiliados) · O/S {m.os:int} Class A + {m.classB:int} Class B [[F-3/A2|https://www.sec.gov/Archives/edgar/data/1944712/000121390026110244/ea0307268-f3a2_baiya.htm]]"
+  ],
+  [
+   "Caja / acción",
+   "**{m.cash_ps:px}** — {m.cash:usdM} a 30 jun; nada publicado después"
+  ],
+  [
+   "Inst. ownership",
+   "Sin holder 13F identificado. 13G al IPO: Datong International (Chao Chen) 7,37% (hoy 3.684 acciones, 0,09%) [[13G|https://www.sec.gov/Archives/edgar/data/1944712/000121390025045591/xslSCHEDULE_13G_X01/primary_doc.xml]]"
+  ],
+  [
+   "Estado bursátil",
+   "Nasdaq CM · bid {m.prev_close:px} (cumple) · sin periodo de cura: lookback de 1 año y 250:1 acumulado"
+  ],
+  [
+   "Estado legal",
+   "Sin litigios declarados. Abiertos: acciones entregadas por Starfish; cobro aplazado de Juxing"
+  ],
+  [
+   "Nexo China",
+   "Sí — operaciones en China, holding Caimán, contrapartes en BVI/Caimán/HK/UAE; {m.big_asset:usdM} en préstamos a terceros"
+  ],
+  [
+   "Símbolos previos",
+   "Ninguno — BIYA desde el IPO del 21 mar 2025"
+  ],
+  [
+   "Splits",
+   "1:10 el 10 jul 2026 · 1:25 el 29 dic 2025 · acumulado {m.cum_split:int}:1"
+  ]
+ ],
+ "os_caption": "**O/S {m.os:M2} · FD {m.fd:M2} = {m.fd_xos:x} O/S · {m.fd_xfloat:x} float.** Capa FD: SESA restante ≤{m.sesa_max:int} · S-8 2026 1.200.000 · Class B 3.600.000 [VERIFY: convertibilidad]. Sin warrants ni convertibles: las cuentas de H1 dicen que no hay acciones dilutivas. Las 1,35M de Zeyun ya están en el O/S; su riesgo es de oferta, no de dilución.",
+ "supply_caption": "**Imprimible hoy: {m.printable_lo:M2}–{m.printable_hi:M2} = {m.printable_lo_xos:x}–{m.printable_hi_xos:x} O/S = {m.printable_lo_xfloat:x}–{m.printable_hi_xfloat:x} float** — {m.printable_lo_xadv:x1}–{m.printable_hi_xadv:x1} la ADV mediana. Las capas bloqueadas suman {m.gated_total:M2} = {m.gated_xfloat:x} float. La oferta casi no depende del precio: las SESA están limitadas por número de acciones, así que la curva es plana; solo el shelf reacciona, porque su tope en dólares usa el máximo de 60 días ({m.high60:px}).",
+ "capital_intro": "**Recuento:** {m.os:int} Class A en la portada del F-3/A n.º 2 = {m.since_fin:int} más que el 30 jun ({m.since_fin_pct:pct}). El mismo documento conserva 4.615.475 «a 7 oct» y 3.229.864 «a la fecha del prospecto»: tres denominadores en un filing [VERIFY]. Desde el 31 dic 2025 la Class A se multiplicó por {m.growth_ref:x1n}; desde el IPO por {m.growth_ipo:x1n}. Equivale a {m.raw_equiv:M1} acciones anteriores a los splits. **Rutas hoy:** SESA y colocaciones privadas. **Cerradas:** el shelf espera EFFECT y está capado por I.B.5. La portada del 20-F FY2025 marca «No» en la casilla de puntualidad; si es correcta, compromete la elegibilidad I.A.3 [VERIFY] [[20-F 4/30|https://www.sec.gov/Archives/edgar/data/1944712/000121390026050223/ea0287704-20f_baiya.htm]].",
+ "registrations": [
+  [
+   "F-3 universal 333-297647",
+   "Presentado 23 jul 2026 (4:30 PM ET); A1 21 ago (4:18 PM); A2 16 oct",
+   "$200M nominal + reventa 1,35M Zeyun",
+   "a",
+   "PENDIENTE EFFECT"
+  ],
+  [
+   "Test I.B.1 (≥$75M float)",
+   "14 oct: 2.665.455 × $1,39 = $3.704.982",
+   "Necesitaría {m.ib1_px:px} por acción",
+   "r",
+   "FALLA"
+  ],
+  [
+   "Test I.B.5 (baby shelf)",
+   "1/3 del public float, 12 meses móviles",
+   "{m.shelf_cap_now:usdM} (al cierre) – {m.shelf_cap_high:usdM} (máx. 60 días)",
+   "a",
+   "APLICA"
+  ],
+  [
+   "Puntualidad I.A.3",
+   "NT 20-F FY2024 y 20-F en prórroga (13 may 2025); 20-F FY2025 en plazo con casilla «No»",
+   "—",
+   "v",
+   "VERIFY"
+  ],
+  [
+   "F-1 reventa SESA #1 333-292480",
+   "Presentado 30 dic 2025; EFFECT 30 ene 2026",
+   "400.000 acciones (4,0M pre-1:10)",
+   "r",
+   "EFECTIVO"
+  ],
+  [
+   "F-1 reventa SESA #2 333-294510",
+   "Presentado 20 mar 2026; EFFECT 26 mar; el 424B3 del 1 abr cita por error 333-292480 [VERIFY]",
+   "3.000.000 acciones (30M pre-1:10)",
+   "r",
+   "EFECTIVO"
+  ],
+  [
+   "Colocación privada / SPA",
+   "Sin registro",
+   "Zeyun 1,35M a $3,12; SPAs abr–jun 2025 por $17,82M",
+   "r",
+   "ABIERTA"
+  ],
+  [
+   "Captación registrada hoy",
+   "SESA: ≤{m.sesa_max:M2} × ≈{m.sesa_px:px}",
+   "≤{m.sesa_proceeds:usdM} brutos",
+   "r",
+   "VIVA"
+  ]
+ ],
+ "facilities": [
+  [
+   "SESA #2 — Peakrise Investment Management Ltd (BVI) y Stratosphere Capital Management Inc. (Caimán), 26 feb 2026",
+   "$35,55M / 3.000.000 acciones en F-1 333-294510",
+   "Menor de 70% de la media de 3 cierres desde el aviso o $11,85; 36 meses; libres al emitirse. Los $35,55M solo caben por encima de $16,93.",
+   "r",
+   "VIVA — uso ≥0,82M [VERIFY]"
+  ],
+  [
+   "SESA #1 — Victoria Harbour International Capital Management Ltd (HK) y Yatian Investment Ltd (HK), 5 nov 2025",
+   "$20,37M / 400.000 acciones en F-1 333-292480",
+   "Menor de 70% de 3 cierres o $50,925; $10,185M por inversor; 36 meses. El emisor dice que no están afiliados a los de la #2.",
+   "r",
+   "VIVA — uso ≤400k [VERIFY]"
+  ]
+ ],
+ "facilities_note": "Uso H1 2026: 2.569.577 acciones por «SESA y SPA» por $10,28M brutos (media $4,00) − 1,35M Zeyun = 1.219.577 por SESA. Restante combinado: {m.sesa_max:int} si nada se emitió por SESA tras el 30 jun; {m.sesa_min:int} si las {m.since_fin:int} nuevas fueron todas SESA.",
+ "warrants_text": "Ninguno declarado. Las cuentas de H1 2026 dicen que no hubo acciones dilutivas. No se localizaron warrants del underwriter del IPO (Cathay Securities / Revere Securities) [VERIFY: 424B4].",
+ "convertibles_text": "Sin notas convertibles. La tasa variable vive en las dos SESA: el 30% de descuento sobre una media de 3 cierres. El emisor sigue la práctica de su país y no aplica la regla 5635(d), así que no necesita voto para emitir más del 20% a descuento.",
+ "offerings_note": "Acciones y precios en base actual: conteos brutos × 1/250 antes del 29 dic 2025 y × 1/10 hasta el 10 jul 2026; dólares tal como se captaron.",
+ "offerings": [
+  [
+   "2026-07→10",
+   "Emisiones post-30 jun (SESA, depósito, S-8)",
+   "{m.since_fin:int}",
+   "n/d",
+   "n/d",
+   "Sin desglose",
+   "[VERIFY]",
+   "[[F-3/A2|https://www.sec.gov/Archives/edgar/data/1944712/000121390026110244/ea0307268-f3a2_baiya.htm]]"
+  ],
+  [
+   "2026-04-17/29",
+   "SPA privado",
+   "1.350.000",
+   "$3,12 ($0,312 bruto)",
+   "$4,21M",
+   "Zeyun Holdings",
+   "EFFECT / 144",
+   "F-3/A2"
+  ],
+  [
+   "2026-01→06",
+   "SESA (advance notices)",
+   "1.219.577",
+   "≈$4,97 media",
+   "≈$6,07M",
+   "Peakrise, Stratosphere, Victoria Harbour, Yatian",
+   "LIBRE",
+   "EX-99.1 N.11"
+  ],
+  [
+   "2026-01→06",
+   "Total financiación (incluye las dos filas anteriores)",
+   "2.569.577",
+   "$4,00 media",
+   "$10,28M; $4,81M por cobrar; $1,40M en USDT",
+   "Varios",
+   "—",
+   "EX-99.1"
+  ],
+  [
+   "2026-01→06",
+   "Compensación a empleados",
+   "56.497",
+   "$16,14",
+   "— ($911.601 VR)",
+   "Empleados",
+   "S-8 [VERIFY]",
+   "EX-99.1 N.11"
+  ],
+  [
+   "2025-09-19",
+   "Adquisición Starfish (en acciones)",
+   "9.280",
+   "$126,50",
+   "— ($1,17M VR)",
+   "Vendedores, consultores, empleados",
+   "Probable 144",
+   "EX-99.1 N.11"
+  ],
+  [
+   "2025",
+   "Class B como compensación",
+   "3.600.000 B",
+   "$0,626 (1,6M en H1)",
+   "—",
+   "Ex-CEO y ex-Chairman",
+   "Sin cotizar",
+   "EX-99.1 N.11"
+  ],
+  [
+   "2025-04→06",
+   "SPAs privados",
+   "26.856",
+   "$135,63–$992,50 ($0,54–$3,97 bruto)",
+   "$17,82M",
+   "«Múltiples inversores»",
+   "LIBRE (144)",
+   "EX-99.1 N.11"
+  ],
+  [
+   "2025-03-24",
+   "IPO F-1 424B4",
+   "10.000",
+   "$1.000 ($4,00 bruto)",
+   "$10,0M",
+   "Cathay Securities, Revere Securities",
+   "LIBRE",
+   "[[cierre IPO|https://www.nasdaq.com/articles/baiya-international-group-inc-concludes-initial-public-offering-raising-10-million]]"
+  ]
+ ],
+ "offerings_read": "**Lectura:** todo comprador entre 2025 y abr 2026 está entre $3,12 y $1.000 por acción actual; el mercado está a {m.prev_close:px}. **Firma de captación:** 1:25 (29 dic 2025) → SESA #1 efectiva 30 ene y SESA #2 firmada 26 feb; 1:10 (10 jul 2026) → shelf y reventa Zeyun presentados el 23 jul. 2 de 2. El dinero del IPO y de los SPAs de 2025 ($27,8M brutos) acabó en $16,996M de préstamos sin interés firmados el 15 dic 2025.",
+ "timeline": [
+  [
+   "16 oct 2026",
+   "CAP",
+   "F-3/A n.º 2: 4.015.475 Class A, 2.665.455 no afiliados a $1,39 (14 oct), «sin transacciones I.B.5 en 12 meses». Cierre $1,30 (−5,1%)."
+  ],
+  [
+   "7 oct 2026",
+   "MKT",
+   "114,6M acciones (43× el float), +68,5% a $2,30, máximo $2,89; sin filing ni PR. El raw propio marca $37,10 en premarket a las 8:21: probable print erróneo [VERIFY]"
+  ],
+  [
+   "30 sep 2026",
+   "MKT",
+   "Gap de +19,5% (apertura $2,45), máximo $3,18 (+55%), 11,4M acciones, cierre $1,96 — el día siguiente a los resultados."
+  ],
+  [
+   "29 sep 2026",
+   "FIN",
+   "6-K H1 2026 (4:28 PM) + PR: ingresos $756.805, pérdida continuada $3,34M, caja $1,18M, going concern."
+  ],
+  [
+   "21 ago 2026",
+   "CAP",
+   "F-3/A n.º 1 (4:18 PM)."
+  ],
+  [
+   "11 ago 2026",
+   "PR",
+   "«$2M adicionales en BNB, total $3M»; 499k acciones ese día; las sesiones siguientes bajaron a 110–190k."
+  ],
+  [
+   "7 ago 2026",
+   "CAP",
+   "S-8 de 1,2M para el segundo plan de 2026 (5:27 PM)."
+  ],
+  [
+   "27–30 jul 2026",
+   "MKT",
+   "27 jul +116% con 90,45M; 28 jul +54% a $6,44 (máximo $6,82) con 34,4M; 30 jul −38%. Sin filing ni PR esos días."
+  ],
+  [
+   "23 jul 2026",
+   "CAP",
+   "F-3: shelf $200M + reventa de 1,35M de Zeyun (4:30 PM) — dos sesiones antes del bombeo."
+  ],
+  [
+   "10 jul 2026",
+   "CAP",
+   "Split 1:10 a las 4:01 PM; halt «news pending» a las 7:50 PM. Cotiza ajustado el 13 jul; cae a $1,93 el 24 jul."
+  ],
+  [
+   "2–6 jul 2026",
+   "CAP",
+   "Venta de Starfish a Shengshi por $1M en efectivo."
+  ],
+  [
+   "25 jun 2026",
+   "CAP",
+   "Cierre de Juxing: sale con $932.492 de caja; BIYA cobra $199.826; el resto en tres años."
+  ],
+  [
+   "16 jun 2026",
+   "CAP",
+   "Consejo aprueba el 1:10; préstamo de 2.000.000 USDT a Hongyu Wang (persona física) al 8%."
+  ],
+  [
+   "8 jun 2026",
+   "CAP",
+   "SPA de Juxing con Shengshi International Group por $2M (5:52 PM)."
+  ],
+  [
+   "1–6 jun 2026",
+   "GOV",
+   "Siyu Yang deja CEO y Chair; entra Linxi Xie (socia de Antelope Holdings (Chengdu), asesora de IPOs). El COO dimite el 6 jun."
+  ],
+  [
+   "22–27 may 2026",
+   "PR",
+   "«Ark Plan» pasa a «Binance Plan»: $1M en BNB; «3,52% de ROI en cinco días»."
+  ],
+  [
+   "30 abr 2026",
+   "FIN",
+   "20-F FY2025: ingresos $16,48M, pérdida $9,53M; casilla de puntualidad «No»."
+  ],
+  [
+   "17–29 abr 2026",
+   "CAP",
+   "SPA con «inversor institucional» (Zeyun): 13,5M brutas a $0,312. Al 31 mar cotizaba $1,43 bruto (−78%) [VERIFY: precio 17 abr]"
+  ],
+  [
+   "30 mar / 28 abr 2026",
+   "PR",
+   "«Cryptocurrency Ark Plan» con votación pública; BNB gana con 89,2%."
+  ],
+  [
+   "20–26 mar 2026",
+   "CAP",
+   "F-1 reventa SESA #2 (5:21 PM); EFFECT el 26 mar."
+  ],
+  [
+   "26 feb 2026",
+   "CAP",
+   "SESA #2 con Peakrise y Stratosphere (30M brutas, $35,55M)."
+  ],
+  [
+   "9 feb 2026",
+   "GOV",
+   "EGM: autorizado a 5.064M (506,4M post-1:10); Class B de 20 a 60 votos con consentimiento de la propia B; consolidaciones hasta 1:5.000 en 2 años; mandato de venta de activos; financiación para cripto."
+  ],
+  [
+   "30 ene – 3 feb 2026",
+   "CAP",
+   "EFFECT y 424B3 de la SESA #1 (4M brutas)."
+  ],
+  [
+   "14 ene 2026",
+   "GOV",
+   "Nasdaq confirma cumplimiento de bid y patrimonio."
+  ],
+  [
+   "29 dic 2025",
+   "CAP",
+   "Split 1:25."
+  ],
+  [
+   "15 dic 2025",
+   "CAP",
+   "Préstamos sin interés: $8.496.022 a Xinyi International Group y $8.500.000 a Hesheng International Group, 12 meses."
+  ],
+  [
+   "5 nov 2025",
+   "CAP",
+   "SESA #1 con Victoria Harbour y Yatian ($20,37M)."
+  ],
+  [
+   "19 sep 2025",
+   "CAP",
+   "Compra de Starfish Technology-FZE (Dubái) por 9.280 acciones actuales."
+  ],
+  [
+   "1–6 ago 2025",
+   "GOV",
+   "Cambio de auditor (Kreit & Chiu → Onestop, 1 ago); avisos de Nasdaq por bid y MVLS (6 ago)."
+  ],
+  [
+   "8 jul 2025",
+   "PR",
+   "Previsión FY2025 > RMB 300M (≈$41,7M). Real: $16,48M, un 60,5% por debajo."
+  ],
+  [
+   "5 jun 2025",
+   "PR",
+   "Exención parcial del lock-up del IPO; el 11 jun la acción llevaba −67,8% en el mes."
+  ],
+  [
+   "abr–jun 2025",
+   "CAP",
+   "SPAs por $17,82M a $0,54–$3,97 brutos mientras cotizaba ≈$4–6."
+  ],
+  [
+   "21–24 mar 2025",
+   "CAP",
+   "IPO: 2,5M acciones a $4,00 ($10M), Cathay Securities y Revere Securities."
+  ]
+ ],
+ "timeline_note": "Yuxtaposiciones: resultados after-hours → 11,4M acciones (29–30 sep); F-3 con reventa → 125M acciones en dos sesiones (23 → 27–28 jul); exención de lock-up → −67,8% (jun 2025); préstamos de $17M → split 1:25 catorce días después (dic 2025).",
+ "cash_text": [
+  "**Publicado (30 jun 2026, sin auditar):** caja {m.cash:usd} ($987.518 en EE. UU., $160.800 en China); pasivo corriente $2,29M (incluye $1,59M de depósito reembolsable); flujo operativo continuado −$983.857; emisión de acciones +$4,06M netos; duda sustancial sobre la continuidad. El patrimonio de {m.equity:usdM} descansa en {m.big_asset:usdM} de préstamos ({m.big_asset_pct_eq:pct} del patrimonio, {m.big_asset_pct_assets:pct} del activo), $3,71M de cripto en BitGo, $3,39M de prepagos (de ellos $1,17M son las propias acciones de Starfish) y $1,64M por cobrar de Juxing.",
+  "**Pro forma ({m.report_date}):** {m.cash:usdM} − {m.months_elapsed:x1n} meses de consumo → entre **{m.cash_pf_lo:usdM}** (ritmo antes de capital circulante, {m.burn_prewc:usd0}/mes) y **{m.cash_pf_hi:usdM}** (ritmo de caja, {m.burn_cash:usd0}/mes); runway {m.runway_lo:x1n}–{m.runway_hi:x1n} meses desde el 30 jun, sin contar SESA ni cobros [VERIFY: sin balance posterior]. No netado: depósito de $1,59M parcialmente liquidado en acciones; cuota de Juxing de $200k cada 4 meses; préstamos de $16,8M que vencen el 16 dic 2026. Juxing salió con caja negativa: $932.492 entregados frente a $199.826 cobrados."
+ ],
+ "cash_read": "**Lectura:** la caja del balance es sobre todo préstamos; la caja que entra llega en tramos de SESA. El vencimiento del 16 dic es la prueba principal del balance.",
+ "compliance": [
+  [
+   "Vía de cura",
+   "—",
+   "Sin periodo de cumplimiento del staff (5810(c)(3)(A)(iv)); solo Hearings Panel más un tercer split dentro del 1:5.000 autorizado",
+   "a",
+   "MUERTA SI FALLA",
+   "Autoridad del consejo hasta 9 feb 2028"
+  ],
+  [
+   "Bid — 5550(a)(2)",
+   "≥ $1,00",
+   "{m.prev_close:px}; colchón {m.bid_cushion:pct}; 0 de 30",
+   "g",
+   "CUMPLE",
+   "—"
+  ],
+  [
+   "Patrimonio — 5550(b)(1)",
+   "≥ $2,5M",
+   "{m.equity:usdM} (30 jun); {m.adj_equity:usdM} ajustado",
+   "g",
+   "CUMPLE",
+   "6-K 9/29"
+  ],
+  [
+   "MVPHS — 5550(a)(5)",
+   "≥ $1M",
+   "{m.non_aff:int} × {m.prev_close:px} = {m.mvphs:usdM}; línea en {m.mvphs_line:px3}",
+   "g",
+   "CUMPLE",
+   "—"
+  ],
+  [
+   "Acciones / holders públicos",
+   "≥ 500k / 300",
+   "{m.non_aff:int}; holders de lote redondo no declarados [VERIFY]",
+   "g",
+   "CUMPLE (acciones)",
+   "—"
+  ],
+  [
+   "Overlay: lookback de 1 año",
+   "Sin cura",
+   "1:10 el 10 jul 2026",
+   "r",
+   "VIVO",
+   "Hasta 10 jul 2027"
+  ],
+  [
+   "Overlay: 250:1 en dos años",
+   "< 250:1",
+   "1:25 × 1:10 = 250:1 exacto",
+   "r",
+   "VIVO",
+   "Hasta 29 dic 2027"
+  ],
+  [
+   "Overlay: MVLS $5M (pendiente)",
+   "30 días < $5M",
+   "MVLS Class A {m.mcap_A:usdM}; línea en {m.mvls_line:px3}",
+   "a",
+   "NO EN VIGOR",
+   "Aprobada 22 jul, suspendida 29 jul 2026 (informe VCIG) [VERIFY]"
+  ],
+  [
+   "HFCAA",
+   "Auditor inspeccionable",
+   "Onestop Assurance PAC (Singapur)",
+   "g",
+   "BAJO",
+   "—"
+  ]
+ ],
+ "compliance_note": "Historial: avisos de bid y MVLS el 6 ago 2025, curados el 14 ene 2026 tras el 1:25. A {m.prev_close:px} basta una caída del {m.bid_cushion:pct} sostenida 30 sesiones para una exclusión sin periodo de cura.",
+ "legal_text": "Las cuentas de H1 2026 no declaran litigios ni contingencias. Dos asuntos abiertos afectan al recuento y al balance: (1) el estatus jurídico de la compra de Starfish tras venderla a Shengshi por $1M; (2) el cobro aplazado de Juxing ($1,8M en tres años, descontado al 5,97%). Cada ampliación posterior al IPO exige notificar a la CSRC en 3 días hábiles; no se ha verificado con cada aviso de SESA [VERIFY]. Ningún asunto de SEC o DOJ en los filings revisados.",
+ "governance_text": [
+  "**Nexo China: Sí.** Operaciones en Chengdu y Chuzhou, holding en Caimán, filiales sin actividad en BVI, Delaware y Singapur. La oficina de Nueva York convive con un teléfono de Chengdu en EDGAR y con dos teléfonos de EE. UU. distintos en el mismo F-3.",
+  "**Red de contrapartes:** Shengshi International Group compró las dos filiales desinvertidas; Xinyi y Hesheng recibieron $16,8M sin interés; Hongyu Wang, 2M USDT; Zeyun compró 1,35M a $3,12 y ya pide la reventa. Ninguna figura como parte vinculada y no hay UBO publicado [VERIFY: registros HK/BVI/Caimán]. Parte vinculada declarada: el ex-Chairman Weilai Zhang debe $987.230; se le prestaron $575.249 en H1 2026.",
+  "**Contradicciones:** Chuzhou al 51% en la tabla de filiales y «íntegramente participada» en el MD&A y el F-3; el MD&A sigue citando la VIE tras venderla; 3.136 BNB en una tabla y 3.316 en otra; el MD&A fecha el 20-F el 23 abr y EDGAR el 30 abr; «SaaS» con 6,4% de margen y un proveedor con el 100% de las compras.",
+  "**Dirección y auditor:** CEO y Chair cambian el 1 jun 2026; COO dimite el 6 jun; auditor cambiado el 1 ago 2025, cinco días antes de los avisos de Nasdaq. Sin voto para emisiones ni splits dentro del mandato. La Class B subió de 20 a 60 votos con el consentimiento de sus propios titulares."
+ ],
+ "ownership": [
+  [
+   "Titulares Class B (ex-CEO y ex-Chairman)",
+   "Control",
+   "3.600.000 B · {m.voteshare_B:pct} del voto",
+   "$0,626",
+   "Según el informe propio, 2,6M al Chairman y 1M al CEO; probablemente Weilai Zhang y Siyu Yang [VERIFY]. Sin cotizar; conversión sin confirmar."
+  ],
+  [
+   "Zeyun Holdings",
+   "SPA / afiliada de facto",
+   "1.350.000 · {m.zeyun_pct_os:pct} de la A",
+   "$3,12",
+   "El emisor resta 1.350.020 como afiliadas. A {m.zeyun_pnl:pct}. Vende con el F-3 efectivo o por 144 con límite de volumen."
+  ],
+  [
+   "Peakrise · Stratosphere · Victoria Harbour · Yatian",
+   "SESA",
+   "transitorio",
+   "70% de 3 cierres",
+   "Vendedores por construcción: compran con 30% de descuento y revenden con registro efectivo."
+  ],
+  [
+   "Datong International (Chao Chen; dir. Yuqin Huang)",
+   "13G al IPO",
+   "3.684 · 0,09%",
+   "Pre-IPO",
+   "7,37% al IPO; el 13G arrastra nombres de otro vehículo (Siyu Yang, Baisheng International Group)."
+  ],
+  [
+   "Empleados, consultores, vendedores Starfish",
+   "Compensación",
+   "≈69.000",
+   "$16–$234",
+   "56.497 (H1 2026) + 3.138 (2025) + 9.280 Starfish."
+  ],
+  [
+   "Linxi Xie (CEO/Chair) y consejo",
+   "Directivos",
+   "No declarado",
+   "—",
+   "Sin Forms 3/4 localizados [VERIFY]."
+  ]
+ ],
+ "float_recon": "**Reconciliación del float:** O/S {m.os:int} − afiliados {m.affiliates:int} = {m.non_aff:int} (emisor, 14 oct). DilutionTracker 6.346.211 / 4.996.191 rechazado: suma la Class B y usa el O/S de junio. El 3.265.475 del informe propio sale de la base de 4.615.475.",
+ "catalysts": [
+  [
+   "≈25 oct 2026",
+   "Segunda cuota de Juxing ($200k). Vigilar el cobro en el siguiente 6-K."
+  ],
+  [
+   "29 oct 2026",
+   "Seis meses desde el cierre del SPA de Zeyun: 144 posible solo si pagó al cierre, con límites de afiliado."
+  ],
+  [
+   "Sin fecha",
+   "EFFECT del F-3 333-297647: arma la reventa de 1,35M y el shelf I.B.5."
+  ],
+  [
+   "16 dic 2026",
+   "Vencen Xinyi ($8,50M) y Hesheng ($8,30M): cobro, prórroga o deterioro."
+  ],
+  [
+   "29 dic 2026",
+   "Un año desde el 1:25; el overlay 250:1 sigue vivo un año más."
+  ],
+  [
+   "30 abr 2027",
+   "20-F FY2026: primer recuento auditado tras las SESA."
+  ],
+  [
+   "15 jun 2027",
+   "Vence el préstamo de 2M USDT a Hongyu Wang."
+  ],
+  [
+   "10 jul 2027",
+   "Fin del lookback de un año."
+  ],
+  [
+   "29 dic 2027",
+   "Fin del overlay 250:1."
+  ],
+  [
+   "9 feb 2028",
+   "Caducan la autoridad de consolidación (≤1:5.000) y el mandato de venta de activos."
+  ],
+  [
+   "5 nov 2028 · 26 feb 2029",
+   "Vencen las SESA #1 y #2."
+  ]
+ ],
+ "catalysts_note": "Sin fecha: 6-K con advance notices de SESA; tercer split; resolución de Starfish; recuento del transfer agent (Transhare Corporation).",
+ "today_text": [
+  "**F-3/A n.º 2 (16 oct):** fija el public float en $3.704.982 (2.665.455 × $1,39) y repite que no hubo transacciones I.B.5 en 12 meses. Con ese float, el shelf de $200M permite ≈{m.shelf_cap_now:usdM} en 12 meses mientras el precio no suba. Mantiene tres denominadores de Class A y un precio de Zeyun sin ajustar al split. La acción cerró −5,1% sin otro catalizador.",
+  "**Repetición de noticias:** la previsión de julio 2025 (> RMB 300M) terminó en $16,48M; el «Binance Plan» comunicó un 3,52% en cinco días y las cuentas de H1 muestran $292.717 de pérdida no realizada en cripto.",
+  "**Valor calculable:** patrimonio {m.equity:usdM} ÷ {m.os:int} = {m.book_ps:px} por acción frente a {m.prev_close:px}. Sin préstamos, acciones Starfish prepagadas, compensación prepagada ni cobro de Juxing: {m.adj_equity:usdM} = {m.adj_book_ps:px}. Caja + USDT + BNB a 30 jun: {m.cash_like:usdM} = {m.cash_like_ps:px}. El mercado valora los préstamos a cero."
+ ],
+ "read": {
+  "ceo_headline": "**Restricción que manda: la caja** — ≤ {m.cash_pf_hi:usdM} estimada, nada publicado tras el 30 jun.",
+  "ceo": [
+   "Rutas vivas: SESA, ≤ {m.sesa_proceeds:usdM} al precio actual y limitada por acciones; venta de BNB/USDT ($3,71M a 30 jun); colocación privada a descuento.",
+   "Cobros: préstamos de $16,8M el 16 dic; Juxing $200k cada 4 meses.",
+   "Tras EFFECT: shelf I.B.5 de {m.shelf_cap_now:usdM}–{m.shelf_cap_high:usdM}/12m; su tope sube con el máximo de 60 días, así que un repunte agranda la ventana.",
+   "No son rutas: el shelf completo (necesitaría {m.ib1_px:px} por acción) ni la venta de Zeyun (no da dinero a la compañía).",
+   "Plan B de listado: tercer split por decisión del consejo dentro del 1:5.000, que rearma los overlays."
+  ],
+  "ladder": [
+   [
+    0.375,
+    "línea de MVPHS ($1M)"
+   ],
+   [
+    0.91,
+    "precio aproximado de compra SESA con el cierre actual (70%)"
+   ],
+   [
+    1.0,
+    "línea de bid; 30 cierres debajo = exclusión sin cura"
+   ],
+   [
+    1.245,
+    "línea de MVLS $5M si entra la regla pendiente"
+   ],
+   [
+    1.3,
+    "cierre previo"
+   ],
+   [
+    2.63,
+    "máximo de 60 días: por encima, el shelf baja a 0,89M acciones"
+   ],
+   [
+    3.12,
+    "base de Zeyun: por encima, 1,35M acciones en beneficio"
+   ],
+   [
+    4.0,
+    "precio medio de la financiación de H1"
+   ],
+   [
+    6.82,
+    "techo del bombeo del 28 jul"
+   ],
+   [
+    11.85,
+    "techo de la SESA #2 (muerde a partir de $16,93)"
+   ]
+  ],
+  "verdict": "**Veredicto:** riesgo alto de oferta continua a descuento fijo (SESA), de un bloque de reventa del {m.zeyun_pct_float:pct0} del float (Zeyun) y de calidad de activos (préstamos sin interés a sociedades sin UBO publicado). El control está fuera del alcance del accionista de la Class A. Nada de esto prueba fraude ni manipulación: son mecánicas documentadas y coincidencias de fecha que piden verificación."
+ },
+ "sources": [
+  [
+   "F-3/A n.º 2, 16 oct 2026",
+   "https://www.sec.gov/Archives/edgar/data/1944712/000121390026110244/ea0307268-f3a2_baiya.htm"
+  ],
+  [
+   "6-K H1 2026, EX-99.1 estados financieros",
+   "https://www.sec.gov/Archives/edgar/data/1944712/000121390026104687/ea030676301ex99-1.htm"
+  ],
+  [
+   "6-K H1 2026, EX-99.2 MD&A",
+   "https://www.sec.gov/Archives/edgar/data/1944712/000121390026104687/ea030676301ex99-2.htm"
+  ],
+  [
+   "424B3 SESA #2, 1 abr 2026",
+   "https://www.sec.gov/Archives/edgar/data/1944712/000121390026038595/ea0284668-424b3_baiyainter.htm"
+  ],
+  [
+   "424B3 SESA #1, 3 feb 2026",
+   "https://www.sec.gov/Archives/edgar/data/1944712/000121390026011517/ea0275377-424b3_baiyainter.htm"
+  ],
+  [
+   "20-F FY2025, 30 abr 2026",
+   "https://www.sec.gov/Archives/edgar/data/1944712/000121390026050223/ea0287704-20f_baiya.htm"
+  ],
+  [
+   "Schedule 13G Datong International, 19 may 2025",
+   "https://www.sec.gov/Archives/edgar/data/1944712/000121390025045591/xslSCHEDULE_13G_X01/primary_doc.xml"
+  ],
+  [
+   "Índice EDGAR con horas de aceptación",
+   "https://data.sec.gov/submissions/CIK0001944712.json"
+  ],
+  [
+   "Precios diarios (stockanalysis)",
+   "https://stockanalysis.com/stocks/biya/history/"
+  ],
+  [
+   "Cotización y titulares (stockanalysis)",
+   "https://stockanalysis.com/stocks/biya/"
+  ],
+  [
+   "Histórico jul–ago 2026 (investing.com)",
+   "https://www.investing.com/equities/baiya-international-group-inc-historical-data"
+  ],
+  [
+   "Cierre del IPO (nasdaq.com)",
+   "https://www.nasdaq.com/articles/baiya-international-group-inc-concludes-initial-public-offering-raising-10-million"
+  ],
+  [
+   "Halt del 10 jul 2026 (TheFly/TipRanks)",
+   "https://www.tipranks.com/news/the-fly/baiya-international-group-inc-trading-halted-news-pending-thefly-news"
+  ]
+ ]
+}

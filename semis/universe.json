@@ -1,0 +1,29 @@
+{
+  "name": "Semiconductores y adyacentes — otoño 2026",
+  "created": "2026-10-18",
+  "note": "Clasificación PRELIMINAR propuesta por Claude; confirmar con la nota de segmentos e ingresos por producto del último 10-K / 20-F y ajustar `purity_pct`.",
+  "purity_levels": {
+    "puro": "≥ 90% de ingresos por chips de diseño propio",
+    "mixto": "chips propios + módulos, cables, sistemas o servicios con peso relevante",
+    "adyacente": "no vende chips propios: fabrica, encapsula o integra para terceros, o vende sistemas/nube"
+  },
+  "subgroups": {
+    "conectividad_ia": "Mover datos dentro del centro de datos de IA: retimers, switches, SerDes/DSP ópticos, cables activos, ASIC a medida",
+    "computo_ia_sistemas": "Chip de IA propio vendido como sistema o servicio en la nube",
+    "rf_movil": "Radiofrecuencia y analógico para móviles y conectividad",
+    "analogico_mixto": "Analógico / señal mixta diversificado con exposición parcial a centro de datos",
+    "fabricacion": "Foundry especializada u OSAT (encapsulado y test) para terceros"
+  },
+  "tickers": [
+    {"ticker": "MRVL", "issuer": "Marvell Technology", "subgroup": "conectividad_ia", "model": "fabless", "purity": "puro", "profile": "semis_fabless", "filer": "10-K/10-Q", "fiscal_year_end": "enero", "status": "pendiente", "notes": "ASIC a medida + DSP electro-ópticos; vigilar peso de clientes hyperscaler y venta de negocios no centrales"},
+    {"ticker": "ALAB", "issuer": "Astera Labs", "subgroup": "conectividad_ia", "model": "fabless", "purity": "puro", "profile": "semis_fabless", "filer": "10-K/10-Q", "fiscal_year_end": "diciembre", "status": "pendiente", "notes": "Retimers PCIe/CXL, switches, módulos de cable; SBC alta; concentración de clientes"},
+    {"ticker": "CRDO", "issuer": "Credo Technology", "subgroup": "conectividad_ia", "model": "fabless", "purity": "mixto", "profile": "semis_fabless", "filer": "10-K/10-Q", "fiscal_year_end": "abril/mayo", "status": "pendiente", "notes": "Parte relevante de ingresos son cables activos (AEC), producto de sistema; concentración en pocos hyperscalers"},
+    {"ticker": "CBRS", "issuer": "Cerebras Systems", "subgroup": "computo_ia_sistemas", "model": "sistemas + nube", "purity": "adyacente", "profile": "ai_systems", "filer": "10-K/10-Q", "fiscal_year_end": "diciembre", "status": "pendiente", "notes": "El usuario escribió CRBS; el ticker es CBRS. IPO 14-may-2026 a $185: lock-up probable en noviembre (verificar en el prospecto). Pocos trimestres públicos"},
+    {"ticker": "SWKS", "issuer": "Skyworks Solutions (incluye Qorvo desde el 5-oct-2026)", "subgroup": "rf_movil", "model": "IDM", "purity": "puro", "profile": "semis_idm", "filer": "10-K/10-Q", "fiscal_year_end": "septiembre/octubre", "status": "pendiente", "notes": "Fusión con Qorvo cerrada: crecimiento histórico no comparable; usar pro forma si la empresa lo publica; contabilidad de compra, sinergias, emisión de acciones a ex-accionistas de Qorvo"},
+    {"ticker": "QRVO", "issuer": "Qorvo", "subgroup": "rf_movil", "model": "IDM", "purity": "puro", "profile": "semis_idm", "filer": "—", "status": "excluido", "notes": "Absorbida por Skyworks el 5-oct-2026 ($32,50 + 0,960 acciones SWKS por acción). Se analiza dentro de SWKS"},
+    {"ticker": "SMTC", "issuer": "Semtech", "subgroup": "analogico_mixto", "model": "fabless", "purity": "mixto", "profile": "semis_fabless", "filer": "10-K/10-Q", "fiscal_year_end": "enero", "status": "pendiente", "notes": "Integridad de señal para centro de datos + LoRa + módulos IoT y servicios conectados (Sierra Wireless); deuda de la compra"},
+    {"ticker": "MXL", "issuer": "MaxLinear", "subgroup": "analogico_mixto", "model": "fabless", "purity": "puro", "profile": "semis_fabless", "filer": "10-K/10-Q", "fiscal_year_end": "diciembre", "status": "pendiente", "notes": "Broadband, Wi-Fi, Ethernet, aceleradores de almacenamiento y DSP ópticos; historia de recuperación; litigios"},
+    {"ticker": "TSEM", "issuer": "Tower Semiconductor", "subgroup": "fabricacion", "model": "foundry", "purity": "adyacente", "profile": "semis_manufacturing", "filer": "20-F/6-K (US GAAP)", "fiscal_year_end": "diciembre", "status": "pendiente", "notes": "Foundry analógica especializada; SiPho/SiGe para transceptores ópticos de IA; trimestres desde 6-K"},
+    {"ticker": "ASX", "issuer": "ASE Technology Holding (ADR)", "subgroup": "fabricacion", "model": "OSAT + EMS", "purity": "adyacente", "profile": "semis_manufacturing", "filer": "20-F/6-K (IFRS)", "fiscal_year_end": "diciembre", "status": "pendiente", "notes": "Encapsulado y test (incluido avanzado) + EMS (USI): separar ATM vs EMS; ventas mensuales publicadas; ADR = 2 acciones ordinarias (verificar ratio)"}
+  ]
+}
