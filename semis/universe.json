@@ -147,7 +147,7 @@
    "profile": "semis_manufacturing",
    "filer": "20-F/6-K (IFRS)",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Encapsulado y test (incluido avanzado) + EMS (USI): separar ATM vs EMS; ventas mensuales publicadas; ADR = 2 acciones ordinarias (verificar ratio)",
    "purity_pct": 0,
    "purity_evidence": "Encapsulado 52%, test 12%, EMS 34% y otros 1% en el 2T26 (6-K 30-jul-2026). ADR = 2 acciones ordinarias (confirmado en el 20-F)"

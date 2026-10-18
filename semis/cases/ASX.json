@@ -16,7 +16,7 @@
   "descriptor": "Mayor grupo de encapsulado y test (OSAT) del mundo, incluido el encapsulado avanzado para IA, más fabricación electrónica (EMS, USI). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0000950103-26-015546",
   "last_filing_seen_date": "2026-10-14",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 39.529998779296875,
@@ -256,10 +256,44 @@
       ""
      ]
     ]
+   },
+   {
+    "name": "Guía 3T26 (dada el 30-jul)",
+    "value": "Ingresos +21–22% secuencial; margen bruto 20,5–21,5%; margen operativo 11,5–12,5%; ATM +35% interanual en el 2S26",
+    "prior": "—",
+    "src": [
+     [
+      "24/7 Wall St (resumen de la llamada)",
+      "https://247wallst.com/cards/ase-technology-holding-q2-2026-earnings-asx-01kysbxn839zstvptxm253ktjb"
+     ]
+    ]
+   },
+   {
+    "name": "Capex 2026",
+    "value": "Subido en ≈ US$2.000M (encapsulado avanzado / LEAP) [VERIFY: cifra total]",
+    "prior": "—",
+    "src": [
+     [
+      "24/7 Wall St",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Control",
+    "value": "Jason C.S. Chang (presidente) controla el 21,35% a través de ASE Enterprises, Aintree, JC Holdings y Value Tower; filiales con ≈ 1,6% en autocartera",
+    "prior": "—",
+    "src": [
+     [
+      "20-F 2025, Item 7",
+      "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm"
+     ]
+    ]
    }
   ],
   "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_recurring_items": false,
+  "nongaap_note": "ASE no publica resultados non-GAAP: no hay ajustes que evaluar (bandera = no)."
  },
  "catalysts": [
   {
@@ -267,22 +301,34 @@
    "type": "earnings",
    "date": "2026-07-30",
    "time_et": "premarket",
-   "headline": "Resultados 2T26: NT$191.064M (+26,7%), margen bruto 21,0%",
+   "headline": "Resultados 2T26: NT$191.064M (+26,7%), margen bruto 21,0% (+400 pb); BPA US$0,29 por ADS frente a US$0,23",
    "sources": [
     [
      "6-K 30-jul-2026",
      "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm"
+    ],
+    [
+     "MarketBeat: consenso BPA $0,23 (beat $0,06)",
+     "https://www.marketbeat.com/instant-alerts/ase-technology-nyseasx-releases-earnings-results-beats-expectations-by-006-eps-2026-07-30/"
+    ],
+    [
+     "Benzinga: ingresos $6.040M frente a $5.990M; consenso 3T $7.390M",
+     "https://www.benzinga.com/quote/ASX/earnings-forecasts"
+    ],
+    [
+     "24/7 Wall St: guía 3T +21–22% secuencial, margen bruto 20,5–21,5%",
+     "https://247wallst.com/cards/ase-technology-holding-q2-2026-earnings-asx-01kysbxn839zstvptxm253ktjb"
     ]
    ],
    "rev_growth_yoy": 0.2674228855721392,
    "rev_growth_yoy_prev": 0.17218011110136144,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 0.8,
+   "eps_surprise_pct": 26.1,
+   "guide_raise": false,
    "guide_change_pct": null,
    "gm_change_bp": 397,
    "nonrecurring_in_beat": false,
-   "note": "Publicado antes de la apertura en EE. UU. Ventas del 3T26 ya publicadas el 12-oct: NT$244.161M, +44,8% interanual. [VERIFY: sin consenso]",
+   "note": "Consenso de BPA por ADS: $0,23 (MarketBeat, Earnings Whispers); Zacks daba $0,17 [VERIFY]. Guía del 3T: ingresos +21–22% secuencial, en línea con el consenso de $7.390M → «mantiene». Sube el capex de 2026 en ≈ $2.000M (encapsulado avanzado). ATM +35% interanual esperado en el 2S26.",
    "gap_pct": 3.86,
    "rvol": 1.2,
    "close_in_range": 0.93,
@@ -291,14 +337,162 @@
    "estimate_revisions": "unknown",
    "reaction_date": "2026-07-30",
    "reaction_close_chg_pct": 11.73
+  },
+  {
+   "id": "q3_26_ventas",
+   "type": "earnings",
+   "date": "2026-10-12",
+   "time_et": "premarket",
+   "headline": "Ventas del 3T26 (avance mensual): NT$244.161M (+44,8%), US$7.642M; ATM US$4.741M (+40,6%)",
+   "sources": [
+    [
+     "6-K 12-oct-2026 (ventas mensuales)",
+     "https://www.sec.gov/Archives/edgar/data/1122411/000095010326015458/dp254866_6k.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.4484335791278349,
+   "rev_growth_yoy_prev": 0.2674228855721392,
+   "rev_surprise_pct": 3.4,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": null,
+   "nonrecurring_in_beat": false,
+   "note": "Solo ingresos: sin margen ni BPA (gm_change_bp = null). Sorpresa frente al consenso de $7.390M de Benzinga [VERIFY: consenso actualizado]; supera también el techo de la guía (+22% secuencial ≈ US$7.380M). El mercado lo compró en la apertura y lo devolvió en los 3 días siguientes con el sector.",
+   "gap_pct": 1.77,
+   "rvol": 1.17,
+   "close_in_range": 0.83,
+   "day2_follow": true,
+   "dollar_volume": 374213186,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-10-12",
+   "reaction_close_chg_pct": 2.37
+  },
+  {
+   "id": "q1_26",
+   "type": "earnings",
+   "date": "2026-04-29",
+   "time_et": "premarket",
+   "headline": "Resultados 1T26: NT$173.662M (+17,2%)",
+   "sources": [
+    [
+     "6-K 29-abr-2026",
+     "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006339/dp245865_6k.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.17218011110136144,
+   "rev_growth_yoy_prev": 0.09645392693388533,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 325,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": 1.06,
+   "rvol": 1.3,
+   "close_in_range": 0.89,
+   "day2_follow": true,
+   "dollar_volume": 283584596,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-04-29",
+   "reaction_close_chg_pct": 1.7
+  },
+  {
+   "id": "q4_25",
+   "type": "earnings",
+   "date": "2026-02-05",
+   "time_et": "premarket",
+   "headline": "Resultados 4T25: NT$177.915M (+9,6%)",
+   "sources": [
+    [
+     "6-K 5-feb-2026",
+     "https://www.sec.gov/Archives/edgar/data/1122411/000095010326001661/dp241159_6k.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.09645392693388533,
+   "rev_growth_yoy_prev": 0.05286530714218807,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 311,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": -2.32,
+   "rvol": 2.12,
+   "close_in_range": 0.9,
+   "day2_follow": true,
+   "dollar_volume": 297929381,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-02-05",
+   "reaction_close_chg_pct": 6.69
+  },
+  {
+   "id": "cb2031",
+   "type": "financing",
+   "date": "2026-08-03",
+   "headline": "Bonos convertibles cupón cero 2031 de US$1.000M (Reg S)",
+   "sources": [
+    [
+     "6-K 3-ago-2026",
+     "https://www.sec.gov/Archives/edgar/data/1122411/000119312526330709/d77314d6k.htm"
+    ],
+    [
+     "Davis Polk",
+     "https://www.davispolk.com/experience/ase-technology-holding-1-billion-convertible-bonds-offering"
+    ]
+   ],
+   "financing_type": "convertible",
+   "price_vs_market_pct": null,
+   "warrants": false,
+   "variable_price": false,
+   "note": "Fondos para devolver préstamos bancarios y comprar material en divisa. Precio y prima de conversión no publicados en el 6-K [VERIFY: term sheet]. Llega 4 días después de los resultados."
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "cb2031",
+   "kind": "convertible",
+   "name": "Convertible cupón cero 2031 (US$1.000M)",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "gated",
+   "date": null,
+   "notes": "Términos de conversión no publicados [VERIFY]. Si el precio de conversión está cerca del actual, es oferta potencial y cobertura (venta corta) de los compradores del bono.",
+   "src": [
+    [
+     "6-K 3-ago-2026",
+     "https://www.sec.gov/Archives/edgar/data/1122411/000119312526330709/d77314d6k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $369.7M; 3 marcados",
+   "shares": 770000.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Importes en NT$ (acciones de Taiwán): NT$369,7M ≈ US$11,6M en 12 meses; GM de Chung-Li 530.000 acciones (19% de su posición en un trimestre). Sin planes 10b5-1 (no aplican en Taiwán). Ninguna compra.",
+   "src": [
+    [
+     "Forms 4 (importes en NT$: acciones ordinarias de Taiwán)",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 1714877862,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "(4.453,8M − 951,1M de la familia Chang − 72,9M de filiales) ÷ 2 = equivalente ADS (20-F, 18-mar-2026)"
  },
  "peers": [
   {
@@ -394,7 +588,7 @@
   "type": null,
   "pivot": null,
   "stop": null,
-  "notes": null,
+  "notes": "Perdió la EMA 50 ({m.price:px} frente a ≈ $41,8) el 15–16 de octubre con volumen 1,4–1,6× la media. Sin setup hasta recuperarla. Resultados en ≈ 9 sesiones.",
   "rs_1m": 83.33333333333334,
   "rs_3m": 75.0,
   "rs_6m": 72.72727272727273,
@@ -412,12 +606,12 @@
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo de semis."
+  "verdict": "Crecimiento que acelera (+44,8% en ventas del 3T26) a 4× ventas; convicción limitada por el régimen y la rotura técnica de esta semana.",
+  "setup": "Bajo la EMA 50 tras dos sesiones de volumen alto; sin setup. EP posible en resultados.",
+  "catalyst": "2T26 real parcial (beat de BPA, guía en línea); avance de ventas del 3T26 por encima de la guía.",
+  "quality": "Sin non-GAAP; FCF negativo por capex financiado con deuda.",
+  "supply": "Convertible 2031 de US$1.000M (términos sin publicar); familia Chang 21%.",
+  "group": "Percentil RS 75 a 3 meses; fundamentales en la mitad baja del universo."
  },
  "snapshot": [
   [
@@ -454,21 +648,82 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Emisor extranjero (20-F/6-K, **Taiwan-IFRS**, NT$). **Trimestres cargados a mano** desde los 6-K de resultados (3T25, 4T25, 1T26 y 2T26), que dan 8 trimestres. El 2T25 y el 1T26 son los «retrospectively adjusted» del 6-K del 2T26: el resultado operativo del 1T26 pasa de 17.532 a 17.493. Los importes están en US$ a un tipo fijo de 31,95 NT$/US$, el implícito en el 6-K de ventas del 3T26; el crecimiento no depende del tipo. Las acciones están en equivalente ADS (1 ADS = 2 acciones): 4.453,8M ordinarias a 28-feb-2026 (20-F). La deuda incluye préstamos a corto y largo plazo y bonos. El SBC no se publica.",
-  "quality": [],
-  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El crecimiento lo explica el encapsulado avanzado para IA (ATM +40,6% en el 3T26), pero los clientes no se identifican (el mayor > 10%). Contraparte no confirmada por fuentes externas.",
+   "Convertible de US$1.000M colocado 4 días después de los resultados: es financiación de deuda bancaria, no una ampliación con descuento, pero añade oferta potencial."
+  ],
+  "catalyst_read": "El catalizador principal (2T26) es **real parcial**: crecimiento {m.rev_yoy:pctf}, margen bruto +400 pb y beat de BPA, con una guía solo en línea. El avance de ventas del 3T26 (+44,8%) supera la guía y el consenso (nota {m.cat_q3_26_ventas_score:sc}). El mercado no lo sostuvo y la acción perdió la EMA 50 con el sector.",
+  "financials_note": "Emisor extranjero (20-F/6-K, **Taiwan-IFRS**, NT$). **Trimestres cargados a mano** desde los 6-K de resultados (3T25, 4T25, 1T26 y 2T26), que dan 8 trimestres. El 2T25 y el 1T26 son los «retrospectively adjusted» del 6-K del 2T26: el resultado operativo del 1T26 pasa de 17.532 a 17.493. Los importes están en US$ a un tipo fijo de 31,95 NT$/US$, el implícito en el 6-K de ventas del 3T26; el crecimiento no depende del tipo. Las acciones están en equivalente ADS (1 ADS = 2 acciones): 4.453,8M ordinarias a 28-feb-2026 (20-F). La deuda incluye préstamos a corto y largo plazo y bonos. El SBC no se publica. Los trimestres «retrospectively adjusted» del 6-K del 2T26 reflejan una combinación bajo control común [VERIFY: qué entidad]; el 20-F aplica la contabilidad de entidades bajo control común.",
+  "quality": [
+   "Sin non-GAAP: el beneficio es el reportado (Taiwan-IFRS). Auditor: Deloitte & Touche, con informe de control interno.",
+   "FCF TTM negativo por el capex récord (US$1.695M de equipos en el 2T26), financiado con deuda: caja neta negativa, pero 34 meses de runway sobre la caja bruta con CFO positivo.",
+   "Margen bruto TTM {m.gm_ttm:pctf}: por debajo del 25% de referencia del perfil OSAT porque un tercio de los ingresos es EMS (fabricación electrónica) de margen bajo. El de ATM no se publica en el PR [VERIFY: margen ATM en la presentación]."
+  ],
+  "supply_read": "Oferta limpia en lo corporativo: sin ATM ni shelf en EE. UU. El convertible 2031 de US$1.000M (Reg S) puede añadir oferta si el precio se acerca a la conversión [VERIFY: términos]. La familia Chang controla el 21%; los insiders vendieron ≈ US$11,6M en 12 meses (acciones de Taiwán).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1}, el más barato del universo junto con SWKS. DCF inverso: descuenta ≈ {m.implied_g:pctf} anual durante 5 años frente al +44,8% del 3T26."
+  ],
+  "group_read": "Percentil de fundamentales {m.fund_pct:sc} y de RS {m.rs_pct:sc}. Con el margen relativo a su perfil ya no sale «débil» por ser OSAT; lo limita la Rule of 40 (capex).",
+  "risks": [
+   "Ciclo de capex: margen y FCF dependen de llenar la nueva capacidad de encapsulado avanzado.",
+   "Taiwán: riesgo geopolítico y tipo de cambio NT$/US$ (el ADR cotiza en US$).",
+   "Concentración: los 5 mayores clientes son el 44% de ATM y uno supera el 10%."
+  ],
+  "plan": [
+   "Resultados del 3T26 hacia el 29-oct [VERIFY: fecha], antes de la apertura en EE. UU. Los ingresos ya se conocen: el informe lo deciden el **margen bruto** (guía 20,5–21,5%) y la **guía del 4T**.",
+   "**EP A/B:** margen bruto ≥ 21,5% (techo de la guía, ≥ +100 pb interanual), BPA por encima del consenso de ≈ US$0,34 [VERIFY], guía del 4T con crecimiento secuencial y ATM ≥ +35%. En el gráfico: recuperar la EMA 50 (≈ $41,8) con gap y volumen ≥ 3×.",
+   "**D:** margen bruto por debajo del 20,5% o guía del 4T plana. Ya está −17% desde máximos tras perder la EMA 50: sin EP, esperar una base nueva."
+  ],
+  "verdict": "El crecimiento más visible y barato del universo, ya publicado para el 3T26. Lo limitan el régimen risk_off y la pérdida de la EMA 50 esta semana. El margen del 3T es la llave."
  },
  "sources": [
   [
    "6-K 30-jul-2026",
    "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm"
+  ],
+  [
+   "MarketBeat: consenso BPA $0,23 (beat $0,06)",
+   "https://www.marketbeat.com/instant-alerts/ase-technology-nyseasx-releases-earnings-results-beats-expectations-by-006-eps-2026-07-30/"
+  ],
+  [
+   "Benzinga: ingresos $6.040M frente a $5.990M; consenso 3T $7.390M",
+   "https://www.benzinga.com/quote/ASX/earnings-forecasts"
+  ],
+  [
+   "24/7 Wall St: guía 3T +21–22% secuencial, margen bruto 20,5–21,5%",
+   "https://247wallst.com/cards/ase-technology-holding-q2-2026-earnings-asx-01kysbxn839zstvptxm253ktjb"
+  ],
+  [
+   "6-K 12-oct-2026 (ventas mensuales)",
+   "https://www.sec.gov/Archives/edgar/data/1122411/000095010326015458/dp254866_6k.htm"
+  ],
+  [
+   "6-K 29-abr-2026",
+   "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006339/dp245865_6k.htm"
+  ],
+  [
+   "6-K 5-feb-2026",
+   "https://www.sec.gov/Archives/edgar/data/1122411/000095010326001661/dp241159_6k.htm"
+  ],
+  [
+   "6-K 3-ago-2026",
+   "https://www.sec.gov/Archives/edgar/data/1122411/000119312526330709/d77314d6k.htm"
+  ],
+  [
+   "Davis Polk",
+   "https://www.davispolk.com/experience/ase-technology-holding-1-billion-convertible-bonds-offering"
+  ],
+  [
+   "20-F 2025",
+   "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm"
+  ],
+  [
+   "insiders.json",
+   ""
+  ],
+  [
+   "forensic.json",
+   ""
   ]
  ]
 }
