@@ -57,7 +57,7 @@ Los KPIs que no están en XBRL (NRR, clientes > $100k, book-to-bill, backlog no 
 | `DILUCIÓN` | Acciones diluidas +5% interanual (básicas si un trimestre tiene pérdidas y el otro beneficios) |
 | `INVENTARIO > VENTAS` | (hardware, semis, consumo) crecimiento de inventario − crecimiento de ingresos > 25 pp |
 | `CAPITALIZACIÓN` | Software capitalizado > 10% del gasto operativo o creciendo > 2× los ingresos |
-| `NON-GAAP AGRESIVO` | (manual) ajustes non-GAAP > 30% de los ingresos o partidas «no recurrentes» repetidas |
+| `NON-GAAP AGRESIVO` | (manual) ajustes non-GAAP > 30% de los ingresos o partidas «no recurrentes» repetidas. `nongaap_adj_pct` = (resultado operativo non-GAAP − GAAP) ÷ ingresos del último trimestre, de la conciliación del EX-99.1. «Repetidas» = las partidas presentadas como no recurrentes (reestructuración, adquisición e integración, litigios, «otros») aparecen en ≥ 3 de los últimos 4 trimestres **y** suman > 2% de los ingresos de esos trimestres; el SBC y la amortización de intangibles no cuentan como «no recurrentes» |
 | `RUNWAY CORTO` | FCF negativo y caja < 12 meses de consumo (caja bruta si el CFO TTM es positivo; neta si no) |
 
 ## 4. Valoración y expectativas

@@ -119,7 +119,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Broadband, Wi-Fi, Ethernet, aceleradores de almacenamiento y DSP ópticos; historia de recuperación; litigios",
    "purity_pct": 100,
    "purity_evidence": "Un segmento de chips propios (10-K FY25). [VERIFY: desglose por mercado final]"
