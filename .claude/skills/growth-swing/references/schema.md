@@ -9,7 +9,7 @@ Ejemplo completo: `examples/EXMP_synthetic.json` (caso **sintético**). Importes
 `price`, `price_date` (los rellena `prices.py --apply`), `regime` (`risk_on` / `neutral` / `risk_off` / `unknown`), `regime_evidence` (markup).
 
 ## financials
-`quarters[]` de antiguo a reciente, tal como los devuelve `scripts/xbrl.py`: `period`, `end`, `revenue`, `gross_profit`, `op_income`, `net_income`, `cfo`, `capex`, `capitalized_sw`, `sbc`, `diluted_shares`, `ar`, `deferred_rev`, `rpo`, `inventory`, `cash` (incluye inversiones a corto), `debt`, `total_assets`. Flujos discretos por trimestre; saldos a fin de periodo; `null` si no hay dato. Además `shares_out` (portada), `shares_out_date`, `source`.
+`quarters[]` de antiguo a reciente, tal como los devuelve `scripts/xbrl.py`: `period`, `end`, `revenue`, `gross_profit`, `op_income`, `net_income`, `cfo`, `capex`, `capitalized_sw`, `sbc`, `diluted_shares`, `basic_shares` (opcional; se usa en la dilución cuando un trimestre tiene pérdidas y el otro beneficios), `ar`, `deferred_rev`, `rpo`, `inventory`, `cash` (incluye inversiones a corto), `debt`, `total_assets`. Flujos discretos por trimestre; saldos a fin de periodo; `null` si no hay dato. Además `shares_out` (portada), `shares_out_date`, `source`.
 
 ## manual
 `kpis[]` (`name`, `value`, `prior`, `src`), `nongaap_adj_pct` (fracción), `nongaap_recurring_items` (bool). Sin estos campos la bandera NON-GAAP queda n/d.

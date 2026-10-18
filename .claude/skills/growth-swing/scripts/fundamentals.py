@@ -84,7 +84,12 @@ def metrics(q):
     m["fcfm_ttm"] = ratio(m["fcf_ttm"], m["revenue_ttm"])
     m["rule40"] = None if m["rev_ttm_yoy"] is None or m["fcfm_ttm"] is None else (m["rev_ttm_yoy"] + m["fcfm_ttm"]) * 100
     m["sbc_pct"] = ratio(m["sbc_ttm"], m["revenue_ttm"])
-    m["dil_yoy"] = yoy(q, i, "diluted_shares")
+    # With a net loss, GAAP diluted shares = basic (anti-dilution). If only one of the two quarters is a loss,
+    # diluted vs diluted mixes a basic and a diluted count: compare basic with basic (no basic → n/d).
+    loss = [(_g(q, j, "net_income") or 0) < 0 for j in (i, i - 4)]
+    mixed = loss[0] != loss[1]
+    m["dil_basis"] = "basic" if mixed else "diluted"
+    m["dil_yoy"] = yoy(q, i, "basic_shares") if mixed else yoy(q, i, "diluted_shares")
     m["dso"] = None if ratio(_g(q, i, "ar"), m["rev_q"]) is None else _g(q, i, "ar") / m["rev_q"] * 91
     ar4, rev4 = _g(q, i - 4, "ar"), _g(q, i - 4, "revenue")
     m["dso_prev"] = None if ar4 is None or not rev4 else ar4 / rev4 * 91
@@ -102,7 +107,10 @@ def metrics(q):
     m["cash"], m["debt"] = _g(q, i, "cash"), _g(q, i, "debt") or 0
     m["net_cash"] = None if m["cash"] is None else m["cash"] - m["debt"]
     if m["fcf_ttm"] is not None and m["fcf_ttm"] < 0 and m["net_cash"] is not None:
-        m["runway_m"] = max(0.0, m["net_cash"]) / (-m["fcf_ttm"] / 12)
+        # Positive CFO: the business funds itself and negative FCF is capex (often debt-financed, e.g. fabs/OSAT),
+        # so runway is measured on gross cash. Negative CFO: net cash, as a cash-burning company must repay debt.
+        base = m["cash"] if (m["cfo_ttm"] or 0) > 0 else max(0.0, m["net_cash"])
+        m["runway_m"] = base / (-m["fcf_ttm"] / 12)
     else:
         m["runway_m"] = None  # FCF ≥ 0 or unknown: no runway constraint
     opex_ttm = None if m["gross_profit_ttm"] is None or m["op_income_ttm"] is None else m["gross_profit_ttm"] - m["op_income_ttm"]
@@ -135,7 +143,8 @@ def quality_flags(m, profile_cfg, manual):
     add("BENEFICIO SIN CAJA", on, m["cfo_ttm"], "Beneficio neto TTM > 0 y CFO TTM < 0")
     add("ACCRUALS ALTOS", None if m["accruals"] is None else m["accruals"] > .10, m["accruals"], "Accruals de Sloan > 10%")
     add("SBC PESADA", None if m["sbc_pct"] is None else m["sbc_pct"] > .20, m["sbc_pct"], "SBC > 20% de ingresos TTM")
-    add("DILUCIÓN", None if m["dil_yoy"] is None else m["dil_yoy"] > .05, m["dil_yoy"], "Acciones diluidas +5% interanual")
+    add("DILUCIÓN", None if m["dil_yoy"] is None else m["dil_yoy"] > .05, m["dil_yoy"],
+        "Acciones diluidas +5% interanual (básicas si un trimestre tiene pérdidas y el otro beneficios)")
     d = _pp(m["inv_yoy"], m["rev_yoy"])
     add("INVENTARIO > VENTAS", None if d is None else d > 25, d, "Δ inventario − Δ ingresos > 25 pp",
         "INVENTARIO > VENTAS" in extra)
@@ -150,7 +159,7 @@ def quality_flags(m, profile_cfg, manual):
         bool((ng or 0) > .30 or manual.get("nongaap_recurring_items"))
     add("NON-GAAP AGRESIVO", on, ng, "(manual) ajustes > 30% de ingresos o no recurrentes repetidos")
     on = None if m["fcf_ttm"] is None else (m["fcf_ttm"] < 0 and (m["runway_m"] or 0) < 12)
-    add("RUNWAY CORTO", on, m["runway_m"], "FCF negativo y caja neta < 12 meses de consumo")
+    add("RUNWAY CORTO", on, m["runway_m"], "FCF negativo y caja < 12 meses de consumo (caja bruta si CFO TTM > 0; neta si no)")
     return out
 
 

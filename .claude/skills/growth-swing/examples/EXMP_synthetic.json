@@ -43,7 +43,8 @@
     "inventory": 9000000.0,
     "cash": 30000000.0,
     "debt": 5000000.0,
-    "total_assets": 110000000.0
+    "total_assets": 110000000.0,
+    "basic_shares": 40000000.0
    },
    {
     "period": "jun-24",
@@ -63,7 +64,8 @@
     "inventory": 9500000.0,
     "cash": 26000000.0,
     "debt": 5000000.0,
-    "total_assets": 108000000.0
+    "total_assets": 108000000.0,
+    "basic_shares": 40500000.0
    },
    {
     "period": "sep-24",
@@ -83,7 +85,8 @@
     "inventory": 10000000.0,
     "cash": 24000000.0,
     "debt": 5000000.0,
-    "total_assets": 112000000.0
+    "total_assets": 112000000.0,
+    "basic_shares": 41000000.0
    },
    {
     "period": "dic-24",
@@ -103,7 +106,8 @@
     "inventory": 10500000.0,
     "cash": 22000000.0,
     "debt": 5000000.0,
-    "total_assets": 115000000.0
+    "total_assets": 115000000.0,
+    "basic_shares": 41500000.0
    },
    {
     "period": "mar-25",
@@ -123,7 +127,8 @@
     "inventory": 11000000.0,
     "cash": 20000000.0,
     "debt": 5000000.0,
-    "total_assets": 118000000.0
+    "total_assets": 118000000.0,
+    "basic_shares": 42000000.0
    },
    {
     "period": "jun-25",
@@ -143,7 +148,8 @@
     "inventory": 12000000.0,
     "cash": 24000000.0,
     "debt": 5000000.0,
-    "total_assets": 125000000.0
+    "total_assets": 125000000.0,
+    "basic_shares": 43000000.0
    },
    {
     "period": "sep-25",
@@ -163,7 +169,8 @@
     "inventory": 13000000.0,
     "cash": 35000000.0,
     "debt": 5000000.0,
-    "total_assets": 140000000.0
+    "total_assets": 140000000.0,
+    "basic_shares": 45000000.0
    },
    {
     "period": "dic-25",
@@ -183,7 +190,8 @@
     "inventory": 14000000.0,
     "cash": 36000000.0,
     "debt": 5000000.0,
-    "total_assets": 150000000.0
+    "total_assets": 150000000.0,
+    "basic_shares": 45000000.0
    },
    {
     "period": "mar-26",
@@ -203,7 +211,8 @@
     "inventory": 15500000.0,
     "cash": 30000000.0,
     "debt": 5000000.0,
-    "total_assets": 165000000.0
+    "total_assets": 165000000.0,
+    "basic_shares": 47000000.0
    },
    {
     "period": "jun-26",
@@ -223,7 +232,8 @@
     "inventory": 17000000.0,
     "cash": 38000000.0,
     "debt": 5000000.0,
-    "total_assets": 190000000.0
+    "total_assets": 190000000.0,
+    "basic_shares": 51000000.0
    }
   ]
  },

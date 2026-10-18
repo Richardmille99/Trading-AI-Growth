@@ -25,6 +25,7 @@ CONCEPTS = {
     "capitalized_sw": ("flow", ["PaymentsToDevelopSoftware", "CapitalizedComputerSoftwareAdditions"]),
     "sbc": ("flow", ["ShareBasedCompensation", "AllocatedShareBasedCompensationExpense"]),
     "diluted_shares": ("avg", ["WeightedAverageNumberOfDilutedSharesOutstanding"]),
+    "basic_shares": ("avg", ["WeightedAverageNumberOfSharesOutstandingBasic"]),
     "ar": ("inst", ["AccountsReceivableNetCurrent", "ifrs:CurrentTradeReceivables"]),
     "deferred_rev": ("inst", ["ContractWithCustomerLiabilityCurrent", "DeferredRevenueCurrent"]),
     "rpo": ("inst", ["RevenueRemainingPerformanceObligation"]),

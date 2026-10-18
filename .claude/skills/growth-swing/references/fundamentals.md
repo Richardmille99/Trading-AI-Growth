@@ -14,6 +14,7 @@
 | `capex` | PaymentsToAcquirePropertyPlantAndEquipment (+ PaymentsToDevelopSoftware si existe) | flujo |
 | `sbc` | ShareBasedCompensation, AllocatedShareBasedCompensationExpense | flujo |
 | `diluted_shares` | WeightedAverageNumberOfDilutedSharesOutstanding | media del periodo |
+| `basic_shares` | WeightedAverageNumberOfSharesOutstandingBasic | media del periodo |
 | `shares_out` | dei:EntityCommonStockSharesOutstanding | puntual (portada) |
 | `ar` | AccountsReceivableNetCurrent | saldo |
 | `deferred_rev` | ContractWithCustomerLiabilityCurrent, DeferredRevenueCurrent | saldo |
@@ -36,12 +37,12 @@ Los KPIs que no están en XBRL (NRR, clientes > $100k, book-to-bill, backlog no 
 | FCF | CFO − capex (− software capitalizado) |
 | Rule of 40 | crecimiento TTM de ingresos + margen FCF TTM |
 | SBC % ingresos | SBC TTM ÷ ingresos TTM |
-| Dilución neta | acciones diluidas medias, interanual |
+| Dilución neta | acciones diluidas medias, interanual; si solo uno de los dos trimestres (actual o de hace un año) tiene pérdidas, acciones **básicas**: con pérdidas, GAAP iguala diluidas a básicas y la comparación mezclaría las dos medidas |
 | DSO | cuentas por cobrar ÷ ingresos del trimestre × 91 |
 | Ingresos diferidos y RPO | crecimiento interanual frente al de ingresos |
 | Accruals (Sloan) | (beneficio neto TTM − CFO TTM) ÷ activos medios |
 | Margen incremental | Δ resultado operativo TTM ÷ Δ ingresos TTM |
-| Caja neta y runway | caja − deuda; meses de runway si el FCF es negativo |
+| Caja neta y runway | caja − deuda; meses de runway si el FCF es negativo: sobre la caja bruta si el CFO TTM es positivo (el FCF negativo es capex, p. ej. fábricas u OSAT con deuda), sobre la caja neta si el CFO es negativo |
 
 ## 3. Banderas de calidad (automáticas)
 
@@ -53,11 +54,11 @@ Los KPIs que no están en XBRL (NRR, clientes > $100k, book-to-bill, backlog no 
 | `BENEFICIO SIN CAJA` | Beneficio neto TTM > 0 y CFO TTM < 0 |
 | `ACCRUALS ALTOS` | Accruals de Sloan > 10% |
 | `SBC PESADA` | SBC > 20% de ingresos TTM |
-| `DILUCIÓN` | Acciones diluidas +5% interanual |
+| `DILUCIÓN` | Acciones diluidas +5% interanual (básicas si un trimestre tiene pérdidas y el otro beneficios) |
 | `INVENTARIO > VENTAS` | (hardware, semis, consumo) crecimiento de inventario − crecimiento de ingresos > 25 pp |
 | `CAPITALIZACIÓN` | Software capitalizado > 10% del gasto operativo o creciendo > 2× los ingresos |
 | `NON-GAAP AGRESIVO` | (manual) ajustes non-GAAP > 30% de los ingresos o partidas «no recurrentes» repetidas |
-| `RUNWAY CORTO` | FCF negativo y caja neta < 12 meses de consumo |
+| `RUNWAY CORTO` | FCF negativo y caja < 12 meses de consumo (caja bruta si el CFO TTM es positivo; neta si no) |
 
 ## 4. Valoración y expectativas
 

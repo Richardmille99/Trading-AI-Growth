@@ -95,6 +95,37 @@ def test_dcf_and_conviction():
     print("dcf + conviction ok")
 
 
+def _quarters(**over):
+    base = dict(revenue=100.0, gross_profit=50.0, op_income=10.0, net_income=10.0, cfo=20.0, capex=5.0, capitalized_sw=None,
+                sbc=1.0, diluted_shares=100.0, basic_shares=100.0, ar=None, deferred_rev=None, rpo=None, inventory=None,
+                cash=100.0, debt=0.0, total_assets=500.0)
+    q = [dict(base, period=f"q{i}", end=f"2025-{i + 1:02d}-28") for i in range(9)]
+    for i, kv in over.items():
+        q[int(i[1:])].update(kv)
+    return q
+
+
+def test_dilution_and_runway_rules():
+    from fundamentals import metrics
+    # year-ago loss: diluted (=basic under GAAP) 90 vs diluted 110 would read +22%; basic 98 → 100 is +2%
+    m = metrics(_quarters(q4=dict(net_income=-5.0, diluted_shares=90.0, basic_shares=98.0)))
+    assert m["dil_basis"] == "basic" and abs(m["dil_yoy"] - (100 / 98 - 1)) < 1e-9
+    m = metrics(_quarters(q4=dict(net_income=-5.0, basic_shares=None)))
+    assert m["dil_yoy"] is None, "loss and no basic shares → n/d, never the biased diluted figure"
+    m = metrics(_quarters(q4=dict(diluted_shares=90.0)))
+    assert m["dil_basis"] == "diluted" and abs(m["dil_yoy"] - (100 / 90 - 1)) < 1e-9
+    both = metrics(_quarters(q4=dict(net_income=-5.0, diluted_shares=90.0, basic_shares=None), q8=dict(net_income=-1.0, basic_shares=None)))
+    assert both["dil_basis"] == "diluted" and abs(both["dil_yoy"] - (100 / 90 - 1)) < 1e-9, "two losses: diluted = basic in both"
+    # positive CFO, capex-driven negative FCF, net debt: runway on gross cash (100 / (40/12) = 30 months)
+    capex_heavy = {f"q{i}": dict(capex=30.0, debt=300.0) for i in range(5, 9)}
+    m = metrics(_quarters(**capex_heavy))
+    assert m["fcf_ttm"] == -40 and abs(m["runway_m"] - 30) < 1e-9
+    # negative CFO: net cash (negative → 0 months)
+    burn = {f"q{i}": dict(cfo=-10.0, capex=0.0, debt=300.0) for i in range(5, 9)}
+    assert metrics(_quarters(**burn))["runway_m"] == 0
+    print("dilution + runway rules ok")
+
+
 def test_example():
     case = json.load(open(os.path.join(HERE, "..", "examples", "EXMP_synthetic.json"), encoding="utf-8"))
     m, R, _ = compute(case)
@@ -104,4 +135,4 @@ def test_example():
 
 
 if __name__ == "__main__":
-    test_xbrl(); test_catalysts(); test_dcf_and_conviction(); test_example()
+    test_xbrl(); test_catalysts(); test_dcf_and_conviction(); test_dilution_and_runway_rules(); test_example()
