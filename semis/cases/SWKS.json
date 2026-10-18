@@ -16,7 +16,7 @@
   "descriptor": "Radiofrecuencia y analógico para móviles, automoción, industria y centros de datos. Con fábricas propias (IDM). Incluye Qorvo desde el 5-oct-2026. Ingresos pro forma {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001676204-26-000002",
   "last_filing_seen_date": "2026-10-13",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 79.69999694824219,
@@ -333,15 +333,25 @@
    },
    {
     "name": "Concentración de clientes (top 1)",
-    "value": "[VERIFY: % del mayor cliente en el 10-K FY26]",
-    "prior": "—",
-    "src": []
+    "value": "Apple 67% de los ingresos de Skyworks en FY25",
+    "prior": "69% (FY24) · 66% (FY23)",
+    "src": [
+     [
+      "10-K FY25",
+      "https://www.sec.gov/Archives/edgar/data/4127/000000412725000085/swks-20251003.htm"
+     ]
+    ]
    },
    {
-    "name": "Sinergias y costes de integración",
-    "value": "[VERIFY: objetivo de sinergias del S-4 / presentación de la fusión]",
+    "name": "Sinergias de la fusión",
+    "value": "≥ $500M anuales de costes en 24–36 meses; ingresos pro forma ≈ $7.700M y EBITDA ajustado ≈ $2.100M sin sinergias",
     "prior": "—",
-    "src": []
+    "src": [
+     [
+      "Anuncio de la fusión (28-oct-2025)",
+      "https://seekingalpha.com/pr/20281596-skyworks-and-qorvo-to-combine-to-create-22-billion-u-s-based-leader-in-high-performance-rf"
+     ]
+    ]
    },
    {
     "name": "Recompra autorizada",
@@ -353,10 +363,22 @@
       ""
      ]
     ]
+   },
+   {
+    "name": "Inventario solo de Skyworks",
+    "value": "$1.015,5M (3-jul-2026)",
+    "prior": "$754,7M (3-oct-2025) · $706,5M (27-jun-2025)",
+    "src": [
+     [
+      "10-Q 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/4127/000000412726000049/swks-20260703.htm"
+     ]
+    ]
    }
   ],
-  "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_adj_pct": 0.1424,
+  "nongaap_recurring_items": true,
+  "nongaap_note": "Resultado operativo non-GAAP $181,6M frente a $48,5M GAAP en el 3T FY26 (ajustes del 14,2% de ingresos). «Reestructuración y otros» en todos los trimestres ($22,0M en el 3T; $54,3M en 9 meses de FY26 y $56,3M en los 9 meses de FY25) más gastos de la fusión ($97,2M en 9 meses): 5,2% de ingresos > 2% → partidas no recurrentes repetidas (EX-99.1)."
  },
  "catalysts": [
   {
@@ -364,22 +386,30 @@
    "type": "earnings",
    "date": "2026-07-28",
    "time_et": "after-hours",
-   "headline": "Resultados 3T FY26 (solo Skyworks): ingresos $934,8M (−3,1%), guía 4T $1.010–1.060M",
+   "headline": "Resultados 3T FY26 (solo Skyworks): ingresos $934,8M (−3,1%), BPA non-GAAP $1,08 frente a $1,03; guía 4T $1.010–1.060M; fin del dividendo y recompra de $2.000M",
    "sources": [
     [
      "EX-99.1 8-K 28-jul-2026",
      "https://www.sec.gov/Archives/edgar/data/4127/000000412726000047/q3268-kex991earningsrelease.htm"
+    ],
+    [
+     "Zacks vía Eastern Progress: consenso BPA $1,03 e ingresos $922,1M",
+     "https://www.easternprogress.com/swks-q3-earnings-beat-on-broad-markets-ai-data-center-growth/article_bed052a6-cb5e-5cb5-9f76-dd4f758e09fa.html"
+    ],
+    [
+     "Chartmill: consenso BPA $1,04 e ingresos $938,7M; suspende el dividendo",
+     "https://www.chartmill.com/news/SWKS/Chartmill-51883-Skyworks-Solutions-NASDAQSWKS-Posts-EPS-Beat-Suspends-Dividend-Amid-Qorvo-Merger-Plans"
     ]
    ],
    "rev_growth_yoy": -0.0312953367875648,
    "rev_growth_yoy_prev": -0.00996642887117083,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 1.4,
+   "eps_surprise_pct": 4.9,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -144,
    "nonrecurring_in_beat": false,
-   "note": "Cifras de Skyworks sin Qorvo. Anuncia financiación de ≈ $2.000M para la compra, nuevo marco de asignación de capital y recompra autorizada de $2.000M. [VERIFY: sin consenso]",
+   "note": "Cifras solo de Skyworks. Frente al consenso de Chartmill ($938,7M), los ingresos quedaron en línea (−0,4%) [VERIFY]. Sin consenso para la guía del 4T. Se dejan de pagar dividendos (≈ $107M por trimestre) para recomprar acciones y reducir deuda.",
    "gap_pct": -9.42,
    "rvol": 3.15,
    "close_in_range": 0.56,
@@ -388,6 +418,58 @@
    "estimate_revisions": "unknown",
    "reaction_date": "2026-07-29",
    "reaction_close_chg_pct": -5.4
+  },
+  {
+   "id": "qorvo",
+   "type": "mna",
+   "date": "2026-10-05",
+   "time_et": null,
+   "headline": "Cierre de la fusión con Qorvo: $32,50 + 0,960 acciones SWKS por acción; ≥ $500M de sinergias de costes en 24–36 meses",
+   "sources": [
+    [
+     "8-K 5-oct-2026 (Item 2.01)",
+     "https://www.sec.gov/Archives/edgar/data/4127/000110465926113538/tm2626934d1_8k.htm"
+    ],
+    [
+     "Anuncio de la fusión (28-oct-2025): sinergias e ingresos pro forma $7.700M",
+     "https://seekingalpha.com/pr/20281596-skyworks-and-qorvo-to-combine-to-create-22-billion-u-s-based-leader-in-high-performance-rf"
+    ]
+   ],
+   "counterparty": "Qorvo, Inc.",
+   "counterparty_named": true,
+   "counterparty_confirms": true,
+   "filed_8k_101": true,
+   "exhibit_attached": true,
+   "binding": "definitive",
+   "value_firm": null,
+   "value_ceiling": null,
+   "duration_years": null,
+   "economics_disclosed": true,
+   "recurring": false,
+   "issuer_history": "unknown",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Cerrada antes de lo previsto (se esperaba a principios de 2027). Qorvo lo confirma con su 15-12G. Sinergias de ≥ $500M de costes, sobre todo SG&A y fábricas: aún no ejecutadas. Materialidad = 0 porque una compra no es un ingreso firme."
+  },
+  {
+   "id": "notes2b",
+   "type": "financing",
+   "date": "2026-08-10",
+   "headline": "Bonos sénior por $2.000M (2028, 2032 y 2036) para pagar la parte en efectivo de la fusión",
+   "sources": [
+    [
+     "8-K 10-ago-2026 (Items 1.01 y 2.03)",
+     "https://www.sec.gov/Archives/edgar/data/4127/000110465926093355/tm2622643d1_8k.htm"
+    ]
+   ],
+   "financing_type": "debt",
+   "price_vs_market_pct": null,
+   "warrants": false,
+   "note": "Deuda, no acciones: $800M al 5,000% (2028), $600M al 5,750% (2032) y $600M al 6,250% (2036)."
   }
  ],
  "supply": [
@@ -400,20 +482,39 @@
    "price_basis": null,
    "gate": "dated",
    "date": "2026-10-05",
-   "notes": "0,960 × 88.221.633 acciones de Qorvo (21-jul-2026). Libremente negociables desde el cierre. [VERIFY: cifra final en el 10-K FY26]",
+   "notes": "0,960 × 88.221.633 acciones de Qorvo (21-jul-2026). Libremente negociables desde el cierre. [VERIFY: cifra final en el 10-K FY26] Antiguos accionistas de Qorvo (arbitrajistas y fondos) pueden vender en las semanas siguientes al cierre; los 13G de octubre ya muestran FMR (12,6%) y Capital World (10,1%).",
    "src": [
     [
      "8-K 5-oct-2026",
      "https://www.sec.gov/Archives/edgar/data/4127/000110465926113538/tm2626934d1_8k.htm"
     ]
    ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $0.8M; 2 marcados",
+   "shares": 12277.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Kasnavi Reza (EVP, Chief Ops & Tech Officer) $0.5M, máx. 21% en 2025-T4; TERRY ROBERT JOHN (SVP, Gen. Counsel & Secretary) $0.3M, máx. 18% en 2025-T4. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
   }
  ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 233000000.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "≈ 235,2M acciones pro forma menos ≈ 2M de insiders [VERIFY: portada del 10-K FY26]"
  },
  "peers": [
   {
@@ -506,10 +607,10 @@
   }
  ],
  "setup": {
-  "type": null,
-  "pivot": null,
-  "stop": null,
-  "notes": null,
+  "type": "ema_crossback",
+  "pivot": 81.75,
+  "stop": 75.36,
+  "notes": "Retroceso a la EMA 50 (≈ $77,96) con mínimos crecientes el 13–14-oct y recuperación de la EMA 10 mientras QQQ caía: fuerza relativa. Pivote en el máximo del 16-oct ({m.pivot:px}); stop bajo el mínimo del 14-oct ({m.stop:px}). Riesgo {m.risk_adr:x1} ADR (> 1: tamaño reducido). Resultados en ≈ 12 sesiones: si no rompe antes, vale como EP.",
   "rs_1m": 16.666666666666664,
   "rs_3m": 100.0,
   "rs_6m": 63.63636363636363,
@@ -527,12 +628,12 @@
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo de semis."
+  "verdict": "Fusión cerrada y recompra de $2.000M; el más barato y con mejor RS a 3 meses, pero sin crecimiento (fundamentales 44).",
+  "setup": "EMA crossback sobre la EMA 50; pivote $81,75 y stop $75,36 (riesgo > 1 ADR).",
+  "catalyst": "3T FY26 especulación por crecimiento −3%; la fusión es el hecho material.",
+  "quality": "Apple 67% de ingresos; inventario de Skyworks +44% interanual.",
+  "supply": "84,7M acciones nuevas de ex-accionistas de Qorvo; recompra de $2.000M en contra.",
+  "group": "RS 3 meses percentil 100; fundamentales en la cola del universo."
  },
  "snapshot": [
   [
@@ -569,16 +670,34 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "narrative_flags": [
+   "Las sinergias de $500M son un objetivo, no un resultado: no hay ningún trimestre combinado publicado.",
+   "El inventario solo de Skyworks sube un 35% en 9 meses con ventas planas; en el pro forma la bandera se queda a 2 pp del umbral."
+  ],
+  "catalyst_read": "El catalizador principal (3T FY26) es **especulación** por la mecánica de la nota: ingresos −3%. El hecho material es el cierre anticipado de la fusión (nota {m.cat_qorvo_score:sc}) y el cambio de política de capital: fin del dividendo y recompra de $2.000M.",
   "financials_note": "**Pro forma aritmético.** Cada trimestre suma Skyworks y Qorvo, emparejando el cierre fiscal más cercano (máximo 7 días de diferencia). Las acciones diluidas son las de Skyworks + 0,960 × las de Qorvo. No hay ajustes de contabilidad de compra ni de intereses de la deuda nueva. Los saldos del último trimestre incluyen los bonos de $2.000M y restan $2.867M de efectivo pagado a Qorvo. Así el EV posfusión se compara con ingresos combinados. **Trimestres comparables:** todos dentro del pro forma. El próximo informe (4T FY26, cerrado el 2-oct-2026) será **solo de Skyworks**. El primer trimestre consolidado será el 1T FY27 (≈ feb-2027). Comparar ese crecimiento con el histórico solo de Skyworks no tiene sentido. [VERIFY: cifras pro forma oficiales del S-4/8-K]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "quality": [
+   "Calidad contable sin banderas en el pro forma, pero **inventario > ventas** en Skyworks solo (+44% interanual frente a −3% de ingresos).",
+   "**Concentración extrema:** Apple fue el 67% de los ingresos de Skyworks en FY25; Qorvo también depende de Apple [VERIFY: %].",
+   "Fondo de comercio + intangibles = 50% del patrimonio antes de la fusión; subirá mucho con la contabilidad de compra de Qorvo.",
+   "Rotación directiva alta: 10 8-K con Item 5.02 desde dic-2024."
+  ],
+  "supply_read": "≈ 84,7M acciones nuevas en manos de ex-accionistas de Qorvo desde el 5-oct: posible oferta de arbitrajistas que deshacen posiciones. A favor: recompra de $2.000M (≈ 11% de la capitalización) y fin del dividendo. Deuda neta ≈ $2.800M tras la fusión (estimación pro forma).",
+  "valuation": [
+   "El más barato del universo: EV/ventas {m.ev_sales:x1} sobre ingresos pro forma. DCF inverso: {m.implied_g:pctf} anual; el precio no descuenta crecimiento."
+  ],
+  "group_read": "RS a 3 meses en percentil 100 del universo (sube desde el anuncio de la fusión); fundamentales en el percentil {m.fund_pct:sc}: es una historia de reestructuración, no de crecimiento.",
+  "risks": [
+   "Integración de dos fábricas con la misma dependencia de Apple; pérdida de contenido en el próximo iPhone.",
+   "El próximo informe (4T FY26) aún es solo de Skyworks; el primer trimestre combinado (≈ feb-2027) traerá ajustes de contabilidad de compra que distorsionan márgenes."
+  ],
+  "plan": [
+   "Resultados del 4T FY26 hacia el 3-nov [VERIFY: fecha].",
+   "**Setup actual:** EMA crossback con pivote en $81,75 y stop en $75,36, a tamaño reducido (riesgo > 1 ADR).",
+   "**EP A/B en resultados:** ingresos del 4T ≥ $1.060M (techo de la guía), guía del 1T FY27 combinada con un objetivo de sinergias concreto y recompras iniciadas.",
+   "**D:** ingresos bajo $1.010M o un recorte de la previsión de contenido en Apple."
+  ],
+  "verdict": "Historia de valor y reestructuración, no de crecimiento: barata y con fuerza relativa. La nota de fundamentales (44) y la dependencia de Apple la dejan fuera de un swing de growth."
  },
  "sources": [
   [
@@ -586,8 +705,36 @@
    "https://www.sec.gov/Archives/edgar/data/4127/000000412726000047/q3268-kex991earningsrelease.htm"
   ],
   [
-   "8-K 5-oct-2026",
+   "Zacks vía Eastern Progress: consenso BPA $1,03 e ingresos $922,1M",
+   "https://www.easternprogress.com/swks-q3-earnings-beat-on-broad-markets-ai-data-center-growth/article_bed052a6-cb5e-5cb5-9f76-dd4f758e09fa.html"
+  ],
+  [
+   "Chartmill: consenso BPA $1,04 e ingresos $938,7M; suspende el dividendo",
+   "https://www.chartmill.com/news/SWKS/Chartmill-51883-Skyworks-Solutions-NASDAQSWKS-Posts-EPS-Beat-Suspends-Dividend-Amid-Qorvo-Merger-Plans"
+  ],
+  [
+   "8-K 5-oct-2026 (Item 2.01)",
    "https://www.sec.gov/Archives/edgar/data/4127/000110465926113538/tm2626934d1_8k.htm"
+  ],
+  [
+   "Anuncio de la fusión (28-oct-2025): sinergias e ingresos pro forma $7.700M",
+   "https://seekingalpha.com/pr/20281596-skyworks-and-qorvo-to-combine-to-create-22-billion-u-s-based-leader-in-high-performance-rf"
+  ],
+  [
+   "8-K 10-ago-2026 (Items 1.01 y 2.03)",
+   "https://www.sec.gov/Archives/edgar/data/4127/000110465926093355/tm2622643d1_8k.htm"
+  ],
+  [
+   "10-Q 3T FY26",
+   "https://www.sec.gov/Archives/edgar/data/4127/000000412726000049/swks-20260703.htm"
+  ],
+  [
+   "10-K FY25",
+   "https://www.sec.gov/Archives/edgar/data/4127/000000412725000085/swks-20251003.htm"
+  ],
+  [
+   "insiders.json",
+   ""
   ]
  ]
 }

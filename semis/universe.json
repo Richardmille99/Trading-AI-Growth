@@ -80,7 +80,7 @@
    "profile": "semis_idm",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "septiembre/octubre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Fusión con Qorvo cerrada: crecimiento histórico no comparable; usar pro forma si la empresa lo publica; contabilidad de compra, sinergias, emisión de acciones a ex-accionistas de Qorvo",
    "purity_pct": 100,
    "purity_evidence": "Chips de RF y analógico propios en Skyworks y en Qorvo (segmentos de Qorvo: ACG 61%, HPA 26% y CSG 13% en el 1T FY27)"
