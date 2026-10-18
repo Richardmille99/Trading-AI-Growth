@@ -1,0 +1,487 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "TSEM",
+  "issuer": "Tower Semiconductor",
+  "cik": "0000928876",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_manufacturing",
+  "theme": "Semiconductores y adyacentes · IA",
+  "group": "Foundry especializada u OSAT (encapsulado y test) para terceros",
+  "subgroup": "fabricacion",
+  "synthetic": false,
+  "primary_catalyst": "q2_26",
+  "descriptor": "Foundry analógica especializada (RF-SOI, SiGe, SiPho, sensores) que fabrica para terceros; su motor actual es la fotónica de silicio para transceptores ópticos de IA. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001178913-26-004761",
+  "last_filing_seen_date": "2026-10-13",
+  "phase": "fundamentales"
+ },
+ "market": {
+  "price": 195.5800018310547,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00. Sin amplitud (ratio de Stockbee, T2108)."
+ },
+ "financials": {
+  "source": "6-K de resultados de Tower (US GAAP), acc. 0001178913-26-003776, 0001178913-26-002607, 0001178913-26-000404, 0001178913-25-003706, 0001178913-25-002592",
+  "shares_out": 112534404,
+  "shares_out_date": "2025-12-31",
+  "shares_out_note": "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)",
+  "quarters": [
+   {
+    "period": "jun-24",
+    "end": "2024-06-30",
+    "revenue": 351181000.0,
+    "gross_profit": 86922000.0,
+    "op_income": 55148000.0,
+    "net_income": 53445000.0,
+    "cfo": 113085000.0,
+    "capex": 112615000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 111979000.0,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K de resultados (US GAAP) 0001178913-25-002592"
+   },
+   {
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "revenue": 370512000.0,
+    "gross_profit": 93061000.0,
+    "op_income": 55762000.0,
+    "net_income": 54647000.0,
+    "cfo": 124743000.0,
+    "capex": 127624000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 112474000.0,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K de resultados (US GAAP) 0001178913-25-003706"
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "revenue": 387191000.0,
+    "gross_profit": 86853000.0,
+    "op_income": 46419000.0,
+    "net_income": 55138000.0,
+    "cfo": 100816000.0,
+    "capex": 93396000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 112967000.0,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K de resultados (US GAAP) 0001178913-26-000404"
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 358170000.0,
+    "gross_profit": 73171000.0,
+    "op_income": 32898000.0,
+    "net_income": 40142000.0,
+    "cfo": 93922000.0,
+    "capex": 111411000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 113152000.0,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K de resultados (US GAAP) 0001178913-26-002607"
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 372061000.0,
+    "gross_profit": 80026000.0,
+    "op_income": 39865000.0,
+    "net_income": 46551000.0,
+    "cfo": 122599000.0,
+    "capex": 110682000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 113282000.0,
+    "ar": 215316000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 286747000.0,
+    "cash": 1207603000.0,
+    "debt": 176097000.0,
+    "total_assets": 3203410000.0,
+    "src": "6-K de resultados (US GAAP) 0001178913-25-002592, 0001178913-26-003776"
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": 395667000.0,
+    "gross_profit": 93045000.0,
+    "op_income": 50580000.0,
+    "net_income": 53645000.0,
+    "cfo": 139423000.0,
+    "capex": 103490000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 113751000.0,
+    "ar": 213013000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 286682000.0,
+    "cash": 1223302000.0,
+    "debt": 164087000.0,
+    "total_assets": 3252602000.0,
+    "src": "6-K de resultados (US GAAP) 0001178913-25-003706"
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": 440206000.0,
+    "gross_profit": 117612000.0,
+    "op_income": 70829000.0,
+    "net_income": 80132000.0,
+    "cfo": 39538000.0,
+    "capex": 110978000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 114191000.0,
+    "ar": 222795000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 256855000.0,
+    "cash": 1151910000.0,
+    "debt": 161518000.0,
+    "total_assets": 3322290000.0,
+    "src": "6-K de resultados (US GAAP) 0001178913-26-000404"
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 413631000.0,
+    "gross_profit": 110951000.0,
+    "op_income": 64565000.0,
+    "net_income": 65032000.0,
+    "cfo": 509969000.0,
+    "capex": 156368000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 114342000.0,
+    "ar": 213840000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 254833000.0,
+    "cash": 1498548000.0,
+    "debt": 155856000.0,
+    "total_assets": 3700620000.0,
+    "src": "6-K de resultados (US GAAP) 0001178913-26-002607; CFO incluye $285M de anticipos de clientes"
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 460079000.0,
+    "gross_profit": 137772000.0,
+    "op_income": 90290000.0,
+    "net_income": 90769000.0,
+    "cfo": 176965000.0,
+    "capex": 186585000.0,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 114427000.0,
+    "ar": 202871000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 244356000.0,
+    "cash": 1481413000.0,
+    "debt": 141696000.0,
+    "total_assets": 3771436000.0,
+    "src": "6-K de resultados (US GAAP) 0001178913-26-003776"
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Inversión en SiPho/SiGe",
+    "value": "$920M de capex (incluye $270M adicionales, feb-2026); capacidad objetivo > 5× la del 4T25 desde 2027",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 11-feb-2026 (EX-99.1)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Anticipos de clientes de SiPho",
+    "value": "$290M cobrados en el 1T26; deuda con clientes por anticipos $321,4M a corto y largo plazo (2T26)",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 13-may-2026 y 4-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T26",
+    "value": "$520M ± 5% (+31% interanual)",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 4-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Capex / ventas (2T26)",
+    "value": "$186,6M ÷ $460,1M ≈ 41%",
+    "prior": "$110,7M ÷ $372,1M ≈ 30% (2T25)",
+    "src": [
+     [
+      "6-K 4-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Utilización de capacidad",
+    "value": "[VERIFY: transcript]",
+    "prior": "—",
+    "src": []
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2_26",
+   "type": "earnings",
+   "date": "2026-08-04",
+   "time_et": "premarket",
+   "headline": "Resultados 2T26: ingresos récord $460,1M (+24%), guía 3T $520M ± 5% (+31%)",
+   "sources": [
+    [
+     "6-K 4-ago-2026 (EX-99.1)",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891326003776/exhibit_99-1.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.2365687346967298,
+   "rev_growth_yoy_prev": 0.15484546444425829,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 844,
+   "nonrecurring_in_beat": false,
+   "note": "Margen bruto 30% (21,5% en el 2T25). [VERIFY: hora de publicación (antes de la apertura, como es habitual); sin consenso]",
+   "gap_pct": -3.79,
+   "rvol": 3.36,
+   "close_in_range": 0.75,
+   "day2_follow": false,
+   "dollar_volume": 1516488375,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-08-04",
+   "reaction_close_chg_pct": 2.22
+  }
+ ],
+ "supply": [],
+ "supply_context": {
+  "float_shares": null,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "rev_yoy": 1.044548651817116,
+   "accel_pp": 11.0547573054933,
+   "gm": 0.7512943883905654,
+   "rule40": 121.5037067073428,
+   "ev_sales": 40.21282274090255,
+   "rs_3m": 25.0
+  },
+  {
+   "ticker": "ASX",
+   "name": "ASE Technology Holding (ADR)",
+   "rev_yoy": 0.2674228855721392,
+   "accel_pp": 9.524277447077779,
+   "gm": 0.19485243458331575,
+   "rule40": 9.160840077806398,
+   "ev_sales": 4.220414986221557,
+   "rs_3m": 75.0
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras Systems",
+   "rev_yoy": 0.7431911887110199,
+   "accel_pp": -20.035330843505307,
+   "gm": 0.348336132034031,
+   "rule40": null,
+   "ev_sales": 34.10921020536091,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "CRDO",
+   "name": "Credo Technology",
+   "rev_yoy": 1.1472829643974647,
+   "accel_pp": -42.294494326317356,
+   "gm": 0.6706667630393861,
+   "rule40": 192.6811780628786,
+   "ev_sales": 19.566499948786028,
+   "rs_3m": 8.333333333333332
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell Technology",
+   "rev_yoy": 0.3654852699267235,
+   "accel_pp": 8.980331983966593,
+   "gm": 0.5221104091933589,
+   "rule40": 48.92837288967687,
+   "ev_sales": 21.249508333666853,
+   "rs_3m": 91.66666666666666
+  },
+  {
+   "ticker": "MXL",
+   "name": "MaxLinear",
+   "rev_yoy": 0.5517171661474272,
+   "accel_pp": 12.167745092951465,
+   "gm": 0.5747719403090011,
+   "rule40": 51.08605196214363,
+   "ev_sales": 11.473028939311751,
+   "rs_3m": 50.0
+  },
+  {
+   "ticker": "SMTC",
+   "name": "Semtech",
+   "rev_yoy": 0.32730823132975395,
+   "accel_pp": 16.815105774575013,
+   "gm": 0.5211983199403191,
+   "rule40": 34.28522685306382,
+   "ev_sales": 11.112692152936736,
+   "rs_3m": 83.33333333333334
+  },
+  {
+   "ticker": "SWKS",
+   "name": "Skyworks Solutions (incluye Qorvo desde el 5-oct-2026)",
+   "rev_yoy": -0.035981495455151946,
+   "accel_pp": 0.2806022224915883,
+   "gm": 0.4429338182239809,
+   "rule40": 14.096067798236486,
+   "ev_sales": 2.8109179378243816,
+   "rs_3m": 100.0
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 25.0,
+  "rs_3m": 16.666666666666664,
+  "rs_6m": 0.0,
+  "adr_pct": 5.662550952358902,
+  "ema_stack": false,
+  "cooled_leader": "cooled_leader",
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-11-02",
+   "kind": "earnings",
+   "text": "Resultados 3T26; conferencia a las 10:00 ET (anunciado el 13-oct-2026)",
+   "src": [
+    [
+     "6-K 13-oct-2026",
+     "https://www.sec.gov/Archives/edgar/data/928876/000117891326004755/zk2636218.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
+  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
+  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
+  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
+  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
+  "group": "Pares = resto del universo de semis."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Foundry analógica especializada (RF-SOI, SiGe, SiPho, sensores) que fabrica para terceros; su motor actual es la fotónica de silicio para transceptores ópticos de IA"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Foundry especializada u OSAT (encapsulado y test) para terceros · adyacente"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [],
+  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "financials_note": "Emisor extranjero (20-F/6-K, **US GAAP**): sin trimestres en XBRL. **Trimestres cargados a mano** desde los 6-K de resultados (2T25, 3T25, 4T25, 1T26 y 2T26). Cada uno da el trimestre, el anterior y el del año pasado; los totales anuales y semestrales cuadran. El beneficio neto es el atribuible a la compañía. El CFO GAAP del 1T26 ($510,0M) incluye $285,1M de anticipos de clientes de SiPho; sin ellos, $224,9M. Eso infla el FCF TTM. El SBC no se publica aparte (va junto a la amortización de intangibles, $9,9M en el 2T26) y queda vacío. Los saldos solo están disponibles desde el 2T25. Acciones: 112,5M de la portada del 20-F (31-dic-2025).",
+  "quality": [],
+  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
+  "valuation": [],
+  "group_read": "",
+  "risks": [],
+  "plan": [],
+  "verdict": ""
+ },
+ "sources": [
+  [
+   "6-K 4-ago-2026 (EX-99.1)",
+   "https://www.sec.gov/Archives/edgar/data/928876/000117891326003776/exhibit_99-1.htm"
+  ]
+ ]
+}
