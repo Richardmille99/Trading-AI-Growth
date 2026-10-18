@@ -105,7 +105,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Integridad de señal para centro de datos + LoRa + módulos IoT y servicios conectados (Sierra Wireless); deuda de la compra",
    "purity_pct": 71,
    "purity_evidence": "Productos de semiconductores $243,5M (71%) frente a Sistemas IoT y conectividad $98,3M (29%) en el 2T FY27 (EX-99.1). El negocio de módulos celulares está en venta (acuerdo del 13-ago-2026): la pureza subirá al cerrar"

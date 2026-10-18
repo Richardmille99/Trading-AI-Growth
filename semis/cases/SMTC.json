@@ -16,7 +16,7 @@
   "descriptor": "Integridad de señal para centros de datos (óptico y cobre), analógico y LoRa, más módulos IoT en desinversión. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0000088941-26-000041",
   "last_filing_seen_date": "2026-10-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 136.72999572753906,
@@ -332,14 +332,31 @@
     ]
    },
    {
-    "name": "Concentración de clientes (≥10%)",
-    "value": "[VERIFY: 10-Q 2T FY27]",
+    "name": "Concentración de clientes (2T FY27)",
+    "value": "A 12% · B 15%; cuentas por cobrar: A 20%, C 12%, D 11%",
+    "prior": "B 15% (2T FY26)",
+    "src": [
+     [
+      "10-Q 2T FY27, nota de concentraciones",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Marco FY30 (Analyst Day 15-oct-2026)",
+    "value": "Ventas $3.200M (+38% anual desde FY26); centro de datos $2.100M (+75% anual); margen bruto ajustado 70%; margen operativo 48–50%; FCF 35%",
     "prior": "—",
-    "src": []
+    "src": [
+     [
+      "8-K 15-oct-2026",
+      "https://www.sec.gov/Archives/edgar/data/88941/000008894126000041/smtc-20261015.htm"
+     ]
+    ]
    }
   ],
-  "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_adj_pct": 0.0813,
+  "nongaap_recurring_items": true,
+  "nongaap_note": "Ajustes del 2T FY27: 8,1% de ingresos. Partidas «no recurrentes» en todos los trimestres: transacción e integración ($0,7M, $2,8M, $1,2M), reestructuración y litigios, más deterioros de fondo de comercio ($42,0M en el 2T FY26 y más en el 4T FY26) → repetidas y > 2% de ingresos."
  },
  "catalysts": [
   {
@@ -347,22 +364,26 @@
    "type": "earnings",
    "date": "2026-08-25",
    "time_et": "after-hours",
-   "headline": "Resultados 2T FY27: ventas $341,9M (+33%), guía 3T $410M ± $5M",
+   "headline": "Resultados 2T FY27: ventas $341,9M (+33%) frente a $328,7M de consenso; BPA ajustado $0,71 frente a $0,61; guía 3T $410M ± $5M",
    "sources": [
     [
      "EX-99.1 8-K 25-ago-2026",
      "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-07262026x8k991.htm"
+    ],
+    [
+     "Nasdaq/Zacks: consenso BPA $0,61, ventas $328,7M",
+     "https://www.nasdaq.com/articles/semtechs-q2-earnings-surpass-estimates-revenues-increase-y-y"
     ]
    ],
    "rev_growth_yoy": 0.32730823132975395,
    "rev_growth_yoy_prev": 0.15915717358400383,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 4.0,
+   "eps_surprise_pct": 16.4,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": 170,
-   "nonrecurring_in_beat": true,
-   "note": "El beneficio neto de $160,1M incluye un beneficio fiscal de $101,4M (liberación de provisión por valoración): el BPA GAAP no es comparable. Guía del 3T: $410M, +54% interanual. [VERIFY: sin consenso]",
+   "nonrecurring_in_beat": false,
+   "note": "El beat se mide con el BPA ajustado, que excluye el beneficio fiscal de $101,4M incluido en el BPA GAAP ($1,59): no hay beat con partidas no recurrentes. Sin consenso previo para la guía del 3T.",
    "gap_pct": 2.65,
    "rvol": 3.05,
    "close_in_range": 0.68,
@@ -371,6 +392,149 @@
    "estimate_revisions": "unknown",
    "reaction_date": "2026-08-26",
    "reaction_close_chg_pct": 10.41
+  },
+  {
+   "id": "guide_oct15",
+   "type": "earnings",
+   "date": "2026-10-15",
+   "time_et": "premarket",
+   "headline": "Analyst Day: guía 3T elevada a $417,5M ± $2,5M (antes $410M) y marco FY30 de $3.200M de ventas (centro de datos $2.100M, +75% anual)",
+   "sources": [
+    [
+     "8-K 15-oct-2026 (Item 7.01)",
+     "https://www.sec.gov/Archives/edgar/data/88941/000008894126000041/smtc-20261015.htm"
+    ],
+    [
+     "OpenCapital: consenso 3T $410,6M",
+     "https://www.opencapital.sh/stocks/smtc/earnings/q2-2027"
+    ]
+   ],
+   "rev_growth_yoy": 0.5636704119850187,
+   "rev_growth_yoy_prev": 0.3272515527950308,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": true,
+   "guide_change_pct": 1.7,
+   "gm_change_bp": null,
+   "nonrecurring_in_beat": false,
+   "note": "Actualización de guía a mitad de trimestre, no un trimestre cerrado: el crecimiento usa el punto medio de la nueva guía. El mercado vendió: gap −4,4% y cierre −10% con 2,5× el volumen.",
+   "gap_pct": -4.41,
+   "rvol": 2.99,
+   "close_in_range": 0.48,
+   "day2_follow": false,
+   "dollar_volume": 1404071888,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-10-15",
+   "reaction_close_chg_pct": -10.01
+  },
+  {
+   "id": "q1fy27",
+   "type": "earnings",
+   "date": "2026-05-26",
+   "time_et": "after-hours",
+   "headline": "Resultados 1T FY27: $291,0M (+16%)",
+   "sources": [
+    [
+     "8-K 26-may-2026",
+     "https://www.sec.gov/Archives/edgar/data/88941/000008894126000009/smtc-20260526.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.15915717358400383,
+   "rev_growth_yoy_prev": 0.09303909929004539,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": -25,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": 4.8,
+   "rvol": 2.38,
+   "close_in_range": 0.21,
+   "day2_follow": true,
+   "dollar_volume": 1137876458,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-05-27",
+   "reaction_close_chg_pct": -4.41
+  },
+  {
+   "id": "q4fy26",
+   "type": "earnings",
+   "date": "2026-03-16",
+   "time_et": "after-hours",
+   "headline": "Resultados 4T FY26: $274,4M (+9%)",
+   "sources": [
+    [
+     "8-K 16-mar-2026",
+     "https://www.sec.gov/Archives/edgar/data/88941/000008894126000003/smtc-20260316.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.09303909929004539,
+   "rev_growth_yoy_prev": 0.1272923044442098,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": -159,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": -6.46,
+   "rvol": 3.56,
+   "close_in_range": 0.08,
+   "day2_follow": false,
+   "dollar_volume": 420494201,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-03-17",
+   "reaction_close_chg_pct": -11.0
+  },
+  {
+   "id": "cellular_sale",
+   "type": "mna",
+   "date": "2026-08-13",
+   "time_et": null,
+   "headline": "Venta del negocio de módulos celulares a Compal Electronics por $62M en efectivo",
+   "sources": [
+    [
+     "8-K 13-ago-2026 (Item 8.01)",
+     "https://www.sec.gov/Archives/edgar/data/88941/000119312526347716/d123711d8k.htm"
+    ]
+   ],
+   "counterparty": "Compal Electronics (TWSE: 2324)",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "definitive",
+   "value_firm": null,
+   "value_ceiling": null,
+   "duration_years": null,
+   "economics_disclosed": true,
+   "recurring": false,
+   "issuer_history": "unknown",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Desinversión: sube la pureza y el margen (63,9% de margen ajustado sin el negocio en venta). Pendiente de aprobaciones. [VERIFY: anuncio de Compal en la TWSE]"
+  },
+  {
+   "id": "conv2030",
+   "type": "financing",
+   "date": "2025-10-07",
+   "headline": "Convertibles 0% 2030 por $350M (+$52,5M de opción), prima del 42%, con capped call y canje de los bonos de 2027/2028",
+   "sources": [
+    [
+     "8-K 10-oct-2025 (Items 1.01, 2.03 y 3.02)",
+     "https://www.sec.gov/Archives/edgar/data/88941/000119312525237190/d98782d8k.htm"
+    ]
+   ],
+   "financing_type": "convertible",
+   "price_vs_market_pct": 42.0,
+   "warrants": false,
+   "variable_price": false,
+   "note": "Los canjes de los bonos de 2027 y 2028 se pagaron en parte con acciones (Item 3.02): explica parte del +7,6% de acciones básicas."
   }
  ],
  "supply": [
@@ -381,22 +545,41 @@
    "shares": 3465347,
    "capacity_usd": null,
    "price_basis": 101.0,
-   "gate": "gated",
+   "gate": "live",
    "date": null,
-   "notes": "Emitidos el 10-oct-2025 con capped call. Convertibles antes de 2030 solo bajo condiciones de precio. En dinero al precio actual. [VERIFY: precio de conversión exacto, cap del capped call y si se cumple el disparador del trimestre — Fase 2]",
+   "notes": "Precio de conversión ≈ $101 (prima del 42%); en dinero a {m.price:px}. Capped call como cobertura. Convertibles bajo condiciones de precio (≥ 130% del precio de conversión, ≈ $131, 20 de 30 sesiones): el disparador parece cumplido en el 3T FY27 [VERIFY]. Si se convierten con liquidación en acciones, ≈ 3,5M acciones nuevas.",
    "src": [
     [
      "8-K 10-oct-2025 (Item 1.01)",
      "https://www.sec.gov/Archives/edgar/data/88941/000119312525237190/d98782d8k.htm"
     ]
    ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $18.6M; 11 marcados",
+   "shares": 166395.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Silberstein Asaf (EVP and COO) $5.7M, máx. 27% en 2026-T1, 1 ventas sin 10b5-1; HOU HONG Q (consejero, President and CEO) $4.1M, máx. 32% en 2025-T4, 3 ventas sin 10b5-1; Lin Mark (EVP and CFO) $2.5M, máx. 42% en 2026-T1; Green Jason Elliot (EVP and CCO) $1.4M, máx. 46% en 2026-T2, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
   }
  ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 81100000.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "10-K: $4.000M de no afiliados a 27-jul-2025 ÷ $53,07 = 75,4M (87% de 86,7M básicas); aplicado a 93,3M actuales ≈ 81,1M [VERIFY]"
  },
  "peers": [
   {
@@ -492,7 +675,7 @@
   "type": null,
   "pivot": null,
   "stop": null,
-  "notes": null,
+  "notes": "Sin setup: perdió la EMA 50 el 15-oct con 2,5× el volumen ({m.price:px}). Resultados en ≈ 26 sesiones.",
   "rs_1m": 8.333333333333332,
   "rs_3m": 83.33333333333334,
   "rs_6m": 54.54545454545454,
@@ -503,19 +686,24 @@
  },
  "events": [
   {
-   "date": "2026-11-24",
+   "date": "2026-11-23",
    "kind": "earnings",
-   "text": "Resultados 3T FY27 [VERIFY: fecha estimada; el 3T FY26 fue el 24-nov-2025]",
-   "src": []
+   "text": "Resultados 3T FY27 [VERIFY: fecha estimada; OpenCapital da el 23-nov y el 3T FY26 fue el 24-nov-2025]",
+   "src": [
+    [
+     "OpenCapital",
+     "https://www.opencapital.sh/stocks/smtc/earnings/q2-2027"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo de semis."
+  "verdict": "Acelera y sube guía, pero el mercado vendió el Analyst Day; non-GAAP con partidas repetidas y convertible en dinero.",
+  "setup": "Rompió la EMA 50 con volumen el 15-oct; sin setup.",
+  "catalyst": "2T FY27 con beat; guía subida el 15-oct con reacción negativa.",
+  "quality": "NON-GAAP agresivo; beneficio fiscal de $101M en el 2T.",
+  "supply": "Convertible 2030 en dinero; acciones +7,6%; insiders marcados.",
+  "group": "RS 1 mes percentil 8 tras el −15%."
  },
  "snapshot": [
   [
@@ -552,16 +740,35 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "narrative_flags": [
+   "El marco FY30 ($3.200M, centro de datos +75% anual) es un objetivo a 4 años, no cartera. Los pedidos récord sí se citan, sin cifra de backlog.",
+   "El mercado vendió la subida de guía del 15-oct (−15% en dos sesiones): la expectativa iba por delante."
+  ],
+  "catalyst_read": "El catalizador principal (2T FY27) puntúa {m.cat_q2fy27_score:sc}: beat de ingresos y de BPA ajustado, con aceleración {m.accel_pp:pp}. La subida de guía del 15-oct puntúa {m.cat_guide_oct15_score:sc}, pero la confirmación de mercado fue negativa.",
   "financials_note": "Trimestres de XBRL hasta abr-26. **Jul-26 cargado a mano** desde el EX-99.1 y el 10-Q del 2T FY27, que companyfacts aún no incluía: SBC = $50,3M del semestre − $26,4M del 1T; capex neto; inventario sin el negocio en venta. El neto del jul-26 incluye un beneficio fiscal de $101,4M. Acciones: 93,3M del balance del 10-Q.",
-  "quality": [],
-  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "quality": [
+   "**NON-GAAP AGRESIVO** activo: transacción, reestructuración, litigios y deterioros de fondo de comercio aparecen todos los trimestres.",
+   "El neto GAAP del 2T FY27 incluye $101,4M de beneficio fiscal: no comparable.",
+   "Fondo de comercio + intangibles ≈ 70% del patrimonio tras el 2T FY27 (era el 92% antes); deterioros repetidos del negocio IoT.",
+   "Desinversión de módulos celulares: mejora la mezcla y la pureza (ventas de semis 71% → ≈ 80% al cerrar)."
+  ],
+  "supply_read": "Convertible 2030 en dinero (conversión ≈ $101, con capped call) y posiblemente convertible este trimestre. Acciones básicas +7,6% interanual (canje de bonos de 2027/2028 en parte con acciones). Insiders con ventas marcadas por superar el 10% de su posición (CEO 32%, CFO 42% en un trimestre).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; con la guía del 3T anualizada (≈ $1.670M), ≈ 7×. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "Percentil de fundamentales {m.fund_pct:sc}, RS {m.rs_pct:sc}: tras el −15% de octubre, la RS a 1 mes es de las peores (percentil 8).",
+  "risks": [
+   "Ejecución del marco FY30 (centro de datos +75% anual).",
+   "Convertibles en dinero: dilución o pago en efectivo.",
+   "Deuda tras la compra de Sierra Wireless; deterioros adicionales en IoT."
+  ],
+  "plan": [
+   "Resultados del 3T FY27 hacia el 23–24-nov [VERIFY].",
+   "La guía ya se subió a $417,5M: para un EP A/B harán falta ventas ≥ $438M (+5% sobre la nueva guía) y una guía del 4T ≥ +5% sobre el consenso.",
+   "**D:** ventas dentro de la guía sin mejora del 4T: la subida de octubre ya lo descontaba.",
+   "Técnica: perdió la EMA 50 (≈ $161) con volumen el 15-oct. Sin setup; esperar una base sobre la SMA 200 (≈ $122)."
+  ],
+  "verdict": "Crecimiento real que acelera, con una guía subida a mitad de trimestre que el mercado vendió. Calidad contable floja (non-GAAP con partidas repetidas, beneficio fiscal) y convertible en dinero."
  },
  "sources": [
   [
@@ -569,8 +776,40 @@
    "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-07262026x8k991.htm"
   ],
   [
-   "8-K 10-oct-2025 (Item 1.01)",
+   "Nasdaq/Zacks: consenso BPA $0,61, ventas $328,7M",
+   "https://www.nasdaq.com/articles/semtechs-q2-earnings-surpass-estimates-revenues-increase-y-y"
+  ],
+  [
+   "8-K 15-oct-2026 (Item 7.01)",
+   "https://www.sec.gov/Archives/edgar/data/88941/000008894126000041/smtc-20261015.htm"
+  ],
+  [
+   "OpenCapital: consenso 3T $410,6M",
+   "https://www.opencapital.sh/stocks/smtc/earnings/q2-2027"
+  ],
+  [
+   "8-K 26-may-2026",
+   "https://www.sec.gov/Archives/edgar/data/88941/000008894126000009/smtc-20260526.htm"
+  ],
+  [
+   "8-K 16-mar-2026",
+   "https://www.sec.gov/Archives/edgar/data/88941/000008894126000003/smtc-20260316.htm"
+  ],
+  [
+   "8-K 13-ago-2026 (Item 8.01)",
+   "https://www.sec.gov/Archives/edgar/data/88941/000119312526347716/d123711d8k.htm"
+  ],
+  [
+   "8-K 10-oct-2025 (Items 1.01, 2.03 y 3.02)",
    "https://www.sec.gov/Archives/edgar/data/88941/000119312525237190/d98782d8k.htm"
+  ],
+  [
+   "10-Q 2T FY27",
+   "https://www.sec.gov/Archives/edgar/data/88941/000008894126000034/smtc-20260726.htm"
+  ],
+  [
+   "insiders.json",
+   ""
   ]
  ]
 }
