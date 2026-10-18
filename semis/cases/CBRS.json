@@ -1,0 +1,583 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "CBRS",
+  "issuer": "Cerebras Systems",
+  "cik": "0002021728",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "ai_systems",
+  "theme": "Semiconductores y adyacentes · IA",
+  "group": "Chip de IA propio vendido como sistema o servicio en la nube",
+  "subgroup": "computo_ia_sistemas",
+  "synthetic": false,
+  "primary_catalyst": "q2_26",
+  "descriptor": "Sistemas de cómputo de IA a escala de oblea (WSE) vendidos como hardware y, sobre todo, como servicio de inferencia en la nube. Salida a bolsa el 14-may-2026 a $185. Ingresos {m.revenue_ttm:usdM} TTM.",
+  "last_filing_seen": "0001104659-26-114412",
+  "last_filing_seen_date": "2026-10-07",
+  "phase": "fundamentales"
+ },
+ "market": {
+  "price": 127.20999908447266,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00. Sin amplitud (ratio de Stockbee, T2108)."
+ },
+ "financials": {
+  "source": "424B4 (trimestres 2024-2025) + XBRL companyfacts (2026); CFO/capex 3T25-4T25 no publicados por trimestre",
+  "shares_out": 237564041,
+  "shares_out_date": "2026-08-05",
+  "shares_out_note": "Clases A 112.247.109 + B 111.601.424 + N 13.715.508 (portada del 10-Q 2T26, 5-ago-2026)",
+  "quarters": [
+   {
+    "period": "mar-24",
+    "end": "2024-03-31",
+    "revenue": 66631000.0,
+    "gross_profit": 25139000.0,
+    "op_income": -18051000.0,
+    "net_income": -15750000.0,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": 9426000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105)",
+    "basic_shares": null
+   },
+   {
+    "period": "jun-24",
+    "end": "2024-06-30",
+    "revenue": 69771000.0,
+    "gross_profit": 30880000.0,
+    "op_income": -23760000.0,
+    "net_income": -50855000.0,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": 22903000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105)",
+    "basic_shares": null
+   },
+   {
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "revenue": 72319000.0,
+    "gross_profit": 32007000.0,
+    "op_income": -19377000.0,
+    "net_income": -309341000.0,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": 16828000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105)",
+    "basic_shares": null
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "revenue": 81531000.0,
+    "gross_profit": 34712000.0,
+    "op_income": -40250000.0,
+    "net_income": -105656000.0,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": 9407000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105)",
+    "basic_shares": null
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 99512000.0,
+    "gross_profit": 41604000.0,
+    "op_income": -28470000.0,
+    "net_income": -23867000.0,
+    "cfo": -54937000,
+    "capex": 98244000,
+    "capitalized_sw": null,
+    "sbc": 9154000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105); CFO/capex/balances: XBRL 10-Q",
+    "basic_shares": null
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 103322000.0,
+    "gross_profit": 32099000.0,
+    "op_income": -57182000.0,
+    "net_income": 309512000.0,
+    "cfo": -68906000,
+    "capex": 86850000,
+    "capitalized_sw": null,
+    "sbc": 13281000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105); CFO/capex/balances: XBRL 10-Q",
+    "basic_shares": null
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": 135714000.0,
+    "gross_profit": 55135000.0,
+    "op_income": -26469000.0,
+    "net_income": -22201000.0,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": 11346000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105)",
+    "basic_shares": null
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": 171443000.0,
+    "gross_profit": 70233000.0,
+    "op_income": -33741000.0,
+    "net_income": -25617000.0,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": 15986000.0,
+    "diluted_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "424B4 13-may-2026, Quarterly Results of Operations (p. 104-105)",
+    "basic_shares": null
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 193406000,
+    "gross_profit": 86176000,
+    "op_income": -15037000,
+    "net_income": -14006000,
+    "cfo": 12335000,
+    "capex": 131970000,
+    "capitalized_sw": null,
+    "sbc": 9593000,
+    "diluted_shares": 62806000,
+    "ar": 62631000,
+    "deferred_rev": 149918000,
+    "rpo": 25000000000,
+    "inventory": 89040000,
+    "cash": 2231621000,
+    "debt": 361617000,
+    "total_assets": 4948378000,
+    "src": "XBRL companyfacts (10-Q)",
+    "basic_shares": null
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 180110000,
+    "gross_profit": 25559000,
+    "op_income": -477233000,
+    "net_income": -450528000,
+    "cfo": -59823000,
+    "capex": 416903000,
+    "capitalized_sw": null,
+    "sbc": 377008000,
+    "diluted_shares": 150968000,
+    "ar": 123361000,
+    "deferred_rev": 173735000,
+    "rpo": 25400000000,
+    "inventory": 32666000,
+    "cash": 7921547000,
+    "debt": 918244000,
+    "total_assets": 11627872000,
+    "src": "XBRL companyfacts (10-Q)",
+    "basic_shares": 150968000
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Concentración de clientes (2T26)",
+    "value": "A 34% · B 32% · C 10% (A y D son partes vinculadas entre sí)",
+    "prior": "A 70% · D 18% (2T25)",
+    "src": [
+     [
+      "10-Q 2T26, nota 3",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "RPO (obligaciones de desempeño pendientes)",
+    "value": "$25.400M a 30-jun-2026, mayoritariamente del MRA con OpenAI (750 MW)",
+    "prior": "—",
+    "src": [
+     [
+      "10-Q 2T26, nota 3",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Mezcla hardware vs nube (2T26)",
+    "value": "Hardware $54,1M (30%) · nube y servicios $126,0M (70%)",
+    "prior": "Hardware $70,3M (68%) · nube $33,0M (2T25)",
+    "src": [
+     [
+      "10-Q 2T26",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Calendario de lock-up",
+    "value": "19,4M acciones el 28-oct-2026; resto el antes de: 2.º día hábil tras resultados del 3T26 o 180 días desde el prospecto (9-nov-2026)",
+    "prior": "—",
+    "src": [
+     [
+      "424B4 13-may-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Partes vinculadas",
+    "value": "Clientes A y D vinculados entre sí (ASC 850). [VERIFY: identidad y condiciones — Fase 2]",
+    "prior": "—",
+    "src": [
+     [
+      "10-Q 2T26",
+      ""
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2_26",
+   "type": "earnings",
+   "date": "2026-08-12",
+   "time_et": "after-hours",
+   "headline": "Resultados 2T26: ingresos $180,1M (+74%), con −$44,3M de amortización de warrant de cliente",
+   "sources": [
+    [
+     "EX-99.1 8-K 12-ago-2026",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrsannouncesfinancialresu.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.7431911887110199,
+   "rev_growth_yoy_prev": 0.9435444971460729,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": -1688,
+   "nonrecurring_in_beat": false,
+   "note": "Ingresos reducidos en $44,3M por la amortización del warrant de cliente (contra-ingreso). SBC del trimestre $377,0M por la salida a bolsa. [VERIFY: hora de publicación; guía 3T $214–216M según terceros; sin consenso]",
+   "gap_pct": -16.05,
+   "rvol": 2.63,
+   "close_in_range": 0.57,
+   "day2_follow": false,
+   "dollar_volume": 3826634357,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-08-13",
+   "reaction_close_chg_pct": -11.85
+  }
+ ],
+ "supply": [
+  {
+   "id": "lk_oct28",
+   "kind": "lockup",
+   "name": "Liberación de lock-up del 28-oct-2026",
+   "shares": 19400000.0,
+   "capacity_usd": null,
+   "price_basis": 185.0,
+   "gate": "dated",
+   "date": "2026-10-28",
+   "notes": "«Up to» 19,4M acciones de consejeros, directivos, empleados y no empleados",
+   "src": [
+    [
+     "424B4 (Shares Eligible for Future Sale)",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    ]
+   ]
+  },
+  {
+   "id": "lk_final",
+   "kind": "lockup",
+   "name": "Fin del periodo de lock-up (resto de acciones)",
+   "shares": 36500000.0,
+   "capacity_usd": null,
+   "price_basis": 185.0,
+   "gate": "dated",
+   "date": "2026-11-09",
+   "notes": "El antes de: 2.º día hábil tras los resultados del 3T26 o 180 días desde el prospecto (13-may → 9-nov-2026). Acciones ≈ 237,6M − 30M de la OPV − 171,1M de liberaciones anticipadas. [VERIFY: estimación; afiliados sujetos a la Rule 144]",
+   "src": [
+    [
+     "424B4 (Lock-up Period)",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 181700000.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "rev_yoy": 1.044548651817116,
+   "accel_pp": 11.0547573054933,
+   "gm": 0.7512943883905654,
+   "rule40": 121.5037067073428,
+   "ev_sales": 40.21282274090255,
+   "rs_3m": 25.0
+  },
+  {
+   "ticker": "ASX",
+   "name": "ASE Technology Holding (ADR)",
+   "rev_yoy": 0.2674228855721392,
+   "accel_pp": 9.524277447077779,
+   "gm": 0.19485243458331575,
+   "rule40": 9.160840077806398,
+   "ev_sales": 4.220414986221557,
+   "rs_3m": 75.0
+  },
+  {
+   "ticker": "CRDO",
+   "name": "Credo Technology",
+   "rev_yoy": 1.1472829643974647,
+   "accel_pp": -42.294494326317356,
+   "gm": 0.6706667630393861,
+   "rule40": 192.6811780628786,
+   "ev_sales": 19.566499948786028,
+   "rs_3m": 8.333333333333332
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell Technology",
+   "rev_yoy": 0.3654852699267235,
+   "accel_pp": 8.980331983966593,
+   "gm": 0.5221104091933589,
+   "rule40": 48.92837288967687,
+   "ev_sales": 21.249508333666853,
+   "rs_3m": 91.66666666666666
+  },
+  {
+   "ticker": "MXL",
+   "name": "MaxLinear",
+   "rev_yoy": 0.5517171661474272,
+   "accel_pp": 12.167745092951465,
+   "gm": 0.5747719403090011,
+   "rule40": 51.08605196214363,
+   "ev_sales": 11.473028939311751,
+   "rs_3m": 50.0
+  },
+  {
+   "ticker": "SMTC",
+   "name": "Semtech",
+   "rev_yoy": 0.32730823132975395,
+   "accel_pp": 16.815105774575013,
+   "gm": 0.5211983199403191,
+   "rule40": 34.28522685306382,
+   "ev_sales": 11.112692152936736,
+   "rs_3m": 83.33333333333334
+  },
+  {
+   "ticker": "SWKS",
+   "name": "Skyworks Solutions (incluye Qorvo desde el 5-oct-2026)",
+   "rev_yoy": -0.035981495455151946,
+   "accel_pp": 0.2806022224915883,
+   "gm": 0.4429338182239809,
+   "rule40": 14.096067798236486,
+   "ev_sales": 2.8109179378243816,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "TSEM",
+   "name": "Tower Semiconductor",
+   "rev_yoy": 0.2365687346967298,
+   "accel_pp": 8.17232702524715,
+   "gm": 0.2687088020879946,
+   "rule40": 32.940242220804535,
+   "ev_sales": 12.090528474123015,
+   "rs_3m": 16.666666666666664
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 0.0,
+  "rs_3m": 0.0,
+  "rs_6m": null,
+  "adr_pct": 6.375884507328156,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-10-28",
+   "kind": "lockup",
+   "text": "Liberación de lock-up: hasta 19,4M acciones",
+   "src": [
+    [
+     "424B4",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "kind": "lockup",
+   "text": "Fin del lock-up (180 días desde el prospecto, salvo que los resultados del 3T26 lleguen antes)",
+   "src": [
+    [
+     "424B4",
+     "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "earnings",
+   "text": "Resultados 3T26 [VERIFY: fecha estimada por terceros; no anunciada]",
+   "src": []
+  }
+ ],
+ "header": {
+  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
+  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
+  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
+  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
+  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
+  "group": "Pares = resto del universo de semis."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Sistemas de cómputo de IA a escala de oblea (WSE) vendidos como hardware y, sobre todo, como servicio de inferencia en la nube"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Chip de IA propio vendido como sistema o servicio en la nube · adyacente"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [],
+  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "financials_note": "Solo 10 trimestres públicos: 1T24–4T25 de la tabla «Quarterly Results of Operations» del 424B4 y 1T26–2T26 del XBRL de los 10-Q. El 424B4 no da CFO ni capex trimestrales del 3T25 y 4T25: el FCF TTM, la Rule of 40 y los accruals salen n/d [VERIFY]. Las acciones diluidas anteriores a la OPV no son comparables y se dejan vacías. El neto del 2T25 (+$309,5M) y del 3T24 (−$309,3M) incluye variaciones de valor razonable no operativas. Acciones: clases A + B + N de la portada del 10-Q (5-ago-2026).",
+  "quality": [],
+  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
+  "valuation": [],
+  "group_read": "",
+  "risks": [],
+  "plan": [],
+  "verdict": ""
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 12-ago-2026",
+   "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrsannouncesfinancialresu.htm"
+  ],
+  [
+   "424B4 (Shares Eligible for Future Sale)",
+   "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+  ],
+  [
+   "424B4 (Lock-up Period)",
+   "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm"
+  ]
+ ]
+}
