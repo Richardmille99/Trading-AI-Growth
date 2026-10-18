@@ -1,0 +1,466 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "ASX",
+  "issuer": "ASE Technology Holding (ADR)",
+  "cik": "0001122411",
+  "exchange": "NYSE (ADR)",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_manufacturing",
+  "theme": "Semiconductores y adyacentes · IA",
+  "group": "Foundry especializada u OSAT (encapsulado y test) para terceros",
+  "subgroup": "fabricacion",
+  "synthetic": false,
+  "primary_catalyst": "q2_26",
+  "descriptor": "Mayor grupo de encapsulado y test (OSAT) del mundo, incluido el encapsulado avanzado para IA, más fabricación electrónica (EMS, USI). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0000950103-26-015546",
+  "last_filing_seen_date": "2026-10-14",
+  "phase": "fundamentales"
+ },
+ "market": {
+  "price": 39.529998779296875,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00. Sin amplitud (ratio de Stockbee, T2108)."
+ },
+ "financials": {
+  "source": "6-K de resultados trimestrales de ASE (Taiwan-IFRS); 2T25 y 1T26 en versión «retrospectively adjusted» del 6-K 2T26",
+  "shares_out": 2226898791.0,
+  "shares_out_date": "2026-02-28",
+  "shares_out_note": "4.453.797.582 acciones ordinarias (20-F, 28-feb-2026) ÷ 2 = equivalente en ADS (1 ADS = 2 acciones)",
+  "quarters": [
+   {
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "revenue": 5011111111.111111,
+    "gross_profit": 827104851.3302034,
+    "op_income": 358998435.0547731,
+    "net_income": 304632237.8716745,
+    "cfo": 690516431.9248827,
+    "capex": 618748043.8184663,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2195732500.0,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-25-013870"
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "revenue": 5078685446.00939,
+    "gross_profit": 833521126.7605634,
+    "op_income": 350892018.7793427,
+    "net_income": 291455399.06103283,
+    "cfo": 1103129890.453834,
+    "capex": 987355242.5665102,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2199704500.0,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-26-001661"
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 4637026604.068857,
+    "gross_profit": 779123630.6729264,
+    "op_income": 302691705.7902973,
+    "net_income": 236431924.8826291,
+    "cfo": 625133020.344288,
+    "capex": 1137683881.0641627,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2205119000.0,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-26-006339"
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 4718309859.154929,
+    "gross_profit": 803974960.8763694,
+    "op_income": 319029733.9593114,
+    "net_income": 235399061.03286386,
+    "cfo": 1153208137.71518,
+    "capex": 1349107981.2206573,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2197593500.0,
+    "ar": 3226948356.807512,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 1785852895.1486697,
+    "cash": 2406979655.71205,
+    "debt": 7270516431.924883,
+    "total_assets": 23949139280.125195,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-25-013870, 0000950103-26-011351"
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": 5276025039.123631,
+    "gross_profit": 903818466.3536776,
+    "op_income": 413176838.81064165,
+    "net_income": 340219092.3317684,
+    "cfo": 457777777.7777778,
+    "capex": 1405946791.862285,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2209560500.0,
+    "ar": 3933114241.001565,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 2071424100.1564944,
+    "cash": 2610704225.352113,
+    "debt": 8975273865.414711,
+    "total_assets": 26373834115.805946,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-25-013870, 0000950103-26-001661"
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": 5568544600.938967,
+    "gross_profit": 1087198748.0438185,
+    "op_income": 553677621.2832551,
+    "net_income": 460500782.47261345,
+    "cfo": 2216118935.8372455,
+    "capex": 1182347417.8403757,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2231167500.0,
+    "ar": 3913677621.283255,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 2171611893.5837245,
+    "cash": 3191956181.533646,
+    "debt": 8265946791.862285,
+    "total_assets": 27835148669.79656,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-26-001661, 0000950103-26-006339"
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 5435430359.937402,
+    "gross_profit": 1089765258.2159624,
+    "op_income": 547511737.0892019,
+    "net_income": 442316118.93583727,
+    "cfo": 1138873239.4366198,
+    "capex": 1380031298.9045384,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2242593000.0,
+    "ar": 3943881064.162754,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 2380469483.568075,
+    "cash": 3566572769.9530516,
+    "debt": 8042441314.55399,
+    "total_assets": 29977370892.01878,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-26-006339, 0000950103-26-011351"
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 5980093896.713614,
+    "gross_profit": 1256651017.2143974,
+    "op_income": 661471048.513302,
+    "net_income": 659405320.8137715,
+    "cfo": 1471486697.9655712,
+    "capex": 2499186228.482003,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 2252851500.0,
+    "ar": 4485696400.625978,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 2700093896.713615,
+    "cash": 3360657276.995305,
+    "debt": 9278184663.536776,
+    "total_assets": 33531580594.679184,
+    "src": "6-K de resultados (Taiwan-IFRS, NT$ → US$ a 31,95) acc. 0000950103-26-011351"
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Ingresos del 3T26 (ventas mensuales)",
+    "value": "NT$244.161M · +44,8% interanual · +27,8% secuencial (US$7.642M)",
+    "prior": "NT$168.569M (3T25)",
+    "src": [
+     [
+      "6-K 12-oct-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "ATM (encapsulado y test) del 3T26",
+    "value": "US$4.741M · +40,6% interanual",
+    "prior": "US$3.371M (3T25)",
+    "src": [
+     [
+      "6-K 12-oct-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Mezcla del 2T26",
+    "value": "Encapsulado 52% · test 12% · EMS 34% · otros 1%",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 30-jul-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Capex de equipos (2T26)",
+    "value": "US$1.695M (US$840M encapsulado, US$804M test)",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 30-jul-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Concentración de clientes ATM (2T26)",
+    "value": "5 mayores 44%; 10 mayores 60%; un cliente > 10%",
+    "prior": "5 mayores 43%; 10 mayores 58% (1T26)",
+    "src": [
+     [
+      "6-K 30-jul-2026",
+      ""
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2_26",
+   "type": "earnings",
+   "date": "2026-07-30",
+   "time_et": "premarket",
+   "headline": "Resultados 2T26: NT$191.064M (+26,7%), margen bruto 21,0%",
+   "sources": [
+    [
+     "6-K 30-jul-2026",
+     "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.2674228855721392,
+   "rev_growth_yoy_prev": 0.17218011110136144,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 397,
+   "nonrecurring_in_beat": false,
+   "note": "Publicado antes de la apertura en EE. UU. Ventas del 3T26 ya publicadas el 12-oct: NT$244.161M, +44,8% interanual. [VERIFY: sin consenso]",
+   "gap_pct": 3.86,
+   "rvol": 1.2,
+   "close_in_range": 0.93,
+   "day2_follow": true,
+   "dollar_volume": 478316988,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-07-30",
+   "reaction_close_chg_pct": 11.73
+  }
+ ],
+ "supply": [],
+ "supply_context": {
+  "float_shares": null,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "rev_yoy": 1.044548651817116,
+   "accel_pp": 11.0547573054933,
+   "gm": 0.7512943883905654,
+   "rule40": 121.5037067073428,
+   "ev_sales": 40.21282274090255,
+   "rs_3m": 25.0
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras Systems",
+   "rev_yoy": 0.7431911887110199,
+   "accel_pp": -20.035330843505307,
+   "gm": 0.348336132034031,
+   "rule40": null,
+   "ev_sales": 34.10921020536091,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "CRDO",
+   "name": "Credo Technology",
+   "rev_yoy": 1.1472829643974647,
+   "accel_pp": -42.294494326317356,
+   "gm": 0.6706667630393861,
+   "rule40": 192.6811780628786,
+   "ev_sales": 19.566499948786028,
+   "rs_3m": 8.333333333333332
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell Technology",
+   "rev_yoy": 0.3654852699267235,
+   "accel_pp": 8.980331983966593,
+   "gm": 0.5221104091933589,
+   "rule40": 48.92837288967687,
+   "ev_sales": 21.249508333666853,
+   "rs_3m": 91.66666666666666
+  },
+  {
+   "ticker": "MXL",
+   "name": "MaxLinear",
+   "rev_yoy": 0.5517171661474272,
+   "accel_pp": 12.167745092951465,
+   "gm": 0.5747719403090011,
+   "rule40": 51.08605196214363,
+   "ev_sales": 11.473028939311751,
+   "rs_3m": 50.0
+  },
+  {
+   "ticker": "SMTC",
+   "name": "Semtech",
+   "rev_yoy": 0.32730823132975395,
+   "accel_pp": 16.815105774575013,
+   "gm": 0.5211983199403191,
+   "rule40": 34.28522685306382,
+   "ev_sales": 11.112692152936736,
+   "rs_3m": 83.33333333333334
+  },
+  {
+   "ticker": "SWKS",
+   "name": "Skyworks Solutions (incluye Qorvo desde el 5-oct-2026)",
+   "rev_yoy": -0.035981495455151946,
+   "accel_pp": 0.2806022224915883,
+   "gm": 0.4429338182239809,
+   "rule40": 14.096067798236486,
+   "ev_sales": 2.8109179378243816,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "TSEM",
+   "name": "Tower Semiconductor",
+   "rev_yoy": 0.2365687346967298,
+   "accel_pp": 8.17232702524715,
+   "gm": 0.2687088020879946,
+   "rule40": 32.940242220804535,
+   "ev_sales": 12.090528474123015,
+   "rs_3m": 16.666666666666664
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 83.33333333333334,
+  "rs_3m": 75.0,
+  "rs_6m": 72.72727272727273,
+  "adr_pct": 3.59780351675707,
+  "ema_stack": true,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-10-29",
+   "kind": "earnings",
+   "text": "Resultados 3T26 [VERIFY: fecha estimada; el 3T25 fue el 30-oct-2025; terceros estiman 27-oct]",
+   "src": []
+  }
+ ],
+ "header": {
+  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
+  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
+  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
+  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
+  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
+  "group": "Pares = resto del universo de semis."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Mayor grupo de encapsulado y test (OSAT) del mundo, incluido el encapsulado avanzado para IA, más fabricación electrónica (EMS, USI)"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Foundry especializada u OSAT (encapsulado y test) para terceros · adyacente"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [],
+  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "financials_note": "Emisor extranjero (20-F/6-K, **Taiwan-IFRS**, NT$). **Trimestres cargados a mano** desde los 6-K de resultados (3T25, 4T25, 1T26 y 2T26), que dan 8 trimestres. El 2T25 y el 1T26 son los «retrospectively adjusted» del 6-K del 2T26: el resultado operativo del 1T26 pasa de 17.532 a 17.493. Los importes están en US$ a un tipo fijo de 31,95 NT$/US$, el implícito en el 6-K de ventas del 3T26; el crecimiento no depende del tipo. Las acciones están en equivalente ADS (1 ADS = 2 acciones): 4.453,8M ordinarias a 28-feb-2026 (20-F). La deuda incluye préstamos a corto y largo plazo y bonos. El SBC no se publica.",
+  "quality": [],
+  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
+  "valuation": [],
+  "group_read": "",
+  "risks": [],
+  "plan": [],
+  "verdict": ""
+ },
+ "sources": [
+  [
+   "6-K 30-jul-2026",
+   "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm"
+  ]
+ ]
+}

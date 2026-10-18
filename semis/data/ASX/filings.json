@@ -1,0 +1,1596 @@
+{
+ "cik": 1122411,
+ "name": "ASE Technology Holding Co., Ltd.",
+ "tickers": [
+  "ASX"
+ ],
+ "fiscal_year_end": "1231",
+ "sic": "3674",
+ "sic_description": "Semiconductors & Related Devices",
+ "filings": [
+  {
+   "form": "4",
+   "filed": "2026-10-14",
+   "report_date": "2026-10-12",
+   "accession": "0000950103-26-015546",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326015546/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-10-13",
+   "report_date": "2026-10-13",
+   "accession": "0000950103-26-015458",
+   "primary_doc": "dp254866_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326015458/dp254866_6k.htm"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-24",
+   "report_date": "2026-09-22",
+   "accession": "0000950103-26-014420",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326014420/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013694",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013694/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013693",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013693/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013692",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013692/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013691",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013691/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013690",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013690/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013689",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013689/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013688",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013688/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013687",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013687/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013686",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013686/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013685",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013685/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013684",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013684/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-07",
+   "accession": "0000950103-26-013683",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013683/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-09-09",
+   "report_date": "2026-09-09",
+   "accession": "0000950103-26-013682",
+   "primary_doc": "dp253117_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326013682/dp253117_6k.htm"
+  },
+  {
+   "form": "4",
+   "filed": "2026-08-19",
+   "report_date": "2026-08-12",
+   "accession": "0000950103-26-012615",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326012615/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-08-10",
+   "report_date": "2026-08-10",
+   "accession": "0000950103-26-012129",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326012129/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-10",
+   "report_date": "2026-08-10",
+   "accession": "0000950103-26-012092",
+   "primary_doc": "dp251538_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326012092/dp251538_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-03",
+   "report_date": "2026-08-03",
+   "accession": "0001193125-26-330709",
+   "primary_doc": "d77314d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526330709/d77314d6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-08-03",
+   "report_date": "2026-08-03",
+   "accession": "0001193125-26-329634",
+   "primary_doc": "d174900d6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526329634/d174900d6k.htm"
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-31",
+   "report_date": "2026-07-29",
+   "accession": "0000950103-26-011528",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011528/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-30",
+   "report_date": "2026-07-30",
+   "accession": "0000950103-26-011353",
+   "primary_doc": "dp250875_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011353/dp250875_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-30",
+   "report_date": "2026-07-30",
+   "accession": "0000950103-26-011351",
+   "primary_doc": "dp250868_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011351/dp250868_6k.htm"
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-24",
+   "report_date": "2026-07-22",
+   "accession": "0000950103-26-011125",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326011125/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-17",
+   "report_date": "2026-07-15",
+   "accession": "0000950103-26-010761",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326010761/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-15",
+   "report_date": "2026-07-13",
+   "accession": "0000950103-26-010631",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326010631/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-07-09",
+   "report_date": "2026-07-09",
+   "accession": "0000950103-26-010427",
+   "primary_doc": "dp249884_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326010427/dp249884_6k.htm"
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-08",
+   "report_date": "2026-07-06",
+   "accession": "0000950103-26-010378",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326010378/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-02",
+   "report_date": "2026-06-30",
+   "accession": "0000950103-26-010022",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326010022/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-06-23",
+   "report_date": "2026-06-18",
+   "accession": "0000950103-26-009314",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326009314/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-06-09",
+   "report_date": "2026-06-09",
+   "accession": "0000950103-26-008681",
+   "primary_doc": "dp248155_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326008681/dp248155_6k.htm"
+  },
+  {
+   "form": "4",
+   "filed": "2026-06-03",
+   "report_date": "2026-06-01",
+   "accession": "0000950103-26-008428",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326008428/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "SD",
+   "filed": "2026-05-29",
+   "report_date": null,
+   "accession": "0000950103-26-008008",
+   "primary_doc": "dp246807_sd.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326008008/dp246807_sd.htm"
+  },
+  {
+   "form": "3/A",
+   "filed": "2026-05-27",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-007758",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326007758/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0000950103-26-007757",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326007757/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-21",
+   "report_date": "2026-05-19",
+   "accession": "0000950103-26-007565",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326007565/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-18",
+   "report_date": "2026-05-14",
+   "accession": "0000950103-26-007309",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326007309/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K/A",
+   "filed": "2026-05-08",
+   "report_date": "2026-05-08",
+   "accession": "0000950103-26-007005",
+   "primary_doc": "dp246492_6ka.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326007005/dp246492_6ka.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-05-08",
+   "report_date": "2026-05-08",
+   "accession": "0000950103-26-006979",
+   "primary_doc": "dp246487_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006979/dp246487_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-04-29",
+   "report_date": "2026-04-29",
+   "accession": "0000950103-26-006340",
+   "primary_doc": "dp245879_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006340/dp245879_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-04-29",
+   "report_date": "2026-04-29",
+   "accession": "0000950103-26-006339",
+   "primary_doc": "dp245865_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006339/dp245865_6k.htm"
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-28",
+   "report_date": "2026-04-24",
+   "accession": "0000950103-26-006241",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006241/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-23",
+   "report_date": "2026-04-21",
+   "accession": "0000950103-26-006076",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006076/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-22",
+   "report_date": "2026-04-20",
+   "accession": "0000950103-26-006018",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326006018/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-20",
+   "report_date": "2026-04-16",
+   "accession": "0000950103-26-005917",
+   "primary_doc": "xslF345X06/dp245351_4-chenj.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326005917/xslF345X06/dp245351_4-chenj.xml"
+  },
+  {
+   "form": "SCHEDULE 13D/A",
+   "filed": "2026-04-15",
+   "report_date": null,
+   "accession": "0000950103-26-005722",
+   "primary_doc": "xslSCHEDULE_13D_X02/primary_doc.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326005722/xslSCHEDULE_13D_X02/primary_doc.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-15",
+   "report_date": "2026-04-13",
+   "accession": "0000950103-26-005721",
+   "primary_doc": "xslF345X06/dp245194_4-chen.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326005721/xslF345X06/dp245194_4-chen.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-13",
+   "report_date": "2026-04-09",
+   "accession": "0000950103-26-005636",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326005636/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-10",
+   "report_date": "2026-04-08",
+   "accession": "0000950103-26-005592",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326005592/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-04-10",
+   "report_date": "2026-04-10",
+   "accession": "0000950103-26-005590",
+   "primary_doc": "dp245086_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326005590/dp245086_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-04-08",
+   "report_date": "2026-04-08",
+   "accession": "0000950103-26-005444",
+   "primary_doc": "dp245000_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326005444/dp245000_6k.htm"
+  },
+  {
+   "form": "20-F",
+   "filed": "2026-04-01",
+   "report_date": "2025-12-31",
+   "accession": "0001193125-26-135585",
+   "primary_doc": "d50802d20f.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-03-27",
+   "report_date": "2026-03-27",
+   "accession": "0000950103-26-004730",
+   "primary_doc": "dp244271_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004730/dp244271_6k.htm"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004294",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004294/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004293",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004293/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004284",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004284/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004283",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004283/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004280",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004280/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004278",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004278/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004276",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004276/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004271",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004271/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004268",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004268/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004267",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004267/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004264",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004264/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004260",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004260/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004259",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004259/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004255",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004255/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004253",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004253/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004251",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004251/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004250",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004250/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004248",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004248/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004246",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004246/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004244",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004244/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004243",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004243/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004240",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004240/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004237",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004237/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004225",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004225/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004197",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004197/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004196",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004196/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004194",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004194/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004193",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004193/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004191",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004191/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004190",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004190/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004187",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004187/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "3",
+   "filed": "2026-03-18",
+   "report_date": "2026-03-18",
+   "accession": "0000950103-26-004184",
+   "primary_doc": "xslF345X06/ownership.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326004184/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-03-10",
+   "report_date": "2026-03-10",
+   "accession": "0000950103-26-003486",
+   "primary_doc": "dp243055_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326003486/dp243055_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-02-10",
+   "report_date": "2026-02-10",
+   "accession": "0000950103-26-001874",
+   "primary_doc": "dp241377_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326001874/dp241377_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-02-05",
+   "report_date": "2026-02-05",
+   "accession": "0000950103-26-001662",
+   "primary_doc": "dp241167_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326001662/dp241167_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-02-05",
+   "report_date": "2026-02-05",
+   "accession": "0000950103-26-001661",
+   "primary_doc": "dp241159_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326001661/dp241159_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2026-01-09",
+   "report_date": "2026-01-09",
+   "accession": "0000950103-26-000306",
+   "primary_doc": "dp239798_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326000306/dp239798_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-12-09",
+   "report_date": "2025-12-09",
+   "accession": "0000950103-25-015890",
+   "primary_doc": "dp238545_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325015890/dp238545_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-11-10",
+   "report_date": "2025-11-10",
+   "accession": "0000950103-25-014487",
+   "primary_doc": "dp237148_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325014487/dp237148_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-10-30",
+   "report_date": "2025-10-30",
+   "accession": "0000950103-25-013870",
+   "primary_doc": "dp236570_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325013870/dp236570_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-10-30",
+   "report_date": "2025-10-30",
+   "accession": "0000950103-25-013869",
+   "primary_doc": "dp236581_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325013869/dp236581_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-10-09",
+   "report_date": "2025-10-09",
+   "accession": "0000950103-25-013004",
+   "primary_doc": "dp235711_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325013004/dp235711_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-09-10",
+   "report_date": "2025-09-09",
+   "accession": "0000950103-25-011469",
+   "primary_doc": "dp234163_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325011469/dp234163_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-08-11",
+   "report_date": "2025-08-11",
+   "accession": "0000950103-25-010135",
+   "primary_doc": "dp232904_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325010135/dp232904_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-07-31",
+   "report_date": "2025-07-31",
+   "accession": "0000950103-25-009600",
+   "primary_doc": "dp232397_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325009600/dp232397_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-07-31",
+   "report_date": "2025-07-31",
+   "accession": "0000950103-25-009595",
+   "primary_doc": "dp232391_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325009595/dp232391_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-07-10",
+   "report_date": "2025-07-10",
+   "accession": "0000950103-25-008635",
+   "primary_doc": "dp231423_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325008635/dp231423_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-06-10",
+   "report_date": "2025-06-10",
+   "accession": "0000950103-25-007182",
+   "primary_doc": "dp229985_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325007182/dp229985_6k.htm"
+  },
+  {
+   "form": "SD",
+   "filed": "2025-05-29",
+   "report_date": null,
+   "accession": "0000950103-25-006541",
+   "primary_doc": "dp228991_sd.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325006541/dp228991_sd.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-05-09",
+   "report_date": "2025-05-09",
+   "accession": "0000950103-25-005860",
+   "primary_doc": "dp228691_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325005860/dp228691_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-04-30",
+   "report_date": "2025-04-30",
+   "accession": "0000950103-25-005460",
+   "primary_doc": "dp228295_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325005460/dp228295_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-04-30",
+   "report_date": "2025-04-30",
+   "accession": "0000950103-25-005459",
+   "primary_doc": "dp228293_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325005459/dp228293_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-04-21",
+   "report_date": "2025-04-10",
+   "accession": "0000950103-25-005075",
+   "primary_doc": "dp227504_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325005075/dp227504_6k.htm"
+  },
+  {
+   "form": "6-K/A",
+   "filed": "2025-04-07",
+   "report_date": "2025-04-07",
+   "accession": "0000950103-25-004448",
+   "primary_doc": "dp227317_6ka.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325004448/dp227317_6ka.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-04-01",
+   "report_date": "2025-04-01",
+   "accession": "0000950103-25-004153",
+   "primary_doc": "dp227055_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325004153/dp227055_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-03-31",
+   "report_date": "2025-03-31",
+   "accession": "0000950103-25-004067",
+   "primary_doc": "dp226967_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325004067/dp226967_6k.htm"
+  },
+  {
+   "form": "20-F",
+   "filed": "2025-03-27",
+   "report_date": "2024-12-31",
+   "accession": "0001193125-25-064603",
+   "primary_doc": "d889608d20f.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312525064603/d889608d20f.htm"
+  },
+  {
+   "form": "SCHEDULE 13D/A",
+   "filed": "2025-03-12",
+   "report_date": null,
+   "accession": "0000950103-25-003297",
+   "primary_doc": "xslSCHEDULE_13D_X01/primary_doc.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325003297/xslSCHEDULE_13D_X01/primary_doc.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-03-10",
+   "report_date": "2025-03-10",
+   "accession": "0000950103-25-003196",
+   "primary_doc": "dp226080_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325003196/dp226080_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-02-13",
+   "report_date": "2025-02-13",
+   "accession": "0000950103-25-001938",
+   "primary_doc": "dp224883_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325001938/dp224883_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-02-13",
+   "report_date": "2025-02-13",
+   "accession": "0000950103-25-001937",
+   "primary_doc": "dp224882_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325001937/dp224882_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-02-10",
+   "report_date": "2025-02-10",
+   "accession": "0000950103-25-001782",
+   "primary_doc": "dp224745_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325001782/dp224745_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-02-07",
+   "report_date": "2025-02-07",
+   "accession": "0000950103-25-001730",
+   "primary_doc": "dp224691_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325001730/dp224691_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2025-01-10",
+   "report_date": "2025-01-10",
+   "accession": "0000950103-25-000341",
+   "primary_doc": "dp223328_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010325000341/dp223328_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-12-10",
+   "report_date": "2024-12-10",
+   "accession": "0000950103-24-017479",
+   "primary_doc": "dp221862_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324017479/dp221862_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-11-12",
+   "report_date": "2024-11-11",
+   "accession": "0000950103-24-016151",
+   "primary_doc": "dp220570_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324016151/dp220570_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-10-31",
+   "report_date": "2024-10-31",
+   "accession": "0000950103-24-015657",
+   "primary_doc": "dp220106_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324015657/dp220106_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-10-31",
+   "report_date": "2024-10-31",
+   "accession": "0000950103-24-015656",
+   "primary_doc": "dp220100_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324015656/dp220100_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-10-09",
+   "report_date": "2024-10-09",
+   "accession": "0000950103-24-014731",
+   "primary_doc": "dp219179_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324014731/dp219179_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-09-10",
+   "report_date": "2024-09-10",
+   "accession": "0000950103-24-013368",
+   "primary_doc": "dp217847_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324013368/dp217847_6k.htm"
+  },
+  {
+   "form": "S-8",
+   "filed": "2024-08-15",
+   "report_date": null,
+   "accession": "0000950103-24-012233",
+   "primary_doc": "dp216657_s8.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324012233/dp216657_s8.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-08-09",
+   "report_date": "2024-08-09",
+   "accession": "0000950103-24-011983",
+   "primary_doc": "dp216401_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324011983/dp216401_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-07-25",
+   "report_date": "2024-07-25",
+   "accession": "0000950103-24-010716",
+   "primary_doc": "dp215231_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324010716/dp215231_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-07-25",
+   "report_date": "2024-07-25",
+   "accession": "0000950103-24-010715",
+   "primary_doc": "dp215240_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324010715/dp215240_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-07-09",
+   "report_date": "2024-07-08",
+   "accession": "0000950103-24-009738",
+   "primary_doc": "dp214235_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324009738/dp214235_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-06-11",
+   "report_date": "2024-06-11",
+   "accession": "0000950103-24-008144",
+   "primary_doc": "dp212702_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324008144/dp212702_6k.htm"
+  },
+  {
+   "form": "SD",
+   "filed": "2024-05-31",
+   "report_date": null,
+   "accession": "0000950103-24-007485",
+   "primary_doc": "dp211472_sd.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324007485/dp211472_sd.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-05-09",
+   "report_date": "2024-05-09",
+   "accession": "0000950103-24-006484",
+   "primary_doc": "dp211027_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324006484/dp211027_6k.htm"
+  },
+  {
+   "form": "SC 13D",
+   "filed": "2024-05-08",
+   "report_date": null,
+   "accession": "0000950103-24-006446",
+   "primary_doc": "dp210911_sc13d.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324006446/dp210911_sc13d.htm"
+  },
+  {
+   "form": "3",
+   "filed": "2024-05-08",
+   "report_date": "2024-05-03",
+   "accession": "0000950103-24-006445",
+   "primary_doc": "xslF345X02/dp210939_3-ainos.xml",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324006445/xslF345X02/dp210939_3-ainos.xml"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-04-25",
+   "report_date": "2024-04-25",
+   "accession": "0000950103-24-005703",
+   "primary_doc": "dp210282_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324005703/dp210282_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-04-25",
+   "report_date": "2024-04-25",
+   "accession": "0000950103-24-005702",
+   "primary_doc": "dp210278_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324005702/dp210278_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-04-09",
+   "report_date": "2024-04-09",
+   "accession": "0000950103-24-005021",
+   "primary_doc": "dp209587_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324005021/dp209587_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-04-08",
+   "report_date": "2024-04-08",
+   "accession": "0000950103-24-004972",
+   "primary_doc": "dp209527_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324004972/dp209527_6k.htm"
+  },
+  {
+   "form": "20-F",
+   "filed": "2024-04-03",
+   "report_date": "2023-12-31",
+   "accession": "0001193125-24-085380",
+   "primary_doc": "d434934d20f.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312524085380/d434934d20f.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-03-28",
+   "report_date": "2024-03-27",
+   "accession": "0000950103-24-004515",
+   "primary_doc": "dp208951_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324004515/dp208951_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-03-11",
+   "report_date": "2024-03-11",
+   "accession": "0000950103-24-003614",
+   "primary_doc": "dp208187_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324003614/dp208187_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-02-22",
+   "report_date": "2024-02-22",
+   "accession": "0000950103-24-002564",
+   "primary_doc": "dp207179_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324002564/dp207179_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-02-15",
+   "report_date": "2024-02-15",
+   "accession": "0000950103-24-002232",
+   "primary_doc": "dp206820_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324002232/dp206820_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-02-01",
+   "report_date": "2024-02-01",
+   "accession": "0000950103-24-001549",
+   "primary_doc": "dp206173_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324001549/dp206173_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-02-01",
+   "report_date": "2024-02-01",
+   "accession": "0000950103-24-001548",
+   "primary_doc": "dp206183_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324001548/dp206183_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2024-01-09",
+   "report_date": "2024-01-09",
+   "accession": "0000950103-24-000453",
+   "primary_doc": "dp205077_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010324000453/dp205077_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-12-11",
+   "report_date": "2023-12-11",
+   "accession": "0000950103-23-017351",
+   "primary_doc": "dp203858_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323017351/dp203858_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-11-09",
+   "report_date": "2023-11-09",
+   "accession": "0000950103-23-016117",
+   "primary_doc": "dp202654_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323016117/dp202654_6k.htm"
+  },
+  {
+   "form": "S-8",
+   "filed": "2023-10-27",
+   "report_date": null,
+   "accession": "0001193125-23-264418",
+   "primary_doc": "d550200ds8.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312523264418/d550200ds8.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-10-26",
+   "report_date": "2023-10-26",
+   "accession": "0000950103-23-015368",
+   "primary_doc": "dp201873_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323015368/dp201873_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-10-26",
+   "report_date": "2023-10-26",
+   "accession": "0000950103-23-015367",
+   "primary_doc": "dp201870_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323015367/dp201870_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-10-11",
+   "report_date": "2023-10-11",
+   "accession": "0000950103-23-014828",
+   "primary_doc": "dp201354_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323014828/dp201354_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-09-11",
+   "report_date": "2023-09-11",
+   "accession": "0000950103-23-013447",
+   "primary_doc": "dp199911_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323013447/dp199911_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-08-09",
+   "report_date": "2023-08-09",
+   "accession": "0000950103-23-011754",
+   "primary_doc": "dp198225_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323011754/dp198225_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-07-27",
+   "report_date": "2023-07-27",
+   "accession": "0000950103-23-010822",
+   "primary_doc": "dp197314_6k-2.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323010822/dp197314_6k-2.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-07-27",
+   "report_date": "2023-07-27",
+   "accession": "0000950103-23-010821",
+   "primary_doc": "dp197313_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323010821/dp197313_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-07-10",
+   "report_date": "2023-07-10",
+   "accession": "0000950103-23-010043",
+   "primary_doc": "dp196530_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323010043/dp196530_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-06-09",
+   "report_date": "2023-06-09",
+   "accession": "0000950103-23-008682",
+   "primary_doc": "dp195175_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323008682/dp195175_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-06-09",
+   "report_date": "2023-06-09",
+   "accession": "0000950103-23-008681",
+   "primary_doc": "dp195075_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323008681/dp195075_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-06-07",
+   "report_date": "2023-06-07",
+   "accession": "0000950103-23-008570",
+   "primary_doc": "dp195076_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323008570/dp195076_6k.htm"
+  },
+  {
+   "form": "SD",
+   "filed": "2023-05-31",
+   "report_date": null,
+   "accession": "0000950103-23-008127",
+   "primary_doc": "dp193728_sd.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323008127/dp193728_sd.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-05-26",
+   "report_date": "2023-05-26",
+   "accession": "0000950103-23-007953",
+   "primary_doc": "dp194437_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323007953/dp194437_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-05-16",
+   "report_date": "2023-05-16",
+   "accession": "0000950103-23-007326",
+   "primary_doc": "dp193873_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323007326/dp193873_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-05-09",
+   "report_date": "2023-05-09",
+   "accession": "0000950103-23-007000",
+   "primary_doc": "dp193526_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323007000/dp193526_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-04-27",
+   "report_date": "2023-04-27",
+   "accession": "0000950103-23-006282",
+   "primary_doc": "dp192855_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323006282/dp192855_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-04-27",
+   "report_date": "2023-04-27",
+   "accession": "0000950103-23-006281",
+   "primary_doc": "dp192845_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323006281/dp192845_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-04-11",
+   "report_date": "2023-04-11",
+   "accession": "0000950103-23-005590",
+   "primary_doc": "dp192101_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323005590/dp192101_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-04-11",
+   "report_date": "2023-04-11",
+   "accession": "0000950103-23-005589",
+   "primary_doc": "dp192100_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323005589/dp192100_6k.htm"
+  },
+  {
+   "form": "20-F",
+   "filed": "2023-04-10",
+   "report_date": "2022-12-31",
+   "accession": "0001193125-23-095811",
+   "primary_doc": "d418771d20f.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312523095811/d418771d20f.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-03-30",
+   "report_date": "2023-03-30",
+   "accession": "0000950103-23-004930",
+   "primary_doc": "dp191513_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323004930/dp191513_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-03-09",
+   "report_date": "2023-03-09",
+   "accession": "0000950103-23-003867",
+   "primary_doc": "dp190411_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323003867/dp190411_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-02-09",
+   "report_date": "2023-02-09",
+   "accession": "0000950103-23-002056",
+   "primary_doc": "dp188612_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323002056/dp188612_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-02-09",
+   "report_date": "2023-02-09",
+   "accession": "0000950103-23-002055",
+   "primary_doc": "dp188608_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323002055/dp188608_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-02-09",
+   "report_date": "2023-02-09",
+   "accession": "0000950103-23-002054",
+   "primary_doc": "dp188487_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323002054/dp188487_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-02-09",
+   "report_date": "2023-02-09",
+   "accession": "0000950103-23-002053",
+   "primary_doc": "dp188551_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323002053/dp188551_6k.htm"
+  },
+  {
+   "form": "6-K",
+   "filed": "2023-01-10",
+   "report_date": "2023-01-10",
+   "accession": "0000950103-23-000293",
+   "primary_doc": "dp186856_6k.htm",
+   "items": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010323000293/dp186856_6k.htm"
+  }
+ ]
+}
