@@ -1,0 +1,219 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 1329394,
+ "form4_count": 3,
+ "form144_count": 8,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "LIN KUAN-MING",
+   "role": "consejero",
+   "sold": 3000.0,
+   "sold_value": 930320,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2857,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-17",
+     "shares": 1000.0,
+     "price": 300.0,
+     "accession": "0000898432-26-000432"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 1000.0,
+     "price": 310.01,
+     "accession": "0000898432-26-000432"
+    },
+    {
+     "date": "2026-06-18",
+     "shares": 1000.0,
+     "price": 320.31,
+     "accession": "0000898432-26-000432"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000898432-26-000432"
+   ]
+  },
+  {
+   "name": "SHIEH HAN-PING",
+   "role": "consejero",
+   "sold": 2000.0,
+   "sold_value": 629250,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2311,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-02",
+     "shares": 1000.0,
+     "price": 301.25,
+     "accession": "0000898432-26-000434"
+    },
+    {
+     "date": "2026-06-18",
+     "shares": 1000.0,
+     "price": 328.0,
+     "accession": "0000898432-26-000434"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000898432-26-000434"
+   ]
+  },
+  {
+   "name": "DUANN SHII TYNG",
+   "role": "consejero",
+   "sold": 1500.0,
+   "sold_value": 367500,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0898,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-06",
+     "shares": 1500.0,
+     "price": 245.0,
+     "accession": "0000898432-26-000318"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000898432-26-000318"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "LIN KUAN-MING",
+   "relationship": "Affiliate",
+   "shares": 10500.0,
+   "value": 3219000.0,
+   "outstanding": 33910000.0,
+   "approx_date": "06/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0002014102-26-000001",
+   "filed": "2026-06-04",
+   "form": "144"
+  },
+  {
+   "person": "Fan Robert C",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 136225.0,
+   "outstanding": 134244840.0,
+   "approx_date": "05/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004058",
+   "filed": "2026-05-27",
+   "form": "144"
+  },
+  {
+   "person": "SHIEH HAN-PING",
+   "relationship": "Affiliate",
+   "shares": 2000.0,
+   "value": 552280.0,
+   "outstanding": 33910000.0,
+   "approx_date": "05/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001995456-26-000001",
+   "filed": "2026-05-27",
+   "form": "144"
+  },
+  {
+   "person": "Fan Robert C",
+   "relationship": "Officer",
+   "shares": 1100.0,
+   "value": 225687.0,
+   "outstanding": 134244840.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003702",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "DUANN SHII TYNG",
+   "relationship": "Affiliate",
+   "shares": 1500.0,
+   "value": 328500.0,
+   "outstanding": 33410000.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001993728-26-000001",
+   "filed": "2026-05-01",
+   "form": "144"
+  },
+  {
+   "person": "Fan Robert",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 270800.0,
+   "outstanding": 33561000.0,
+   "approx_date": "02/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001384",
+   "filed": "2026-02-24",
+   "form": "144"
+  },
+  {
+   "person": "Fan Robert",
+   "relationship": "Officer",
+   "shares": 3000.0,
+   "value": 271350.0,
+   "outstanding": 134764480.0,
+   "approx_date": "12/09/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007597",
+   "filed": "2025-12-09",
+   "form": "144"
+  },
+  {
+   "person": "DUANN SHII TYNG",
+   "relationship": "Affiliate",
+   "shares": 1000.0,
+   "value": 95000.0,
+   "outstanding": 33410000.0,
+   "approx_date": "11/11/2025",
+   "plan_10b5_1": false,
+   "accession": "0001993728-25-000003",
+   "filed": "2025-11-10",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "FMR LLC",
+   "shares": 9111296.02,
+   "pct": 6.7,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002148"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 9111296.02,
+   "pct": 6.7,
+   "filed": "2026-08-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-002148"
+  }
+ ],
+ "errors": []
+}

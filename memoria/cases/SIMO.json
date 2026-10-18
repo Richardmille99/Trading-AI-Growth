@@ -1,0 +1,604 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "SIMO",
+  "issuer": "Silicon Motion Technology",
+  "cik": "0001329394",
+  "exchange": "Nasdaq (ADS)",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_fabless",
+  "theme": "Memoria · ciclo de IA",
+  "group": "Chips que acompañan a la memoria: buffers y PMIC de módulos DDR5, controladores NAND, IP de interfaz",
+  "subgroup": "interfaz_controladores",
+  "synthetic": false,
+  "primary_catalyst": "q2_26",
+  "descriptor": "Diseño de controladores NAND para SSD, eMMC y UFS (fabless), con SSD de centro de datos y soluciones de almacenamiento propias. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001193125-26-424083",
+  "last_filing_seen_date": "2026-10-16",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 211.3000030517578,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "6-K de resultados de Silicon Motion (US GAAP, US$), EX-99.1, acc. 0001193125-25-104428, 0001193125-25-169571, 0001193125-25-259296, 0001193125-26-036180, 0001193125-26-188049, 0001193125-26-324391; cotejado con 6-K 0001193125-24-191682 (2T24), 0001193125-24-247899 (3T24), 0001193125-25-020960 (4T24) y EX-99.2 de 0001193125-26-341199 (estados intermedios 1S26)",
+  "shares_out": 33907750.0,
+  "shares_out_date": "2026-06-30",
+  "shares_out_note": "135.631 miles de acciones ordinarias emitidas y en circulación a 30-jun-2026 (balance de los estados financieros intermedios, EX-99.2 del 6-K de 10-ago-2026, acc. 0001193125-26-341199) / 4 = 33.907.750 ADS equivalentes (1 ADS = 4 ordinarias). El acta de la junta de 22-sep-2026 (6-K acc. 0001193125-26-397926) cita 135.632.940 ordinarias en circulación (= 33.908.235 ADS). No incluye las ADS potenciales del convertible 2031 (1.150 M$, conversión inicial 2,6281 ADS/1.000$; cálculo en script).",
+  "quarters": [
+   {
+    "period": "mar-24",
+    "end": "2024-03-31",
+    "revenue": 189311000.0,
+    "gross_profit": 85120000.0,
+    "op_income": 17950000.0,
+    "net_income": 16016000.0,
+    "cfo": 7811000.0,
+    "capex": 10749000.0,
+    "capitalized_sw": null,
+    "sbc": 3165000.0,
+    "diluted_shares": 33701000.0,
+    "basic_shares": 33508000.0,
+    "ar": 186154000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 253316000.0,
+    "cash": 294814000.0,
+    "debt": null,
+    "total_assets": 1024276000.0,
+    "src": "6-K 2025-04-30 acc. 0001193125-25-104428 (EX-99.1, 1Q25 press release)"
+   },
+   {
+    "period": "jun-24",
+    "end": "2024-06-30",
+    "revenue": 210670000.0,
+    "gross_profit": 96777000.0,
+    "op_income": 30747000.0,
+    "net_income": 30821000.0,
+    "cfo": 21493000.0,
+    "capex": 10427000.0,
+    "capitalized_sw": null,
+    "sbc": 385000.0,
+    "diluted_shares": 33697000.0,
+    "basic_shares": 33684000.0,
+    "ar": 191692000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 240811000.0,
+    "cash": 289175000.0,
+    "debt": null,
+    "total_assets": 1030146000.0,
+    "src": "6-K 2025-07-31 acc. 0001193125-25-169571 (EX-99.1, 2Q25 press release)"
+   },
+   {
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "revenue": 212412000.0,
+    "gross_profit": 99270000.0,
+    "op_income": 24460000.0,
+    "net_income": 20843000.0,
+    "cfo": 54047000.0,
+    "capex": 12436000.0,
+    "capitalized_sw": null,
+    "sbc": 3658000.0,
+    "diluted_shares": 33700000.0,
+    "basic_shares": 33687000.0,
+    "ar": 202726000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 214574000.0,
+    "cash": 313924000.0,
+    "debt": null,
+    "total_assets": 1048737000.0,
+    "src": "6-K 2025-10-31 acc. 0001193125-25-259296 (EX-99.1, 3Q25 press release)"
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "revenue": 191160000.0,
+    "gross_profit": 87600000.0,
+    "op_income": 17734000.0,
+    "net_income": 21569000.0,
+    "cfo": -6158000.0,
+    "capex": 10836000.0,
+    "capitalized_sw": null,
+    "sbc": 9747000.0,
+    "diluted_shares": 33814000.0,
+    "basic_shares": 33690000.0,
+    "ar": 233744000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 199229000.0,
+    "cash": 276068000.0,
+    "debt": null,
+    "total_assets": 1031336000.0,
+    "src": "6-K 2026-02-04 acc. 0001193125-26-036180 (EX-99.1, 4Q25 press release)"
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 166492000.0,
+    "gross_profit": 78367000.0,
+    "op_income": 9766000.0,
+    "net_income": 19463000.0,
+    "cfo": 50272000.0,
+    "capex": 11661000.0,
+    "capitalized_sw": null,
+    "sbc": 4811000.0,
+    "diluted_shares": 33827000.0,
+    "basic_shares": 33634000.0,
+    "ar": 206693000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 180903000.0,
+    "cash": 275140000.0,
+    "debt": null,
+    "total_assets": 991402000.0,
+    "src": "6-K 2026-04-29 acc. 0001193125-26-188049 (EX-99.1, 1Q26 press release)"
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 198675000.0,
+    "gross_profit": 94687000.0,
+    "op_income": 22329000.0,
+    "net_income": 16311000.0,
+    "cfo": -17274000.0,
+    "capex": 15551000.0,
+    "capitalized_sw": null,
+    "sbc": 175000.0,
+    "diluted_shares": 33562000.0,
+    "basic_shares": 33557000.0,
+    "ar": 220924000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 208005000.0,
+    "cash": 208043000.0,
+    "debt": null,
+    "total_assets": 1033763000.0,
+    "src": "6-K 2026-07-30 acc. 0001193125-26-324391 (EX-99.1, 2Q26 press release)"
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": 241999000.0,
+    "gross_profit": 117688000.0,
+    "op_income": 29232000.0,
+    "net_income": 39112000.0,
+    "cfo": 26864000.0,
+    "capex": 20113000.0,
+    "capitalized_sw": null,
+    "sbc": 5521000.0,
+    "diluted_shares": 33592000.0,
+    "basic_shares": 33560000.0,
+    "ar": 201576000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 337967000.0,
+    "cash": 198581000.0,
+    "debt": null,
+    "total_assets": 1137025000.0,
+    "src": "6-K 2026-02-04 acc. 0001193125-26-036180 (EX-99.1, 4Q25 press release)"
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": 278461000.0,
+    "gross_profit": 136767000.0,
+    "op_income": 31711000.0,
+    "net_income": 47749000.0,
+    "cfo": 1481000.0,
+    "capex": 7740000.0,
+    "capitalized_sw": null,
+    "sbc": 15776000.0,
+    "diluted_shares": 33764000.0,
+    "basic_shares": 33561000.0,
+    "ar": 211546000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 421798000.0,
+    "cash": 201842000.0,
+    "debt": null,
+    "total_assets": 1222719000.0,
+    "src": "6-K 2026-04-29 acc. 0001193125-26-188049 (EX-99.1, 1Q26 press release)"
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 342105000.0,
+    "gross_profit": 161260000.0,
+    "op_income": 52204000.0,
+    "net_income": 66799000.0,
+    "cfo": -31225000.0,
+    "capex": 18221000.0,
+    "capitalized_sw": null,
+    "sbc": 8374000.0,
+    "diluted_shares": 33916000.0,
+    "basic_shares": 33678000.0,
+    "ar": 220445000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 515250000.0,
+    "cash": 135677000.0,
+    "debt": null,
+    "total_assets": 1307008000.0,
+    "src": "6-K 2026-07-30 acc. 0001193125-26-324391 (EX-99.1, 2Q26 press release)"
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 451001000.0,
+    "gross_profit": 226217000.0,
+    "op_income": 101114000.0,
+    "net_income": 136112000.0,
+    "cfo": -63780000.0,
+    "capex": 7733000.0,
+    "capitalized_sw": null,
+    "sbc": 3418000.0,
+    "diluted_shares": 34097000.0,
+    "basic_shares": 33908000.0,
+    "ar": 323638000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 673042000.0,
+    "cash": 74367000.0,
+    "debt": 59183000.0,
+    "total_assets": 1605231000.0,
+    "src": "6-K 2026-07-30 acc. 0001193125-26-324391 (EX-99.1, 2Q26 press release)"
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Crecimiento por producto (2T26, interanual)",
+    "value": "Controladores SSD +50–55% · eMMC+UFS +95–100% · Ferri y Boot Drive +1.690–1.695%",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 6-K 30-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1329394/000119312526324391/d114913dex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T26",
+    "value": "Ventas $519–541M; margen bruto 49,9–50,9%; margen operativo 24,4–25,7%; crecimiento de 2026 > 100%",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 6-K 30-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1329394/000119312526324391/d114913dex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Concentración de clientes (1S26)",
+    "value": "PHISEMI 38% · AFASTOR 10%; diez mayores 78%; China $508M de $793M",
+    "prior": "Cuatro clientes 59% (1S25)",
+    "src": [
+     [
+      "6-K 10-ago-2026 (EX-99.2): estados intermedios 1S26",
+      "https://www.sec.gov/Archives/edgar/data/1329394/000119312526341199/d124768dex992.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Inventario",
+    "value": "$673M a jun-26 (desde $181M en mar-25); CFO negativo en el 1T y el 2T26",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 10-ago-2026 (EX-99.2): estados intermedios 1S26",
+      "https://www.sec.gov/Archives/edgar/data/1329394/000119312526341199/d124768dex992.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Arbitraje con MaxLinear (SIAC)",
+    "value": "Reclama la comisión de ruptura de $160M más daños; vistas en oct-25 y mar-26; sin laudo a 30-jun-2026",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 10-ago-2026 (EX-99.2): estados intermedios 1S26",
+      "https://www.sec.gov/Archives/edgar/data/1329394/000119312526341199/d124768dex992.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Dividendo",
+    "value": "$2,30 por ADS al año (+15%), en cuatro pagos de $0,575",
+    "prior": "$2,00",
+    "src": [
+     [
+      "6-K 16-oct-2026: dividendo anual $2,30 por ADS (+15%)",
+      "https://www.sec.gov/Archives/edgar/data/1329394/000119312526424083/d413725dex991.htm"
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2_26",
+   "type": "earnings",
+   "date": "2026-07-29",
+   "time_et": "after-hours",
+   "headline": "Resultados 2T26: ventas $451,0M (+127%; +32% secuencial) frente a $403,6M de consenso; BPA ajustado $2,43 por ADS frente a $2,13; guía 3T $519–541M",
+   "sources": [
+    [
+     "EX-99.1 6-K 30-jul-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1329394/000119312526324391/d114913dex991.htm"
+    ],
+    [
+     "AP/Zacks (WTOP): consenso BPA $2,13 e ingresos $403,6M",
+     "https://wtop.com/news/2026/07/silicon-motion-q2-earnings-snapshot/"
+    ],
+    [
+     "Chartmill: consenso BPA $2,18 e ingresos $411,5M",
+     "https://www.chartmill.com/news/SIMO/Chartmill-52160-Silicon-Motion-NASDAQSIMO-Surges-After-Smashing-Q2-Estimates"
+    ]
+   ],
+   "rev_growth_yoy": 1.2700440417767713,
+   "rev_growth_yoy_prev": 1.0547834130168416,
+   "rev_surprise_pct": 11.7,
+   "eps_surprise_pct": 14.1,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 250,
+   "nonrecurring_in_beat": false,
+   "note": "Consenso de Zacks (AP); Chartmill da $411,5M y $2,18 [VERIFY]. Margen bruto 50,2% frente a 48,5–49,5% guiado. El BPA GAAP ($3,99) incluye $74,7M de ganancias no realizadas en acciones de BIWIN y TWSC (clientes): el beat se mide con el ajustado. La guía del 3T ($519–541M, +15–20% secuencial) no tiene consenso previo publicado [VERIFY].",
+   "gap_pct": 23.99,
+   "rvol": 2.7,
+   "close_in_range": 0.4,
+   "day2_follow": false,
+   "dollar_volume": 663387566,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-07-30",
+   "reaction_close_chg_pct": 21.66
+  }
+ ],
+ "supply": [
+  {
+   "id": "conv31",
+   "kind": "convertible",
+   "name": "Convertible 0% 2031 ($1.150M, conversión ≈ $380,50 por ADS)",
+   "shares": 3022315,
+   "capacity_usd": null,
+   "price_basis": 380.5,
+   "gate": "gated",
+   "date": "2031-01-01",
+   "notes": "2,6281 ADS por $1.000 (prima del 65% sobre $230,61); ≈ 3,02M ADS (≈ 9% de los 33,9M en circulación), fuera de dinero a {m.price:px}. Ampliado de $800M propuestos a $1.150M. [VERIFY: vencimiento exacto y capped call]",
+   "src": [
+    [
+     "6-K 11-ago-2026: precio del convertible 2031",
+     "https://www.sec.gov/Archives/edgar/data/1329394/000119312526343271/d160732dex991.htm"
+    ],
+    [
+     "6-K 13-ago-2026: cierre del convertible ampliado a $1.150M",
+     "https://www.sec.gov/Archives/edgar/data/1329394/000119312526349730/d149638dex991.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $1,9M; 3 marcados",
+   "shares": 6500.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "LIN KUAN-MING (consejero) $0,9M, máx. 29% en 2026-T2, 3 ventas sin 10b5-1; SHIEH HAN-PING (consejero) $0,6M, máx. 23% en 2026-T2, 2 ventas sin 10b5-1; DUANN SHII TYNG (consejero) $0,4M, máx. 9% en 2026-T2, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 33907750.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false,
+  "float_note": "ADS equivalentes en circulación a 30-jun-2026 (135,63M ordinarias ÷ 4); los insiders tienen poco [VERIFY: % de directivos en el 20-F]"
+ },
+ "peers": [
+  {
+   "ticker": "MU",
+   "name": "Micron Technology",
+   "rev_yoy": 3.7926646045072916,
+   "accel_pp": 33.55094598991846,
+   "gm": 0.8071598041865633,
+   "gm_rel": 0.4071598041865633,
+   "rule40": 300.5977561745952,
+   "ev_sales": 7.160540033779174,
+   "rs_3m": 77.77777777777779
+  },
+  {
+   "ticker": "PENG",
+   "name": "Penguin Solutions",
+   "rev_yoy": 0.6769698332751346,
+   "accel_pp": 20.060430163452292,
+   "gm": 0.2766005493604271,
+   "gm_rel": -0.2233994506395729,
+   "rule40": 17.054006408131055,
+   "ev_sales": 1.771733601030944,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "RMBS",
+   "name": "Rambus",
+   "rev_yoy": 0.2042634240951402,
+   "accel_pp": 12.311212567436547,
+   "gm": 0.7946560434518749,
+   "gm_rel": 0.19465604345187493,
+   "rule40": 56.77566114914798,
+   "ev_sales": 11.421349728822433,
+   "rs_3m": 11.11111111111111
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK hynix",
+   "rev_yoy": 2.56778145245594,
+   "accel_pp": 58.71211696555396,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 22.22222222222222
+  },
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "rev_yoy": 3.7159389794844815,
+   "accel_pp": 120.56144957086703,
+   "gm": 0.7147372580007902,
+   "gm_rel": 0.3147372580007902,
+   "rule40": 232.06181755477493,
+   "ev_sales": 9.160421530455615,
+   "rs_3m": 44.44444444444444
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 22.22222222222222,
+  "rs_3m": 0.0,
+  "rs_6m": 75.0,
+  "adr_pct": 5.436900404801848,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-10-28",
+   "kind": "earnings",
+   "text": "Resultados 3T26 tras el cierre; conferencia el 29-oct a las 8:00 ET",
+   "src": [
+    [
+     "6-K: fecha de resultados del 3T26",
+     "https://www.sec.gov/Archives/edgar/data/1329394/000119312526417926/d140905dex991.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "+127% con beat amplio y EP en julio, ya devuelto; concentración china e inventario.",
+  "setup": "−40% desde máximos; sin setup.",
+  "catalyst": "2T26: beat de ventas +12% y BPA +14%; hueco +24%.",
+  "quality": "Neto inflado por acciones de clientes.",
+  "supply": "Convertible 2031 fuera de dinero.",
+  "group": "Fabless del universo."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Diseño de controladores NAND para SSD, eMMC y UFS (fabless), con SSD de centro de datos y soluciones de almacenamiento propias"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Chips que acompañan a la memoria: buffers y PMIC de módulos DDR5, controladores NAND, IP de interfaz · puro"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "El neto GAAP incluye ganancias no realizadas en acciones de dos clientes chinos (BIWIN, TWSC): $74,7M en el 2T26.",
+   "El arbitraje con MaxLinear ($160M) es un activo contingente: no está en las cuentas y no debe sumarse al valor."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: beat amplio (+12% en ventas, +14% en BPA), aceleración {m.accel_pp:pp} y EP de verdad (hueco del +24%), que luego se ha devuelto: la acción está un 40% bajo el máximo.",
+  "financials_note": "Emisor extranjero (20-F/6-K, **US GAAP**): **trimestres cargados a mano** de los 6-K de resultados (mar-24 a jun-26), cada uno del release más reciente; las sumas cuadran con los anuales de 2024 y 2025 y con los estados intermedios del 1S26. Acciones en ADS (1 ADS = 4 ordinarias). El convertible de $1.150M (ago-26) es posterior al último balance.",
+  "quality": [
+   "El neto GAAP está inflado por ganancias de valoración de acciones de clientes.",
+   "Cuatro banderas: BENEFICIO SIN CAJA, ACCRUALS ALTOS, INVENTARIO > VENTAS y RUNWAY CORTO. Todas vienen del inventario (de $181M a $673M) y del CFO negativo del 1S26; el RUNWAY CORTO no recoge el convertible de $1.150M de agosto, posterior al último balance."
+  ],
+  "supply_read": "Convertible 2031 fuera de dinero (≈ 3,0M ADS, ≈ 9%). Dividendo creciente. Fidelity tiene el 6,7%. Ventas de consejeros pequeñas.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; con la guía del 3T anualizada (≈ $2.120M) ≈ 3,5×. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El fabless del universo: crece más que RMBS y sin depender del precio de la memoria directamente, pero con el 48% de las ventas en dos clientes chinos.",
+  "risks": [
+   "Concentración: PHISEMI y AFASTOR = 48% de las ventas del 1S26.",
+   "Inventario: $673M frente a $451M de ventas trimestrales.",
+   "Arbitraje con MaxLinear: costes en opex; un laudo en contra quitaría el activo contingente.",
+   "Resultados en ≈ 8 sesiones."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 28-oct tras el cierre.",
+   "**EP A/B si:** ventas ≥ $557M (+5% sobre el punto medio de la guía; consenso [VERIFY]), margen bruto ≥ 51% y guía del 4T con otro +15% secuencial.",
+   "**D si:** ventas dentro de la guía y más inventario: el crecimiento sería relleno de canal.",
+   "Técnica: −40% desde el máximo tras el EP de julio; RS 1m/3m débil. Sin setup."
+  ],
+  "verdict": "Crecimiento fabless real (+127%) con margen del 50%, pero concentración china, inventario creciente y un EP ya devuelto. Candidato a EP el 28-oct; el arbitraje con MXL enlaza con el universo semis."
+ },
+ "sources": [
+  [
+   "EX-99.1 6-K 30-jul-2026: resultados 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1329394/000119312526324391/d114913dex991.htm"
+  ],
+  [
+   "AP/Zacks (WTOP): consenso BPA $2,13 e ingresos $403,6M",
+   "https://wtop.com/news/2026/07/silicon-motion-q2-earnings-snapshot/"
+  ],
+  [
+   "Chartmill: consenso BPA $2,18 e ingresos $411,5M",
+   "https://www.chartmill.com/news/SIMO/Chartmill-52160-Silicon-Motion-NASDAQSIMO-Surges-After-Smashing-Q2-Estimates"
+  ],
+  [
+   "6-K 11-ago-2026: precio del convertible 2031",
+   "https://www.sec.gov/Archives/edgar/data/1329394/000119312526343271/d160732dex991.htm"
+  ],
+  [
+   "6-K 13-ago-2026: cierre del convertible ampliado a $1.150M",
+   "https://www.sec.gov/Archives/edgar/data/1329394/000119312526349730/d149638dex991.htm"
+  ],
+  [
+   "6-K 10-ago-2026 (EX-99.2): estados intermedios 1S26",
+   "https://www.sec.gov/Archives/edgar/data/1329394/000119312526341199/d124768dex992.htm"
+  ],
+  [
+   "6-K: fecha de resultados del 3T26",
+   "https://www.sec.gov/Archives/edgar/data/1329394/000119312526417926/d140905dex991.htm"
+  ],
+  [
+   "6-K 16-oct-2026: dividendo anual $2,30 por ADS (+15%)",
+   "https://www.sec.gov/Archives/edgar/data/1329394/000119312526424083/d413725dex991.htm"
+  ]
+ ]
+}
