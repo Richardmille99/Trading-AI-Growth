@@ -386,7 +386,7 @@ class Renderer:
             raise KeyError(f"metrics referenced but not computed: {sorted(self.missing)}")
         fonts = ("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700"
                  "&family=IBM+Plex+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap")
-        return (f'<title>{meta["ticker"]} Swing Dossier</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
+        return (f'<!doctype html>\n<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">\n<title>{meta["ticker"]} Swing Dossier</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
                 f'<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="stylesheet" href="{fonts}">\n'
                 f'<style>\n{css}\n</style>\n{self.bar()}<main class="wrap">{main}</main>\n'
                 f'<script type="application/json" id="chart-data">{data}</script>\n<script>\n{js}\n</script>\n')

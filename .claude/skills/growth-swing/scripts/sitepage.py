@@ -104,11 +104,14 @@ def build(universes_path, out, title):
                 if f.endswith(".html"):
                     shutil.copy2(os.path.join(rep, f), os.path.join(dst, f))
         res = os.path.join(d, "resumen.md")
-        text = markdown(open(res, encoding="utf-8").read()) if os.path.exists(res) else "<p>Sin resumen todavía.</p>"
+        md = open(res, encoding="utf-8").read() if os.path.exists(res) else ""
+        head = re.match(r"#\s+(.*)\n", md)
+        sub = f'<p class="lede">{html.escape(head.group(1))}</p>' if head else ""
+        text = markdown(md[head.end():] if head else md) if md else "<p>Sin resumen todavía.</p>"
         anchor = re.sub(r"\W+", "-", u["dir"]).strip("-")
         nav.append(f'<a href="#{anchor}">{html.escape(u["name"])}</a>')
         secs.append(f'<section id="{anchor}"><h2>{html.escape(u["name"])}</h2>'
-                    f'<h3>Ranking</h3>{ranking_table(os.path.join(d, "ranking.html"), u["dir"])}{text}</section>')
+                    f'{sub}<h3>Ranking</h3>{ranking_table(os.path.join(d, "ranking.html"), u["dir"])}{text}</section>')
     page = (f"<!doctype html><html lang=\"es\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
             f"<title>{html.escape(title)}</title>\n<style>\n{css}\n.unav{{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 16px}}</style></head><body>"
             f'<main class="wrap"><header class="case"><h1>{html.escape(title)}</h1><p class="desc">Investigación interna, no es consejo de '

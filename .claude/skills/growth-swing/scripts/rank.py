@@ -127,7 +127,8 @@ def write(rows, out_dir, title):
             "Oferta", "P. valor", "EV/ventas", "Líder enfriado", "Resultados"]
     num = {0, 4, 5, 6, 7, 8, 10, 11, 12}
     th = "".join(f'<th class="n">{h}</th>' if i in num else f"<th>{h}</th>" for i, h in enumerate(head))
-    page = (f"<title>{html.escape(title)}</title>\n<style>\n{css}\n</style>\n<main class=\"wrap\">"
+    page = ('<!doctype html>\n<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">\n'
+            f"<title>{html.escape(title)}</title>\n<style>\n{css}\n</style>\n<main class=\"wrap\">"
             f'<header class="case"><h1>{html.escape(title)}</h1><p class="desc">Orden: convicción y, dentro de cada nivel, '
             f'nota de negocio = 0,45·fundamentales + 0,20·catalizador (≤ 120 días) + 0,20·oferta + 0,15·valor relativo. '
             f'* = componente sin dato, puntuado 50.</p></header>'
