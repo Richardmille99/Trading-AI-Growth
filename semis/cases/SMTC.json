@@ -1,0 +1,568 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "SMTC",
+  "issuer": "Semtech",
+  "cik": "0000088941",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_fabless",
+  "theme": "Semiconductores y adyacentes · IA",
+  "group": "Analógico / señal mixta diversificado con exposición parcial a centro de datos",
+  "subgroup": "analogico_mixto",
+  "synthetic": false,
+  "primary_catalyst": "q2fy27",
+  "descriptor": "Integridad de señal para centros de datos (óptico y cobre), analógico y LoRa, más módulos IoT en desinversión. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0000088941-26-000041",
+  "last_filing_seen_date": "2026-10-15",
+  "phase": "fundamentales"
+ },
+ "market": {
+  "price": 136.72999572753906,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00. Sin amplitud (ratio de Stockbee, T2108)."
+ },
+ "financials": {
+  "source": "sec-xbrl-companyfacts",
+  "shares_out": 93324892,
+  "shares_out_date": "2026-07-26",
+  "shares_out_note": "Balance del 10-Q 2T27 (acciones en circulación netas de autocartera)",
+  "quarters": [
+   {
+    "period": "oct-23",
+    "end": "2023-10-29",
+    "revenue": 200899000,
+    "gross_profit": 92966000,
+    "op_income": -12373000,
+    "net_income": -38250000,
+    "cfo": -5847000,
+    "capex": 6576000,
+    "capitalized_sw": null,
+    "sbc": 6538000,
+    "diluted_shares": 64216000,
+    "ar": 156613000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 160586000,
+    "cash": 123820000,
+    "debt": 1373618000,
+    "total_assets": 2038129000,
+    "basic_shares": 64216000
+   },
+   {
+    "period": "ene-24",
+    "end": "2024-01-28",
+    "revenue": 192948000,
+    "gross_profit": -390000,
+    "op_income": -619960000,
+    "net_income": -642363000,
+    "cfo": 13919000,
+    "capex": 1712000,
+    "capitalized_sw": null,
+    "sbc": 11829000,
+    "diluted_shares": null,
+    "ar": 134322000,
+    "deferred_rev": 19092000,
+    "rpo": null,
+    "inventory": 144992000,
+    "cash": 143130000,
+    "debt": 1371039000,
+    "total_assets": 1373735000,
+    "basic_shares": null
+   },
+   {
+    "period": "abr-24",
+    "end": "2024-04-28",
+    "revenue": 206105000,
+    "gross_profit": 99592000,
+    "op_income": 3143000,
+    "net_income": -23159000,
+    "cfo": -89000,
+    "capex": 1334000,
+    "capitalized_sw": null,
+    "sbc": 15234000,
+    "diluted_shares": 64509000,
+    "ar": 153921000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 148541000,
+    "cash": 126777000,
+    "debt": 1373422000,
+    "total_assets": 1376509000,
+    "basic_shares": 64509000
+   },
+   {
+    "period": "jul-24",
+    "end": "2024-07-28",
+    "revenue": 215355000,
+    "gross_profit": 105464000,
+    "op_income": 7768000,
+    "net_income": -170295000,
+    "cfo": -4995000,
+    "capex": 3411000,
+    "capitalized_sw": null,
+    "sbc": 17138000,
+    "diluted_shares": 65281000,
+    "ar": 152976000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 156011000,
+    "cash": 115928000,
+    "debt": 1192865000,
+    "total_assets": 1368000000,
+    "basic_shares": 65281000
+   },
+   {
+    "period": "oct-24",
+    "end": "2024-10-27",
+    "revenue": 236825000,
+    "gross_profit": 120968000,
+    "op_income": 17785000,
+    "net_income": -7586000,
+    "cfo": 29575000,
+    "capex": 483000,
+    "capitalized_sw": null,
+    "sbc": 18405000,
+    "diluted_shares": 75319000,
+    "ar": 142456000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 163451000,
+    "cash": 136504000,
+    "debt": 1190304000,
+    "total_assets": 1379004000,
+    "basic_shares": 75319000
+   },
+   {
+    "period": "ene-25",
+    "end": "2025-01-26",
+    "revenue": 251002000,
+    "gross_profit": 130504000,
+    "op_income": 21238000,
+    "net_income": 39144000,
+    "cfo": 33496000,
+    "capex": 2633000,
+    "capitalized_sw": null,
+    "sbc": 17259000,
+    "diluted_shares": null,
+    "ar": 162523000,
+    "deferred_rev": 15870000,
+    "rpo": null,
+    "inventory": 163593000,
+    "cash": 164459000,
+    "debt": 551527000,
+    "total_assets": 1419264000,
+    "basic_shares": null
+   },
+   {
+    "period": "abr-25",
+    "end": "2025-04-27",
+    "revenue": 251060000,
+    "gross_profit": 131289000,
+    "op_income": 35967000,
+    "net_income": 19345000,
+    "cfo": 27824000,
+    "capex": 1650000,
+    "capitalized_sw": null,
+    "sbc": 6835000,
+    "diluted_shares": 89579000,
+    "ar": 165748000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 170244000,
+    "cash": 156474000,
+    "debt": 542643000,
+    "total_assets": 1431955000,
+    "basic_shares": 86441000
+   },
+   {
+    "period": "jul-25",
+    "end": "2025-07-27",
+    "revenue": 257589000,
+    "gross_profit": 134105000,
+    "op_income": -16192000,
+    "net_income": -27064000,
+    "cfo": 44395000,
+    "capex": 2884000,
+    "capitalized_sw": null,
+    "sbc": 17297000,
+    "diluted_shares": 86707000,
+    "ar": 153505000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 183295000,
+    "cash": 168560000,
+    "debt": 518937000,
+    "total_assets": 1405885000,
+    "basic_shares": 86707000
+   },
+   {
+    "period": "oct-25",
+    "end": "2025-10-26",
+    "revenue": 266971000,
+    "gross_profit": 138478000,
+    "op_income": 31057000,
+    "net_income": -2862000,
+    "cfo": 47462000,
+    "capex": 2819000,
+    "capitalized_sw": null,
+    "sbc": 17138000,
+    "diluted_shares": 87682000,
+    "ar": 164755000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 185726000,
+    "cash": 164670000,
+    "debt": 490486000,
+    "total_assets": 1405873000,
+    "basic_shares": 87682000
+   },
+   {
+    "period": "ene-26",
+    "end": "2026-01-25",
+    "revenue": 274355000,
+    "gross_profit": 138272000,
+    "op_income": -18267000,
+    "net_income": -29795000,
+    "cfo": 61487000,
+    "capex": 2430000,
+    "capitalized_sw": null,
+    "sbc": 16453000,
+    "diluted_shares": null,
+    "ar": 160552000,
+    "deferred_rev": 14197000,
+    "rpo": null,
+    "inventory": 195737000,
+    "cash": 195179000,
+    "debt": 491234000,
+    "total_assets": 1410337000,
+    "basic_shares": null
+   },
+   {
+    "period": "abr-26",
+    "end": "2026-04-26",
+    "revenue": 291018000,
+    "gross_profit": 151464000,
+    "op_income": 25791000,
+    "net_income": 26563000,
+    "cfo": 36183000,
+    "capex": 8172000,
+    "capitalized_sw": null,
+    "sbc": 26446000,
+    "diluted_shares": 98028000,
+    "ar": 174789000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 204715000,
+    "cash": 163310000,
+    "debt": 491982000,
+    "total_assets": 1438943000,
+    "basic_shares": 92905000
+   },
+   {
+    "period": "jul-26",
+    "end": "2026-07-26",
+    "revenue": 341900000.0,
+    "gross_profit": 183800000.0,
+    "op_income": 55800000.0,
+    "net_income": 160100000.0,
+    "cfo": 68900000.0,
+    "capex": 7500000.0,
+    "capitalized_sw": null,
+    "sbc": 23892000.000000004,
+    "diluted_shares": 100800000.0,
+    "ar": 169900000.0,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 170800000.0,
+    "cash": 204100000.0,
+    "debt": 492799999.99999994,
+    "total_assets": 1647000000.0,
+    "src": "EX-99.1 8-K 25-ago-2026 (acc. 0000088941-26-000028) y 10-Q 26-ago-2026 (acc. 0000088941-26-000034): SBC = 50,3 semestre − 26,4 1T; capex neto; inventario excluye mantenidos para la venta. companyfacts aún no incluía este 10-Q",
+    "basic_shares": 93300000.0
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Mezcla por segmentos (2T FY27)",
+    "value": "Productos de semiconductores $243,5M (71%): integridad de señal $126,2M + analógico y wireless $117,4M · Sistemas IoT y conectividad $98,3M (29%)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 25-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Desinversión",
+    "value": "Negocio de módulos celulares (parte de IoT) mantenido para la venta; acuerdo definitivo 13-ago-2026",
+    "prior": "—",
+    "src": [
+     [
+      "10-Q 2T FY27, nota 2",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T FY27",
+    "value": "Ventas $410M ± $5M; margen bruto ajustado 58,3% (63,9% sin el negocio en venta)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 25-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Inventario",
+    "value": "$170,8M (excluye el negocio en venta)",
+    "prior": "$195,7M (ene-26)",
+    "src": [
+     [
+      "EX-99.1 8-K 25-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Concentración de clientes (≥10%)",
+    "value": "[VERIFY: 10-Q 2T FY27]",
+    "prior": "—",
+    "src": []
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2fy27",
+   "type": "earnings",
+   "date": "2026-08-25",
+   "time_et": "after-hours",
+   "headline": "Resultados 2T FY27: ventas $341,9M (+33%), guía 3T $410M ± $5M",
+   "sources": [
+    [
+     "EX-99.1 8-K 25-ago-2026",
+     "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-07262026x8k991.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.32730823132975395,
+   "rev_growth_yoy_prev": 0.15915717358400383,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 170,
+   "nonrecurring_in_beat": true,
+   "note": "El beneficio neto de $160,1M incluye un beneficio fiscal de $101,4M (liberación de provisión por valoración): el BPA GAAP no es comparable. Guía del 3T: $410M, +54% interanual. [VERIFY: sin consenso]",
+   "gap_pct": 2.65,
+   "rvol": 3.05,
+   "close_in_range": 0.68,
+   "day2_follow": true,
+   "dollar_volume": 1429148191,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-08-26",
+   "reaction_close_chg_pct": 10.41
+  }
+ ],
+ "supply": [
+  {
+   "id": "conv30",
+   "kind": "convertible",
+   "name": "Convertibles 0% 2030 ($350M, conversión ≈ $101)",
+   "shares": 3465347,
+   "capacity_usd": null,
+   "price_basis": 101.0,
+   "gate": "gated",
+   "date": null,
+   "notes": "Emitidos el 10-oct-2025 con capped call. Convertibles antes de 2030 solo bajo condiciones de precio. En dinero al precio actual. [VERIFY: precio de conversión exacto, cap del capped call y si se cumple el disparador del trimestre — Fase 2]",
+   "src": [
+    [
+     "8-K 10-oct-2025 (Item 1.01)",
+     "https://www.sec.gov/Archives/edgar/data/88941/000119312525237190/d98782d8k.htm"
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": null,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "rev_yoy": 1.044548651817116,
+   "accel_pp": 11.0547573054933,
+   "gm": 0.7512943883905654,
+   "rule40": 121.5037067073428,
+   "ev_sales": 40.21282274090255,
+   "rs_3m": 25.0
+  },
+  {
+   "ticker": "ASX",
+   "name": "ASE Technology Holding (ADR)",
+   "rev_yoy": 0.2674228855721392,
+   "accel_pp": 9.524277447077779,
+   "gm": 0.19485243458331575,
+   "rule40": 9.160840077806398,
+   "ev_sales": 4.220414986221557,
+   "rs_3m": 75.0
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras Systems",
+   "rev_yoy": 0.7431911887110199,
+   "accel_pp": -20.035330843505307,
+   "gm": 0.348336132034031,
+   "rule40": null,
+   "ev_sales": 34.10921020536091,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "CRDO",
+   "name": "Credo Technology",
+   "rev_yoy": 1.1472829643974647,
+   "accel_pp": -42.294494326317356,
+   "gm": 0.6706667630393861,
+   "rule40": 192.6811780628786,
+   "ev_sales": 19.566499948786028,
+   "rs_3m": 8.333333333333332
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell Technology",
+   "rev_yoy": 0.3654852699267235,
+   "accel_pp": 8.980331983966593,
+   "gm": 0.5221104091933589,
+   "rule40": 48.92837288967687,
+   "ev_sales": 21.249508333666853,
+   "rs_3m": 91.66666666666666
+  },
+  {
+   "ticker": "MXL",
+   "name": "MaxLinear",
+   "rev_yoy": 0.5517171661474272,
+   "accel_pp": 12.167745092951465,
+   "gm": 0.5747719403090011,
+   "rule40": 51.08605196214363,
+   "ev_sales": 11.473028939311751,
+   "rs_3m": 50.0
+  },
+  {
+   "ticker": "SWKS",
+   "name": "Skyworks Solutions (incluye Qorvo desde el 5-oct-2026)",
+   "rev_yoy": -0.035981495455151946,
+   "accel_pp": 0.2806022224915883,
+   "gm": 0.4429338182239809,
+   "rule40": 14.096067798236486,
+   "ev_sales": 2.8109179378243816,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "TSEM",
+   "name": "Tower Semiconductor",
+   "rev_yoy": 0.2365687346967298,
+   "accel_pp": 8.17232702524715,
+   "gm": 0.2687088020879946,
+   "rule40": 32.940242220804535,
+   "ev_sales": 12.090528474123015,
+   "rs_3m": 16.666666666666664
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 8.333333333333332,
+  "rs_3m": 83.33333333333334,
+  "rs_6m": 54.54545454545454,
+  "adr_pct": 6.889694426705306,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-11-24",
+   "kind": "earnings",
+   "text": "Resultados 3T FY27 [VERIFY: fecha estimada; el 3T FY26 fue el 24-nov-2025]",
+   "src": []
+  }
+ ],
+ "header": {
+  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
+  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
+  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
+  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
+  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
+  "group": "Pares = resto del universo de semis."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Integridad de señal para centros de datos (óptico y cobre), analógico y LoRa, más módulos IoT en desinversión"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Analógico / señal mixta diversificado con exposición parcial a centro de datos · mixto"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [],
+  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "financials_note": "Trimestres de XBRL hasta abr-26. **Jul-26 cargado a mano** desde el EX-99.1 y el 10-Q del 2T FY27, que companyfacts aún no incluía: SBC = $50,3M del semestre − $26,4M del 1T; capex neto; inventario sin el negocio en venta. El neto del jul-26 incluye un beneficio fiscal de $101,4M. Acciones: 93,3M del balance del 10-Q.",
+  "quality": [],
+  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
+  "valuation": [],
+  "group_read": "",
+  "risks": [],
+  "plan": [],
+  "verdict": ""
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 25-ago-2026",
+   "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-07262026x8k991.htm"
+  ],
+  [
+   "8-K 10-oct-2025 (Item 1.01)",
+   "https://www.sec.gov/Archives/edgar/data/88941/000119312525237190/d98782d8k.htm"
+  ]
+ ]
+}
