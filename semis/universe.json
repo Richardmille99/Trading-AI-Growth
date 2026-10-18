@@ -24,7 +24,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "ASIC a medida + DSP electro-ópticos; vigilar peso de clientes hyperscaler y venta de negocios no centrales",
    "purity_pct": 100,
    "purity_evidence": "Todo son chips propios; centro de datos 79% y comunicaciones y otros 21% en el 2T FY27 (EX-99.1 27-ago-2026). Ethernet de automoción vendido en 2025"
