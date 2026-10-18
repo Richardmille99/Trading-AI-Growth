@@ -1,0 +1,604 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "MU",
+  "issuer": "Micron Technology",
+  "cik": "0000723125",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_memory",
+  "theme": "Memoria · ciclo de IA",
+  "group": "Fabricantes de DRAM y HBM (con NAND en algunos casos)",
+  "subgroup": "dram_hbm",
+  "synthetic": false,
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Fabricante integrado de DRAM, HBM y NAND; vende a centros de datos (nube y servidores), móviles y PC, y automoción. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001242654-26-000016",
+  "last_filing_seen_date": "2026-10-15",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 878.8400268554688,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "sec-xbrl-companyfacts",
+  "shares_out": 1131423212,
+  "shares_out_date": "2026-10-02",
+  "shares_out_note": "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)",
+  "quarters": [
+   {
+    "period": "nov-23",
+    "end": "2023-11-30",
+    "revenue": 4726000000,
+    "gross_profit": -35000000,
+    "op_income": -1128000000,
+    "net_income": -1234000000,
+    "cfo": 1401000000,
+    "capex": 1796000000,
+    "capitalized_sw": null,
+    "sbc": 188000000,
+    "diluted_shares": 1100000000,
+    "basic_shares": 1100000000,
+    "ar": 2478000000,
+    "deferred_rev": 600000000,
+    "rpo": null,
+    "inventory": 8276000000,
+    "cash": 9048000000,
+    "debt": 12024000000,
+    "total_assets": 63776000000
+   },
+   {
+    "period": "feb-24",
+    "end": "2024-02-29",
+    "revenue": 5824000000,
+    "gross_profit": 1079000000,
+    "op_income": 191000000,
+    "net_income": 793000000,
+    "cfo": 1219000000,
+    "capex": 1384000000,
+    "capitalized_sw": null,
+    "sbc": 213000000,
+    "diluted_shares": 1114000000,
+    "basic_shares": 1104000000,
+    "ar": 3648000000,
+    "deferred_rev": 600000000,
+    "rpo": null,
+    "inventory": 8443000000,
+    "cash": 9006000000,
+    "debt": 12018000000,
+    "total_assets": 65718000000
+   },
+   {
+    "period": "may-24",
+    "end": "2024-05-30",
+    "revenue": 6811000000,
+    "gross_profit": 1832000000,
+    "op_income": 719000000,
+    "net_income": 332000000,
+    "cfo": 2482000000,
+    "capex": 2086000000,
+    "capitalized_sw": null,
+    "sbc": 219000000,
+    "diluted_shares": 1123000000,
+    "basic_shares": 1107000000,
+    "ar": 4416000000,
+    "deferred_rev": 615000000,
+    "rpo": null,
+    "inventory": 8512000000,
+    "cash": 8379000000,
+    "debt": 11332000000,
+    "total_assets": 66255000000
+   },
+   {
+    "period": "ago-24",
+    "end": "2024-08-29",
+    "revenue": 7750000000,
+    "gross_profit": 2737000000,
+    "op_income": 1522000000,
+    "net_income": 887000000,
+    "cfo": 3405000000,
+    "capex": 3120000000,
+    "capitalized_sw": null,
+    "sbc": 213000000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 5419000000,
+    "deferred_rev": 766000000,
+    "rpo": null,
+    "inventory": 8875000000,
+    "cash": 8106000000,
+    "debt": 11343000000,
+    "total_assets": 69416000000
+   },
+   {
+    "period": "nov-24",
+    "end": "2024-11-28",
+    "revenue": 8709000000,
+    "gross_profit": 3348000000,
+    "op_income": 2174000000,
+    "net_income": 1870000000,
+    "cfo": 3244000000,
+    "capex": 3206000000,
+    "capitalized_sw": null,
+    "sbc": 220000000,
+    "diluted_shares": 1122000000,
+    "basic_shares": 1111000000,
+    "ar": 6250000000,
+    "deferred_rev": 473000000,
+    "rpo": null,
+    "inventory": 8705000000,
+    "cash": 7588000000,
+    "debt": 11306000000,
+    "total_assets": 71461000000
+   },
+   {
+    "period": "feb-25",
+    "end": "2025-02-27",
+    "revenue": 8053000000,
+    "gross_profit": 2963000000,
+    "op_income": 1773000000,
+    "net_income": 1583000000,
+    "cfo": 3942000000,
+    "capex": 4055000000,
+    "capitalized_sw": null,
+    "sbc": 249000000,
+    "diluted_shares": 1123000000,
+    "basic_shares": 1115000000,
+    "ar": 5092000000,
+    "deferred_rev": 413000000,
+    "rpo": null,
+    "inventory": 9007000000,
+    "cash": 8215000000,
+    "debt": 11541000000,
+    "total_assets": 73053000000
+   },
+   {
+    "period": "may-25",
+    "end": "2025-05-29",
+    "revenue": 9301000000,
+    "gross_profit": 3508000000,
+    "op_income": 2169000000,
+    "net_income": 1885000000,
+    "cfo": 4609000000,
+    "capex": 2938000000,
+    "capitalized_sw": null,
+    "sbc": 253000000,
+    "diluted_shares": 1125000000,
+    "basic_shares": 1118000000,
+    "ar": 5492000000,
+    "deferred_rev": 3000000,
+    "rpo": null,
+    "inventory": 8727000000,
+    "cash": 10811000000,
+    "debt": 12434000000,
+    "total_assets": 78397000000
+   },
+   {
+    "period": "ago-25",
+    "end": "2025-08-28",
+    "revenue": 11315000000,
+    "gross_profit": 5054000000,
+    "op_income": 3654000000,
+    "net_income": 3201000000,
+    "cfo": 5730000000,
+    "capex": 5658000000,
+    "capitalized_sw": null,
+    "sbc": 250000000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 7163000000,
+    "deferred_rev": 26000000,
+    "rpo": null,
+    "inventory": 8355000000,
+    "cash": 10307000000,
+    "debt": 11533000000,
+    "total_assets": 82798000000
+   },
+   {
+    "period": "nov-25",
+    "end": "2025-11-27",
+    "revenue": 13643000000,
+    "gross_profit": 7646000000,
+    "op_income": 6136000000,
+    "net_income": 5240000000,
+    "cfo": 8411000000,
+    "capex": 5389000000,
+    "capitalized_sw": null,
+    "sbc": 290000000,
+    "diluted_shares": 1138000000,
+    "basic_shares": 1125000000,
+    "ar": 8009000000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 8205000000,
+    "cash": 10318000000,
+    "debt": 8844000000,
+    "total_assets": 85971000000
+   },
+   {
+    "period": "feb-26",
+    "end": "2026-02-26",
+    "revenue": 23860000000,
+    "gross_profit": 17755000000,
+    "op_income": 16135000000,
+    "net_income": 13785000000,
+    "cfo": 11903000000,
+    "capex": 6387000000,
+    "capitalized_sw": null,
+    "sbc": 309000000,
+    "diluted_shares": 1142000000,
+    "basic_shares": 1126000000,
+    "ar": 15389000000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 8267000000,
+    "cash": 14589000000,
+    "debt": null,
+    "total_assets": 101509000000
+   },
+   {
+    "period": "may-26",
+    "end": "2026-05-28",
+    "revenue": 41456000000,
+    "gross_profit": 35056000000,
+    "op_income": 33318000000,
+    "net_income": 28243000000,
+    "cfo": 25388000000,
+    "capex": 7826000000,
+    "capitalized_sw": null,
+    "sbc": 355000000,
+    "diluted_shares": 1145000000,
+    "basic_shares": 1128000000,
+    "ar": 26894000000,
+    "deferred_rev": null,
+    "rpo": 5000000000,
+    "inventory": 8567000000,
+    "cash": 26022000000,
+    "debt": null,
+    "total_assets": 134112000000
+   },
+   {
+    "period": "sep-26",
+    "end": "2026-09-03",
+    "revenue": 54229000000,
+    "gross_profit": 47047000000,
+    "op_income": 43751000000,
+    "net_income": 37701000000,
+    "cfo": 43973000000,
+    "capex": 11110000000,
+    "capitalized_sw": null,
+    "sbc": 379000000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": 31793000000,
+    "deferred_rev": null,
+    "rpo": 134000000000,
+    "inventory": 10372000000,
+    "cash": 43434000000,
+    "debt": 2792000000,
+    "total_assets": 195888000000
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Unidades de negocio (4T FY26)",
+    "value": "Core Data Center $18.002M (margen bruto 90%) · Cloud Memory $16.283M (83%) · Mobile y Client $13.114M (90%) · Automoción y embebido $6.824M (84%)",
+    "prior": "CDBU $1.577M · CMBU $4.543M · MCBU $3.760M · AEBU $1.434M (4T FY25)",
+    "src": [
+     [
+      "EX-99.1 8-K 30-sep-2026",
+      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 1T FY27",
+    "value": "Ingresos $61.500M ± $1.500M; margen bruto GAAP ≈ 85,95%; BPA GAAP $37,84 ± $1,00",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 30-sep-2026",
+      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Capex neto",
+    "value": "$10.770M en el 4T FY26; $27.370M en FY26 (20,5% de los ingresos del año)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 30-sep-2026",
+      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Inventario (días, 4T FY26)",
+    "value": "≈ 131 días (inventario ÷ coste de ventas × 91)",
+    "prior": "—",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Caja e inversiones",
+    "value": "$73.480M de caja, inversiones negociables y caja restringida a cierre de FY26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 30-sep-2026",
+      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Acuerdos estratégicos con clientes",
+    "value": "La compañía cita «Strategic Customer Agreements» que dan visibilidad a la demanda [VERIFY: plazos, volúmenes y prepagos en el 10-K FY26]",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 30-sep-2026",
+      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Bits, ASP y % de HBM",
+    "value": "[VERIFY: prepared remarks del 30-sep-2026; el PR no los da]",
+    "prior": "—",
+    "src": [
+     [
+      "",
+      ""
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q4fy26",
+   "type": "earnings",
+   "date": "2026-09-30",
+   "time_et": "after-hours",
+   "headline": "Resultados 4T FY26: ingresos $54.229M (+379%) frente a $51.070M de consenso (LSEG); BPA ajustado $33,42 frente a $31,61; guía 1T FY27 $61.500M ± $1.500M frente a $57.020M",
+   "sources": [
+    [
+     "EX-99.1 8-K 30-sep-2026",
+     "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+    ],
+    [
+     "AskTraders (LSEG): ingresos $51.070M, BPA $31,61; guía 1T FY27 frente a $57.020M y $35,40",
+     "https://www.asktraders.com/?p=255274"
+    ],
+    [
+     "FXStreet: consenso ingresos ≈ $51.500M, BPA ≈ $31,82",
+     "https://www.fxstreet.com/news/micron-impresses-with-542-billion-in-q4-revenue-202609302015"
+    ]
+   ],
+   "rev_growth_yoy": 3.7926646045072916,
+   "rev_growth_yoy_prev": 3.457155144608107,
+   "rev_surprise_pct": 6.2,
+   "eps_surprise_pct": 5.7,
+   "guide_raise": true,
+   "guide_change_pct": 7.9,
+   "gm_change_bp": 4209,
+   "nonrecurring_in_beat": false,
+   "note": "Consenso LSEG (AskTraders); FXStreet da ≈ $51.500M de ingresos y $31,82 de BPA: con esa base la sorpresa es ≈ +5% [VERIFY]. La guía del 1T FY27 ($61.500M, margen bruto ≈ 86%) queda ≈ +8% sobre el consenso. Sin partidas no recurrentes en el beat: el BPA GAAP ($32,87) y el ajustado ($33,42) apenas difieren.",
+   "gap_pct": -1.04,
+   "rvol": 1.46,
+   "close_in_range": 0.98,
+   "day2_follow": false,
+   "dollar_volume": 50189571276,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-10-01",
+   "reaction_close_chg_pct": 3.03
+  }
+ ],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $379,8M; 12 marcados",
+   "shares": 730320.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "MEHROTRA SANJAY (consejero, President and CEO) $200,0M, máx. 25% en 2026-T2; ARNZEN APRIL S (EVP and Chief People Officer) $61,4M, máx. 32% en 2026-T3; Sadana Sumit (EVP and Chief Business Officer) $34,9M, máx. 10% en 2026-T2, 5 ventas sin 10b5-1; Murphy Mark J. (EVP & Chief Financial Officer) $28,4M, máx. 36% en 2025-T4. Compras en mercado abierto: 23.200 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 885792671.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-10-09): $368.100,0M de no afiliados a 2026-02-26 ÷ cierre de $415,56 = 885,8M acciones [VERIFY: estimación; no recoge cambios posteriores]"
+ },
+ "peers": [
+  {
+   "ticker": "PENG",
+   "name": "Penguin Solutions",
+   "rev_yoy": 0.6769698332751346,
+   "accel_pp": 20.060430163452292,
+   "gm": 0.2766005493604271,
+   "gm_rel": -0.2233994506395729,
+   "rule40": 17.054006408131055,
+   "ev_sales": 1.771733601030944,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "RMBS",
+   "name": "Rambus",
+   "rev_yoy": 0.2042634240951402,
+   "accel_pp": 12.311212567436547,
+   "gm": 0.7946560434518749,
+   "gm_rel": 0.19465604345187493,
+   "rule40": 56.77566114914798,
+   "ev_sales": 11.421349728822433,
+   "rs_3m": 11.11111111111111
+  },
+  {
+   "ticker": "SIMO",
+   "name": "Silicon Motion Technology",
+   "rev_yoy": 1.2700440417767713,
+   "accel_pp": 21.52606287599297,
+   "gm": 0.4886941348969142,
+   "gm_rel": -0.11130586510308577,
+   "rule40": 61.70182948827737,
+   "ev_sales": 5.4428355168131946,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK hynix",
+   "rev_yoy": 2.56778145245594,
+   "accel_pp": 58.71211696555396,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 22.22222222222222
+  },
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk",
+   "rev_yoy": 3.7159389794844815,
+   "accel_pp": 120.56144957086703,
+   "gm": 0.7147372580007902,
+   "gm_rel": 0.3147372580007902,
+   "rule40": 232.06181755477493,
+   "ev_sales": 9.160421530455615,
+   "rs_3m": 44.44444444444444
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 33.33333333333333,
+  "rs_3m": 77.77777777777779,
+  "rs_6m": 87.5,
+  "adr_pct": 4.178690008387331,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-12-16",
+   "kind": "earnings",
+   "text": "Resultados 1T FY27 [VERIFY: fecha estimada; el 1T FY26 se publicó el 17-dic-2025]",
+   "src": [
+    [
+     "8-K 17-dic-2025 (Item 2.02)",
+     "https://www.sec.gov/Archives/edgar/data/723125/000072312525000044/mu-20251217.htm"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "Superciclo en cifras (+379%, margen 87%) con guía sobre el consenso; el mercado descuenta el pico.",
+  "setup": "−30% desde máximos; sin setup.",
+  "catalyst": "4T FY26: beat y guía +8% sobre el consenso; reacción plana.",
+  "quality": "Sin banderas; márgenes de pico de ciclo.",
+  "supply": "Limpia: sin convertibles; deuda recomprada.",
+  "group": "RS 3m percentil 78 dentro de memoria."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Fabricante integrado de DRAM, HBM y NAND; vende a centros de datos (nube y servidores), móviles y PC, y automoción"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Fabricantes de DRAM y HBM (con NAND en algunos casos) · puro"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "El crecimiento (+379%) es sobre todo precio: el ciclo de memoria lo multiplica todo en la subida y también en la bajada. Los márgenes del 87% no son una base estable."
+  ],
+  "catalyst_read": "El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: beat de ingresos y de BPA, guía ≈ +8% sobre el consenso y aceleración {m.accel_pp:pp}. La confirmación de mercado fue tibia: abrió con −1% y cerró +3% al día siguiente, poco para una guía ≈ 8% sobre el consenso.",
+  "financials_note": "Trimestres de XBRL (companyfacts) hasta el 4T FY26 (cerrado el 3-sep-2026, 10-K del 9-oct). El 4T FY26 tuvo 14 semanas. En los 4T no hay acciones diluidas trimestrales en XBRL (BPA del 4T n/d).",
+  "quality": [
+   "Sin banderas automáticas. El FCF TTM es alto pese a un capex de $27.370M en FY26.",
+   "El margen bruto del 86,8% es de pico de ciclo: el perfil `semis_memory` lo compara con un objetivo de 40% de media de ciclo, así que la nota de margen bruto está en su máximo y no informa de la sostenibilidad."
+  ],
+  "supply_read": "Oferta limpia: sin convertibles ni ampliaciones; recompró deuda con ofertas de compra en marzo-abril de 2026. Las ventas de insiders son pequeñas frente a la capitalización ({m.mcap:usdM}).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM. Con la guía del 1T FY27 anualizada (≈ $246.000M) el múltiplo baja a ≈ 4×; el mercado descuenta que el pico de precios no dura. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "Frente a SNDK, MU tiene más diversificación (DRAM, HBM y NAND) y menos caída desde máximos; frente a SKHY, menos cuota de HBM [VERIFY].",
+  "risks": [
+   "Giro del ciclo: más capacidad de DRAM/HBM en 2027 (MU, SK hynix, Samsung) o pausa del capex de IA.",
+   "Precios: la subida de ingresos es sobre todo ASP; un estancamiento de precios frena el crecimiento de golpe.",
+   "Capex creciente: si la demanda se frena, el FCF cae más que los ingresos."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 hacia el 16-dic [VERIFY].",
+   "**EP A/B si:** ingresos ≥ $64.600M (+5% sobre el punto medio de la guía), margen bruto ≥ 87% y guía del 2T FY27 ≥ +5% sobre el consenso.",
+   "**D si:** ingresos dentro del rango ($60.000–63.000M) con guía plana: el mercado ya descuenta un pico.",
+   "Técnica: −30% desde el máximo de 52 semanas; RS 3m en percentil 78. Sin setup; esperar una base o un EP en resultados."
+  ],
+  "verdict": "El mejor negocio del universo hoy (fundamentales al máximo, oferta limpia), pero en pico de ciclo y con el mercado ya vendiendo la memoria. Es un candidato a EP en diciembre, no una compra de tendencia hoy."
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 30-sep-2026",
+   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+  ],
+  [
+   "AskTraders (LSEG): ingresos $51.070M, BPA $31,61; guía 1T FY27 frente a $57.020M y $35,40",
+   "https://www.asktraders.com/?p=255274"
+  ],
+  [
+   "FXStreet: consenso ingresos ≈ $51.500M, BPA ≈ $31,82",
+   "https://www.fxstreet.com/news/micron-impresses-with-542-billion-in-q4-revenue-202609302015"
+  ]
+ ]
+}

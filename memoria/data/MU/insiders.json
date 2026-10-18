@@ -1,0 +1,791 @@
+{
+ "asof": "2026-10-18",
+ "since": "2025-10-18",
+ "cik": 723125,
+ "form4_count": 68,
+ "form144_count": 31,
+ "schedule13_count": 4,
+ "owners": [
+  {
+   "name": "MEHROTRA SANJAY",
+   "role": "consejero, President and CEO",
+   "sold": 280000.0,
+   "sold_value": 199962412,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 166256.0,
+   "exercised": 235666.0,
+   "max_quarter_pct": 0.2521,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001242654-25-000016",
+    "0001242654-25-000017",
+    "0001242654-25-000018",
+    "0001242654-25-000019",
+    "0001242654-26-000005",
+    "0001242654-26-000009",
+    "0001242654-26-000010",
+    "0001242654-26-000011",
+    "0001242654-26-000012",
+    "0001242654-26-000013",
+    "0001242654-26-000014",
+    "0001242654-26-000015"
+   ]
+  },
+  {
+   "name": "ARNZEN APRIL S",
+   "role": "EVP and Chief People Officer",
+   "sold": 95000.0,
+   "sold_value": 61409585,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 28882.0,
+   "exercised": 38166.0,
+   "max_quarter_pct": 0.3181,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001632063-25-000011",
+    "0001632063-26-000002",
+    "0001632063-26-000003"
+   ]
+  },
+  {
+   "name": "Sadana Sumit",
+   "role": "EVP and Chief Business Officer",
+   "sold": 64000.0,
+   "sold_value": 34874016,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0968,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-18",
+     "shares": 15000.0,
+     "price": 934.29,
+     "accession": "0001311079-26-000003"
+    },
+    {
+     "date": "2026-04-10",
+     "shares": 24000.0,
+     "price": 421.35,
+     "accession": "0001311079-26-000002"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 17450.0,
+     "price": 429.43,
+     "accession": "0001311079-26-000001"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 7500.0,
+     "price": 430.95,
+     "accession": "0001311079-26-000001"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 50.0,
+     "price": 431.76,
+     "accession": "0001311079-26-000001"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001311079-26-000001",
+    "0001311079-26-000002",
+    "0001311079-26-000003"
+   ]
+  },
+  {
+   "name": "Murphy Mark J.",
+   "role": "EVP & Chief Financial Officer",
+   "sold": 126000.0,
+   "sold_value": 28389111,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 50343.0,
+   "exercised": 64880.0,
+   "max_quarter_pct": 0.3645,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001498287-25-000007"
+   ]
+  },
+  {
+   "name": "Deboer Scott J",
+   "role": "Pres. & Chief Tech & Prod Offr",
+   "sold": 82000.0,
+   "sold_value": 18270420,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 42608.0,
+   "exercised": 55338.0,
+   "max_quarter_pct": 0.3472,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001568238-25-000005"
+   ]
+  },
+  {
+   "name": "RAY MICHAEL CHARLES",
+   "role": "SVP, Chief Legal Officer",
+   "sold": 29879.0,
+   "sold_value": 15713039,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 24126.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1411,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001593199-25-000006",
+    "0001593199-26-000002",
+    "0001593199-26-000003",
+    "0001593199-26-000004",
+    "0001593199-26-000005"
+   ]
+  },
+  {
+   "name": "BHATIA MANISH H",
+   "role": "President and COO",
+   "sold": 26623.0,
+   "sold_value": 10410771,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 59088.0,
+   "exercised": 68697.0,
+   "max_quarter_pct": 0.076,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-01-22",
+     "shares": 5128.0,
+     "price": 388.78,
+     "accession": "0001689498-26-000001"
+    },
+    {
+     "date": "2026-01-22",
+     "shares": 7200.0,
+     "price": 389.91,
+     "accession": "0001689498-26-000001"
+    },
+    {
+     "date": "2026-01-22",
+     "shares": 8500.0,
+     "price": 391.01,
+     "accession": "0001689498-26-000001"
+    },
+    {
+     "date": "2026-01-22",
+     "shares": 2200.0,
+     "price": 392.84,
+     "accession": "0001689498-26-000001"
+    },
+    {
+     "date": "2026-01-22",
+     "shares": 1295.0,
+     "price": 394.92,
+     "accession": "0001689498-26-000001"
+    },
+    {
+     "date": "2026-01-22",
+     "shares": 2300.0,
+     "price": 395.87,
+     "accession": "0001689498-26-000001"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001689498-26-000001"
+   ]
+  },
+  {
+   "name": "ALLEN SCOTT R.",
+   "role": "CVP, Chief Accounting Officer",
+   "sold": 11679.0,
+   "sold_value": 3402176,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 9218.0,
+   "exercised": 538.0,
+   "max_quarter_pct": 0.1795,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-07-23",
+     "shares": 879.0,
+     "price": 1000.0,
+     "accession": "0001652149-26-000005"
+    },
+    {
+     "date": "2026-01-06",
+     "shares": 2000.0,
+     "price": 337.5,
+     "accession": "0001652149-26-000001"
+    },
+    {
+     "date": "2025-10-20",
+     "shares": 8800.0,
+     "price": 210.02,
+     "accession": "0001652149-25-000006"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001652149-25-000006",
+    "0001652149-26-000001",
+    "0001652149-26-000005"
+   ]
+  },
+  {
+   "name": "CORDANO MICHAEL D",
+   "role": "EVP, Worldwide Sales",
+   "sold": 6814.0,
+   "sold_value": 2915745,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 10752.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1339,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-14",
+     "shares": 3407.0,
+     "price": 435.0,
+     "accession": "0001201490-26-000003"
+    },
+    {
+     "date": "2026-04-09",
+     "shares": 3407.0,
+     "price": 420.81,
+     "accession": "0001201490-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001201490-26-000002",
+    "0001201490-26-000003"
+   ]
+  },
+  {
+   "name": "GOMO STEVEN J",
+   "role": "consejero",
+   "sold": 7000.0,
+   "sold_value": 2892220,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2071,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-11",
+     "shares": 1000.0,
+     "price": 786.47,
+     "accession": "0001224095-26-000001"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 1000.0,
+     "price": 787.6,
+     "accession": "0001224095-26-000001"
+    },
+    {
+     "date": "2025-12-19",
+     "shares": 5000.0,
+     "price": 263.63,
+     "accession": "0001224095-25-000006"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001224095-25-000006",
+    "0001224095-26-000001"
+   ]
+  },
+  {
+   "name": "Dugle Lynn A",
+   "role": "consejero",
+   "sold": 1300.0,
+   "sold_value": 1495559,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0709,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-30",
+     "shares": 1300.0,
+     "price": 1150.43,
+     "accession": "0001453368-26-000001"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001453368-26-000001"
+   ]
+  },
+  {
+   "name": "Bjorlin Alexis",
+   "role": "consejero",
+   "sold": 25.0,
+   "sold_value": 28308,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0774,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-26",
+     "shares": 25.0,
+     "price": 1132.33,
+     "accession": "0001798757-26-000007"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001798757-26-000007"
+   ]
+  },
+  {
+   "name": "Liu Teyin M",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 23200.0,
+   "bought_value": 7821723,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0002058769-26-000002"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Deboer Scott J",
+   "relationship": "Officer",
+   "shares": 28545.0,
+   "value": 26050061.0,
+   "outstanding": 1128000000.0,
+   "approx_date": "10/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001965301-26-000160",
+   "filed": "2026-10-15",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL RAY",
+   "relationship": "Officer",
+   "shares": 6328.0,
+   "value": 6031786.32,
+   "outstanding": 1131423212.0,
+   "approx_date": "10/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-010220",
+   "filed": "2026-10-14",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 40000.0,
+   "value": 39587000.0,
+   "outstanding": 1129393151.0,
+   "approx_date": "08/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000947",
+   "filed": "2026-08-21",
+   "form": "144"
+  },
+  {
+   "person": "SUMIT SADANA",
+   "relationship": "Officer",
+   "shares": 15000.0,
+   "value": 14014360.5,
+   "outstanding": 1129393151.0,
+   "approx_date": "08/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008365",
+   "filed": "2026-08-18",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 40000.0,
+   "value": 37290024.0,
+   "outstanding": 1129393151.0,
+   "approx_date": "07/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000797",
+   "filed": "2026-07-24",
+   "form": "144"
+  },
+  {
+   "person": "SCOTT ALLEN",
+   "relationship": "Officer",
+   "shares": 879.0,
+   "value": 879000.0,
+   "outstanding": 1129393151.0,
+   "approx_date": "07/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-007269",
+   "filed": "2026-07-23",
+   "form": "144"
+  },
+  {
+   "person": "April S. Arnzen",
+   "relationship": "Officer",
+   "shares": 40000.0,
+   "value": 43354934.0,
+   "outstanding": 1129393151.0,
+   "approx_date": "07/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-046500",
+   "filed": "2026-07-01",
+   "form": "144"
+  },
+  {
+   "person": "Lynn A. Dugle",
+   "relationship": "Director",
+   "shares": 1300.0,
+   "value": 1500577.0,
+   "outstanding": 1129393151.0,
+   "approx_date": "06/30/2026",
+   "plan_10b5_1": false,
+   "accession": "0001958244-26-000414",
+   "filed": "2026-06-30",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 40000.0,
+   "value": 46335308.0,
+   "outstanding": 1129393151.0,
+   "approx_date": "06/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000726",
+   "filed": "2026-06-26",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 40000.0,
+   "value": 38454108.0,
+   "outstanding": 1127734051.0,
+   "approx_date": "05/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000605",
+   "filed": "2026-05-29",
+   "form": "144"
+  },
+  {
+   "person": "THE STEVEN & CHRIS GOMO TRUST",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 1574074.0,
+   "outstanding": 1127734051.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004304",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL RAY",
+   "relationship": "Officer",
+   "shares": 7601.0,
+   "value": 3930933.16,
+   "outstanding": 1127734051.0,
+   "approx_date": "05/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003929",
+   "filed": "2026-05-01",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 40000.0,
+   "value": 21450524.0,
+   "outstanding": 1127734051.0,
+   "approx_date": "05/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000483",
+   "filed": "2026-05-01",
+   "form": "144"
+  },
+  {
+   "person": "MARY PAT MCCARTHY",
+   "relationship": "Former Director",
+   "shares": 18223.0,
+   "value": 8283082.42,
+   "outstanding": 1127734051.0,
+   "approx_date": "04/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003423",
+   "filed": "2026-04-14",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL CORDANO",
+   "relationship": "Officer",
+   "shares": 3407.0,
+   "value": 1482045.0,
+   "outstanding": 1127734051.0,
+   "approx_date": "04/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003418",
+   "filed": "2026-04-14",
+   "form": "144"
+  },
+  {
+   "person": "SUMIT SADANA",
+   "relationship": "Officer",
+   "shares": 24000.0,
+   "value": 10112457.6,
+   "outstanding": 1127734051.0,
+   "approx_date": "04/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003369",
+   "filed": "2026-04-10",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL CORDANO",
+   "relationship": "Officer",
+   "shares": 3407.0,
+   "value": 1433699.67,
+   "outstanding": 1127734051.0,
+   "approx_date": "04/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003349",
+   "filed": "2026-04-09",
+   "form": "144"
+  },
+  {
+   "person": "April S. Arnzen",
+   "relationship": "Officer",
+   "shares": 40000.0,
+   "value": 13894000.0,
+   "outstanding": 1127734051.0,
+   "approx_date": "04/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-022696",
+   "filed": "2026-04-01",
+   "form": "144"
+  },
+  {
+   "person": "SUMIT SADANA",
+   "relationship": "Officer",
+   "shares": 25000.0,
+   "value": 10747250.0,
+   "outstanding": 1125509261.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000856",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL RAY",
+   "relationship": "Officer",
+   "shares": 12268.0,
+   "value": 4773356.12,
+   "outstanding": 1125509261.0,
+   "approx_date": "01/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000707",
+   "filed": "2026-01-27",
+   "form": "144"
+  },
+  {
+   "person": "MANISH BHATIA",
+   "relationship": "Officer",
+   "shares": 26623.0,
+   "value": 10410791.04,
+   "outstanding": 1125509261.0,
+   "approx_date": "01/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000624",
+   "filed": "2026-01-22",
+   "form": "144"
+  },
+  {
+   "person": "SCOTT ALLEN",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 675000.0,
+   "outstanding": 1125509261.0,
+   "approx_date": "01/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000173",
+   "filed": "2026-01-06",
+   "form": "144"
+  },
+  {
+   "person": "April S. Arnzen",
+   "relationship": "Officer",
+   "shares": 15000.0,
+   "value": 4155000.0,
+   "outstanding": 1125509261.0,
+   "approx_date": "12/22/2025",
+   "plan_10b5_1": false,
+   "accession": "0001628280-25-058603",
+   "filed": "2025-12-22",
+   "form": "144"
+  },
+  {
+   "person": "THE STEVEN & CHRIS GOMO TRUST",
+   "relationship": "Director",
+   "shares": 5000.0,
+   "value": 1318150.0,
+   "outstanding": 1125509261.0,
+   "approx_date": "12/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010572",
+   "filed": "2025-12-19",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 12500.0,
+   "value": 2896118.4,
+   "outstanding": 1122466035.0,
+   "approx_date": "11/06/2025",
+   "plan_10b5_1": false,
+   "accession": "0001969223-25-000921",
+   "filed": "2025-11-06",
+   "form": "144"
+  },
+  {
+   "person": "MARK MURPHY",
+   "relationship": "Officer",
+   "shares": 126000.0,
+   "value": 28555380.0,
+   "outstanding": 1122466035.0,
+   "approx_date": "10/30/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008297",
+   "filed": "2025-10-30",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 22500.0,
+   "value": 5186875.5,
+   "outstanding": 1122466035.0,
+   "approx_date": "10/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001969223-25-000890",
+   "filed": "2025-10-29",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 22500.0,
+   "value": 4966173.0,
+   "outstanding": 1122466035.0,
+   "approx_date": "10/27/2025",
+   "plan_10b5_1": false,
+   "accession": "0001969223-25-000879",
+   "filed": "2025-10-27",
+   "form": "144"
+  },
+  {
+   "person": "Deboer Scott J",
+   "relationship": "Director",
+   "shares": 82000.0,
+   "value": 17959640.0,
+   "outstanding": 1120000000.0,
+   "approx_date": "10/27/2025",
+   "plan_10b5_1": false,
+   "accession": "0001965301-25-000158",
+   "filed": "2025-10-27",
+   "form": "144"
+  },
+  {
+   "person": "SCOTT R. ALLEN",
+   "relationship": "Officer",
+   "shares": 8800.0,
+   "value": 1848205.92,
+   "outstanding": 1122466035.0,
+   "approx_date": "10/20/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008080",
+   "filed": "2025-10-20",
+   "form": "144"
+  },
+  {
+   "person": "MEHROTRA SANJAY",
+   "relationship": "Officer",
+   "shares": 22500.0,
+   "value": 4751725.5,
+   "outstanding": 1122466035.0,
+   "approx_date": "10/20/2025",
+   "plan_10b5_1": false,
+   "accession": "0001969223-25-000861",
+   "filed": "2025-10-20",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 84297629.0,
+   "pct": 7.47,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000795"
+  },
+  {
+   "name": "Capital World Investors",
+   "shares": 42208309.0,
+   "pct": 3.7,
+   "filed": "2026-05-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001422849-26-000099"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001910"
+  }
+ ],
+ "errors": []
+}
