@@ -1,0 +1,588 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "MRVL",
+  "issuer": "Marvell Technology",
+  "cik": "0001835632",
+  "exchange": "Nasdaq",
+  "report_date": "2026-10-18",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_fabless",
+  "theme": "Semiconductores y adyacentes · IA",
+  "group": "Mover datos dentro del centro de datos de IA: retimers, switches, SerDes/DSP ópticos, cables activos, ASIC a medida",
+  "subgroup": "conectividad_ia",
+  "synthetic": false,
+  "primary_catalyst": "q2fy27",
+  "descriptor": "Diseño de chips para infraestructura de datos: ASIC a medida, DSP electro-ópticos y switches. Centro de datos = 79% de ingresos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001628280-26-066169",
+  "last_filing_seen_date": "2026-10-16",
+  "phase": "fundamentales"
+ },
+ "market": {
+  "price": 227.8300018310547,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00. Sin amplitud (ratio de Stockbee, T2108)."
+ },
+ "financials": {
+  "source": "sec-xbrl-companyfacts",
+  "shares_out": 876900000,
+  "shares_out_date": "2026-08-21",
+  "shares_out_note": "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)",
+  "quarters": [
+   {
+    "period": "oct-23",
+    "end": "2023-10-28",
+    "revenue": 1418600000,
+    "gross_profit": 551200000,
+    "op_income": -146300000,
+    "net_income": -164300000,
+    "cfo": 503000000,
+    "capex": 54400000,
+    "capitalized_sw": null,
+    "sbc": 158500000,
+    "diluted_shares": 862600000,
+    "ar": 1214600000,
+    "deferred_rev": 56900000,
+    "rpo": null,
+    "inventory": 941500000,
+    "cash": 725600000,
+    "debt": 4185900000,
+    "total_assets": 21714400000,
+    "basic_shares": 862600000
+   },
+   {
+    "period": "feb-24",
+    "end": "2024-02-03",
+    "revenue": 1426500000,
+    "gross_profit": 664100000,
+    "op_income": -33300000,
+    "net_income": -392700000,
+    "cfo": 546600000,
+    "capex": 71000000,
+    "capitalized_sw": null,
+    "sbc": 155300000,
+    "diluted_shares": null,
+    "ar": 1121600000,
+    "deferred_rev": 43200000,
+    "rpo": null,
+    "inventory": 864400000,
+    "cash": 950800000,
+    "debt": 4165900000,
+    "total_assets": 21228500000,
+    "basic_shares": null
+   },
+   {
+    "period": "may-24",
+    "end": "2024-05-04",
+    "revenue": 1160900000,
+    "gross_profit": 527800000,
+    "op_income": -152300000,
+    "net_income": -215600000,
+    "cfo": 324500000,
+    "capex": 91500000,
+    "capitalized_sw": null,
+    "sbc": 136500000,
+    "diluted_shares": 865000000,
+    "ar": 881900000,
+    "deferred_rev": 33900000,
+    "rpo": null,
+    "inventory": 826400000,
+    "cash": 847700000,
+    "debt": 4145900000,
+    "total_assets": 20491000000,
+    "basic_shares": 865000000
+   },
+   {
+    "period": "ago-24",
+    "end": "2024-08-03",
+    "revenue": 1272900000,
+    "gross_profit": 587600000,
+    "op_income": -100400000,
+    "net_income": -193300000,
+    "cfo": 306400000,
+    "capex": 48200000,
+    "capitalized_sw": null,
+    "sbc": 154900000,
+    "diluted_shares": 865700000,
+    "ar": 1060100000,
+    "deferred_rev": 39200000,
+    "rpo": null,
+    "inventory": 817800000,
+    "cash": 808700000,
+    "debt": 4125800000,
+    "total_assets": 20293400000,
+    "basic_shares": 865700000
+   },
+   {
+    "period": "nov-24",
+    "end": "2024-11-02",
+    "revenue": 1516100000,
+    "gross_profit": 349400000,
+    "op_income": -702800000,
+    "net_income": -676300000,
+    "cfo": 536300000,
+    "capex": 75000000,
+    "capitalized_sw": null,
+    "sbc": 158400000,
+    "diluted_shares": 865700000,
+    "ar": 997900000,
+    "deferred_rev": 34500000,
+    "rpo": null,
+    "inventory": 859400000,
+    "cash": 868100000,
+    "debt": 4094900000,
+    "total_assets": 19715600000,
+    "basic_shares": 865700000
+   },
+   {
+    "period": "feb-25",
+    "end": "2025-02-01",
+    "revenue": 1817400000,
+    "gross_profit": 917400000,
+    "op_income": 235200000,
+    "net_income": 200200000,
+    "cfo": 514000000,
+    "capex": 69900000,
+    "capitalized_sw": null,
+    "sbc": 147600000,
+    "diluted_shares": null,
+    "ar": 1028400000,
+    "deferred_rev": 22100000,
+    "rpo": null,
+    "inventory": 1029700000,
+    "cash": 948300000,
+    "debt": 4063800000,
+    "total_assets": 20204500000,
+    "basic_shares": null
+   },
+   {
+    "period": "may-25",
+    "end": "2025-05-03",
+    "revenue": 1895300000,
+    "gross_profit": 952400000,
+    "op_income": 270600000,
+    "net_income": 177900000,
+    "cfo": 332900000,
+    "capex": 118800000,
+    "capitalized_sw": null,
+    "sbc": 142100000,
+    "diluted_shares": 875600000,
+    "ar": 1144000000,
+    "deferred_rev": 31800000,
+    "rpo": null,
+    "inventory": 1071400000,
+    "cash": 885900000,
+    "debt": 4232600000,
+    "total_assets": 20023700000,
+    "basic_shares": 864800000
+   },
+   {
+    "period": "ago-25",
+    "end": "2025-08-02",
+    "revenue": 2006100000,
+    "gross_profit": 1010600000,
+    "op_income": 290100000,
+    "net_income": 194800000,
+    "cfo": 461600000,
+    "capex": 47500000,
+    "capitalized_sw": null,
+    "sbc": 153600000,
+    "diluted_shares": 870400000,
+    "ar": 1451700000,
+    "deferred_rev": 41300000,
+    "rpo": null,
+    "inventory": 1051600000,
+    "cash": 1224400000,
+    "debt": 4467200000,
+    "total_assets": 20586300000,
+    "basic_shares": 862600000
+   },
+   {
+    "period": "nov-25",
+    "end": "2025-11-01",
+    "revenue": 2074500000,
+    "gross_profit": 1069800000,
+    "op_income": 357800000,
+    "net_income": 1901300000,
+    "cfo": 582300000,
+    "capex": 73500000,
+    "capitalized_sw": null,
+    "sbc": 152100000,
+    "diluted_shares": 863700000,
+    "ar": 1546300000,
+    "deferred_rev": 32200000,
+    "rpo": null,
+    "inventory": 1014500000,
+    "cash": 2714500000,
+    "debt": 4468900000,
+    "total_assets": 21579000000,
+    "basic_shares": 855800000
+   },
+   {
+    "period": "ene-26",
+    "end": "2026-01-31",
+    "revenue": 2218700000,
+    "gross_profit": 1147900000,
+    "op_income": 404400000,
+    "net_income": 396100000,
+    "cfo": 373700000,
+    "capex": 114300000,
+    "capitalized_sw": null,
+    "sbc": 143000000,
+    "diluted_shares": null,
+    "ar": 2186600000,
+    "deferred_rev": 40100000,
+    "rpo": null,
+    "inventory": 1388000000,
+    "cash": 2638800000,
+    "debt": 4470600000,
+    "total_assets": 22285300000,
+    "basic_shares": null
+   },
+   {
+    "period": "may-26",
+    "end": "2026-05-02",
+    "revenue": 2417800000,
+    "gross_profit": 1260800000,
+    "op_income": 339400000,
+    "net_income": 34500000,
+    "cfo": 638800000,
+    "capex": 155700000,
+    "capitalized_sw": null,
+    "sbc": 207600000,
+    "diluted_shares": 893300000,
+    "ar": 1871700000,
+    "deferred_rev": 63700000,
+    "rpo": null,
+    "inventory": 1400900000,
+    "cash": 3843600000,
+    "debt": 4961300000,
+    "total_assets": 26944500000,
+    "basic_shares": 882000000
+   },
+   {
+    "period": "ago-26",
+    "end": "2026-08-01",
+    "revenue": 2739300000,
+    "gross_profit": 1455600000,
+    "op_income": 459700000,
+    "net_income": 308000000,
+    "cfo": 605500000,
+    "capex": 126700000,
+    "capitalized_sw": null,
+    "sbc": 326200000,
+    "diluted_shares": 921200000,
+    "ar": 2218400000,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": 1360600000,
+    "cash": 3932800000,
+    "debt": 4962900000,
+    "total_assets": 27554600000,
+    "basic_shares": 897400000
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Ingresos de centro de datos (2T FY27)",
+    "value": "$2.171,5M · 79% · +46% interanual",
+    "prior": "$1.490,5M · 74% (2T FY26)",
+    "src": [
+     [
+      "EX-99.1 8-K 27-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T FY27",
+    "value": "$3.150M ± 5% (≈ +52% frente a $2.074,5M del 3T FY26)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 27-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Concentración de clientes (≥10%)",
+    "value": "[VERIFY: nota de concentración del 10-Q 2T FY27]",
+    "prior": "—",
+    "src": []
+   },
+   {
+    "name": "Inventario (días, 2T FY27)",
+    "value": "≈ 96 días (inventario $1.360,6M ÷ coste de ventas $1.283,7M × 91)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 27-ago-2026",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Acuerdo con Google (silicio a medida TPU)",
+    "value": "Acuerdo comercial 29-jul-2026 + warrant de hasta 58,97M acciones a $206,58",
+    "prior": "—",
+    "src": [
+     [
+      "8-K 19-ago-2026",
+      ""
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2fy27",
+   "type": "earnings",
+   "date": "2026-08-27",
+   "time_et": "after-hours",
+   "headline": "Resultados 2T FY27: ingresos $2.739M (+37%), guía 3T $3.150M ± 5%",
+   "sources": [
+    [
+     "EX-99.1 8-K 27-ago-2026",
+     "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.3654852699267235,
+   "rev_growth_yoy_prev": 0.27568195008705754,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": true,
+   "guide_change_pct": null,
+   "gm_change_bp": 276,
+   "nonrecurring_in_beat": false,
+   "note": "La compañía eleva su previsión de ingresos para FY27 y FY28 (sin cifra en el PR: guide_change_pct = null). Centro de datos $2.171,5M (+46% interanual, 79% de ingresos). [VERIFY: sin consenso]",
+   "gap_pct": -6.71,
+   "rvol": 1.53,
+   "close_in_range": 0.08,
+   "day2_follow": false,
+   "dollar_volume": 10610025699,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-08-28",
+   "reaction_close_chg_pct": -10.28
+  }
+ ],
+ "supply": [
+  {
+   "id": "nvda_pref",
+   "kind": "convertible",
+   "name": "Preferentes Serie A convertibles vendidas a NVIDIA ($2.000M, 31-mar-2026)",
+   "shares": 21778000,
+   "capacity_usd": null,
+   "price_basis": 91.84,
+   "gate": "gated",
+   "date": null,
+   "notes": "Convertibles en hasta 21,78M acciones (≈ $91,84 por acción). [VERIFY: condiciones de conversión y restricciones de venta — Fase 2]",
+   "src": [
+    [
+     "8-K 31-mar-2026 (Item 3.02)",
+     "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "goog_wt",
+   "kind": "warrants",
+   "name": "Warrant de Google (hasta 58.970.907 acciones a $206,58)",
+   "shares": 58970907,
+   "capacity_usd": null,
+   "price_basis": 206.58,
+   "gate": "gated",
+   "date": null,
+   "notes": "1.360.867 acciones vencen por trimestres en el primer año; el resto, en 240 tramos, uno por cada $500M de ingresos de productos a medida hasta FY2033. Ejercitable hasta 18-ago-2033",
+   "src": [
+    [
+     "8-K 19-ago-2026 (Items 1.01 y 3.02)",
+     "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm"
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": null,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "rev_yoy": 1.044548651817116,
+   "accel_pp": 11.0547573054933,
+   "gm": 0.7512943883905654,
+   "rule40": 121.5037067073428,
+   "ev_sales": 40.21282274090255,
+   "rs_3m": 25.0
+  },
+  {
+   "ticker": "ASX",
+   "name": "ASE Technology Holding (ADR)",
+   "rev_yoy": 0.2674228855721392,
+   "accel_pp": 9.524277447077779,
+   "gm": 0.19485243458331575,
+   "rule40": 9.160840077806398,
+   "ev_sales": 4.220414986221557,
+   "rs_3m": 75.0
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras Systems",
+   "rev_yoy": 0.7431911887110199,
+   "accel_pp": -20.035330843505307,
+   "gm": 0.348336132034031,
+   "rule40": null,
+   "ev_sales": 34.10921020536091,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "CRDO",
+   "name": "Credo Technology",
+   "rev_yoy": 1.1472829643974647,
+   "accel_pp": -42.294494326317356,
+   "gm": 0.6706667630393861,
+   "rule40": 192.6811780628786,
+   "ev_sales": 19.566499948786028,
+   "rs_3m": 8.333333333333332
+  },
+  {
+   "ticker": "MXL",
+   "name": "MaxLinear",
+   "rev_yoy": 0.5517171661474272,
+   "accel_pp": 12.167745092951465,
+   "gm": 0.5747719403090011,
+   "rule40": 51.08605196214363,
+   "ev_sales": 11.473028939311751,
+   "rs_3m": 50.0
+  },
+  {
+   "ticker": "SMTC",
+   "name": "Semtech",
+   "rev_yoy": 0.32730823132975395,
+   "accel_pp": 16.815105774575013,
+   "gm": 0.5211983199403191,
+   "rule40": 34.28522685306382,
+   "ev_sales": 11.112692152936736,
+   "rs_3m": 83.33333333333334
+  },
+  {
+   "ticker": "SWKS",
+   "name": "Skyworks Solutions (incluye Qorvo desde el 5-oct-2026)",
+   "rev_yoy": -0.035981495455151946,
+   "accel_pp": 0.2806022224915883,
+   "gm": 0.4429338182239809,
+   "rule40": 14.096067798236486,
+   "ev_sales": 2.8109179378243816,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "TSEM",
+   "name": "Tower Semiconductor",
+   "rev_yoy": 0.2365687346967298,
+   "accel_pp": 8.17232702524715,
+   "gm": 0.2687088020879946,
+   "rule40": 32.940242220804535,
+   "ev_sales": 12.090528474123015,
+   "rs_3m": 16.666666666666664
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 33.33333333333333,
+  "rs_3m": 91.66666666666666,
+  "rs_6m": 81.81818181818183,
+  "adr_pct": 5.5246594504644975,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-12-01",
+   "kind": "earnings",
+   "text": "Resultados 3T FY27 [VERIFY: fecha estimada; el 3T FY26 fue el 2-dic-2025 y se anunció el 4-nov]",
+   "src": []
+  }
+ ],
+ "header": {
+  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
+  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
+  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
+  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
+  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
+  "group": "Pares = resto del universo de semis."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Diseño de chips para infraestructura de datos: ASIC a medida, DSP electro-ópticos y switches"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Mover datos dentro del centro de datos de IA: retimers, switches, SerDes/DSP ópticos, cables activos, ASIC a medida · puro"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [],
+  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "financials_note": "Trimestres de XBRL (companyfacts) contrastados con el EX-99.1 del 2T FY27: ingresos, beneficio bruto, resultado operativo, neto, CFO y caja coinciden. El beneficio neto del 3T FY26 ($1.901M) incluye la plusvalía por la venta del negocio de Ethernet para automoción. En el 4T las acciones diluidas medias no están en XBRL (BPA del 4T n/d).",
+  "quality": [],
+  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
+  "valuation": [],
+  "group_read": "",
+  "risks": [],
+  "plan": [],
+  "verdict": ""
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 27-ago-2026",
+   "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm"
+  ],
+  [
+   "8-K 31-mar-2026 (Item 3.02)",
+   "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm"
+  ],
+  [
+   "8-K 19-ago-2026 (Items 1.01 y 3.02)",
+   "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm"
+  ]
+ ]
+}
