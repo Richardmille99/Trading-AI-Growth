@@ -16,7 +16,7 @@
   "descriptor": "Conectividad para servidores de IA: retimers PCIe/CXL (Aries), switches Scorpio y módulos de cable (Taurus). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001277620-26-000007",
   "last_filing_seen_date": "2026-10-09",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 285.82000732421875,
@@ -329,10 +329,22 @@
       ""
      ]
     ]
+   },
+   {
+    "name": "Margen bruto GAAP",
+    "value": "73,3% (2T26); guía 3T ≈ 72%",
+    "prior": "76,3% (1T26) · 75,8% (2T25)",
+    "src": [
+     [
+      "EX-99.1 2T26",
+      ""
+     ]
+    ]
    }
   ],
-  "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_adj_pct": 0.1637,
+  "nongaap_recurring_items": false,
+  "nongaap_note": "Ajustes del 2T26: 16,4% de ingresos, casi todo SBC ($64,0M); costes de adquisición de $0,2–1,0M (< 2%)."
  },
  "catalysts": [
   {
@@ -340,22 +352,26 @@
    "type": "earnings",
    "date": "2026-08-04",
    "time_et": "after-hours",
-   "headline": "Resultados 2T26: ingresos $392,4M (+104%), guía 3T $540–560M",
+   "headline": "Resultados 2T26: ingresos $392,4M (+104%), BPA non-GAAP $0,80 frente a $0,69; guía 3T $540–560M frente a un consenso de $410M",
    "sources": [
     [
      "EX-99.1 8-K 4-ago-2026",
      "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/q226exhibit991.htm"
+    ],
+    [
+     "MarketBeat: consenso BPA $0,69, ingresos $360,9M; consenso previo 3T $410,3M",
+     "https://www.marketbeat.com/instant-alerts/astera-labs-nasdaqalab-announces-earnings-results-2026-08-04/"
     ]
    ],
    "rev_growth_yoy": 1.044548651817116,
    "rev_growth_yoy_prev": 0.9340010787621831,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": 8.7,
+   "eps_surprise_pct": 15.9,
+   "guide_raise": true,
+   "guide_change_pct": 34.0,
    "gm_change_bp": -256,
    "nonrecurring_in_beat": false,
-   "note": "Guía del 3T26: $540–560M de ingresos y margen bruto GAAP ≈ 72%. [VERIFY: sin consenso]",
+   "note": "Guía del 3T un 34% por encima del consenso previo. El margen bruto GAAP baja a 73,3% (76,3% en el 1T) por la mezcla de módulos y Scorpio; la guía es del 72%. El BPA GAAP ($0,83) supera al non-GAAP por un beneficio fiscal (efecto fiscal −$70,0M en la conciliación). Al día siguiente: −8% según MarketBeat.",
    "gap_pct": -3.68,
    "rvol": 1.64,
    "close_in_range": 0.08,
@@ -364,9 +380,198 @@
    "estimate_revisions": "unknown",
    "reaction_date": "2026-08-05",
    "reaction_close_chg_pct": -11.96
+  },
+  {
+   "id": "q1_26",
+   "type": "earnings",
+   "date": "2026-05-05",
+   "time_et": "after-hours",
+   "headline": "Resultados 1T26: $308,4M (+93%)",
+   "sources": [
+    [
+     "8-K 5-may-2026",
+     "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000017/alab-20260505.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.9340010787621831,
+   "rev_growth_yoy_prev": 0.9177226852639337,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 136,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": 6.52,
+   "rvol": 1.66,
+   "close_in_range": 0.4,
+   "day2_follow": false,
+   "dollar_volume": 1829572261,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-05-06",
+   "reaction_close_chg_pct": -0.83
+  },
+  {
+   "id": "q4_25",
+   "type": "earnings",
+   "date": "2026-02-10",
+   "time_et": "after-hours",
+   "headline": "Resultados 4T25: $270,6M (+92%)",
+   "sources": [
+    [
+     "8-K 10-feb-2026",
+     "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000005/alab-20260210.htm"
+    ]
+   ],
+   "rev_growth_yoy": 0.9177226852639337,
+   "rev_growth_yoy_prev": 1.038934969845958,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 154,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": -12.09,
+   "rvol": 3.16,
+   "close_in_range": 0.1,
+   "day2_follow": false,
+   "dollar_volume": 2359632084,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-02-11",
+   "reaction_close_chg_pct": -21.41
+  },
+  {
+   "id": "q3_25",
+   "type": "earnings",
+   "date": "2025-11-04",
+   "time_et": "after-hours",
+   "headline": "Resultados 3T25: $230,6M (+104%)",
+   "sources": [
+    [
+     "8-K 4-nov-2025",
+     "https://www.sec.gov/Archives/edgar/data/1736297/000173629725000145/alab-20251104.htm"
+    ]
+   ],
+   "rev_growth_yoy": 1.038934969845958,
+   "rev_growth_yoy_prev": 1.4973975276512688,
+   "rev_surprise_pct": null,
+   "eps_surprise_pct": null,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": -146,
+   "nonrecurring_in_beat": false,
+   "note": "[VERIFY: sin consenso histórico]",
+   "gap_pct": 2.66,
+   "rvol": 1.53,
+   "close_in_range": 0.49,
+   "day2_follow": false,
+   "dollar_volume": 1699246847,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2025-11-05",
+   "reaction_close_chg_pct": 1.47
+  },
+  {
+   "id": "amzn",
+   "type": "commercial_contract",
+   "date": "2026-02-05",
+   "time_et": null,
+   "headline": "Acuerdo con Amazon y warrant de hasta 3,26M acciones a $142,82 ligado a compras de hasta $6.500M (switches, acondicionamiento de señal y motores ópticos)",
+   "sources": [
+    [
+     "8-K 10-feb-2026 (Items 1.01 y 3.02)",
+     "https://www.sec.gov/Archives/edgar/data/1736297/000110465926012606/tm265461d1_8k.htm"
+    ]
+   ],
+   "counterparty": "Amazon.com",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": true,
+   "exhibit_attached": false,
+   "binding": "partnership_undefined",
+   "value_firm": null,
+   "value_ceiling": 6500000000.0,
+   "duration_years": null,
+   "economics_disclosed": false,
+   "recurring": true,
+   "issuer_history": "converted",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "El warrant vence por tramos de pagos de Amazon: $6.500M es un techo, no un compromiso de compra (**TECHO ≠ INGRESO**). El warrant de oct-2022 sí se convirtió en ventas (Amazon es cliente). [VERIFY: exhibit con los tramos]"
+  },
+  {
+   "id": "aixscale",
+   "type": "mna",
+   "date": "2025-10-22",
+   "time_et": null,
+   "headline": "Compra de aiXscale Photonics GmbH (óptica coempaquetada)",
+   "sources": [
+    [
+     "8-K 22-oct-2025 (Item 8.01)",
+     "https://www.sec.gov/Archives/edgar/data/1736297/000173629725000136/alab-20251022.htm"
+    ]
+   ],
+   "counterparty": "aiXscale Photonics",
+   "counterparty_named": true,
+   "counterparty_confirms": false,
+   "filed_8k_101": false,
+   "exhibit_attached": false,
+   "binding": "definitive",
+   "value_firm": null,
+   "value_ceiling": null,
+   "duration_years": null,
+   "economics_disclosed": false,
+   "recurring": false,
+   "issuer_history": "unknown",
+   "pr_count_90d": null,
+   "financing_after_days": null,
+   "financing_discount_pct": null,
+   "insider_selling_after": false,
+   "lockup_within_days": null,
+   "promo_language": false,
+   "note": "Compra pequeña de tecnología; importe no publicado. Hay dos compras de activos más en 2026 ($69,2M pagados en el semestre)."
   }
  ],
  "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $621.9M; 5 marcados",
+   "shares": 2755178.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "$621,9M vendidos en 12 meses, la mayoría con plan 10b5-1; las ventas en bloque «para varios accionistas» cubren impuestos de RSU. Marcados por superar el 10% de la posición en un trimestre: consejero Manuel Alba (21%), presidente Sanjay Gajendra (11%). Gajendra Sanjay (consejero, President and COO) $241.4M, máx. 11% en 2026-T2; ALBA MANUEL (consejero) $182.6M, máx. 21% en 2026-T3; Dyckerhoff Stefan A (consejero) $29.1M, máx. 11% en 2026-T2; Mazzara Philip (General Counsel and Secretary) $6.4M, máx. 16% en 2026-T2, 2 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  },
+  {
+   "id": "amzn_resale",
+   "kind": "pipe_resale",
+   "name": "Reventa registrada de hasta 5.578.474 acciones de los warrants de Amazon (S-3ASR, 20-mar-2026)",
+   "shares": 5578474,
+   "capacity_usd": null,
+   "price_basis": 142.82,
+   "gate": "live",
+   "date": null,
+   "notes": "Incluye el warrant de 2022 y el de 2026; solo la parte vencida es ejercitable [VERIFY: tramos vencidos]. En dinero al precio actual.",
+   "src": [
+    [
+     "S-3ASR 20-mar-2026",
+     "https://www.sec.gov/Archives/edgar/data/1736297/000110465926032743/tm269088-1_s3asr.htm"
+    ]
+   ]
+  },
   {
    "id": "amzn_wt",
    "kind": "warrants",
@@ -386,10 +591,11 @@
   }
  ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 152000000.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "10-K: $13.200M de no afiliados a 30-jun-2025 ÷ $90,42 = 146,0M acciones (88% de 165,4M básicas); aplicado a 173,5M actuales ≈ 152M [VERIFY]"
  },
  "peers": [
   {
@@ -485,7 +691,7 @@
   "type": null,
   "pivot": null,
   "stop": null,
-  "notes": null,
+  "notes": "Sin setup: cierra bajo las EMA 10/20/50 ({m.price:px}), −43% desde el máximo de 52 semanas. Resultados en 12 sesiones.",
   "rs_1m": 75.0,
   "rs_3m": 25.0,
   "rs_6m": 90.9090909090909,
@@ -508,12 +714,12 @@
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: solo convertibles, warrants y lock-ups del 10-Q/10-K/prospecto. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo de semis."
+  "verdict": "Crecimiento +104% con guía +34% sobre el consenso; convicción limitada por el régimen, la RS y la concentración.",
+  "setup": "Bajo las EMA 10/20/50, −43% desde máximos; sin setup. EP posible el 3-nov.",
+  "catalyst": "2T26 {m.cat_q2_26_score:sc}: beat y guía muy por encima del consenso.",
+  "quality": "Nota {m.fund_score:sc}; cobros > ventas; CFO nuevo desde marzo.",
+  "supply": "Reventa registrada de hasta 5,6M acciones de Amazon; insiders $622M (mayoría 10b5-1).",
+  "group": "El mejor percentil de fundamentales; RS 3 meses débil."
  },
  "snapshot": [
   [
@@ -550,16 +756,34 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
+  "narrative_flags": [
+   "El techo de $6.500M de compras de Amazon no es un pedido: el warrant solo vence si Amazon compra. **TECHO ≠ INGRESO.**",
+   "La mezcla se desplaza hacia módulos y switches: más ingresos, menos margen bruto. Vigilar si «chip puro» deja de serlo."
+  ],
+  "catalyst_read": "El catalizador principal (2T26) es **real** (nota {m.cat_q2_26_score:sc}): crecimiento {m.rev_yoy:pctf}, aceleración {m.accel_pp:pp}, beat del 9% en ingresos y guía +34% sobre el consenso. El acuerdo con Amazon es por confirmar (techo, no compromiso).",
   "financials_note": "Trimestres de XBRL contrastados con el EX-99.1 del 2T26 (ingresos, beneficio bruto, operativo, neto y acciones diluidas coinciden). El 1T24 incluye el SBC de la salida a bolsa ($97,8M).",
-  "quality": [],
-  "supply_read": "Fase 1: oferta parcial. [VERIFY: recompras, shelf, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "quality": [
+   "Non-GAAP limpio salvo el SBC (16% de ingresos). El neto GAAP del 2T26 lleva un beneficio fiscal: usar el resultado operativo para comparar.",
+   "**COBROS > VENTAS** activo: las cuentas por cobrar crecen más que los ingresos. Clientes: A 29%, B 25%, C 15% y D 13% (≥ 82% en 4 clientes).",
+   "Cambio de CFO: Michael Tate se jubiló el 2-mar-2026 sin desacuerdos; nueva directora de contabilidad desde el 20-ene-2026."
+  ],
+  "supply_read": "Sin ATM ni convertibles. Oferta registrada: hasta 5,58M acciones de Amazon (S-3ASR) y ventas de insiders de $622M en 12 meses (sobre todo con 10b5-1). SBC del 16% de ingresos; acciones básicas +4% interanual.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; sobre la guía anualizada del 3T (≈ $2.200M), ≈ 22×. DCF inverso: {m.implied_g:pctf} anual durante 5 años."
+  ],
+  "group_read": "Percentil de fundamentales {m.fund_pct:sc} (el mejor del universo) y RS {m.rs_pct:sc}: grupo «weak» por la RS a 3 meses.",
+  "risks": [
+   "Concentración extrema: 4 clientes ≥ 82% de ingresos.",
+   "Margen bruto a la baja por la mezcla de módulos.",
+   "Valoración: 40× ventas TTM deja poco margen de error en la guía."
+  ],
+  "plan": [
+   "Resultados el **3-nov tras el cierre**.",
+   "**EP A/B:** ingresos ≥ $578M (+5% sobre el techo de la guía de $560M), guía del 4T ≥ +5% sobre el consenso, margen bruto ≥ 72% y comentarios de volumen en Scorpio/switches. En el gráfico: gap ≥ 10% con volumen ≥ 3× que recupere la EMA 50 (≈ $324).",
+   "**D:** ingresos dentro del rango pero guía del 4T plana, o margen bruto < 70%.",
+   "Sin EP: base en formación entre la SMA 200 (≈ $250) y la EMA 50; no hay setup hasta que la recupere."
+  ],
+  "verdict": "Los mejores fundamentales del universo, con una guía muy por encima del consenso. Lo limitan el régimen, la RS a 3 meses, la concentración y la oferta registrada de Amazon."
  },
  "sources": [
   [
@@ -567,8 +791,40 @@
    "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/q226exhibit991.htm"
   ],
   [
+   "MarketBeat: consenso BPA $0,69, ingresos $360,9M; consenso previo 3T $410,3M",
+   "https://www.marketbeat.com/instant-alerts/astera-labs-nasdaqalab-announces-earnings-results-2026-08-04/"
+  ],
+  [
+   "8-K 5-may-2026",
+   "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000017/alab-20260505.htm"
+  ],
+  [
+   "8-K 10-feb-2026",
+   "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000005/alab-20260210.htm"
+  ],
+  [
+   "8-K 4-nov-2025",
+   "https://www.sec.gov/Archives/edgar/data/1736297/000173629725000145/alab-20251104.htm"
+  ],
+  [
    "8-K 10-feb-2026 (Items 1.01 y 3.02)",
    "https://www.sec.gov/Archives/edgar/data/1736297/000110465926012606/tm265461d1_8k.htm"
+  ],
+  [
+   "8-K 22-oct-2025 (Item 8.01)",
+   "https://www.sec.gov/Archives/edgar/data/1736297/000173629725000136/alab-20251022.htm"
+  ],
+  [
+   "S-3ASR 20-mar-2026",
+   "https://www.sec.gov/Archives/edgar/data/1736297/000110465926032743/tm269088-1_s3asr.htm"
+  ],
+  [
+   "10-Q 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm"
+  ],
+  [
+   "insiders.json",
+   ""
   ]
  ]
 }

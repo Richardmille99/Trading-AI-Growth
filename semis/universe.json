@@ -38,7 +38,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Retimers PCIe/CXL, switches, módulos de cable; SBC alta; concentración de clientes",
    "purity_pct": null,
    "purity_evidence": "Un segmento; no publica ingresos por producto. El 10-Q del 2T26 cita «mayor mezcla de módulos hardware» (Aries/Taurus Smart Cable Modules). Se mantiene «puro» de forma provisional. [VERIFY: si los módulos superan ~10%, pasa a mixto]"
