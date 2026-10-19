@@ -5,7 +5,7 @@
   "issuer": "Silicon Motion Technology",
   "cik": "0001329394",
   "exchange": "Nasdaq (ADS)",
-  "report_date": "2026-10-18",
+  "report_date": "2026-10-19",
   "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
   "profile": "semis_fabless",
   "theme": "Memoria · ciclo de IA",
@@ -343,6 +343,14 @@
     [
      "Chartmill: consenso BPA $2,18 e ingresos $411,5M",
      "https://www.chartmill.com/news/SIMO/Chartmill-52160-Silicon-Motion-NASDAQSIMO-Surges-After-Smashing-Q2-Estimates"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA/ventas y fecha de resultados",
+     "https://finviz.com/quote.ashx?t=SIMO"
+    ],
+    [
+     "Benzinga: consenso 3T26 de SIMO",
+     "https://www.benzinga.com/quote/SIMO/earnings-forecasts"
     ]
    ],
    "rev_growth_yoy": 1.2700440417767713,
@@ -353,7 +361,7 @@
    "guide_change_pct": null,
    "gm_change_bp": 250,
    "nonrecurring_in_beat": false,
-   "note": "Consenso de Zacks (AP); Chartmill da $411,5M y $2,18 [VERIFY]. Margen bruto 50,2% frente a 48,5–49,5% guiado. El BPA GAAP ($3,99) incluye $74,7M de ganancias no realizadas en acciones de BIWIN y TWSC (clientes): el beat se mide con el ajustado. La guía del 3T ($519–541M, +15–20% secuencial) no tiene consenso previo publicado [VERIFY].",
+   "note": "Consenso de Zacks (AP), que coincide con la sorpresa de finviz (+11,8% y +14,1%); Chartmill da $411,5M y $2,18. Margen bruto 50,2% frente a 48,5–49,5% guiado. El BPA GAAP ($3,99) incluye $74,7M de ganancias no realizadas en acciones de BIWIN y TWSC (clientes): el beat se mide con el ajustado. La guía del 3T ($519–541M, +15–20% secuencial) no tenía consenso previo publicado. El consenso actual del 3T es ≈ $529,8M de ventas (Benzinga) [VERIFY: una sola fuente] y $3,29–3,30 de BPA (Benzinga y finviz).",
    "gap_pct": 23.99,
    "rvol": 2.7,
    "close_in_range": 0.4,
@@ -373,8 +381,8 @@
    "capacity_usd": null,
    "price_basis": 380.5,
    "gate": "gated",
-   "date": "2031-01-01",
-   "notes": "2,6281 ADS por $1.000 (prima del 65% sobre $230,61); ≈ 3,02M ADS (≈ 9% de los 33,9M en circulación), fuera de dinero a {m.price:px}. Ampliado de $800M propuestos a $1.150M. [VERIFY: vencimiento exacto y capped call]",
+   "date": "2031-08-15",
+   "notes": "2,6281 ADS por $1.000 (prima del 65% sobre $230,61); ≈ 3,02M ADS (≈ 9% de los 33,9M en circulación), fuera de dinero a {m.price:px}. Ampliado de $800M propuestos a $1.150M. Vence el 15-ago-2031; los tenedores pueden exigir la recompra en efectivo el 15-ago-2029. Sin cupón. Ni el 6-K del precio ni el del cierre mencionan capped call.",
    "src": [
     [
      "6-K 11-ago-2026: precio del convertible 2031",
@@ -410,7 +418,7 @@
   "window_days": 56,
   "ep_recent_days": null,
   "atm_used_last_q": false,
-  "float_note": "ADS equivalentes en circulación a 30-jun-2026 (135,63M ordinarias ÷ 4); los insiders tienen poco [VERIFY: % de directivos en el 20-F]"
+  "float_note": "ADS equivalentes en circulación a 30-jun-2026 (135,63M ordinarias ÷ 4); directivos y consejeros suman 4,40M ordinarias, ≈ 3,2% (Kou 1,4%, Chow 1,2%; 20-F 2025, a 31-mar-2026)"
  },
  "peers": [
   {
@@ -561,7 +569,7 @@
   ],
   "plan": [
    "Resultados del 3T26 el 28-oct tras el cierre.",
-   "**EP A/B si:** ventas ≥ $557M (+5% sobre el punto medio de la guía; consenso [VERIFY]), margen bruto ≥ 51% y guía del 4T con otro +15% secuencial.",
+   "**EP A/B si:** ventas ≥ $557M (+5% sobre el punto medio de la guía y sobre el consenso actual de ≈ $529,8M [VERIFY: una sola fuente]), margen bruto ≥ 51% y guía del 4T con otro +15% secuencial.",
    "**D si:** ventas dentro de la guía y más inventario: el crecimiento sería relleno de canal.",
    "Técnica: −40% desde el máximo tras el EP de julio; RS 1m/3m débil. Sin setup."
   ],
@@ -599,6 +607,10 @@
   [
    "6-K 16-oct-2026: dividendo anual $2,30 por ADS (+15%)",
    "https://www.sec.gov/Archives/edgar/data/1329394/000119312526424083/d413725dex991.htm"
+  ],
+  [
+   "20-F 2025 (30-abr-2026), Item 6.E",
+   "https://www.sec.gov/Archives/edgar/data/1329394/000119312526197184/d17718d20f.htm"
   ]
  ]
 }
