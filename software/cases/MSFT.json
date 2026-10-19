@@ -12,11 +12,11 @@
   "group": "Plataformas con nube propia y software (MSFT, ORCL)",
   "subgroup": "plataformas",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Azure, Office/Copilot, LinkedIn y gaming; capex de IA muy alto. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Nube (Azure), software de productividad (Microsoft 365, Copilot), LinkedIn, Windows y gaming (Xbox); socio e inversor de OpenAI. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0000789019-26-000228",
   "last_filing_seen_date": "2026-10-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 529.0499877929688,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Cartera contratada (RPO)",
+    "value": "Comercial $678.000M (+84%); total $684.000M en XBRL",
+    "prior": "$375.000M (jun-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 4T FY26",
+      "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Microsoft Cloud y Azure",
+    "value": "Microsoft Cloud $59.300M en el 4T FY26 (+27%); Azure supera $100.000M en FY26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 4T FY26",
+      "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Copilot",
+    "value": "Microsoft 365 Copilot > 30M de licencias de pago",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 4T FY26",
+      "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Capex",
+    "value": "$35.802M en el 4T FY26 (pagos de inmovilizado, XBRL); ≈ 40% de los ingresos del trimestre",
+    "prior": "$17.079M (4T FY25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q4fy26",
    "type": "earnings",
    "date": "2026-07-29",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $90.007,0M (+18% interanual)",
+   "headline": "Resultados 4T FY26: ingresos $90.007M (+18%); Microsoft Cloud $59.300M (+27%); Azure > $100.000M en el año; cartera comercial $678.000M (+84%)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-29",
+     "EX-99.1 8-K 29-jul-2026: resultados 4T FY26",
      "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 11,81% y ventas 2,72%; BPA próximo trimestre $4,72",
+     "https://finviz.com/quote.ashx?t=MSFT"
     ]
    ],
    "rev_growth_yoy": 0.17747020577962092,
    "rev_growth_yoy_prev": 0.18297034224873698,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 2.7,
+   "eps_surprise_pct": 11.8,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -139,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +2,7% y BPA +11,8%. La guía se da en la conferencia, no en la nota: sin sorpresa de guía. El neto incluye ganancias de inversiones (OpenAI +$480M en el trimestre y $4.963M en FY26; Anthropic +$3.200M), que la compañía excluye en sus cifras ajustadas. EP de verdad: hueco del +12,1% y cierre del +15,5% con volumen 2,8×.",
    "gap_pct": 12.13,
    "rvol": 2.76,
    "close_in_range": 0.71,
@@ -321,19 +370,216 @@
    "reaction_close_chg_pct": 15.51
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $120,2M; 5 marcados",
+   "shares": 244339.535,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "SMITH BRADFORD L (Vice Chair and President) $21,7M, máx. 8% en 2025-T4, 4 ventas sin 10b5-1; Althoff Judson (EVP, Chief Commercial Officer) $18,3M, máx. 12% en 2026-T2, 3 ventas sin 10b5-1; Numoto Takeshi (EVP, Chief Marketing Officer) $6,6M, máx. 13% en 2026-T2, 4 ventas sin 10b5-1; Hogan Kathleen T (EVP, Strategy) $5,0M, máx. 8% en 2026-T1, 1 ventas sin 10b5-1. Compras en mercado abierto: 8.842 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 7443860958.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-07-29): $3.600.000,0M de no afiliados a 2025-12-31 ÷ cierre de $483,62 = 7.443,9M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
- "peers": [],
+ "peers": [
+  {
+   "ticker": "ADBE",
+   "name": "Adobe",
+   "rev_yoy": 0.12892451569806274,
+   "accel_pp": 0.2072821504294664,
+   "gm": 0.8925298421255294,
+   "gm_rel": 0.14252984212552944,
+   "rule40": 52.81692678585361,
+   "ev_sales": 3.6410796616194014,
+   "rs_3m": 40.0
+  },
+  {
+   "ticker": "APP",
+   "name": "AppLovin",
+   "rev_yoy": 0.5282461863080474,
+   "accel_pp": -6.1478000774665365,
+   "gm": 0.8846386447222221,
+   "gm_rel": 0.1346386447222221,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "rev_yoy": 0.1083431027745212,
+   "accel_pp": -2.4325530860640043,
+   "gm": 0.772816241066958,
+   "gm_rel": 0.02281624106695801,
+   "rule40": 45.7193190918132,
+   "ev_sales": 5.14318124376174,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "rev_yoy": 0.2583040193267132,
+   "accel_pp": 0.2561491907764779,
+   "gm": 0.7524562442262023,
+   "gm_rel": 0.0024562442262022754,
+   "rule40": 52.57566599028753,
+   "ev_sales": 42.35707381796074,
+   "rs_3m": 70.0
+  },
+  {
+   "ticker": "DDOG",
+   "name": "Datadog",
+   "rev_yoy": 0.3564444336929702,
+   "accel_pp": 3.4900168224906825,
+   "gm": 0.7951226767673585,
+   "gm_rel": 0.04512267676735848,
+   "rule40": 58.56446911050743,
+   "ev_sales": null,
+   "rs_3m": 10.0
+  },
+  {
+   "ticker": "FTNT",
+   "name": "Fortinet",
+   "rev_yoy": 0.25638036809815956,
+   "accel_pp": 5.510739284323973,
+   "gm": 0.8020432021680793,
+   "gm_rel": 0.05204320216807934,
+   "rule40": null,
+   "ev_sales": 16.16162203609164,
+   "rs_3m": 45.0
+  },
+  {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "rev_yoy": 0.13651788044896884,
+   "accel_pp": 3.282946156839106,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": 54.28800943098759,
+   "ev_sales": 4.189471455097021,
+   "rs_3m": 60.0
+  },
+  {
+   "ticker": "MDB",
+   "name": "MongoDB",
+   "rev_yoy": 0.30498882316935005,
+   "accel_pp": 5.253260165223028,
+   "gm": 0.7268771763386841,
+   "gm_rel": -0.023122823661315905,
+   "rule40": 49.13449814886085,
+   "ev_sales": 8.905569134848465,
+   "rs_3m": 35.0
+  },
+  {
+   "ticker": "NET",
+   "name": "Cloudflare",
+   "rev_yoy": 0.3586555953747297,
+   "accel_pp": 2.3292707214541686,
+   "gm": 0.7257651203056898,
+   "gm_rel": -0.024234879694310152,
+   "rule40": 47.40168979122251,
+   "ev_sales": null,
+   "rs_3m": 55.00000000000001
+  },
+  {
+   "ticker": "NOW",
+   "name": "ServiceNow",
+   "rev_yoy": 0.2401244167962675,
+   "accel_pp": 1.926949451647486,
+   "gm": 0.7476920988324736,
+   "gm_rel": -0.0023079011675264383,
+   "rule40": 53.27506814348742,
+   "ev_sales": 10.016832830722715,
+   "rs_3m": 85.0
+  },
+  {
+   "ticker": "ORCL",
+   "name": "Oracle",
+   "rev_yoy": 0.2960605654562509,
+   "accel_pp": 8.974729123126203,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": -18.393989322227906,
+   "ev_sales": 4.885362363447985,
+   "rs_3m": 50.0
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "rev_yoy": 0.3446372239747635,
+   "accel_pp": 3.3147490466681306,
+   "gm": 0.7035714285714286,
+   "gm_rel": -0.046428571428571375,
+   "rule40": null,
+   "ev_sales": 24.101480836236934,
+   "rs_3m": 25.0
+  },
+  {
+   "ticker": "PLTR",
+   "name": "Palantir",
+   "rev_yoy": 0.928334945705726,
+   "accel_pp": 8.121862006407653,
+   "gm": 0.8479613433592037,
+   "gm_rel": 0.0979613433592037,
+   "rule40": 133.4745915762227,
+   "ev_sales": null,
+   "rs_3m": 90.0
+  },
+  {
+   "ticker": "SNOW",
+   "name": "Snowflake",
+   "rev_yoy": 0.3509474929015546,
+   "accel_pp": 1.6156489575495092,
+   "gm": 0.670304437436323,
+   "gm_rel": -0.07969556256367705,
+   "rule40": 54.033672922375345,
+   "ev_sales": 19.487642105919264,
+   "rs_3m": 65.0
+  },
+  {
+   "ticker": "WDAY",
+   "name": "Workday",
+   "rev_yoy": 0.12819420783645663,
+   "accel_pp": -0.6627220734972017,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": 41.355612627556724,
+   "ev_sales": 4.092978775272341,
+   "rs_3m": 75.0
+  },
+  {
+   "ticker": "ZS",
+   "name": "Zscaler",
+   "rev_yoy": 0.2488216499403526,
+   "accel_pp": -0.550335441046168,
+   "gm": 0.7680466323422688,
+   "gm_rel": 0.018046632342268776,
+   "rule40": 48.65683689662913,
+   "ev_sales": 9.809307816055405,
+   "rs_3m": 95.0
+  }
+ ],
  "setup": {
   "type": null,
   "pivot": null,
   "stop": null,
-  "notes": null,
+  "notes": "Candidato breakout_flag de prices.py (16-oct): pivote $551,15, stop $518,79, tras una subida del 44% y una base de 15 sesiones (profundidad 9%). No se confirma como setup sin ver el gráfico y con resultados el 28-oct: dentro de la ventana de ≤ 3 sesiones solo vale un EP.",
   "rs_1m": 100.0,
   "rs_3m": 80.0,
   "rs_6m": 40.0,
@@ -354,22 +600,27 @@
   {
    "date": "2026-10-28",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-29) + 91 días]",
-   "src": []
+   "text": "Resultados 1T FY27 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 11,81% y ventas 2,72%; BPA próximo trimestre $4,72",
+     "https://finviz.com/quote.ashx?t=MSFT"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "EP en julio (+15%), cartera de $678.000M y a −4% del máximo: el líder del grupo.",
+  "setup": "Bandera de 15 sesiones (pivote ≈ $551); ver §8.",
+  "catalyst": "4T FY26: BPA +12% frente al consenso; EP con volumen.",
+  "quality": "Capex duplicado; ganancias de OpenAI/Anthropic en el neto.",
+  "supply": "Sin dilución.",
+  "group": "Líder por RS."
  },
  "snapshot": [
   [
    "Negocio",
-   "Azure, Office/Copilot, LinkedIn y gaming; capex de IA muy alto"
+   "Nube (Azure), software de productividad (Microsoft 365, Copilot), LinkedIn, Windows y gaming (Xbox); socio e inversor de OpenAI"
   ],
   [
    "Subgrupo · pureza",
@@ -401,21 +652,42 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El beneficio neto lleva ganancias contables de inversiones en OpenAI y Anthropic: el BPA comparable es el ajustado.",
+   "La cartera de $678.000M está muy concentrada en contratos de IA (OpenAI incluido): mide demanda comprometida, no ingresos de este año."
+  ],
+  "catalyst_read": "El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: crecimiento del +18% sin aceleración ({m.accel_pp:pp}), beat de BPA del 12% y EP con volumen. Es el único caso del universo con EP reciente confirmado.",
+  "financials_note": "Trimestres de XBRL (companyfacts) hasta el 4T FY26 (cerrado el 30-jun-2026).",
+  "quality": [
+   "El capex se ha duplicado en un año ($17.079M → $35.802M por trimestre): el FCF crece mucho menos que el beneficio.",
+   "Ganancias de inversiones (OpenAI, Anthropic) en el neto: no recurrentes."
+  ],
+  "supply_read": "Sin dilución: recompras y dividendo. Ventas de directivos $120,2M en 12 meses, pequeñas frente a la capitalización ({m.mcap:usdM}).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 22 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El líder del universo en fuerza relativa (RS 1m en percentil 100) y el único con EP reciente; a −4% de su máximo mientras el resto del software sigue lejos.",
+  "risks": [
+   "Capex de IA: si el retorno se retrasa, el FCF sufre.",
+   "Concentración de la cartera en OpenAI.",
+   "Resultados el 28-oct tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 el 28-oct tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+   "**EP A/B si:** BPA ≥ $4,96 (+5% sobre el consenso de $4,72 de finviz), Azure acelerando y cartera comercial por encima de $678.000M.",
+   "**D si:** Azure desacelera con más capex: el mercado empezaría a cuestionar el retorno de la inversión.",
+   "Técnica: en tendencia (EMA 10/20/50 alineadas) y en una bandera de 15 sesiones; ver §8."
+  ],
+  "verdict": "El líder del software por fuerza relativa, con EP en julio y una cartera contratada enorme; lo que vigilar es el capex, que crece el doble que los ingresos."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-29",
+   "EX-99.1 8-K 29-jul-2026: resultados 4T FY26",
    "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 11,81% y ventas 2,72%; BPA próximo trimestre $4,72",
+   "https://finviz.com/quote.ashx?t=MSFT"
   ]
  ]
 }

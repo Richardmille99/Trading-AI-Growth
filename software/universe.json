@@ -25,7 +25,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "junio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Azure, Office/Copilot, LinkedIn y gaming; capex de IA muy alto"
   },
   {
@@ -61,7 +61,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Flujos de trabajo por usuario; agentes de IA"
   },
   {

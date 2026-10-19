@@ -12,11 +12,11 @@
   "group": "Equipo eléctrico, distribución y red (ETN, GEV, POWL)",
   "subgroup": "electrico",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Turbinas de gas, red eléctrica y eólica. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Turbinas de gas y servicios (Power), red eléctrica y conversión (Electrification, con Prolec GE desde feb-2026) y eólica (Wind). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001996810-26-000153",
   "last_filing_seen_date": "2026-08-27",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 921.2000122070312,
@@ -285,32 +285,92 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Pedidos y cartera",
+    "value": "Pedidos $24.200M en el 2T26 (+88% orgánico; Power $16.729M, +135%); cartera total $176.000M (+$13.000M en el trimestre); Gas Power 116 GW contratados o reservados (objetivo ≥ 125 GW a fin de 2026)",
+    "prior": "Pedidos 2T25: Power $7.109M",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Book-to-bill (2T26)",
+    "value": "≈ 2,2 (pedidos $24.200M ÷ ventas $11.100M)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Centros de datos",
+    "value": "Pedidos de Electrification para centros de datos > $5.000M en lo que va de 2026, más del doble de todo 2025",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen",
+    "value": "EBITDA ajustado 11,3% (+340 pb orgánico); guía 12–14%. Wind sigue en pérdidas (≈ −$400M de EBITDA en 2026)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Capital",
+    "value": "Caja $13.100M; $3.900M devueltos a los accionistas en el año (recompras y dividendo)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-22",
    "time_et": "premarket",
-   "headline": "Resultados jun-26: ingresos $11.104,0M (+22% interanual)",
+   "headline": "Resultados 2T26: pedidos $24.200M (+88% orgánico), ventas $11.100M (+22%), cartera $176.000M; sube la guía 2026 (ventas $45.500–46.500M, FCF $11.500–12.500M)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-22",
-     "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/0001996810-26-000147-index-headers.html"
+     "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA -22,13% y ventas 2,91%; BPA próximo trimestre $3,99",
+     "https://finviz.com/quote.ashx?t=GEV"
     ]
    ],
    "rev_growth_yoy": 0.218746570080123,
    "rev_growth_yoy_prev": 0.16272410358565748,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": 2.9,
+   "eps_surprise_pct": -22.1,
+   "guide_raise": true,
+   "guide_change_pct": 2.2,
    "gm_change_bp": 99,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +2,9% y BPA −22,1% (fallo). Guía de ventas: punto medio de $45.000M a $46.000M (+2,2%); flujo de caja libre de $7.000M a $12.000M. El mercado vendió el informe: hueco del −5,4% y cierre del −8,7%.",
    "gap_pct": -5.36,
    "rvol": 1.73,
    "close_in_range": 0.0,
@@ -321,12 +381,49 @@
    "reaction_close_chg_pct": -8.69
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "shelf26",
+   "kind": "shelf",
+   "name": "Shelf automático S-3ASR (29-ene-2026), usado para bonos",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-01-29",
+   "notes": "Sin límite de importe (emisor WKSI). Su único uso hasta hoy son bonos, no acciones: $600M al 4,25% (2031), $1.000M al 4,875% (2036) y $1.000M al 5,5% (2056). No diluye.",
+   "src": [
+    [
+     "424B5 3-feb-2026: bonos senior 2031–2056 ($2.600M)",
+     "https://www.sec.gov/Archives/edgar/data/1996810/000114036126003521/ny20063664x4_424b5.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $11,5M; 3 marcados",
+   "shares": 12452.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Abate Victor (Chief Executive Officer, Wind) $4,6M, máx. 72% en 2026-T2, 1 ventas sin 10b5-1; Baert Steven (Chief People Officer) $4,5M, máx. 30% en 2026-T1, 1 ventas sin 10b5-1; Potvin Matthew Joseph (Chief Accounting Officer) $2,5M, máx. 40% en 2026-T2, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 272134543.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-01-29): $144.000,0M de no afiliados a 2025-06-30 ÷ cierre de $529,15 = 272,1M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -444,24 +541,29 @@
  },
  "events": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-28",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-22) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA -22,13% y ventas 2,91%; BPA próximo trimestre $3,99",
+     "https://finviz.com/quote.ashx?t=GEV"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Pedidos +88% y cartera de $176.000M, pero fallo de BPA y la valoración más alta.",
+  "setup": "−23% desde máximos, en la SMA 200; sin setup.",
+  "catalyst": "2T26: ventas +3%, BPA −22% frente al consenso; guía de FCF casi doble.",
+  "quality": "Neto inflado por Prolec GE; caja por anticipos.",
+  "supply": "Bonos, no acciones; recompras.",
+  "group": "La mayor cartera del universo."
  },
  "snapshot": [
   [
    "Negocio",
-   "Turbinas de gas, red eléctrica y eólica"
+   "Turbinas de gas y servicios (Power), red eléctrica y conversión (Electrification, con Prolec GE desde feb-2026) y eólica (Wind)"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +595,51 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El neto del 1T26 ($4.745M) incluye una ganancia de $3.992M antes de impuestos por revalorizar la participación previa en Prolec GE al comprarla: no es del negocio.",
+   "El neto del 4T25 ($3.664M) también supera con mucho al operativo ($601M) [VERIFY: origen en el 10-K 2025]."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: pedidos y cartera excepcionales y guía de caja casi duplicada, pero fallo en BPA y el mercado lo vendió (−9% al cierre).",
+  "financials_note": "Trimestres de XBRL hasta el 2T26. Caja, deuda, capex y SBC no salen de companyfacts con las etiquetas estándar: la caja ($13.100M) viene de la nota de resultados.",
+  "quality": [
+   "El beneficio neto TTM está inflado por la ganancia de Prolec GE ($3.992M): las métricas de margen neto y accruals hay que leerlas con eso.",
+   "Flujo operativo de $5.492M en el 2T26, muy por encima del beneficio: anticipos de clientes por la cartera (capital circulante favorable)."
+  ],
+  "supply_read": "Sin ampliaciones: lo de febrero son bonos ($2.600M). Recompras en marcha. Ventas de directivos pequeñas ($11,5M en 12 meses).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 38 (finviz), el más caro del universo. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "La mayor cartera del universo ($176.000M) y la mejor visibilidad; por detrás de FIX y VRT en pureza de centros de datos.",
+  "risks": [
+   "Ejecución: subir la capacidad de turbinas a 20–30 GW al año.",
+   "Wind en pérdidas.",
+   "Valoración exigente.",
+   "Resultados el 28-oct antes de la apertura."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 28-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+   "**EP A/B si:** BPA ≥ $4,19 (+5% sobre el consenso de $3,99 de finviz), pedidos ≥ $20.000M y guía de FCF mantenida o subida.",
+   "**D si:** segundo fallo de BPA con pedidos a la baja: el mercado dejaría de pagar la cartera.",
+   "Técnica: −23% desde el máximo, en la SMA 200; RS 1m en percentil 77. Sin setup."
+  ],
+  "verdict": "La mejor visibilidad del universo (cartera de $176.000M, pedidos +88%) con la valoración más alta y un fallo de BPA que el mercado castigó. El 28-oct dirá si la cartera pesa más que el margen."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-22",
-   "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/0001996810-26-000147-index-headers.html"
+   "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+  ],
+  [
+   "10-Q 2T26 (ganancia de $3.992M por Prolec GE)",
+   "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000148/gev-20260630.htm"
+  ],
+  [
+   "424B5 3-feb-2026: bonos senior 2031–2056 ($2.600M)",
+   "https://www.sec.gov/Archives/edgar/data/1996810/000114036126003521/ny20063664x4_424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA -22,13% y ventas 2,91%; BPA próximo trimestre $3,99",
+   "https://finviz.com/quote.ashx?t=GEV"
   ]
  ]
 }

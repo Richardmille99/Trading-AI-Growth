@@ -24,7 +24,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Energía y refrigeración para centros de datos"
   },
   {
@@ -72,7 +72,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Turbinas de gas, red eléctrica y eólica"
   },
   {

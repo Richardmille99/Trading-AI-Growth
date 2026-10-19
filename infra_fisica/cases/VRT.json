@@ -12,11 +12,11 @@
   "group": "Gestión térmica y refrigeración líquida (VRT, MOD, NVT)",
   "subgroup": "refrigeracion",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Energía y refrigeración para centros de datos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Equipos de energía y refrigeración para centros de datos (SAI, distribución eléctrica, gestión térmica y refrigeración líquida) y sus servicios. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001628280-26-065239",
   "last_filing_seen_date": "2026-10-06",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 206.4199981689453,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía 2026",
+    "value": "Ventas ≈ $14.000M (+31% orgánico, punto medio); BPA ajustado $6,65–6,75; capex ≈ 4% de las ventas",
+    "prior": "Ventas $13.500–14.000M; BPA ajustado $6,30–6,40 (abr-2026)",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera y pedidos",
+    "value": "La nota de resultados no los publica; la compañía habla de un entorno de demanda que «sigue creciendo» [VERIFY: cartera y book-to-bill en la presentación del 2T26]",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto",
+    "value": "37,7% en el 2T26",
+    "prior": "34,0% en el 2T25",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Flujo de caja",
+    "value": "Operativo $1.100M (+241%) y libre ajustado $925M (+234%) en el 2T26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-29",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $3.274,3M (+24% interanual)",
+   "headline": "Resultados 2T26: ventas $3.274M (+24%), BPA ajustado +60%; sube la guía 2026 a ventas de $14.000M (+31% orgánico) y BPA ajustado de $6,65–6,75",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-29",
+     "EX-99.1 8-K 29-jul-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 6,87% y ventas -3,10%; BPA próximo trimestre $1,82",
+     "https://finviz.com/quote.ashx?t=VRT"
     ]
    ],
    "rev_growth_yoy": 0.2411584094613548,
    "rev_growth_yoy_prev": 0.3013261296660117,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": -3.1,
+   "eps_surprise_pct": 6.9,
+   "guide_raise": true,
+   "guide_change_pct": 1.8,
    "gm_change_bp": 373,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas −3,1% (fallo) y BPA +6,9%. Guía anual de ventas: punto medio de $13.750M a $14.000M (+1,8%); BPA ajustado de $6,35 a $6,70 (+5,5%). El neto lleva un ajuste fiscal no recurrente de $39,5M (activos fiscales diferidos). El mercado lo compró: hueco del +6,4% y cierre del +2,0% con volumen 2,3×.",
    "gap_pct": 6.35,
    "rvol": 2.28,
    "close_in_range": 0.17,
@@ -321,12 +370,49 @@
    "reaction_close_chg_pct": 2.0
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "shelf26",
+   "kind": "shelf",
+   "name": "Shelf automático S-3ASR (19-feb-2026), usado para bonos",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-02-19",
+   "notes": "Sin límite de importe (emisor WKSI). Su único uso hasta hoy son bonos, no acciones: $600M al 4,85% (2036) y $500M en cada tramo de 2046, 2056 y 2066. No diluye. Registrada con un S-3ASR (shelf automático) del 19-feb.",
+   "src": [
+    [
+     "424B5 25-feb-2026: bonos senior 2036–2066 ($2.100M)",
+     "https://www.sec.gov/Archives/edgar/data/1674101/000119312526071600/d92394d424b5.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $128,2M; 7 marcados",
+   "shares": 510549.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "FRADIN ROGER (consejero) $51,4M, máx. 57% en 2026-T1, 20 ventas sin 10b5-1; REINEMUND STEVEN (consejero) $25,4M, máx. 59% en 2026-T1, 18 ventas sin 10b5-1; MONSER EDWARD L (consejero) $22,9M, máx. 82% en 2026-T1; COTE DAVID M (consejero, Executive Chairman) $10,2M, máx. 64% en 2026-T1, 8 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 375556684.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-13): $48.225,2M de no afiliados a 2025-06-30 ÷ cierre de $128,41 = 375,6M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -446,22 +532,27 @@
   {
    "date": "2026-10-28",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-29) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 6,87% y ventas -3,10%; BPA próximo trimestre $1,82",
+     "https://finviz.com/quote.ashx?t=VRT"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Guía subida y caja récord, pero fallo en ventas y desaceleración: −46% desde máximos.",
+  "setup": "−46% desde máximos; sin setup.",
+  "catalyst": "2T26: ventas −3% frente al consenso, BPA +7%, guía +1,8%.",
+  "quality": "Margen al alza; mucho fondo de comercio.",
+  "supply": "Bonos, no acciones; consejeros vendiendo.",
+  "group": "El más puro en centros de datos."
  },
  "snapshot": [
   [
    "Negocio",
-   "Energía y refrigeración para centros de datos"
+   "Equipos de energía y refrigeración para centros de datos (SAI, distribución eléctrica, gestión térmica y refrigeración líquida) y sus servicios"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +584,50 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "La nota de resultados ya no da cartera ni book-to-bill: sin ese dato, el catalizador se mide con la guía."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: crecimiento del +24% con desaceleración {m.accel_pp:pp}, fallo en ventas frente al consenso (−3%) pero subida de la guía y del margen; el mercado lo compró en el día y lo ha devuelto después.",
+  "financials_note": "Trimestres de XBRL (companyfacts) hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión (corrige el CFO del 2T24).",
+  "quality": [
+   "Margen bruto al alza (34,0% → 37,7%) y caja muy por encima del beneficio en el 2T26.",
+   "Fondo de comercio e intangibles = 86% del patrimonio: crecimiento con adquisiciones."
+  ],
+  "supply_read": "Sin ampliaciones de capital: lo de febrero son bonos ($2.100M). Lo que pesa son las ventas de consejeros: $128,2M en 12 meses, muchas fuera de planes 10b5-1 y algunas de más de la mitad de su posición en un trimestre.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 22 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El más puro del universo en centros de datos y el que más ha caído (−46% desde máximos): el mercado castiga la desaceleración del crecimiento.",
+  "risks": [
+   "Desaceleración: +30% en el 1T, +24% en el 2T.",
+   "Ventas de consejeros fuertes y fuera de plan.",
+   "Pausa del capex de IA de los hiperescalares.",
+   "Resultados el 28-oct antes de la apertura."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 28-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+   "**EP A/B si:** BPA ≥ $1,91 (+5% sobre el consenso de $1,82 de finviz), ventas sin fallo frente al consenso y guía anual de ventas por encima de $14.000M.",
+   "**D si:** segundo fallo seguido en ventas o guía anual mantenida: confirmaría la desaceleración.",
+   "Técnica: −46% desde el máximo, bajo la SMA 50 y la 200; RS débil. Sin setup."
+  ],
+  "verdict": "Negocio de calidad (margen y caja al alza, guía subida) en plena corrección por la desaceleración y las ventas de consejeros. Solo un EP limpio el 28-oct cambiaría la lectura."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-29",
+   "EX-99.1 8-K 29-jul-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm"
+  ],
+  [
+   "8-K 22-abr-2026: resultados 1T26 y guía anual previa",
+   "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/vrt-20260422.htm"
+  ],
+  [
+   "424B5 25-feb-2026: bonos senior 2036–2066 ($2.100M)",
+   "https://www.sec.gov/Archives/edgar/data/1674101/000119312526071600/d92394d424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 6,87% y ventas -3,10%; BPA próximo trimestre $1,82",
+   "https://finviz.com/quote.ashx?t=VRT"
   ]
  ]
 }

@@ -50,6 +50,8 @@ def base(t):
 DESC = {
     "FIX": "Contratista de instalaciones mecánicas y eléctricas (climatización, fontanería, electricidad, módulos prefabricados) "
            "en EE. UU.; el 59% de los ingresos del 2T26 viene de clientes de tecnología (centros de datos)",
+    "VRT": "Equipos de energía y refrigeración para centros de datos (SAI, distribución eléctrica, gestión térmica y refrigeración líquida) y sus servicios",
+    "GEV": "Turbinas de gas y servicios (Power), red eléctrica y conversión (Electrification, con Prolec GE desde feb-2026) y eólica (Wind)",
 }
 
 
@@ -132,7 +134,105 @@ def fix():
     finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, tq, fx])
 
 
+# ---------------------------------------------------------------- VRT
+def vrt():
+    t = "VRT"
+    c, rows = base(t)
+    pr = casekit.link(1674101, "0001628280-26-050323", "q22026exhibit991vrt07292026.htm", "EX-99.1 8-K 29-jul-2026: resultados 2T26")
+    q1 = ["8-K 22-abr-2026: resultados 1T26 y guía anual previa", "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/vrt-20260422.htm"]
+    nb = casekit.link(1674101, "0001193125-26-071600", "d92394d424b5.htm", "424B5 25-feb-2026: bonos senior 2036–2066 ($2.100M)")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-07-29", "amc",
+                         "Resultados 2T26: ventas $3.274M (+24%), BPA ajustado +60%; sube la guía 2026 a ventas de $14.000M (+31% orgánico) y BPA ajustado de $6,65–6,75",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=True, guide_change=1.8,
+                         note="Consenso de finviz: ventas −3,1% (fallo) y BPA +6,9%. Guía anual de ventas: punto medio de $13.750M a $14.000M (+1,8%); BPA ajustado de $6,35 a $6,70 (+5,5%). "
+                              "El neto lleva un ajuste fiscal no recurrente de $39,5M (activos fiscales diferidos). El mercado lo compró: hueco del +6,4% y cierre del +2,0% con volumen 2,3×.")
+    kpis = [
+        kp("Guía 2026", "Ventas ≈ $14.000M (+31% orgánico, punto medio); BPA ajustado $6,65–6,75; capex ≈ 4% de las ventas", "Ventas $13.500–14.000M; BPA ajustado $6,30–6,40 (abr-2026)", *pr),
+        kp("Cartera y pedidos", "La nota de resultados no los publica; la compañía habla de un entorno de demanda que «sigue creciendo» [VERIFY: cartera y book-to-bill en la presentación del 2T26]", "—", *pr),
+        kp("Margen bruto", "37,7% en el 2T26", "34,0% en el 2T25", *pr),
+        kp("Flujo de caja", "Operativo $1.100M (+241%) y libre ajustado $925M (+234%) en el 2T26", "—", *pr)]
+    debt = dict(id="shelf26", kind="shelf", name="Shelf automático S-3ASR (19-feb-2026), usado para bonos", shares=None, capacity_usd=None, price_basis=None, gate="live",
+                date="2026-02-19", notes="Sin límite de importe (emisor WKSI). Su único uso hasta hoy son bonos, no acciones: $600M al 4,85% (2036) y $500M en cada tramo de 2046, 2056 y 2066. No diluye. Registrada con un S-3ASR (shelf automático) del 19-feb.",
+                src=[nb])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = [dict(date="2026-10-28", kind="earnings", text="Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]", src=[fx])]
+    text = dict(
+        narrative_flags=["La nota de resultados ya no da cartera ni book-to-bill: sin ese dato, el catalizador se mide con la guía."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: crecimiento del +24% con desaceleración {m.accel_pp:pp}, fallo en ventas frente al consenso (−3%) pero subida de la guía y del margen; el mercado lo compró en el día y lo ha devuelto después.",
+        financials_note="Trimestres de XBRL (companyfacts) hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión (corrige el CFO del 2T24).",
+        quality=["Margen bruto al alza (34,0% → 37,7%) y caja muy por encima del beneficio en el 2T26.",
+                 "Fondo de comercio e intangibles = 86% del patrimonio: crecimiento con adquisiciones."],
+        supply_read=f"Sin ampliaciones de capital: lo de febrero son bonos ($2.100M). Lo que pesa son las ventas de consejeros: {casekit.usd_m(insider_total(t))} en 12 meses, "
+                    "muchas fuera de planes 10b5-1 y algunas de más de la mitad de su posición en un trimestre.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 22 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El más puro del universo en centros de datos y el que más ha caído (−46% desde máximos): el mercado castiga la desaceleración del crecimiento.",
+        risks=["Desaceleración: +30% en el 1T, +24% en el 2T.", "Ventas de consejeros fuertes y fuera de plan.", "Pausa del capex de IA de los hiperescalares.",
+               "Resultados el 28-oct antes de la apertura."],
+        plan=["Resultados del 3T26 el 28-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+              "**EP A/B si:** BPA ≥ $1,91 (+5% sobre el consenso de $1,82 de finviz), ventas sin fallo frente al consenso y guía anual de ventas por encima de $14.000M.",
+              "**D si:** segundo fallo seguido en ventas o guía anual mantenida: confirmaría la desaceleración.",
+              "Técnica: −46% desde el máximo, bajo la SMA 50 y la 200; RS débil. Sin setup."],
+        verdict="Negocio de calidad (margen y caja al alza, guía subida) en plena corrección por la desaceleración y las ventas de consejeros. "
+                "Solo un EP limpio el 28-oct cambiaría la lectura.")
+    header = dict(verdict="Guía subida y caja récord, pero fallo en ventas y desaceleración: −46% desde máximos.",
+                  setup="−46% desde máximos; sin setup.", catalyst="2T26: ventas −3% frente al consenso, BPA +7%, guía +1,8%.",
+                  quality="Margen al alza; mucho fondo de comercio.", supply="Bonos, no acciones; consejeros vendiendo.",
+                  group="El más puro en centros de datos.")
+    finish(t, c, kpis, [e], [debt, ins], forensic_float(t), text, header, events, [pr, q1, nb, fx])
+
+
+# ---------------------------------------------------------------- GEV
+def gev():
+    t = "GEV"
+    c, rows = base(t)
+    pr = casekit.link(1996810, "0001996810-26-000147", "gevpressrelease2q26.htm", "EX-99.1 8-K 22-jul-2026: resultados 2T26")
+    tq = ["10-Q 2T26 (ganancia de $3.992M por Prolec GE)", "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000148/gev-20260630.htm"]
+    nb = casekit.link(1996810, "0001140361-26-003521", "ny20063664x4_424b5.htm", "424B5 3-feb-2026: bonos senior 2031–2056 ($2.600M)")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-07-22", "bmo",
+                         "Resultados 2T26: pedidos $24.200M (+88% orgánico), ventas $11.100M (+22%), cartera $176.000M; sube la guía 2026 (ventas $45.500–46.500M, FCF $11.500–12.500M)",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=True, guide_change=2.2,
+                         note="Consenso de finviz: ventas +2,9% y BPA −22,1% (fallo). Guía de ventas: punto medio de $45.000M a $46.000M (+2,2%); flujo de caja libre de $7.000M a $12.000M. "
+                              "El mercado vendió el informe: hueco del −5,4% y cierre del −8,7%.")
+    kpis = [
+        kp("Pedidos y cartera", "Pedidos $24.200M en el 2T26 (+88% orgánico; Power $16.729M, +135%); cartera total $176.000M (+$13.000M en el trimestre); Gas Power 116 GW contratados o reservados (objetivo ≥ 125 GW a fin de 2026)",
+           "Pedidos 2T25: Power $7.109M", *pr),
+        kp("Book-to-bill (2T26)", "≈ 2,2 (pedidos $24.200M ÷ ventas $11.100M)", "—", *pr),
+        kp("Centros de datos", "Pedidos de Electrification para centros de datos > $5.000M en lo que va de 2026, más del doble de todo 2025", "—", *pr),
+        kp("Margen", "EBITDA ajustado 11,3% (+340 pb orgánico); guía 12–14%. Wind sigue en pérdidas (≈ −$400M de EBITDA en 2026)", "—", *pr),
+        kp("Capital", "Caja $13.100M; $3.900M devueltos a los accionistas en el año (recompras y dividendo)", "—", *pr)]
+    debt = dict(id="shelf26", kind="shelf", name="Shelf automático S-3ASR (29-ene-2026), usado para bonos", shares=None, capacity_usd=None, price_basis=None, gate="live",
+                date="2026-01-29", notes="Sin límite de importe (emisor WKSI). Su único uso hasta hoy son bonos, no acciones: $600M al 4,25% (2031), $1.000M al 4,875% (2036) y $1.000M al 5,5% (2056). No diluye.", src=[nb])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = [dict(date="2026-10-28", kind="earnings", text="Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]", src=[fx])]
+    text = dict(
+        narrative_flags=["El neto del 1T26 ($4.745M) incluye una ganancia de $3.992M antes de impuestos por revalorizar la participación previa en Prolec GE al comprarla: no es del negocio.",
+                         "El neto del 4T25 ($3.664M) también supera con mucho al operativo ($601M) [VERIFY: origen en el 10-K 2025]."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: pedidos y cartera excepcionales y guía de caja casi duplicada, pero fallo en BPA y el mercado lo vendió (−9% al cierre).",
+        financials_note="Trimestres de XBRL hasta el 2T26. Caja, deuda, capex y SBC no salen de companyfacts con las etiquetas estándar: la caja ($13.100M) viene de la nota de resultados.",
+        quality=["El beneficio neto TTM está inflado por la ganancia de Prolec GE ($3.992M): las métricas de margen neto y accruals hay que leerlas con eso.",
+                 "Flujo operativo de $5.492M en el 2T26, muy por encima del beneficio: anticipos de clientes por la cartera (capital circulante favorable)."],
+        supply_read=f"Sin ampliaciones: lo de febrero son bonos ($2.600M). Recompras en marcha. Ventas de directivos pequeñas ({casekit.usd_m(insider_total(t))} en 12 meses).",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 38 (finviz), el más caro del universo. DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="La mayor cartera del universo ($176.000M) y la mejor visibilidad; por detrás de FIX y VRT en pureza de centros de datos.",
+        risks=["Ejecución: subir la capacidad de turbinas a 20–30 GW al año.", "Wind en pérdidas.", "Valoración exigente.",
+               "Resultados el 28-oct antes de la apertura."],
+        plan=["Resultados del 3T26 el 28-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+              "**EP A/B si:** BPA ≥ $4,19 (+5% sobre el consenso de $3,99 de finviz), pedidos ≥ $20.000M y guía de FCF mantenida o subida.",
+              "**D si:** segundo fallo de BPA con pedidos a la baja: el mercado dejaría de pagar la cartera.",
+              "Técnica: −23% desde el máximo, en la SMA 200; RS 1m en percentil 77. Sin setup."],
+        verdict="La mejor visibilidad del universo (cartera de $176.000M, pedidos +88%) con la valoración más alta y un fallo de BPA que el mercado castigó. El 28-oct dirá si la cartera pesa más que el margen.")
+    header = dict(verdict="Pedidos +88% y cartera de $176.000M, pero fallo de BPA y la valoración más alta.",
+                  setup="−23% desde máximos, en la SMA 200; sin setup.", catalyst="2T26: ventas +3%, BPA −22% frente al consenso; guía de FCF casi doble.",
+                  quality="Neto inflado por Prolec GE; caja por anticipos.", supply="Bonos, no acciones; recompras.",
+                  group="La mayor cartera del universo.")
+    finish(t, c, kpis, [e], [debt, ins], forensic_float(t), text, header, events, [pr, tq, nb, fx])
+
+
 if __name__ == "__main__":
-    for f in sys.argv[1:] or ["fix"]:
+    for f in sys.argv[1:] or ["fix", "vrt", "gev"]:
         globals()[f]()
         print(f, "ok")
