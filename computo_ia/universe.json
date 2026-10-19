@@ -37,7 +37,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "GPU Instinct + CPU de servidor y PC"
   },
   {
@@ -97,7 +97,7 @@
    "profile": "semis_hardware",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "octubre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Depósito, grabado e inspección; peso de China"
   },
   {
@@ -133,7 +133,7 @@
    "profile": "semis_hardware",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Switches Ethernet para centros de datos de IA"
   },
   {
@@ -157,7 +157,7 @@
    "profile": "semis_hardware",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "junio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Transceptores ópticos + láseres y materiales"
   },
   {
@@ -169,7 +169,7 @@
    "profile": "semis_hardware",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "junio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Láseres y transceptores ópticos"
   },
   {

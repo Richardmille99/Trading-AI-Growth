@@ -12,11 +12,11 @@
   "group": "Redes y óptica para centros de datos (ANET, CIEN, COHR, LITE)",
   "subgroup": "redes_optica",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Láseres y transceptores ópticos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Láseres y transceptores ópticos para redes de centros de datos de IA y telecomunicaciones (incluye Cloud Light). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001308179-26-000422",
   "last_filing_seen_date": "2026-10-06",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 824.1300048828125,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía 1T FY27",
+    "value": "Ingresos ≈ $1.250M en el punto medio (+24% secuencial): «modelo objetivo más de un trimestre antes de lo previsto»",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 11-ago-2026: resultados 4T FY26",
+      "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto",
+    "value": "47,4% en el 4T FY26",
+    "prior": "33,3% en el 4T FY25",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Canje de convertibles",
+    "value": "Deuda de $3.282M a $1.637M en el 4T; acciones básicas de 70,3M (sep-2025) a 89,7M (ago-2026), +28%",
+    "prior": "—",
+    "src": [
+     [
+      "8-K 29-may-2026: canje de bonos 2028 por ≈ 5,0M acciones",
+      "https://www.sec.gov/Archives/edgar/data/1633978/000119312526249535/d112771d8k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Flujo operativo",
+    "value": "$363M en el 4T FY26",
+    "prior": "$64M (4T FY25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q4fy26",
    "type": "earnings",
    "date": "2026-08-11",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $1.006,3M (+109% interanual)",
+   "headline": "Resultados 4T FY26: ingresos $1.006M (+109%); guía del 1T FY27 de $1.250M en el punto medio (+24% secuencial); pérdida GAAP de $7.200M por canje de convertibles (contable, sin caja)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-11",
+     "EX-99.1 8-K 11-ago-2026: resultados 4T FY26",
      "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 8,80% y ventas 1,88%; BPA próximo trimestre $4,21",
+     "https://finviz.com/quote.ashx?t=LITE"
     ]
    ],
    "rev_growth_yoy": 1.0934054503848554,
    "rev_growth_yoy_prev": 0.901222953904045,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 1.9,
+   "eps_surprise_pct": 8.8,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": 1417,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +1,9% y BPA ajustado +8,8%. La pérdida neta GAAP (−$7.162M) sale de una pérdida contable de $7.800M por cancelar convertibles a cambio de acciones: no afecta a la caja, pero sí al número de acciones. EP: hueco del +9,6% y cierre del +13,6%.",
    "gap_pct": 9.56,
    "rvol": 2.26,
    "close_in_range": 0.74,
@@ -321,12 +370,49 @@
    "reaction_close_chg_pct": 13.63
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "conv_canje",
+   "kind": "convertible",
+   "name": "Canjes de convertibles por acciones (2026)",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "dated",
+   "date": "2026-05-29",
+   "notes": "Varios canjes privados (8-K 3.02 de mar, abr y may-2026): por ejemplo ≈ 5,0M acciones por $650,4M de bonos 2028. Las acciones básicas suben un 28% en un año. [VERIFY: convertibles que quedan vivos tras los canjes, en el 10-K FY26]",
+   "src": [
+    [
+     "8-K 29-may-2026: canje de bonos 2028 por ≈ 5,0M acciones",
+     "https://www.sec.gov/Archives/edgar/data/1633978/000119312526249535/d112771d8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $175,8M; 11 marcados",
+   "shares": 235964.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Retort Vincent (SEE REMARKS) $69,5M, máx. 36% en 2026-T3; Ali Wajid (EVP & CHIEF FINANCIAL OFFICER) $31,8M, máx. 25% en 2026-T4; Wupen Yuen (PRESIDENT, GLOBAL BUS. UNITS) $18,7M, máx. 12% en 2026-T3; Kim Jae (SVP, GENERAL COUNSEL) $16,6M, máx. 28% en 2026-T3. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 42144997.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-08-17): $16.469,0M de no afiliados a 2025-12-26 ÷ cierre de $390,77 = 42,1M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -488,24 +574,29 @@
  },
  "events": [
   {
-   "date": "2026-11-10",
+   "date": "2026-11-05",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-11) + 91 días]",
-   "src": []
+   "text": "Resultados 1T FY27 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 8,80% y ventas 1,88%; BPA próximo trimestre $4,21",
+     "https://finviz.com/quote.ashx?t=LITE"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+109%, guía +24% y EP en agosto; dilución por canjes ya hecha.",
+  "setup": "Sobre la SMA 200; −26% desde máximos.",
+  "catalyst": "4T FY26: ventas +2%, BPA +9%; EP +14%.",
+  "quality": "Margen 33% → 47%; neto GAAP distorsionado.",
+  "supply": "Canjes por acciones (+28%).",
+  "group": "El que más crece."
  },
  "snapshot": [
   [
    "Negocio",
-   "Láseres y transceptores ópticos"
+   "Láseres y transceptores ópticos para redes de centros de datos de IA y telecomunicaciones (incluye Cloud Light)"
   ],
   [
    "Subgrupo · pureza",
@@ -537,21 +628,46 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "La pérdida GAAP de $7.200M es contable (canje de convertibles), pero la dilución es real: +28% de acciones básicas en un año.",
+   "Crecimiento del +109% con margen bruto del 33% al 47%: el ciclo de transceptores para IA en su punto más fuerte."
+  ],
+  "catalyst_read": "El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: +109% con aceleración {m.accel_pp:pp}, guía +24% secuencial y EP con hueco del +10%.",
+  "financials_note": "Trimestres de XBRL hasta el 4T FY26. El neto del 4T (−$7.162M) lleva la pérdida contable del canje: las métricas de beneficio TTM salen distorsionadas.",
+  "quality": [
+   "Neto GAAP distorsionado por la pérdida contable de $7.800M.",
+   "Margen bruto disparado (33% → 47%) y flujo operativo al alza."
+  ],
+  "supply_read": "La oferta fuerte ya ocurrió: canjes de convertibles por acciones (+28% de acciones básicas). Ventas de directivos $175,8M en 12 meses.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 25 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El que más crece del cómputo de IA (+109%) y con el margen que más mejora; frente a COHR, más caro pero mucho más rápido.",
+  "risks": [
+   "Ciclo de transceptores: muy alto ahora.",
+   "Dilución acumulada.",
+   "Resultados el 5-nov tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 el 5-nov tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 31-oct.",
+   "**EP A/B si:** ingresos ≥ $1.300M (+4% sobre el punto medio de la guía), BPA ≥ $4,42 (+5% sobre el consenso de $4,21) y guía del 2T FY27 con más crecimiento.",
+   "**D si:** ingresos en la guía con margen plano.",
+   "Técnica: sobre la SMA 200 (+9%), bajo las EMA cortas; −26% desde el máximo."
+  ],
+  "verdict": "El caso de crecimiento más fuerte del cómputo (+109%, guía +24%, EP en agosto) con márgenes disparados; la dilución por canjes ya está hecha. Candidato a EP el 5-nov."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-11",
+   "EX-99.1 8-K 11-ago-2026: resultados 4T FY26",
    "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
+  ],
+  [
+   "8-K 29-may-2026: canje de bonos 2028 por ≈ 5,0M acciones",
+   "https://www.sec.gov/Archives/edgar/data/1633978/000119312526249535/d112771d8k.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 8,80% y ventas 1,88%; BPA próximo trimestre $4,21",
+   "https://finviz.com/quote.ashx?t=LITE"
   ]
  ]
 }

@@ -12,11 +12,11 @@
   "group": "Generación eléctrica con contratos para centros de datos (CEG, VST)",
   "subgroup": "generacion",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Generación (gas y nuclear) en Texas y otros mercados. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Generación eléctrica (gas, nuclear, carbón y solar) y venta minorista de electricidad, con Texas como mercado principal. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001940494-26-000008",
   "last_filing_seen_date": "2026-10-08",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 152.02000427246094,
@@ -285,48 +285,134 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "EBITDA ajustado de operaciones",
+    "value": "$1.767M en el 2T26 (+31%); 1S26 $3.261M",
+    "prior": "$1.349M (2T25)",
+    "src": [
+     [
+      "EX-99.1 8-K 7-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 2026",
+    "value": "EBITDA ajustado de operaciones $6.800–7.600M y FCF antes de crecimiento $3.925–4.725M (reafirmada)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 7-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Centros de datos",
+    "value": "Helix Digital Infrastructure con KKR, KIA y NVIDIA; compromiso inicial de Vistra de hasta $1.000M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 7-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Deuda",
+    "value": "$19.595M a jun-2026 (XBRL); $1.500M en bonos subordinados 2057 en septiembre",
+    "prior": "$15.770M (jun-2025)",
+    "src": [
+     [
+      "8-K 24-sep-2026: bonos subordinados 2057 ($1.500M)",
+      "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-08-07",
-   "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $4.401,0M (+17% interanual)",
+   "time_et": "premarket",
+   "headline": "Resultados 2T26: EBITDA ajustado de operaciones $1.767M (+31%); reafirma la guía 2026 de EBITDA ajustado $6.800–7.600M; anuncia Helix Digital Infrastructure con KKR, KIA y NVIDIA",
    "sources": [
     [
-     "8-K 2026-08-07 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260807.htm"
+     "EX-99.1 8-K 7-ago-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA -52,75% y ventas -26,49%; BPA próximo trimestre $2,71",
+     "https://finviz.com/quote.ashx?t=VST"
     ]
    ],
    "rev_growth_yoy": 0.17266187050359716,
    "rev_growth_yoy_prev": 0.17670588235294127,
    "rev_surprise_pct": null,
    "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "guide_raise": false,
+   "guide_change_pct": 0.0,
    "gm_change_bp": null,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
-   "gap_pct": 0.94,
-   "rvol": 1.02,
-   "close_in_range": 0.48,
+   "note": "La sorpresa de finviz (BPA −52,8%, ventas −26,5%) no se usa: el resultado GAAP lo distorsionan las coberturas, con $472M de pérdidas no realizadas en coberturas de años futuros. La compañía mide su negocio con el EBITDA ajustado de operaciones (+31%). Reacción plana: +0,9% en la apertura y +1,6% al cierre.",
+   "gap_pct": -1.96,
+   "rvol": 1.77,
+   "close_in_range": 0.74,
    "day2_follow": true,
-   "dollar_volume": 658502094,
+   "dollar_volume": 1105135784,
    "estimate_revisions": "unknown",
-   "reaction_date": "2026-08-10",
-   "reaction_close_chg_pct": 1.62
+   "reaction_date": "2026-08-07",
+   "reaction_close_chg_pct": -0.56
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "shelf26",
+   "kind": "shelf",
+   "name": "Shelf automático S-3ASR (9-sep-2026), usado para bonos subordinados",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-09-09",
+   "notes": "Sin límite de importe (emisor WKSI). Su uso hasta hoy son bonos subordinados (2057), no acciones.",
+   "src": [
+    [
+     "8-K 24-sep-2026: bonos subordinados 2057 ($1.500M)",
+     "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $86,3M; 6 marcados",
+   "shares": 495867.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "BURKE JAMES A (consejero, President and CEO) $37,7M, máx. 40% en 2025-T4; HUDSON SCOTT A (EVP & President Vistra Retail) $19,8M, máx. 15% en 2025-T4, 1 ventas sin 10b5-1; Kirby Carrie Lee (EVP and Chief Admin. Officer) $10,2M, máx. 21% en 2025-T4, 1 ventas sin 10b5-1; Moore Stephanie Zapata (EVP and General Counsel) $3,0M, máx. 9% en 2025-T4, 1 ventas sin 10b5-1. Compras en mercado abierto: 8.665 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 336987052.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-27): $65.311,5M de no afiliados a 2025-06-30 ÷ cierre de $193,81 = 337,0M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -446,22 +532,27 @@
   {
    "date": "2026-11-06",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-07) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA -52,75% y ventas -26,49%; BPA próximo trimestre $2,71",
+     "https://finviz.com/quote.ashx?t=VST"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "EBITDA ajustado +31%, guía reafirmada; centros de datos aún sin cifras.",
+  "setup": "En tendencia; −30% desde máximos.",
+  "catalyst": "2T26: sorpresa no medible (coberturas); guía reafirmada.",
+  "quality": "GAAP volátil; deuda al alza.",
+  "supply": "Bonos subordinados.",
+  "group": "Generación con centros de datos."
  },
  "snapshot": [
   [
    "Negocio",
-   "Generación (gas y nuclear) en Texas y otros mercados"
+   "Generación eléctrica (gas, nuclear, carbón y solar) y venta minorista de electricidad, con Texas como mercado principal"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +584,47 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El beneficio GAAP y los ingresos se mueven con el valor de las coberturas: el BPA de finviz no sirve para medir la sorpresa.",
+   "La tesis de centros de datos se concreta en Helix (con NVIDIA y KKR), aún sin ingresos."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: EBITDA ajustado +31% con guía reafirmada (no subida); sin sorpresa medible por las coberturas.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26. Ingresos y neto GAAP incluyen la revalorización de coberturas: no comparables entre trimestres.",
+  "quality": [
+   "Resultado GAAP volátil por coberturas.",
+   "Fondo de comercio e intangibles = 93% del patrimonio.",
+   "Deuda al alza ($15.770M → $19.595M)."
+  ],
+  "supply_read": "Sin ampliaciones: deuda subordinada en septiembre. Ventas de directivos $86,3M en 12 meses.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 15 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "Generación eléctrica con exposición a centros de datos en Texas; más volátil que CEG y con más deuda.",
+  "risks": [
+   "Precios de la electricidad y coberturas.",
+   "Deuda creciente.",
+   "Resultados el 6-nov antes de la apertura."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 6-nov antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 3-nov.",
+   "**EP A/B si:** subida de la guía de EBITDA ajustado por encima de $7.600M o un contrato de suministro con un hiperescalar con cifras.",
+   "**D si:** guía mantenida sin novedades de centros de datos.",
+   "Técnica: en tendencia (EMA alineadas), en la SMA 200 y −30% desde el máximo."
+  ],
+  "verdict": "Negocio que crece en EBITDA (+31%) con guía solo reafirmada y la tesis de centros de datos aún sin ingresos. El 6-nov necesita guía o contratos."
  },
  "sources": [
   [
-   "8-K 2026-08-07 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260807.htm"
+   "EX-99.1 8-K 7-ago-2026: resultados 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm"
+  ],
+  [
+   "8-K 24-sep-2026: bonos subordinados 2057 ($1.500M)",
+   "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA -52,75% y ventas -26,49%; BPA próximo trimestre $2,71",
+   "https://finviz.com/quote.ashx?t=VST"
   ]
  ]
 }

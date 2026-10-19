@@ -12,11 +12,11 @@
   "group": "Datos, observabilidad y red con cobro por consumo (SNOW, DDOG, MDB, NET)",
   "subgroup": "datos_consumo",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Observabilidad por consumo; clientes nativos de IA. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Observabilidad y seguridad en la nube con cobro por consumo; clientes nativos de IA en crecimiento. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001561550-26-000324",
   "last_filing_seen_date": "2026-10-09",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 247.11000061035156,
@@ -285,48 +285,117 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Clientes grandes",
+    "value": "≈ 4.720 clientes con ARR > $100.000 (+23%)",
+    "prior": "≈ 3.850 (jun-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 6-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ex-991x20260630x8k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía",
+    "value": "3T26 $1.135–1.145M; 2026 $4.450–4.470M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 6-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ex-991x20260630x8k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera (RPO)",
+    "value": "$3.471M a jun-2026 (XBRL)",
+    "prior": "$2.426M (jun-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Margen operativo GAAP",
+    "value": "≈ 0% (beneficio operativo de $5M); SBC $220M, el 20% de los ingresos",
+    "prior": "−4% (2T25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-08-06",
-   "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $1.121,5M (+36% interanual)",
+   "time_et": "premarket",
+   "headline": "Resultados 2T26: ingresos $1.121M (+36%), clientes > $100.000 de ARR 4.720 (+23%), FCF $279M; guía 3T $1.135–1.145M y 2026 $4.450–4.470M",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-06",
+     "EX-99.1 8-K 6-ago-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ex-991x20260630x8k.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 11,47% y ventas 3,86%; BPA próximo trimestre $0,64",
+     "https://finviz.com/quote.ashx?t=DDOG"
     ]
    ],
    "rev_growth_yoy": 0.3564444336929702,
    "rev_growth_yoy_prev": 0.32154426546806336,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 3.9,
+   "eps_surprise_pct": 11.5,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -134,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
-   "gap_pct": 2.41,
-   "rvol": 1.62,
-   "close_in_range": 0.05,
+   "note": "Consenso de finviz: ventas +3,9% y BPA +11,5%. La guía del 3T ($1.140M en el punto medio) solo supone +1,7% secuencial: guía conservadora, como suele. Reacción tibia: +2,4% en la apertura y +2,0% al cierre.",
+   "gap_pct": -19.68,
+   "rvol": 2.99,
+   "close_in_range": 0.23,
    "day2_follow": true,
-   "dollar_volume": 1998089639,
+   "dollar_volume": 3446480818,
    "estimate_revisions": "unknown",
-   "reaction_date": "2026-08-07",
-   "reaction_close_chg_pct": 2.02
+   "reaction_date": "2026-08-06",
+   "reaction_close_chg_pct": -19.03
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $808,5M; 12 marcados",
+   "shares": 3951132.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Pomel Olivier (consejero, Chief Executive Off) $251,0M, máx. 43% en 2026-T2; Le-Quoc Alexis (consejero, Chief Technology Of) $204,8M, máx. 44% en 2025-T4; Jacobson Matthew (consejero) $122,1M, máx. 39% en 2025-T4, 22 ventas sin 10b5-1; Agarwal Amit (consejero) $76,1M, máx. 84% en 2026-T2. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 320107194.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-18): $43.000,0M de no afiliados a 2025-06-30 ÷ cierre de $134,33 = 320,1M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -521,24 +590,29 @@
  },
  "events": [
   {
-   "date": "2026-11-05",
+   "date": "2026-11-04",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-06) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 11,47% y ventas 3,86%; BPA próximo trimestre $0,64",
+     "https://finviz.com/quote.ashx?t=DDOG"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+36% con beats repetidos; SBC del 20% y fundadores vendiendo.",
+  "setup": "En tendencia; −18% desde máximos.",
+  "catalyst": "2T26: ventas +4%, BPA +11%; reacción tibia.",
+  "quality": "Margen GAAP ≈ 0 por la SBC.",
+  "supply": "Sin ampliaciones; ventas de fundadores.",
+  "group": "Consumo con clientes de IA."
  },
  "snapshot": [
   [
    "Negocio",
-   "Observabilidad por consumo; clientes nativos de IA"
+   "Observabilidad y seguridad en la nube con cobro por consumo; clientes nativos de IA en crecimiento"
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +644,43 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Los fundadores (Pomel y Le-Quoc) han vendido más de $450M en 12 meses, en planes 10b5-1, hasta un 43–44% de su posición en un trimestre.",
+   "Rentable solo en cifras ajustadas: la SBC (20% de los ingresos) se come el margen GAAP."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +36% con aceleración {m.accel_pp:pp} y beat claro, pero sin subida de guía cuantificada y con reacción tibia.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión.",
+  "quality": [
+   "SBC del 20% de los ingresos: margen GAAP ≈ 0.",
+   "FCF ($279M) muy por encima del beneficio GAAP por la SBC."
+  ],
+  "supply_read": "Sin ampliaciones. La oferta viene de la SBC y de las ventas de directivos: $808,5M en 12 meses, la cifra más alta del software junto a NET.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 83 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "Representante del modelo por consumo que se beneficia de los clientes nativos de IA; crece más que SNOW y MDB.",
+  "risks": [
+   "Ventas de fundadores.",
+   "Dependencia de clientes nativos de IA.",
+   "Valoración.",
+   "Resultados el 4-nov antes de la apertura."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 4-nov antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 30-oct.",
+   "**EP A/B si:** ingresos ≥ $1.180M (≈ +3% sobre el techo de la guía, su patrón de beat) y guía anual por encima de $4.470M.",
+   "**D si:** ingresos dentro de la guía: se rompería el patrón de beats y el consumo de IA estaría frenando.",
+   "Técnica: en tendencia (EMA alineadas), sobre la SMA 200 y −18% desde el máximo."
+  ],
+  "verdict": "Crecimiento sólido del modelo por consumo (+36%) con beats repetidos, pero margen GAAP nulo por la SBC y fundadores vendiendo fuerte. El 4-nov medirá el consumo de IA."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-06",
+   "EX-99.1 8-K 6-ago-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ex-991x20260630x8k.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 11,47% y ventas 3,86%; BPA próximo trimestre $0,64",
+   "https://finviz.com/quote.ashx?t=DDOG"
   ]
  ]
 }

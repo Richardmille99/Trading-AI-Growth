@@ -12,11 +12,11 @@
   "group": "Redes y óptica para centros de datos (ANET, CIEN, COHR, LITE)",
   "subgroup": "redes_optica",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Transceptores ópticos + láseres y materiales. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Transceptores ópticos y láseres para centros de datos, más materiales y láseres industriales. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0000899140-26-001104",
   "last_filing_seen_date": "2026-10-14",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 232.89999389648438,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía 1T FY27",
+    "value": "Ingresos $2.200–2.400M; margen bruto ajustado 39,5–41,5%; gastos operativos ajustados $400–420M; BPA ajustado $1,85–2,05",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 12-ago-2026: resultados 4T FY26",
+      "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto",
+    "value": "38,5% en el 4T FY26",
+    "prior": "35,7% en el 4T FY25",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Capex",
+    "value": "$556M en el 4T FY26 (27% de los ingresos): ampliación de capacidad de transceptores",
+    "prior": "$131M (4T FY25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Salida de Bain Capital",
+    "value": "Bain (≥ 10%) vendió ≈ $1.075M en 12 meses, el 100% de su posición declarada",
+    "prior": "—",
+    "src": [
+     [
+      "Forms 4 (EDGAR), insiders.json",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q4fy26",
    "type": "earnings",
    "date": "2026-08-12",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $2.045,5M (+34% interanual)",
+   "headline": "Resultados 4T FY26: ingresos $2.046M (+34%); guía del 1T FY27 $2.200–2.400M (+12% secuencial en el punto medio), margen bruto ajustado 39,5–41,5%, BPA ajustado $1,85–2,05",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-12",
+     "EX-99.1 8-K 12-ago-2026: resultados 4T FY26",
      "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex991.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 7,61% y ventas 3,07%; BPA próximo trimestre $1,98",
+     "https://finviz.com/quote.ashx?t=COHR"
     ]
    ],
    "rev_growth_yoy": 0.33744269129273796,
    "rev_growth_yoy_prev": 0.20546519445162126,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 3.1,
+   "eps_surprise_pct": 7.6,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": 277,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +3,1% y BPA +7,6%. El mercado lo vendió: −3,0% en la apertura y −8,0% al cierre.",
    "gap_pct": -3.03,
    "rvol": 2.21,
    "close_in_range": 0.05,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": -7.99
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $1.118,2M; 12 marcados",
+   "shares": 7731151.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "BAIN CAPITAL INVESTORS LLC (≥10%) $1.075,3M, máx. 100% en 2025-T4, 1 ventas sin 10b5-1; BARBAROSSA GIOVANNI (EVP, General Management) $18,1M, máx. 42% en 2025-T4; Eng Julie Sheridan (Chief Technology Officer) $4,8M, máx. 24% en 2026-T3; Digirolomo Enrico (consejero) $4,5M, máx. 42% en 2026-T3, 4 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 186911763.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-08-14): $34.498,3M de no afiliados a 2025-12-31 ÷ cierre de $184,57 = 186,9M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -488,24 +557,29 @@
  },
  "events": [
   {
-   "date": "2026-11-11",
+   "date": "2026-11-04",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-12) + 91 días]",
-   "src": []
+   "text": "Resultados 1T FY27 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 7,61% y ventas 3,07%; BPA próximo trimestre $1,98",
+     "https://finviz.com/quote.ashx?t=COHR"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+34% y guía +12% secuencial a PER ≈ 17; FCF negativo por el capex.",
+  "setup": "−45% desde máximos; sin setup.",
+  "catalyst": "4T FY26: ventas +3%, BPA +8%; −8% al cierre.",
+  "quality": "Margen al alza; FCF negativo.",
+  "supply": "Salida de Bain ya hecha.",
+  "group": "La óptica barata."
  },
  "snapshot": [
   [
    "Negocio",
-   "Transceptores ópticos + láseres y materiales"
+   "Transceptores ópticos y láseres para centros de datos, más materiales y láseres industriales"
   ],
   [
    "Subgrupo · pureza",
@@ -537,21 +611,43 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Bain Capital ha salido del capital (≈ $1.075M vendidos): la oferta de ese bloque ya está hecha.",
+   "El capex se ha cuadruplicado ($131M → $556M por trimestre): el FCF del 4T fue negativo."
+  ],
+  "catalyst_read": "El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: +34% con aceleración {m.accel_pp:pp} y guía +12% secuencial, pero el mercado lo vendió (−8%).",
+  "financials_note": "Trimestres de XBRL hasta el 4T FY26; regenerados el 19-oct con el 4T derivado de la misma versión. El beneficio operativo no sale de companyfacts con la etiqueta estándar.",
+  "quality": [
+   "Margen bruto al alza (35,7% → 38,5%).",
+   "FCF negativo por el capex.",
+   "Fondo de comercio e intangibles = 67% del patrimonio."
+  ],
+  "supply_read": "Sin ampliaciones; la salida de Bain ya está ejecutada. Ventas de insiders $1.118,2M en 12 meses, casi todo Bain.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 17 (finviz), el más barato de la óptica. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "La óptica barata del universo (PER ≈ 17) frente a LITE (≈ 25): crece menos (+34% frente a +109%) y con margen menor.",
+  "risks": [
+   "Capex alto y FCF negativo.",
+   "Competencia en transceptores (LITE, fabricantes chinos).",
+   "Resultados el 4-nov tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 el 4-nov tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 30-oct.",
+   "**EP A/B si:** ingresos ≥ $2.400M (techo de la guía), margen bruto ≥ 41% y guía del 2T FY27 con más crecimiento.",
+   "**D si:** margen bruto por debajo del 39,5%.",
+   "Técnica: −45% desde el máximo, bajo la SMA 200; RS en el percentil 11. Sin setup."
+  ],
+  "verdict": "Óptica para IA a precio de saldo (PER ≈ 17) con guía +12% secuencial, pero con FCF negativo por el capex y la acción en tendencia bajista."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-12",
+   "EX-99.1 8-K 12-ago-2026: resultados 4T FY26",
    "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex991.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 7,61% y ventas 3,07%; BPA próximo trimestre $1,98",
+   "https://finviz.com/quote.ashx?t=COHR"
   ]
  ]
 }

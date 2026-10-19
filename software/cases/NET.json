@@ -12,11 +12,11 @@
   "group": "Datos, observabilidad y red con cobro por consumo (SNOW, DDOG, MDB, NET)",
   "subgroup": "datos_consumo",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Red, seguridad y cómputo en el borde. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Red global para seguridad, rendimiento y cómputo en el borde (Workers, IA en la red), con cobro por suscripción y uso. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001786951-26-000025",
   "last_filing_seen_date": "2026-10-07",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 296.29998779296875,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "cRPO",
+    "value": "+35% interanual en el 2T26; RPO $2.732M (XBRL)",
+    "prior": "RPO $1.977M (jun-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 6-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Márgenes",
+    "value": "Bruto GAAP 71,8% (74,9% un año antes); operativo GAAP −29,6%; ajustado +13,8%",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 6-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "FCF",
+    "value": "$56,4M (8% de los ingresos)",
+    "prior": "$33,3M (6%)",
+    "src": [
+     [
+      "EX-99.1 8-K 6-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía",
+    "value": "3T26 ingresos $736–737M y beneficio operativo ajustado $129–130M; 2026 $2.864–2.870M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 6-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-08-06",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $696,1M (+36% interanual)",
+   "headline": "Resultados 2T26: ingresos $696,1M (+36%), cRPO +35%; pérdida operativa GAAP de $205,7M (30% de los ingresos); guía 3T $736–737M y 2026 $2.864–2.870M",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-06",
+     "EX-99.1 8-K 6-ago-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 8,05% y ventas 4,72%; BPA próximo trimestre $0,34",
+     "https://finviz.com/quote.ashx?t=NET"
     ]
    ],
    "rev_growth_yoy": 0.3586555953747297,
    "rev_growth_yoy_prev": 0.335362888160188,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 4.7,
+   "eps_surprise_pct": 8.1,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -312,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +4,7% y BPA ajustado +8,1%. La pérdida operativa GAAP se triplica (−$67M → −$206M) y el margen bruto baja del 74,9% al 71,8% [VERIFY: causa en el 10-Q del 2T26]. El mercado abrió +11,8% y cerró +5,6%.",
    "gap_pct": 11.8,
    "rvol": 2.43,
    "close_in_range": 0.15,
@@ -321,12 +370,49 @@
    "reaction_close_chg_pct": 5.57
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "conv31",
+   "kind": "convertible",
+   "name": "Convertible 0% 2031 ($2.500M, conversión ≈ $496,94)",
+   "shares": 5030750,
+   "capacity_usd": null,
+   "price_basis": 496.94,
+   "gate": "gated",
+   "date": "2031-08-15",
+   "notes": "2,0123 acciones por $1.000 (≈ 5,03M acciones), fuera de dinero a {m.price:px}. Capped call de $259,5M que reduce la dilución hasta su techo. Vence el 15-ago-2031.",
+   "src": [
+    [
+     "8-K 13-ago-2026: convertible 0% 2031 de $2.500M",
+     "https://www.sec.gov/Archives/edgar/data/1477333/000095010326012340/dp251721_8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $700,0M; 6 marcados",
+   "shares": 3105752.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Prince Matthew (consejero, CEO & Board Co-Chai) $339,6M, máx. 97% en 2026-T1; Zatlyn Michelle (consejero, President and Board) $247,2M, máx. 77% en 2026-T3; SEIFERT THOMAS J (Chief Financial Officer) $55,9M, máx. 31% en 2025-T4; Riley Janel (Chief Accounting Officer) $8,8M, máx. 33% en 2026-T1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 182300974.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K/A (2026-04-29): $35.700,0M de no afiliados a 2025-06-30 ÷ cierre de $195,83 = 182,3M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -523,22 +609,27 @@
   {
    "date": "2026-11-05",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-06) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 8,05% y ventas 4,72%; BPA próximo trimestre $0,34",
+     "https://finviz.com/quote.ashx?t=NET"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+36%, pero márgenes a la baja, PER ≈ 177 y el CEO vendiendo.",
+  "setup": "Bajo las EMA; −20% desde máximos.",
+  "catalyst": "2T26: ventas +5%, BPA +8%.",
+  "quality": "Margen bruto a la baja; pérdida GAAP.",
+  "supply": "Convertible 2031; ventas del CEO.",
+  "group": "El más caro."
  },
  "snapshot": [
   [
    "Negocio",
-   "Red, seguridad y cómputo en el borde"
+   "Red global para seguridad, rendimiento y cómputo en el borde (Workers, IA en la red), con cobro por suscripción y uso"
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +661,48 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El consejero delegado (Prince) ha vendido $340M en 12 meses, hasta un 97% de su posición directa en un trimestre (en plan 10b5-1), y la presidenta $247M.",
+   "Pérdida operativa GAAP en aumento y margen bruto a la baja mientras crece al +36%: la red de cómputo para IA cuesta."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +36% con aceleración {m.accel_pp:pp} y beat, pero pérdidas GAAP crecientes y margen bruto a la baja.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26. El convertible de $2.500M (agosto) es posterior al último balance.",
+  "quality": [
+   "Margen bruto a la baja (74,9% → 71,8%).",
+   "Pérdida operativa GAAP del 30% de los ingresos.",
+   "SBC $160M en el 2T26 (23% de los ingresos)."
+  ],
+  "supply_read": "Convertible 2031 de $2.500M fuera de dinero con capped call. Ventas de directivos $700,0M en 12 meses, encabezadas por el consejero delegado.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 177 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "Crece como DDOG (+36%) pero con márgenes peores y el PER más alto del universo.",
+  "risks": [
+   "Márgenes a la baja.",
+   "Ventas del consejero delegado.",
+   "Valoración extrema.",
+   "Resultados el 5-nov tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 5-nov tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 31-oct.",
+   "**EP A/B si:** ingresos ≥ $750M (≈ +2% sobre la guía), margen bruto estabilizado y guía anual por encima de $2.870M.",
+   "**D si:** margen bruto por debajo del 71% y pérdida operativa creciente.",
+   "Técnica: bajo las EMA, sobre la SMA 200 y −20% desde el máximo. Sin setup."
+  ],
+  "verdict": "Crecimiento acelerando (+36%) con márgenes empeorando, PER extremo y el consejero delegado vendiendo casi toda su posición directa. Caso de alto riesgo."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-06",
+   "EX-99.1 8-K 6-ago-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+  ],
+  [
+   "8-K 13-ago-2026: convertible 0% 2031 de $2.500M",
+   "https://www.sec.gov/Archives/edgar/data/1477333/000095010326012340/dp251721_8k.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 8,05% y ventas 4,72%; BPA próximo trimestre $0,34",
+   "https://finviz.com/quote.ashx?t=NET"
   ]
  ]
 }

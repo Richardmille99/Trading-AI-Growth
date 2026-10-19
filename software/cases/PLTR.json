@@ -12,11 +12,11 @@
   "group": "IA aplicada y publicidad algorítmica (PLTR, APP)",
   "subgroup": "ia_aplicada",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Plataformas de IA para gobierno y empresas; valoración muy alta. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Plataformas de análisis de datos e IA (Gotham para gobierno; Foundry y AIP para empresas), con fuerte peso del gobierno de EE. UU.. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001968582-26-001057",
   "last_filing_seen_date": "2026-10-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 186.02999877929688,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía 2026",
+    "value": "Ingresos $8.150–8.158M (+82%); comercial EE. UU. > $3.424M (+134%); beneficio operativo ajustado $4.889–4.897M; FCF ajustado $4.500–4.700M",
+    "prior": "Ingresos $7.650–7.662M; comercial EE. UU. > $3.224M (+120%) (may-2026)",
+    "src": [
+     [
+      "EX-99.1 8-K 3-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera (RPO)",
+    "value": "$4.900M a jun-2026 (XBRL)",
+    "prior": "$2.400M (jun-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Margen operativo GAAP",
+    "value": "47% en el 2T26 ($912M sobre $1.935M)",
+    "prior": "27% en el 2T25",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "SBC",
+    "value": "$265M en el 2T26 (14% de los ingresos)",
+    "prior": "$160M (2T25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-08-03",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $1.935,5M (+93% interanual)",
+   "headline": "Resultados 2T26: ingresos $1.935M (+93%), comercial EE. UU. +149%; sube la guía 2026 a $8.150–8.158M (+82%) desde $7.650–7.662M",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-03",
+     "EX-99.1 8-K 3-ago-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 18,98% y ventas 6,80%; BPA próximo trimestre $0,41",
+     "https://finviz.com/quote.ashx?t=PLTR"
     ]
    ],
    "rev_growth_yoy": 0.928334945705726,
    "rev_growth_yoy_prev": 0.8471163256416494,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": 6.8,
+   "eps_surprise_pct": 19.0,
+   "guide_raise": true,
+   "guide_change_pct": 6.5,
    "gm_change_bp": 388,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +6,8% y BPA +19,0%. Superó en un 7,5% su propia guía del 2T ($1.797–1.801M) y subió la anual un 6,5% (punto medio de $7.656M a $8.154M). EP de verdad: hueco del +15,5% y cierre del +29,5% con volumen 4,3×.",
    "gap_pct": 15.52,
    "rvol": 4.3,
    "close_in_range": 0.91,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": 29.45
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $395,1M; 3 marcados",
+   "shares": 2691895.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Sankar Shyam (See Remarks) $29,5M, máx. 15% en 2026-T3; Taylor Ryan D. (See Remarks) $11,6M, máx. 13% en 2025-T4; Woersching Eric H. (consejero) $0,2M, máx. 22% en 2026-T4. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 2195569131.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-17): $299.300,0M de no afiliados a 2025-06-30 ÷ cierre de $136,32 = 2.195,6M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -523,22 +592,27 @@
   {
    "date": "2026-11-02",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-03) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 18,98% y ventas 6,80%; BPA próximo trimestre $0,41",
+     "https://finviz.com/quote.ashx?t=PLTR"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+93%, guía +6,5% y EP del +29%: el más fuerte del software, también el más caro.",
+  "setup": "En tendencia; −13% desde máximos.",
+  "catalyst": "2T26: ventas +7%, BPA +19%; guía +6,5%; EP +29%.",
+  "quality": "Margen GAAP 47%; FCF > beneficio.",
+  "supply": "Sin ampliaciones; SBC 14%.",
+  "group": "Líder del software."
  },
  "snapshot": [
   [
    "Negocio",
-   "Plataformas de IA para gobierno y empresas; valoración muy alta"
+   "Plataformas de análisis de datos e IA (Gotham para gobierno; Foundry y AIP para empresas), con fuerte peso del gobierno de EE. UU."
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +644,42 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Valoración extrema (PER adelantado ≈ 81 en finviz): el precio ya descuenta años de este crecimiento.",
+   "La única dilución viene de la SBC y los planes S-8 «evergreen»."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +93% con aceleración {m.accel_pp:pp}, beat de BPA del 19%, guía +6,5% y el mayor EP del universo (+29% al cierre).",
+  "financials_note": "Trimestres de XBRL (companyfacts) hasta el 2T26.",
+  "quality": [
+   "Margen operativo GAAP del 47% y FCF por encima del beneficio: el crecimiento se autofinancia.",
+   "SBC del 14% de los ingresos."
+  ],
+  "supply_read": "Sin ampliaciones: solo planes S-8 de empleados. Ventas de directivos $395,1M en 12 meses, en planes 10b5-1.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 81 (finviz), el más caro del universo. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El líder del software por nota de negocio y el que más crece (+93%); en tendencia y a −13% del máximo.",
+  "risks": [
+   "Valoración: cualquier decepción se paga con caídas grandes.",
+   "Dependencia del gobierno de EE. UU.",
+   "Resultados el 2-nov tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 2-nov tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 28-oct.",
+   "**EP A/B si:** BPA ≥ $0,43 (+5% sobre el consenso de $0,41 de finviz), comercial EE. UU. por encima del +134% y otra subida de la guía anual sobre $8.158M.",
+   "**D si:** guía anual mantenida: con esta valoración, no subirla es una decepción.",
+   "Técnica: en tendencia (EMA alineadas), sobre la SMA 200 y −13% desde el máximo."
+  ],
+  "verdict": "El caso de crecimiento más fuerte del software (+93%, guía +6,5%, EP del +29%) con la valoración más alta. El 2-nov necesita otra subida de guía."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-03",
+   "EX-99.1 8-K 3-ago-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 18,98% y ventas 6,80%; BPA próximo trimestre $0,41",
+   "https://finviz.com/quote.ashx?t=PLTR"
   ]
  ]
 }

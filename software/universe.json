@@ -121,7 +121,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Observabilidad por consumo; clientes nativos de IA"
   },
   {
@@ -145,7 +145,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Red, seguridad y cómputo en el borde"
   },
   {
@@ -205,7 +205,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Plataformas de IA para gobierno y empresas; valoración muy alta"
   },
   {
@@ -217,7 +217,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Publicidad móvil y e-commerce con modelo propio de IA"
   }
  ]

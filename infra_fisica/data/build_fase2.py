@@ -48,6 +48,7 @@ def base(t):
 
 
 DESC = {
+    "VST": "Generación eléctrica (gas, nuclear, carbón y solar) y venta minorista de electricidad, con Texas como mercado principal",
     "PWR": "Ingeniería y construcción de red eléctrica, generación y grandes instalaciones (incluidos centros de datos) en EE. UU., con compras recientes",
     "NVT": "Envolventes, conexiones y protección eléctrica, y refrigeración líquida para centros de datos",
     "FIX": "Contratista de instalaciones mecánicas y eléctricas (climatización, fontanería, electricidad, módulos prefabricados) "
@@ -320,6 +321,48 @@ def nvt():
                   setup="Líder enfriado; −23% desde máximos.", catalyst="2T26: ventas +17%, BPA +25% frente al consenso.",
                   quality="Mucho fondo de comercio.", supply="Folleto para secundaria; directivos vendiendo.", group="Líder enfriado.")
     finish(t, c, kpis, [e], [shelf, ins], forensic_float(t), text, header, events, [pr, sh, fx])
+
+# ---------------------------------------------------------------- VST
+def vst():
+    t = "VST"
+    c, rows = base(t)
+    pr = casekit.link(1692819, "0001692819-26-000017", "vistra-20260630xearningsre.htm", "EX-99.1 8-K 7-ago-2026: resultados 2T26")
+    nb = casekit.link(1692819, "0001140361-26-037577", "ef20082680_8k.htm", "8-K 24-sep-2026: bonos subordinados 2057 ($1.500M)")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-08-07", "bmo",
+                         "Resultados 2T26: EBITDA ajustado de operaciones $1.767M (+31%); reafirma la guía 2026 de EBITDA ajustado $6.800–7.600M; anuncia Helix Digital Infrastructure con KKR, KIA y NVIDIA",
+                         [pr, fx], rev_surprise=None, eps_surprise=None,
+                         guide_raise=False, guide_change=0.0,
+                         note="La sorpresa de finviz (BPA −52,8%, ventas −26,5%) no se usa: el resultado GAAP lo distorsionan las coberturas, con $472M de pérdidas no realizadas en coberturas de años futuros. "
+                              "La compañía mide su negocio con el EBITDA ajustado de operaciones (+31%). Reacción plana: +0,9% en la apertura y +1,6% al cierre.")
+    kpis = [
+        kp("EBITDA ajustado de operaciones", "$1.767M en el 2T26 (+31%); 1S26 $3.261M", "$1.349M (2T25)", *pr),
+        kp("Guía 2026", "EBITDA ajustado de operaciones $6.800–7.600M y FCF antes de crecimiento $3.925–4.725M (reafirmada)", "—", *pr),
+        kp("Centros de datos", "Helix Digital Infrastructure con KKR, KIA y NVIDIA; compromiso inicial de Vistra de hasta $1.000M", "—", *pr),
+        kp("Deuda", "$19.595M a jun-2026 (XBRL); $1.500M en bonos subordinados 2057 en septiembre", "$15.770M (jun-2025)", *nb)]
+    shelf = dict(id="shelf26", kind="shelf", name="Shelf automático S-3ASR (9-sep-2026), usado para bonos subordinados", shares=None, capacity_usd=None, price_basis=None,
+                 gate="live", date="2026-09-09", notes="Sin límite de importe (emisor WKSI). Su uso hasta hoy son bonos subordinados (2057), no acciones.", src=[nb])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = [dict(date="2026-11-06", kind="earnings", text="Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]", src=[fx])]
+    text = dict(
+        narrative_flags=["El beneficio GAAP y los ingresos se mueven con el valor de las coberturas: el BPA de finviz no sirve para medir la sorpresa.",
+                         "La tesis de centros de datos se concreta en Helix (con NVIDIA y KKR), aún sin ingresos."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: EBITDA ajustado +31% con guía reafirmada (no subida); sin sorpresa medible por las coberturas.",
+        financials_note="Trimestres de XBRL hasta el 2T26. Ingresos y neto GAAP incluyen la revalorización de coberturas: no comparables entre trimestres.",
+        quality=["Resultado GAAP volátil por coberturas.", "Fondo de comercio e intangibles = 93% del patrimonio.", "Deuda al alza ($15.770M → $19.595M)."],
+        supply_read=f"Sin ampliaciones: deuda subordinada en septiembre. Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 15 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="Generación eléctrica con exposición a centros de datos en Texas; más volátil que CEG y con más deuda.",
+        risks=["Precios de la electricidad y coberturas.", "Deuda creciente.", "Resultados el 6-nov antes de la apertura."],
+        plan=["Resultados del 3T26 el 6-nov antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 3-nov.",
+              "**EP A/B si:** subida de la guía de EBITDA ajustado por encima de $7.600M o un contrato de suministro con un hiperescalar con cifras.",
+              "**D si:** guía mantenida sin novedades de centros de datos.",
+              "Técnica: en tendencia (EMA alineadas), en la SMA 200 y −30% desde el máximo."],
+        verdict="Negocio que crece en EBITDA (+31%) con guía solo reafirmada y la tesis de centros de datos aún sin ingresos. El 6-nov necesita guía o contratos.")
+    header = dict(verdict="EBITDA ajustado +31%, guía reafirmada; centros de datos aún sin cifras.",
+                  setup="En tendencia; −30% desde máximos.", catalyst="2T26: sorpresa no medible (coberturas); guía reafirmada.",
+                  quality="GAAP volátil; deuda al alza.", supply="Bonos subordinados.", group="Generación con centros de datos.")
+    finish(t, c, kpis, [e], [shelf, ins], forensic_float(t), text, header, events, [pr, nb, fx])
 
 
 if __name__ == "__main__":

@@ -12,11 +12,11 @@
   "group": "Redes y óptica para centros de datos (ANET, CIEN, COHR, LITE)",
   "subgroup": "redes_optica",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Switches Ethernet para centros de datos de IA. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Switches Ethernet y software de red para centros de datos de IA, nube y empresas. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001596532-26-000244",
   "last_filing_seen_date": "2026-10-13",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 176.97999572753906,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía 3T26",
+    "value": "Ingresos ≈ $3.300M; margen operativo ajustado 48–49%; BPA ajustado $1,06–1,08",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 4-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Producto",
+    "value": "Plataformas de red de IA de 1,6 Tbps (serie 7060XE7, con óptica lineal enchufable y refrigeración líquida)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 4-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen operativo GAAP",
+    "value": "45% en el 2T26 ($1.378M sobre $3.036M)",
+    "prior": "45% en el 2T25",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Caja",
+    "value": "$13.343M a jun-2026, sin deuda (XBRL)",
+    "prior": "$8.844M (jun-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-08-04",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $3.035,7M (+38% interanual)",
+   "headline": "Resultados 2T26: ingresos $3.036M (+37,7%; +12,1% secuencial); guía 3T ≈ $3.300M, margen operativo ajustado 48–49%, BPA ajustado $1,06–1,08",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-04",
+     "EX-99.1 8-K 4-ago-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 15,14% y ventas 7,26%; BPA próximo trimestre $1,08",
+     "https://finviz.com/quote.ashx?t=ANET"
     ]
    ],
    "rev_growth_yoy": 0.3768595791001452,
    "rev_growth_yoy_prev": 0.3512569832402235,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 7.3,
+   "eps_surprise_pct": 15.1,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -232,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +7,3% y BPA +15,1%. Guía del 3T +8,7% secuencial. El mercado abrió +10,3% y cerró +3,6%.",
    "gap_pct": 10.33,
    "rvol": 2.43,
    "close_in_range": 0.26,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": 3.57
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $1.511,1M; 3 marcados",
+   "shares": 8267625.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Giancarlo Charles H (consejero) $12,1M, máx. 11% en 2026-T2; Breithaupt Chantelle Yvette (Senior Vice President, CFO) $2,1M, máx. 15% en 2026-T2; Wassenaar Yvonne (consejero) $0,8M, máx. 22% en 2026-T1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 1032157194.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-17): $105.600,0M de no afiliados a 2025-06-30 ÷ cierre de $102,31 = 1.032,2M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -490,22 +559,27 @@
   {
    "date": "2026-11-03",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-04) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 15,14% y ventas 7,26%; BPA próximo trimestre $1,08",
+     "https://finviz.com/quote.ashx?t=ANET"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+38%, margen 45% y sin deuda; beat amplio y guía +9%.",
+  "setup": "Sobre la SMA 200; −17% desde máximos.",
+  "catalyst": "2T26: ventas +7%, BPA +15%.",
+  "quality": "Margen 45%; caja neta.",
+  "supply": "Limpia.",
+  "group": "La red de los clústeres de IA."
  },
  "snapshot": [
   [
    "Negocio",
-   "Switches Ethernet para centros de datos de IA"
+   "Switches Ethernet y software de red para centros de datos de IA, nube y empresas"
   ],
   [
    "Subgrupo · pureza",
@@ -537,21 +611,41 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Las ventas de insiders de 12 meses son grandes en dólares, pero casi todas en planes 10b5-1 y de fundadores y fondos; los marcados son pequeños."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +38% con aceleración {m.accel_pp:pp}, beat amplio (+7% en ventas, +15% en BPA) y guía +9% secuencial.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión (los 4T salían con neto negativo).",
+  "quality": [
+   "Margen operativo GAAP del 45% y caja neta de $13.343M.",
+   "Sin fondo de comercio relevante (5% del patrimonio)."
+  ],
+  "supply_read": "Oferta limpia: sin ampliaciones ni filings de oferta en 12 meses. Ventas de insiders $1.511,1M en 12 meses, sobre todo en planes 10b5-1.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 34 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "La red Ethernet de los clústeres de IA: márgenes del 45% y balance sin deuda; por encima de CIEN y COHR en calidad.",
+  "risks": [
+   "Concentración en hiperescalares (Microsoft, Meta).",
+   "Competencia de NVIDIA en redes.",
+   "Resultados el 3-nov tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 3-nov tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 29-oct.",
+   "**EP A/B si:** ingresos ≥ $3.450M (+4,5% sobre la guía), BPA ≥ $1,13 (+5% sobre el consenso de $1,08) y guía del 4T con más crecimiento.",
+   "**D si:** ingresos en la guía y margen a la baja.",
+   "Técnica: sobre la SMA 200 (+11%), bajo las EMA cortas; −17% desde el máximo."
+  ],
+  "verdict": "Calidad máxima del cómputo de IA (margen 45%, sin deuda, beat amplio) a un PER razonable. El 3-nov dirá si la red de IA sigue acelerando."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-04",
+   "EX-99.1 8-K 4-ago-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 15,14% y ventas 7,26%; BPA próximo trimestre $1,08",
+   "https://finviz.com/quote.ashx?t=ANET"
   ]
  ]
 }
