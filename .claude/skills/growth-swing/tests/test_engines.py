@@ -64,6 +64,30 @@ def test_xbrl():
     print("xbrl ok")
 
 
+def test_xbrl_q4_same_vintage():
+    """Q4 = año − 9 meses solo con datos de la misma versión (casos reales de FIX, APP y APLD)."""
+    rev = [  # FIX 2025: un 10-Q de 2026 etiqueta mal el año con el valor del 1T; el 10-K manda.
+        fact("2025-01-01", "2025-03-31", 1831, "2025-04-24"),
+        fact("2025-01-01", "2025-06-30", 4005, "2025-07-24"),
+        fact("2025-01-01", "2025-09-30", 6456, "2025-10-23"),
+        fact("2025-01-01", "2025-12-31", 9102, "2026-02-19", "10-K"),
+        fact("2025-01-01", "2025-12-31", 1831, "2026-04-23"),
+        # APP 2023: un 10-K de 2026 reexpresa el año sin el negocio vendido; los 9 meses son los originales.
+        fact("2023-01-01", "2023-09-30", 2330, "2023-11-08"),
+        fact("2023-01-01", "2023-12-31", 3283, "2024-02-26", "10-K"),
+        fact("2023-01-01", "2023-12-31", 1842, "2026-02-19", "10-K"),
+        # APLD FY25: el propio 10-K ya reexpresa; ninguna versión cuadra → hueco, no ingresos negativos.
+        fact("2024-06-01", "2025-02-28", 178, "2025-04-14"),
+        fact("2024-06-01", "2025-05-31", 144, "2025-07-30", "10-K"),
+    ]
+    f = {"cik": 1, "facts": {"us-gaap": {"Revenues": {"units": {"USD": rev}}}}}
+    q = {x["end"]: x for x in quarters_from_facts(f, n=20)["quarters"]}
+    assert q["2025-12-31"]["revenue"] == 9102 - 6456, "FIX: el 10-K, no el 10-Q mal etiquetado"
+    assert q["2023-12-31"]["revenue"] == 3283 - 2330, "APP: año y 9 meses de la misma versión"
+    assert q["2025-05-31"]["revenue"] is None and q["2025-05-31"]["gap"] and q["2025-05-31"]["gap_note"]
+    print("xbrl Q4 misma versión ok")
+
+
 def test_catalysts():
     base = dict(type="gov_contract", counterparty_named=True, counterparty_confirms=True, filed_8k_101=True,
                 exhibit_attached=True, binding="award_funded", value_firm=50e6, duration_years=1,
@@ -189,4 +213,4 @@ def test_edgar_session():
 
 
 if __name__ == "__main__":
-    test_xbrl(); test_catalysts(); test_dcf_and_conviction(); test_dilution_and_runway_rules(); test_peer_gm_relative_to_profile(); test_example(); test_ixbrl_fallback(); test_edgar_session()
+    test_xbrl(); test_xbrl_q4_same_vintage(); test_catalysts(); test_dcf_and_conviction(); test_dilution_and_runway_rules(); test_peer_gm_relative_to_profile(); test_example(); test_ixbrl_fallback(); test_edgar_session()

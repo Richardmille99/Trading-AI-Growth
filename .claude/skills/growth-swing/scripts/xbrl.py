@@ -72,26 +72,32 @@ def _dedupe(entries):
     return list(best.values())
 
 
+def _same_vintage(xs, ps):
+    """Par (acumulado largo, acumulado corto) presentado más cerca en el tiempo, con el largo después del corto.
+    Restar versiones distintas da basura: un 10-K que reexpresa el año sin un negocio vendido menos los 9 meses
+    originales (APP 2023, ingresos −$488M), o un 10-Q posterior que etiqueta mal el año (FIX 2025, −$4.624M)."""
+    return min(((x, p) for x in xs for p in ps),
+               key=lambda xp: (xp[0].get("filed", "") < xp[1].get("filed", ""),
+                               abs((_d(xp[0].get("filed") or xp[0]["end"]) - _d(xp[1].get("filed") or xp[1]["end"])).days)))
+
+
 def discrete_flows(entries):
     """{end: value} for ~quarterly periods, using direct facts and cumulative differences."""
-    entries = _dedupe([e for e in entries if e.get("start")])
+    entries = [e for e in entries if e.get("start")]
     out = {}
-    for e in entries:
+    for e in _dedupe(entries):
         if 80 <= _days(e) <= 100:
             out[e["end"]] = e["val"]
-    by_start = {}
+    vers = {}
     for e in entries:
-        by_start.setdefault(e["start"], []).append(e)
-    for start, es in by_start.items():
-        es = sorted(es, key=lambda x: x["end"])
-        cum = [x for x in es if _days(x) >= 80]
-        prev = None
-        for x in cum:
-            if prev is not None:
-                span = (_d(x["end"]) - _d(prev["end"])).days
-                if 80 <= span <= 100 and x["end"] not in out:
-                    out[x["end"]] = x["val"] - prev["val"]
-            prev = x
+        if _days(e) >= 80:
+            vers.setdefault(e["start"], {}).setdefault(e["end"], []).append(e)
+    for start, by_end in vers.items():
+        ends = sorted(by_end)
+        for prev, end in zip(ends, ends[1:]):
+            if end not in out and 80 <= (_d(end) - _d(prev)).days <= 100:
+                x, p = _same_vintage(by_end[end], by_end[prev])
+                out[end] = x["val"] - p["val"]
     return out
 
 
@@ -156,6 +162,11 @@ def quarters_from_facts(facts, n=12, inline_ends=()):
             q["debt"] += q["debt_current"]
         for k in ("cost_of_revenue", "st_investments", "debt_current"):
             q.pop(k)
+        if q["revenue"] is not None and q["revenue"] < 0:
+            # Ni emparejando versiones cuadra (APLD reexpresó el año en el mismo 10-K): mejor un hueco que una cifra imposible.
+            q["revenue"] = q["gross_profit"] = None
+            q["gap"] = True
+            q["gap_note"] = "el trimestre derivado (año − 9 meses) da ingresos negativos: reexpresión entre filings; ver el 10-K"
         if end in inline_ends:
             q["src"] = "XBRL incrustado del 10-Q/10-K (companyfacts aún no lo incluía)"
         quarters.append(q)
