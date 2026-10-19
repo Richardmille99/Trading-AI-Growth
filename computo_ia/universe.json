@@ -25,7 +25,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "GPU y sistemas de IA; concentración en hiperescalares"
   },
   {
@@ -49,7 +49,7 @@
    "profile": "semis_fabless",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "noviembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "ASIC a medida y redes + software (VMware)"
   },
   {
@@ -61,7 +61,7 @@
    "profile": "semis_fabless",
    "filer": "20-F/6-K",
    "fiscal_year_end": "marzo",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Licencias y royalties de arquitectura; emisor extranjero"
   },
   {
@@ -145,7 +145,7 @@
    "profile": "semis_hardware",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "octubre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Óptica para interconexión de centros de datos"
   },
   {
@@ -181,7 +181,7 @@
    "profile": "semis_manufacturing",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "junio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Servidores de IA; margen bajo e historial contable a vigilar"
   },
   {
@@ -193,7 +193,7 @@
    "profile": "semis_manufacturing",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Servidores de IA + PC"
   },
   {

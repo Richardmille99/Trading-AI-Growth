@@ -12,11 +12,11 @@
   "group": "Diseño de chips de IA y CPU (NVDA, AMD, AVGO, ARM)",
   "subgroup": "chips_ia",
   "synthetic": false,
-  "primary_catalyst": "q_202607",
-  "descriptor": "GPU y sistemas de IA; concentración en hiperescalares. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2fy27",
+  "descriptor": "GPU y sistemas completos de IA para centros de datos (Blackwell, redes NVLink e InfiniBand, software CUDA), más gaming y automoción. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0002152188-26-000007",
   "last_filing_seen_date": "2026-10-13",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 214.1300048828125,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Centro de datos",
+    "value": "$89.000M en el 2T FY27 (+117%; +18% secuencial), por Blackwell Ultra; hiperescalares más del doble",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.2 8-K 26-ago-2026: comentario del CFO del 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T FY27",
+    "value": "Ingresos $108.000M ± 2%; sin ingresos de cómputo de centro de datos en China",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.2 8-K 26-ago-2026: comentario del CFO del 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+     ]
+    ]
+   },
+   {
+    "name": "China",
+    "value": "Envíos de Hopper a China < 1% del centro de datos en el trimestre",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.2 8-K 26-ago-2026: comentario del CFO del 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Deuda",
+    "value": "$33.366M a jul-2026 tras $25.000M en bonos en junio",
+    "prior": "$8.466M (jul-2025)",
+    "src": [
+     [
+      "424B5 17-jun-2026: bonos de $25.000M (2028–2056)",
+      "https://www.sec.gov/Archives/edgar/data/1045810/000119312526273139/d118718d424b5.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202607",
+   "id": "q2fy27",
    "type": "earnings",
    "date": "2026-08-26",
    "time_et": "after-hours",
-   "headline": "Resultados jul-26: ingresos $96.221,0M (+106% interanual)",
+   "headline": "Resultados 2T FY27: ingresos $96.200M (+106%, +18% secuencial), centro de datos $89.000M (+117%); guía del 3T de $108.000M ± 2% (+12% secuencial) sin China",
    "sources": [
     [
-     "8-K 2026-08-26 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm"
+     "EX-99.2 8-K 26-ago-2026: comentario del CFO del 2T FY27",
+     "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 6,22% y ventas 4,28%; BPA próximo trimestre $2,47",
+     "https://finviz.com/quote.ashx?t=NVDA"
     ]
    ],
    "rev_growth_yoy": 1.0585114348672526,
    "rev_growth_yoy_prev": 0.8522763378875222,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 4.3,
+   "eps_surprise_pct": 6.2,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": 255,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +4,3% y BPA +6,2%. La guía no incluye ingresos de cómputo de centro de datos en China. EP: hueco del +6,3% y cierre del +8,7% con volumen 2,3×.",
    "gap_pct": 6.3,
    "rvol": 2.31,
    "close_in_range": 0.74,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": 8.74
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $1.997,1M; 9 marcados",
+   "shares": 9636319.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "STEVENS MARK A (consejero) $1.495,9M, máx. 13% en 2026-T3, 25 ventas sin 10b5-1; Puri Ajay K (EVP, Worldwide Field Ops) $183,0M, máx. 21% en 2026-T1; Shoquist Debora (EVP, Operations) $56,2M, máx. 14% en 2025-T4; JONES HARVEY C (consejero) $44,3M, máx. 3% en 2025-T4, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 23054755043.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-25): $4.000.000,0M de no afiliados a 2025-07-25 ÷ cierre de $173,50 = 23.054,8M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -490,22 +559,22 @@
   {
    "date": "2026-11-25",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-26) + 91 días]",
+   "text": "Resultados 3T FY27 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+106%, centro de datos +117% y guía +12% secuencial; PER ≈ 14.",
+  "setup": "Sobre la SMA 200; −11% desde máximos.",
+  "catalyst": "2T FY27: ventas +4%, BPA +6%; EP +9%.",
+  "quality": "Margen 66%.",
+  "supply": "Bonos; sin dilución.",
+  "group": "Líder del cómputo."
  },
  "snapshot": [
   [
    "Negocio",
-   "GPU y sistemas de IA; concentración en hiperescalares"
+   "GPU y sistemas completos de IA para centros de datos (Blackwell, redes NVLink e InfiniBand, software CUDA), más gaming y automoción"
   ],
   [
    "Subgrupo · pureza",
@@ -537,21 +606,47 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El crecimiento ya no depende de China (< 1% del centro de datos): la guía la excluye.",
+   "Un consejero (Stevens) ha vendido ≈ $1.500M en 12 meses, con varias ventas fuera de plan."
+  ],
+  "catalyst_read": "El 2T FY27 puntúa {m.cat_q2fy27_score:sc}: +106% con aceleración {m.accel_pp:pp}, beat y guía +12% secuencial; EP con volumen.",
+  "financials_note": "Trimestres de XBRL hasta el 2T FY27. El capex no sale de companyfacts con la etiqueta estándar.",
+  "quality": [
+   "Margen operativo del 66% y caja enorme.",
+   "El flujo operativo del 2T ($24.077M) cae frente al 1T ($50.344M): capital circulante [VERIFY: inventario y cobros en el 10-Q]."
+  ],
+  "supply_read": "Sin dilución: bonos de $25.000M en junio y recompras. Ventas de insiders $1.997,1M en 12 meses.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 14 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El líder del cómputo de IA y del universo por nota de negocio; a −11% del máximo con PER adelantado ≈ 14.",
+  "risks": [
+   "Concentración en hiperescalares.",
+   "Exportaciones a China.",
+   "Competencia de ASIC (AVGO) y AMD.",
+   "Resultados ≈ 18-nov."
+  ],
+  "plan": [
+   "Resultados del 3T FY27 hacia el 18-nov [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ingresos ≥ $110.200M (techo de la guía), BPA ≥ $2,59 (+5% sobre el consenso de $2,47) y guía del 4T con otro +10% secuencial.",
+   "**D si:** ingresos en el punto medio con guía plana.",
+   "Técnica: sobre la SMA 200 (+7%), bajo las EMA cortas; −11% desde el máximo."
+  ],
+  "verdict": "El negocio más fuerte del estudio (+106%, margen del 66%, guía +12% secuencial) a PER ≈ 14. Lo que vigilar: la concentración y las ventas de un consejero."
  },
  "sources": [
   [
-   "8-K 2026-08-26 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm"
+   "EX-99.2 8-K 26-ago-2026: comentario del CFO del 2T FY27",
+   "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+  ],
+  [
+   "424B5 17-jun-2026: bonos de $25.000M (2028–2056)",
+   "https://www.sec.gov/Archives/edgar/data/1045810/000119312526273139/d118718d424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 6,22% y ventas 4,28%; BPA próximo trimestre $2,47",
+   "https://finviz.com/quote.ashx?t=NVDA"
   ]
  ]
 }

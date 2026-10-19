@@ -1,0 +1,33 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 1623000000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "6-K"
+  },
+  "intangibles": {
+   "val": 217000000,
+   "end": "2026-06-30",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "6-K"
+  },
+  "equity": {
+   "val": 8630000000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "6-K"
+  },
+  "total_assets": {
+   "val": 11196000000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "6-K"
+  }
+ },
+ "goodwill_intang_to_equity": 0.21320973348783315,
+ "goodwill_intang_to_assets": 0.16434440871739908,
+ "impairments": [],
+ "public_float": null,
+ "governance": []
+}

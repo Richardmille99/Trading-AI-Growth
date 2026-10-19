@@ -47,6 +47,12 @@ def base(t):
 
 
 DESC = {
+    "NVDA": "GPU y sistemas completos de IA para centros de datos (Blackwell, redes NVLink e InfiniBand, software CUDA), más gaming y automoción",
+    "AVGO": "Chips a medida (ASIC) y de red para IA, conectividad y almacenamiento, más software de infraestructura (VMware)",
+    "ARM": "Licencias y royalties de la arquitectura de procesadores Arm para móviles, centros de datos, PC y automoción; controlada por SoftBank",
+    "CIEN": "Equipos y software de óptica para redes de telecomunicaciones e interconexión entre centros de datos",
+    "SMCI": "Diseño y ensamblaje de servidores y racks completos para IA y nube (refrigeración líquida), con márgenes de ensamblador",
+    "DELL": "Servidores de IA e infraestructura (ISG), almacenamiento y PC (CSG); controlada por Michael Dell",
     "AMD": "CPU de servidor (EPYC) y PC, GPU de IA (Instinct) y chips embebidos (antigua Xilinx)",
     "ANET": "Switches Ethernet y software de red para centros de datos de IA, nube y empresas",
     "COHR": "Transceptores ópticos y láseres para centros de datos, más materiales y láseres industriales",
@@ -412,6 +418,244 @@ def amat():
                   setup="−43% desde máximos; sin setup.", catalyst="3T FY26: ventas +1%, BPA +3%; −5% al cierre.",
                   quality="Margen al alza 13 trimestres.", supply="Sin dilución.", group="El mayor de los equipos.")
     finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, fx])
+
+def _evento(c, siguiente, fecha=None, fuente=None):
+    """Fecha de resultados: la de finviz si la da, si no la estimación de la Fase 1 (últimos + 91 días)."""
+    e = (c.get("events") or [{}])[0]
+    motivo = "fecha de finviz" if fuente else "fecha no anunciada; estimada como últimos resultados + 91 días"
+    return [dict(date=fecha or e.get("date"), kind="earnings", text=f"{siguiente} [VERIFY: {motivo}]", src=[fuente] if fuente else [])]
+
+
+def _cat(t, c, rows, cid, qend, date, timing, headline, pr, note, guide_raise=None, guide_change=None, eps=True, extra=()):
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, cid, qend, date, timing, headline, [pr, *extra, fx], rev_surprise=round(k["sales_surprise_pct"], 1),
+                         eps_surprise=round(k["eps_surprise_pct"], 1) if eps else None, guide_raise=guide_raise, guide_change=guide_change, note=note)
+    return e, fx
+
+
+# ---------------------------------------------------------------- NVDA
+def nvda():
+    t = "NVDA"
+    c, rows = base(t)
+    pr = casekit.link(1045810, "0001045810-26-000073", "q2fy27cfocommentary.htm", "EX-99.2 8-K 26-ago-2026: comentario del CFO del 2T FY27")
+    nb = casekit.link(1045810, "0001193125-26-273139", "d118718d424b5.htm", "424B5 17-jun-2026: bonos de $25.000M (2028–2056)")
+    e, fx = _cat(t, c, rows, "q2fy27", "2026-07-26", "2026-08-26", "amc",
+                 "Resultados 2T FY27: ingresos $96.200M (+106%, +18% secuencial), centro de datos $89.000M (+117%); guía del 3T de $108.000M ± 2% (+12% secuencial) sin China",
+                 pr, "Consenso de finviz: ventas +4,3% y BPA +6,2%. La guía no incluye ingresos de cómputo de centro de datos en China. EP: hueco del +6,3% y cierre del +8,7% con volumen 2,3×.")
+    kpis = [
+        kp("Centro de datos", "$89.000M en el 2T FY27 (+117%; +18% secuencial), por Blackwell Ultra; hiperescalares más del doble", "—", *pr),
+        kp("Guía 3T FY27", "Ingresos $108.000M ± 2%; sin ingresos de cómputo de centro de datos en China", "—", *pr),
+        kp("China", "Envíos de Hopper a China < 1% del centro de datos en el trimestre", "—", *pr),
+        kp("Deuda", "$33.366M a jul-2026 tras $25.000M en bonos en junio", "$8.466M (jul-2025)", *nb)]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    text = dict(
+        narrative_flags=["El crecimiento ya no depende de China (< 1% del centro de datos): la guía la excluye.",
+                         "Un consejero (Stevens) ha vendido ≈ $1.500M en 12 meses, con varias ventas fuera de plan."],
+        catalyst_read="El 2T FY27 puntúa {m.cat_q2fy27_score:sc}: +106% con aceleración {m.accel_pp:pp}, beat y guía +12% secuencial; EP con volumen.",
+        financials_note="Trimestres de XBRL hasta el 2T FY27. El capex no sale de companyfacts con la etiqueta estándar.",
+        quality=["Margen operativo del 66% y caja enorme.", "El flujo operativo del 2T ($24.077M) cae frente al 1T ($50.344M): capital circulante [VERIFY: inventario y cobros en el 10-Q]."],
+        supply_read=f"Sin dilución: bonos de $25.000M en junio y recompras. Ventas de insiders {casekit.usd_m(insider_total(t))} en 12 meses.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 14 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El líder del cómputo de IA y del universo por nota de negocio; a −11% del máximo con PER adelantado ≈ 14.",
+        risks=["Concentración en hiperescalares.", "Exportaciones a China.", "Competencia de ASIC (AVGO) y AMD.", "Resultados ≈ 18-nov."],
+        plan=["Resultados del 3T FY27 hacia el 18-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos ≥ $110.200M (techo de la guía), BPA ≥ $2,59 (+5% sobre el consenso de $2,47) y guía del 4T con otro +10% secuencial.",
+              "**D si:** ingresos en el punto medio con guía plana.",
+              "Técnica: sobre la SMA 200 (+7%), bajo las EMA cortas; −11% desde el máximo."],
+        verdict="El negocio más fuerte del estudio (+106%, margen del 66%, guía +12% secuencial) a PER ≈ 14. Lo que vigilar: la concentración y las ventas de un consejero.")
+    header = dict(verdict="+106%, centro de datos +117% y guía +12% secuencial; PER ≈ 14.",
+                  setup="Sobre la SMA 200; −11% desde máximos.", catalyst="2T FY27: ventas +4%, BPA +6%; EP +9%.",
+                  quality="Margen 66%.", supply="Bonos; sin dilución.", group="Líder del cómputo.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, _evento(c, "Resultados 3T FY27"), [pr, nb, fx])
+
+
+# ---------------------------------------------------------------- AVGO
+def avgo():
+    t = "AVGO"
+    c, rows = base(t)
+    pr = casekit.link(1730168, "0001730168-26-000076", "avgo-08022026x8kxex99.htm", "EX-99 8-K 2-sep-2026: resultados 3T FY26")
+    e, fx = _cat(t, c, rows, "q3fy26", "2026-08-02", "2026-09-02", "amc",
+                 "Resultados 3T FY26: ingresos $29.591M (+86%), semiconductores de IA $16.700M (+221%); guía del 4T de $34.800M (+93%) con IA en $21.700M (+236%)",
+                 pr, "Consenso de finviz: ventas +1,2% y BPA +3,3%. Guía del 4T +18% secuencial. El mercado lo vendió: −4,2% en la apertura y −2,7% al cierre.")
+    kpis = [
+        kp("IA", "Semiconductores de IA $16.700M (+221%; +54% secuencial); guía 4T $21.700M (+236%)", "—", *pr),
+        kp("Guía 4T FY26", "Ingresos ≈ $34.800M (+93%); margen operativo ajustado ≈ 66%", "—", *pr),
+        kp("Cartera (RPO)", "$179.200M a ago-2026 (XBRL)", "$27.500M (ago-2025)", "quarters.json (XBRL 10-Q 3T FY26)"),
+        kp("FCF", "$13.700M en el 3T FY26", "—", *pr)]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    text = dict(
+        narrative_flags=["La cartera contratada se multiplica por 6,5 en un año ($27.500M → $179.200M): contratos de ASIC a medida con pocos clientes.",
+                         "Directivos con muchas ventas fuera de planes 10b5-1 (el jefe legal, 85)."],
+        catalyst_read="El 3T FY26 puntúa {m.cat_q3fy26_score:sc}: +86% con aceleración {m.accel_pp:pp}, IA +221% y guía +93%, pero beat pequeño y el mercado lo vendió.",
+        financials_note="Trimestres de XBRL hasta el 3T FY26. El beneficio neto no sale de companyfacts con la etiqueta estándar.",
+        quality=["Fondo de comercio e intangibles = 125% del patrimonio (VMware).", "FCF del 46% de los ingresos."],
+        supply_read=f"Sin dilución: canjes de bonos registrados (424B3) y recompras. Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses, muchas fuera de plan.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 17 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El rival de NVDA por los ASIC a medida: crece casi igual (+86%) con una cartera de $179.200M, pero −32% desde el máximo.",
+        risks=["Concentración en pocos clientes de ASIC.", "Ventas de directivos fuera de plan.", "Resultados ≈ 10-dic."],
+        plan=["Resultados del 4T FY26 hacia el 10-dic [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos ≥ $36.000M (+3% sobre la guía), IA por encima de $21.700M y guía del 1T FY27 con más crecimiento de IA.",
+              "**D si:** IA en la guía sin aceleración.",
+              "Técnica: −32% desde el máximo, bajo la SMA 200. Sin setup."],
+        verdict="La aceleración más fuerte de IA del estudio tras NVDA (IA +221%, cartera ×6,5) con el mercado vendiéndolo. Candidato a EP en diciembre.")
+    header = dict(verdict="IA +221%, guía +93% y cartera de $179.200M; −32% desde máximos.",
+                  setup="−32% desde máximos; sin setup.", catalyst="3T FY26: ventas +1%, BPA +3%; guía +93%.",
+                  quality="Mucho fondo de comercio (VMware).", supply="Sin dilución.", group="Rival de NVDA en ASIC.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, _evento(c, "Resultados 4T FY26"), [pr, fx])
+
+
+# ---------------------------------------------------------------- ARM
+def arm():
+    t = "ARM"
+    c, rows = base(t)
+    pr = casekit.link(1973239, "0001973239-26-000113", "arm-20260729.htm", "6-K 29-jul-2026: resultados 1T FY27")
+    k, fx = fv(t)
+    e, _ = _cat(t, c, rows, "q1fy27", "2026-06-30", "2026-07-29", "amc",
+                "Resultados 1T FY27: ingresos $1.289M (+22%); margen operativo GAAP del 7% por la SBC ($343M)",
+                pr, "Consenso de finviz: ventas +2,1% y BPA +11,9%. La carta a los accionistas con la guía no está en EDGAR (el 6-K solo lleva un resumen): sin guía en el caso. "
+                    "EP en el día: hueco del +14,7% y cierre del +7,4%, ya devuelto.")
+    kpis = [
+        kp("Ingresos", "$1.289M en el 1T FY27 (+22%)", "$1.053M (1T FY26)", "quarters.json (XBRL del 6-K)"),
+        kp("SBC", "$343M en el 1T FY27, el 27% de los ingresos", "$241M (1T FY26)", "quarters.json (XBRL del 6-K)"),
+        kp("Cartera (RPO)", "$2.123M a jun-2026", "$2.232M (jun-2025)", "quarters.json (XBRL del 6-K)")]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    text = dict(
+        narrative_flags=["La cartera contratada no crece ($2.232M → $2.123M) mientras la valoración descuenta royalties de IA futuras.",
+                         "SoftBank controla la gran mayoría del capital: el float real es pequeño [VERIFY: % de SoftBank en el 20-F]."],
+        catalyst_read="El 1T FY27 puntúa {m.cat_q1fy27_score:sc}: +22% con aceleración {m.accel_pp:pp} y beat de BPA, con EP en el día ya devuelto.",
+        financials_note="Emisor extranjero (20-F/6-K) con XBRL trimestral US GAAP en sus 6-K: trimestres de companyfacts. La guía va en la carta a los accionistas, fuera de EDGAR.",
+        quality=["SBC del 27% de los ingresos: margen GAAP del 7%.", "Margen bruto del 97% (licencias)."],
+        supply_read=f"Planes S-8 de empleados. Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses, algunas del 100% de una posición en un trimestre.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 77 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="La arquitectura detrás de los chips de IA (CPU de servidor y móviles); la más cara del cómputo y con el crecimiento más bajo de los chips.",
+        risks=["Valoración.", "Control de SoftBank.", "Resultados el 4-nov tras el cierre."],
+        plan=["Resultados del 2T FY27 el 4-nov tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 30-oct.",
+              "**EP A/B si:** BPA ≥ $0,49 (+5% sobre el consenso de $0,47) con royalties de centro de datos acelerando.",
+              "**D si:** ingresos de licencias a la baja.",
+              "Técnica: −48% desde el máximo, en la SMA 200 (+5%). Sin setup."],
+        verdict="Margen de licencias del 97% con crecimiento moderado (+22%) y PER ≈ 77; la tesis depende de royalties de IA que aún no se ven en la cartera.")
+    header = dict(verdict="+22% y margen bruto del 97%, pero PER ≈ 77 y cartera plana.",
+                  setup="−48% desde máximos; sin setup.", catalyst="1T FY27: ventas +2%, BPA +12%.",
+                  quality="SBC 27%.", supply="Planes S-8.", group="Arquitectura de los chips.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, _evento(c, "Resultados 2T FY27", "2026-11-04", fx), [pr, fx])
+
+
+# ---------------------------------------------------------------- CIEN
+def cien():
+    t = "CIEN"
+    c, rows = base(t)
+    pr = casekit.link(936395, "0001628280-26-060245", "ex9912026q3earningspressre.htm", "EX-99.1 8-K 3-sep-2026: resultados 3T FY26")
+    cv = casekit.link(936395, "0001193125-26-267607", "d118604d8k.htm", "8-K 11-jun-2026: convertible 0% 2031 de $2.875M")
+    e, fx = _cat(t, c, rows, "q3fy26", "2026-08-01", "2026-09-03", "bmo",
+                 "Resultados 3T FY26: ingresos $1.671M (+37%), BPA ajustado $2,11 (+215%); guía del 4T $1.750M ± $50M; sube la guía FY26 a $6.420M (+35%)",
+                 pr, "Consenso de finviz: ventas +2,1% y BPA +22,2%. Reacción tibia: +1,3% en la apertura y +1,1% al cierre.", guide_raise=True)
+    kpis = [
+        kp("Guía", "4T FY26 $1.750M ± $50M; FY26 $6.420M ± $50M (+35%)", "—", *pr),
+        kp("Margen bruto", "45,4% en el 3T FY26", "41,3% en el 3T FY25", "quarters.json (XBRL 10-Q 3T FY26)"),
+        kp("Recompras", "≈ 0,4M acciones por $171,7M (programa de $1.000M)", "—", *pr),
+        kp("Convertible", "$2.875M al 0% con vencimiento en 2031, conversión ≈ $746,66 (≈ 3,85M acciones)", "—", *cv)]
+    conv = dict(id="conv31", kind="convertible", name="Convertible 0% 2031 ($2.875M, conversión ≈ $746,66)", shares=round(2_875_000 * 1.3393), capacity_usd=None,
+                price_basis=746.66, gate="gated", date="2031-01-01",
+                notes="1,3393 acciones por $1.000 (≈ 3,85M acciones), muy fuera de dinero a {m.price:px}. [VERIFY: vencimiento exacto y capped call]", src=[cv])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    text = dict(
+        narrative_flags=["Convertible de $2.875M emitido con la acción en máximos (conversión ≈ $747): hoy cotiza a menos de la mitad."],
+        catalyst_read="El 3T FY26 puntúa {m.cat_q3fy26_score:sc}: +37% con desaceleración {m.accel_pp:pp}, beat de BPA del 22% y guía anual subida; reacción tibia.",
+        financials_note="Trimestres de XBRL hasta el 3T FY26. La deuda sube a $3.230M con el convertible.",
+        quality=["Margen bruto al alza (41,3% → 45,4%).", "FCF por debajo del beneficio en el 3T FY26."],
+        supply_read=f"Convertible de $2.875M muy fuera de dinero; recompras. Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses, en planes 10b5-1.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 29 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="La óptica de interconexión entre centros de datos: crece como ANET (+37%) con margen menor y −46% desde el máximo.",
+        risks=["Concentración en hiperescalares.", "Resultados ≈ 3-dic."],
+        plan=["Resultados del 4T FY26 hacia el 3-dic [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos ≥ $1.800M (techo de la guía) y guía de FY27 por encima del +25%.",
+              "**D si:** guía de FY27 por debajo del +20%.",
+              "Técnica: −46% desde el máximo, bajo la SMA 200. Sin setup."],
+        verdict="Óptica para IA creciendo +37% con margen al alza y guía subida, castigada a la mitad de su máximo. Candidato a EP en diciembre con la guía de FY27.")
+    header = dict(verdict="+37%, guía FY26 +35% y margen al alza; −46% desde máximos.",
+                  setup="−46% desde máximos; sin setup.", catalyst="3T FY26: ventas +2%, BPA +22%; guía subida.",
+                  quality="Margen al alza.", supply="Convertible muy fuera de dinero.", group="Óptica de interconexión.")
+    finish(t, c, kpis, [e], [conv, ins], forensic_float(t), text, header, _evento(c, "Resultados 4T FY26"), [pr, cv, fx])
+
+
+# ---------------------------------------------------------------- SMCI
+def smci():
+    t = "SMCI"
+    c, rows = base(t)
+    pr = casekit.link(1375365, "0001375365-26-000021", "exhibit991_20260630.htm", "EX-99.1 8-K 11-ago-2026: resultados 4T FY26")
+    co = casekit.link(1375365, "0001193125-26-267973", "d41737d424b5.htm", "424B5 12-jun-2026: 45,45M acciones a $27,50")
+    pf = casekit.link(1375365, "0001193125-26-268520", "d44171d424b5.htm", "424B5 12-jun-2026: 75M acciones depositarias de preferentes obligatorias 7%")
+    e, fx = _cat(t, c, rows, "q4fy26", "2026-06-30", "2026-08-11", "amc",
+                 "Resultados 4T FY26: ventas $11.120M (+93%), margen bruto ajustado 17,6%; > $60.000M de pedidos nuevos en el año; guía del 1T FY27 $14.500–15.500M y FY27 $65.000–72.000M",
+                 pr, "Consenso de finviz: ventas −4,1% (fallo) y BPA +84,2%. EP: hueco del +10,7% y cierre del +19,0% con volumen 2,9×, devuelto después.")
+    kpis = [
+        kp("Guía", "1T FY27 ventas $14.500–15.500M y BPA ajustado $1,01–1,10; FY27 ventas $65.000–72.000M", "—", *pr),
+        kp("Pedidos y cartera", "> $60.000M de pedidos nuevos en FY26 y cartera récord al empezar FY27", "—", *pr),
+        kp("Margen bruto", "17,5% en el 4T FY26 (XBRL); 17,6% ajustado", "9,4% en el 4T FY25", "quarters.json (XBRL 10-K FY26)"),
+        kp("Ampliación de junio", "45,45M acciones a $27,50 (≈ $1.250M) y 75M acciones depositarias de preferentes obligatorias al 7% ($3.750M, más 11,25M de opción)", "—", *co)]
+    eq = dict(id="equity26", kind="secondary", name="Ampliación de junio de 2026 (45,45M acciones a $27,50)", shares=45_454_545, capacity_usd=None, price_basis=27.50,
+              gate="dated", date="2026-06-12", notes="Colocación primaria, a la vez que las preferentes obligatorias.", src=[co])
+    pref = dict(id="pref_a", kind="convertible", name="Preferentes de conversión obligatoria Serie A 7% ($3.750M)", shares=None, capacity_usd=None, price_basis=None,
+                gate="gated", date=None, notes="75M acciones depositarias a $50 (1/20 de preferente). [VERIFY: fecha de conversión obligatoria y tasas mínima y máxima en el 424B5]",
+                src=[pf])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    text = dict(
+        narrative_flags=["Amplió capital por ≈ $5.000M en junio (acciones y preferentes obligatorias) justo antes de un informe fuerte.",
+                         "Historial contable a vigilar (retraso del 10-K en 2024, cambio de auditor): las cifras se leen con prudencia."],
+        catalyst_read="El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: +93% con guía de FY27 enorme, pero fallo en ventas; EP en el día, devuelto.",
+        financials_note="Trimestres de XBRL hasta el 4T FY26. El flujo operativo fue de −$6.615M en el 3T FY26 por inventario.",
+        quality=["Margen bruto de ensamblador (17,5%), muy por encima del 9,4% de hace un año.", "Flujo operativo muy volátil por inventario."],
+        supply_read="Dilución fuerte en junio: 45,45M acciones a $27,50 y $3.750M en preferentes obligatorias. Insiders apenas venden.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 6 (finviz), el más barato del cómputo. DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El ensamblador de servidores de IA más barato y más arriesgado: guía de FY27 de $65.000–72.000M a PER ≈ 6.",
+        risks=["Dilución y preferentes obligatorias.", "Capital circulante e inventario.", "Historial contable.", "Resultados ≈ 4-nov."],
+        plan=["Resultados del 1T FY27 hacia el 4-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ventas ≥ $15.500M (techo de la guía) y guía de FY27 mantenida o subida.",
+              "**D si:** otro fallo en ventas o flujo operativo muy negativo.",
+              "Técnica: −42% desde el máximo, en la SMA 200; RS 3m en percentil 100."],
+        verdict="Crecimiento enorme guiado (FY27 $65.000–72.000M) a PER ≈ 6, pero con dilución fuerte en junio, margen bajo e historial contable a vigilar. Alto riesgo.")
+    header = dict(verdict="+93% y guía FY27 de $65.000–72.000M a PER ≈ 6; ampliación de ≈ $5.000M.",
+                  setup="En la SMA 200; −42% desde máximos.", catalyst="4T FY26: ventas −4%, BPA +84%; EP devuelto.",
+                  quality="Margen 17,5%; caja volátil.", supply="Ampliación y preferentes obligatorias.", group="El ensamblador barato.")
+    finish(t, c, kpis, [e], [eq, pref, ins], forensic_float(t), text, header, _evento(c, "Resultados 1T FY27"), [pr, co, pf, fx])
+
+
+# ---------------------------------------------------------------- DELL
+def dell():
+    t = "DELL"
+    c, rows = base(t)
+    pr = casekit.link(1571996, "0001571996-26-000039", "exhibit991earnings8kq2fy27.htm", "EX-99.1 8-K 1-sep-2026: resultados 2T FY27")
+    sl = casekit.link(1571996, "0001571996-26-000032", "dell-20260611.htm", "8-K 17-jun-2026: conversión de acciones B a C de Silver Lake")
+    e, fx = _cat(t, c, rows, "q2fy27", "2026-07-31", "2026-09-01", "amc",
+                 "Resultados 2T FY27: ingresos $47.000M (+58%); servidores de IA: pedidos $60.900M, ingresos $16.400M y cartera de $95.000M; guía FY27 de $192.000M (+69%) y BPA ajustado $25,50",
+                 pr, "Consenso de finviz: ventas +4,6% y BPA +43,3%. EP de verdad: hueco del +8,7% y cierre del +15,8% con volumen 5,6×.", guide_raise=True)
+    kpis = [
+        kp("Servidores de IA", "Pedidos $60.900M, ingresos $16.400M y cartera $95.000M (récords)", "—", *pr),
+        kp("Guía FY27", "Ingresos $192.000M (+69%); BPA $24,37 y ajustado $25,50", "—", *pr),
+        kp("Cartera (RPO)", "$132.000M a jul-2026 (XBRL)", "$44.000M (ago-2025)", "quarters.json (XBRL 10-Q 2T FY27)"),
+        kp("Margen bruto", "20,9% en el 2T FY27", "18,3% en el 2T FY26", "quarters.json (XBRL 10-Q 2T FY27)")]
+    sec = dict(id="silverlake", kind="secondary", name="Ventas de Silver Lake (≥ 10%)", shares=None, capacity_usd=None, price_basis=None, gate="live", date="2026-06-17",
+               notes="Silver Lake convierte acciones B en C (cotizadas) y vende: ≈ $3.580M en 12 meses entre sus vehículos; conserva ≈ 11,9% (13G). Michael Dell, ≈ 45,7%.", src=[sl])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    text = dict(
+        narrative_flags=["Silver Lake está saliendo del capital: ≈ $3.580M vendidos en 12 meses y ≈ 11,9% por vender.",
+                         "Patrimonio negativo (recompras y deuda de la compra de EMC): las ratios sobre patrimonio no tienen sentido."],
+        catalyst_read="El 2T FY27 puntúa {m.cat_q2fy27_score:sc}: +58% con desaceleración {m.accel_pp:pp}, beat amplio, guía subida y EP con volumen 5,6×.",
+        financials_note="Trimestres de XBRL hasta el 2T FY27. Patrimonio negativo: la ratio fondo de comercio/patrimonio sale negativa.",
+        quality=["Margen bruto al alza (18,3% → 20,9%) pese al peso de los servidores de IA.", "Patrimonio negativo."],
+        supply_read=f"La oferta viene de Silver Lake: ventas de {casekit.usd_m(insider_total(t))} en 12 meses entre sus vehículos y conversiones de acciones B a C. Bonos en septiembre.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 15 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El ensamblador grande con la mayor cartera de servidores de IA ($95.000M) y EP reciente; más caro que SMCI pero con mejor balance de calidad.",
+        risks=["Ventas de Silver Lake.", "Margen de los servidores de IA.", "Resultados ≈ 25-nov."],
+        plan=["Resultados del 3T FY27 hacia el 25-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** BPA ≥ $6,89 (+5% sobre el consenso de $6,56), cartera de servidores de IA por encima de $95.000M y otra subida de la guía.",
+              "**D si:** cartera de IA a la baja.",
+              "Técnica: +46% sobre la SMA 200, bajo las EMA cortas; −23% desde el máximo; RS 3m/6m en percentil 95/100."],
+        verdict="El ensamblador de IA con la mayor cartera ($95.000M), guía +69% y EP con volumen; el lastre es la salida continua de Silver Lake.")
+    header = dict(verdict="Cartera de servidores de IA de $95.000M, guía +69% y EP; Silver Lake vendiendo.",
+                  setup="Sobre la SMA 200; −23% desde máximos.", catalyst="2T FY27: ventas +5%, BPA +43%; EP +16%.",
+                  quality="Margen al alza; patrimonio negativo.", supply="Salida de Silver Lake.", group="El ensamblador grande.")
+    finish(t, c, kpis, [e], [sec, ins], forensic_float(t), text, header, _evento(c, "Resultados 3T FY27"), [pr, sl, fx])
 
 
 if __name__ == "__main__":

@@ -12,11 +12,11 @@
   "group": "Diseño de chips de IA y CPU (NVDA, AMD, AVGO, ARM)",
   "subgroup": "chips_ia",
   "synthetic": false,
-  "primary_catalyst": "q_202608",
-  "descriptor": "ASIC a medida y redes + software (VMware). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q3fy26",
+  "descriptor": "Chips a medida (ASIC) y de red para IA, conectividad y almacenamiento, más software de infraestructura (VMware). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001104659-26-110983",
   "last_filing_seen_date": "2026-09-25",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 328.75,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "IA",
+    "value": "Semiconductores de IA $16.700M (+221%; +54% secuencial); guía 4T $21.700M (+236%)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99 8-K 2-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 4T FY26",
+    "value": "Ingresos ≈ $34.800M (+93%); margen operativo ajustado ≈ 66%",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99 8-K 2-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera (RPO)",
+    "value": "$179.200M a ago-2026 (XBRL)",
+    "prior": "$27.500M (ago-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 3T FY26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "FCF",
+    "value": "$13.700M en el 3T FY26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99 8-K 2-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202608",
+   "id": "q3fy26",
    "type": "earnings",
    "date": "2026-09-02",
    "time_et": "after-hours",
-   "headline": "Resultados ago-26: ingresos $29.591,0M (+86% interanual)",
+   "headline": "Resultados 3T FY26: ingresos $29.591M (+86%), semiconductores de IA $16.700M (+221%); guía del 4T de $34.800M (+93%) con IA en $21.700M (+236%)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-09-02",
+     "EX-99 8-K 2-sep-2026: resultados 3T FY26",
      "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 3,25% y ventas 1,20%; BPA próximo trimestre $3,83",
+     "https://finviz.com/quote.ashx?t=AVGO"
     ]
    ],
    "rev_growth_yoy": 0.8550025075225678,
    "rev_growth_yoy_prev": 0.47873900293255134,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 1.2,
+   "eps_surprise_pct": 3.2,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": 203,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +1,2% y BPA +3,3%. Guía del 4T +18% secuencial. El mercado lo vendió: −4,2% en la apertura y −2,7% al cierre.",
    "gap_pct": -4.22,
    "rvol": 2.81,
    "close_in_range": 0.87,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": -2.74
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $1.174,2M; 7 marcados",
+   "shares": 3329225.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "TAN HOCK E (consejero, President and CEO) $101,3M, máx. 19% en 2025-T4, 16 ventas sin 10b5-1; Brazeal Mark David (Chief Legal & Corp Affairs Ofc) $99,9M, máx. 29% en 2026-T1, 85 ventas sin 10b5-1; Velaga S. Ram (President, ISG) $34,4M, máx. 40% en 2026-T1, 21 ventas sin 10b5-1; Spears Kirsten M. (CFO & Chief Accounting Officer) $31,9M, máx. 16% en 2026-T1, 45 ventas sin 10b5-1. Compras en mercado abierto: 2.000 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 4612060513.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2025-12-18): $939.200,0M de no afiliados a 2025-05-02 ÷ cierre de $203,64 = 4.612,1M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -490,22 +559,22 @@
   {
    "date": "2026-12-02",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-09-02) + 91 días]",
+   "text": "Resultados 4T FY26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "IA +221%, guía +93% y cartera de $179.200M; −32% desde máximos.",
+  "setup": "−32% desde máximos; sin setup.",
+  "catalyst": "3T FY26: ventas +1%, BPA +3%; guía +93%.",
+  "quality": "Mucho fondo de comercio (VMware).",
+  "supply": "Sin dilución.",
+  "group": "Rival de NVDA en ASIC."
  },
  "snapshot": [
   [
    "Negocio",
-   "ASIC a medida y redes + software (VMware)"
+   "Chips a medida (ASIC) y de red para IA, conectividad y almacenamiento, más software de infraestructura (VMware)"
   ],
   [
    "Subgrupo · pureza",
@@ -537,21 +606,42 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "La cartera contratada se multiplica por 6,5 en un año ($27.500M → $179.200M): contratos de ASIC a medida con pocos clientes.",
+   "Directivos con muchas ventas fuera de planes 10b5-1 (el jefe legal, 85)."
+  ],
+  "catalyst_read": "El 3T FY26 puntúa {m.cat_q3fy26_score:sc}: +86% con aceleración {m.accel_pp:pp}, IA +221% y guía +93%, pero beat pequeño y el mercado lo vendió.",
+  "financials_note": "Trimestres de XBRL hasta el 3T FY26. El beneficio neto no sale de companyfacts con la etiqueta estándar.",
+  "quality": [
+   "Fondo de comercio e intangibles = 125% del patrimonio (VMware).",
+   "FCF del 46% de los ingresos."
+  ],
+  "supply_read": "Sin dilución: canjes de bonos registrados (424B3) y recompras. Ventas de directivos $1.174,2M en 12 meses, muchas fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 17 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El rival de NVDA por los ASIC a medida: crece casi igual (+86%) con una cartera de $179.200M, pero −32% desde el máximo.",
+  "risks": [
+   "Concentración en pocos clientes de ASIC.",
+   "Ventas de directivos fuera de plan.",
+   "Resultados ≈ 10-dic."
+  ],
+  "plan": [
+   "Resultados del 4T FY26 hacia el 10-dic [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ingresos ≥ $36.000M (+3% sobre la guía), IA por encima de $21.700M y guía del 1T FY27 con más crecimiento de IA.",
+   "**D si:** IA en la guía sin aceleración.",
+   "Técnica: −32% desde el máximo, bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "La aceleración más fuerte de IA del estudio tras NVDA (IA +221%, cartera ×6,5) con el mercado vendiéndolo. Candidato a EP en diciembre."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-09-02",
+   "EX-99 8-K 2-sep-2026: resultados 3T FY26",
    "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 3,25% y ventas 1,20%; BPA próximo trimestre $3,83",
+   "https://finviz.com/quote.ashx?t=AVGO"
   ]
  ]
 }

@@ -12,11 +12,11 @@
   "group": "Redes y óptica para centros de datos (ANET, CIEN, COHR, LITE)",
   "subgroup": "redes_optica",
   "synthetic": false,
-  "primary_catalyst": "q_202608",
-  "descriptor": "Óptica para interconexión de centros de datos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q3fy26",
+  "descriptor": "Equipos y software de óptica para redes de telecomunicaciones e interconexión entre centros de datos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001958244-26-000663",
   "last_filing_seen_date": "2026-10-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 332.7300109863281,
@@ -285,48 +285,134 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía",
+    "value": "4T FY26 $1.750M ± $50M; FY26 $6.420M ± $50M (+35%)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 3-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/ex9912026q3earningspressre.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto",
+    "value": "45,4% en el 3T FY26",
+    "prior": "41,3% en el 3T FY25",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 3T FY26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Recompras",
+    "value": "≈ 0,4M acciones por $171,7M (programa de $1.000M)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 3-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/ex9912026q3earningspressre.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Convertible",
+    "value": "$2.875M al 0% con vencimiento en 2031, conversión ≈ $746,66 (≈ 3,85M acciones)",
+    "prior": "—",
+    "src": [
+     [
+      "8-K 11-jun-2026: convertible 0% 2031 de $2.875M",
+      "https://www.sec.gov/Archives/edgar/data/936395/000119312526267607/d118604d8k.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202608",
+   "id": "q3fy26",
    "type": "earnings",
    "date": "2026-09-03",
-   "time_et": "after-hours",
-   "headline": "Resultados ago-26: ingresos $1.671,1M (+37% interanual)",
+   "time_et": "premarket",
+   "headline": "Resultados 3T FY26: ingresos $1.671M (+37%), BPA ajustado $2,11 (+215%); guía del 4T $1.750M ± $50M; sube la guía FY26 a $6.420M (+35%)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-09-03",
+     "EX-99.1 8-K 3-sep-2026: resultados 3T FY26",
      "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/ex9912026q3earningspressre.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 22,15% y ventas 2,07%; BPA próximo trimestre $2,08",
+     "https://finviz.com/quote.ashx?t=CIEN"
     ]
    ],
    "rev_growth_yoy": 0.3704687198874843,
    "rev_growth_yoy_prev": 0.39512362795969014,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 2.1,
+   "eps_surprise_pct": 22.1,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": 418,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
-   "gap_pct": 1.33,
-   "rvol": 1.45,
-   "close_in_range": 0.4,
+   "note": "Consenso de finviz: ventas +2,1% y BPA +22,2%. Reacción tibia: +1,3% en la apertura y +1,1% al cierre.",
+   "gap_pct": 0.09,
+   "rvol": 3.4,
+   "close_in_range": 0.12,
    "day2_follow": true,
-   "dollar_volume": 1072140000,
+   "dollar_volume": 2392188020,
    "estimate_revisions": "unknown",
-   "reaction_date": "2026-09-04",
-   "reaction_close_chg_pct": 1.12
+   "reaction_date": "2026-09-03",
+   "reaction_close_chg_pct": -10.36
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "conv31",
+   "kind": "convertible",
+   "name": "Convertible 0% 2031 ($2.875M, conversión ≈ $746,66)",
+   "shares": 3850488,
+   "capacity_usd": null,
+   "price_basis": 746.66,
+   "gate": "gated",
+   "date": "2031-01-01",
+   "notes": "1,3393 acciones por $1.000 (≈ 3,85M acciones), muy fuera de dinero a {m.price:px}. [VERIFY: vencimiento exacto y capped call]",
+   "src": [
+    [
+     "8-K 11-jun-2026: convertible 0% 2031 de $2.875M",
+     "https://www.sec.gov/Archives/edgar/data/936395/000119312526267607/d118604d8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $99,0M; 6 marcados",
+   "shares": 323815.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "SMITH GARY B (consejero, President & CEO) $46,4M, máx. 25% en 2026-T1; Phipps Jason (EVP & Chief Customer Officer) $16,8M, máx. 25% en 2026-T2; Cumello Joseph (EVP & General Mgr.) $4,7M, máx. 23% en 2026-T1; NEVENS THOMAS MICHAEL (consejero) $3,3M, máx. 52% en 2026-T3, 2 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 141386413.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2025-12-12): $10.300,0M de no afiliados a 2025-05-03 ÷ cierre de $72,85 = 141,4M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -490,22 +576,22 @@
   {
    "date": "2026-12-03",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-09-03) + 91 días]",
+   "text": "Resultados 4T FY26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+37%, guía FY26 +35% y margen al alza; −46% desde máximos.",
+  "setup": "−46% desde máximos; sin setup.",
+  "catalyst": "3T FY26: ventas +2%, BPA +22%; guía subida.",
+  "quality": "Margen al alza.",
+  "supply": "Convertible muy fuera de dinero.",
+  "group": "Óptica de interconexión."
  },
  "snapshot": [
   [
    "Negocio",
-   "Óptica para interconexión de centros de datos"
+   "Equipos y software de óptica para redes de telecomunicaciones e interconexión entre centros de datos"
   ],
   [
    "Subgrupo · pureza",
@@ -537,21 +623,44 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Convertible de $2.875M emitido con la acción en máximos (conversión ≈ $747): hoy cotiza a menos de la mitad."
+  ],
+  "catalyst_read": "El 3T FY26 puntúa {m.cat_q3fy26_score:sc}: +37% con desaceleración {m.accel_pp:pp}, beat de BPA del 22% y guía anual subida; reacción tibia.",
+  "financials_note": "Trimestres de XBRL hasta el 3T FY26. La deuda sube a $3.230M con el convertible.",
+  "quality": [
+   "Margen bruto al alza (41,3% → 45,4%).",
+   "FCF por debajo del beneficio en el 3T FY26."
+  ],
+  "supply_read": "Convertible de $2.875M muy fuera de dinero; recompras. Ventas de directivos $99,0M en 12 meses, en planes 10b5-1.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 29 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "La óptica de interconexión entre centros de datos: crece como ANET (+37%) con margen menor y −46% desde el máximo.",
+  "risks": [
+   "Concentración en hiperescalares.",
+   "Resultados ≈ 3-dic."
+  ],
+  "plan": [
+   "Resultados del 4T FY26 hacia el 3-dic [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ingresos ≥ $1.800M (techo de la guía) y guía de FY27 por encima del +25%.",
+   "**D si:** guía de FY27 por debajo del +20%.",
+   "Técnica: −46% desde el máximo, bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Óptica para IA creciendo +37% con margen al alza y guía subida, castigada a la mitad de su máximo. Candidato a EP en diciembre con la guía de FY27."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-09-03",
+   "EX-99.1 8-K 3-sep-2026: resultados 3T FY26",
    "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/ex9912026q3earningspressre.htm"
+  ],
+  [
+   "8-K 11-jun-2026: convertible 0% 2031 de $2.875M",
+   "https://www.sec.gov/Archives/edgar/data/936395/000119312526267607/d118604d8k.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 22,15% y ventas 2,07%; BPA próximo trimestre $2,08",
+   "https://finviz.com/quote.ashx?t=CIEN"
   ]
  ]
 }
