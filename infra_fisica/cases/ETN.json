@@ -12,11 +12,11 @@
   "group": "Equipo eléctrico, distribución y red (ETN, GEV, POWL)",
   "subgroup": "electrico",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Gestión eléctrica; centros de datos como segmento creciente. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Gestión eléctrica (Electrical Americas y Global), aeroespacial y movilidad (en separación); centros de datos como motor de pedidos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001551182-26-000034",
   "last_filing_seen_date": "2026-10-16",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 391.25,
@@ -285,48 +285,145 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Pedidos y cartera",
+    "value": "Pedidos (media móvil de 12 meses) Electrical Americas +41%, Electrical Global +33%, Aerospace +17%; cartera total +43% interanual",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Book-to-bill",
+    "value": "1,2 en los negocios eléctricos y en Aerospace (12 meses)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 2026",
+    "value": "Crecimiento orgánico 11–13%; margen de segmentos 24,1–24,5%; BPA ajustado $13,40–13,60",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T26",
+    "value": "Orgánico 13,5–15,5%; margen de segmentos 24,6–25,0%; BPA ajustado $3,46–3,56",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Deuda",
+    "value": "$18.520M a jun-2026 (XBRL), tras los bonos de marzo",
+    "prior": "$9.885M (jun-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-31",
-   "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $8.531,0M (+21% interanual)",
+   "time_et": "premarket",
+   "headline": "Resultados 2T26: ventas $8.531M (+21%, +14% orgánico) por encima del techo de su guía; pedidos de Electrical Americas +41%; sube la guía de crecimiento orgánico 2026 al 11–13%",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-31",
+     "EX-99 8-K 31-jul-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 2,53% y ventas 4,61%; BPA próximo trimestre $3,54",
+     "https://finviz.com/quote.ashx?t=ETN"
     ]
    ],
    "rev_growth_yoy": 0.21385885031303364,
    "rev_growth_yoy_prev": 0.16841775129371173,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 4.6,
+   "eps_surprise_pct": 2.5,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": -349,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
-   "gap_pct": -0.3,
-   "rvol": 1.47,
-   "close_in_range": 0.98,
+   "note": "Consenso de finviz: ventas +4,6% y BPA +2,5%. La nota sube la guía orgánica sin dar la anterior en el mismo documento: sin cambio cuantificado. Anuncia la separación de Mobility por una operación Reverse Morris Trust. El mercado abrió −0,3% y cerró +5,6%.",
+   "gap_pct": 8.56,
+   "rvol": 1.86,
+   "close_in_range": 0.81,
    "day2_follow": true,
-   "dollar_volume": 1593141382,
+   "dollar_volume": 1889450696,
    "estimate_revisions": "unknown",
-   "reaction_date": "2026-08-03",
-   "reaction_close_chg_pct": 5.55
+   "reaction_date": "2026-07-31",
+   "reaction_close_chg_pct": 7.32
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "bonos26",
+   "kind": "shelf",
+   "name": "Bonos de marzo de 2026 bajo el shelf (cuatro 424B5)",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-03-09",
+   "notes": "Deuda, no acciones: varias series de bonos y flotantes; la deuda casi se duplica en el año. [VERIFY: uso de los fondos (compra) en el 424B5]",
+   "src": [
+    [
+     "424B5 mar-2026: bonos senior",
+     "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007731/ny20066192x2_424b5.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $22,6M; 7 marcados",
+   "shares": 53790.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Monesmith Heath B. (See Remarks below.) $15,8M, máx. 26% en 2026-T2, 2 ventas sin 10b5-1; RUIZ STERNADT PAULO (consejero, See Remarks below.) $4,2M, máx. 28% en 2026-T1, 1 ventas sin 10b5-1; Yelton Michael (See Remarks below.) $1,3M, máx. 40% en 2026-T1, 1 ventas sin 10b5-1; Denk Peter (See Remarks below.) $0,8M, máx. 22% en 2026-T2, 1 ventas sin 10b5-1. Compras en mercado abierto: 1.461 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 389366660.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-26): $139.000,0M de no afiliados a 2025-06-30 ÷ cierre de $356,99 = 389,4M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -446,22 +543,22 @@
   {
    "date": "2026-10-30",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-31) + 91 días]",
+   "text": "Resultados 3T26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Orgánico +14%, pedidos eléctricos +41% y guía subida; deuda casi doble.",
+  "setup": "En la SMA 200; −18% desde máximos.",
+  "catalyst": "2T26: ventas +5%, BPA +3%; guía orgánica subida.",
+  "quality": "Mucho fondo de comercio.",
+  "supply": "Bonos, no acciones.",
+  "group": "El industrial grande."
  },
  "snapshot": [
   [
    "Negocio",
-   "Gestión eléctrica; centros de datos como segmento creciente"
+   "Gestión eléctrica (Electrical Americas y Global), aeroespacial y movilidad (en separación); centros de datos como motor de pedidos"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +590,46 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Separará Mobility (Reverse Morris Trust): Eaton quedará más concentrada en eléctrico y aeroespacial.",
+   "La deuda casi se duplica en el año ($9.885M → $18.520M) y el fondo de comercio supera al patrimonio (162%): crecimiento con compras."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +21% (+14% orgánico) con aceleración {m.accel_pp:pp}, pedidos fuertes y guía orgánica subida.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26. El beneficio operativo no sale de companyfacts con la etiqueta estándar.",
+  "quality": [
+   "Fondo de comercio e intangibles = 162% del patrimonio.",
+   "FCF $874M en el 2T26 (+22%)."
+  ],
+  "supply_read": "Sin ampliaciones; bonos en marzo. Ventas de directivos pequeñas ($22,6M).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 24 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El industrial grande del universo: menos puro que VRT en centros de datos, pero con pedidos eléctricos +41% y aeroespacial detrás.",
+  "risks": [
+   "Integración de compras y deuda.",
+   "Separación de Mobility.",
+   "Resultados ≈ 30-oct."
+  ],
+  "plan": [
+   "Resultados del 3T26 hacia el 30-oct [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** orgánico por encima del 15,5% (techo de la guía), BPA ajustado ≥ $3,72 (+5% sobre el consenso de $3,54) y otra subida de la guía anual.",
+   "**D si:** pedidos eléctricos desacelerando.",
+   "Técnica: en la SMA 200, −18% desde el máximo; RS 3m en percentil 77."
+  ],
+  "verdict": "Industrial de calidad con pedidos eléctricos +41% y guía orgánica subida, más diversificado y con más deuda que los puros. El 30-oct medirá los pedidos."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-31",
+   "EX-99 8-K 31-jul-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm"
+  ],
+  [
+   "424B5 mar-2026: bonos senior",
+   "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007731/ny20066192x2_424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 2,53% y ventas 4,61%; BPA próximo trimestre $3,54",
+   "https://finviz.com/quote.ashx?t=ETN"
   ]
  ]
 }

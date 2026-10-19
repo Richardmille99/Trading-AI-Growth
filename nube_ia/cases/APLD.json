@@ -12,11 +12,11 @@
   "group": "Alquiler de GPU y centros de datos de IA (CRWV, NBIS, IREN, APLD)",
   "subgroup": "neoclouds",
   "synthetic": false,
-  "primary_catalyst": "q_202608",
-  "descriptor": "Centros de datos para IA y HPC; financiación a vigilar. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q1fy27",
+  "descriptor": "Diseño, construcción y alquiler de centros de datos para IA y HPC a hiperescalares (Polaris Forge, Delta Forge). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001166816-26-000007",
   "last_filing_seen_date": "2026-10-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 18.049999237060547,
@@ -264,10 +264,33 @@
     "total_assets": 6246818000
    },
    {
+    "period": "may-26",
+    "end": "2026-05-31",
+    "revenue": null,
+    "gross_profit": null,
+    "op_income": null,
+    "net_income": null,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "gap": true,
+    "gap_note": "el 10-K FY26 da el año en «Revenues» y los 9 meses en otra etiqueta: el 4T no se puede derivar sin mezclar bases"
+   },
+   {
     "period": "ago-26",
     "end": "2026-08-31",
-    "revenue": 262755000,
-    "gross_profit": 17046000,
+    "revenue": 341900000.0,
+    "gross_profit": 96200000.0,
     "op_income": -62379000,
     "net_income": -184055000,
     "cfo": 63921000,
@@ -282,37 +305,76 @@
     "inventory": null,
     "cash": 2949909000,
     "debt": null,
-    "total_assets": 11707176000
+    "total_assets": 11707176000,
+    "src": "Ingresos totales («Revenues», incluye alquileres a hiperescalares) de la nota y del 10-Q del 1T FY27; bruto = ingresos − coste de ingresos ($245,7M). Los trimestres anteriores solo tienen ingresos por contratos en XBRL: el interanual mezcla bases."
    }
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Contratos",
+    "value": "Delta Forge 2: 210 MW a 15 años con su hiperescalar con grado de inversión (≈ $5.200M de ingresos base); Polaris Forge 1 edificio 2 (75 MW) en servicio desde el 1-jul-2026",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 7-oct-2026: resultados 1T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apldq127earningsrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Resultado ajustado",
+    "value": "Ingresos ajustados $300,4M; EBITDA ajustado $64,4M; resultado operativo neto $58,8M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 7-oct-2026: resultados 1T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apldq127earningsrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Ingresos (bases)",
+    "value": "$341,9M totales en el 1T FY27 frente a $80,9M solo por contratos en el 1T FY26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 7-oct-2026: resultados 1T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apldq127earningsrelease.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202608",
+   "id": "q1fy27",
    "type": "earnings",
    "date": "2026-10-07",
    "time_et": "after-hours",
-   "headline": "Resultados ago-26: ingresos $262,8M",
+   "headline": "Resultados 1T FY27: ingresos $341,9M (+322%, operaciones continuadas); EBITDA ajustado $64,4M; nuevo alquiler de 210 MW a 15 años con un hiperescalar (≈ $5.200M)",
    "sources": [
     [
-     "8-K 2026-10-07 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apld-20261007.htm"
+     "EX-99.1 8-K 7-oct-2026: resultados 1T FY27",
+     "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apldq127earningsrelease.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA -177,59% y ventas 193,99%; BPA próximo trimestre $-0,29",
+     "https://finviz.com/quote.ashx?t=APLD"
     ]
    ],
-   "rev_growth_yoy": null,
-   "rev_growth_yoy_prev": 1.392944199845052,
+   "rev_growth_yoy": 3.224429782291744,
+   "rev_growth_yoy_prev": null,
    "rev_surprise_pct": null,
    "eps_surprise_pct": null,
    "guide_raise": null,
    "guide_change_pct": null,
-   "gm_change_bp": null,
+   "gm_change_bp": 83,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "La sorpresa de finviz (ventas +194%, BPA −178%) no se usa: compara bases distintas tras la venta del negocio de nube (operaciones discontinuadas). Pérdida neta atribuible de $221M; ajustada de $4,1M. Reacción plana: +2,3% en la apertura y +0,2% al cierre.",
    "gap_pct": 2.27,
    "rvol": 3.16,
    "close_in_range": 0.68,
@@ -323,12 +385,32 @@
    "reaction_close_chg_pct": 0.17
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $25,0M; 7 marcados",
+   "shares": 730459.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Nottenburg Richard N (consejero) $6,3M, máx. 36% en 2026-T3, 9 ventas sin 10b5-1; Cummins Wes (consejero, CEO; Chairman) $6,0M, máx. 1% en 2026-T1, 1 ventas sin 10b5-1; Mohmand Mohammad Saidal LaVanway (Chief Financial Officer) $4,8M, máx. 53% en 2025-T4, 2 ventas sin 10b5-1; HASTINGS CHUCK (consejero) $4,4M, máx. 15% en 2025-T4, 3 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 254612543.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-07-29): $6.900,0M de no afiliados a 2025-11-30 ÷ cierre de $27,10 = 254,6M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -404,22 +486,22 @@
   {
    "date": "2027-01-06",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-10-07) + 91 días]",
+   "text": "Resultados 2T FY27 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+322% con contratos a 15 años; cuentas en transición y pérdidas.",
+  "setup": "−63% desde máximos; sin setup.",
+  "catalyst": "1T FY27: sorpresa no medible (bases distintas).",
+  "quality": "Pérdida GAAP; margen de arranque.",
+  "supply": "Deuda por proyecto.",
+  "group": "El casero del universo."
  },
  "snapshot": [
   [
    "Negocio",
-   "Centros de datos para IA y HPC; financiación a vigilar"
+   "Diseño, construcción y alquiler de centros de datos para IA y HPC a hiperescalares (Polaris Forge, Delta Forge)"
   ],
   [
    "Subgrupo · pureza",
@@ -451,21 +533,43 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Las cuentas mezclan bases: venta del negocio de nube (discontinuado) y alquileres de centros de datos que entran como ingresos totales desde este trimestre.",
+   "El 13D que aparece en sus filings lo presenta la propia APLD por su 97,5% de la filial escindida: no es un accionista entrando."
+  ],
+  "catalyst_read": "El 1T FY27 puntúa {m.cat_q1fy27_score:sc}: ingresos +322% con contratos a 15 años, pero pérdida GAAP y reacción plana.",
+  "financials_note": "Trimestres de XBRL con dos ajustes manuales (19-oct): el 1T FY27 usa los ingresos totales de la nota ($341,9M) y may-26 queda como hueco porque el 10-K da el año y los 9 meses en etiquetas distintas. TTM y crecimiento interanual mezclan bases.",
+  "quality": [
+   "Pérdida neta atribuible de $221M en el 1T FY27.",
+   "Margen bruto bajo (≈ 28%) en la fase de puesta en marcha."
+  ],
+  "supply_read": "Financiación con líneas de crédito por proyecto (junio-2026). Ventas de directivos pequeñas, varias fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM (bases mezcladas). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El casero de centros de datos del universo (alquila a hiperescalares), más parecido a un REIT en construcción que a CRWV o NBIS.",
+  "risks": [
+   "Ejecución de la construcción.",
+   "Concentración en un hiperescalar.",
+   "Deuda por proyecto.",
+   "Resultados ≈ ene-2027."
+  ],
+  "plan": [
+   "Resultados del 2T FY27 hacia el 6-ene-2027 [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** EBITDA ajustado al alza con capacidad nueva en servicio y otro contrato de hiperescalar.",
+   "**D si:** retrasos en Polaris Forge o Delta Forge.",
+   "Técnica: −63% desde el máximo, −42% bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Contratos a 15 años con un hiperescalar (≈ $5.200M) y ingresos +322%, pero cuentas en transición, pérdidas y la acción en tendencia bajista."
  },
  "sources": [
   [
-   "8-K 2026-10-07 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apld-20261007.htm"
+   "EX-99.1 8-K 7-oct-2026: resultados 1T FY27",
+   "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apldq127earningsrelease.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA -177,59% y ventas 193,99%; BPA próximo trimestre $-0,29",
+   "https://finviz.com/quote.ashx?t=APLD"
   ]
  ]
 }

@@ -12,11 +12,11 @@
   "group": "Alquiler de GPU y centros de datos de IA (CRWV, NBIS, IREN, APLD)",
   "subgroup": "neoclouds",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Minería de bitcoin pasando a nube de IA. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Centros de datos propios con energía renovable, en transición de la minería de bitcoin a la nube de GPU para IA. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001140361-26-039453",
   "last_filing_seen_date": "2026-10-13",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 26.989999771118164,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "ARR de IA",
+    "value": "$4.000M contratados para la capacidad de 2026; $1.000M operativos hoy",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 27-ago-2026: resultados FY26",
+      "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera (RPO)",
+    "value": "$5.100M a jun-2026 (XBRL)",
+    "prior": "$195M (sep-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Financiación",
+    "value": "$2.800M de financiación de GPU (≈ 90% del capex asociado); convertible de $3.000M en mayo; deuda $7.593M (XBRL)",
+    "prior": "Deuda $963M (jun-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 27-ago-2026: resultados FY26",
+      "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Ingresos",
+    "value": "$137M en el 4T FY26 (−27%): la minería de bitcoin baja mientras arranca la nube",
+    "prior": "$187M (4T FY25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q4fy26",
    "type": "earnings",
    "date": "2026-08-27",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $137,2M (-27% interanual)",
+   "headline": "Resultados FY26: ARR contratado de $4.000M para la capacidad de 2026 y $1.000M de ARR operativo; nuevo contrato plurianual con un laboratorio de IA; $2.800M de financiación de GPU",
    "sources": [
     [
-     "8-K 2026-08-27 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/iren-20260827.htm"
+     "EX-99.1 8-K 27-ago-2026: resultados FY26",
+     "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA -246,05% y ventas 3,71%; BPA próximo trimestre $-0,72",
+     "https://finviz.com/quote.ashx?t=IREN"
     ]
    ],
    "rev_growth_yoy": -0.26732054759413104,
    "rev_growth_yoy_prev": -0.00019333945574939726,
-   "rev_surprise_pct": null,
+   "rev_surprise_pct": 3.7,
    "eps_surprise_pct": null,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": 394,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +3,7%; la sorpresa de BPA (−246%) no se usa: la pérdida del 4T ($684M) refleja la transición de la minería a la nube de IA. Los ingresos caen (−27% interanual) mientras crece la nube. El mercado lo vendió: −7,1% en la apertura y −12,5% al cierre.",
    "gap_pct": -7.12,
    "rvol": 2.04,
    "close_in_range": 0.2,
@@ -321,12 +370,66 @@
    "reaction_close_chg_pct": -12.53
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "conv33",
+   "kind": "convertible",
+   "name": "Convertible 1% 2033 ($3.000M, conversión ≈ $73,07)",
+   "shares": 41054400,
+   "capacity_usd": null,
+   "price_basis": 73.07,
+   "gate": "gated",
+   "date": "2033-01-01",
+   "notes": "13,6848 acciones por $1.000 (≈ 41,1M acciones), fuera de dinero a {m.price:px}; capped call de $201,3M. [VERIFY: fecha exacta de vencimiento]",
+   "src": [
+    [
+     "8-K 14-may-2026: convertible 1% 2033 de $3.000M",
+     "https://www.sec.gov/Archives/edgar/data/1878848/000114036126021285/ef20073507_8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "reventa26",
+   "kind": "pipe_resale",
+   "name": "Reventa de acciones por accionistas (424B7, ago-2026)",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-08-04",
+   "notes": "Acciones emitidas antes a los vendedores, registradas para su reventa. [VERIFY: número de acciones y origen en el 424B7]",
+   "src": [
+    [
+     "424B7 4-ago-2026: reventa de acciones por accionistas",
+     "https://www.sec.gov/Archives/edgar/data/1878848/000114036126031055/ny20079234x1_424b7.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $0,4M; 1 marcados",
+   "shares": 11958.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Guzowski Christopher (consejero) $0,4M, máx. 21% en 2025-T3, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 315064862.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-08-27): $11.900,0M de no afiliados a 2025-12-31 ÷ cierre de $37,77 = 315,1M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -343,12 +446,12 @@
   {
    "ticker": "APLD",
    "name": "Applied Digital",
-   "rev_yoy": null,
+   "rev_yoy": 3.224429782291744,
    "accel_pp": null,
-   "gm": 0.19934161480277762,
-   "gm_rel": -0.2506583851972224,
+   "gm": null,
+   "gm_rel": null,
    "rule40": null,
-   "ev_sales": 4.201902525982629,
+   "ev_sales": null,
    "rs_3m": 0.0
   },
   {
@@ -402,22 +505,22 @@
   {
    "date": "2026-11-26",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-27) + 91 días]",
+   "text": "Resultados 1T FY27 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "$4.000M de ARR contratado, pero ingresos a la baja, pérdidas y deuda.",
+  "setup": "−64% desde máximos; sin setup.",
+  "catalyst": "FY26: contratos de IA; −12,5% al cierre.",
+  "quality": "Pérdidas; caja por anticipos.",
+  "supply": "Convertible y reventa registrada.",
+  "group": "Neocloud en transición."
  },
  "snapshot": [
   [
    "Negocio",
-   "Minería de bitcoin pasando a nube de IA"
+   "Centros de datos propios con energía renovable, en transición de la minería de bitcoin a la nube de GPU para IA"
   ],
   [
    "Subgrupo · pureza",
@@ -449,21 +552,51 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Empresa en transición: los ingresos de hoy (minería) caen y los de mañana (nube de IA, $4.000M de ARR contratado) aún no están en las cuentas.",
+   "Financiación fuerte con deuda y convertibles: deuda de $963M a $7.593M en un año."
+  ],
+  "catalyst_read": "El FY26 puntúa {m.cat_q4fy26_score:sc}: contratos de IA grandes pero ingresos a la baja y pérdidas; el mercado lo vendió (−12,5%).",
+  "financials_note": "Trimestres de XBRL hasta el 4T FY26 (IREN presenta 10-K/10-Q desde 2025); regenerados el 19-oct con el 4T derivado de la misma versión.",
+  "quality": [
+   "Pérdidas crecientes ($684M en el 4T FY26).",
+   "Flujo operativo del 4T ($1.811M) inflado por anticipos de clientes."
+  ],
+  "supply_read": "Convertible de $3.000M fuera de dinero, reventa de acciones registrada en agosto y deuda creciente. Insiders apenas venden.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM (sobre ingresos de minería, no comparable). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El neocloud en transición: más barato que CRWV y NBIS por capitalización, con el riesgo de ejecución más alto.",
+  "risks": [
+   "Ejecución de la nube de IA.",
+   "Deuda y convertibles.",
+   "Precio del bitcoin.",
+   "Resultados ≈ fin de noviembre."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 hacia el 26-nov [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ingresos de nube de IA visibles en el trimestre y ARR operativo por encima de $1.000M.",
+   "**D si:** retrasos en la puesta en marcha de capacidad.",
+   "Técnica: −64% desde el máximo, −39% bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Apuesta de transición a la nube de IA con $4.000M de ARR contratado, pero con ingresos a la baja, pérdidas y deuda creciente. El más especulativo del universo."
  },
  "sources": [
   [
-   "8-K 2026-08-27 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/iren-20260827.htm"
+   "EX-99.1 8-K 27-ago-2026: resultados FY26",
+   "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm"
+  ],
+  [
+   "8-K 14-may-2026: convertible 1% 2033 de $3.000M",
+   "https://www.sec.gov/Archives/edgar/data/1878848/000114036126021285/ef20073507_8k.htm"
+  ],
+  [
+   "424B7 4-ago-2026: reventa de acciones por accionistas",
+   "https://www.sec.gov/Archives/edgar/data/1878848/000114036126031055/ny20079234x1_424b7.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA -246,05% y ventas 3,71%; BPA próximo trimestre $-0,72",
+   "https://finviz.com/quote.ashx?t=IREN"
   ]
  ]
 }

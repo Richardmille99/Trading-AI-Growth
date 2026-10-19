@@ -47,6 +47,9 @@ def base(t):
 
 
 DESC = {
+    "CRWV": "Nube especializada en GPU para IA (alquiler de cómputo a laboratorios e hiperescalares), con centros de datos propios y arrendados",
+    "IREN": "Centros de datos propios con energía renovable, en transición de la minería de bitcoin a la nube de GPU para IA",
+    "APLD": "Diseño, construcción y alquiler de centros de datos para IA y HPC a hiperescalares (Polaris Forge, Delta Forge)",
     "GOOGL": "Búsqueda, YouTube y suscripciones (Google Services), nube con TPU propias (Google Cloud) y apuestas (Other Bets)",
     "AMZN": "Comercio electrónico (Norteamérica e internacional), publicidad y nube (AWS, con chips Trainium propios)",
     "META": "Publicidad en Facebook, Instagram, WhatsApp y Threads (Family of Apps) y realidad virtual y gafas (Reality Labs); capex de IA para uso propio, sin vender nube",
@@ -212,6 +215,159 @@ def amzn():
                   setup="En tendencia; −12% desde máximos.", catalyst="2T26: ventas +2% frente al consenso; EP +15%.",
                   quality="Neto inflado por Anthropic; FCF negativo.", supply="Bonos; Globalstar con acciones a elección.", group="El hiperescalar con EP.")
     finish(t, c, kpis, [e], [gsat, ins], forensic_float(t), text, header, events, [pr, gs, fx], nonrec_items=True)
+
+def _evento_estimado(c, siguiente):
+    """Fecha de resultados aún no anunciada: se deja la estimación de la Fase 1 con su motivo."""
+    e = (c.get("events") or [{}])[0]
+    return [dict(date=e.get("date"), kind="earnings", text=f"{siguiente} [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]", src=e.get("src") or [])]
+
+
+# ---------------------------------------------------------------- CRWV
+def crwv():
+    t = "CRWV"
+    c, rows = base(t)
+    pr = casekit.link(1769628, "0001769628-26-000362", "coreweave2q26earningspress.htm", "EX-99.1 8-K 11-ago-2026: resultados 2T26")
+    cv = casekit.link(1769628, "0001769628-26-000432", "crwv-20260917.htm", "8-K 22-sep-2026: convertible 2,875% 2033 de $4.200M")
+    atm = casekit.link(1769628, "0001628280-26-062362", "coreweave-424b5.htm", "424B5 17-sep-2026: programa de venta de acciones (ATM con ventas a plazo)")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-08-11", "amc",
+                         "Resultados 2T26: ingresos $2.575M (+112%); cartera de ingresos ≈ $104.000M (más > $25.000M firmados a principios del 3T); 1,5 GW de potencia activa y 3,7 GW contratados",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=None, guide_change=None,
+                         note="Consenso de finviz: ventas +0,8% y BPA +14,5% (pérdida menor de la esperada). La guía se da en la conferencia, no en la nota. "
+                              "EP de verdad: hueco del +20,4% y cierre del +19,3% con volumen 3,0×, ya devuelto (−56% desde el máximo).")
+    kpis = [
+        kp("Cartera de ingresos", "≈ $104.000M a jun-2026, sin contar > $25.000M de compromisos nuevos de principios del 3T; RPO $103.700M (XBRL)", "RPO $30.100M (jun-2025)", *pr),
+        kp("Potencia", "1,5 GW activos (+≈ 500 MW en el trimestre) y ≈ 3,7 GW contratados", "—", *pr),
+        kp("Capex", "$6.422M en el 2T26 y $7.695M en el 1T26 (XBRL)", "$2.453M (2T25)", "quarters.json (XBRL 10-Q 2T26)"),
+        kp("Resultado", "Pérdida neta de $626M en el 2T26; flujo operativo $679M", "—", "quarters.json (XBRL 10-Q 2T26)")]
+    conv = dict(id="conv33", kind="convertible", name="Convertible 2,875% 2033 ($4.200M, conversión ≈ $97,85)", shares=round(4_200_000 * 10.2194), capacity_usd=None,
+                price_basis=97.85, gate="gated", date="2033-01-01",
+                notes="10,2194 acciones por $1.000 (≈ 42,9M acciones), prima del 22,5% sobre el 17-sep; fuera de dinero a {m.price:px}. Con capped call. [VERIFY: fecha exacta de vencimiento]",
+                src=[cv])
+    atm_ = dict(id="atm26", kind="atm", name="Programa de venta de acciones Clase A con ventas a plazo (sep-2026)", shares=None, capacity_usd=0.0, price_basis=None,
+                gate="live", date="2026-09-17",
+                notes="Acuerdo de distribución con varios bancos, incluidas ventas a plazo con collar. [VERIFY: importe máximo del programa y lo vendido; capacidad puesta a 0 hasta confirmarla]",
+                src=[atm])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = _evento_estimado(c, "Resultados 3T26")
+    text = dict(
+        narrative_flags=["Los insiders han vendido ≈ $5.800M en 12 meses: Magnetar (≥ 10%) $2.990M y los fundadores ≈ $900–1.000M cada uno, hasta el 89–95% de su posición en un trimestre.",
+                         "Financia el crecimiento con deuda, convertibles y ahora un ATM: la dilución potencial crece cada trimestre."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: +112% sostenido y EP con volumen en agosto, ya devuelto por completo.",
+        financials_note="Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión. La deuda del 2T26 no sale de companyfacts con la etiqueta estándar.",
+        quality=["Pérdidas netas crecientes ($626M en el 2T26) con capex de $6.000–7.700M por trimestre.", "Flujo operativo positivo por anticipos de clientes."],
+        supply_read=f"La oferta más pesada del estudio: ventas de insiders de {casekit.usd_m(insider_total(t))} en 12 meses, convertible de $4.200M y un ATM nuevo. "
+                    "Magnetar sigue con ≈ 14,9% (13G).",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; sin PER (pérdidas). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El neocloud más grande: cartera de $104.000M y +112%, pero el más diluido y con más ventas de insiders del universo.",
+        risks=["Dilución (ATM, convertibles) y ventas de insiders.", "Deuda y capex.", "Concentración de clientes (Microsoft, OpenAI).", "Resultados ≈ 10-nov."],
+        plan=["Resultados del 3T26 hacia el 10-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos y cartera por encima de lo esperado con margen operativo positivo y sin ventas grandes del ATM en el trimestre.",
+              "**D si:** pérdidas crecientes con más dilución.",
+              "Técnica: −56% desde el máximo, −32% bajo la SMA 200. Sin setup."],
+        verdict="Crecimiento real (+112%, cartera de $104.000M) con la peor estructura de oferta del estudio: insiders saliendo, convertibles y un ATM nuevo. Alto riesgo.")
+    header = dict(verdict="+112% y cartera de $104.000M, pero insiders vendiendo $5.800M, convertible y ATM.",
+                  setup="−56% desde máximos; sin setup.", catalyst="2T26: ventas +1%, BPA +15%; EP +19% ya devuelto.",
+                  quality="Pérdidas crecientes; capex enorme.", supply="La más pesada: ATM, convertible, insiders.", group="El neocloud más grande.")
+    finish(t, c, kpis, [e], [conv, atm_, ins], forensic_float(t), text, header, events, [pr, cv, atm, fx])
+
+
+# ---------------------------------------------------------------- IREN
+def iren():
+    t = "IREN"
+    c, rows = base(t)
+    pr = casekit.link(1878848, "0001878848-26-000051", "irenreportsfy26results.htm", "EX-99.1 8-K 27-ago-2026: resultados FY26")
+    cv = casekit.link(1878848, "0001140361-26-021285", "ef20073507_8k.htm", "8-K 14-may-2026: convertible 1% 2033 de $3.000M")
+    rs = casekit.link(1878848, "0001140361-26-031055", "ny20079234x1_424b7.htm", "424B7 4-ago-2026: reventa de acciones por accionistas")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q4fy26", "2026-06-30", "2026-08-27", "amc",
+                         "Resultados FY26: ARR contratado de $4.000M para la capacidad de 2026 y $1.000M de ARR operativo; nuevo contrato plurianual con un laboratorio de IA; $2.800M de financiación de GPU",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=None,
+                         guide_raise=None, guide_change=None,
+                         note="Consenso de finviz: ventas +3,7%; la sorpresa de BPA (−246%) no se usa: la pérdida del 4T ($684M) refleja la transición de la minería a la nube de IA. "
+                              "Los ingresos caen (−27% interanual) mientras crece la nube. El mercado lo vendió: −7,1% en la apertura y −12,5% al cierre.")
+    kpis = [
+        kp("ARR de IA", "$4.000M contratados para la capacidad de 2026; $1.000M operativos hoy", "—", *pr),
+        kp("Cartera (RPO)", "$5.100M a jun-2026 (XBRL)", "$195M (sep-2025)", "quarters.json (XBRL 10-K FY26)"),
+        kp("Financiación", "$2.800M de financiación de GPU (≈ 90% del capex asociado); convertible de $3.000M en mayo; deuda $7.593M (XBRL)", "Deuda $963M (jun-2025)", *pr),
+        kp("Ingresos", "$137M en el 4T FY26 (−27%): la minería de bitcoin baja mientras arranca la nube", "$187M (4T FY25)", "quarters.json (XBRL 10-K FY26)")]
+    conv = dict(id="conv33", kind="convertible", name="Convertible 1% 2033 ($3.000M, conversión ≈ $73,07)", shares=round(3_000_000 * 13.6848), capacity_usd=None,
+                price_basis=73.07, gate="gated", date="2033-01-01",
+                notes="13,6848 acciones por $1.000 (≈ 41,1M acciones), fuera de dinero a {m.price:px}; capped call de $201,3M. [VERIFY: fecha exacta de vencimiento]", src=[cv])
+    resale = dict(id="reventa26", kind="pipe_resale", name="Reventa de acciones por accionistas (424B7, ago-2026)", shares=None, capacity_usd=None, price_basis=None,
+                  gate="live", date="2026-08-04", notes="Acciones emitidas antes a los vendedores, registradas para su reventa. [VERIFY: número de acciones y origen en el 424B7]", src=[rs])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = _evento_estimado(c, "Resultados 1T FY27")
+    text = dict(
+        narrative_flags=["Empresa en transición: los ingresos de hoy (minería) caen y los de mañana (nube de IA, $4.000M de ARR contratado) aún no están en las cuentas.",
+                         "Financiación fuerte con deuda y convertibles: deuda de $963M a $7.593M en un año."],
+        catalyst_read="El FY26 puntúa {m.cat_q4fy26_score:sc}: contratos de IA grandes pero ingresos a la baja y pérdidas; el mercado lo vendió (−12,5%).",
+        financials_note="Trimestres de XBRL hasta el 4T FY26 (IREN presenta 10-K/10-Q desde 2025); regenerados el 19-oct con el 4T derivado de la misma versión.",
+        quality=["Pérdidas crecientes ($684M en el 4T FY26).", "Flujo operativo del 4T ($1.811M) inflado por anticipos de clientes."],
+        supply_read="Convertible de $3.000M fuera de dinero, reventa de acciones registrada en agosto y deuda creciente. Insiders apenas venden.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM (sobre ingresos de minería, no comparable). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El neocloud en transición: más barato que CRWV y NBIS por capitalización, con el riesgo de ejecución más alto.",
+        risks=["Ejecución de la nube de IA.", "Deuda y convertibles.", "Precio del bitcoin.", "Resultados ≈ fin de noviembre."],
+        plan=["Resultados del 1T FY27 hacia el 26-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos de nube de IA visibles en el trimestre y ARR operativo por encima de $1.000M.",
+              "**D si:** retrasos en la puesta en marcha de capacidad.",
+              "Técnica: −64% desde el máximo, −39% bajo la SMA 200. Sin setup."],
+        verdict="Apuesta de transición a la nube de IA con $4.000M de ARR contratado, pero con ingresos a la baja, pérdidas y deuda creciente. El más especulativo del universo.")
+    header = dict(verdict="$4.000M de ARR contratado, pero ingresos a la baja, pérdidas y deuda.",
+                  setup="−64% desde máximos; sin setup.", catalyst="FY26: contratos de IA; −12,5% al cierre.",
+                  quality="Pérdidas; caja por anticipos.", supply="Convertible y reventa registrada.", group="Neocloud en transición.")
+    finish(t, c, kpis, [e], [conv, resale, ins], forensic_float(t), text, header, events, [pr, cv, rs, fx])
+
+
+# ---------------------------------------------------------------- APLD
+def apld():
+    t = "APLD"
+    c, rows = base(t)
+    pr = casekit.link(1144879, "0001144879-26-000057", "apldq127earningsrelease.htm", "EX-99.1 8-K 7-oct-2026: resultados 1T FY27")
+    q = c["financials"]["quarters"]
+    # El XBRL cambia de etiqueta: hasta el 3T FY26 solo «RevenueFromContract» (sin alquileres); desde el 1T FY27, «Revenues» total.
+    ult = next(x for x in q if x["end"] == "2026-08-31")
+    ult["revenue"] = 341_900_000.0
+    ult["gross_profit"] = 341_900_000.0 - 245_700_000.0
+    ult["src"] = ("Ingresos totales («Revenues», incluye alquileres a hiperescalares) de la nota y del 10-Q del 1T FY27; bruto = ingresos − coste de ingresos ($245,7M). "
+                  "Los trimestres anteriores solo tienen ingresos por contratos en XBRL: el interanual mezcla bases.")
+    if not any(x["end"] == "2026-05-31" for x in q):
+        q.insert(q.index(ult), {"period": "may-26", "end": "2026-05-31", **{k: None for k in ult if k not in ("period", "end", "src")},
+                                "gap": True, "gap_note": "el 10-K FY26 da el año en «Revenues» y los 9 meses en otra etiqueta: el 4T no se puede derivar sin mezclar bases"})
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q1fy27", "2026-08-31", "2026-10-07", "amc",
+                         "Resultados 1T FY27: ingresos $341,9M (+322%, operaciones continuadas); EBITDA ajustado $64,4M; nuevo alquiler de 210 MW a 15 años con un hiperescalar (≈ $5.200M)",
+                         [pr, fx], rev_surprise=None, eps_surprise=None,
+                         guide_raise=None, guide_change=None,
+                         note="La sorpresa de finviz (ventas +194%, BPA −178%) no se usa: compara bases distintas tras la venta del negocio de nube (operaciones discontinuadas). "
+                              "Pérdida neta atribuible de $221M; ajustada de $4,1M. Reacción plana: +2,3% en la apertura y +0,2% al cierre.")
+    kpis = [
+        kp("Contratos", "Delta Forge 2: 210 MW a 15 años con su hiperescalar con grado de inversión (≈ $5.200M de ingresos base); Polaris Forge 1 edificio 2 (75 MW) en servicio desde el 1-jul-2026", "—", *pr),
+        kp("Resultado ajustado", "Ingresos ajustados $300,4M; EBITDA ajustado $64,4M; resultado operativo neto $58,8M", "—", *pr),
+        kp("Ingresos (bases)", "$341,9M totales en el 1T FY27 frente a $80,9M solo por contratos en el 1T FY26", "—", *pr)]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = _evento_estimado(c, "Resultados 2T FY27")
+    text = dict(
+        narrative_flags=["Las cuentas mezclan bases: venta del negocio de nube (discontinuado) y alquileres de centros de datos que entran como ingresos totales desde este trimestre.",
+                         "El 13D que aparece en sus filings lo presenta la propia APLD por su 97,5% de la filial escindida: no es un accionista entrando."],
+        catalyst_read="El 1T FY27 puntúa {m.cat_q1fy27_score:sc}: ingresos +322% con contratos a 15 años, pero pérdida GAAP y reacción plana.",
+        financials_note="Trimestres de XBRL con dos ajustes manuales (19-oct): el 1T FY27 usa los ingresos totales de la nota ($341,9M) y may-26 queda como hueco "
+                        "porque el 10-K da el año y los 9 meses en etiquetas distintas. TTM y crecimiento interanual mezclan bases.",
+        quality=["Pérdida neta atribuible de $221M en el 1T FY27.", "Margen bruto bajo (≈ 28%) en la fase de puesta en marcha."],
+        supply_read="Financiación con líneas de crédito por proyecto (junio-2026). Ventas de directivos pequeñas, varias fuera de plan.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM (bases mezcladas). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El casero de centros de datos del universo (alquila a hiperescalares), más parecido a un REIT en construcción que a CRWV o NBIS.",
+        risks=["Ejecución de la construcción.", "Concentración en un hiperescalar.", "Deuda por proyecto.", "Resultados ≈ ene-2027."],
+        plan=["Resultados del 2T FY27 hacia el 6-ene-2027 [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** EBITDA ajustado al alza con capacidad nueva en servicio y otro contrato de hiperescalar.",
+              "**D si:** retrasos en Polaris Forge o Delta Forge.",
+              "Técnica: −63% desde el máximo, −42% bajo la SMA 200. Sin setup."],
+        verdict="Contratos a 15 años con un hiperescalar (≈ $5.200M) y ingresos +322%, pero cuentas en transición, pérdidas y la acción en tendencia bajista.")
+    header = dict(verdict="+322% con contratos a 15 años; cuentas en transición y pérdidas.",
+                  setup="−63% desde máximos; sin setup.", catalyst="1T FY27: sorpresa no medible (bases distintas).",
+                  quality="Pérdida GAAP; margen de arranque.", supply="Deuda por proyecto.", group="El casero del universo.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, fx])
 
 
 if __name__ == "__main__":

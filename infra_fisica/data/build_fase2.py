@@ -48,6 +48,10 @@ def base(t):
 
 
 DESC = {
+    "MOD": "Refrigeración para centros de datos y climatización comercial; separó Performance Technologies (vehículos e industria) el 1-oct-2026",
+    "ETN": "Gestión eléctrica (Electrical Americas y Global), aeroespacial y movilidad (en separación); centros de datos como motor de pedidos",
+    "POWL": "Equipos de distribución y control eléctrico a medida (switchgear, centros de potencia) para petroquímica, GNL, servicios públicos y centros de datos",
+    "CEG": "Mayor productor de energía nuclear de EE. UU., más gas tras comprar Calpine, con contratos a largo plazo para centros de datos",
     "VST": "Generación eléctrica (gas, nuclear, carbón y solar) y venta minorista de electricidad, con Texas como mercado principal",
     "PWR": "Ingeniería y construcción de red eléctrica, generación y grandes instalaciones (incluidos centros de datos) en EE. UU., con compras recientes",
     "NVT": "Envolventes, conexiones y protección eléctrica, y refrigeración líquida para centros de datos",
@@ -363,6 +367,180 @@ def vst():
                   setup="En tendencia; −30% desde máximos.", catalyst="2T26: sorpresa no medible (coberturas); guía reafirmada.",
                   quality="GAAP volátil; deuda al alza.", supply="Bonos subordinados.", group="Generación con centros de datos.")
     finish(t, c, kpis, [e], [shelf, ins], forensic_float(t), text, header, events, [pr, nb, fx])
+
+def _evento_estimado(c, siguiente):
+    """Fecha de resultados aún no anunciada: se deja la estimación de la Fase 1 con su motivo."""
+    e = (c.get("events") or [{}])[0]
+    return [dict(date=e.get("date"), kind="earnings", text=f"{siguiente} [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]", src=e.get("src") or [])]
+
+
+# ---------------------------------------------------------------- MOD
+def mod():
+    t = "MOD"
+    c, rows = base(t)
+    pr = casekit.link(67347, "0001104659-26-088230", "mod-20260729xex99d1.htm", "EX-99.1 8-K 29-jul-2026: resultados 1T FY27")
+    sp_ = casekit.link(67347, "0001104659-26-112870", "tm2626618d1_8k.htm", "8-K 1-oct-2026: separación de Performance Technologies (fusión con Gentherm)")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q1fy27", "2026-06-30", "2026-07-29", "amc",
+                         "Resultados 1T FY27: ventas $874,1M (+28%), centros de datos $348,6M (+90%) con margen bruto del 20,2% (−960 pb); reafirma la guía de FY27",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=False, guide_change=0.0,
+                         note="Consenso de finviz: ventas −0,5% y BPA +18,0%. El margen de centros de datos cae 960 pb por la subida de producción. "
+                              "EP: hueco del +8,6% y cierre del +8,9% con volumen 3,2×, ya devuelto.")
+    kpis = [
+        kp("Centros de datos", "$348,6M en el 1T FY27 (+90%); margen bruto 20,2% (−960 pb); beneficio operativo $46,3M (+33%)", "$183,7M (1T FY26)", *pr),
+        kp("Climatización comercial", "$261,6M (+22%), con más baterías para centros de datos y $19,7M de compras", "$214,2M", *pr),
+        kp("Separación de Performance Technologies", "Completada el 1-oct-2026: fusionada con Gentherm; los accionistas de Modine reciben el 43,6% de la sociedad combinada. Era el 32% de las ventas del 1T FY27 ($277,8M)", "—", *sp_),
+        kp("FCF", "−$5,0M en el 1T FY27", "+$0,2M (1T FY26)", *pr)]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = _evento_estimado(c, "Resultados 2T FY27 (primeros sin Performance Technologies)")
+    text = dict(
+        narrative_flags=["Tras la separación del 1-oct, Modine es casi solo centros de datos y climatización: los trimestres históricos (con Performance Technologies) no son comparables con los siguientes.",
+                         "Crece mucho en centros de datos pero con el margen cayendo: está comprando volumen."],
+        catalyst_read="El 1T FY27 puntúa {m.cat_q1fy27_score:sc}: +28% con desaceleración {m.accel_pp:pp}, guía solo reafirmada y margen de centros de datos a la baja; EP en el día, ya devuelto.",
+        financials_note="Trimestres de XBRL hasta el 1T FY27, con Performance Technologies dentro. Desde el 2T FY27 esa división sale de las cuentas.",
+        quality=["Margen bruto de centros de datos del 20,2% (−960 pb).", "FCF negativo en el 1T FY27."],
+        supply_read=f"Sin ampliaciones. Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses, varias fuera de plan.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM (con Performance Technologies); PER adelantado ≈ 14 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El más barato del universo por PER y ahora más puro en centros de datos, pero con el margen peor que VRT y NVT.",
+        risks=["Margen de centros de datos.", "Transición tras la separación.", "Resultados ≈ 28-oct."],
+        plan=["Resultados del 2T FY27 hacia el 28-oct [VERIFY: fecha no anunciada]: posiblemente ya dentro de la ventana de ≤ 3 sesiones.",
+              "**EP A/B si:** centros de datos ≥ +90% con el margen recuperándose por encima del 22% y guía nueva para la Modine separada.",
+              "**D si:** margen de centros de datos por debajo del 20%.",
+              "Técnica: −52% desde el máximo, −29% bajo la SMA 200; RS en el percentil 0. Sin setup."],
+        verdict="Centros de datos +90% y ahora más puro tras la separación, pero comprando crecimiento con margen y con la acción a la mitad de su máximo.")
+    header = dict(verdict="Centros de datos +90% y separación completada; margen a la baja.",
+                  setup="−52% desde máximos; sin setup.", catalyst="1T FY27: ventas −1%, BPA +18%; guía reafirmada.",
+                  quality="Margen de centros de datos −960 pb.", supply="Sin ampliaciones.", group="El más barato por PER.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, sp_, fx])
+
+
+# ---------------------------------------------------------------- ETN
+def etn():
+    t = "ETN"
+    c, rows = base(t)
+    pr = casekit.link(1551182, "0001551182-26-000027", "etn06302026exhibit99.htm", "EX-99 8-K 31-jul-2026: resultados 2T26")
+    nb = casekit.link(1551182, "0001140361-26-007731", "ny20066192x2_424b5.htm", "424B5 mar-2026: bonos senior")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-07-31", "bmo",
+                         "Resultados 2T26: ventas $8.531M (+21%, +14% orgánico) por encima del techo de su guía; pedidos de Electrical Americas +41%; sube la guía de crecimiento orgánico 2026 al 11–13%",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=True, guide_change=None,
+                         note="Consenso de finviz: ventas +4,6% y BPA +2,5%. La nota sube la guía orgánica sin dar la anterior en el mismo documento: sin cambio cuantificado. "
+                              "Anuncia la separación de Mobility por una operación Reverse Morris Trust. El mercado abrió −0,3% y cerró +5,6%.")
+    kpis = [
+        kp("Pedidos y cartera", "Pedidos (media móvil de 12 meses) Electrical Americas +41%, Electrical Global +33%, Aerospace +17%; cartera total +43% interanual", "—", *pr),
+        kp("Book-to-bill", "1,2 en los negocios eléctricos y en Aerospace (12 meses)", "—", *pr),
+        kp("Guía 2026", "Crecimiento orgánico 11–13%; margen de segmentos 24,1–24,5%; BPA ajustado $13,40–13,60", "—", *pr),
+        kp("Guía 3T26", "Orgánico 13,5–15,5%; margen de segmentos 24,6–25,0%; BPA ajustado $3,46–3,56", "—", *pr),
+        kp("Deuda", "$18.520M a jun-2026 (XBRL), tras los bonos de marzo", "$9.885M (jun-2025)", "quarters.json (XBRL 10-Q 2T26)")]
+    shelf = dict(id="bonos26", kind="shelf", name="Bonos de marzo de 2026 bajo el shelf (cuatro 424B5)", shares=None, capacity_usd=None, price_basis=None, gate="live",
+                 date="2026-03-09", notes="Deuda, no acciones: varias series de bonos y flotantes; la deuda casi se duplica en el año. [VERIFY: uso de los fondos (compra) en el 424B5]", src=[nb])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = _evento_estimado(c, "Resultados 3T26")
+    text = dict(
+        narrative_flags=["Separará Mobility (Reverse Morris Trust): Eaton quedará más concentrada en eléctrico y aeroespacial.",
+                         "La deuda casi se duplica en el año ($9.885M → $18.520M) y el fondo de comercio supera al patrimonio (162%): crecimiento con compras."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: +21% (+14% orgánico) con aceleración {m.accel_pp:pp}, pedidos fuertes y guía orgánica subida.",
+        financials_note="Trimestres de XBRL hasta el 2T26. El beneficio operativo no sale de companyfacts con la etiqueta estándar.",
+        quality=["Fondo de comercio e intangibles = 162% del patrimonio.", "FCF $874M en el 2T26 (+22%)."],
+        supply_read=f"Sin ampliaciones; bonos en marzo. Ventas de directivos pequeñas ({casekit.usd_m(insider_total(t))}).",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 24 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El industrial grande del universo: menos puro que VRT en centros de datos, pero con pedidos eléctricos +41% y aeroespacial detrás.",
+        risks=["Integración de compras y deuda.", "Separación de Mobility.", "Resultados ≈ 30-oct."],
+        plan=["Resultados del 3T26 hacia el 30-oct [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** orgánico por encima del 15,5% (techo de la guía), BPA ajustado ≥ $3,72 (+5% sobre el consenso de $3,54) y otra subida de la guía anual.",
+              "**D si:** pedidos eléctricos desacelerando.",
+              "Técnica: en la SMA 200, −18% desde el máximo; RS 3m en percentil 77."],
+        verdict="Industrial de calidad con pedidos eléctricos +41% y guía orgánica subida, más diversificado y con más deuda que los puros. El 30-oct medirá los pedidos.")
+    header = dict(verdict="Orgánico +14%, pedidos eléctricos +41% y guía subida; deuda casi doble.",
+                  setup="En la SMA 200; −18% desde máximos.", catalyst="2T26: ventas +5%, BPA +3%; guía orgánica subida.",
+                  quality="Mucho fondo de comercio.", supply="Bonos, no acciones.", group="El industrial grande.")
+    finish(t, c, kpis, [e], [shelf, ins], forensic_float(t), text, header, events, [pr, nb, fx])
+
+
+# ---------------------------------------------------------------- POWL
+def powl():
+    t = "POWL"
+    c, rows = base(t)
+    pr = casekit.link(80420, "0000080420-26-000103", "ex991-powlq3xfy2026earning.htm", "EX-99.1 8-K 3-ago-2026: resultados 3T FY26")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q3fy26", "2026-06-30", "2026-08-03", "amc",
+                         "Resultados 3T FY26: ingresos $312M (+9%); pedidos récord de $934M (book-to-bill 3,0) con un pedido de centro de datos de más de $400M; cartera $2.400M (+69%)",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=None, guide_change=None,
+                         note="Consenso de finviz: ventas −1,6% y BPA −3,3% (fallo pequeño). No da guía numérica; espera mantener el margen bruto de los últimos 12 meses. "
+                              "El mercado lo vendió: −12,8% en la apertura y −3,8% al cierre.")
+    kpis = [
+        kp("Pedidos y book-to-bill", "$934M en el 3T FY26 (book-to-bill 3,0): centro de datos > $400M (generación en el propio emplazamiento), petroquímica ≈ $75M, GNL ≈ $60M", "$362M (3T FY25)", *pr),
+        kp("Cartera", "$2.400M a jun-2026 (+69% interanual, +35% trimestral)", "$1.400M (jun-2025) · $1.800M (mar-2026)", *pr),
+        kp("Margen bruto", "30,6% en el 3T FY26", "—", *pr),
+        kp("Capacidad", "Ampliación del astillero de Jacintoport hasta fin de FY26", "—", *pr)]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = _evento_estimado(c, "Resultados 4T FY26")
+    text = dict(
+        narrative_flags=["El crecimiento de ingresos (+9%) va muy por detrás de los pedidos (book-to-bill 3,0): la cartera se convierte en ingresos con 1–2 años de retraso.",
+                         "La familia Powell (≥ 10%) vende de forma continua fuera de planes 10b5-1."],
+        catalyst_read="El 3T FY26 puntúa {m.cat_q3fy26_score:sc}: pedidos récord pero ingresos +9% y fallo pequeño frente al consenso; el mercado lo vendió.",
+        financials_note="Trimestres de XBRL hasta el 3T FY26 (cierre fiscal en septiembre).",
+        quality=["Sin deuda y fondo de comercio mínimo (2% del patrimonio).", "Margen bruto del 30,6%."],
+        supply_read=f"Oferta limpia salvo las ventas de la familia Powell: {casekit.usd_m(insider_total(t))} en 12 meses.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 24 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El pequeño del eléctrico: la mayor aceleración de pedidos del universo (book-to-bill 3,0) con los ingresos todavía planos.",
+        risks=["Conversión de la cartera en ingresos.", "Ventas de la familia Powell.", "Resultados ≈ 2-nov (cierre de FY26)."],
+        plan=["Resultados del 4T FY26 hacia el 2-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos acelerando por encima del +15% con la cartera por encima de $2.400M.",
+              "**D si:** ingresos planos otra vez: la cartera tardaría en llegar.",
+              "Técnica: −50% desde el máximo, −22% bajo la SMA 200. Sin setup."],
+        verdict="Pedidos récord (book-to-bill 3,0, cartera +69%) que aún no llegan a los ingresos (+9%), con balance limpio. Es una tesis de cartera a 12–24 meses, no un EP inmediato.")
+    header = dict(verdict="Pedidos récord (book-to-bill 3,0) y cartera +69%; ingresos aún +9%.",
+                  setup="−50% desde máximos; sin setup.", catalyst="3T FY26: fallo pequeño; pedidos récord.",
+                  quality="Sin deuda.", supply="Familia Powell vendiendo.", group="El pequeño del eléctrico.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, fx])
+
+
+# ---------------------------------------------------------------- CEG
+def ceg():
+    t = "CEG"
+    c, rows = base(t)
+    pr = casekit.link(1868275, "0001868275-26-000097", "ceg-20260806991.htm", "EX-99.1 8-K 6-ago-2026: resultados 2T26")
+    sec = casekit.link(1868275, "0001104659-26-069201", "tm2615509-1_424b4.htm", "424B4 2-jun-2026: secundaria de 11,0M acciones")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-08-06", "bmo",
+                         "Resultados 2T26: BPA operativo ajustado $2,55; sube la guía 2026 a $11,50–12,50; 920 MW más en contratos de 15–20 años; con Calpine integrada",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=True, guide_change=None,
+                         note="Consenso de finviz: ventas −2,9% y BPA +11,2%. La nota sube la guía de BPA operativo ajustado sin dar la anterior en el mismo documento. "
+                              "Reacción tímida: +1,1% en la apertura y +3,4% al cierre con poco volumen.")
+    kpis = [
+        kp("Contratos de suministro", "920 MW más en contratos de 15–20 años con clientes con grado de inversión, desde 2029–2032", "—", *pr),
+        kp("Guía 2026", "BPA operativo ajustado $11,50–12,50 (subida)", "—", *pr),
+        kp("Crane (antigua Three Mile Island 1)", "FERC autoriza el traspaso de derechos de interconexión y la NRC aprueba la licencia de combustible: rearranque previsto en 2027", "—", *pr),
+        kp("Deuda", "$19.474M a jun-2026 (XBRL), tras la compra de Calpine", "$7.286M (jun-2025)", "quarters.json (XBRL 10-Q 2T26)")]
+    sec_ = dict(id="sec26", kind="secondary", name="Secundaria de 11,0M acciones de los vendedores de Calpine (jun-2026)", shares=11_000_000, capacity_usd=None, price_basis=None,
+                gate="dated", date="2026-06-02",
+                notes="Venden accionistas recibidos en la compra de Calpine (ECP); la compañía no cobra y recompró 2,0M a los colocadores. ECP mantiene ≈ 4% (13G).", src=[sec])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = _evento_estimado(c, "Resultados 3T26")
+    text = dict(
+        narrative_flags=["Tras comprar Calpine, ECP y sus socios tienen acciones que pueden seguir vendiendo en secundarias.",
+                         "La tesis de centros de datos se concreta en contratos de 15–20 años que empiezan en 2029–2032: no mueven los resultados de 2026."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: BPA por encima del consenso y guía subida, pero ingresos por debajo y reacción tímida.",
+        financials_note="Trimestres de XBRL hasta el 2T26; la compra de Calpine (1T26) cambia la escala: deuda, ingresos y cartera no comparables con 2025.",
+        quality=["Deuda casi triplicada por Calpine.", "Ingresos GAAP volátiles por coberturas."],
+        supply_read="Secundaria de 11,0M acciones en junio (vendedores de Calpine), con recompra de 2,0M. ECP conserva ≈ 4%. Directivos sin ventas.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 20 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El nuclear del universo: contratos a 15–20 años con grado de inversión, más estable que VST pero con la secundaria de Calpine encima.",
+        risks=["Más secundarias de los vendedores de Calpine.", "Paradas nucleares.", "Resultados ≈ 5-nov."],
+        plan=["Resultados del 3T26 hacia el 5-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** BPA ≥ $3,91 (+5% sobre el consenso de $3,72), otra subida de la guía y contratos nuevos con hiperescalares con cifras.",
+              "**D si:** guía mantenida y otra secundaria.",
+              "Técnica: en tendencia (EMA alineadas), −34% desde el máximo; RS 1m/3m en percentil 92/100."],
+        verdict="Contratos nucleares a largo plazo y guía subida, con la secundaria de los vendedores de Calpine como lastre de oferta. El 5-nov necesita contratos con cifras.")
+    header = dict(verdict="Guía subida y 920 MW contratados a 15–20 años; secundaria de Calpine encima.",
+                  setup="En tendencia; −34% desde máximos.", catalyst="2T26: BPA +11%, ventas −3%; guía subida.",
+                  quality="Deuda triplicada por Calpine.", supply="Secundaria de 11,0M acciones.", group="El nuclear.")
+    finish(t, c, kpis, [e], [sec_, ins], forensic_float(t), text, header, events, [pr, sec, fx])
 
 
 if __name__ == "__main__":

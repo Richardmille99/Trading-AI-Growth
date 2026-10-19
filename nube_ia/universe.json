@@ -58,7 +58,7 @@
    "profile": "ai_systems",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Alquiler de GPU; deuda alta y concentración en pocos clientes"
   },
   {
@@ -82,7 +82,7 @@
    "profile": "ai_systems",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "junio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Minería de bitcoin pasando a nube de IA"
   },
   {
@@ -94,7 +94,7 @@
    "profile": "ai_systems",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "mayo",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Centros de datos para IA y HPC; financiación a vigilar"
   }
  ]

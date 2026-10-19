@@ -36,7 +36,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "marzo",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Refrigeración de centros de datos + climatización y vehículos"
   },
   {
@@ -60,7 +60,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Gestión eléctrica; centros de datos como segmento creciente"
   },
   {
@@ -84,7 +84,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "septiembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Equipos de distribución eléctrica a medida"
   },
   {
@@ -120,7 +120,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Nuclear; contratos de suministro con hiperescalares"
   },
   {

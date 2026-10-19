@@ -12,11 +12,11 @@
   "group": "Equipo eléctrico, distribución y red (ETN, GEV, POWL)",
   "subgroup": "electrico",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Equipos de distribución eléctrica a medida. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q3fy26",
+  "descriptor": "Equipos de distribución y control eléctrico a medida (switchgear, centros de potencia) para petroquímica, GNL, servicios públicos y centros de datos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0000080420-26-000131",
   "last_filing_seen_date": "2026-10-02",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 165.13999938964844,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Pedidos y book-to-bill",
+    "value": "$934M en el 3T FY26 (book-to-bill 3,0): centro de datos > $400M (generación en el propio emplazamiento), petroquímica ≈ $75M, GNL ≈ $60M",
+    "prior": "$362M (3T FY25)",
+    "src": [
+     [
+      "EX-99.1 8-K 3-ago-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/80420/000008042026000103/ex991-powlq3xfy2026earning.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera",
+    "value": "$2.400M a jun-2026 (+69% interanual, +35% trimestral)",
+    "prior": "$1.400M (jun-2025) · $1.800M (mar-2026)",
+    "src": [
+     [
+      "EX-99.1 8-K 3-ago-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/80420/000008042026000103/ex991-powlq3xfy2026earning.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto",
+    "value": "30,6% en el 3T FY26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 3-ago-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/80420/000008042026000103/ex991-powlq3xfy2026earning.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Capacidad",
+    "value": "Ampliación del astillero de Jacintoport hasta fin de FY26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 3-ago-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/80420/000008042026000103/ex991-powlq3xfy2026earning.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q3fy26",
    "type": "earnings",
    "date": "2026-08-03",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $311,7M (+9% interanual)",
+   "headline": "Resultados 3T FY26: ingresos $312M (+9%); pedidos récord de $934M (book-to-bill 3,0) con un pedido de centro de datos de más de $400M; cartera $2.400M (+69%)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-03",
+     "EX-99.1 8-K 3-ago-2026: resultados 3T FY26",
      "https://www.sec.gov/Archives/edgar/data/80420/000008042026000103/ex991-powlq3xfy2026earning.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA -3,32% y ventas -1,57%; BPA próximo trimestre $1,57",
+     "https://finviz.com/quote.ashx?t=POWL"
     ]
    ],
    "rev_growth_yoy": 0.08896053766858913,
    "rev_growth_yoy_prev": 0.0645441462005305,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": -1.6,
+   "eps_surprise_pct": -3.3,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -13,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas −1,6% y BPA −3,3% (fallo pequeño). No da guía numérica; espera mantener el margen bruto de los últimos 12 meses. El mercado lo vendió: −12,8% en la apertura y −3,8% al cierre.",
    "gap_pct": -12.75,
    "rvol": 2.05,
    "close_in_range": 0.85,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": -3.8
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $69,3M; 9 marcados",
+   "shares": 205084.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "POWELL THOMAS W (≥10%) $51,0M, máx. 3% en 2026-T1, 13 ventas sin 10b5-1; COPE BRETT ALAN (consejero, President & CEO) $7,2M, máx. 9% en 2026-T3, 2 ventas sin 10b5-1; McKertcher Terry B (Vice President, Operations) $2,4M, máx. 40% en 2026-T1, 6 ventas sin 10b5-1; Williams Richard E (consejero) $2,0M, máx. 12% en 2026-T2. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 24658016.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2025-11-19): $1.400,0M de no afiliados a 2025-03-31 ÷ cierre de $56,78 = 24,7M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -446,22 +515,22 @@
   {
    "date": "2026-11-02",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-03) + 91 días]",
+   "text": "Resultados 4T FY26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Pedidos récord (book-to-bill 3,0) y cartera +69%; ingresos aún +9%.",
+  "setup": "−50% desde máximos; sin setup.",
+  "catalyst": "3T FY26: fallo pequeño; pedidos récord.",
+  "quality": "Sin deuda.",
+  "supply": "Familia Powell vendiendo.",
+  "group": "El pequeño del eléctrico."
  },
  "snapshot": [
   [
    "Negocio",
-   "Equipos de distribución eléctrica a medida"
+   "Equipos de distribución y control eléctrico a medida (switchgear, centros de potencia) para petroquímica, GNL, servicios públicos y centros de datos"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +562,42 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El crecimiento de ingresos (+9%) va muy por detrás de los pedidos (book-to-bill 3,0): la cartera se convierte en ingresos con 1–2 años de retraso.",
+   "La familia Powell (≥ 10%) vende de forma continua fuera de planes 10b5-1."
+  ],
+  "catalyst_read": "El 3T FY26 puntúa {m.cat_q3fy26_score:sc}: pedidos récord pero ingresos +9% y fallo pequeño frente al consenso; el mercado lo vendió.",
+  "financials_note": "Trimestres de XBRL hasta el 3T FY26 (cierre fiscal en septiembre).",
+  "quality": [
+   "Sin deuda y fondo de comercio mínimo (2% del patrimonio).",
+   "Margen bruto del 30,6%."
+  ],
+  "supply_read": "Oferta limpia salvo las ventas de la familia Powell: $69,3M en 12 meses.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 24 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El pequeño del eléctrico: la mayor aceleración de pedidos del universo (book-to-bill 3,0) con los ingresos todavía planos.",
+  "risks": [
+   "Conversión de la cartera en ingresos.",
+   "Ventas de la familia Powell.",
+   "Resultados ≈ 2-nov (cierre de FY26)."
+  ],
+  "plan": [
+   "Resultados del 4T FY26 hacia el 2-nov [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ingresos acelerando por encima del +15% con la cartera por encima de $2.400M.",
+   "**D si:** ingresos planos otra vez: la cartera tardaría en llegar.",
+   "Técnica: −50% desde el máximo, −22% bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Pedidos récord (book-to-bill 3,0, cartera +69%) que aún no llegan a los ingresos (+9%), con balance limpio. Es una tesis de cartera a 12–24 meses, no un EP inmediato."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-03",
+   "EX-99.1 8-K 3-ago-2026: resultados 3T FY26",
    "https://www.sec.gov/Archives/edgar/data/80420/000008042026000103/ex991-powlq3xfy2026earning.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA -3,32% y ventas -1,57%; BPA próximo trimestre $1,57",
+   "https://finviz.com/quote.ashx?t=POWL"
   ]
  ]
 }

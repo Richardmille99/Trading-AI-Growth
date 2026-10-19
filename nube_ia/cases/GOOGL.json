@@ -465,12 +465,12 @@
   {
    "ticker": "APLD",
    "name": "Applied Digital",
-   "rev_yoy": null,
+   "rev_yoy": 3.224429782291744,
    "accel_pp": null,
-   "gm": 0.19934161480277762,
-   "gm_rel": -0.2506583851972224,
+   "gm": null,
+   "gm_rel": null,
    "rule40": null,
-   "ev_sales": 4.201902525982629,
+   "ev_sales": null,
    "rs_3m": 0.0
   },
   {

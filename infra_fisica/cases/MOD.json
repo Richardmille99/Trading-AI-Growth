@@ -12,11 +12,11 @@
   "group": "Gestión térmica y refrigeración líquida (VRT, MOD, NVT)",
   "subgroup": "refrigeracion",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Refrigeración de centros de datos + climatización y vehículos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q1fy27",
+  "descriptor": "Refrigeración para centros de datos y climatización comercial; separó Performance Technologies (vehículos e industria) el 1-oct-2026. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001104659-26-115309",
   "last_filing_seen_date": "2026-10-13",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 148.86000061035156,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Centros de datos",
+    "value": "$348,6M en el 1T FY27 (+90%); margen bruto 20,2% (−960 pb); beneficio operativo $46,3M (+33%)",
+    "prior": "$183,7M (1T FY26)",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 1T FY27",
+      "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Climatización comercial",
+    "value": "$261,6M (+22%), con más baterías para centros de datos y $19,7M de compras",
+    "prior": "$214,2M",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 1T FY27",
+      "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Separación de Performance Technologies",
+    "value": "Completada el 1-oct-2026: fusionada con Gentherm; los accionistas de Modine reciben el 43,6% de la sociedad combinada. Era el 32% de las ventas del 1T FY27 ($277,8M)",
+    "prior": "—",
+    "src": [
+     [
+      "8-K 1-oct-2026: separación de Performance Technologies (fusión con Gentherm)",
+      "https://www.sec.gov/Archives/edgar/data/67347/000110465926112870/tm2626618d1_8k.htm"
+     ]
+    ]
+   },
+   {
+    "name": "FCF",
+    "value": "−$5,0M en el 1T FY27",
+    "prior": "+$0,2M (1T FY26)",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 1T FY27",
+      "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d1.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q1fy27",
    "type": "earnings",
    "date": "2026-07-29",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $874,1M (+28% interanual)",
+   "headline": "Resultados 1T FY27: ventas $874,1M (+28%), centros de datos $348,6M (+90%) con margen bruto del 20,2% (−960 pb); reafirma la guía de FY27",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-29",
+     "EX-99.1 8-K 29-jul-2026: resultados 1T FY27",
      "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d1.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 17,98% y ventas -0,52%; BPA próximo trimestre $1,42",
+     "https://finviz.com/quote.ashx?t=MOD"
     ]
    ],
    "rev_growth_yoy": 0.2801698886936146,
    "rev_growth_yoy_prev": 0.4746600741656366,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": -0.5,
+   "eps_surprise_pct": 18.0,
+   "guide_raise": false,
+   "guide_change_pct": 0.0,
    "gm_change_bp": -340,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas −0,5% y BPA +18,0%. El margen de centros de datos cae 960 pb por la subida de producción. EP: hueco del +8,6% y cierre del +8,9% con volumen 3,2×, ya devuelto.",
    "gap_pct": 8.57,
    "rvol": 3.22,
    "close_in_range": 0.92,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": 8.91
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $40,4M; 7 marcados",
+   "shares": 163256.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Agen Brian Jon (VP, CHRO) $12,1M, máx. 37% en 2026-T2, 1 ventas sin 10b5-1; McGinnis Eric S (President, Commercial HVAC) $11,2M, máx. 58% en 2026-T2, 10 ventas sin 10b5-1; Brinker Neil David (consejero, President and CEO) $5,1M, máx. 12% en 2025-T4; ASHLEMAN ERIC D (consejero) $4,3M, máx. 26% en 2026-T2, 3 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 51983679.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-05-27): $7.390,0M de no afiliados a 2025-09-30 ÷ cierre de $142,16 = 52,0M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -446,22 +515,22 @@
   {
    "date": "2026-10-28",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-29) + 91 días]",
+   "text": "Resultados 2T FY27 (primeros sin Performance Technologies) [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Centros de datos +90% y separación completada; margen a la baja.",
+  "setup": "−52% desde máximos; sin setup.",
+  "catalyst": "1T FY27: ventas −1%, BPA +18%; guía reafirmada.",
+  "quality": "Margen de centros de datos −960 pb.",
+  "supply": "Sin ampliaciones.",
+  "group": "El más barato por PER."
  },
  "snapshot": [
   [
    "Negocio",
-   "Refrigeración de centros de datos + climatización y vehículos"
+   "Refrigeración para centros de datos y climatización comercial; separó Performance Technologies (vehículos e industria) el 1-oct-2026"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +562,46 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Tras la separación del 1-oct, Modine es casi solo centros de datos y climatización: los trimestres históricos (con Performance Technologies) no son comparables con los siguientes.",
+   "Crece mucho en centros de datos pero con el margen cayendo: está comprando volumen."
+  ],
+  "catalyst_read": "El 1T FY27 puntúa {m.cat_q1fy27_score:sc}: +28% con desaceleración {m.accel_pp:pp}, guía solo reafirmada y margen de centros de datos a la baja; EP en el día, ya devuelto.",
+  "financials_note": "Trimestres de XBRL hasta el 1T FY27, con Performance Technologies dentro. Desde el 2T FY27 esa división sale de las cuentas.",
+  "quality": [
+   "Margen bruto de centros de datos del 20,2% (−960 pb).",
+   "FCF negativo en el 1T FY27."
+  ],
+  "supply_read": "Sin ampliaciones. Ventas de directivos $40,4M en 12 meses, varias fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM (con Performance Technologies); PER adelantado ≈ 14 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El más barato del universo por PER y ahora más puro en centros de datos, pero con el margen peor que VRT y NVT.",
+  "risks": [
+   "Margen de centros de datos.",
+   "Transición tras la separación.",
+   "Resultados ≈ 28-oct."
+  ],
+  "plan": [
+   "Resultados del 2T FY27 hacia el 28-oct [VERIFY: fecha no anunciada]: posiblemente ya dentro de la ventana de ≤ 3 sesiones.",
+   "**EP A/B si:** centros de datos ≥ +90% con el margen recuperándose por encima del 22% y guía nueva para la Modine separada.",
+   "**D si:** margen de centros de datos por debajo del 20%.",
+   "Técnica: −52% desde el máximo, −29% bajo la SMA 200; RS en el percentil 0. Sin setup."
+  ],
+  "verdict": "Centros de datos +90% y ahora más puro tras la separación, pero comprando crecimiento con margen y con la acción a la mitad de su máximo."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-29",
+   "EX-99.1 8-K 29-jul-2026: resultados 1T FY27",
    "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d1.htm"
+  ],
+  [
+   "8-K 1-oct-2026: separación de Performance Technologies (fusión con Gentherm)",
+   "https://www.sec.gov/Archives/edgar/data/67347/000110465926112870/tm2626618d1_8k.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 17,98% y ventas -0,52%; BPA próximo trimestre $1,42",
+   "https://finviz.com/quote.ashx?t=MOD"
   ]
  ]
 }

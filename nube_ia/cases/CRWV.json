@@ -12,11 +12,11 @@
   "group": "Alquiler de GPU y centros de datos de IA (CRWV, NBIS, IREN, APLD)",
   "subgroup": "neoclouds",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Alquiler de GPU; deuda alta y concentración en pocos clientes. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Nube especializada en GPU para IA (alquiler de cómputo a laboratorios e hiperescalares), con centros de datos propios y arrendados. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001769628-26-000449",
   "last_filing_seen_date": "2026-10-14",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 61.38999938964844,
@@ -243,32 +243,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Cartera de ingresos",
+    "value": "≈ $104.000M a jun-2026, sin contar > $25.000M de compromisos nuevos de principios del 3T; RPO $103.700M (XBRL)",
+    "prior": "RPO $30.100M (jun-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 11-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Potencia",
+    "value": "1,5 GW activos (+≈ 500 MW en el trimestre) y ≈ 3,7 GW contratados",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 11-ago-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Capex",
+    "value": "$6.422M en el 2T26 y $7.695M en el 1T26 (XBRL)",
+    "prior": "$2.453M (2T25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Resultado",
+    "value": "Pérdida neta de $626M en el 2T26; flujo operativo $679M",
+    "prior": "—",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-08-11",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $2.575,0M (+112% interanual)",
+   "headline": "Resultados 2T26: ingresos $2.575M (+112%); cartera de ingresos ≈ $104.000M (más > $25.000M firmados a principios del 3T); 1,5 GW de potencia activa y 3,7 GW contratados",
    "sources": [
     [
-     "8-K 2026-08-11 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm"
+     "EX-99.1 8-K 11-ago-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 14,52% y ventas 0,80%; BPA próximo trimestre $-1,26",
+     "https://finviz.com/quote.ashx?t=CRWV"
     ]
    ],
    "rev_growth_yoy": 1.1245874587458746,
    "rev_growth_yoy_prev": 1.1160896130346232,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 0.8,
+   "eps_surprise_pct": 14.5,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -831,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +0,8% y BPA +14,5% (pérdida menor de la esperada). La guía se da en la conferencia, no en la nota. EP de verdad: hueco del +20,4% y cierre del +19,3% con volumen 3,0×, ya devuelto (−56% desde el máximo).",
    "gap_pct": 20.35,
    "rvol": 3.01,
    "close_in_range": 0.36,
@@ -279,12 +328,66 @@
    "reaction_close_chg_pct": 19.28
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "conv33",
+   "kind": "convertible",
+   "name": "Convertible 2,875% 2033 ($4.200M, conversión ≈ $97,85)",
+   "shares": 42921480,
+   "capacity_usd": null,
+   "price_basis": 97.85,
+   "gate": "gated",
+   "date": "2033-01-01",
+   "notes": "10,2194 acciones por $1.000 (≈ 42,9M acciones), prima del 22,5% sobre el 17-sep; fuera de dinero a {m.price:px}. Con capped call. [VERIFY: fecha exacta de vencimiento]",
+   "src": [
+    [
+     "8-K 22-sep-2026: convertible 2,875% 2033 de $4.200M",
+     "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm"
+    ]
+   ]
+  },
+  {
+   "id": "atm26",
+   "kind": "atm",
+   "name": "Programa de venta de acciones Clase A con ventas a plazo (sep-2026)",
+   "shares": null,
+   "capacity_usd": 0.0,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-09-17",
+   "notes": "Acuerdo de distribución con varios bancos, incluidas ventas a plazo con collar. [VERIFY: importe máximo del programa y lo vendido; capacidad puesta a 0 hasta confirmarla]",
+   "src": [
+    [
+     "424B5 17-sep-2026: programa de venta de acciones (ATM con ventas a plazo)",
+     "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $5.809,0M; 12 marcados",
+   "shares": 53724470.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Magnetar Financial LLC (≥10%) $2.990,1M, máx. 23% en 2026-T2, 871 ventas sin 10b5-1; Venturo Brian M (consejero, Chief Strategy Offi) $1.019,0M, máx. 95% en 2026-T2; Intrator Michael N (consejero, CEO and President, ) $887,9M, máx. 89% en 2026-T3; McBee Brannin (Chief Development Officer) $629,8M, máx. 90% en 2026-T1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 242855394.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-03-02): $39.600,0M de no afiliados a 2025-06-30 ÷ cierre de $163,06 = 242,9M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -301,12 +404,12 @@
   {
    "ticker": "APLD",
    "name": "Applied Digital",
-   "rev_yoy": null,
+   "rev_yoy": 3.224429782291744,
    "accel_pp": null,
-   "gm": 0.19934161480277762,
-   "gm_rel": -0.2506583851972224,
+   "gm": null,
+   "gm_rel": null,
    "rule40": null,
-   "ev_sales": 4.201902525982629,
+   "ev_sales": null,
    "rs_3m": 0.0
   },
   {
@@ -360,22 +463,22 @@
   {
    "date": "2026-11-10",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-11) + 91 días]",
+   "text": "Resultados 3T26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+112% y cartera de $104.000M, pero insiders vendiendo $5.800M, convertible y ATM.",
+  "setup": "−56% desde máximos; sin setup.",
+  "catalyst": "2T26: ventas +1%, BPA +15%; EP +19% ya devuelto.",
+  "quality": "Pérdidas crecientes; capex enorme.",
+  "supply": "La más pesada: ATM, convertible, insiders.",
+  "group": "El neocloud más grande."
  },
  "snapshot": [
   [
    "Negocio",
-   "Alquiler de GPU; deuda alta y concentración en pocos clientes"
+   "Nube especializada en GPU para IA (alquiler de cómputo a laboratorios e hiperescalares), con centros de datos propios y arrendados"
   ],
   [
    "Subgrupo · pureza",
@@ -407,21 +510,51 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Los insiders han vendido ≈ $5.800M en 12 meses: Magnetar (≥ 10%) $2.990M y los fundadores ≈ $900–1.000M cada uno, hasta el 89–95% de su posición en un trimestre.",
+   "Financia el crecimiento con deuda, convertibles y ahora un ATM: la dilución potencial crece cada trimestre."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +112% sostenido y EP con volumen en agosto, ya devuelto por completo.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión. La deuda del 2T26 no sale de companyfacts con la etiqueta estándar.",
+  "quality": [
+   "Pérdidas netas crecientes ($626M en el 2T26) con capex de $6.000–7.700M por trimestre.",
+   "Flujo operativo positivo por anticipos de clientes."
+  ],
+  "supply_read": "La oferta más pesada del estudio: ventas de insiders de $5.809,0M en 12 meses, convertible de $4.200M y un ATM nuevo. Magnetar sigue con ≈ 14,9% (13G).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; sin PER (pérdidas). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El neocloud más grande: cartera de $104.000M y +112%, pero el más diluido y con más ventas de insiders del universo.",
+  "risks": [
+   "Dilución (ATM, convertibles) y ventas de insiders.",
+   "Deuda y capex.",
+   "Concentración de clientes (Microsoft, OpenAI).",
+   "Resultados ≈ 10-nov."
+  ],
+  "plan": [
+   "Resultados del 3T26 hacia el 10-nov [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ingresos y cartera por encima de lo esperado con margen operativo positivo y sin ventas grandes del ATM en el trimestre.",
+   "**D si:** pérdidas crecientes con más dilución.",
+   "Técnica: −56% desde el máximo, −32% bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Crecimiento real (+112%, cartera de $104.000M) con la peor estructura de oferta del estudio: insiders saliendo, convertibles y un ATM nuevo. Alto riesgo."
  },
  "sources": [
   [
-   "8-K 2026-08-11 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm"
+   "EX-99.1 8-K 11-ago-2026: resultados 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm"
+  ],
+  [
+   "8-K 22-sep-2026: convertible 2,875% 2033 de $4.200M",
+   "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm"
+  ],
+  [
+   "424B5 17-sep-2026: programa de venta de acciones (ATM con ventas a plazo)",
+   "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 14,52% y ventas 0,80%; BPA próximo trimestre $-1,26",
+   "https://finviz.com/quote.ashx?t=CRWV"
   ]
  ]
 }
