@@ -5,7 +5,7 @@
   "issuer": "Rambus",
   "cik": "0000917273",
   "exchange": "Nasdaq",
-  "report_date": "2026-10-18",
+  "report_date": "2026-10-19",
   "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
   "profile": "semis_fabless",
   "theme": "Memoria · ciclo de IA",
@@ -344,12 +344,12 @@
    },
    {
     "name": "Margen bruto de producto",
-    "value": "[VERIFY: 10-Q 2T26; una fuente lo sitúa en el 60% bajo]",
-    "prior": "—",
+    "value": "60,1% en el 2T26 (producto $99,2M menos coste de producto $39,6M, sin amortizaciones)",
+    "prior": "61,7% en el 1T26 · 60,1% en el 2T25",
     "src": [
      [
-      "",
-      ""
+      "10-Q 2T26 (28-jul-2026)",
+      "https://www.sec.gov/Archives/edgar/data/917273/000119312526321000/rmbs-20260630.htm"
      ]
     ]
    }
@@ -376,6 +376,10 @@
     [
      "Hudson Labs: consenso $0,71 y $198,3M; guía 3T frente a $0,78 y $212,97M",
      "https://hudson-labs.com/research/rambus-q2-2026-earnings"
+    ],
+    [
+     "10-Q 2T26 (28-jul-2026)",
+     "https://www.sec.gov/Archives/edgar/data/917273/000119312526321000/rmbs-20260630.htm"
     ]
    ],
    "rev_growth_yoy": 0.2042634240951402,
@@ -386,7 +390,7 @@
    "guide_change_pct": 0.0,
    "gm_change_bp": -5,
    "nonrecurring_in_beat": false,
-   "note": "La guía del 3T queda en el consenso (punto medio $213M frente a $212,97M). El mercado vendió el informe (−9% al cierre); una fuente lo atribuye a la caída del margen bruto de producto hacia el 60% bajo [VERIFY]. Sin partidas no recurrentes en el beat.",
+   "note": "La guía del 3T queda en el consenso (punto medio $213M frente a $212,97M). El mercado vendió el informe (−9% al cierre); una fuente lo atribuye a la caída del margen bruto de producto hacia el 60% bajo, y el 10-Q lo confirma: 60,1% frente al 61,7% del 1T26 (el mismo que hace un año). Sin partidas no recurrentes en el beat.",
    "gap_pct": -5.5,
    "rvol": 1.85,
    "close_in_range": 0.26,
@@ -422,7 +426,7 @@
   "window_days": 56,
   "ep_recent_days": null,
   "atm_used_last_q": false,
-  "float_note": "Portada del 10-K (2026-02-18): $5.200,0M de no afiliados a 2025-06-30 ÷ cierre de $64,02 = 81,2M acciones [VERIFY: estimación; no recoge cambios posteriores]"
+  "float_note": "Portada del 10-K (2026-02-18): $5.200,0M de no afiliados a 2025-06-30 ÷ cierre de $64,02 = 81,2M acciones. Es conservador: hay 108,46M acciones en circulación a 30-jun-2026 (10-Q 2T26) y la portada deja fuera a los tenedores que trata como afiliados"
  },
  "peers": [
   {
@@ -498,11 +502,11 @@
   {
    "date": "2026-10-26",
    "kind": "earnings",
-   "text": "Resultados 3T26 [VERIFY: fecha estimada; el 3T25 se publicó el 27-oct-2025]",
+   "text": "Resultados 3T26 el 26-oct tras el cierre (conferencia a las 14:00 PT)",
    "src": [
     [
-     "8-K 27-oct-2025 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/917273/000119312525251595/rmbs-20251027.htm"
+     "Rambus: resultados del 3T26 el 26-oct-2026 (PR 5-oct-2026)",
+     "https://investingnews.com/rambus-to-announce-third-quarter-fiscal-year-2026-results/"
     ]
    ]
   }
@@ -556,7 +560,7 @@
   "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: beat de ingresos y de BPA con aceleración {m.accel_pp:pp}, pero guía en línea y el mercado lo vendió (−9%).",
   "financials_note": "Trimestres de XBRL; el 2T26 (jun-26) se leyó del XBRL incrustado del 10-Q porque companyfacts aún no lo tenía, y coincide con el EX-99.1. En los 4T no hay acciones diluidas trimestrales en XBRL.",
   "quality": [
-   "**INVENTARIO > VENTAS** activa: inventario +94% interanual frente a ingresos +20%. Puede ser preparación para el 3T (guía de producto +11–17% secuencial) o acumulación [VERIFY: 10-Q].",
+   "**INVENTARIO > VENTAS** activa: inventario +94% interanual frente a ingresos +20%. Puede ser preparación para el 3T (guía de producto +11–17% secuencial) o acumulación. El 10-Q no da el motivo, pero el aumento desde diciembre ($44,1M → $74,8M) está en producto en curso ($17,0M → $33,3M) y materias primas ($17,3M → $27,7M); el producto terminado solo pasa de $9,8M a $13,8M.",
    "SBC ≈ 7% de los ingresos; recompras que lo compensan (ASR de $100M)."
   ],
   "supply_read": "Sin convertibles ni ampliaciones; recompras activas. Insiders: ver la fila de oferta.",
@@ -570,7 +574,7 @@
    "Resultados en ≈ 6 sesiones: solo vale un EP."
   ],
   "plan": [
-   "Resultados del 3T26 hacia el 26-oct [VERIFY]: en la ventana de ≤ 3 sesiones a partir del 21-oct, solo vale un EP.",
+   "Resultados del 3T26 el 26-oct tras el cierre: en la ventana de ≤ 3 sesiones a partir del 21-oct, solo vale un EP.",
    "**EP A/B si:** ingresos ≥ $224M (+5% sobre el consenso de ≈ $213M), producto ≥ $116M (techo de la guía) y guía del 4T ≥ +5% sobre el consenso.",
    "**D si:** ingresos dentro de la guía y margen de producto en el 60% bajo: confirmaría la presión de precios.",
    "Técnica: −50% desde el máximo, bajo la SMA 200; RS 1m en percentil 89 (rebote). Sin setup."
@@ -589,6 +593,14 @@
   [
    "Hudson Labs: consenso $0,71 y $198,3M; guía 3T frente a $0,78 y $212,97M",
    "https://hudson-labs.com/research/rambus-q2-2026-earnings"
+  ],
+  [
+   "10-Q 2T26 (28-jul-2026)",
+   "https://www.sec.gov/Archives/edgar/data/917273/000119312526321000/rmbs-20260630.htm"
+  ],
+  [
+   "Rambus: resultados del 3T26 el 26-oct-2026 (PR 5-oct-2026)",
+   "https://investingnews.com/rambus-to-announce-third-quarter-fiscal-year-2026-results/"
   ]
  ]
 }
