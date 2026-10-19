@@ -5,7 +5,7 @@
   "issuer": "Penguin Solutions",
   "cik": "0001616533",
   "exchange": "Nasdaq",
-  "report_date": "2026-10-18",
+  "report_date": "2026-10-19",
   "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
   "profile": "semis_hardware",
   "theme": "Memoria · ciclo de IA",
@@ -311,7 +311,7 @@
    },
    {
     "name": "Clientes de infraestructura de IA",
-    "value": "6 nuevos en el 4T (4 neoclouds); 17 en FY26. Un neocloud con > $3.000M en contratos firmados y otro con $10.000M de cómputo contratado con un laboratorio de IA (36.000 GPU en Noruega) [VERIFY: lo que corresponde a Penguin no se publica]",
+    "value": "6 nuevos en el 4T (4 neoclouds); 17 en FY26. Un neocloud con > $3.000M en contratos firmados y otro con $10.000M de cómputo contratado con un laboratorio de IA (36.000 GPU en Noruega). Son contratos de los clientes: la parte de Penguin no se publica en el EX-99.1",
     "prior": "—",
     "src": [
      [
@@ -344,7 +344,7 @@
    },
    {
     "name": "Suministro",
-    "value": "Nuevo acuerdo con un fabricante de memoria líder y un proveedor adicional de infraestructura de IA [VERIFY: nombres]",
+    "value": "Nuevo acuerdo con un fabricante de memoria líder y un proveedor adicional de infraestructura de IA (el EX-99.1 no da los nombres)",
     "prior": "—",
     "src": [
      [
@@ -376,6 +376,10 @@
     [
      "Earnings Whispers: consenso $0,75 y $512,5M",
      "https://earningswhispers.com/epsdetails/PENG"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA/ventas y fecha de resultados",
+     "https://finviz.com/quote.ashx?t=PENG"
     ]
    ],
    "rev_growth_yoy": 0.6769698332751346,
@@ -386,7 +390,7 @@
    "guide_change_pct": 10.0,
    "gm_change_bp": -111,
    "nonrecurring_in_beat": false,
-   "note": "Se usa el consenso de TIKR (el más alto); con Earnings Whispers ($512,5M y $0,75) la sorpresa sería mayor [VERIFY]. La guía de FY27 sube desde la preliminar de $2.170M a $2.430M ± 10 pp. El BPA GAAP ($1,29) incluye un beneficio fiscal de $57,6M y un gasto de $33,2M por la conversión anticipada de los bonos 2029/2030: el beat se mide con el ajustado.",
+   "note": "Se usa el consenso de TIKR (el más alto), que coincide con la sorpresa de finviz (+8,8% y +29,6%); con Earnings Whispers ($512,5M y $0,75) la sorpresa sería mayor. La guía de FY27 sube desde la preliminar de $2.170M a $2.430M ± 10 pp. El BPA GAAP ($1,29) incluye un beneficio fiscal de $57,6M y un gasto de $33,2M por la conversión anticipada de los bonos 2029/2030: el beat se mide con el ajustado.",
    "gap_pct": 4.86,
    "rvol": 10.62,
    "close_in_range": 0.66,
@@ -424,11 +428,19 @@
    "price_basis": 32.81,
    "gate": "live",
    "date": null,
-   "notes": "6,10M acciones (10,3%) en manos de Astra AI Infra LLC (SK Telecom), muy en dinero. SK Telecom es del mismo grupo que SK hynix (SKHY, en este universo). [VERIFY: restricciones de venta y derechos de conversión en el certificado de designación]",
+   "notes": "6,10M acciones (10,3%) en manos de Astra AI Infra LLC (SK Telecom), muy en dinero. SK Telecom es del mismo grupo que SK hynix (SKHY, en este universo). Certificado de designación: dividendo acumulativo del 6% (se paga en efectivo, $3,0M por trimestre), conversión en cualquier momento a $32,81 y amortizable por la compañía desde el 13-dic-2029. Acuerdo de inversión: la prohibición general de vender venció el 13-dic-2025; hasta el 13-dic-2026 no puede vender más de un 5% a competidores ni a activistas.",
    "src": [
     [
      "Schedule 13D/A de SK Telecom, 28-jul-2026",
      "https://www.sec.gov/Archives/edgar/data/1616533/000119312526318891/xslSCHEDULE_13D_X02/primary_doc.xml"
+    ],
+    [
+     "8-K12B 30-jun-2025: certificado de designación de las preferentes",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000119312525152807/d936172d8k12b.htm"
+    ],
+    [
+     "8-K 16-jul-2024: acuerdo de inversión con SK Telecom",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000119312524179141/d871198d8k.htm"
     ]
    ]
   },
@@ -441,11 +453,15 @@
    "price_basis": null,
    "gate": "live",
    "date": null,
-   "notes": "El 10-Q del 3T FY26 recoge $148,4M (2029) y $194,8M (2030), los 2029 convertibles por precio; en el 4T se recompraron $135,5M de los 2029 y se indujo la conversión de parte de ambos [VERIFY: saldo y acciones entregadas en el 10-K FY26].",
+   "notes": "El 10-Q del 3T FY26 recoge $148,4M (2029) y $194,8M (2030). El 17-jul se canjearon $135,5M de los 2029 por $136,7M en efectivo y ≈ 4,7M acciones, y $160,0M de los 2030 por $161,4M y ≈ 4,0M acciones: quedan como mucho $12,9M y $34,8M [VERIFY: saldo final en el 10-K FY26, plazo ≈ 27-oct].",
    "src": [
     [
      "10-Q 3T FY26",
      "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000043/peng-20260529.htm"
+    ],
+    [
+     "8-K 17-jul-2026: canje de los convertibles 2029 y 2030",
+     "https://www.sec.gov/Archives/edgar/data/1616533/000119312526307989/d103073d8k.htm"
     ]
    ]
   },
@@ -473,7 +489,7 @@
   "window_days": 56,
   "ep_recent_days": null,
   "atm_used_last_q": false,
-  "float_note": "Portada del 10-K (2025-10-21): $1.050,0M de no afiliados a 2025-02-28 ÷ cierre de $19,93 = 52,7M acciones [VERIFY: estimación; no recoge cambios posteriores]"
+  "float_note": "Portada del 10-K (2025-10-21): $1.050,0M de no afiliados a 2025-02-28 ÷ cierre de $19,93 = 52,7M acciones [VERIFY: estimación del 10-K FY25; no recoge las ≈ 8,7M acciones del canje de julio; la portada del 10-K FY26, plazo ≈ 27-oct, lo actualizará]"
  },
  "peers": [
   {
@@ -549,7 +565,7 @@
   {
    "date": "2027-01-05",
    "kind": "earnings",
-   "text": "Resultados 1T FY27 [VERIFY: fecha estimada; el 1T FY26 se publicó el 6-ene-2026]",
+   "text": "Resultados 1T FY27 [VERIFY: fecha no anunciada; el 1T FY26 se publicó el 6-ene-2026]",
    "src": [
     [
      "8-K 6-ene-2026 (Item 2.02)",
@@ -609,10 +625,11 @@
   "financials_note": "Trimestres de XBRL hasta el 3T FY26; el **4T FY26 (ago-26) se cargó a mano** del EX-99.1 del 6-oct porque el 10-K aún no está presentado. Deuda del 4T = corriente + largo plazo. El neto del 4T incluye un beneficio fiscal de $57,6M y un gasto de inducción de $33,2M.",
   "quality": [
    "Seis banderas: COBROS > VENTAS, BENEFICIO SIN CAJA, ACCRUALS ALTOS, INVENTARIO > VENTAS, DILUCIÓN y RUNWAY CORTO. El crecimiento se financia con capital circulante: inventario +193% y cobros +159% frente a ventas +68%; CFO negativo en FY26.",
+   "El neto del 4T ($95,0M) no sale del negocio: beneficio antes de impuestos de $37,4M más un beneficio fiscal de $57,6M. El ajustado es $71,4M.",
    "La DILUCIÓN viene de las acciones de los convertibles en las diluidas; el RUNWAY CORTO no tiene en cuenta los $735M netos de los bonos 2031, ya en la caja de agosto.",
    "Margen bruto del 27,5% (integrador): el más bajo del universo con diferencia."
   ],
-  "supply_read": "Mucho papel potencial: preferentes de SK Telecom (6,1M acciones, 10,3%, en dinero), convertibles 2031 (6,4M acciones a $116,70, fuera de dinero) y restos de los 2029/2030. Insiders: ver la fila de oferta.",
+  "supply_read": "Mucho papel potencial: preferentes de SK Telecom (6,1M acciones, 10,3%, en dinero), convertibles 2031 (6,4M acciones a $116,70, fuera de dinero) y restos de los 2029/2030 (como mucho $47,7M tras el canje de julio, que entregó ≈ 8,7M acciones). Insiders: ver la fila de oferta.",
   "valuation": [
    "EV/ventas {m.ev_sales:x1} TTM: el más barato del universo, coherente con un margen bruto del 28%. DCF inverso: {m.implied_g:pctf} anual."
   ],
@@ -623,7 +640,7 @@
    "Oferta: preferentes de SK Telecom en dinero y convertibles."
   ],
   "plan": [
-   "Resultados del 1T FY27 hacia el 5-ene [VERIFY].",
+   "Resultados del 1T FY27 hacia el 5-ene [VERIFY: fecha no anunciada].",
    "Sin setup: tras el +13% del 7-oct no hay base. Vigilar un retroceso a la EMA 10/20 en tendencia (ema_crossback) con el stop bajo el mínimo del día del EP.",
    "**D si:** el 1T FY27 vuelve a dar CFO negativo con inventario creciendo más que las ventas."
   ],
@@ -649,6 +666,14 @@
   [
    "Schedule 13D/A de SK Telecom, 28-jul-2026",
    "https://www.sec.gov/Archives/edgar/data/1616533/000119312526318891/xslSCHEDULE_13D_X02/primary_doc.xml"
+  ],
+  [
+   "8-K 17-jul-2026: canje de los convertibles 2029 y 2030",
+   "https://www.sec.gov/Archives/edgar/data/1616533/000119312526307989/d103073d8k.htm"
+  ],
+  [
+   "8-K12B 30-jun-2025: certificado de designación de las preferentes",
+   "https://www.sec.gov/Archives/edgar/data/1616533/000119312525152807/d936172d8k12b.htm"
   ]
  ]
 }
