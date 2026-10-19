@@ -37,7 +37,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "mayo",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "OCI (nube de IA) + licencias; −60% desde máximos con deuda y capex altos: vigilar FCF"
   },
   {
@@ -49,7 +49,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "CRM por usuario; Agentforce como apuesta de IA"
   },
   {
@@ -73,7 +73,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "noviembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Creatividad y documentos; riesgo de sustitución por IA generativa"
   },
   {
@@ -85,7 +85,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "julio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Impuestos y contabilidad (TurboTax, QuickBooks); estacional"
   },
   {
@@ -97,7 +97,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "RR. HH. y finanzas por empleado"
   },
   {
@@ -109,7 +109,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Datos en la nube por consumo"
   },
   {
@@ -133,7 +133,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Base de datos (Atlas por consumo)"
   },
   {
@@ -157,7 +157,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "enero",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Seguridad de endpoints y nube"
   },
   {
@@ -169,7 +169,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "julio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Seguridad de red en la nube (zero trust)"
   },
   {
@@ -181,7 +181,7 @@
    "profile": "saas",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "julio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Plataforma de seguridad; hardware + suscripciones"
   },
   {

@@ -12,11 +12,11 @@
   "group": "Aplicaciones con licencia por usuario (CRM, NOW, ADBE, INTU, WDAY)",
   "subgroup": "aplicaciones_usuario",
   "synthetic": false,
-  "primary_catalyst": "q_202608",
-  "descriptor": "Creatividad y documentos; riesgo de sustitución por IA generativa. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q3fy26",
+  "descriptor": "Software creativo (Creative Cloud), de documentos (Acrobat) y de marketing (Experience Cloud) por suscripción, con IA generativa (Firefly). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0000796343-26-000156",
   "last_filing_seen_date": "2026-09-22",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 245.1999969482422,
@@ -285,32 +285,85 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "ARR y RPO",
+    "value": "ARR $27.500M; RPO $22.160M (67% en 12 meses)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 10-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Suscripción por grupo",
+    "value": "Total $6.560M (+14%): profesionales y consumo $1.910M (+16%), creativos y marketing $4.650M (+13%)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 10-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Recompras",
+    "value": "≈ 9,5M acciones en el trimestre",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 10-sep-2026: resultados 3T FY26",
+      "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen operativo GAAP",
+    "value": "35% en el 3T FY26 ($2.354M sobre $6.760M)",
+    "prior": "36% en el 3T FY25",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 3T FY26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202608",
+   "id": "q3fy26",
    "type": "earnings",
    "date": "2026-09-10",
    "time_et": "after-hours",
-   "headline": "Resultados ago-26: ingresos $6.760,0M (+13% interanual)",
+   "headline": "Resultados 3T FY26: ingresos $6.760M (+13%); ARR total $27.500M; ARR de productos de IA +150%; 1.000M de usuarios activos al mes; sube los objetivos anuales",
    "sources": [
     [
-     "EX-99.1 8-K 2026-09-10",
+     "EX-99.1 8-K 10-sep-2026: resultados 3T FY26",
      "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"
+    ],
+    [
+     "8-K 8-sep-2026: relevo del consejero delegado",
+     "https://www.sec.gov/Archives/edgar/data/796343/000079634326000144/adbe-20260902.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 0,90% y ventas 0,99%; BPA próximo trimestre $6,33",
+     "https://finviz.com/quote.ashx?t=ADBE"
     ]
    ],
    "rev_growth_yoy": 0.12892451569806274,
    "rev_growth_yoy_prev": 0.12685169419376807,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 1.0,
+   "eps_surprise_pct": 0.9,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": -57,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +1,0% y BPA +0,9% (en línea). Sube los objetivos anuales de ingresos y BPA sin cifra comparada en la nota. Relevo del consejero delegado (Narayen). Reacción plana: −2,7% en la apertura y +1,4% al cierre.",
    "gap_pct": -2.68,
    "rvol": 2.11,
    "close_in_range": 0.78,
@@ -321,12 +374,32 @@
    "reaction_close_chg_pct": 1.37
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $50,8M; 3 marcados",
+   "shares": 204302.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "NARAYEN SHANTANU (consejero, Chair and CEO) $49,6M, máx. 34% en 2026-T3, 15 ventas sin 10b5-1; Durn Daniel (EVP & CFO) $0,8M, máx. 4% en 2026-T1, 2 ventas sin 10b5-1; Forusz Jillian (SVP & CAO) $0,3M, máx. 18% en 2026-T2, 3 ventas sin 10b5-1. Compras en mercado abierto: 10.000 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 349177290.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-01-15): $144.940,0M de no afiliados a 2025-05-30 ÷ cierre de $415,09 = 349,2M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -523,22 +596,22 @@
   {
    "date": "2026-12-10",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-09-10) + 91 días]",
+   "text": "Resultados 4T FY26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+13% estable, margen 35% y PER ≈ 9; relevo del consejero delegado.",
+  "setup": "−33% desde máximos; sin setup.",
+  "catalyst": "3T FY26: en línea; objetivos subidos.",
+  "quality": "Margen 35%.",
+  "supply": "Recompras.",
+  "group": "El más barato del software."
  },
  "snapshot": [
   [
    "Negocio",
-   "Creatividad y documentos; riesgo de sustitución por IA generativa"
+   "Software creativo (Creative Cloud), de documentos (Acrobat) y de marketing (Experience Cloud) por suscripción, con IA generativa (Firefly)"
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +643,46 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Relevo del consejero delegado tras casi 20 años (Narayen): el mercado espera la estrategia del nuevo.",
+   "PER adelantado ≈ 9: el mercado descuenta que la IA generativa sustituye parte de su negocio."
+  ],
+  "catalyst_read": "El 3T FY26 puntúa {m.cat_q3fy26_score:sc}: +13% estable, en línea con el consenso, objetivos subidos y reacción plana.",
+  "financials_note": "Trimestres de XBRL hasta el 3T FY26.",
+  "quality": [
+   "Margen operativo GAAP del 35% y FCF alto.",
+   "Fondo de comercio e intangibles = 127% del patrimonio por las recompras (patrimonio bajo)."
+  ],
+  "supply_read": "Sin dilución: recompras fuertes. Ventas del consejero delegado saliente $50,8M en 12 meses, varias fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 9 (finviz), el más barato del software. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El más barato del software por PER con márgenes de primera: el caso opuesto a PLTR.",
+  "risks": [
+   "Sustitución por IA generativa.",
+   "Relevo en la dirección.",
+   "Resultados ≈ 10-dic."
+  ],
+  "plan": [
+   "Resultados del 4T FY26 hacia el 10-dic [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ARR de IA acelerando y guía de FY27 por encima del +10% con el nuevo consejero delegado.",
+   "**D si:** guía de FY27 por debajo del +10%.",
+   "Técnica: −33% desde el máximo, bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Márgenes y caja de primera a PER ≈ 9, con un relevo en la dirección y el mercado temiendo la sustitución por IA. Caso de valor, no de momentum."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-09-10",
+   "EX-99.1 8-K 10-sep-2026: resultados 3T FY26",
    "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"
+  ],
+  [
+   "8-K 8-sep-2026: relevo del consejero delegado",
+   "https://www.sec.gov/Archives/edgar/data/796343/000079634326000144/adbe-20260902.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 0,90% y ventas 0,99%; BPA próximo trimestre $6,33",
+   "https://finviz.com/quote.ashx?t=ADBE"
   ]
  ]
 }

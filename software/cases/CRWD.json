@@ -12,11 +12,11 @@
   "group": "Ciberseguridad (CRWD, ZS, PANW, FTNT)",
   "subgroup": "seguridad",
   "synthetic": false,
-  "primary_catalyst": "q_202607",
-  "descriptor": "Seguridad de endpoints y nube. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2fy27",
+  "descriptor": "Plataforma de seguridad de endpoints, nube e identidad por suscripción (Falcon), con modelo de consumo Falcon Flex. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001968582-26-001060",
   "last_filing_seen_date": "2026-10-16",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 227.38999938964844,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "ARR",
+    "value": "$5.840M (+25%); nuevo neto $333M (+51%); Falcon Flex $2.290M (+101%)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 26-ago-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Módulos",
+    "value": "51% / 35% / 26% de clientes con 6+ / 7+ / 8+ módulos",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 26-ago-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen de suscripción",
+    "value": "GAAP 78%; ajustado 81%",
+    "prior": "77% / 80%",
+    "src": [
+     [
+      "EX-99.1 8-K 26-ago-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "FCF",
+    "value": "$377,4M (récord del 2T)",
+    "prior": "$283,6M",
+    "src": [
+     [
+      "EX-99.1 8-K 26-ago-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202607",
+   "id": "q2fy27",
    "type": "earnings",
    "date": "2026-08-26",
    "time_et": "after-hours",
-   "headline": "Resultados jul-26: ingresos $1.470,9M (+26% interanual)",
+   "headline": "Resultados 2T FY27: ingresos $1.471M (+26%); ARR nuevo neto récord de $333M (+51%); ARR $5.840M (+25%); sube la guía de ARR nuevo neto de FY27 en 630 pb, al +34%",
    "sources": [
     [
-     "EX-99.1 8-K 2026-08-26",
+     "EX-99.1 8-K 26-ago-2026: resultados 2T FY27",
      "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 6,31% y ventas 2,14%; BPA próximo trimestre $0,31",
+     "https://finviz.com/quote.ashx?t=CRWD"
     ]
    ],
    "rev_growth_yoy": 0.2583040193267132,
    "rev_growth_yoy_prev": 0.25574252741894843,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 2.1,
+   "eps_surprise_pct": 6.3,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": 97,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +2,1% y BPA +6,3%. EP de verdad: hueco del +10,1% y cierre del +20,5% con volumen 2,5×.",
    "gap_pct": 10.08,
    "rvol": 2.54,
    "close_in_range": 0.95,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": 20.5
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $757,6M; 9 marcados",
+   "shares": 2494359.515,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Kurtz George (consejero, PRESIDENT AND CEO) $317,7M, máx. 8% en 2026-T3, 58 ventas sin 10b5-1; Podbere Burt W. (CHIEF FINANCIAL OFFICER) $158,4M, máx. 28% en 2026-T3, 47 ventas sin 10b5-1; Sentonas Michael (PRESIDENT) $127,0M, máx. 19% en 2026-T3, 6 ventas sin 10b5-1; Watzinger Gerhard (consejero) $35,6M, máx. 39% en 2026-T3, 2 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 961788048.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-03-05): $109.300,0M de no afiliados a 2025-07-31 ÷ cierre de $113,64 = 961,8M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -523,22 +592,22 @@
   {
    "date": "2026-11-25",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-08-26) + 91 días]",
+   "text": "Resultados 3T FY27 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "ARR nuevo +51%, guía subida y EP del +20%; PER ≈ 142.",
+  "setup": "En tendencia; −21% desde máximos.",
+  "catalyst": "2T FY27: ventas +2%, BPA +6%; EP +20%.",
+  "quality": "SBC 26%; FCF alto.",
+  "supply": "Ventas del fundador fuera de plan.",
+  "group": "Líder de seguridad."
  },
  "snapshot": [
   [
    "Negocio",
-   "Seguridad de endpoints y nube"
+   "Plataforma de seguridad de endpoints, nube e identidad por suscripción (Falcon), con modelo de consumo Falcon Flex"
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +639,42 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El fundador (Kurtz) ha vendido $318M en 12 meses con decenas de ventas fuera de planes 10b5-1; el CFO, $158M.",
+   "PER adelantado ≈ 142: el más caro de seguridad."
+  ],
+  "catalyst_read": "El 2T FY27 puntúa {m.cat_q2fy27_score:sc}: +26% estable, ARR nuevo neto +51% y guía subida, con EP del +20%.",
+  "financials_note": "Trimestres de XBRL hasta el 2T FY27; regenerados el 19-oct con el 4T derivado de la misma versión.",
+  "quality": [
+   "Pérdida GAAP pequeña por la SBC ($377M, el 26% de los ingresos).",
+   "FCF muy por encima del beneficio por la SBC."
+  ],
+  "supply_read": "Sin ampliaciones; shelf automático desde septiembre. Ventas de directivos $757,6M en 12 meses, con muchas fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 142 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El líder de seguridad por ARR nuevo (+51%) y con EP reciente; más caro que PANW y ZS.",
+  "risks": [
+   "Valoración.",
+   "Ventas del fundador fuera de plan.",
+   "Resultados ≈ 1-dic."
+  ],
+  "plan": [
+   "Resultados del 3T FY27 hacia el 1-dic [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ARR nuevo neto por encima de $333M (récord) y otra subida de la guía.",
+   "**D si:** ARR nuevo neto desacelerando.",
+   "Técnica: en tendencia (EMA alineadas), +42% sobre la SMA 200 y −21% desde el máximo."
+  ],
+  "verdict": "El líder de seguridad acelerando el ARR nuevo (+51%) con EP en agosto y en tendencia, pero con la valoración más alta y el fundador vendiendo fuera de plan."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-08-26",
+   "EX-99.1 8-K 26-ago-2026: resultados 2T FY27",
    "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 6,31% y ventas 2,14%; BPA próximo trimestre $0,31",
+   "https://finviz.com/quote.ashx?t=CRWD"
   ]
  ]
 }

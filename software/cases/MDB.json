@@ -12,11 +12,11 @@
   "group": "Datos, observabilidad y red con cobro por consumo (SNOW, DDOG, MDB, NET)",
   "subgroup": "datos_consumo",
   "synthetic": false,
-  "primary_catalyst": "q_202607",
-  "descriptor": "Base de datos (Atlas por consumo). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2fy27",
+  "descriptor": "Base de datos documental (Atlas en la nube por consumo y Enterprise Advanced en local) con funciones de IA (Voyage AI). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001628280-26-065999",
   "last_filing_seen_date": "2026-10-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 337.57000732421875,
@@ -285,32 +285,85 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Cartera",
+    "value": "RPO $1.519M (+91%); cRPO $797M (+73%)",
+    "prior": "RPO $794M (jul-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 1-sep-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-073126xex991xrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen",
+    "value": "Operativo ajustado 24% (15% un año antes); GAAP positivo ($28M)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 1-sep-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-073126xex991xrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Dirección",
+    "value": "Sale el consejero delegado CJ Desai (24-sep-2026); Dev Ittycheria, consejero delegado interino",
+    "prior": "—",
+    "src": [
+     [
+      "8-K 24-sep-2026: salida del consejero delegado (CJ Desai)",
+      "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm"
+     ]
+    ]
+   },
+   {
+    "name": "FCF",
+    "value": "$137,6M (casi el doble)",
+    "prior": "$69,9M",
+    "src": [
+     [
+      "EX-99.1 8-K 1-sep-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-073126xex991xrelease.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202607",
+   "id": "q2fy27",
    "type": "earnings",
    "date": "2026-09-01",
    "time_et": "after-hours",
-   "headline": "Resultados jul-26: ingresos $771,8M (+30% interanual)",
+   "headline": "Resultados 2T FY27: ingresos $771,7M (+30%, el mayor en años), Atlas +29%; RPO $1.519M (+91%), cRPO $797M (+73%); sube la guía FY27; FCF $137,6M",
    "sources": [
     [
-     "EX-99.1 8-K 2026-09-01",
+     "EX-99.1 8-K 1-sep-2026: resultados 2T FY27",
      "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-073126xex991xrelease.htm"
+    ],
+    [
+     "8-K 24-sep-2026: salida del consejero delegado (CJ Desai)",
+     "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 17,62% y ventas 5,00%; BPA próximo trimestre $1,61",
+     "https://finviz.com/quote.ashx?t=MDB"
     ]
    ],
    "rev_growth_yoy": 0.30498882316935005,
    "rev_growth_yoy_prev": 0.25245622151711977,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 5.0,
+   "eps_surprise_pct": 17.6,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": 281,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +5,0% y BPA +17,6%. Pese al beat y la subida de guía, el mercado lo vendió: −12,7% en la apertura y −13,5% al cierre con volumen 4,9×. El 24-sep salió el consejero delegado (CJ Desai); Dev Ittycheria vuelve como interino.",
    "gap_pct": -12.66,
    "rvol": 4.88,
    "close_in_range": 0.16,
@@ -321,12 +374,32 @@
    "reaction_close_chg_pct": -13.54
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $115,7M; 5 marcados",
+   "shares": 313459.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "BOTHA ROELOF (consejero) $27,6M, máx. 23% en 2026-T2, 16 ventas sin 10b5-1; Ittycheria Dev (consejero, Interim President a) $15,3M, máx. 20% en 2026-T2, 8 ventas sin 10b5-1; BERRY MICHAEL J (Chief Financial Officer) $3,5M, máx. 10% en 2026-T2; Cochran Hope F (consejero) $3,1M, máx. 12% en 2026-T2. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 80289210.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-03-11): $19.100,0M de no afiliados a 2025-07-31 ÷ cierre de $237,89 = 80,3M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -523,22 +596,22 @@
   {
    "date": "2026-12-01",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-09-01) + 91 días]",
+   "text": "Resultados 3T FY27 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+30%, cartera +91% y guía subida, pero −13,5% tras resultados y sin consejero delegado.",
+  "setup": "Líder enfriado; −29% desde máximos.",
+  "catalyst": "2T FY27: ventas +5%, BPA +18%; −13,5% al cierre.",
+  "quality": "Rentable en GAAP.",
+  "supply": "Sin ampliaciones.",
+  "group": "Líder enfriado del consumo."
  },
  "snapshot": [
   [
    "Negocio",
-   "Base de datos (Atlas por consumo)"
+   "Base de datos documental (Atlas en la nube por consumo y Enterprise Advanced en local) con funciones de IA (Voyage AI)"
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +643,46 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Salida del consejero delegado tres semanas después de subir la guía: incertidumbre de dirección.",
+   "Caída del −13,5% con beat y guía subida: el mercado no se fía del ritmo de Atlas."
+  ],
+  "catalyst_read": "El 2T FY27 puntúa {m.cat_q2fy27_score:sc}: +30% con aceleración {m.accel_pp:pp}, beat amplio y guía subida, pero EP a la baja (−13,5%) y salida del consejero delegado.",
+  "financials_note": "Trimestres de XBRL hasta el 2T FY27.",
+  "quality": [
+   "Rentable en GAAP por primera vez de forma sostenida.",
+   "SBC del 19% de los ingresos."
+  ],
+  "supply_read": "Sin ampliaciones. Ventas de consejeros $115,7M en 12 meses, varias fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 43 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "«Líder enfriado» del consumo: crece +30% con la cartera disparando, pero castigado por la dirección.",
+  "risks": [
+   "Relevo del consejero delegado.",
+   "Ritmo de Atlas.",
+   "Resultados ≈ 1-dic."
+  ],
+  "plan": [
+   "Resultados del 3T FY27 hacia el 1-dic [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** Atlas acelerando sobre el +29%, nueva subida de guía y un consejero delegado definitivo.",
+   "**D si:** guía mantenida con dirección interina.",
+   "Técnica: líder enfriado (−29% desde el máximo, en la SMA 200). Sin setup."
+  ],
+  "verdict": "Fundamentales acelerando (+30%, cartera +91%) castigados por el mercado y por la salida del consejero delegado. Candidato a EP si la dirección se aclara."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-09-01",
+   "EX-99.1 8-K 1-sep-2026: resultados 2T FY27",
    "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-073126xex991xrelease.htm"
+  ],
+  [
+   "8-K 24-sep-2026: salida del consejero delegado (CJ Desai)",
+   "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 17,62% y ventas 5,00%; BPA próximo trimestre $1,61",
+   "https://finviz.com/quote.ashx?t=MDB"
   ]
  ]
 }

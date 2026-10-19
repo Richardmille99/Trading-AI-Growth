@@ -12,11 +12,11 @@
   "group": "Datos, observabilidad y red con cobro por consumo (SNOW, DDOG, MDB, NET)",
   "subgroup": "datos_consumo",
   "synthetic": false,
-  "primary_catalyst": "q_202607",
-  "descriptor": "Datos en la nube por consumo. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2fy27",
+  "descriptor": "Plataforma de datos en la nube con cobro por consumo, con productos de IA (Cortex, CoCo). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001821737-26-000016",
   "last_filing_seen_date": "2026-10-08",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 306.8399963378906,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Retención y clientes",
+    "value": "Retención neta 126%; 828 clientes con > $1M de producto en 12 meses (+27%)",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 2-sep-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía",
+    "value": "3T FY27 producto $1.588–1.593M (+37–38%) y margen operativo ajustado 15,5%; FY27 producto +36%",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 2-sep-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm"
+     ]
+    ]
+   },
+   {
+    "name": "RPO",
+    "value": "$9.000M (+30%)",
+    "prior": "$6.900M (jul-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 2-sep-2026: resultados 2T FY27",
+      "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen operativo GAAP",
+    "value": "−17% en el 2T FY27 (SBC $424M, el 27% de los ingresos)",
+    "prior": "−30% en el 2T FY26",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T FY27)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202607",
+   "id": "q2fy27",
    "type": "earnings",
    "date": "2026-09-02",
    "time_et": "after-hours",
-   "headline": "Resultados jul-26: ingresos $1.546,8M (+35% interanual)",
+   "headline": "Resultados 2T FY27: ingresos $1.547M (+35%), producto $1.490M (+37%); retención neta 126%; sube la guía FY27 de producto al +36%; 3T de producto $1.588–1.593M (+37–38%)",
    "sources": [
     [
-     "8-K 2026-09-02 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/snow-20260902.htm"
+     "EX-99.1 8-K 2-sep-2026: resultados 2T FY27",
+     "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 38,76% y ventas 4,29%; BPA próximo trimestre $0,60",
+     "https://finviz.com/quote.ashx?t=SNOW"
     ]
    ],
    "rev_growth_yoy": 0.3509474929015546,
    "rev_growth_yoy_prev": 0.3347910033260595,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 4.3,
+   "eps_surprise_pct": 38.8,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": -50,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +4,3% y BPA +38,8%. EP de verdad: hueco del +23,4% y cierre del +16,6% con volumen 4,2×.",
    "gap_pct": 23.35,
    "rvol": 4.2,
    "close_in_range": 0.03,
@@ -321,12 +370,49 @@
    "reaction_close_chg_pct": 16.55
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "conv2931",
+   "kind": "convertible",
+   "name": "Convertibles 0% 2029 ($2.000M, $500,38) y 2031 ($1.750M, $483,98)",
+   "shares": 7612850,
+   "capacity_usd": null,
+   "price_basis": 483.98,
+   "gate": "gated",
+   "date": "2029-01-01",
+   "notes": "≈ 4,00M + 3,62M acciones; fuera de dinero a {m.price:px}. [VERIFY: vencimientos exactos y capped call en el 8-K]",
+   "src": [
+    [
+     "8-K 28-sep-2026: convertibles 0% 2029 y 2031 ($3.750M)",
+     "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $1.210,9M; 8 marcados",
+   "shares": 4717940.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Slootman Frank (consejero) $761,3M, máx. 86% en 2026-T2; Dageville Benoit (consejero) $186,7M, máx. 11% en 2026-T3; Kleinerman Christian (EVP, Product Management) $61,5M, máx. 14% en 2026-T3; GARRETT MARK (consejero) $42,5M, máx. 44% en 2026-T2, 2 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 328859060.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-03-20): $73.500,0M de no afiliados a 2025-07-31 ÷ cierre de $223,50 = 328,9M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -523,22 +609,22 @@
   {
    "date": "2026-12-02",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-09-02) + 91 días]",
+   "text": "Resultados 3T FY27 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
    "src": []
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Producto +37%, EP en septiembre y guía subida; SBC 27% y convertibles.",
+  "setup": "Sobre la SMA 200; −20% desde máximos.",
+  "catalyst": "2T FY27: ventas +4%, BPA +39%; EP +17%.",
+  "quality": "SBC 27%; pérdida GAAP.",
+  "supply": "Convertibles $3.750M; Slootman vende.",
+  "group": "Consumo que más acelera."
  },
  "snapshot": [
   [
    "Negocio",
-   "Datos en la nube por consumo"
+   "Plataforma de datos en la nube con cobro por consumo, con productos de IA (Cortex, CoCo)"
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +656,46 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El exconsejero delegado (Slootman, consejero) ha vendido $761M en 12 meses, hasta un 86% de su posición en un trimestre (en plan 10b5-1).",
+   "Pérdida GAAP por la SBC (27% de los ingresos): rentable solo en cifras ajustadas."
+  ],
+  "catalyst_read": "El 2T FY27 puntúa {m.cat_q2fy27_score:sc}: +35% con aceleración {m.accel_pp:pp}, beat amplio, guía subida y EP con volumen 4,2×.",
+  "financials_note": "Trimestres de XBRL hasta el 2T FY27; regenerados el 19-oct con el 4T derivado de la misma versión. Los convertibles de septiembre son posteriores al último balance.",
+  "quality": [
+   "SBC del 27% de los ingresos.",
+   "Fondo de comercio e intangibles = 96% del patrimonio (patrimonio bajo por recompras)."
+  ],
+  "supply_read": "Convertibles de $3.750M en septiembre (≈ 7,6M acciones, fuera de dinero). Ventas de insiders $1.210,9M en 12 meses, encabezadas por Slootman.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 101 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El modelo por consumo acelerando más que DDOG y MDB (+37% en producto) con EP reciente; más caro y con más SBC.",
+  "risks": [
+   "SBC y valoración.",
+   "Ventas de Slootman.",
+   "Resultados ≈ 2-dic."
+  ],
+  "plan": [
+   "Resultados del 3T FY27 hacia el 2-dic [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** producto ≥ $1.620M (≈ +2% sobre el techo de la guía) y guía FY27 por encima del +36%.",
+   "**D si:** retención neta por debajo del 125%.",
+   "Técnica: sobre la SMA 200 (+31%), bajo las EMA cortas; −20% desde el máximo."
+  ],
+  "verdict": "El modelo por consumo acelerando (+37%) con EP en septiembre y guía subida, pero con SBC muy alta, convertibles nuevos y Slootman vendiendo."
  },
  "sources": [
   [
-   "8-K 2026-09-02 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/snow-20260902.htm"
+   "EX-99.1 8-K 2-sep-2026: resultados 2T FY27",
+   "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm"
+  ],
+  [
+   "8-K 28-sep-2026: convertibles 0% 2029 y 2031 ($3.750M)",
+   "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 38,76% y ventas 4,29%; BPA próximo trimestre $0,60",
+   "https://finviz.com/quote.ashx?t=SNOW"
   ]
  ]
 }
