@@ -5,7 +5,7 @@
   "issuer": "SK hynix",
   "cik": "0002120882",
   "exchange": "Nasdaq (ADR)",
-  "report_date": "2026-10-18",
+  "report_date": "2026-10-19",
   "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
   "profile": "semis_memory",
   "theme": "Memoria · ciclo de IA",
@@ -193,13 +193,17 @@
     ]
    },
    {
-    "name": "Cuota de mercado (1T26, IDC)",
-    "value": "HBM 56,4% · DRAM 29,1% · NAND 18,5% [VERIFY: % de HBM sobre ingresos no publicado]",
+    "name": "Cuota de mercado",
+    "value": "IDC, 1T26: HBM 56,4% · DRAM 29,1% · NAND 18,5%. Counterpoint, HBM por ingresos: 58% en el 1T26 y 50% en el 2T26, con Samsung del 21% al 33% y Micron del 21% al 18%. El % de HBM sobre los ingresos de SK hynix no se publica",
     "prior": "—",
     "src": [
      [
       "424B4 9-jul-2026 (OPV del ADR)",
       "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm"
+     ],
+     [
+      "Counterpoint: cuota de HBM 2T26 (3-sep-2026)",
+      "https://counterpointresearch.com/ko/insights/global-hbm-market-share-q2-2026"
      ]
     ]
    },
@@ -270,6 +274,10 @@
     [
      "Korea JoongAng Daily: récord, pero la acción cae un 9,6% en Seúl",
      "https://www.koreajoongangdaily.com/business/sk-hynix-posts-record-q2-profit-on-ai-demand-but-shares-slide-on-growth-doubts/12796737"
+    ],
+    [
+     "StockHub: consenso FnGuide 2T26 ₩83,92 billones de ingresos y ₩64,69 billones de beneficio operativo",
+     "https://www.stockhub.kr/en/insights/view_5db145620c4e48bda2aa-sk-hynix-2q26-earnings-2026-07-29"
     ]
    ],
    "rev_growth_yoy": 2.56778145245594,
@@ -280,7 +288,7 @@
    "guide_change_pct": null,
    "gm_change_bp": 2930,
    "nonrecurring_in_beat": false,
-   "note": "Fallo frente al consenso: el beneficio operativo queda un 5,4% por debajo de FnGuide; se usa como sorpresa de beneficio porque no hay consenso de BPA comparable [VERIFY]. Los ingresos quedan ≈ ₩4,6 billones por debajo (≈ −5,5%) [VERIFY: cifra exacta del consenso de ingresos]. Publicado en Seúl el 29-jul a las 9:00 (28-jul a las 20:00 ET): la reacción del ADR es la sesión del 29-jul; en Seúl la acción cayó un 9,6%. El neto (₩93,8 billones) supera a los ingresos por ₩53,2 billones de ganancias de valoración de instrumentos financieros: no recurrente.",
+   "note": "Fallo frente al consenso: el beneficio operativo queda un 5,4% por debajo del consenso de FnGuide que cita Edaily (₩63,99 billones) y un 6,4% por debajo del que cita StockHub (₩64,69 billones); se usa como sorpresa de beneficio porque no hay consenso de BPA comparable. Los ingresos quedan un 5,5% por debajo del consenso de FnGuide (₩83,92 billones; Korea Economic Daily, ₩83,65 billones). finviz da −1,6% en ventas, medido en dólares, y no cuadra con las fuentes coreanas: no se usa. Publicado en Seúl el 29-jul a las 9:00 (28-jul a las 20:00 ET): la reacción del ADR es la sesión del 29-jul; en Seúl la acción cayó un 9,6%. El neto (₩93,8 billones) supera a los ingresos por ₩53,2 billones de ganancias de valoración de instrumentos financieros: no recurrente.",
    "gap_pct": -0.17,
    "rvol": 1.2,
    "close_in_range": 0.16,
@@ -301,7 +309,7 @@
    "price_basis": 149.0,
    "gate": "dated",
    "date": "2026-10-07",
-   "notes": "177,9M ADS a $149 (17,79M acciones nuevas, ≈ 2,4% del capital). Fin del lock-up ≈ 7-oct-2026, ya vencido [VERIFY: fecha exacta]. SK square no puede bajar del 20% por la ley coreana de holdings.",
+   "notes": "177,9M ADS a $149 (17,79M acciones nuevas, ≈ 2,4% del capital). Fin del lock-up el 7-oct-2026 (90 días desde el folleto del 9-jul), ya vencido. SK square no puede bajar del 20% por la ley coreana de holdings.",
    "src": [
     [
      "424B4 9-jul-2026 (OPV del ADR)",
@@ -315,7 +323,7 @@
   "window_days": 56,
   "ep_recent_days": null,
   "atm_used_last_q": false,
-  "float_note": "Acciones en circulación (728,87M, 6-K 19-ago-2026) menos SK square (146,1M, obligada por ley a mantener ≥ 20%), en ADS equivalentes (1 ADS = 1/10 de acción). Solo 177,9M ADS cotizan en Nasdaq; el resto cotiza en Seúl [VERIFY]"
+  "float_note": "Acciones en circulación (728,87M, 6-K 19-ago-2026) menos SK square (146,1M, obligada por ley a mantener ≥ 20%), en ADS equivalentes (1 ADS = 1/10 de acción). En la OPV se emitieron 177,9M ADS (17,79M acciones, 424B4); el resto del capital cotiza en Seúl. Los ADS en circulación cambian con los depósitos y cancelaciones del programa, que EDGAR no publica"
  },
  "peers": [
   {
@@ -457,16 +465,17 @@
   "valuation": [
    "Market cap {m.mcap:usdM}. Con el 2T26 anualizado (≈ $208.000M de ingresos), ≈ 4–5× ventas, en línea con MU. EV/ventas TTM n/d por los huecos."
   ],
-  "group_read": "Líder de HBM (56% de cuota en el 1T26 según IDC). Comparable con MU en tamaño; peor reacción a resultados y sin historial de precios suficiente para la fuerza relativa.",
+  "group_read": "Líder de HBM, pero perdiendo cuota: 56% en el 1T26 según IDC; según Counterpoint, del 58% al 50% en el 2T26, con Samsung del 21% al 33%. Comparable con MU en tamaño; peor reacción a resultados y sin historial de precios suficiente para la fuerza relativa.",
   "risks": [
    "Consenso alto: el 2T26 ya falló frente a FnGuide.",
    "Capex masivo anunciado (Yongin, M17, P&T7) justo en pico de precios.",
-   "Clientes: dos ≥ 13% (probablemente NVIDIA y un hyperscaler) [VERIFY].",
+   "Clientes: dos ≥ 13% en el 1S26 (13,35% y 13,03%; 14,8% y 12,4% en el 1T26 según el 424B4), sin nombre; en 2025 el mayor fue el 23,9%. En junio de 2026 anunció una alianza tecnológica con NVIDIA.",
+   "Samsung gana cuota en HBM: del 21% al 33% en el 2T26, mientras SK hynix baja del 58% al 50% [[Counterpoint 2T26|https://counterpointresearch.com/ko/insights/global-hbm-market-share-q2-2026]].",
    "Riesgo de cambio ₩/US$ para el inversor en ADR."
   ],
   "plan": [
    "Resultados del 3T26 el 27-oct tras el cierre (28-oct en Seúl): dentro de la ventana de ≤ 3 sesiones a partir del 22-oct, solo vale un EP.",
-   "**EP A/B si:** beneficio operativo ≥ +5% sobre el consenso de FnGuide [VERIFY: consenso actualizado] y detalles de retribución que superen la recompra de ₩40 billones.",
+   "**EP A/B si:** beneficio operativo ≥ +5% sobre el consenso (≈ ₩78 billones a mediados de septiembre según la prensa coreana; brókeres entre ₩70 y ₩80 billones tras la subida del won) [VERIFY: cifra de FnGuide la víspera] y detalles de retribución que superen la recompra de ₩40 billones.",
    "**D si:** segundo fallo frente al consenso: confirmaría que las expectativas van por delante del ciclo.",
    "Técnica: ADR desde el 14-jul (≈ 70 sesiones); −32% desde el máximo. Sin setup."
   ],
@@ -496,6 +505,14 @@
   [
    "6-K 14-oct-2026: conferencia del 3T26",
    "https://www.sec.gov/Archives/edgar/data/2120882/000119312526420934/d413172d6k.htm"
+  ],
+  [
+   "StockHub: consenso FnGuide 2T26 ₩83,92 billones de ingresos y ₩64,69 billones de beneficio operativo",
+   "https://www.stockhub.kr/en/insights/view_5db145620c4e48bda2aa-sk-hynix-2q26-earnings-2026-07-29"
+  ],
+  [
+   "Counterpoint: cuota de HBM 2T26 (3-sep-2026)",
+   "https://counterpointresearch.com/ko/insights/global-hbm-market-share-q2-2026"
   ]
  ]
 }
