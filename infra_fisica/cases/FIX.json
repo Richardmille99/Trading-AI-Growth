@@ -1,0 +1,624 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "FIX",
+  "issuer": "Comfort Systems USA",
+  "cik": "0001035983",
+  "exchange": "NYSE",
+  "report_date": "2026-10-19",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "industrial_energy",
+  "theme": "La otra mitad del capex de IA",
+  "group": "Ingeniería e instalación (PWR, FIX)",
+  "subgroup": "construccion",
+  "synthetic": false,
+  "primary_catalyst": "q2_26",
+  "descriptor": "Contratista de instalaciones mecánicas y eléctricas (climatización, fontanería, electricidad, módulos prefabricados) en EE. UU.; el 59% de los ingresos del 2T26 viene de clientes de tecnología (centros de datos). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001448240-26-000019",
+  "last_filing_seen_date": "2026-08-27",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 1439.0699462890625,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "sec-xbrl-companyfacts",
+  "shares_out": 35194329,
+  "shares_out_date": "2026-07-17",
+  "shares_out_note": "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)",
+  "quarters": [
+   {
+    "period": "sep-23",
+    "end": "2023-09-30",
+    "revenue": 1378124000,
+    "gross_profit": 277499000,
+    "op_income": 135143000,
+    "net_income": 105125000,
+    "cfo": 214241000,
+    "capex": 28444000,
+    "capitalized_sw": null,
+    "sbc": 880000,
+    "diluted_shares": 35917000,
+    "basic_shares": 35820000,
+    "ar": null,
+    "deferred_rev": 775302000,
+    "rpo": null,
+    "inventory": 53899000,
+    "cash": 137623000,
+    "debt": 33932000,
+    "total_assets": 3140619000
+   },
+   {
+    "period": "dic-23",
+    "end": "2023-12-31",
+    "revenue": 1357566000,
+    "gross_profit": 279685000,
+    "op_income": 120278000,
+    "net_income": 91581000,
+    "cfo": 173008000,
+    "capex": 25264000,
+    "capitalized_sw": null,
+    "sbc": 3811000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": 909538000,
+    "rpo": null,
+    "inventory": 65538000,
+    "cash": 205150000,
+    "debt": 44212000,
+    "total_assets": 3305579000
+   },
+   {
+    "period": "mar-24",
+    "end": "2024-03-31",
+    "revenue": 1537016000,
+    "gross_profit": 297363000,
+    "op_income": 135460000,
+    "net_income": 96319000,
+    "cfo": 146557000,
+    "capex": 24952000,
+    "capitalized_sw": null,
+    "sbc": 7414000,
+    "diluted_shares": 35828000,
+    "basic_shares": 35739000,
+    "ar": null,
+    "deferred_rev": 1131928000,
+    "rpo": null,
+    "inventory": 71061000,
+    "cash": 100792000,
+    "debt": 77004000,
+    "total_assets": 3902829000
+   },
+   {
+    "period": "jun-24",
+    "end": "2024-06-30",
+    "revenue": 1810290000,
+    "gross_profit": 363596000,
+    "op_income": 184670000,
+    "net_income": 134009000,
+    "cfo": 189858000,
+    "capex": 23384000,
+    "capitalized_sw": null,
+    "sbc": 2671000,
+    "diluted_shares": 35828000,
+    "basic_shares": 35746000,
+    "ar": null,
+    "deferred_rev": 1149896000,
+    "rpo": null,
+    "inventory": 63778000,
+    "cash": 199419000,
+    "debt": 73377000,
+    "total_assets": 4213984000
+   },
+   {
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "revenue": 1812366000,
+    "gross_profit": 381714000,
+    "op_income": 202884000,
+    "net_income": 146235000,
+    "cfo": 302179000,
+    "capex": 22059000,
+    "capitalized_sw": null,
+    "sbc": 2044000,
+    "diluted_shares": 35755000,
+    "basic_shares": 35669000,
+    "ar": null,
+    "deferred_rev": 1197532000,
+    "rpo": null,
+    "inventory": 55680000,
+    "cash": 415583000,
+    "debt": 62315000,
+    "total_assets": 4412765000
+   },
+   {
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "revenue": 1867804000,
+    "gross_profit": 433738000,
+    "op_income": 226355000,
+    "net_income": 145870000,
+    "cfo": 210463000,
+    "capex": 40676000,
+    "capitalized_sw": null,
+    "sbc": 4517000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": 1149257000,
+    "rpo": null,
+    "inventory": 59224000,
+    "cash": 549939000,
+    "debt": 68335000,
+    "total_assets": 4711088000
+   },
+   {
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "revenue": 1831286000,
+    "gross_profit": 403416000,
+    "op_income": 209098000,
+    "net_income": 169289000,
+    "cfo": -87950000,
+    "capex": 22208000,
+    "capitalized_sw": null,
+    "sbc": 8037000,
+    "diluted_shares": 35605000,
+    "basic_shares": 35524000,
+    "ar": null,
+    "deferred_rev": 1267373000,
+    "rpo": null,
+    "inventory": 63045000,
+    "cash": 204758000,
+    "debt": 67842000,
+    "total_assets": 4569218000
+   },
+   {
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "revenue": 2173319000,
+    "gross_profit": 509897000,
+    "op_income": 299873000,
+    "net_income": 230848000,
+    "cfo": 252495000,
+    "capex": 31273000,
+    "capitalized_sw": null,
+    "sbc": 4156000,
+    "diluted_shares": 35369000,
+    "basic_shares": 35307000,
+    "ar": null,
+    "deferred_rev": 1546306000,
+    "rpo": null,
+    "inventory": 70732000,
+    "cash": 331710000,
+    "debt": 73020000,
+    "total_assets": 5063729000
+   },
+   {
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "revenue": 2450969000,
+    "gross_profit": 607871000,
+    "op_income": 378874000,
+    "net_income": 291615000,
+    "cfo": 553271000,
+    "capex": 35332000,
+    "capitalized_sw": null,
+    "sbc": 3553000,
+    "diluted_shares": 35365000,
+    "basic_shares": 35307000,
+    "ar": null,
+    "deferred_rev": 1734272000,
+    "rpo": null,
+    "inventory": 78830000,
+    "cash": 860523000,
+    "debt": 135998000,
+    "total_assets": 5777851000
+   },
+   {
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "revenue": 2646067000,
+    "gross_profit": 674715000,
+    "op_income": 426744000,
+    "net_income": 330806000,
+    "cfo": 468540000,
+    "capex": 66090000,
+    "capitalized_sw": null,
+    "sbc": 6063000,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": 2120262000,
+    "rpo": null,
+    "inventory": 84066000,
+    "cash": 981898000,
+    "debt": 145226000,
+    "total_assets": 6441169000
+   },
+   {
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "revenue": 2865332000,
+    "gross_profit": 754412000,
+    "op_income": 485718000,
+    "net_income": 370378000,
+    "cfo": 388828000,
+    "capex": 147473000,
+    "capitalized_sw": null,
+    "sbc": 19406000,
+    "diluted_shares": 35251000,
+    "basic_shares": 35207000,
+    "ar": null,
+    "deferred_rev": 2345279000,
+    "rpo": null,
+    "inventory": 93947000,
+    "cash": 1050164000,
+    "debt": 39079000,
+    "total_assets": 6938346000
+   },
+   {
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "revenue": 3265656000,
+    "gross_profit": 844228000,
+    "op_income": 557966000,
+    "net_income": 441602000,
+    "cfo": 1139426000,
+    "capex": 141364000,
+    "capitalized_sw": null,
+    "sbc": 9206000,
+    "diluted_shares": 35254000,
+    "basic_shares": 35221000,
+    "ar": null,
+    "deferred_rev": 3231104000,
+    "rpo": null,
+    "inventory": 104804000,
+    "cash": 1854794000,
+    "debt": 54064000,
+    "total_assets": 8487806000
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Cartera de pedidos (backlog)",
+    "value": "$14.060M a 30-jun-2026 (+73% interanual, +13% trimestral); $13.700M a perímetro constante (+69%)",
+    "prior": "$12.450M (31-mar-2026) · $8.120M (30-jun-2025)",
+    "src": [
+     [
+      "EX-99.1 8-K 23-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723xex99d1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Book-to-bill (2T26, derivado)",
+    "value": "≈ 1,49: (cartera final − inicial + ingresos) ÷ ingresos = ($14.060M − $12.450M + $3.266M) ÷ $3.266M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 23-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723xex99d1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto (proxy del margen de proyecto)",
+    "value": "25,9% en el 2T26",
+    "prior": "23,5% en el 2T25",
+    "src": [
+     [
+      "EX-99.1 8-K 23-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723xex99d1.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Clientes de tecnología (centros de datos)",
+    "value": "$1.917M en el 2T26, el 58,7% de los ingresos (+105% interanual)",
+    "prior": "$934M, el 43,0% (2T25)",
+    "src": [
+     [
+      "10-Q 2T26 (ingresos por tipo de cliente, flujos)",
+      "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086258/fix-20260630x10q.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Capital y caja",
+    "value": "Flujo operativo $1.530M en el 1S26; línea de crédito de $100M devuelta; recompras de $8,2M y dividendos de $52,8M en el 1S26",
+    "prior": "Flujo operativo $164,5M en el 1S25",
+    "src": [
+     [
+      "10-Q 2T26 (ingresos por tipo de cliente, flujos)",
+      "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086258/fix-20260630x10q.htm"
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q2_26",
+   "type": "earnings",
+   "date": "2026-07-23",
+   "time_et": "after-hours",
+   "headline": "Resultados 2T26: ingresos $3.265,7M (+50%) y BPA $12,53 (+92%); cartera $14.060M (+73%); flujo operativo récord de $1.139M",
+   "sources": [
+    [
+     "EX-99.1 8-K 23-jul-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723xex99d1.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 19,85% y ventas 9,25%; BPA próximo trimestre $12,85",
+     "https://finviz.com/quote.ashx?t=FIX"
+    ]
+   ],
+   "rev_growth_yoy": 0.502612363854547,
+   "rev_growth_yoy_prev": 0.5646556572812766,
+   "rev_surprise_pct": 9.2,
+   "eps_surprise_pct": 19.9,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 239,
+   "nonrecurring_in_beat": false,
+   "note": "Consenso de finviz: sorpresa de +9,3% en ingresos (≈ $2.990M implícito) y +19,9% en BPA (≈ $10,45). La compañía no da guía: se puntúa sin sorpresa de guía. Sin partidas no recurrentes (BPA GAAP; no publica ajustado). El mercado lo vendió pese al beat: −0,5% en la apertura y −5,3% al cierre del 24-jul.",
+   "gap_pct": -0.54,
+   "rvol": 1.5,
+   "close_in_range": 0.22,
+   "day2_follow": false,
+   "dollar_volume": 1278703342,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-07-24",
+   "reaction_close_chg_pct": -5.33
+  }
+ ],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $185,2M; 12 marcados",
+   "shares": 122459.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Lane Brian E. (consejero, CHIEF EXECUTIVE OFF) $68,1M, máx. 10% en 2026-T3, 4 ventas sin 10b5-1; MYERS FRANKLIN (consejero) $52,1M, máx. 13% en 2026-T2, 6 ventas sin 10b5-1; GEORGE WILLIAM III (CHIEF FINANCIAL OFFICER) $31,7M, máx. 19% en 2026-T1, 5 ventas sin 10b5-1; ANDERSON DARCY (consejero) $10,0M, máx. 20% en 2026-T1, 2 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
+ "supply_context": {
+  "float_shares": 34762498.0,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-19): $18.640,0M de no afiliados a 2025-06-30 ÷ cierre de $536,21 = 34,8M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
+ },
+ "peers": [
+  {
+   "ticker": "CEG",
+   "name": "Constellation Energy",
+   "rev_yoy": 0.13214493315248976,
+   "accel_pp": -10.286980644790322,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": 21.741914779811715,
+   "ev_sales": 4.63764140709469,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "ETN",
+   "name": "Eaton",
+   "rev_yoy": 0.21385885031303364,
+   "accel_pp": 4.544109901932192,
+   "gm": 0.35903413821815156,
+   "gm_rel": 0.10903413821815156,
+   "rule40": 28.62761665522414,
+   "ev_sales": 5.654837635303913,
+   "rs_3m": 76.92307692307693
+  },
+  {
+   "ticker": "GEV",
+   "name": "GE Vernova",
+   "rev_yoy": 0.218746570080123,
+   "accel_pp": 5.602246649446552,
+   "gm": 0.20208857087603946,
+   "gm_rel": -0.04791142912396054,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 30.76923076923077
+  },
+  {
+   "ticker": "MOD",
+   "name": "Modine",
+   "rev_yoy": 0.2801698886936146,
+   "accel_pp": -19.4490185472022,
+   "gm": 0.22171154074249794,
+   "gm_rel": -0.028288459257502063,
+   "rule40": 32.43985101490142,
+   "ev_sales": 2.3161717902079895,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "NVT",
+   "name": "nVent Electric",
+   "rev_yoy": 0.5276710621949954,
+   "accel_pp": -0.6988520160126299,
+   "gm": 0.36971452213487793,
+   "gm_rel": 0.11971452213487793,
+   "rule40": 58.14322896940036,
+   "ev_sales": null,
+   "rs_3m": 38.46153846153847
+  },
+  {
+   "ticker": "POWL",
+   "name": "Powell Industries",
+   "rev_yoy": 0.08896053766858913,
+   "accel_pp": 2.441639146805863,
+   "gm": 0.3007968747030294,
+   "gm_rel": 0.050796874703029404,
+   "rule40": 28.115290916839974,
+   "ev_sales": 4.650376059136092,
+   "rs_3m": 15.384615384615385
+  },
+  {
+   "ticker": "PWR",
+   "name": "Quanta Services",
+   "rev_yoy": 0.41104194931438864,
+   "accel_pp": 14.770727159617225,
+   "gm": 0.1545648187486818,
+   "gm_rel": -0.0954351812513182,
+   "rule40": 33.56793299783839,
+   "ev_sales": 2.871573957706431,
+   "rs_3m": 84.61538461538461
+  },
+  {
+   "ticker": "VRT",
+   "name": "Vertiv",
+   "rev_yoy": 0.2411584094613548,
+   "accel_pp": -6.016772020465688,
+   "gm": 0.3803878183908847,
+   "gm_rel": 0.1303878183908847,
+   "rule40": 51.7544760729991,
+   "ev_sales": 6.93390518534841,
+   "rs_3m": 7.6923076923076925
+  },
+  {
+   "ticker": "VST",
+   "name": "Vistra",
+   "rev_yoy": 0.17266187050359716,
+   "accel_pp": -0.4044011849344109,
+   "gm": null,
+   "gm_rel": null,
+   "rule40": 30.48956884781585,
+   "ev_sales": 3.6967744944897687,
+   "rs_3m": 61.53846153846154
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 15.384615384615385,
+  "rs_3m": 23.076923076923077,
+  "rs_6m": 23.076923076923077,
+  "adr_pct": 4.219313644070022,
+  "ema_stack": false,
+  "cooled_leader": "cooled_leader_broken",
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2026-10-22",
+   "kind": "earnings",
+   "text": "Resultados 3T26 tras el cierre [VERIFY: fecha de finviz; la compañía aún no la ha anunciado (el 3T25 fue el 23-oct-2025)]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 19,85% y ventas 9,25%; BPA próximo trimestre $12,85",
+     "https://finviz.com/quote.ashx?t=FIX"
+    ]
+   ]
+  }
+ ],
+ "header": {
+  "verdict": "Cartera +73% y BPA +92%, pero el mercado lo vende: −31% desde máximos antes de resultados.",
+  "setup": "−31% desde máximos, bajo la SMA 200; sin setup.",
+  "catalyst": "2T26: beat +9% en ingresos y +20% en BPA; cerró −5%.",
+  "quality": "Margen al alza; flujo de caja inflado por anticipos.",
+  "supply": "Limpia; ventas de directivos fuera de plan.",
+  "group": "El más ligado a la obra de centros de datos."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Contratista de instalaciones mecánicas y eléctricas (climatización, fontanería, electricidad, módulos prefabricados) en EE. UU.; el 59% de los ingresos del 2T26 viene de clientes de tecnología (centros de datos)"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Ingeniería e instalación (PWR, FIX) · mixto"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "No da guía: el «beat» se mide solo contra el consenso de los analistas, y la cartera es la mejor señal adelantada.",
+   "El crecimiento depende cada vez más de un solo tipo de cliente: tecnología pasó del 43% al 59% de los ingresos en un año."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: crecimiento del +50% con aceleración {m.accel_pp:pp}, beat amplio (+9% en ingresos, +20% en BPA) y margen al alza, pero sin guía y con el mercado vendiendo el informe (−5% al cierre).",
+  "financials_note": "Trimestres de XBRL (companyfacts) hasta el 2T26. El 4T25 se deriva como año − 9 meses con datos de la misma versión: un 10-Q de abril de 2026 etiquetaba mal el año 2025 con el valor del 1T (corregido en xbrl.py el 19-oct-2026).",
+  "quality": [
+   "Flujo operativo muy por encima del beneficio en el 1S26 ($1.530M frente a $812M de neto): anticipos de clientes en la facturación por avance de obra, que pueden revertir cuando se frene la contratación.",
+   "Margen bruto al alza (23,5% → 25,9%) pese al crecimiento: no compra volumen con precio."
+  ],
+  "supply_read": "Oferta limpia: sin convertibles ni ampliaciones, deuda mínima. Lo que pesa son las ventas de directivos: $185,2M en 12 meses, casi todas fuera de planes 10b5-1 (consejero delegado, CFO y consejeros), sin ninguna compra. Es poco frente a la capitalización ({m.mcap:usdM}).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 24 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El más ligado a la construcción física de los centros de datos dentro del universo; compite por la misma cartera que PWR (red) y complementa a VRT/NVT (equipos).",
+  "risks": [
+   "Concentración en tecnología (59% de los ingresos): una pausa del capex de los hiperescalares llega directa a la cartera.",
+   "Ventas de directivos continuas fuera de plan.",
+   "Mano de obra especializada: el cuello de botella de la ejecución.",
+   "Resultados el ≈ 22-oct: dentro de la ventana de ≤ 3 sesiones."
+  ],
+  "plan": [
+   "Resultados del 3T26 el ≈ 22-oct tras el cierre [VERIFY: fecha no confirmada por la compañía]: la ventana de ≤ 3 sesiones ya está abierta, solo vale un EP.",
+   "**EP A/B si:** BPA ≥ $14,10 (+10% sobre el consenso de $12,85 de finviz), cartera ≥ $15.000M (book-to-bill > 1,2) y margen bruto ≥ 25%, con hueco y volumen.",
+   "**D si:** cartera plana o a la baja frente a los $14.060M de junio: el mercado ya descuenta que la contratación de centros de datos ha tocado techo.",
+   "Técnica: −31% desde el máximo, bajo la SMA 50 y la 200; «líder enfriado roto». Sin setup hasta el informe."
+  ],
+  "verdict": "Fundamentales de primera (cartera +73%, BPA +92%, caja récord) con el mercado vendiéndolo por miedo al pico del capex de IA. El informe del ≈ 22-oct es la prueba: solo un EP con cartera al alza cambiaría la lectura; la convicción sigue limitada por el régimen."
+ },
+ "sources": [
+  [
+   "EX-99.1 8-K 23-jul-2026: resultados 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723xex99d1.htm"
+  ],
+  [
+   "10-Q 2T26 (ingresos por tipo de cliente, flujos)",
+   "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086258/fix-20260630x10q.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 19,85% y ventas 9,25%; BPA próximo trimestre $12,85",
+   "https://finviz.com/quote.ashx?t=FIX"
+  ]
+ ]
+}
