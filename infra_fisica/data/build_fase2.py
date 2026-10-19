@@ -48,6 +48,8 @@ def base(t):
 
 
 DESC = {
+    "PWR": "Ingeniería y construcción de red eléctrica, generación y grandes instalaciones (incluidos centros de datos) en EE. UU., con compras recientes",
+    "NVT": "Envolventes, conexiones y protección eléctrica, y refrigeración líquida para centros de datos",
     "FIX": "Contratista de instalaciones mecánicas y eléctricas (climatización, fontanería, electricidad, módulos prefabricados) "
            "en EE. UU.; el 59% de los ingresos del 2T26 viene de clientes de tecnología (centros de datos)",
     "VRT": "Equipos de energía y refrigeración para centros de datos (SAI, distribución eléctrica, gestión térmica y refrigeración líquida) y sus servicios",
@@ -230,6 +232,94 @@ def gev():
                   quality="Neto inflado por Prolec GE; caja por anticipos.", supply="Bonos, no acciones; recompras.",
                   group="La mayor cartera del universo.")
     finish(t, c, kpis, [e], [debt, ins], forensic_float(t), text, header, events, [pr, tq, nb, fx])
+
+# ---------------------------------------------------------------- PWR
+def pwr():
+    t = "PWR"
+    c, rows = base(t)
+    pr = casekit.link(1050915, "0001193125-26-324855", "d56853dex991.htm", "EX-99.1 8-K 30-jul-2026: resultados 2T26")
+    nb = casekit.link(1050915, "0001193125-26-335074", "d115922d424b5.htm", "424B5 5-ago-2026: bonos senior")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-07-30", "bmo",
+                         "Resultados 2T26: ingresos $9.557M (+41%), cartera total récord de $53.400M (RPO $33.600M); sube «significativamente» la guía 2026 a ingresos de $39.300–39.700M y BPA ajustado de $16,45–16,95",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=True, guide_change=None,
+                         note="Consenso de finviz: ventas +11,0% y BPA +28,2%. La guía sube «significativamente» con ayuda de las compras de Phalcon y Enerfab ($1.200–1.400M de ingresos en 2026); "
+                              "la nota no da la cifra anterior: sin cambio de guía cuantificado. EP de verdad: hueco del +15,3% y cierre del +17,3% con volumen 2,4×.")
+    kpis = [
+        kp("Cartera de pedidos", "Total $53.400M y RPO $33.600M a jun-2026 (récords)", "RPO $19.160M (jun-2025) · $26.240M (mar-2026)", *pr),
+        kp("Book-to-bill (2T26, sobre RPO, derivado)", "≈ 1,76: (RPO final − inicial + ingresos) ÷ ingresos = ($33.550M − $26.240M + $9.557M) ÷ $9.557M; incluye cartera de las compras", "—", *pr),
+        kp("Guía 2026", "Ingresos $39.300–39.700M; BPA ajustado $16,45–16,95; EBITDA ajustado $4.090–4.210M; FCF $2.000–2.500M", "—", *pr),
+        kp("Compras de 2026", "Phalcon (≈ 4.100 empleados, electricidad para centros de datos) y Enerfab (≈ 2.100, fabricación especial): $1.200–1.400M de ingresos en 2026", "—", *pr),
+        kp("Recompras", "Programa nuevo de $1.000M (mayo-2026)", "$135M ejecutados en el anterior", *pr)]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = [dict(date="2026-10-29", kind="earnings", text="Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]", src=[fx])]
+    text = dict(
+        narrative_flags=["Parte del crecimiento y de la cartera viene de compras (Phalcon, Enerfab): el orgánico es menor que el +41%.",
+                         "El consejero delegado ha vendido $120M en 12 meses, casi todo fuera de planes 10b5-1."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: +41% con aceleración {m.accel_pp:pp}, beat amplio (+11% en ingresos, +28% en BPA), guía subida y EP con volumen.",
+        financials_note="Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión (corrige el neto de los 4T).",
+        quality=["Fondo de comercio e intangibles = 115% del patrimonio: crecimiento con compras.", "Flujo operativo récord ($1.095M) en el 2T26."],
+        supply_read=f"Sin ampliaciones: bonos en agosto y recompras de hasta $1.000M. Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses, "
+                    "casi todas del consejero delegado y fuera de plan.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 32 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El líder del universo por nota de negocio y el único con EP reciente; la cartera ($53.400M) solo la supera GEV.",
+        risks=["Integración de compras grandes.", "Ventas del consejero delegado.", "Mano de obra especializada.", "Resultados el 29-oct antes de la apertura."],
+        plan=["Resultados del 3T26 el 29-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 26-oct.",
+              "**EP A/B si:** BPA ≥ $5,20 (+5% sobre el consenso de $4,95 de finviz), cartera por encima de $53.400M y otra subida de la guía.",
+              "**D si:** cartera plana: el crecimiento dependería solo de las compras.",
+              "Técnica: en tendencia (EMA alineadas), sobre la SMA 200 y −20% desde el máximo. Sin setup confirmado."],
+        verdict="El mejor caso del universo: crecimiento +41%, cartera récord, guía subida y EP con volumen. Lo que vigilar son las compras y las ventas del consejero delegado.")
+    header = dict(verdict="+41%, cartera récord de $53.400M y EP en julio: el líder del universo.",
+                  setup="En tendencia; −20% desde máximos.", catalyst="2T26: ventas +11%, BPA +28%; guía subida; EP +17%.",
+                  quality="Mucho fondo de comercio; caja récord.", supply="Bonos; CEO vendiendo.", group="Líder del universo.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, nb, fx])
+
+
+# ---------------------------------------------------------------- NVT
+def nvt():
+    t = "NVT"
+    c, rows = base(t)
+    pr = casekit.link(1720635, "0001628280-26-051203", "q22026nvtpressrelease.htm", "EX-99.1 8-K 31-jul-2026: resultados 2T26")
+    sh = casekit.link(1720635, "0001104659-26-108238", "tm2625115-2_424b5.htm", "424B5 16-sep-2026: folleto para ventas de accionistas")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-07-31", "amc",
+                         "Resultados 2T26: ventas $1.471M (+53%, +47% orgánico), BPA ajustado $1,45 (+69%); sube «significativamente» la guía 2026 a crecimiento de ventas del +37–39% y BPA ajustado de $5,00–5,10",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=True, guide_change=None,
+                         note="Consenso de finviz: ventas +16,9% y BPA +25,0%. Centros de datos y productos nuevos aportan más de 30 puntos del crecimiento. La nota no da la guía anterior: sin cambio cuantificado. "
+                              "El mercado abrió −0,9% y cerró +3,6%.")
+    kpis = [
+        kp("Crecimiento orgánico", "+47% en el 2T26; guía 2026 orgánica +32–34%", "—", *pr),
+        kp("Centros de datos y refrigeración líquida", "Centros de datos y productos nuevos > 30 puntos del crecimiento; nueva ampliación de fábrica de refrigeración líquida", "—", *pr),
+        kp("Guía 2026", "Ventas +37–39% (reportado); BPA ajustado $5,00–5,10", "—", *pr),
+        kp("Caja", "Flujo operativo $189M (+107%) y FCF $167M (+125%) en el 2T26", "—", *pr)]
+    shelf = dict(id="shelf_venta", kind="shelf", name="Folleto para ventas de accionistas existentes (sep-2026)", shares=None, capacity_usd=None, price_basis=None,
+                 gate="live", date="2026-09-16",
+                 notes="Permite a accionistas que se nombren en un suplemento vender acciones ordinarias; la compañía no recibe nada. [VERIFY: si hay accionistas nombrados y cuántas acciones]",
+                 src=[sh])
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = [dict(date="2026-10-30", kind="earnings", text="Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]", src=[fx])]
+    text = dict(
+        narrative_flags=["Folleto de septiembre para que accionistas existentes vendan: posible oferta secundaria a la vista.",
+                         "Directivos vendiendo con frecuencia fuera de planes 10b5-1 (11 marcados)."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: +53% (+47% orgánico), beat amplio (+17% en ventas, +25% en BPA) y guía subida; reacción tibia (+3,6%).",
+        financials_note="Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión. La caja no sale de companyfacts con la etiqueta estándar.",
+        quality=["Fondo de comercio e intangibles = 112% del patrimonio: compras recientes.", "El flujo operativo va por debajo del beneficio en el 1S26."],
+        supply_read=f"Folleto para ventas de accionistas (sep-2026) y deuda nueva (8-K 2.03 de septiembre). Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses, "
+                    "11 marcados y muchas fuera de plan.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 21 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="«Líder enfriado» del universo: crece más que VRT en el 2T (+53% frente a +24%) y es más barato por PER.",
+        risks=["Posible oferta secundaria.", "Ventas de directivos.", "Integración de compras.", "Resultados el 30-oct antes de la apertura."],
+        plan=["Resultados del 3T26 el 30-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 27-oct.",
+              "**EP A/B si:** BPA ≥ $1,46 (+5% sobre el consenso de $1,39 de finviz), orgánico ≥ +30% y otra subida de la guía.",
+              "**D si:** orgánico por debajo del +30% con la guía mantenida.",
+              "Técnica: líder enfriado (−23% desde el máximo, en la SMA 200). Sin setup."],
+        verdict="El que más crece de refrigeración (+47% orgánico) con PER razonable y señal de líder enfriado; en contra, posible secundaria y directivos vendiendo. Candidato a EP el 30-oct.")
+    header = dict(verdict="+53% (+47% orgánico) y guía subida; líder enfriado con PER ≈ 21.",
+                  setup="Líder enfriado; −23% desde máximos.", catalyst="2T26: ventas +17%, BPA +25% frente al consenso.",
+                  quality="Mucho fondo de comercio.", supply="Folleto para secundaria; directivos vendiendo.", group="Líder enfriado.")
+    finish(t, c, kpis, [e], [shelf, ins], forensic_float(t), text, header, events, [pr, sh, fx])
 
 
 if __name__ == "__main__":

@@ -12,11 +12,11 @@
   "group": "Ciberseguridad (CRWD, ZS, PANW, FTNT)",
   "subgroup": "seguridad",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Firewalls (hardware) + servicios; ciclo de renovación. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Firewalls propios (FortiGate, con chips ASIC propios) y servicios de seguridad por suscripción, incluido SASE. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001661859-26-000008",
   "last_filing_seen_date": "2026-10-01",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 169.1300048828125,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Facturación (billings)",
+    "value": "$2.370M en el 2T26 (+33%); guía 3T $2.250–2.350M; guía 2026 $9.350–9.550M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Producto frente a servicio",
+    "value": "Producto $773M (+52%): ciclo de renovación de firewalls; guía de servicio 2026 $5.180–5.220M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 3T26",
+    "value": "Ingresos $2.010–2.100M; margen operativo ajustado 35–37%; BPA ajustado $0,83–0,87",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 29-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera (RPO)",
+    "value": "$7.730M a jun-2026 (XBRL)",
+    "prior": "$6.640M (jun-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-29",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $2.047,9M (+26% interanual)",
+   "headline": "Resultados 2T26: ingresos $2.048M (+26%), producto $773M (+52%), facturación $2.370M (+33%); supera el techo de su guía y sube la guía anual de ingresos al +19% ($8.020–8.180M)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-29",
+     "EX-99.1 8-K 29-jul-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 20,58% y ventas 8,44%; BPA próximo trimestre $0,86",
+     "https://finviz.com/quote.ashx?t=FTNT"
     ]
    ],
    "rev_growth_yoy": 0.25638036809815956,
    "rev_growth_yoy_prev": 0.20127297525491983,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 8.4,
+   "eps_surprise_pct": 20.6,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": -44,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +8,4% y BPA +20,6%. La nota sube la guía anual de ingresos «al +19%» sin dar la cifra anterior en el mismo documento: sin cambio de guía cuantificado. El mercado abrió +7,0% y cerró solo +0,7%.",
    "gap_pct": 7.04,
    "rvol": 1.8,
    "close_in_range": 0.12,
@@ -321,12 +370,32 @@
    "reaction_close_chg_pct": 0.67
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $136,2M; 2 marcados",
+   "shares": 1224200.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Whittle John (CHIEF OPERATING OFFICER) $28,1M, máx. 61% en 2026-T2; Ohlgart Christiane (Chief Financial Officer) $0,4M, máx. 23% en 2026-T2. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 537705026.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-25): $56.846,2M de no afiliados a 2025-06-30 ÷ cierre de $105,72 = 537,7M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -523,22 +592,27 @@
   {
    "date": "2026-10-28",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-29) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 20,58% y ventas 8,44%; BPA próximo trimestre $0,86",
+     "https://finviz.com/quote.ashx?t=FTNT"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+26% con producto +52% y guía subida; en tendencia, pero caro.",
+  "setup": "En tendencia; −14% desde máximos.",
+  "catalyst": "2T26: ventas +8%, BPA +21% frente al consenso; guía subida.",
+  "quality": "Margen 34%; FCF > beneficio.",
+  "supply": "Limpia.",
+  "group": "El que más acelera de seguridad."
  },
  "snapshot": [
   [
    "Negocio",
-   "Firewalls (hardware) + servicios; ciclo de renovación"
+   "Firewalls propios (FortiGate, con chips ASIC propios) y servicios de seguridad por suscripción, incluido SASE"
   ],
   [
    "Subgrupo · pureza",
@@ -570,21 +644,41 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El crecimiento lo tira el producto (+52%, ciclo de renovación de firewalls): es menos recurrente que el servicio y suele ser cíclico."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +26% con aceleración {m.accel_pp:pp}, beat amplio (+8% en ingresos, +21% en BPA) y guía subida; el mercado no lo siguió (+0,7% al cierre).",
+  "financials_note": "Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión.",
+  "quality": [
+   "Margen operativo del 34% GAAP y FCF por encima del beneficio.",
+   "Sin ampliaciones ni filings de oferta en 12 meses."
+  ],
+  "supply_read": "Oferta limpia: sin ampliaciones; deuda reducida a $497M. Ventas de directivos $136,2M en 12 meses, en su mayoría en planes 10b5-1.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 45 (finviz), caro para un ciclo de hardware. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El que más acelera de seguridad gracias al hardware; más caro por PER que PANW y ZS pese a crecer con producto.",
+  "risks": [
+   "Ciclo de renovación de firewalls: alto ahora, puede bajar en 2027.",
+   "Valoración (PER adelantado ≈ 45).",
+   "Resultados el 28-oct tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 28-oct tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+   "**EP A/B si:** ingresos ≥ $2.100M (techo de la guía), facturación ≥ $2.350M y nueva subida de la guía anual.",
+   "**D si:** facturación por debajo de $2.250M: el ciclo de producto se estaría agotando.",
+   "Técnica: en tendencia (EMA alineadas), sobre la SMA 200 y −14% desde el máximo. Sin setup confirmado."
+  ],
+  "verdict": "Aceleración real por el ciclo de renovación de firewalls, con oferta limpia y en tendencia, pero cara y dependiente del producto. El 28-oct dirá si el ciclo sigue."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-29",
+   "EX-99.1 8-K 29-jul-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 20,58% y ventas 8,44%; BPA próximo trimestre $0,86",
+   "https://finviz.com/quote.ashx?t=FTNT"
   ]
  ]
 }

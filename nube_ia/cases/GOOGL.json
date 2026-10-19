@@ -12,11 +12,11 @@
   "group": "Nubes y plataformas con capex de IA propio (AMZN, GOOGL, META)",
   "subgroup": "hiperescalares",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Google Cloud, TPU propias, búsqueda y YouTube. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Búsqueda, YouTube y suscripciones (Google Services), nube con TPU propias (Google Cloud) y apuestas (Other Bets). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001193125-26-423187",
   "last_filing_seen_date": "2026-10-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 340.5899963378906,
@@ -285,32 +285,92 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Google Cloud",
+    "value": "$24.800M en el 2T26 (+82%): IA para empresas e infraestructura de IA",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Cartera contratada (RPO)",
+    "value": "$519.500M a jun-2026 (XBRL)",
+    "prior": "$108.200M (jun-2025)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Capex",
+    "value": "$44.924M en el 2T26 (XBRL)",
+    "prior": "$22.446M (2T25)",
+    "src": [
+     [
+      "quarters.json (XBRL 10-Q 2T26)",
+      ""
+     ]
+    ]
+   },
+   {
+    "name": "Servicios",
+    "value": "Google Services $94.500M (+15%): Búsqueda +17%, suscripciones +15%, YouTube +13%",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Financiación de 2026",
+    "value": "Junio: $49.600M netos en acciones A y C y preferentes de conversión obligatoria; programa de venta en mercado de hasta $40.000M; $20.300M en bonos en el 2T",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
-  "nongaap_recurring_items": null
+  "nongaap_recurring_items": true
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-22",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $119.796,0M (+24% interanual)",
+   "headline": "Resultados 2T26: ingresos $119.796M (+24%), Google Cloud $24.800M (+82%); margen operativo 34%; el neto incluye $98.000M de ganancias no realizadas en participaciones",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-22",
+     "EX-99.1 8-K 22-jul-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 216,61% y ventas 2,94%; BPA próximo trimestre $3,02",
+     "https://finviz.com/quote.ashx?t=GOOGL"
     ]
    ],
    "rev_growth_yoy": 0.2423362508814868,
    "rev_growth_yoy_prev": 0.21790012633818745,
-   "rev_surprise_pct": null,
+   "rev_surprise_pct": 2.9,
    "eps_surprise_pct": null,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": 213,
-   "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "nonrecurring_in_beat": true,
+   "note": "Consenso de finviz: ventas +2,9%. La sorpresa de BPA de finviz (+217%) no se usa: el BPA GAAP ($9,11) lleva $98.000M de ganancias no realizadas en participaciones. Alphabet no da guía. El mercado lo vendió: −6,1% en la apertura y −7,1% al cierre.",
    "gap_pct": -6.13,
    "rvol": 2.13,
    "close_in_range": 0.29,
@@ -321,12 +381,74 @@
    "reaction_close_chg_pct": -7.13
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "equity26",
+   "kind": "secondary",
+   "name": "Ampliación de junio de 2026 (acciones A/C y preferentes obligatorias, $49.600M netos)",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "dated",
+   "date": "2026-06-05",
+   "notes": "Para capex de IA. [VERIFY: reparto entre acciones ordinarias y preferentes, y precio de conversión de las series A y B, en el 8-K del 5-jun y sus 424B]",
+   "src": [
+    [
+     "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+    ],
+    [
+     "8-K 5-jun-2026: preferentes de conversión obligatoria (series A y B)",
+     "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/d36818d8k.htm"
+    ]
+   ]
+  },
+  {
+   "id": "atm26",
+   "kind": "atm",
+   "name": "Programa de venta en mercado (ATM) de hasta $40.000M en acciones A y C",
+   "shares": null,
+   "capacity_usd": 40000000000.0,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-06-01",
+   "notes": "Acuerdo de distribución con Goldman, J.P. Morgan y Morgan Stanley (junio), ampliado a 13 bancos más en agosto. [VERIFY: importe vendido; lo dirá el 10-Q del 3T26]",
+   "src": [
+    [
+     "424B5 6-ago-2026: programa de venta de acciones de hasta $40.000M",
+     "https://www.sec.gov/Archives/edgar/data/1652044/000119312526336853/d140593d424b5.htm"
+    ],
+    [
+     "EX-99.1 8-K 22-jul-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $182,4M; 5 marcados",
+   "shares": 3027188.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "GV 2017 GP, L.L.C. (≥10%) $35,1M, máx. 33% en 2026-T1, 2 ventas sin 10b5-1; WALKER JOHN KENT (President, Global Affairs, CLO) $25,6M, máx. 28% en 2026-T1; GV 2019 GP, L.L.C. (≥10%) $15,1M, máx. 17% en 2026-T3, 15 ventas sin 10b5-1; O'Toole Amie Thuener (VP, Chief Accounting Officer) $3,0M, máx. 18% en 2025-T4. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 10781365523.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-05): $1.900.000,0M de no afiliados a 2025-06-30 ÷ cierre de $176,23 = 10.781,4M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -400,24 +522,29 @@
  },
  "events": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-28",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-22) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 216,61% y ventas 2,94%; BPA próximo trimestre $3,02",
+     "https://finviz.com/quote.ashx?t=GOOGL"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Cloud +82% y cartera de $519.500M, pero emite acciones: ampliación de $49.600M y ATM de $40.000M.",
+  "setup": "En tendencia; −16% desde máximos.",
+  "catalyst": "2T26: ventas +3% frente al consenso; −7% al cierre.",
+  "quality": "Neto inflado por participaciones; capex doble.",
+  "supply": "Ampliación y ATM vivo.",
+  "group": "La nube que más acelera."
  },
  "snapshot": [
   [
    "Negocio",
-   "Google Cloud, TPU propias, búsqueda y YouTube"
+   "Búsqueda, YouTube y suscripciones (Google Services), nube con TPU propias (Google Cloud) y apuestas (Other Bets)"
   ],
   [
    "Subgrupo · pureza",
@@ -449,21 +576,51 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Alphabet emite acciones para financiar el capex de IA ($49.600M en junio y un ATM de hasta $40.000M): es un cambio de régimen para una empresa que recompraba.",
+   "El BPA GAAP del 2T está dominado por $98.000M de ganancias no realizadas: no sirve para medir el negocio."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +24% con aceleración {m.accel_pp:pp} y Cloud +82%, pero el mercado lo vendió (−7%) por la ampliación y el capex.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26. El neto del 1T y 2T26 está inflado por ganancias de participaciones (no operativas).",
+  "quality": [
+   "Capex duplicado en un año ($22.446M → $44.924M por trimestre).",
+   "Neto dominado por ganancias no realizadas en el 2T26."
+  ],
+  "supply_read": "Dilución nueva y grande: ampliación de $49.600M netos en junio (ordinarias y preferentes obligatorias) y un ATM vivo de hasta $40.000M. Ventas de directivos y fondos GV $182,4M en 12 meses.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 22 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "La nube que más acelera (Cloud +82%) y la mayor cartera contratada después de MSFT, pero la única del grupo que emite acciones.",
+  "risks": [
+   "Dilución: ATM de hasta $40.000M vivo.",
+   "Retorno del capex.",
+   "Regulación de la búsqueda.",
+   "Resultados el 28-oct tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 28-oct tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+   "**EP A/B si:** Cloud acelera por encima del +82% y el BPA ajustado sin ganancias de participaciones supera el consenso de $3,02 de finviz en ≥ 5%.",
+   "**D si:** ventas del ATM grandes en el 3T con capex al alza: dilución sin aceleración.",
+   "Técnica: en tendencia (EMA alineadas), en la SMA 200 y −16% desde el máximo. Sin setup."
+  ],
+  "verdict": "La nube que más crece (+82%) con una cartera de $519.500M, pero financiando el capex con acciones por primera vez. El 28-oct medirá si la aceleración compensa la dilución."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-22",
+   "EX-99.1 8-K 22-jul-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+  ],
+  [
+   "424B5 6-ago-2026: programa de venta de acciones de hasta $40.000M",
+   "https://www.sec.gov/Archives/edgar/data/1652044/000119312526336853/d140593d424b5.htm"
+  ],
+  [
+   "8-K 5-jun-2026: preferentes de conversión obligatoria (series A y B)",
+   "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/d36818d8k.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 216,61% y ventas 2,94%; BPA próximo trimestre $3,02",
+   "https://finviz.com/quote.ashx?t=GOOGL"
   ]
  ]
 }

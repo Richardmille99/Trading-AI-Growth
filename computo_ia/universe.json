@@ -121,7 +121,7 @@
    "profile": "semis_hardware",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "junio",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Inspección y metrología"
   },
   {
@@ -205,7 +205,7 @@
    "profile": "semis_manufacturing",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "EMS: switches y servidores para hiperescalares"
   }
  ]

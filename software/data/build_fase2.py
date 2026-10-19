@@ -47,6 +47,7 @@ def base(t):
 
 
 DESC = {
+    "FTNT": "Firewalls propios (FortiGate, con chips ASIC propios) y servicios de seguridad por suscripción, incluido SASE",
     "MSFT": "Nube (Azure), software de productividad (Microsoft 365, Copilot), LinkedIn, Windows y gaming (Xbox); socio e inversor de OpenAI",
     "NOW": "Plataforma de flujos de trabajo para empresas con licencia por usuario (TI, empleados, clientes) y agentes de IA; compró Armis (ciberseguridad) en 2026",
 }
@@ -167,6 +168,44 @@ def now():
                   setup="En tendencia; −26% desde máximos; sin setup.", catalyst="2T26: ventas +1,5%, BPA +4% frente al consenso; guía +0,1%.",
                   quality="SBC 16,5%; deuda nueva de $8.000M.", supply="Sin ampliaciones; dilución por SBC.", group="Modelo por usuario.")
     finish(t, c, kpis, [e], [sbc, ins], forensic_float(t), text, header, events, [pr, q1, tl, nb, fx])
+
+# ---------------------------------------------------------------- FTNT
+def ftnt():
+    t = "FTNT"
+    c, rows = base(t)
+    pr = casekit.link(1262039, "0001262039-26-000018", "ftntq2-2026ex991.htm", "EX-99.1 8-K 29-jul-2026: resultados 2T26")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-07-29", "amc",
+                         "Resultados 2T26: ingresos $2.048M (+26%), producto $773M (+52%), facturación $2.370M (+33%); supera el techo de su guía y sube la guía anual de ingresos al +19% ($8.020–8.180M)",
+                         [pr, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=round(k["eps_surprise_pct"], 1),
+                         guide_raise=True, guide_change=None,
+                         note="Consenso de finviz: ventas +8,4% y BPA +20,6%. La nota sube la guía anual de ingresos «al +19%» sin dar la cifra anterior en el mismo documento: sin cambio de guía cuantificado. "
+                              "El mercado abrió +7,0% y cerró solo +0,7%.")
+    kpis = [
+        kp("Facturación (billings)", "$2.370M en el 2T26 (+33%); guía 3T $2.250–2.350M; guía 2026 $9.350–9.550M", "—", *pr),
+        kp("Producto frente a servicio", "Producto $773M (+52%): ciclo de renovación de firewalls; guía de servicio 2026 $5.180–5.220M", "—", *pr),
+        kp("Guía 3T26", "Ingresos $2.010–2.100M; margen operativo ajustado 35–37%; BPA ajustado $0,83–0,87", "—", *pr),
+        kp("Cartera (RPO)", "$7.730M a jun-2026 (XBRL)", "$6.640M (jun-2025)", "quarters.json (XBRL 10-Q 2T26)")]
+    ins = casekit.insider_supply(f"{U}/data/{t}/insiders.json")
+    events = [dict(date="2026-10-28", kind="earnings", text="Resultados 3T26 tras el cierre [VERIFY: fecha de finviz]", src=[fx])]
+    text = dict(
+        narrative_flags=["El crecimiento lo tira el producto (+52%, ciclo de renovación de firewalls): es menos recurrente que el servicio y suele ser cíclico."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: +26% con aceleración {m.accel_pp:pp}, beat amplio (+8% en ingresos, +21% en BPA) y guía subida; el mercado no lo siguió (+0,7% al cierre).",
+        financials_note="Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión.",
+        quality=["Margen operativo del 34% GAAP y FCF por encima del beneficio.", "Sin ampliaciones ni filings de oferta en 12 meses."],
+        supply_read=f"Oferta limpia: sin ampliaciones; deuda reducida a $497M. Ventas de directivos {casekit.usd_m(insider_total(t))} en 12 meses, en su mayoría en planes 10b5-1.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 45 (finviz), caro para un ciclo de hardware. DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El que más acelera de seguridad gracias al hardware; más caro por PER que PANW y ZS pese a crecer con producto.",
+        risks=["Ciclo de renovación de firewalls: alto ahora, puede bajar en 2027.", "Valoración (PER adelantado ≈ 45).", "Resultados el 28-oct tras el cierre."],
+        plan=["Resultados del 3T26 el 28-oct tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+              "**EP A/B si:** ingresos ≥ $2.100M (techo de la guía), facturación ≥ $2.350M y nueva subida de la guía anual.",
+              "**D si:** facturación por debajo de $2.250M: el ciclo de producto se estaría agotando.",
+              "Técnica: en tendencia (EMA alineadas), sobre la SMA 200 y −14% desde el máximo. Sin setup confirmado."],
+        verdict="Aceleración real por el ciclo de renovación de firewalls, con oferta limpia y en tendencia, pero cara y dependiente del producto. El 28-oct dirá si el ciclo sigue.")
+    header = dict(verdict="+26% con producto +52% y guía subida; en tendencia, pero caro.",
+                  setup="En tendencia; −14% desde máximos.", catalyst="2T26: ventas +8%, BPA +21% frente al consenso; guía subida.",
+                  quality="Margen 34%; FCF > beneficio.", supply="Limpia.", group="El que más acelera de seguridad.")
+    finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, fx])
 
 
 if __name__ == "__main__":

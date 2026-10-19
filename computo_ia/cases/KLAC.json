@@ -12,11 +12,11 @@
   "group": "Equipos de fabricación de semiconductores (ASML, AMAT, LRCX, KLAC)",
   "subgroup": "equipos",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Inspección y metrología. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q4fy26",
+  "descriptor": "Equipos de inspección y metrología para fabricar chips (control de proceso), más servicio de la base instalada. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001193125-26-397978",
   "last_filing_seen_date": "2026-09-22",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 165.74000549316406,
@@ -285,32 +285,85 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía 1T FY27",
+    "value": "Ingresos $4.000M ± $200M; BPA ajustado $1,16 ± $0,10; margen bruto 62,5% ± 1",
+    "prior": "—",
+    "src": [
+     [
+      "Quartr: guía del 1T FY27 en la conferencia del 28-jul (coincide con TIKR y Trefis)",
+      "https://quartr.com/events/kla-corporation-klac-q4-2026_3YEy3X5h"
+     ]
+    ]
+   },
+   {
+    "name": "Mercado de equipos (WFE) 2026",
+    "value": "Parte baja de $150.000M, según la compañía (subida)",
+    "prior": "—",
+    "src": [
+     [
+      "Quartr: guía del 1T FY27 en la conferencia del 28-jul (coincide con TIKR y Trefis)",
+      "https://quartr.com/events/kla-corporation-klac-q4-2026_3YEy3X5h"
+     ]
+    ]
+   },
+   {
+    "name": "Caja y retorno",
+    "value": "FCF $817M en el 4T y $3.770M en FY26; $3.350M devueltos en FY26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 28-jul-2026: resultados 4T FY26",
+      "https://www.sec.gov/Archives/edgar/data/319201/000031920126000024/exhibit991earningsrelease7.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Margen bruto",
+    "value": "61,3% en el 4T FY26",
+    "prior": "62,0% en el 4T FY25",
+    "src": [
+     [
+      "quarters.json (XBRL 10-K FY26)",
+      ""
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q4fy26",
    "type": "earnings",
    "date": "2026-07-28",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $3.657,6M (+15% interanual)",
+   "headline": "Resultados 4T FY26: ingresos récord $3.658M (+15%), por encima del punto medio de su guía; guía del 1T FY27 $4.000M ± $200M (+9% secuencial)",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-28",
+     "EX-99.1 8-K 28-jul-2026: resultados 4T FY26",
      "https://www.sec.gov/Archives/edgar/data/319201/000031920126000024/exhibit991earningsrelease7.htm"
+    ],
+    [
+     "Quartr: guía del 1T FY27 en la conferencia del 28-jul (coincide con TIKR y Trefis)",
+     "https://quartr.com/events/kla-corporation-klac-q4-2026_3YEy3X5h"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 4,51% y ventas 1,38%; BPA próximo trimestre $1,18",
+     "https://finviz.com/quote.ashx?t=KLAC"
     ]
    ],
    "rev_growth_yoy": 0.15208012244148428,
    "rev_growth_yoy_prev": 0.11493492226159141,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
+   "rev_surprise_pct": 1.4,
+   "eps_surprise_pct": 4.5,
    "guide_raise": null,
    "guide_change_pct": null,
    "gm_change_bp": -61,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +1,4% y BPA +4,5%. La guía se da en la conferencia (Quartr, TIKR y Trefis coinciden): ingresos $4.000M ± $200M, BPA ajustado $1,16 ± $0,10, margen bruto 62,5% ± 1; sube la previsión del mercado de equipos de 2026 a la parte baja de $150.000M. El mercado lo vendió: −6,9% en la apertura y −10,8% al cierre.",
    "gap_pct": -6.9,
    "rvol": 1.57,
    "close_in_range": 0.02,
@@ -321,12 +374,32 @@
    "reaction_close_chg_pct": -10.8
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $112,3M; 7 marcados",
+   "shares": 399662.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "WALLACE RICHARD P (President and CEO) $60,9M, máx. 18% en 2026-T3; Higgins Bren D. (EVP & Chief Financial Officer) $16,8M, máx. 16% en 2026-T3; Lorig Brian (EVP, KLA Global Services) $12,4M, máx. 43% en 2026-T3; Wilkinson Mary Beth (EVP, CLO and Secretary) $12,3M, máx. 60% en 2026-T3. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 1311024754.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-08-06): $159.300,0M de no afiliados a 2025-12-31 ÷ cierre de $121,51 = 1.311,0M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -488,24 +561,29 @@
  },
  "events": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-28) + 91 días]",
-   "src": []
+   "text": "Resultados 1T FY27 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 4,51% y ventas 1,38%; BPA próximo trimestre $1,18",
+     "https://finviz.com/quote.ashx?t=KLAC"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "Margen y caja de primera, pero guía menos explosiva que LRCX y −44% desde máximos.",
+  "setup": "−44% desde máximos; sin setup.",
+  "catalyst": "4T FY26: ventas +1%, BPA +5%; guía +9% secuencial; −11% al cierre.",
+  "quality": "Margen 61%; FCF ≈ beneficio.",
+  "supply": "Sin dilución.",
+  "group": "Calidad, menos aceleración."
  },
  "snapshot": [
   [
    "Negocio",
-   "Inspección y metrología"
+   "Equipos de inspección y metrología para fabricar chips (control de proceso), más servicio de la base instalada"
   ],
   [
    "Subgrupo · pureza",
@@ -537,21 +615,46 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "El informe batió por poco y la guía (+9% secuencial) es menos que la de LRCX (+20%): el mercado premia al que más acelera.",
+   "La cotización por acción refleja un desdoblamiento (BPA de $1,05 por trimestre): compárese siempre con cifras ajustadas por acciones."
+  ],
+  "catalyst_read": "El 4T FY26 puntúa {m.cat_q4fy26_score:sc}: +15% con aceleración {m.accel_pp:pp}, beat pequeño y guía sólida, pero el mercado lo vendió un 11%.",
+  "financials_note": "Trimestres de XBRL hasta el 4T FY26. El beneficio operativo no sale de companyfacts con la etiqueta estándar.",
+  "quality": [
+   "El margen más alto del universo de equipos (≈ 61%) y FCF ≈ 100% del beneficio.",
+   "Fondo de comercio e intangibles = 32% del patrimonio."
+  ],
+  "supply_read": "Sin dilución: recompras y dividendo ($0,23 por acción). Ventas de directivos $112,3M en 12 meses, en planes 10b5-1.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 25 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El de mayor calidad entre los equipos (inspección: menos cíclico), pero el que menos acelera; −44% desde máximos.",
+  "risks": [
+   "Ciclo de inversión de las fábricas.",
+   "Exportaciones a China.",
+   "Resultados el 28-oct tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 1T FY27 el 28-oct tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 23-oct.",
+   "**EP A/B si:** ingresos ≥ $4.200M (techo de la guía), BPA ≥ $1,24 (+5% sobre el consenso de $1,18) y guía del 2T FY27 con más crecimiento secuencial.",
+   "**D si:** ingresos en el punto medio y guía plana: seguiría por detrás de LRCX.",
+   "Técnica: −44% desde el máximo, bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Calidad de primera (margen 61%, caja) con una guía sólida pero menos explosiva que la de LRCX, y el mercado vendiéndolo. El 28-oct medirá la aceleración."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-28",
+   "EX-99.1 8-K 28-jul-2026: resultados 4T FY26",
    "https://www.sec.gov/Archives/edgar/data/319201/000031920126000024/exhibit991earningsrelease7.htm"
+  ],
+  [
+   "Quartr: guía del 1T FY27 en la conferencia del 28-jul (coincide con TIKR y Trefis)",
+   "https://quartr.com/events/kla-corporation-klac-q4-2026_3YEy3X5h"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 4,51% y ventas 1,38%; BPA próximo trimestre $1,18",
+   "https://finviz.com/quote.ashx?t=KLAC"
   ]
  ]
 }

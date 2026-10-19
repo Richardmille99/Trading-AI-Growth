@@ -12,11 +12,11 @@
   "group": "Gestión térmica y refrigeración líquida (VRT, MOD, NVT)",
   "subgroup": "refrigeracion",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Envolventes, conexiones y refrigeración líquida. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Envolventes, conexiones y protección eléctrica, y refrigeración líquida para centros de datos. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0000897069-26-001851",
   "last_filing_seen_date": "2026-10-16",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 142.02999877929688,
@@ -285,32 +285,81 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Crecimiento orgánico",
+    "value": "+47% en el 2T26; guía 2026 orgánica +32–34%",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/q22026nvtpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Centros de datos y refrigeración líquida",
+    "value": "Centros de datos y productos nuevos > 30 puntos del crecimiento; nueva ampliación de fábrica de refrigeración líquida",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/q22026nvtpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 2026",
+    "value": "Ventas +37–39% (reportado); BPA ajustado $5,00–5,10",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/q22026nvtpressrelease.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Caja",
+    "value": "Flujo operativo $189M (+107%) y FCF $167M (+125%) en el 2T26",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 31-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/q22026nvtpressrelease.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-31",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $1.471,3M (+53% interanual)",
+   "headline": "Resultados 2T26: ventas $1.471M (+53%, +47% orgánico), BPA ajustado $1,45 (+69%); sube «significativamente» la guía 2026 a crecimiento de ventas del +37–39% y BPA ajustado de $5,00–5,10",
    "sources": [
     [
-     "8-K 2026-07-31 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/nvt-20260731.htm"
+     "EX-99.1 8-K 31-jul-2026: resultados 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/q22026nvtpressrelease.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 25,04% y ventas 16,90%; BPA próximo trimestre $1,39",
+     "https://finviz.com/quote.ashx?t=NVT"
     ]
    ],
    "rev_growth_yoy": 0.5276710621949954,
    "rev_growth_yoy_prev": 0.5346595823551217,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 16.9,
+   "eps_surprise_pct": 25.0,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": -68,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +16,9% y BPA +25,0%. Centros de datos y productos nuevos aportan más de 30 puntos del crecimiento. La nota no da la guía anterior: sin cambio cuantificado. El mercado abrió −0,9% y cerró +3,6%.",
    "gap_pct": -0.86,
    "rvol": 1.42,
    "close_in_range": 0.83,
@@ -321,12 +370,49 @@
    "reaction_close_chg_pct": 3.63
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "shelf_venta",
+   "kind": "shelf",
+   "name": "Folleto para ventas de accionistas existentes (sep-2026)",
+   "shares": null,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": "2026-09-16",
+   "notes": "Permite a accionistas que se nombren en un suplemento vender acciones ordinarias; la compañía no recibe nada. [VERIFY: si hay accionistas nombrados y cuántas acciones]",
+   "src": [
+    [
+     "424B5 16-sep-2026: folleto para ventas de accionistas",
+     "https://www.sec.gov/Archives/edgar/data/1720635/000110465926108238/tm2625115-2_424b5.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $61,8M; 11 marcados",
+   "shares": 493088.713,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Zawoyski Sara E (President-Systems Protection) $18,1M, máx. 59% en 2025-T4, 5 ventas sin 10b5-1; Lammers Jon D. (EVP, Gen. Counsel & Secretary) $10,7M, máx. 62% en 2025-T3, 7 ventas sin 10b5-1; Wozniak Beth (Chair & CEO) $9,8M, máx. 6% en 2026-T3, 8 ventas sin 10b5-1; Heath Lynnette R (EVP & Chief HR Officer) $8,3M, máx. 55% en 2025-T4, 4 ventas sin 10b5-1. Compras en mercado abierto: 2.000 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 114267850.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-17): $11.651,9M de no afiliados a 2025-12-31 ÷ cierre de $101,97 = 114,3M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -446,22 +532,27 @@
   {
    "date": "2026-10-30",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-31) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 25,04% y ventas 16,90%; BPA próximo trimestre $1,39",
+     "https://finviz.com/quote.ashx?t=NVT"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+53% (+47% orgánico) y guía subida; líder enfriado con PER ≈ 21.",
+  "setup": "Líder enfriado; −23% desde máximos.",
+  "catalyst": "2T26: ventas +17%, BPA +25% frente al consenso.",
+  "quality": "Mucho fondo de comercio.",
+  "supply": "Folleto para secundaria; directivos vendiendo.",
+  "group": "Líder enfriado."
  },
  "snapshot": [
   [
    "Negocio",
-   "Envolventes, conexiones y refrigeración líquida"
+   "Envolventes, conexiones y protección eléctrica, y refrigeración líquida para centros de datos"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +584,47 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Folleto de septiembre para que accionistas existentes vendan: posible oferta secundaria a la vista.",
+   "Directivos vendiendo con frecuencia fuera de planes 10b5-1 (11 marcados)."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +53% (+47% orgánico), beat amplio (+17% en ventas, +25% en BPA) y guía subida; reacción tibia (+3,6%).",
+  "financials_note": "Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión. La caja no sale de companyfacts con la etiqueta estándar.",
+  "quality": [
+   "Fondo de comercio e intangibles = 112% del patrimonio: compras recientes.",
+   "El flujo operativo va por debajo del beneficio en el 1S26."
+  ],
+  "supply_read": "Folleto para ventas de accionistas (sep-2026) y deuda nueva (8-K 2.03 de septiembre). Ventas de directivos $61,8M en 12 meses, 11 marcados y muchas fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 21 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "«Líder enfriado» del universo: crece más que VRT en el 2T (+53% frente a +24%) y es más barato por PER.",
+  "risks": [
+   "Posible oferta secundaria.",
+   "Ventas de directivos.",
+   "Integración de compras.",
+   "Resultados el 30-oct antes de la apertura."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 30-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 27-oct.",
+   "**EP A/B si:** BPA ≥ $1,46 (+5% sobre el consenso de $1,39 de finviz), orgánico ≥ +30% y otra subida de la guía.",
+   "**D si:** orgánico por debajo del +30% con la guía mantenida.",
+   "Técnica: líder enfriado (−23% desde el máximo, en la SMA 200). Sin setup."
+  ],
+  "verdict": "El que más crece de refrigeración (+47% orgánico) con PER razonable y señal de líder enfriado; en contra, posible secundaria y directivos vendiendo. Candidato a EP el 30-oct."
  },
  "sources": [
   [
-   "8-K 2026-07-31 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/nvt-20260731.htm"
+   "EX-99.1 8-K 31-jul-2026: resultados 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/q22026nvtpressrelease.htm"
+  ],
+  [
+   "424B5 16-sep-2026: folleto para ventas de accionistas",
+   "https://www.sec.gov/Archives/edgar/data/1720635/000110465926108238/tm2625115-2_424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 25,04% y ventas 16,90%; BPA próximo trimestre $1,39",
+   "https://finviz.com/quote.ashx?t=NVT"
   ]
  ]
 }

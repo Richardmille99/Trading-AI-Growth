@@ -12,11 +12,11 @@
   "group": "Ingeniería e instalación (PWR, FIX)",
   "subgroup": "construccion",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "Construcción de red eléctrica e infraestructura. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Ingeniería y construcción de red eléctrica, generación y grandes instalaciones (incluidos centros de datos) en EE. UU., con compras recientes. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001193125-26-391989",
   "last_filing_seen_date": "2026-09-15",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 631.8599853515625,
@@ -285,32 +285,92 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Cartera de pedidos",
+    "value": "Total $53.400M y RPO $33.600M a jun-2026 (récords)",
+    "prior": "RPO $19.160M (jun-2025) · $26.240M (mar-2026)",
+    "src": [
+     [
+      "EX-99.1 8-K 30-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Book-to-bill (2T26, sobre RPO, derivado)",
+    "value": "≈ 1,76: (RPO final − inicial + ingresos) ÷ ingresos = ($33.550M − $26.240M + $9.557M) ÷ $9.557M; incluye cartera de las compras",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 30-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 2026",
+    "value": "Ingresos $39.300–39.700M; BPA ajustado $16,45–16,95; EBITDA ajustado $4.090–4.210M; FCF $2.000–2.500M",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 30-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Compras de 2026",
+    "value": "Phalcon (≈ 4.100 empleados, electricidad para centros de datos) y Enerfab (≈ 2.100, fabricación especial): $1.200–1.400M de ingresos en 2026",
+    "prior": "—",
+    "src": [
+     [
+      "EX-99.1 8-K 30-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Recompras",
+    "value": "Programa nuevo de $1.000M (mayo-2026)",
+    "prior": "$135M ejecutados en el anterior",
+    "src": [
+     [
+      "EX-99.1 8-K 30-jul-2026: resultados 2T26",
+      "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-30",
    "time_et": "premarket",
-   "headline": "Resultados jun-26: ingresos $9.557,0M (+41% interanual)",
+   "headline": "Resultados 2T26: ingresos $9.557M (+41%), cartera total récord de $53.400M (RPO $33.600M); sube «significativamente» la guía 2026 a ingresos de $39.300–39.700M y BPA ajustado de $16,45–16,95",
    "sources": [
     [
-     "EX-99.1 8-K 2026-07-30",
+     "EX-99.1 8-K 30-jul-2026: resultados 2T26",
      "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 28,21% y ventas 11,00%; BPA próximo trimestre $4,95",
+     "https://finviz.com/quote.ashx?t=PWR"
     ]
    ],
    "rev_growth_yoy": 0.41104194931438864,
    "rev_growth_yoy_prev": 0.2633346777182164,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
+   "rev_surprise_pct": 11.0,
+   "eps_surprise_pct": 28.2,
+   "guide_raise": true,
    "guide_change_pct": null,
    "gm_change_bp": 129,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +11,0% y BPA +28,2%. La guía sube «significativamente» con ayuda de las compras de Phalcon y Enerfab ($1.200–1.400M de ingresos en 2026); la nota no da la cifra anterior: sin cambio de guía cuantificado. EP de verdad: hueco del +15,3% y cierre del +17,3% con volumen 2,4×.",
    "gap_pct": 15.3,
    "rvol": 2.42,
    "close_in_range": 0.52,
@@ -321,12 +381,32 @@
    "reaction_close_chg_pct": 17.26
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $137,5M; 6 marcados",
+   "shares": 191994.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "Austin Earl C. Jr. (consejero, President and CEO) $120,2M, máx. 22% en 2026-T2, 26 ventas sin 10b5-1; WAYNE DONALD (EVP and General Counsel) $6,2M, máx. 29% en 2025-T4, 5 ventas sin 10b5-1; Ducey Gerald A JR (Pres. - Strategic Operations) $3,4M, máx. 28% en 2025-T4, 1 ventas sin 10b5-1; NOBEL PAUL (Chief Accounting Officer & SVP) $3,0M, máx. 33% en 2026-T2, 1 ventas sin 10b5-1. Compras en mercado abierto: 0 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 147587817.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-19): $55.800,0M de no afiliados a 2025-06-30 ÷ cierre de $378,08 = 147,6M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -446,22 +526,27 @@
   {
    "date": "2026-10-29",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-30) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 antes de la apertura [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 28,21% y ventas 11,00%; BPA próximo trimestre $4,95",
+     "https://finviz.com/quote.ashx?t=PWR"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+41%, cartera récord de $53.400M y EP en julio: el líder del universo.",
+  "setup": "En tendencia; −20% desde máximos.",
+  "catalyst": "2T26: ventas +11%, BPA +28%; guía subida; EP +17%.",
+  "quality": "Mucho fondo de comercio; caja récord.",
+  "supply": "Bonos; CEO vendiendo.",
+  "group": "Líder del universo."
  },
  "snapshot": [
   [
    "Negocio",
-   "Construcción de red eléctrica e infraestructura"
+   "Ingeniería y construcción de red eléctrica, generación y grandes instalaciones (incluidos centros de datos) en EE. UU., con compras recientes"
   ],
   [
    "Subgrupo · pureza",
@@ -493,21 +578,47 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Parte del crecimiento y de la cartera viene de compras (Phalcon, Enerfab): el orgánico es menor que el +41%.",
+   "El consejero delegado ha vendido $120M en 12 meses, casi todo fuera de planes 10b5-1."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +41% con aceleración {m.accel_pp:pp}, beat amplio (+11% en ingresos, +28% en BPA), guía subida y EP con volumen.",
+  "financials_note": "Trimestres de XBRL hasta el 2T26; regenerados el 19-oct con el 4T derivado de la misma versión (corrige el neto de los 4T).",
+  "quality": [
+   "Fondo de comercio e intangibles = 115% del patrimonio: crecimiento con compras.",
+   "Flujo operativo récord ($1.095M) en el 2T26."
+  ],
+  "supply_read": "Sin ampliaciones: bonos en agosto y recompras de hasta $1.000M. Ventas de directivos $137,5M en 12 meses, casi todas del consejero delegado y fuera de plan.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 32 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El líder del universo por nota de negocio y el único con EP reciente; la cartera ($53.400M) solo la supera GEV.",
+  "risks": [
+   "Integración de compras grandes.",
+   "Ventas del consejero delegado.",
+   "Mano de obra especializada.",
+   "Resultados el 29-oct antes de la apertura."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 29-oct antes de la apertura [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 26-oct.",
+   "**EP A/B si:** BPA ≥ $5,20 (+5% sobre el consenso de $4,95 de finviz), cartera por encima de $53.400M y otra subida de la guía.",
+   "**D si:** cartera plana: el crecimiento dependería solo de las compras.",
+   "Técnica: en tendencia (EMA alineadas), sobre la SMA 200 y −20% desde el máximo. Sin setup confirmado."
+  ],
+  "verdict": "El mejor caso del universo: crecimiento +41%, cartera récord, guía subida y EP con volumen. Lo que vigilar son las compras y las ventas del consejero delegado."
  },
  "sources": [
   [
-   "EX-99.1 8-K 2026-07-30",
+   "EX-99.1 8-K 30-jul-2026: resultados 2T26",
    "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm"
+  ],
+  [
+   "424B5 5-ago-2026: bonos senior",
+   "https://www.sec.gov/Archives/edgar/data/1050915/000119312526335074/d115922d424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 28,21% y ventas 11,00%; BPA próximo trimestre $4,95",
+   "https://finviz.com/quote.ashx?t=PWR"
   ]
  ]
 }

@@ -48,7 +48,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Envolventes, conexiones y refrigeración líquida"
   },
   {
@@ -96,7 +96,7 @@
    "profile": "industrial_energy",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Construcción de red eléctrica e infraestructura"
   },
   {

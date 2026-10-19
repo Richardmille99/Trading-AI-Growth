@@ -22,7 +22,7 @@
    "profile": "generic",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "AWS + comercio electrónico y publicidad"
   },
   {
@@ -34,7 +34,7 @@
    "profile": "generic",
    "filer": "10-K/10-Q",
    "fiscal_year_end": "diciembre",
-   "status": "fundamentales",
+   "status": "auditado",
    "notes": "Google Cloud, TPU propias, búsqueda y YouTube"
   },
   {

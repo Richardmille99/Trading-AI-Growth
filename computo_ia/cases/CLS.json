@@ -12,11 +12,11 @@
   "group": "Servidores y ensamblaje de sistemas de IA (SMCI, DELL, CLS)",
   "subgroup": "servidores",
   "synthetic": false,
-  "primary_catalyst": "q_202606",
-  "descriptor": "EMS: switches y servidores para hiperescalares. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "primary_catalyst": "q2_26",
+  "descriptor": "Fabricación por encargo (EMS) de switches, servidores y almacenamiento para hiperescalares (CCS) y de electrónica para aeroespacial, defensa e industria (ATS). Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
   "last_filing_seen": "0001193125-26-410716",
   "last_filing_seen_date": "2026-10-01",
-  "phase": "fundamentales"
+  "phase": "auditado"
  },
  "market": {
   "price": 303.80999755859375,
@@ -243,32 +243,85 @@
   ]
  },
  "manual": {
-  "kpis": [],
+  "kpis": [
+   {
+    "name": "Guía 3T26",
+    "value": "Ingresos $5.250–5.550M; BPA ajustado $2,88–3,08; margen operativo ajustado ≈ 8,4%",
+    "prior": "—",
+    "src": [
+     [
+      "EMSNow: resultados 2T26 y guía (reproduce la nota de la compañía)",
+      "https://www.emsnow.com/?p=55437"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 2026",
+    "value": "Ingresos $20.500M; BPA ajustado $11,30",
+    "prior": "$19.000M y $10,15",
+    "src": [
+     [
+      "EMSNow: resultados 2T26 y guía (reproduce la nota de la compañía)",
+      "https://www.emsnow.com/?p=55437"
+     ]
+    ]
+   },
+   {
+    "name": "Margen operativo ajustado",
+    "value": "8,2% en el 2T26, máximo histórico",
+    "prior": "—",
+    "src": [
+     [
+      "EMSNow: resultados 2T26 y guía (reproduce la nota de la compañía)",
+      "https://www.emsnow.com/?p=55437"
+     ]
+    ]
+   },
+   {
+    "name": "Ampliación de capital",
+    "value": "9.677.419 acciones nuevas a $310 (≈ $2.950M netos) en agosto de 2026, para capital circulante y capex; 124,66M acciones después",
+    "prior": "—",
+    "src": [
+     [
+      "424B5 6-ago-2026: 9.677.419 acciones a $310",
+      "https://www.sec.gov/Archives/edgar/data/1030894/000110465926091994/tm2621135d3_424b5.htm"
+     ]
+    ]
+   }
+  ],
   "nongaap_adj_pct": null,
   "nongaap_recurring_items": null
  },
  "catalysts": [
   {
-   "id": "q_202606",
+   "id": "q2_26",
    "type": "earnings",
    "date": "2026-07-27",
    "time_et": "after-hours",
-   "headline": "Resultados jun-26: ingresos $4.698,6M (+62% interanual)",
+   "headline": "Resultados 2T26: ingresos $4.699M (+62%), BPA ajustado $2,54 (+83%); sube la guía 2026 a ingresos de $20.500M (antes $19.000M) y BPA ajustado de $11,30 (antes $10,15)",
    "sources": [
     [
-     "8-K 2026-07-27 (Item 2.02)",
-     "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000043/cls-20260727.htm"
+     "8-K 27-jul-2026: estados resumidos 2T26",
+     "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000043/cls-20260630prcondensedfs.htm"
+    ],
+    [
+     "EMSNow: resultados 2T26 y guía (reproduce la nota de la compañía)",
+     "https://www.emsnow.com/?p=55437"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 10,20% y ventas 7,12%; BPA próximo trimestre $2,98",
+     "https://finviz.com/quote.ashx?t=CLS"
     ]
    ],
    "rev_growth_yoy": 0.6239026750535701,
    "rev_growth_yoy_prev": 0.5279770444763272,
-   "rev_surprise_pct": null,
-   "eps_surprise_pct": null,
-   "guide_raise": null,
-   "guide_change_pct": null,
+   "rev_surprise_pct": 7.1,
+   "eps_surprise_pct": 10.2,
+   "guide_raise": true,
+   "guide_change_pct": 7.9,
    "gm_change_bp": -53,
    "nonrecurring_in_beat": false,
-   "note": "Fase 1: sin consenso, guía ni sorpresa. [VERIFY: consenso (finviz o búsqueda web) y guía del PR]",
+   "note": "Consenso de finviz: ventas +7,1% y BPA +10,2%. Guía anual de ingresos +7,9% y de BPA ajustado +11,3% frente a la anterior. La nota de resultados no está en el 8-K de EDGAR (solo los estados resumidos): la guía sale de EMSNow, que reproduce la nota. EP: hueco del +3,1% y cierre del +10,0% con volumen 3,8×.",
    "gap_pct": 3.07,
    "rvol": 3.8,
    "close_in_range": 0.98,
@@ -279,12 +332,49 @@
    "reaction_close_chg_pct": 10.04
   }
  ],
- "supply": [],
+ "supply": [
+  {
+   "id": "follow26",
+   "kind": "secondary",
+   "name": "Ampliación de agosto de 2026 (9,68M acciones a $310)",
+   "shares": 9677419,
+   "capacity_usd": null,
+   "price_basis": 310.0,
+   "gate": "dated",
+   "date": "2026-08-06",
+   "notes": "Colocación primaria: ≈ 8,4% más acciones (124,66M después; hasta 1,45M más si los colocadores ejercen su opción). La acción cotiza hoy por debajo de $310: los que entraron en la ampliación están en pérdidas.",
+   "src": [
+    [
+     "424B5 6-ago-2026: 9.677.419 acciones a $310",
+     "https://www.sec.gov/Archives/edgar/data/1030894/000110465926091994/tm2621135d3_424b5.htm"
+    ]
+   ]
+  },
+  {
+   "id": "insiders",
+   "kind": "insider",
+   "name": "Ventas de insiders 12 meses: $252,7M; 7 marcados",
+   "shares": 743959.0,
+   "capacity_usd": null,
+   "price_basis": null,
+   "gate": "live",
+   "date": null,
+   "flagged": true,
+   "notes": "MIONIS ROBERT (consejero, Chief Executive Off) $130,7M, máx. 24% en 2026-T3; Phillips Jason (President) $36,9M, máx. 91% en 2026-T1, 2 ventas sin 10b5-1; Cooper Todd C (President) $33,3M, máx. 45% en 2026-T1, 3 ventas sin 10b5-1; Etienvre Yann L (Chief Operations Officer) $28,1M, máx. 100% en 2026-T1, 4 ventas sin 10b5-1. Compras en mercado abierto: 6.000 acciones.",
+   "src": [
+    [
+     "Forms 4 (EDGAR), insiders.json",
+     ""
+    ]
+   ]
+  }
+ ],
  "supply_context": {
-  "float_shares": null,
+  "float_shares": 114662737.0,
   "window_days": 56,
   "ep_recent_days": null,
-  "atm_used_last_q": false
+  "atm_used_last_q": false,
+  "float_note": "Portada del 10-K (2026-02-27): $17.900,0M de no afiliados a 2025-06-30 ÷ cierre de $156,11 = 114,7M acciones; la portada excluye a los que trata como afiliados, así que es conservador"
  },
  "peers": [
   {
@@ -448,22 +538,27 @@
   {
    "date": "2026-10-26",
    "kind": "earnings",
-   "text": "Próximos resultados [VERIFY: fecha estimada = últimos resultados (2026-07-27) + 91 días]",
-   "src": []
+   "text": "Resultados 3T26 tras el cierre [VERIFY: fecha de finviz]",
+   "src": [
+    [
+     "finviz 2026-10-19: sorpresa BPA 10,20% y ventas 7,12%; BPA próximo trimestre $2,98",
+     "https://finviz.com/quote.ashx?t=CLS"
+    ]
+   ]
   }
  ],
  "header": {
-  "verdict": "Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.",
-  "setup": "{m.adr_pct:n1}% de ADR; ver §8.",
-  "catalyst": "Solo los últimos resultados; sin consenso ni sorpresa.",
-  "quality": "Nota de fundamentales {m.fund_score:sc}; {m.flags_on:int} banderas activas.",
-  "supply": "Fase 1: sin auditoría de oferta. [VERIFY: Fase 2]",
-  "group": "Pares = resto del universo."
+  "verdict": "+62% y guía +8%, pero ampliación del 8% en agosto y directivos vendiendo.",
+  "setup": "−34% desde máximos; sin setup.",
+  "catalyst": "2T26: ventas +7%, BPA +10%; guía +8%; EP con volumen.",
+  "quality": "Margen de ensamblador.",
+  "supply": "Ampliación del 8%; ventas del CEO.",
+  "group": "El ensamblador del universo."
  },
  "snapshot": [
   [
    "Negocio",
-   "EMS: switches y servidores para hiperescalares"
+   "Fabricación por encargo (EMS) de switches, servidores y almacenamiento para hiperescalares (CCS) y de electrónica para aeroespacial, defensa e industria (ATS)"
   ],
   [
    "Subgrupo · pureza",
@@ -495,21 +590,51 @@
   ]
  ],
  "text": {
-  "narrative_flags": [],
-  "catalyst_read": "Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.",
-  "financials_note": "Trimestres de XBRL (companyfacts). [VERIFY: contrastar el último trimestre con el EX-99.1]",
-  "quality": [],
-  "supply_read": "Fase 1: oferta sin auditar. [VERIFY: recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2]",
-  "valuation": [],
-  "group_read": "",
-  "risks": [],
-  "plan": [],
-  "verdict": ""
+  "narrative_flags": [
+   "Amplió capital un 8% en agosto a $310, justo después de un informe fuerte: la acción ha vuelto por debajo de ese precio.",
+   "Ensamblador para hiperescalares (switches y servidores): margen bajo y dependencia de pocos clientes."
+  ],
+  "catalyst_read": "El 2T26 puntúa {m.cat_q2_26_score:sc}: +62% con aceleración {m.accel_pp:pp}, beat amplio (+7% en ingresos, +10% en BPA) y guía anual +8%; EP con volumen 3,8×.",
+  "financials_note": "Trimestres de XBRL (companyfacts) desde 2024 (10 trimestres): Celestica pasó a presentar 10-K/10-Q como emisor doméstico.",
+  "quality": [
+   "Margen bruto del 12% (ensamblaje): el perfil de fabricación (gm 25%) lo penaliza menos que el de semis.",
+   "Flujo operativo por debajo del beneficio en varios trimestres: inventario y cobros crecen con el volumen."
+  ],
+  "supply_read": "Ampliación de capital del 8% en agosto (≈ $2.950M) y ventas de directivos fuertes: $252,7M en 12 meses, con el consejero delegado vendiendo $130,7M.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 16 (finviz), el más barato del universo. DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El ensamblador del universo: crece como los chips (+62%) con margen de fabricante; más barato que SMCI y DELL por PER.",
+  "risks": [
+   "Concentración en hiperescalares.",
+   "Dilución reciente y directivos vendiendo.",
+   "Margen bajo: poco colchón si baja el volumen.",
+   "Resultados el 26-oct tras el cierre."
+  ],
+  "plan": [
+   "Resultados del 3T26 el 26-oct tras el cierre [VERIFY: fecha de finviz]: la ventana de ≤ 3 sesiones empieza el 21-oct.",
+   "**EP A/B si:** ingresos ≥ $5.550M (techo de la guía), BPA ≥ $3,13 (+5% sobre el consenso de $2,98) y guía anual por encima de $20.500M.",
+   "**D si:** ingresos dentro de la guía sin subirla: tras la ampliación, el mercado pediría más.",
+   "Técnica: −34% desde el máximo, bajo la SMA 200. Sin setup."
+  ],
+  "verdict": "Crecimiento de chip (+62%) con valoración de ensamblador y guía subida, pero amplió capital un 8% y los directivos venden. El 26-oct decide."
  },
  "sources": [
   [
-   "8-K 2026-07-27 (Item 2.02)",
-   "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000043/cls-20260727.htm"
+   "8-K 27-jul-2026: estados resumidos 2T26",
+   "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000043/cls-20260630prcondensedfs.htm"
+  ],
+  [
+   "EMSNow: resultados 2T26 y guía (reproduce la nota de la compañía)",
+   "https://www.emsnow.com/?p=55437"
+  ],
+  [
+   "424B5 6-ago-2026: 9.677.419 acciones a $310",
+   "https://www.sec.gov/Archives/edgar/data/1030894/000110465926091994/tm2621135d3_424b5.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 10,20% y ventas 7,12%; BPA próximo trimestre $2,98",
+   "https://finviz.com/quote.ashx?t=CLS"
   ]
  ]
 }
