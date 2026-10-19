@@ -1,0 +1,23 @@
+{
+ "balance": {
+  "goodwill": null,
+  "intangibles": null,
+  "equity": {
+   "val": 130505400000,
+   "end": "2024-12-31",
+   "tag": "ifrs:Equity",
+   "form": "20-F"
+  },
+  "total_assets": {
+   "val": 204079400000,
+   "end": "2024-12-31",
+   "tag": "ifrs:Assets",
+   "form": "20-F"
+  }
+ },
+ "goodwill_intang_to_equity": 0.0,
+ "goodwill_intang_to_assets": 0.0,
+ "impairments": [],
+ "public_float": null,
+ "governance": []
+}

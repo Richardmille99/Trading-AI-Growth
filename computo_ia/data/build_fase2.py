@@ -47,6 +47,8 @@ def base(t):
 
 
 DESC = {
+    "TSM": "Fabricación de chips por encargo (foundry) líder en nodos avanzados (3 y 2 nm) y encapsulado avanzado (CoWoS) para IA; cotiza en Taiwán y con ADR en NYSE",
+    "ASML": "Equipos de litografía (EUV en monopolio, DUV) y servicio de la base instalada para fabricar chips; cotiza en Ámsterdam y Nasdaq",
     "NVDA": "GPU y sistemas completos de IA para centros de datos (Blackwell, redes NVLink e InfiniBand, software CUDA), más gaming y automoción",
     "AVGO": "Chips a medida (ASIC) y de red para IA, conectividad y almacenamiento, más software de infraestructura (VMware)",
     "ARM": "Licencias y royalties de la arquitectura de procesadores Arm para móviles, centros de datos, PC y automoción; controlada por SoftBank",
@@ -656,6 +658,81 @@ def dell():
                   setup="Sobre la SMA 200; −23% desde máximos.", catalyst="2T FY27: ventas +5%, BPA +43%; EP +16%.",
                   quality="Margen al alza; patrimonio negativo.", supply="Salida de Silver Lake.", group="El ensamblador grande.")
     finish(t, c, kpis, [e], [sec, ins], forensic_float(t), text, header, _evento(c, "Resultados 3T FY27"), [pr, sl, fx])
+
+# ---------------------------------------------------------------- TSM
+def tsm():
+    t = "TSM"
+    c, rows = base(t)
+    pr = casekit.link(1046179, "0001046179-26-000726", "a3q26e_withguidancexfinal.htm", "6-K 15-oct-2026: resultados 3T26 y guía del 4T")
+    e, fx = _cat(t, c, rows, "q3_26", "2026-09-30", "2026-10-15", "bmo",
+                 "Resultados 3T26: ingresos $46.720M (+41% en US$; +51% en NT$), margen bruto 66,4%, operativo 58,7%; guía del 4T de $52.300–54.300M (+12–16% secuencial)",
+                 pr, "Consenso de finviz: ventas +0,9% y BPA +1,8%: en línea. La guía del 4T supone otro +12–16% secuencial con margen bruto del 65–67% (a 31,8 NT$/US$). "
+                     "El mercado lo vendió: −3,5% en la apertura y −1,8% al cierre.")
+    kpis = [
+        kp("Tecnología (3T26)", "2 nm 8% · 3 nm 33% · 5 nm 28% · 7 nm 10% de los ingresos por obleas; avanzadas (≤ 7 nm) 79%", "—", *pr),
+        kp("Guía 4T26", "Ingresos $52.300–54.300M; margen bruto 65–67%; operativo 56,5–58,5% (a 31,8 NT$/US$)", "—", *pr),
+        kp("Márgenes", "Bruto 66,4% y operativo 58,7% en el 3T26", "Bruto 59,5% en el 3T25", *pr),
+        kp("Capex y caja", "[VERIFY: la nota no da capex ni flujos; están en el informe de gestión trimestral y en el 20-F]", "—", *pr)]
+    events = _evento(c, "Resultados 4T26")
+    text = dict(
+        narrative_flags=["La foundry de toda la cadena de IA: NVDA, AVGO, AMD y los ASIC dependen de su capacidad en 3 y 2 nm.",
+                         "Riesgo geopolítico (Taiwán) que ningún dato de las cuentas refleja."],
+        catalyst_read="El 3T26 puntúa {m.cat_q3_26_score:sc}: +41% en US$ con aceleración {m.accel_pp:pp}, márgenes récord y guía +12–16% secuencial, en línea con el consenso.",
+        financials_note="Emisor extranjero (20-F/6-K, TIFRS): **trimestres cargados a mano** de sus 9 notas de resultados (3T24–3T26), cada trimestre con las cifras de su propia nota "
+                        "y convertido a US$ con su tipo implícito (ventas NT$ ÷ ventas US$). Sin flujos ni balance (la nota no los da). La nota del 4T25 da para el 4T24 un "
+                        "beneficio operativo de NT$452.713M frente a los NT$425.713M de la nota del propio 4T24: se usa el de su nota. Acciones en ADR (1 ADR = 5 acciones).",
+        quality=["Margen bruto del 57,8% al 66,4% en dos años.", "Sin flujos ni balance en el caso: las banderas de calidad del beneficio salen n/d."],
+        supply_read="Sin dilución conocida (emisor extranjero: sin Forms 4). Recompras y dividendos crecientes.",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 18 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="La base de la cadena: crece menos que NVDA (+41% frente a +106%) pero con márgenes récord y sin competencia real en lo más avanzado.",
+        risks=["Taiwán.", "Concentración en pocos clientes de IA.", "Tipo de cambio NT$/US$.", "Resultados ≈ 15-ene-2027."],
+        plan=["Resultados del 4T26 hacia el 15-ene-2027 [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos ≥ $54.300M (techo de la guía), margen bruto ≥ 66% y guía del 1T27 sin la caída estacional.",
+              "**D si:** margen bruto por debajo del 65%.",
+              "Técnica: sobre la SMA 200 (+6%), bajo las EMA cortas; −14% desde el máximo."],
+        verdict="El monopolio de la fabricación avanzada creciendo al +41% con márgenes récord y guía +12–16% secuencial, a PER ≈ 18. Riesgo geopolítico aparte, el caso más sólido de la cadena.")
+    header = dict(verdict="+41% en US$, márgenes récord y guía +12–16% secuencial; PER ≈ 18.",
+                  setup="Sobre la SMA 200; −14% desde máximos.", catalyst="3T26: en línea con el consenso; −2% al cierre.",
+                  quality="Margen 66%; sin flujos en el caso.", supply="Sin dilución.", group="La base de la cadena.")
+    finish(t, c, kpis, [e], [], {}, text, header, events, [pr, fx])
+
+
+# ---------------------------------------------------------------- ASML
+def asml():
+    t = "ASML"
+    c, rows = base(t)
+    pr = casekit.link(937966, "0001628280-26-065813", "pressreleasefinancialresul.htm", "6-K 14-oct-2026: resultados 3T26")
+    bce = ["BCE: media trimestral del tipo de referencia USD/EUR (serie EXR.Q.USD.EUR.SP00.A)", "https://data.ecb.europa.eu/data/datasets/EXR/EXR.Q.USD.EUR.SP00.A"]
+    e, fx = _cat(t, c, rows, "q3_26", "2026-09-30", "2026-10-14", "bmo",
+                 "Resultados 3T26: ventas €11.662M (+55%), margen bruto 57,5%, neto €4.960M; guía del 4T de €14.200–15.200M y de 2026 de €44.000–45.000M",
+                 pr, "Consenso de finviz: ventas −1,3% y BPA +18,3%. Los clientes piden pedidos para 2029–2030 y ASML estudia subir la capacidad de 2028 por encima del +30% previsto. "
+                     "El mercado lo vendió: −2,4% en la apertura y −3,9% al cierre.", extra=(bce,))
+    kpis = [
+        kp("Demanda", "La oferta prevista para 2027 y 2028 no cubrirá la demanda; algunos clientes quieren pedir para 2029–2030; capacidad de EUV y DUV de inmersión +30% en 2027", "—", *pr),
+        kp("Guía", "4T26 ventas €14.200–15.200M y margen ≈ 57%; 2026 €44.000–45.000M y margen ≈ 56%", "—", *pr),
+        kp("Base instalada", "€3.289M en el 3T26 (mejoras de productividad)", "€2.762M (2T26)", *pr),
+        kp("Recompras y dividendo", "≈ €4.100M recomprados en el 3T26; dividendo a cuenta de €1,88 por acción", "—", *pr)]
+    events = _evento(c, "Resultados 4T26")
+    text = dict(
+        narrative_flags=["La demanda de EUV la fija la inversión en IA de TSMC, Samsung, Intel y la memoria: ASML es un indicador adelantado del capex de los fabricantes.",
+                         "Exportaciones a China restringidas."],
+        catalyst_read="El 3T26 puntúa {m.cat_q3_26_score:sc}: +53% en US$ con aceleración {m.accel_pp:pp}, guía del 4T fuerte y demanda que supera la oferta hasta 2028, pero el mercado lo vendió.",
+        financials_note="Emisor extranjero (20-F/6-K, US GAAP en €): **trimestres cargados a mano** de sus 9 notas de resultados (3T24–3T26) y convertidos a US$ con la media trimestral del BCE. "
+                        "Sin beneficio operativo, flujos ni balance completo (van en imágenes en el 6-K). Acciones derivadas del neto y el BPA del 3T26 (≈ 383,0M).",
+        quality=["Margen bruto del 57,5% con mezcla de base instalada al alza.", "Sin flujos en el caso: banderas de calidad n/d."],
+        supply_read="Sin dilución: recompras de ≈ €4.100M en el trimestre (programa 2026–2028).",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 27 (finviz). DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El monopolio de la litografía EUV: crece más que AMAT y KLAC en el 3T y con la mejor visibilidad (pedidos hasta 2030).",
+        risks=["Exportaciones a China.", "Ciclo de capex de los fabricantes.", "Tipo de cambio €/US$.", "Resultados ≈ 27-ene-2027."],
+        plan=["Resultados del 4T26 hacia el 27-ene-2027 [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ventas ≥ €15.200M (techo de la guía), pedidos récord y guía de 2027 por encima del consenso.",
+              "**D si:** pedidos a la baja o guía de 2027 plana.",
+              "Técnica: sobre la SMA 200 (+6%), bajo las EMA cortas; −16% desde el máximo."],
+        verdict="Demanda que supera la oferta hasta 2028, crecimiento del +55% y recompras fuertes; el mercado vendió el informe. Candidato a EP con la guía de 2027.")
+    header = dict(verdict="+55% en €, demanda por encima de la oferta hasta 2028 y recompras.",
+                  setup="Sobre la SMA 200; −16% desde máximos.", catalyst="3T26: ventas −1%, BPA +18%; −4% al cierre.",
+                  quality="Margen 57,5%; sin flujos en el caso.", supply="Recompras.", group="Monopolio de EUV.")
+    finish(t, c, kpis, [e], [], {}, text, header, events, [pr, bce, fx])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,604 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "ASML",
+  "issuer": "ASML",
+  "cik": "0000937966",
+  "exchange": "Nasdaq, OTC",
+  "report_date": "2026-10-19",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_hardware",
+  "theme": "Cadena de cómputo de IA",
+  "group": "Equipos de fabricación de semiconductores (ASML, AMAT, LRCX, KLAC)",
+  "subgroup": "equipos",
+  "synthetic": false,
+  "primary_catalyst": "q3_26",
+  "descriptor": "Equipos de litografía (EUV en monopolio, DUV) y servicio de la base instalada para fabricar chips; cotiza en Ámsterdam y Nasdaq. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001628280-26-065952",
+  "last_filing_seen_date": "2026-10-15",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 1641.52001953125,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "notas de resultados trimestrales de ASML (6-K), US GAAP en euros, convertidas a US$ con la media trimestral del BCE",
+  "shares_out": 383011583.01158303,
+  "shares_out_date": "2026-09-30",
+  "shares_out_note": "Derivado de la nota del 3T26: neto €4.960M ÷ BPA básico €12,95 = 383,0M acciones (aproximación; ASML recompra acciones cada trimestre)",
+  "quarters": [
+   {
+    "revenue": 8201345509.0912485,
+    "gross_profit": 4166024309.0910816,
+    "op_income": null,
+    "net_income": 2281263509.0910034,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 5475252090.909317,
+    "debt": null,
+    "total_assets": null,
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "src": "Nota de resultados 6-K 2024-10-15 (pressreleasequarterlyresul.htm), US GAAP en €; € → US$ a 1.0983 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 9894157662.5,
+    "gross_profit": 5116378624.999999,
+    "op_income": null,
+    "net_income": 2876494287.4999995,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 13609139887.5,
+    "debt": null,
+    "total_assets": null,
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "src": "Nota de resultados 6-K 2025-01-29 (pressreleasequarterlyresul.htm), US GAAP en €; € → US$ a 1.0681 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 8147226111.111344,
+    "gross_profit": 4398786507.936634,
+    "op_income": null,
+    "net_income": 2478263690.476261,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 9580514920.635195,
+    "debt": null,
+    "total_assets": null,
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "src": "Nota de resultados 6-K 2025-04-16 (pressreleasequarterlyresul.htm), US GAAP en €; € → US$ a 1.0523 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 8721214412.903225,
+    "gross_profit": 4682607322.580644,
+    "op_income": null,
+    "net_income": 2596409387.0967736,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 8217805780.64516,
+    "debt": null,
+    "total_assets": null,
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "src": "Nota de resultados 6-K 2025-07-16 (pressreleasequarterlyresul.htm), US GAAP en €; € → US$ a 1.1338 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 8779337109.090906,
+    "gross_profit": 4532175090.909089,
+    "op_income": null,
+    "net_income": 2482183522.7272716,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 5989946872.72727,
+    "debt": null,
+    "total_assets": null,
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "src": "Nota de resultados 6-K 2025-10-15 (pressreleasequarterlyresul.htm), US GAAP en €; € → US$ a 1.1681 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 11306088228.125,
+    "gross_profit": 5896198306.249999,
+    "op_income": null,
+    "net_income": 3304104812.4999995,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 15499043771.874998,
+    "debt": null,
+    "total_assets": null,
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "src": "Nota de resultados 6-K 2026-01-28 (pressreleasefinancialresul.htm), US GAAP en €; € → US$ a 1.1634 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 10259686119.047615,
+    "gross_profit": 5435866547.619045,
+    "op_income": null,
+    "net_income": 3226412071.42857,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 9802113714.28571,
+    "debt": null,
+    "total_assets": null,
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "src": "Nota de resultados 6-K 2026-04-15 (pressreleasefinancialresul.htm), US GAAP en €; € → US$ a 1.1703 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 10845054980.645163,
+    "gross_profit": 5855120290.322581,
+    "op_income": null,
+    "net_income": 3393295135.4838715,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": null,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 8816985509.677422,
+    "debt": null,
+    "total_assets": null,
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "src": "Nota de resultados 6-K 2026-07-15 (pressreleasefinancialresul.htm), US GAAP en €; € → US$ a 1.1629 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   },
+   {
+    "revenue": 13417449054.545443,
+    "gross_profit": 7708532727.272721,
+    "op_income": null,
+    "net_income": 5706615272.727267,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 383011583.01158303,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": 14651964818.181805,
+    "debt": null,
+    "total_assets": null,
+    "period": "sep-26",
+    "end": "2026-09-30",
+    "src": "Nota de resultados 6-K 2026-10-14 (pressreleasefinancialresul.htm), US GAAP en €; € → US$ a 1.1505 (media trimestral BCE). El beneficio operativo, los flujos y el balance completo van en imágenes en el 6-K."
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Demanda",
+    "value": "La oferta prevista para 2027 y 2028 no cubrirá la demanda; algunos clientes quieren pedir para 2029–2030; capacidad de EUV y DUV de inmersión +30% en 2027",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 14-oct-2026: resultados 3T26",
+      "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía",
+    "value": "4T26 ventas €14.200–15.200M y margen ≈ 57%; 2026 €44.000–45.000M y margen ≈ 56%",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 14-oct-2026: resultados 3T26",
+      "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Base instalada",
+    "value": "€3.289M en el 3T26 (mejoras de productividad)",
+    "prior": "€2.762M (2T26)",
+    "src": [
+     [
+      "6-K 14-oct-2026: resultados 3T26",
+      "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Recompras y dividendo",
+    "value": "≈ €4.100M recomprados en el 3T26; dividendo a cuenta de €1,88 por acción",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 14-oct-2026: resultados 3T26",
+      "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q3_26",
+   "type": "earnings",
+   "date": "2026-10-14",
+   "time_et": "premarket",
+   "headline": "Resultados 3T26: ventas €11.662M (+55%), margen bruto 57,5%, neto €4.960M; guía del 4T de €14.200–15.200M y de 2026 de €44.000–45.000M",
+   "sources": [
+    [
+     "6-K 14-oct-2026: resultados 3T26",
+     "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+    ],
+    [
+     "BCE: media trimestral del tipo de referencia USD/EUR (serie EXR.Q.USD.EUR.SP00.A)",
+     "https://data.ecb.europa.eu/data/datasets/EXR/EXR.Q.USD.EUR.SP00.A"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 18,30% y ventas -1,33%; BPA próximo trimestre $16,29",
+     "https://finviz.com/quote.ashx?t=ASML"
+    ]
+   ],
+   "rev_growth_yoy": 0.5282986503219955,
+   "rev_growth_yoy_prev": 0.24352578290010496,
+   "rev_surprise_pct": -1.3,
+   "eps_surprise_pct": 18.3,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 583,
+   "nonrecurring_in_beat": false,
+   "note": "Consenso de finviz: ventas −1,3% y BPA +18,3%. Los clientes piden pedidos para 2029–2030 y ASML estudia subir la capacidad de 2028 por encima del +30% previsto. El mercado lo vendió: −2,4% en la apertura y −3,9% al cierre.",
+   "gap_pct": -2.38,
+   "rvol": 2.24,
+   "close_in_range": 0.01,
+   "day2_follow": true,
+   "dollar_volume": 4747380000,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-10-14",
+   "reaction_close_chg_pct": -3.94
+  }
+ ],
+ "supply": [],
+ "supply_context": {
+  "float_shares": null,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "AMAT",
+   "name": "Applied Materials",
+   "rev_yoy": 0.2482881402355519,
+   "accel_pp": 13.42036331932983,
+   "gm": 0.49398449914064274,
+   "gm_rel": -0.006015500859357259,
+   "rule40": 26.007279054207515,
+   "ev_sales": 10.442731271741678,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices",
+   "rev_yoy": 0.5011060507482108,
+   "accel_pp": 12.264409861053949,
+   "gm": 0.5320421256506476,
+   "gm_rel": -0.06795787434935241,
+   "rule40": 59.887702964434,
+   "ev_sales": 20.65818129663479,
+   "rs_3m": 78.94736842105263
+  },
+  {
+   "ticker": "ANET",
+   "name": "Arista Networks",
+   "rev_yoy": 0.3768595791001452,
+   "accel_pp": 2.560259585992175,
+   "gm": 0.6300375683060109,
+   "gm_rel": 0.13003756830601088,
+   "rule40": null,
+   "ev_sales": 19.910085839263335,
+   "rs_3m": 73.68421052631578
+  },
+  {
+   "ticker": "ARM",
+   "name": "Arm Holdings",
+   "rev_yoy": 0.2241215574548907,
+   "accel_pp": 2.3476916036679674,
+   "gm": 0.9753685027152832,
+   "gm_rel": 0.3753685027152832,
+   "rule40": 54.32395219173907,
+   "ev_sales": 46.25752320652423,
+   "rs_3m": 15.789473684210526
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "rev_yoy": 0.8550025075225678,
+   "accel_pp": 37.62635045900164,
+   "gm": 0.687702011133058,
+   "gm_rel": 0.08770201113305798,
+   "rule40": 92.91141037344634,
+   "ev_sales": 18.010132183950777,
+   "rs_3m": 26.31578947368421
+  },
+  {
+   "ticker": "CIEN",
+   "name": "Ciena",
+   "rev_yoy": 0.3704687198874843,
+   "accel_pp": -2.465490807220583,
+   "gm": 0.44071827207055964,
+   "gm_rel": -0.059281727929440364,
+   "rule40": 46.09666682250783,
+   "ev_sales": 7.936328738091882,
+   "rs_3m": 31.57894736842105
+  },
+  {
+   "ticker": "CLS",
+   "name": "Celestica",
+   "rev_yoy": 0.6239026750535701,
+   "accel_pp": 9.592563057724291,
+   "gm": 0.11952290871781718,
+   "gm_rel": -0.13047709128218282,
+   "rule40": null,
+   "ev_sales": 2.2057140188490827,
+   "rs_3m": 57.89473684210527
+  },
+  {
+   "ticker": "COHR",
+   "name": "Coherent",
+   "rev_yoy": 0.33744269129273796,
+   "accel_pp": 13.19774968411167,
+   "gm": 0.3749609626391911,
+   "gm_rel": -0.1250390373608089,
+   "rule40": 8.136400796426981,
+   "ev_sales": 6.580969899210884,
+   "rs_3m": 10.526315789473683
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "rev_yoy": 0.5774785061794734,
+   "accel_pp": -29.787438970554668,
+   "gm": 0.19798673254098956,
+   "gm_rel": -0.05201326745901044,
+   "rule40": 54.69599726297187,
+   "ev_sales": null,
+   "rs_3m": 94.73684210526315
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA",
+   "rev_yoy": 0.15208012244148428,
+   "accel_pp": 3.7145200179892868,
+   "gm": 0.6130145227989652,
+   "gm_rel": 0.11301452279896518,
+   "rule40": 39.44996010066519,
+   "ev_sales": 16.258701292413335,
+   "rs_3m": 5.263157894736842
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "rev_yoy": 1.0934054503848554,
+   "accel_pp": 19.21824964808103,
+   "gm": 0.4166887856668879,
+   "gm_rel": -0.08331121433311212,
+   "rule40": 93.17875244804893,
+   "ev_sales": 24.161732394820266,
+   "rs_3m": 89.47368421052632
+  },
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research",
+   "rev_yoy": 0.29988921747003183,
+   "accel_pp": 6.233171165721774,
+   "gm": 0.5046900724797688,
+   "gm_rel": 0.004690072479768825,
+   "rule40": null,
+   "ev_sales": 14.135967802048876,
+   "rs_3m": 21.052631578947366
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "rev_yoy": 1.0585114348672526,
+   "accel_pp": 20.62350969797304,
+   "gm": 0.7467463667900016,
+   "gm_rel": 0.14674636679000164,
+   "rule40": null,
+   "ev_sales": 17.069258299284023,
+   "rs_3m": 84.21052631578947
+  },
+  {
+   "ticker": "SMCI",
+   "name": "Super Micro Computer",
+   "rev_yoy": 0.931552702482286,
+   "accel_pp": -29.523158669883554,
+   "gm": 0.10821604097086886,
+   "gm_rel": -0.14178395902913116,
+   "rule40": 59.93758678676018,
+   "ev_sales": 0.3388169405768371,
+   "rs_3m": 100.0
+  },
+  {
+   "ticker": "TSM",
+   "name": "TSMC",
+   "rev_yoy": 0.4114803625377643,
+   "accel_pp": 7.459975063221069,
+   "gm": 0.6583003679663747,
+   "gm_rel": 0.4083003679663747,
+   "rule40": null,
+   "ev_sales": null,
+   "rs_3m": 68.42105263157895
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 100.0,
+  "rs_3m": 47.368421052631575,
+  "rs_6m": 73.68421052631578,
+  "adr_pct": 2.5916890871241938,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2027-01-13",
+   "kind": "earnings",
+   "text": "Resultados 4T26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
+   "src": []
+  }
+ ],
+ "header": {
+  "verdict": "+55% en €, demanda por encima de la oferta hasta 2028 y recompras.",
+  "setup": "Sobre la SMA 200; −16% desde máximos.",
+  "catalyst": "3T26: ventas −1%, BPA +18%; −4% al cierre.",
+  "quality": "Margen 57,5%; sin flujos en el caso.",
+  "supply": "Recompras.",
+  "group": "Monopolio de EUV."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Equipos de litografía (EUV en monopolio, DUV) y servicio de la base instalada para fabricar chips; cotiza en Ámsterdam y Nasdaq"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Equipos de fabricación de semiconductores (ASML, AMAT, LRCX, KLAC) · puro"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "La demanda de EUV la fija la inversión en IA de TSMC, Samsung, Intel y la memoria: ASML es un indicador adelantado del capex de los fabricantes.",
+   "Exportaciones a China restringidas."
+  ],
+  "catalyst_read": "El 3T26 puntúa {m.cat_q3_26_score:sc}: +53% en US$ con aceleración {m.accel_pp:pp}, guía del 4T fuerte y demanda que supera la oferta hasta 2028, pero el mercado lo vendió.",
+  "financials_note": "Emisor extranjero (20-F/6-K, US GAAP en €): **trimestres cargados a mano** de sus 9 notas de resultados (3T24–3T26) y convertidos a US$ con la media trimestral del BCE. Sin beneficio operativo, flujos ni balance completo (van en imágenes en el 6-K). Acciones derivadas del neto y el BPA del 3T26 (≈ 383,0M).",
+  "quality": [
+   "Margen bruto del 57,5% con mezcla de base instalada al alza.",
+   "Sin flujos en el caso: banderas de calidad n/d."
+  ],
+  "supply_read": "Sin dilución: recompras de ≈ €4.100M en el trimestre (programa 2026–2028).",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 27 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "El monopolio de la litografía EUV: crece más que AMAT y KLAC en el 3T y con la mejor visibilidad (pedidos hasta 2030).",
+  "risks": [
+   "Exportaciones a China.",
+   "Ciclo de capex de los fabricantes.",
+   "Tipo de cambio €/US$.",
+   "Resultados ≈ 27-ene-2027."
+  ],
+  "plan": [
+   "Resultados del 4T26 hacia el 27-ene-2027 [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ventas ≥ €15.200M (techo de la guía), pedidos récord y guía de 2027 por encima del consenso.",
+   "**D si:** pedidos a la baja o guía de 2027 plana.",
+   "Técnica: sobre la SMA 200 (+6%), bajo las EMA cortas; −16% desde el máximo."
+  ],
+  "verdict": "Demanda que supera la oferta hasta 2028, crecimiento del +55% y recompras fuertes; el mercado vendió el informe. Candidato a EP con la guía de 2027."
+ },
+ "sources": [
+  [
+   "6-K 14-oct-2026: resultados 3T26",
+   "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+  ],
+  [
+   "BCE: media trimestral del tipo de referencia USD/EUR (serie EXR.Q.USD.EUR.SP00.A)",
+   "https://data.ecb.europa.eu/data/datasets/EXR/EXR.Q.USD.EUR.SP00.A"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 18,30% y ventas -1,33%; BPA próximo trimestre $16,29",
+   "https://finviz.com/quote.ashx?t=ASML"
+  ]
+ ]
+}

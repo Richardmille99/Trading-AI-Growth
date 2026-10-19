@@ -69,8 +69,8 @@
    "purity": "puro",
    "profile": "ai_systems",
    "filer": "20-F/6-K",
-   "fiscal_year_end": null,
-   "status": "pendiente",
+   "fiscal_year_end": "diciembre",
+   "status": "auditado",
    "notes": "Nube de IA; emisor extranjero"
   },
   {

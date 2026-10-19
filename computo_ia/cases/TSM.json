@@ -1,0 +1,596 @@
+{
+ "schema_version": "1.0",
+ "meta": {
+  "ticker": "TSM",
+  "issuer": "TSMC",
+  "cik": "0001046179",
+  "exchange": "NYSE, OTC",
+  "report_date": "2026-10-19",
+  "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
+  "profile": "semis_manufacturing",
+  "theme": "Cadena de cómputo de IA",
+  "group": "Fabricación para terceros (TSM)",
+  "subgroup": "foundry",
+  "synthetic": false,
+  "primary_catalyst": "q3_26",
+  "descriptor": "Fabricación de chips por encargo (foundry) líder en nodos avanzados (3 y 2 nm) y encapsulado avanzado (CoWoS) para IA; cotiza en Taiwán y con ADR en NYSE. Ingresos {m.revenue_ttm:usdM} TTM; último trimestre {m.rev_yoy:pctf} interanual.",
+  "last_filing_seen": "0001046179-26-000726",
+  "last_filing_seen_date": "2026-10-15",
+  "phase": "auditado"
+ },
+ "market": {
+  "price": 412.6099853515625,
+  "price_date": "2026-10-16",
+  "regime": "risk_off",
+  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+ },
+ "financials": {
+  "source": "notas de resultados trimestrales de TSMC (6-K), TIFRS consolidado, convertidas a US$",
+  "shares_out": 5186400000.0,
+  "shares_out_date": "2026-09-30",
+  "shares_out_note": "Acciones medias ponderadas del último trimestre en ADR (25.932M ÷ 5), de la nota de resultados",
+  "quarters": [
+   {
+    "revenue": 23500000000.0,
+    "gross_profit": 13590517604.502878,
+    "op_income": 11159787124.25562,
+    "net_income": 10061397250.464663,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5185600000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "sep-24",
+    "end": "2024-09-30",
+    "src": "Nota de resultados 6-K 2024-10-17 (a3q24e_withguidancexfinal.htm); NT$ → US$ a 32.327 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 26880000000.000004,
+    "gross_profit": 15858797942.567371,
+    "op_income": 13176372272.330019,
+    "net_income": 11596834400.163048,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5185800000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "dic-24",
+    "end": "2024-12-31",
+    "src": "Nota de resultados 6-K 2025-01-16 (a4q24e_withguidancexfinal.htm); NT$ → US$ a 32.309 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 25530000000.0,
+    "gross_profit": 15009013183.136452,
+    "op_income": 12383352274.758297,
+    "net_income": 10998730920.555635,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5185800000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "mar-25",
+    "end": "2025-03-31",
+    "src": "Nota de resultados 6-K 2025-04-17 (a1q25e_withguidancexfinal.htm); NT$ → US$ a 32.873 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 30070000000.0,
+    "gross_profit": 17626394132.740482,
+    "op_income": 14923162342.36318,
+    "net_income": 12825199948.16833,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5185800000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "jun-25",
+    "end": "2025-06-30",
+    "src": "Nota de resultados 6-K 2025-07-17 (a2q25e_withguidancexfinal.htm); NT$ → US$ a 31.054 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 33100000000.0,
+    "gross_profit": 19679178780.464645,
+    "op_income": 16741460908.88336,
+    "net_income": 15123673071.911005,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5186000000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "sep-25",
+    "end": "2025-09-30",
+    "src": "Nota de resultados 6-K 2025-10-16 (a3q25e_withguidancexfinal.htm); NT$ → US$ a 29.907 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 33730000000.0,
+    "gross_profit": 21022590322.05642,
+    "op_income": 18214664311.86609,
+    "net_income": 16307148639.218424,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5186200000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "dic-25",
+    "end": "2025-12-31",
+    "src": "Nota de resultados 6-K 2026-01-15 (a4q25e_withguidancexfinal.htm); NT$ → US$ a 31.014 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 35900000000.0,
+    "gross_profit": 23782223043.233288,
+    "op_income": 20859551028.433926,
+    "net_income": 18121839021.676163,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5186200000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "mar-26",
+    "end": "2026-03-31",
+    "src": "Nota de resultados 6-K 2026-04-16 (a1q26e_withguidancexfinal.htm); NT$ → US$ a 31.591 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 40200000000.0,
+    "gross_profit": 27223724378.749367,
+    "op_income": 24258423732.722702,
+    "net_income": 22358483321.14539,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5186400000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "jun-26",
+    "end": "2026-06-30",
+    "src": "Nota de resultados 6-K 2026-07-16 (a2q26e_withguidancexfinal.htm); NT$ → US$ a 31.602 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   },
+   {
+    "revenue": 46720000000.0,
+    "gross_profit": 31028384861.09689,
+    "op_income": 27403514957.071907,
+    "net_income": 23858468856.80575,
+    "cfo": null,
+    "capex": null,
+    "capitalized_sw": null,
+    "sbc": null,
+    "diluted_shares": 5186400000.0,
+    "basic_shares": null,
+    "ar": null,
+    "deferred_rev": null,
+    "rpo": null,
+    "inventory": null,
+    "cash": null,
+    "debt": null,
+    "total_assets": null,
+    "period": "sep-26",
+    "end": "2026-09-30",
+    "src": "Nota de resultados 6-K 2026-10-15 (a3q26e_withguidancexfinal.htm); NT$ → US$ a 31.983 NT$/US$ (tipo implícito del trimestre); acciones en ADR (÷ 5). Flujos y balance no vienen en la nota."
+   }
+  ]
+ },
+ "manual": {
+  "kpis": [
+   {
+    "name": "Tecnología (3T26)",
+    "value": "2 nm 8% · 3 nm 33% · 5 nm 28% · 7 nm 10% de los ingresos por obleas; avanzadas (≤ 7 nm) 79%",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 15-oct-2026: resultados 3T26 y guía del 4T",
+      "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Guía 4T26",
+    "value": "Ingresos $52.300–54.300M; margen bruto 65–67%; operativo 56,5–58,5% (a 31,8 NT$/US$)",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 15-oct-2026: resultados 3T26 y guía del 4T",
+      "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Márgenes",
+    "value": "Bruto 66,4% y operativo 58,7% en el 3T26",
+    "prior": "Bruto 59,5% en el 3T25",
+    "src": [
+     [
+      "6-K 15-oct-2026: resultados 3T26 y guía del 4T",
+      "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+     ]
+    ]
+   },
+   {
+    "name": "Capex y caja",
+    "value": "[VERIFY: la nota no da capex ni flujos; están en el informe de gestión trimestral y en el 20-F]",
+    "prior": "—",
+    "src": [
+     [
+      "6-K 15-oct-2026: resultados 3T26 y guía del 4T",
+      "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+     ]
+    ]
+   }
+  ],
+  "nongaap_adj_pct": null,
+  "nongaap_recurring_items": null
+ },
+ "catalysts": [
+  {
+   "id": "q3_26",
+   "type": "earnings",
+   "date": "2026-10-15",
+   "time_et": "premarket",
+   "headline": "Resultados 3T26: ingresos $46.720M (+41% en US$; +51% en NT$), margen bruto 66,4%, operativo 58,7%; guía del 4T de $52.300–54.300M (+12–16% secuencial)",
+   "sources": [
+    [
+     "6-K 15-oct-2026: resultados 3T26 y guía del 4T",
+     "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA 1,75% y ventas 0,86%; BPA próximo trimestre $5,06",
+     "https://finviz.com/quote.ashx?t=TSM"
+    ]
+   ],
+   "rev_growth_yoy": 0.4114803625377643,
+   "rev_growth_yoy_prev": 0.33688061190555363,
+   "rev_surprise_pct": 0.9,
+   "eps_surprise_pct": 1.8,
+   "guide_raise": null,
+   "guide_change_pct": null,
+   "gm_change_bp": 696,
+   "nonrecurring_in_beat": false,
+   "note": "Consenso de finviz: ventas +0,9% y BPA +1,8%: en línea. La guía del 4T supone otro +12–16% secuencial con margen bruto del 65–67% (a 31,8 NT$/US$). El mercado lo vendió: −3,5% en la apertura y −1,8% al cierre.",
+   "gap_pct": -3.45,
+   "rvol": 2.29,
+   "close_in_range": 0.91,
+   "day2_follow": false,
+   "dollar_volume": 9477739050,
+   "estimate_revisions": "unknown",
+   "reaction_date": "2026-10-15",
+   "reaction_close_chg_pct": -1.8
+  }
+ ],
+ "supply": [],
+ "supply_context": {
+  "float_shares": null,
+  "window_days": 56,
+  "ep_recent_days": null,
+  "atm_used_last_q": false
+ },
+ "peers": [
+  {
+   "ticker": "AMAT",
+   "name": "Applied Materials",
+   "rev_yoy": 0.2482881402355519,
+   "accel_pp": 13.42036331932983,
+   "gm": 0.49398449914064274,
+   "gm_rel": -0.006015500859357259,
+   "rule40": 26.007279054207515,
+   "ev_sales": 10.442731271741678,
+   "rs_3m": 0.0
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices",
+   "rev_yoy": 0.5011060507482108,
+   "accel_pp": 12.264409861053949,
+   "gm": 0.5320421256506476,
+   "gm_rel": -0.06795787434935241,
+   "rule40": 59.887702964434,
+   "ev_sales": 20.65818129663479,
+   "rs_3m": 78.94736842105263
+  },
+  {
+   "ticker": "ANET",
+   "name": "Arista Networks",
+   "rev_yoy": 0.3768595791001452,
+   "accel_pp": 2.560259585992175,
+   "gm": 0.6300375683060109,
+   "gm_rel": 0.13003756830601088,
+   "rule40": null,
+   "ev_sales": 19.910085839263335,
+   "rs_3m": 73.68421052631578
+  },
+  {
+   "ticker": "ARM",
+   "name": "Arm Holdings",
+   "rev_yoy": 0.2241215574548907,
+   "accel_pp": 2.3476916036679674,
+   "gm": 0.9753685027152832,
+   "gm_rel": 0.3753685027152832,
+   "rule40": 54.32395219173907,
+   "ev_sales": 46.25752320652423,
+   "rs_3m": 15.789473684210526
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML",
+   "rev_yoy": 0.5282986503219955,
+   "accel_pp": 28.477286742189058,
+   "gm": 0.5432392127792726,
+   "gm_rel": 0.04323921277927256,
+   "rule40": null,
+   "ev_sales": 13.399351624869427,
+   "rs_3m": 47.368421052631575
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "rev_yoy": 0.8550025075225678,
+   "accel_pp": 37.62635045900164,
+   "gm": 0.687702011133058,
+   "gm_rel": 0.08770201113305798,
+   "rule40": 92.91141037344634,
+   "ev_sales": 18.010132183950777,
+   "rs_3m": 26.31578947368421
+  },
+  {
+   "ticker": "CIEN",
+   "name": "Ciena",
+   "rev_yoy": 0.3704687198874843,
+   "accel_pp": -2.465490807220583,
+   "gm": 0.44071827207055964,
+   "gm_rel": -0.059281727929440364,
+   "rule40": 46.09666682250783,
+   "ev_sales": 7.936328738091882,
+   "rs_3m": 31.57894736842105
+  },
+  {
+   "ticker": "CLS",
+   "name": "Celestica",
+   "rev_yoy": 0.6239026750535701,
+   "accel_pp": 9.592563057724291,
+   "gm": 0.11952290871781718,
+   "gm_rel": -0.13047709128218282,
+   "rule40": null,
+   "ev_sales": 2.2057140188490827,
+   "rs_3m": 57.89473684210527
+  },
+  {
+   "ticker": "COHR",
+   "name": "Coherent",
+   "rev_yoy": 0.33744269129273796,
+   "accel_pp": 13.19774968411167,
+   "gm": 0.3749609626391911,
+   "gm_rel": -0.1250390373608089,
+   "rule40": 8.136400796426981,
+   "ev_sales": 6.580969899210884,
+   "rs_3m": 10.526315789473683
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "rev_yoy": 0.5774785061794734,
+   "accel_pp": -29.787438970554668,
+   "gm": 0.19798673254098956,
+   "gm_rel": -0.05201326745901044,
+   "rule40": 54.69599726297187,
+   "ev_sales": null,
+   "rs_3m": 94.73684210526315
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA",
+   "rev_yoy": 0.15208012244148428,
+   "accel_pp": 3.7145200179892868,
+   "gm": 0.6130145227989652,
+   "gm_rel": 0.11301452279896518,
+   "rule40": 39.44996010066519,
+   "ev_sales": 16.258701292413335,
+   "rs_3m": 5.263157894736842
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "rev_yoy": 1.0934054503848554,
+   "accel_pp": 19.21824964808103,
+   "gm": 0.4166887856668879,
+   "gm_rel": -0.08331121433311212,
+   "rule40": 93.17875244804893,
+   "ev_sales": 24.161732394820266,
+   "rs_3m": 89.47368421052632
+  },
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research",
+   "rev_yoy": 0.29988921747003183,
+   "accel_pp": 6.233171165721774,
+   "gm": 0.5046900724797688,
+   "gm_rel": 0.004690072479768825,
+   "rule40": null,
+   "ev_sales": 14.135967802048876,
+   "rs_3m": 21.052631578947366
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "rev_yoy": 1.0585114348672526,
+   "accel_pp": 20.62350969797304,
+   "gm": 0.7467463667900016,
+   "gm_rel": 0.14674636679000164,
+   "rule40": null,
+   "ev_sales": 17.069258299284023,
+   "rs_3m": 84.21052631578947
+  },
+  {
+   "ticker": "SMCI",
+   "name": "Super Micro Computer",
+   "rev_yoy": 0.931552702482286,
+   "accel_pp": -29.523158669883554,
+   "gm": 0.10821604097086886,
+   "gm_rel": -0.14178395902913116,
+   "rule40": 59.93758678676018,
+   "ev_sales": 0.3388169405768371,
+   "rs_3m": 100.0
+  }
+ ],
+ "setup": {
+  "type": null,
+  "pivot": null,
+  "stop": null,
+  "notes": null,
+  "rs_1m": 52.63157894736842,
+  "rs_3m": 68.42105263157895,
+  "rs_6m": 68.42105263157895,
+  "adr_pct": 2.334950834421168,
+  "ema_stack": false,
+  "cooled_leader": null,
+  "setup_candidates": []
+ },
+ "events": [
+  {
+   "date": "2027-01-14",
+   "kind": "earnings",
+   "text": "Resultados 4T26 [VERIFY: fecha no anunciada; estimada como últimos resultados + 91 días]",
+   "src": []
+  }
+ ],
+ "header": {
+  "verdict": "+41% en US$, márgenes récord y guía +12–16% secuencial; PER ≈ 18.",
+  "setup": "Sobre la SMA 200; −14% desde máximos.",
+  "catalyst": "3T26: en línea con el consenso; −2% al cierre.",
+  "quality": "Margen 66%; sin flujos en el caso.",
+  "supply": "Sin dilución.",
+  "group": "La base de la cadena."
+ },
+ "snapshot": [
+  [
+   "Negocio",
+   "Fabricación de chips por encargo (foundry) líder en nodos avanzados (3 y 2 nm) y encapsulado avanzado (CoWoS) para IA; cotiza en Taiwán y con ADR en NYSE"
+  ],
+  [
+   "Subgrupo · pureza",
+   "Fabricación para terceros (TSM) · mixto"
+  ],
+  [
+   "Ingresos TTM",
+   "{m.revenue_ttm:usdM} · {m.rev_ttm_yoy:pctf} interanual"
+  ],
+  [
+   "Último trimestre",
+   "{m.rev_q:usdM} · {m.rev_yoy:pctf} · aceleración {m.accel_pp:pp}"
+  ],
+  [
+   "Margen bruto TTM",
+   "{m.gm_ttm:pctf}"
+  ],
+  [
+   "Rule of 40",
+   "{m.rule40:n1}"
+  ],
+  [
+   "Caja neta",
+   "{m.net_cash:usdM}"
+  ],
+  [
+   "Market cap / EV",
+   "{m.mcap:usdM} / {m.ev:usdM}"
+  ]
+ ],
+ "text": {
+  "narrative_flags": [
+   "La foundry de toda la cadena de IA: NVDA, AVGO, AMD y los ASIC dependen de su capacidad en 3 y 2 nm.",
+   "Riesgo geopolítico (Taiwán) que ningún dato de las cuentas refleja."
+  ],
+  "catalyst_read": "El 3T26 puntúa {m.cat_q3_26_score:sc}: +41% en US$ con aceleración {m.accel_pp:pp}, márgenes récord y guía +12–16% secuencial, en línea con el consenso.",
+  "financials_note": "Emisor extranjero (20-F/6-K, TIFRS): **trimestres cargados a mano** de sus 9 notas de resultados (3T24–3T26), cada trimestre con las cifras de su propia nota y convertido a US$ con su tipo implícito (ventas NT$ ÷ ventas US$). Sin flujos ni balance (la nota no los da). La nota del 4T25 da para el 4T24 un beneficio operativo de NT$452.713M frente a los NT$425.713M de la nota del propio 4T24: se usa el de su nota. Acciones en ADR (1 ADR = 5 acciones).",
+  "quality": [
+   "Margen bruto del 57,8% al 66,4% en dos años.",
+   "Sin flujos ni balance en el caso: las banderas de calidad del beneficio salen n/d."
+  ],
+  "supply_read": "Sin dilución conocida (emisor extranjero: sin Forms 4). Recompras y dividendos crecientes.",
+  "valuation": [
+   "EV/ventas {m.ev_sales:x1} TTM; PER adelantado ≈ 18 (finviz). DCF inverso: {m.implied_g:pctf} anual."
+  ],
+  "group_read": "La base de la cadena: crece menos que NVDA (+41% frente a +106%) pero con márgenes récord y sin competencia real en lo más avanzado.",
+  "risks": [
+   "Taiwán.",
+   "Concentración en pocos clientes de IA.",
+   "Tipo de cambio NT$/US$.",
+   "Resultados ≈ 15-ene-2027."
+  ],
+  "plan": [
+   "Resultados del 4T26 hacia el 15-ene-2027 [VERIFY: fecha no anunciada].",
+   "**EP A/B si:** ingresos ≥ $54.300M (techo de la guía), margen bruto ≥ 66% y guía del 1T27 sin la caída estacional.",
+   "**D si:** margen bruto por debajo del 65%.",
+   "Técnica: sobre la SMA 200 (+6%), bajo las EMA cortas; −14% desde el máximo."
+  ],
+  "verdict": "El monopolio de la fabricación avanzada creciendo al +41% con márgenes récord y guía +12–16% secuencial, a PER ≈ 18. Riesgo geopolítico aparte, el caso más sólido de la cadena."
+ },
+ "sources": [
+  [
+   "6-K 15-oct-2026: resultados 3T26 y guía del 4T",
+   "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+  ],
+  [
+   "finviz 2026-10-19: sorpresa BPA 1,75% y ventas 0,86%; BPA próximo trimestre $5,06",
+   "https://finviz.com/quote.ashx?t=TSM"
+  ]
+ ]
+}

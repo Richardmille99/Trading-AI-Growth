@@ -73,7 +73,7 @@
    "profile": "semis_manufacturing",
    "filer": "20-F/6-K",
    "fiscal_year_end": "diciembre",
-   "status": "pendiente",
+   "status": "auditado",
    "notes": "Foundry líder; ventas mensuales por 6-K; emisor extranjero"
   },
   {
@@ -85,7 +85,7 @@
    "profile": "semis_hardware",
    "filer": "20-F/6-K",
    "fiscal_year_end": "diciembre",
-   "status": "pendiente",
+   "status": "auditado",
    "notes": "Litografía EUV; emisor extranjero"
   },
   {

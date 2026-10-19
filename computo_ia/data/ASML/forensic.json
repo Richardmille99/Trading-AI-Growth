@@ -1,0 +1,48 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 4588600000,
+   "end": "2025-12-31",
+   "tag": "Goodwill",
+   "form": "20-F"
+  },
+  "intangibles": {
+   "val": 485800000,
+   "end": "2025-12-31",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "20-F"
+  },
+  "equity": {
+   "val": 19612200000,
+   "end": "2025-12-31",
+   "tag": "StockholdersEquity",
+   "form": "20-F"
+  },
+  "total_assets": {
+   "val": 50566600000,
+   "end": "2025-12-31",
+   "tag": "Assets",
+   "form": "20-F"
+  }
+ },
+ "goodwill_intang_to_equity": 0.258736908658896,
+ "goodwill_intang_to_assets": 0.10035082445725044,
+ "impairments": [
+  {
+   "tag": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "start": "2024-01-01",
+   "end": "2024-12-31",
+   "val": 8000000,
+   "form": "20-F"
+  },
+  {
+   "tag": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "start": "2025-01-01",
+   "end": "2025-12-31",
+   "val": 6500000,
+   "form": "20-F"
+  }
+ ],
+ "public_float": null,
+ "governance": []
+}

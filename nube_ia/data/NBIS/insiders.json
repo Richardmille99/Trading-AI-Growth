@@ -1,0 +1,722 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1513845,
+ "form4_count": 45,
+ "form144_count": 26,
+ "schedule13_count": 7,
+ "owners": [
+  {
+   "name": "Korolenko Andrey",
+   "role": "Chief Infrastructure Officer",
+   "sold": 1121294.0,
+   "sold_value": 224178111,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 1000000.0,
+   "max_quarter_pct": 0.638,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-10-01",
+     "shares": 29090.0,
+     "price": 234.16,
+     "accession": "0001513845-26-000124"
+    },
+    {
+     "date": "2026-07-01",
+     "shares": 33871.0,
+     "price": 235.45,
+     "accession": "0001513845-26-000076"
+    },
+    {
+     "date": "2026-03-31",
+     "shares": 26976.0,
+     "price": 98.7754,
+     "accession": "0001513845-26-000041"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000041",
+    "0001513845-26-000047",
+    "0001513845-26-000061",
+    "0001513845-26-000062",
+    "0001513845-26-000076",
+    "0001513845-26-000124"
+   ]
+  },
+  {
+   "name": "Nave Ophir",
+   "role": "consejero, COO",
+   "sold": 500000.0,
+   "sold_value": 117765468,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.5237,
+   "max_quarter": "2026-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000126"
+   ]
+  },
+  {
+   "name": "Volozh Arkadiy",
+   "role": "consejero, CEO, ≥10%",
+   "sold": 117763.0,
+   "sold_value": 23284696,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0537,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-10-01",
+     "shares": 37778.0,
+     "price": 234.16,
+     "accession": "0001513845-26-000120"
+    },
+    {
+     "date": "2026-07-01",
+     "shares": 46627.0,
+     "price": 235.45,
+     "accession": "0001513845-26-000080"
+    },
+    {
+     "date": "2026-04-01",
+     "shares": 33358.0,
+     "price": 103.7314,
+     "accession": "0001513845-26-000045"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000045",
+    "0001513845-26-000080",
+    "0001513845-26-000120"
+   ]
+  },
+  {
+   "name": "Ryan Charles E",
+   "role": "consejero",
+   "sold": 50000.0,
+   "sold_value": 13276633,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.155,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000092"
+   ]
+  },
+  {
+   "name": "Boroditsky Marc",
+   "role": "Chief Revenue Officer",
+   "sold": 60662.0,
+   "sold_value": 13152970,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 14000.0,
+   "max_quarter_pct": 1.0,
+   "max_quarter": "2026-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-02",
+     "shares": 10776.0,
+     "price": 276.2002,
+     "accession": "0001513845-26-000070"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000051",
+    "0001513845-26-000064",
+    "0001513845-26-000070",
+    "0001513845-26-000112",
+    "0001513845-26-000116",
+    "0001513845-26-000128"
+   ]
+  },
+  {
+   "name": "Shtan Danila",
+   "role": "Chief Technology Officer",
+   "sold": 60650.0,
+   "sold_value": 12472737,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0581,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-10-01",
+     "shares": 14546.0,
+     "price": 234.16,
+     "accession": "0001513845-26-000122"
+    },
+    {
+     "date": "2026-07-01",
+     "shares": 16937.0,
+     "price": 235.45,
+     "accession": "0001513845-26-000078"
+    },
+    {
+     "date": "2026-03-31",
+     "shares": 13489.0,
+     "price": 98.7754,
+     "accession": "0001513845-26-000043"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000043",
+    "0001513845-26-000072",
+    "0001513845-26-000078",
+    "0001513845-26-000122"
+   ]
+  },
+  {
+   "name": "Bunina Elena",
+   "role": "consejero",
+   "sold": 47655.0,
+   "sold_value": 8261325,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.8156,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000049",
+    "0001513845-26-000053",
+    "0001513845-26-000055",
+    "0001513845-26-000057"
+   ]
+  },
+  {
+   "name": "Boynton John Wilson IV",
+   "role": "consejero",
+   "sold": 30292.0,
+   "sold_value": 7100540,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0435,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001513845-26-000074",
+    "0001513845-26-000084",
+    "0001513845-26-000088",
+    "0001513845-26-000090",
+    "0001513845-26-000114",
+    "0001513845-26-000118"
+   ]
+  },
+  {
+   "name": "Tal Boaz",
+   "role": "General Counsel",
+   "sold": 8136.0,
+   "sold_value": 1316787,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0594,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-03-31",
+     "shares": 3036.0,
+     "price": 98.7754,
+     "accession": "0001513845-26-000039"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000039",
+    "0001513845-26-000066"
+   ]
+  },
+  {
+   "name": "Alonso Sanchez Maria del Dado",
+   "role": "CFO",
+   "sold": 1979.0,
+   "sold_value": 508906,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1064,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-01",
+     "shares": 470.0,
+     "price": 196.0,
+     "accession": "0001513845-26-000094"
+    },
+    {
+     "date": "2026-06-02",
+     "shares": 1509.0,
+     "price": 276.2002,
+     "accession": "0001513845-26-000068"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001513845-26-000068",
+    "0001513845-26-000094"
+   ]
+  },
+  {
+   "name": "Grimme Arne",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 296.0,
+   "bought_value": 50317,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001513845-26-000130"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "THE JOHN W BOYNTON IV TR OF 2006",
+   "relationship": "Director",
+   "shares": 7260.0,
+   "value": 1350432.6,
+   "outstanding": 238400165.0,
+   "approx_date": "10/15/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-010270",
+   "filed": "2026-10-15",
+   "form": "144"
+  },
+  {
+   "person": "OPHIR NAVE",
+   "relationship": "Director",
+   "shares": 500000.0,
+   "value": 121405000.0,
+   "outstanding": 238400165.0,
+   "approx_date": "10/05/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-010048",
+   "filed": "2026-10-05",
+   "form": "144"
+  },
+  {
+   "person": "THE JOHN W BOYNTON IV TR OF 2006",
+   "relationship": "Director",
+   "shares": 50.0,
+   "value": 11866.5,
+   "outstanding": 238400165.0,
+   "approx_date": "09/29/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-009868",
+   "filed": "2026-09-29",
+   "form": "144"
+  },
+  {
+   "person": "THE JOHN W BOYNTON IV TR OF 2006",
+   "relationship": "Director",
+   "shares": 6364.0,
+   "value": 1350377.16,
+   "outstanding": 238400165.0,
+   "approx_date": "09/15/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-009522",
+   "filed": "2026-09-15",
+   "form": "144"
+  },
+  {
+   "person": "Alonso Sanchez Maria del Dado",
+   "relationship": "Officer",
+   "shares": 450.0,
+   "value": 90900.0,
+   "outstanding": 271855218.0,
+   "approx_date": "09/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973379-26-000316",
+   "filed": "2026-08-31",
+   "form": "144"
+  },
+  {
+   "person": "THE JOHN W BOYNTON IV TR OF 2006",
+   "relationship": "Officer",
+   "shares": 5296.0,
+   "value": 1350691.84,
+   "outstanding": 238400165.0,
+   "approx_date": "08/14/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-008147",
+   "filed": "2026-08-14",
+   "form": "144"
+  },
+  {
+   "person": "Ryan Charles E",
+   "relationship": "Director",
+   "shares": 50000.0,
+   "value": 12752000.0,
+   "outstanding": 271855218.0,
+   "approx_date": "08/14/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000293",
+   "filed": "2026-08-14",
+   "form": "144"
+  },
+  {
+   "person": "JOHN W BOYNTON TTEE THE JOHN W BOYNTON IV TR OF 2006",
+   "relationship": "Officer",
+   "shares": 6958.0,
+   "value": 1350478.22,
+   "outstanding": 219465088.0,
+   "approx_date": "07/15/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-007111",
+   "filed": "2026-07-15",
+   "form": "144"
+  },
+  {
+   "person": "JOHN W BOYNTON TTEE THE JOHN W BOYNTON IV TR OF 2006",
+   "relationship": "Officer",
+   "shares": 5812.0,
+   "value": 1350476.32,
+   "outstanding": 219465088.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006113",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "Alonso Sanchez Maria del Dado",
+   "relationship": "Officer",
+   "shares": 1509.0,
+   "value": 416786.1,
+   "outstanding": 267265209.0,
+   "approx_date": "06/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973379-26-000218",
+   "filed": "2026-06-02",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 10894.0,
+   "value": 2253640.0,
+   "outstanding": 253898194.0,
+   "approx_date": "05/13/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000172",
+   "filed": "2026-05-13",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 5263.0,
+   "value": 999970.0,
+   "outstanding": 253898194.0,
+   "approx_date": "05/06/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000158",
+   "filed": "2026-05-06",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 5556.0,
+   "value": 1000080.0,
+   "outstanding": 253898194.0,
+   "approx_date": "05/06/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000157",
+   "filed": "2026-05-06",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 5882.0,
+   "value": 999940.0,
+   "outstanding": 253898194.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000155",
+   "filed": "2026-05-04",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 6250.0,
+   "value": 1007750.0,
+   "outstanding": 253282222.0,
+   "approx_date": "04/14/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000146",
+   "filed": "2026-04-14",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 6667.0,
+   "value": 1000050.0,
+   "outstanding": 257065017.0,
+   "approx_date": "04/13/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000145",
+   "filed": "2026-04-13",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 7143.0,
+   "value": 1000020.0,
+   "outstanding": 253282222.0,
+   "approx_date": "04/10/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000144",
+   "filed": "2026-04-10",
+   "form": "144"
+  },
+  {
+   "person": "Volozh Arkadiy",
+   "relationship": "Officer",
+   "shares": 38000.0,
+   "value": 3831160.0,
+   "outstanding": 253282222.0,
+   "approx_date": "03/31/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973379-26-000128",
+   "filed": "2026-03-30",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 16442.0,
+   "value": 2092047.5,
+   "outstanding": 253282222.0,
+   "approx_date": "03/16/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000114",
+   "filed": "2026-03-16",
+   "form": "144"
+  },
+  {
+   "person": "Nave Ophir",
+   "relationship": "Officer",
+   "shares": 2422.0,
+   "value": 261272.0,
+   "outstanding": 253282222.0,
+   "approx_date": "03/16/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000099",
+   "filed": "2026-03-13",
+   "form": "144"
+  },
+  {
+   "person": "Ryan Charles E",
+   "relationship": "Director",
+   "shares": 35333.0,
+   "value": 3066904.0,
+   "outstanding": 257065017.0,
+   "approx_date": "03/05/2026",
+   "plan_10b5_1": true,
+   "accession": "0001973379-26-000077",
+   "filed": "2026-03-04",
+   "form": "144"
+  },
+  {
+   "person": "JOHN W BOYNTON TTEE THE JOHN W BOYNTON IV TR OF 2006",
+   "relationship": "Officer",
+   "shares": 50000.0,
+   "value": 4896000.0,
+   "outstanding": 219465088.0,
+   "approx_date": "02/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001633",
+   "filed": "2026-02-23",
+   "form": "144"
+  },
+  {
+   "person": "Radinsky Kira",
+   "relationship": "Director",
+   "shares": 500.0,
+   "value": 43795.0,
+   "outstanding": 252561050.0,
+   "approx_date": "12/30/2025",
+   "plan_10b5_1": false,
+   "accession": "0001973379-25-000338",
+   "filed": "2025-12-30",
+   "form": "144"
+  },
+  {
+   "person": "Nave Ophir",
+   "relationship": "Officer",
+   "shares": 2300.0,
+   "value": 201457.0,
+   "outstanding": 256396883.0,
+   "approx_date": "12/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001973379-25-000337",
+   "filed": "2025-12-29",
+   "form": "144"
+  },
+  {
+   "person": "Bunina Elena",
+   "relationship": "Director",
+   "shares": 2300.0,
+   "value": 201457.0,
+   "outstanding": 256396883.0,
+   "approx_date": "12/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001973379-25-000336",
+   "filed": "2025-12-29",
+   "form": "144"
+  },
+  {
+   "person": "Volozh Arkadiy",
+   "relationship": "Officer",
+   "shares": 41000.0,
+   "value": 3591190.0,
+   "outstanding": 256396883.0,
+   "approx_date": "12/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001973379-25-000335",
+   "filed": "2025-12-29",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "NVIDIA Corporation",
+   "shares": 22256412.0,
+   "pct": 9.3,
+   "filed": "2026-07-20",
+   "form": "SCHEDULE 13G",
+   "event_date": "07/13/2026",
+   "accession": "0001045810-26-000062"
+  },
+  {
+   "name": "Situational Awareness LP",
+   "shares": 12410060.0,
+   "pct": 5.6,
+   "filed": "2026-05-27",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/19/2026",
+   "accession": "0000935836-26-000303"
+  },
+  {
+   "name": "SAF AI GP LP",
+   "shares": 12410060.0,
+   "pct": 5.6,
+   "filed": "2026-05-27",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/19/2026",
+   "accession": "0000935836-26-000303"
+  },
+  {
+   "name": "Situational Awareness LLC",
+   "shares": 12410060.0,
+   "pct": 5.6,
+   "filed": "2026-05-27",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/19/2026",
+   "accession": "0000935836-26-000303"
+  },
+  {
+   "name": "Situational Awareness Partners LP",
+   "shares": 12410060.0,
+   "pct": 5.6,
+   "filed": "2026-05-27",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/19/2026",
+   "accession": "0000935836-26-000303"
+  },
+  {
+   "name": "Leopold Aschenbrenner",
+   "shares": 12410060.0,
+   "pct": 5.6,
+   "filed": "2026-05-27",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/19/2026",
+   "accession": "0000935836-26-000303"
+  },
+  {
+   "name": "Carl Shulman",
+   "shares": 12410060.0,
+   "pct": 5.6,
+   "filed": "2026-05-27",
+   "form": "SCHEDULE 13G",
+   "event_date": "05/19/2026",
+   "accession": "0000935836-26-000303"
+  },
+  {
+   "name": "THE GOLDMAN SACHS GROUP, INC.",
+   "shares": 13023110.37,
+   "pct": 5.1,
+   "filed": "2026-10-07",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2026",
+   "accession": "0000886982-26-000526"
+  },
+  {
+   "name": "GOLDMAN SACHS & CO. LLC",
+   "shares": 13023110.37,
+   "pct": 5.1,
+   "filed": "2026-10-07",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2026",
+   "accession": "0000886982-26-000526"
+  },
+  {
+   "name": "Orbis Investment Management Limited",
+   "shares": 3335358.0,
+   "pct": 1.5,
+   "filed": "2026-02-17",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0000940594-26-000014"
+  },
+  {
+   "name": "Allan Gray Australia Pty Ltd",
+   "shares": 8090.0,
+   "pct": 0.0,
+   "filed": "2025-11-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0000940594-25-000015"
+  }
+ ],
+ "errors": []
+}

@@ -47,6 +47,7 @@ def base(t):
 
 
 DESC = {
+    "NBIS": "Nube de IA de pila completa (GPU, almacenamiento y software) con centros de datos propios en Europa y EE. UU., más Avride y TripleTen",
     "CRWV": "Nube especializada en GPU para IA (alquiler de cómputo a laboratorios e hiperescalares), con centros de datos propios y arrendados",
     "IREN": "Centros de datos propios con energía renovable, en transición de la minería de bitcoin a la nube de GPU para IA",
     "APLD": "Diseño, construcción y alquiler de centros de datos para IA y HPC a hiperescalares (Polaris Forge, Delta Forge)",
@@ -368,6 +369,54 @@ def apld():
                   setup="−63% desde máximos; sin setup.", catalyst="1T FY27: sorpresa no medible (bases distintas).",
                   quality="Pérdida GAAP; margen de arranque.", supply="Deuda por proyecto.", group="El casero del universo.")
     finish(t, c, kpis, [e], [ins], forensic_float(t), text, header, events, [pr, fx])
+
+# ---------------------------------------------------------------- NBIS
+def nbis():
+    t = "NBIS"
+    c, rows = base(t)
+    pr = casekit.link(1513845, "0001104659-26-094568", "tm2622968d1_ex99-1.htm", "6-K 12-ago-2026: resultados 2T26")
+    fs = casekit.link(1513845, "0001104659-26-094844", "nbis-20260812xex99d2.htm", "6-K 12-ago-2026: estados intermedios 1S26 (ATM, convertibles, warrants de NVIDIA)")
+    k, fx = fv(t)
+    e = casekit.earnings(c, rows, "q2_26", "2026-06-30", "2026-08-12", "bmo",
+                         "Resultados 2T26: ingresos $582,3M (+454%), EBITDA ajustado $236,2M; capex $5.657M en el trimestre; ingresos diferidos de $5.975M por anticipos de clientes",
+                         [pr, fs, fx], rev_surprise=round(k["sales_surprise_pct"], 1), eps_surprise=None, guide_raise=None, guide_change=None,
+                         note="Consenso de finviz: ventas +2,2%; la sorpresa de BPA (+83%) no se usa: el neto mezcla revalorizaciones de participaciones. "
+                              "EP de verdad: hueco del +17,0% y cierre del +34,1% con volumen 3,2×. Hora de publicación en Ámsterdam antes de la apertura de EE. UU. [VERIFY: hora exacta].")
+    kpis = [
+        kp("Crecimiento y EBITDA", "Ingresos $582,3M (+454%); EBITDA ajustado $236,2M (−$21,0M un año antes)", "—", *pr),
+        kp("Capex y anticipos", "Capex $5.657M en el 2T26 y $8.130M en el 1S26; ingresos diferidos $979M corrientes + $4.996M no corrientes (anticipos de clientes)", "—", *fs),
+        kp("Clientes", "Contratos de infraestructura de IA con Microsoft (sep-2025) y Meta (mar-2026) [VERIFY: importes en los 6-K de los anuncios]", "—", *fs),
+        kp("Balance", "Caja $8.042M y deuda $8.546M a jun-2026; activos totales $27.962M", "—", *fs)]
+    atm = dict(id="atm25", kind="atm", name="Programa de venta de hasta 25M acciones Clase A (nov-2025)", shares=25_000_000 - 12_729_493,
+               capacity_usd=(25_000_000 - 12_729_493) * 165.47, price_basis=223.60, gate="live", date="2025-11-12",
+               notes="Vendidas 12,73M acciones en el 2T26 a $223,60 de media ($2.811M netos); quedan ≈ 12,27M (capacidad en dólares calculada al cierre del 16-oct, $165,47).", src=[fs])
+    conv = dict(id="conv3133", kind="convertible", name="Convertibles de marzo-2026: $2.590M al 1,25% 2031 ($183,22) y $1.750M al 2,625% 2033 ($180,31)",
+                shares=round(2_590_000 * 5.4579 + 1_750_000 * 5.546), capacity_usd=None, price_basis=180.31, gate="gated", date=None,
+                notes="≈ 14,1M + 9,7M acciones, cerca del dinero a {m.price:px}. Liquidación en efectivo, acciones o ambos. [VERIFY: fechas exactas de vencimiento]", src=[fs])
+    nv = dict(id="nvda_warrants", kind="warrants", name="Warrants prefinanciados de NVIDIA (21,07M acciones, mar-2026)", shares=21_065_936, capacity_usd=None, price_basis=0.0001,
+              gate="live", date="2026-03-11", notes="$2.000M pagados por NVIDIA (≈ $94,94 por acción); ejercicio a $0,0001, ya incluidos en el BPA básico.", src=[fs])
+    events = _evento_estimado(c, "Resultados 3T26")
+    text = dict(
+        narrative_flags=["La dilución financia el capex: ATM (12,73M acciones vendidas en el 2T), convertibles de $4.340M y warrants de NVIDIA por 21,07M acciones.",
+                         "NVIDIA es a la vez proveedor e inversor (warrants prefinanciados de $2.000M)."],
+        catalyst_read="El 2T26 puntúa {m.cat_q2_26_score:sc}: +454% y EBITDA positivo con el EP más fuerte del estudio (+34% al cierre).",
+        financials_note="Emisor extranjero (20-F/6-K, US GAAP en US$, operaciones continuadas): **trimestres cargados a mano** de los estados intermedios (6-K del 3T25, 1T26 y 2T26) "
+                        "y del 20-F 2025; 4T = año − 9 meses. Flujos de 2024 sin derivar. Bruto = ingresos − coste de ingresos sin amortización (Nebius la presenta aparte).",
+        quality=["Capex muy por encima de la caja operativa.", "Neto volátil por revalorizaciones de participaciones (ClickHouse, Toloka)."],
+        supply_read="La oferta más activa del universo junto a CRWV: ATM con ≈ 12,27M acciones por vender, convertibles de $4.340M cerca del dinero y warrants de NVIDIA. "
+                    "Goldman Sachs declara ≈ 5,1% (13G).",
+        valuation=["EV/ventas {m.ev_sales:x1} TTM; sin PER. DCF inverso: {m.implied_g:pctf} anual."],
+        group_read="El neocloud que más crece (+454%) y con EBITDA positivo; más diluido que IREN, menos que CRWV en ventas de insiders.",
+        risks=["Dilución (ATM y convertibles).", "Capex y deuda.", "Concentración en Microsoft y Meta.", "Resultados ≈ 11-nov."],
+        plan=["Resultados del 3T26 hacia el 11-nov [VERIFY: fecha no anunciada].",
+              "**EP A/B si:** ingresos por encima de $800M con EBITDA ajustado al alza y sin ventas grandes del ATM en el trimestre.",
+              "**D si:** más dilución con el crecimiento desacelerando.",
+              "Técnica: «líder enfriado roto» (−43% desde el máximo, en la SMA 200)."],
+        verdict="El crecimiento más rápido del estudio (+454%) con EBITDA positivo y NVIDIA de socio, financiado con mucha dilución. Caso de alto riesgo y alto potencial.")
+    header = dict(verdict="+454%, EBITDA positivo y EP del +34%; ATM, convertibles y warrants de NVIDIA.",
+                  setup="Líder enfriado roto; −43% desde máximos.", catalyst="2T26: ventas +2%; EP +34%.",
+                  quality="Capex enorme; neto volátil.", supply="ATM, convertibles y warrants.", group="El neocloud que más crece.")
+    finish(t, c, kpis, [e], [atm, conv, nv], {}, text, header, events, [pr, fs, fx])
 
 
 if __name__ == "__main__":
