@@ -1,0 +1,878 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1441816,
+ "form4_count": 60,
+ "form144_count": 44,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "MERRIMAN DWIGHT A",
+   "role": "consejero",
+   "sold": 181713.0,
+   "sold_value": 64566991,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.03,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001628280-25-047128",
+    "0001628280-25-052386",
+    "0001628280-25-052954",
+    "0001628280-25-055452",
+    "0001628280-25-057387",
+    "0001628280-26-000937",
+    "0001628280-26-002209",
+    "0001628280-26-005468",
+    "0001628280-26-008581",
+    "0001628280-26-018804",
+    "0001628280-26-025556",
+    "0001628280-26-033665",
+    "0001628280-26-036036",
+    "0001628280-26-043575",
+    "0001628280-26-046993",
+    "0001628280-26-048478",
+    "0001628280-26-057659",
+    "0001628280-26-065755"
+   ]
+  },
+  {
+   "name": "BOTHA ROELOF",
+   "role": "consejero",
+   "sold": 68900.0,
+   "sold_value": 27620221,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2251,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-02",
+     "shares": 680.0,
+     "price": 395.4847,
+     "accession": "0001222287-26-000013"
+    },
+    {
+     "date": "2026-06-02",
+     "shares": 4225.0,
+     "price": 397.253,
+     "accession": "0001222287-26-000013"
+    },
+    {
+     "date": "2026-06-02",
+     "shares": 28889.0,
+     "price": 397.9913,
+     "accession": "0001222287-26-000013"
+    },
+    {
+     "date": "2026-06-02",
+     "shares": 9856.0,
+     "price": 398.7399,
+     "accession": "0001222287-26-000013"
+    },
+    {
+     "date": "2026-06-02",
+     "shares": 400.0,
+     "price": 399.82,
+     "accession": "0001222287-26-000013"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 1450.0,
+     "price": 400.8703,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 3701.0,
+     "price": 402.0135,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 2587.0,
+     "price": 402.7926,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 1771.0,
+     "price": 403.8252,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 1400.0,
+     "price": 404.7735,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 700.0,
+     "price": 406.0809,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 3730.0,
+     "price": 407.3929,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 4532.0,
+     "price": 408.2712,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 4238.0,
+     "price": 409.2058,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 701.0,
+     "price": 410.3538,
+     "accession": "0001607841-25-000017"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 40.0,
+     "price": 410.83,
+     "accession": "0001607841-25-000017"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001222287-26-000013",
+    "0001607841-25-000017"
+   ]
+  },
+  {
+   "name": "Ittycheria Dev",
+   "role": "consejero, Interim President and CEO",
+   "sold": 40000.0,
+   "sold_value": 15326487,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 35851.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1983,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-04",
+     "shares": 7003.0,
+     "price": 380.51,
+     "accession": "0001628280-26-041576"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 3426.0,
+     "price": 381.51,
+     "accession": "0001628280-26-041576"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 8881.0,
+     "price": 382.49,
+     "accession": "0001628280-26-041576"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 7765.0,
+     "price": 383.69,
+     "accession": "0001628280-26-041576"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 7501.0,
+     "price": 384.49,
+     "accession": "0001628280-26-041576"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 3315.0,
+     "price": 385.43,
+     "accession": "0001628280-26-041576"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 1392.0,
+     "price": 386.95,
+     "accession": "0001628280-26-041576"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 717.0,
+     "price": 387.84,
+     "accession": "0001628280-26-041576"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-041576"
+   ]
+  },
+  {
+   "name": "BERRY MICHAEL J",
+   "role": "Chief Financial Officer",
+   "sold": 10000.0,
+   "sold_value": 3538676,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 9168.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1038,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-043924",
+    "0001628280-26-044370"
+   ]
+  },
+  {
+   "name": "Cochran Hope F",
+   "role": "consejero",
+   "sold": 8698.0,
+   "sold_value": 3075800,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 11750.0,
+   "max_quarter_pct": 0.1234,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-25-057998",
+    "0001628280-26-023673",
+    "0001628280-26-039828",
+    "0001628280-26-044654",
+    "0001628280-26-047001",
+    "0001628280-26-062905"
+   ]
+  },
+  {
+   "name": "Hazard Charles M Jr",
+   "role": "consejero",
+   "sold": 2593.0,
+   "sold_value": 925631,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0328,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001628280-25-049616",
+    "0001628280-25-055119",
+    "0001628280-26-065469"
+   ]
+  },
+  {
+   "name": "Agrawal Archana",
+   "role": "consejero",
+   "sold": 1000.0,
+   "sold_value": 400000,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1877,
+   "max_quarter": "2026-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-065999"
+   ]
+  },
+  {
+   "name": "Bull Thomas",
+   "role": "Chief Accounting Officer",
+   "sold": 555.0,
+   "sold_value": 229692,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 283.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0489,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001628280-25-056356"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "ARCHANA AGRAWAL",
+   "relationship": "Director",
+   "shares": 1000.0,
+   "value": 381290.0,
+   "outstanding": 80556341.0,
+   "approx_date": "10/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-010204",
+   "filed": "2026-10-13",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 1000.0,
+   "value": 376835.23,
+   "outstanding": 80556341.0,
+   "approx_date": "10/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000182",
+   "filed": "2026-10-09",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 3598428.05,
+   "outstanding": 80556341.0,
+   "approx_date": "10/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000181",
+   "filed": "2026-10-08",
+   "form": "144"
+  },
+  {
+   "person": "CHARLES M HAZARD JR.",
+   "relationship": "Director",
+   "shares": 2382.0,
+   "value": 855685.86,
+   "outstanding": 80556341.0,
+   "approx_date": "10/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-010069",
+   "filed": "2026-10-06",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 2709654.97,
+   "outstanding": 80431927.0,
+   "approx_date": "08/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000159",
+   "filed": "2026-08-17",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 4704548.61,
+   "outstanding": 80431927.0,
+   "approx_date": "08/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000154",
+   "filed": "2026-08-14",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 1976557.42,
+   "outstanding": 80431927.0,
+   "approx_date": "07/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000125",
+   "filed": "2026-07-16",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 3201794.22,
+   "outstanding": 80431927.0,
+   "approx_date": "07/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000124",
+   "filed": "2026-07-14",
+   "form": "144"
+  },
+  {
+   "person": "HOPE COCHRAN",
+   "relationship": "Director",
+   "shares": 2000.0,
+   "value": 671800.0,
+   "outstanding": 80431927.0,
+   "approx_date": "07/01/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-006700",
+   "filed": "2026-07-01",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 1130.0,
+   "value": 377437.72,
+   "outstanding": 80431927.0,
+   "approx_date": "06/30/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000117",
+   "filed": "2026-06-30",
+   "form": "144"
+  },
+  {
+   "person": "HOPE COCHRAN",
+   "relationship": "Director",
+   "shares": 1000.0,
+   "value": 348810.0,
+   "outstanding": 80431927.0,
+   "approx_date": "06/17/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-006268",
+   "filed": "2026-06-17",
+   "form": "144"
+  },
+  {
+   "person": "Michael J. Berry",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 3428000.0,
+   "outstanding": 80431927.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-000608",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 2092730.7,
+   "outstanding": 80431927.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000112",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 3537781.3,
+   "outstanding": 80431927.0,
+   "approx_date": "06/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000109",
+   "filed": "2026-06-12",
+   "form": "144"
+  },
+  {
+   "person": "Dev Ittycheria",
+   "relationship": "Director",
+   "shares": 40000.0,
+   "value": 15326496.92,
+   "outstanding": 80431927.0,
+   "approx_date": "06/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-040748",
+   "filed": "2026-06-04",
+   "form": "144"
+  },
+  {
+   "person": "BV369 TRUST",
+   "relationship": "Director",
+   "shares": 44050.0,
+   "value": 17534802.9,
+   "outstanding": 80432000.0,
+   "approx_date": "06/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005478",
+   "filed": "2026-06-02",
+   "form": "144"
+  },
+  {
+   "person": "Dev Ittycheria",
+   "relationship": "Director",
+   "shares": 13039.0,
+   "value": 5187957.76,
+   "outstanding": 80431927.0,
+   "approx_date": "06/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-039748",
+   "filed": "2026-06-02",
+   "form": "144"
+  },
+  {
+   "person": "Pech Cedric",
+   "relationship": "Former employee",
+   "shares": 51002.0,
+   "value": 20196792.0,
+   "outstanding": 0.0,
+   "approx_date": "06/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001767034-26-000002",
+   "filed": "2026-06-02",
+   "form": "144"
+  },
+  {
+   "person": "Thomas Bull",
+   "relationship": "Officer",
+   "shares": 3131.0,
+   "value": 1046000.0,
+   "outstanding": 80369000.0,
+   "approx_date": "05/19/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-038551",
+   "filed": "2026-05-27",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 1889093.4,
+   "outstanding": 80369527.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000083",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 2978598.58,
+   "outstanding": 80369527.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000074",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 2000.0,
+   "value": 579851.05,
+   "outstanding": 80369527.0,
+   "approx_date": "05/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000060",
+   "filed": "2026-05-07",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 4000.0,
+   "value": 1008433.42,
+   "outstanding": 80369527.0,
+   "approx_date": "04/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000048",
+   "filed": "2026-04-16",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 8000.0,
+   "value": 1894059.1,
+   "outstanding": 80369527.0,
+   "approx_date": "04/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000047",
+   "filed": "2026-04-14",
+   "form": "144"
+  },
+  {
+   "person": "HOPE COCHRAN",
+   "relationship": "Director",
+   "shares": 3132.0,
+   "value": 766619.64,
+   "outstanding": 80369527.0,
+   "approx_date": "04/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003150",
+   "filed": "2026-04-01",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 4000.0,
+   "value": 1043662.61,
+   "outstanding": 80369527.0,
+   "approx_date": "03/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000036",
+   "filed": "2026-03-16",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 8000.0,
+   "value": 2078628.95,
+   "outstanding": 80369527.0,
+   "approx_date": "03/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000033",
+   "filed": "2026-03-13",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 1200.0,
+   "value": 436543.0,
+   "outstanding": 81391760.0,
+   "approx_date": "02/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000019",
+   "filed": "2026-02-17",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 3550534.47,
+   "outstanding": 81391760.0,
+   "approx_date": "02/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000016",
+   "filed": "2026-02-13",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 2191917.78,
+   "outstanding": 81391760.0,
+   "approx_date": "02/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000015",
+   "filed": "2026-02-12",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 1190.0,
+   "value": 439745.5,
+   "outstanding": 81391760.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000009",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 1139.0,
+   "value": 442028.09,
+   "outstanding": 81391760.0,
+   "approx_date": "01/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000006",
+   "filed": "2026-01-15",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 4075900.88,
+   "outstanding": 81391760.0,
+   "approx_date": "01/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000005",
+   "filed": "2026-01-14",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 2505623.0,
+   "outstanding": 81391760.0,
+   "approx_date": "01/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000004",
+   "filed": "2026-01-13",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 1054.0,
+   "value": 445058.0,
+   "outstanding": 81391760.0,
+   "approx_date": "01/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001957799-26-000001",
+   "filed": "2026-01-02",
+   "form": "144"
+  },
+  {
+   "person": "HOPE COCHRAN",
+   "relationship": "Director",
+   "shares": 2566.0,
+   "value": 1067456.0,
+   "outstanding": 81391760.0,
+   "approx_date": "12/16/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010392",
+   "filed": "2025-12-16",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 2514595.02,
+   "outstanding": 81391760.0,
+   "approx_date": "12/15/2025",
+   "plan_10b5_1": false,
+   "accession": "0001957799-25-000264",
+   "filed": "2025-12-15",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 4177021.3,
+   "outstanding": 81391760.0,
+   "approx_date": "12/12/2025",
+   "plan_10b5_1": false,
+   "accession": "0001957799-25-000262",
+   "filed": "2025-12-12",
+   "form": "144"
+  },
+  {
+   "person": "THOMAS BULL",
+   "relationship": "Officer",
+   "shares": 555.0,
+   "value": 229692.3,
+   "outstanding": 81391760.0,
+   "approx_date": "12/08/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009912",
+   "filed": "2025-12-08",
+   "form": "144"
+  },
+  {
+   "person": "BV369 TRUST",
+   "relationship": "Director",
+   "shares": 24850.0,
+   "value": 10085417.23,
+   "outstanding": 81391760.0,
+   "approx_date": "12/05/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009878",
+   "filed": "2025-12-05",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 4000.0,
+   "value": 1639743.0,
+   "outstanding": 81356893.0,
+   "approx_date": "12/02/2025",
+   "plan_10b5_1": false,
+   "accession": "0001957799-25-000251",
+   "filed": "2025-12-02",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 3384012.7,
+   "outstanding": 81356893.0,
+   "approx_date": "11/14/2025",
+   "plan_10b5_1": false,
+   "accession": "0001957799-25-000236",
+   "filed": "2025-11-14",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 6000.0,
+   "value": 2233993.1,
+   "outstanding": 81356893.0,
+   "approx_date": "11/12/2025",
+   "plan_10b5_1": false,
+   "accession": "0001957799-25-000235",
+   "filed": "2025-11-12",
+   "form": "144"
+  },
+  {
+   "person": "MERRIMAN DWIGHT A",
+   "relationship": "Director",
+   "shares": 4000.0,
+   "value": 1379743.0,
+   "outstanding": 81356893.0,
+   "approx_date": "10/27/2025",
+   "plan_10b5_1": false,
+   "accession": "0001957799-25-000220",
+   "filed": "2025-10-27",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 4512140.0,
+   "pct": 5.61,
+   "filed": "2026-04-29",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100121-26-000471"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 4228919.0,
+   "pct": 5.26,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000782"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001846"
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,87 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 376204000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 57369000,
+   "end": "2026-06-30",
+   "tag": "FiniteLivedIntangibleAssetsNet",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 1620020000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 6474127000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.26763435019320747,
+ "goodwill_intang_to_assets": 0.066970110410253,
+ "impairments": [],
+ "public_float": {
+  "usd": 35700000000,
+  "date": "2025-06-30",
+  "filed": "2026-04-29",
+  "form": "10-K/A",
+  "close": 195.8300018310547,
+  "close_date": "2025-06-30",
+  "float_shares": 182300974
+ },
+ "governance": [
+  {
+   "filed": "2026-07-01",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001477333-26-000044",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000044/cloud-20260630.htm"
+  },
+  {
+   "filed": "2026-06-30",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001477333-26-000042",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000042/cloud-20260630.htm"
+  },
+  {
+   "filed": "2026-02-10",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001477333-26-000009",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000009/cloud-20260206.htm"
+  },
+  {
+   "filed": "2025-03-27",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001477333-25-000054",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000054/cloud-20250325.htm"
+  },
+  {
+   "filed": "2025-02-06",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001477333-25-000018",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000018/cloud-20250205.htm"
+  }
+ ]
+}

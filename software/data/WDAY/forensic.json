@@ -1,0 +1,96 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 5227000000,
+   "end": "2026-07-31",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 383000000,
+   "end": "2024-10-31",
+   "tag": "FiniteLivedIntangibleAssetsNet",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 6460000000,
+   "end": "2026-07-31",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 15857000000,
+   "end": "2026-07-31",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.868421052631579,
+ "goodwill_intang_to_assets": 0.35378697105379325,
+ "impairments": [],
+ "public_float": {
+  "usd": 49500000000,
+  "date": "2025-07-31",
+  "filed": "2026-03-06",
+  "form": "10-K",
+  "close": 229.3800048828125,
+  "close_date": "2025-07-31",
+  "float_shares": 215799106
+ },
+ "governance": [
+  {
+   "filed": "2026-03-06",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001327811-26-000016",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000016/wday-20260305.htm"
+  },
+  {
+   "filed": "2026-02-09",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001327811-26-000007",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000007/wday-20260206.htm"
+  },
+  {
+   "filed": "2025-02-25",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001327811-25-000041",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781125000041/wday-20250220.htm"
+  },
+  {
+   "filed": "2024-12-03",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001327811-24-000238",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781124000238/wday-20241203.htm"
+  },
+  {
+   "filed": "2024-11-26",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001327811-24-000234",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781124000234/wday-20241125.htm"
+  },
+  {
+   "filed": "2024-10-01",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001327811-24-000198",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781124000198/wday-20240925.htm"
+  }
+ ]
+}

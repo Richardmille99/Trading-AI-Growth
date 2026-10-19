@@ -1,0 +1,835 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1327567,
+ "form4_count": 66,
+ "form144_count": 32,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "Klarich Lee",
+   "role": "consejero, EVP Chief Product & Tech Ofcr",
+   "sold": 425220.0,
+   "sold_value": 88840238,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 232055.0,
+   "exercised": 276030.0,
+   "max_quarter_pct": 0.1918,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-25-265144",
+    "0001193125-25-308140",
+    "0001193125-26-010460",
+    "0001193125-26-241981"
+   ]
+  },
+  {
+   "name": "GOETZ JAMES J",
+   "role": "consejero",
+   "sold": 87684.0,
+   "sold_value": 21741150,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0621,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-17",
+     "shares": 900.0,
+     "price": 372.5144,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 910.0,
+     "price": 373.5301,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 3348.0,
+     "price": 374.7196,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 4313.0,
+     "price": 375.7261,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 4751.0,
+     "price": 376.6606,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 1293.0,
+     "price": 377.6471,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 1504.0,
+     "price": 378.7354,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 700.0,
+     "price": 379.6057,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 1000.0,
+     "price": 380.715,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 781.0,
+     "price": 381.8573,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 500.0,
+     "price": 382.686,
+     "accession": "0001219231-26-000008"
+    },
+    {
+     "date": "2026-06-12",
+     "shares": 1400.0,
+     "price": 277.8856,
+     "accession": "0001219231-26-000005"
+    },
+    {
+     "date": "2026-06-12",
+     "shares": 4800.0,
+     "price": 278.8874,
+     "accession": "0001219231-26-000005"
+    },
+    {
+     "date": "2026-06-12",
+     "shares": 7114.0,
+     "price": 279.8804,
+     "accession": "0001219231-26-000005"
+    },
+    {
+     "date": "2026-06-12",
+     "shares": 5193.0,
+     "price": 280.8876,
+     "accession": "0001219231-26-000005"
+    },
+    {
+     "date": "2026-06-12",
+     "shares": 1493.0,
+     "price": 281.6429,
+     "accession": "0001219231-26-000005"
+    },
+    {
+     "date": "2026-03-06",
+     "shares": 8500.0,
+     "price": 163.83,
+     "accession": "0001219231-26-000003"
+    },
+    {
+     "date": "2026-03-06",
+     "shares": 14184.0,
+     "price": 164.76,
+     "accession": "0001219231-26-000003"
+    },
+    {
+     "date": "2025-12-08",
+     "shares": 12072.0,
+     "price": 195.31,
+     "accession": "0001219231-25-000005"
+    },
+    {
+     "date": "2025-12-08",
+     "shares": 428.0,
+     "price": 196.04,
+     "accession": "0001219231-25-000005"
+    },
+    {
+     "date": "2025-12-09",
+     "shares": 8230.0,
+     "price": 194.7,
+     "accession": "0001219231-25-000005"
+    },
+    {
+     "date": "2025-12-09",
+     "shares": 3970.0,
+     "price": 195.73,
+     "accession": "0001219231-25-000005"
+    },
+    {
+     "date": "2025-12-09",
+     "shares": 300.0,
+     "price": 196.42,
+     "accession": "0001219231-25-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001219231-25-000005",
+    "0001219231-26-000003",
+    "0001219231-26-000005",
+    "0001219231-26-000008"
+   ]
+  },
+  {
+   "name": "Golechha Dipak",
+   "role": "EVP, Chief Financial Officer",
+   "sold": 42500.0,
+   "sold_value": 13959948,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 73926.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1893,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-25-335416",
+    "0001852540-26-000002",
+    "0001852540-26-000005",
+    "0001852540-26-000007"
+   ]
+  },
+  {
+   "name": "Key John P.",
+   "role": "consejero",
+   "sold": 11572.0,
+   "sold_value": 3306834,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4205,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-14",
+     "shares": 2500.0,
+     "price": 376.03,
+     "accession": "0001772458-26-000005"
+    },
+    {
+     "date": "2026-06-12",
+     "shares": 7500.0,
+     "price": 279.24,
+     "accession": "0001193125-26-269644"
+    },
+    {
+     "date": "2026-04-08",
+     "shares": 1572.0,
+     "price": 173.32,
+     "accession": "0001772458-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-269644",
+    "0001772458-26-000002",
+    "0001772458-26-000005"
+   ]
+  },
+  {
+   "name": "Paul Josh D.",
+   "role": "Chief Accounting Officer",
+   "sold": 9600.0,
+   "sold_value": 2395223,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 24207.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0408,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001193125-25-265166",
+    "0001193125-25-305332",
+    "0001193125-26-004563",
+    "0001193125-26-253777",
+    "0001882285-26-000003",
+    "0001882285-26-000007",
+    "0001882285-26-000009",
+    "0001882285-26-000011",
+    "0001882285-26-000020",
+    "0001882285-26-000022",
+    "0001882285-26-000027"
+   ]
+  },
+  {
+   "name": "Bawa Aparna",
+   "role": "consejero",
+   "sold": 4745.0,
+   "sold_value": 1569839,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2449,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-10-09",
+     "shares": 170.0,
+     "price": 410.0,
+     "accession": "0001193125-26-419277"
+    },
+    {
+     "date": "2026-10-09",
+     "shares": 80.0,
+     "price": 417.125,
+     "accession": "0001193125-26-419277"
+    },
+    {
+     "date": "2026-09-24",
+     "shares": 260.0,
+     "price": 392.685,
+     "accession": "0001193125-26-405399"
+    },
+    {
+     "date": "2026-09-14",
+     "shares": 1000.0,
+     "price": 373.605,
+     "accession": "0001193125-26-393132"
+    },
+    {
+     "date": "2026-09-15",
+     "shares": 500.0,
+     "price": 377.18,
+     "accession": "0001193125-26-393132"
+    },
+    {
+     "date": "2026-06-29",
+     "shares": 327.0,
+     "price": 309.83,
+     "accession": "0001193125-26-292777"
+    },
+    {
+     "date": "2026-06-29",
+     "shares": 305.0,
+     "price": 328.14,
+     "accession": "0001193125-26-292777"
+    },
+    {
+     "date": "2026-07-01",
+     "shares": 290.0,
+     "price": 348.74,
+     "accession": "0001193125-26-292777"
+    },
+    {
+     "date": "2026-06-22",
+     "shares": 345.0,
+     "price": 290.171,
+     "accession": "0001193125-26-277902"
+    },
+    {
+     "date": "2026-06-10",
+     "shares": 377.0,
+     "price": 265.0,
+     "accession": "0001193125-26-269646"
+    },
+    {
+     "date": "2026-06-11",
+     "shares": 555.0,
+     "price": 270.0,
+     "accession": "0001193125-26-269646"
+    },
+    {
+     "date": "2026-06-12",
+     "shares": 536.0,
+     "price": 280.0,
+     "accession": "0001193125-26-269646"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-269646",
+    "0001193125-26-277902",
+    "0001193125-26-292777",
+    "0001193125-26-393132",
+    "0001193125-26-405399",
+    "0001193125-26-419277"
+   ]
+  },
+  {
+   "name": "Jenkins William D Jr",
+   "role": "President",
+   "sold": 7122.0,
+   "sold_value": 1336492,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 164219.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.04,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001193125-25-335411",
+    "0001193125-26-004571"
+   ]
+  },
+  {
+   "name": "Thorning-Schmidt Helle",
+   "role": "consejero",
+   "sold": 700.0,
+   "sold_value": 242795,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 767.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1061,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-07-07",
+     "shares": 700.0,
+     "price": 346.85,
+     "accession": "0002055370-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0002055370-26-000004"
+   ]
+  },
+  {
+   "name": "Arora Nikesh",
+   "role": "consejero, Chief Executive Officer",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 68085.0,
+   "bought_value": 9999977,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001468233-26-000005"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Nikesh Arora",
+   "relationship": "Officer",
+   "shares": 500000.0,
+   "value": 201400000.0,
+   "outstanding": 818000000.0,
+   "approx_date": "10/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001193125-26-420726",
+   "filed": "2026-10-13",
+   "form": "144"
+  },
+  {
+   "person": "Aparna Bawa",
+   "relationship": "Affiliate",
+   "shares": 250.0,
+   "value": 99625.0,
+   "outstanding": 818000000.0,
+   "approx_date": "10/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-001051",
+   "filed": "2026-10-09",
+   "form": "144"
+  },
+  {
+   "person": "Lee Klarich",
+   "relationship": "Officer",
+   "shares": 60000.0,
+   "value": 23910000.0,
+   "outstanding": 818000000.0,
+   "approx_date": "10/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001958244-26-000652",
+   "filed": "2026-10-08",
+   "form": "144"
+  },
+  {
+   "person": "Aparna Bawa",
+   "relationship": "Affiliate",
+   "shares": 750.0,
+   "value": 294975.0,
+   "outstanding": 818000000.0,
+   "approx_date": "09/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-001007",
+   "filed": "2026-09-24",
+   "form": "144"
+  },
+  {
+   "person": "DIPAK GOLECHHA",
+   "relationship": "Officer",
+   "shares": 35000.0,
+   "value": 13765500.0,
+   "outstanding": 815000000.0,
+   "approx_date": "09/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009796",
+   "filed": "2026-09-24",
+   "form": "144"
+  },
+  {
+   "person": "GOETZ 2025 IRR CHILDRENS TRUST",
+   "relationship": "Director",
+   "shares": 20000.0,
+   "value": 7533686.0,
+   "outstanding": 818000000.0,
+   "approx_date": "09/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009606",
+   "filed": "2026-09-17",
+   "form": "144"
+  },
+  {
+   "person": "Aparna Bawa",
+   "relationship": "Affiliate",
+   "shares": 500.0,
+   "value": 186970.0,
+   "outstanding": 818000000.0,
+   "approx_date": "09/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-000982",
+   "filed": "2026-09-15",
+   "form": "144"
+  },
+  {
+   "person": "Aparna Bawa",
+   "relationship": "Affiliate",
+   "shares": 1000.0,
+   "value": 330650.0,
+   "outstanding": 818000000.0,
+   "approx_date": "09/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-000970",
+   "filed": "2026-09-14",
+   "form": "144"
+  },
+  {
+   "person": "JOHN KEY",
+   "relationship": "Director",
+   "shares": 2500.0,
+   "value": 940075.0,
+   "outstanding": 818000000.0,
+   "approx_date": "09/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009448",
+   "filed": "2026-09-14",
+   "form": "144"
+  },
+  {
+   "person": "JOSHUA PAUL",
+   "relationship": "Officer",
+   "shares": 3300.0,
+   "value": 1157970.0,
+   "outstanding": 815000000.0,
+   "approx_date": "08/25/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-008692",
+   "filed": "2026-08-25",
+   "form": "144"
+  },
+  {
+   "person": "HELLE THORNING-SCHMIDT",
+   "relationship": "Director",
+   "shares": 700.0,
+   "value": 242795.0,
+   "outstanding": 815000000.0,
+   "approx_date": "07/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006917",
+   "filed": "2026-07-07",
+   "form": "144"
+  },
+  {
+   "person": "JOHN KEY",
+   "relationship": "Director",
+   "shares": 7500.0,
+   "value": 2094300.0,
+   "outstanding": 815000000.0,
+   "approx_date": "06/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006044",
+   "filed": "2026-06-12",
+   "form": "144"
+  },
+  {
+   "person": "GOETZ 2025 IRR CHILDREN'S TRUST",
+   "relationship": "Director",
+   "shares": 20000.0,
+   "value": 5597912.0,
+   "outstanding": 815000000.0,
+   "approx_date": "06/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006022",
+   "filed": "2026-06-12",
+   "form": "144"
+  },
+  {
+   "person": "Aparna Bawa",
+   "relationship": "Affiliate",
+   "shares": 3333.0,
+   "value": 862613.73,
+   "outstanding": 815000000.0,
+   "approx_date": "06/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-000585",
+   "filed": "2026-06-11",
+   "form": "144"
+  },
+  {
+   "person": "Lee Klarich",
+   "relationship": "Officer",
+   "shares": 62904.0,
+   "value": 16391524.32,
+   "outstanding": 816000000.0,
+   "approx_date": "05/22/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000313",
+   "filed": "2026-05-22",
+   "form": "144"
+  },
+  {
+   "person": "JOSHUA PAUL",
+   "relationship": "Officer",
+   "shares": 2400.0,
+   "value": 576312.0,
+   "outstanding": 816000000.0,
+   "approx_date": "05/20/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-004838",
+   "filed": "2026-05-20",
+   "form": "144"
+  },
+  {
+   "person": "JOHN KEY",
+   "relationship": "Director",
+   "shares": 1572.0,
+   "value": 272459.2,
+   "outstanding": 816000000.0,
+   "approx_date": "04/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003324",
+   "filed": "2026-04-08",
+   "form": "144"
+  },
+  {
+   "person": "MARY PAT MCCARTHY",
+   "relationship": "Former Director",
+   "shares": 11776.0,
+   "value": 2001920.0,
+   "outstanding": 816000000.0,
+   "approx_date": "04/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003298",
+   "filed": "2026-04-07",
+   "form": "144"
+  },
+  {
+   "person": "DIPAK GOLECHHA",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 1603200.0,
+   "outstanding": 816000000.0,
+   "approx_date": "04/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003148",
+   "filed": "2026-04-01",
+   "form": "144"
+  },
+  {
+   "person": "GOETZ 2025 IRR CHILDRENS TRUST",
+   "relationship": "Director",
+   "shares": 22684.0,
+   "value": 3729551.3,
+   "outstanding": 816000000.0,
+   "approx_date": "03/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-002297",
+   "filed": "2026-03-06",
+   "form": "144"
+  },
+  {
+   "person": "Lee Klarich",
+   "relationship": "Officer",
+   "shares": 120768.0,
+   "value": 23042534.4,
+   "outstanding": 697000000.0,
+   "approx_date": "01/08/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000032",
+   "filed": "2026-01-08",
+   "form": "144"
+  },
+  {
+   "person": "WILLIAM D JENKINS JR.",
+   "relationship": "Officer",
+   "shares": 904.0,
+   "value": 166516.8,
+   "outstanding": 697000000.0,
+   "approx_date": "01/02/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-000042",
+   "filed": "2026-01-02",
+   "form": "144"
+  },
+  {
+   "person": "JOSHUA D PAUL",
+   "relationship": "Officer",
+   "shares": 3600.0,
+   "value": 663120.0,
+   "outstanding": 697000000.0,
+   "approx_date": "01/02/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-000039",
+   "filed": "2026-01-02",
+   "form": "144"
+  },
+  {
+   "person": "GOETZ 1998 IR CH TR",
+   "relationship": "Director",
+   "shares": 12500.0,
+   "value": 2441696.25,
+   "outstanding": 697000000.0,
+   "approx_date": "12/08/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010716",
+   "filed": "2025-12-29",
+   "form": "144/A"
+  },
+  {
+   "person": "WILLIAM D JENKINS JR.",
+   "relationship": "Officer",
+   "shares": 6218.0,
+   "value": 1164133.96,
+   "outstanding": 697000000.0,
+   "approx_date": "12/26/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010684",
+   "filed": "2025-12-29",
+   "form": "144"
+  },
+  {
+   "person": "DIPAK GOLECHHA",
+   "relationship": "Officer",
+   "shares": 5000.0,
+   "value": 947450.0,
+   "outstanding": 697000000.0,
+   "approx_date": "12/23/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010664",
+   "filed": "2025-12-23",
+   "form": "144"
+  },
+  {
+   "person": "GOETZ 1998 IR CH TR",
+   "relationship": "Director",
+   "shares": 12500.0,
+   "value": 2438386.0,
+   "outstanding": 697000000.0,
+   "approx_date": "12/09/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010016",
+   "filed": "2025-12-09",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL T GOETZ TTEE GOETZ 1998 IR CH TR U/A DTD04/24/1998",
+   "relationship": "Director",
+   "shares": 12500.0,
+   "value": 2441696.25,
+   "outstanding": 697000000.0,
+   "approx_date": "12/08/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009981",
+   "filed": "2025-12-09",
+   "form": "144/A"
+  },
+  {
+   "person": "MICHAEL T GOETZ TTEE GOETZ 1998 IR CH TR U/A DTD04/24/1998",
+   "relationship": "Director",
+   "shares": 12500.0,
+   "value": 2441696.25,
+   "outstanding": 697000000.0,
+   "approx_date": "12/08/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009940",
+   "filed": "2025-12-08",
+   "form": "144"
+  },
+  {
+   "person": "Lee Klarich",
+   "relationship": "Officer",
+   "shares": 120774.0,
+   "value": 23385469.62,
+   "outstanding": 697000000.0,
+   "approx_date": "12/03/2025",
+   "plan_10b5_1": true,
+   "accession": "0001958244-25-004510",
+   "filed": "2025-12-03",
+   "form": "144"
+  },
+  {
+   "person": "JOSHUA PAUL",
+   "relationship": "Officer",
+   "shares": 700.0,
+   "value": 133091.0,
+   "outstanding": 697000000.0,
+   "approx_date": "12/01/2025",
+   "plan_10b5_1": true,
+   "accession": "0001950047-25-009568",
+   "filed": "2025-12-01",
+   "form": "144"
+  },
+  {
+   "person": "Lee Klarich",
+   "relationship": "Officer",
+   "shares": 120774.0,
+   "value": 26477284.02,
+   "outstanding": 668900000.0,
+   "approx_date": "11/03/2025",
+   "plan_10b5_1": true,
+   "accession": "0001958244-25-004426",
+   "filed": "2025-11-03",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 60785782.0,
+   "pct": 7.44,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000936"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002026"
+  }
+ ],
+ "errors": []
+}

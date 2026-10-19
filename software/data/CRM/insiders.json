@@ -1,0 +1,233 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1108524,
+ "form4_count": 113,
+ "form144_count": 4,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "Harris Parker",
+   "role": "consejero, Co-Founder",
+   "sold": 134662.0,
+   "sold_value": 31605031,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 23942.0,
+   "exercised": 156515.0,
+   "max_quarter_pct": 0.0652,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001108524-25-000236"
+   ]
+  },
+  {
+   "name": "Benioff Marc",
+   "role": "consejero, Chair and CEO",
+   "sold": 24872.0,
+   "sold_value": 6353229,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 22560.0,
+   "exercised": 24873.0,
+   "max_quarter_pct": 0.0011,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001108524-25-000175",
+    "0001108524-25-000177",
+    "0001108524-25-000179",
+    "0001108524-25-000181",
+    "0001108524-25-000189",
+    "0001108524-25-000191",
+    "0001108524-25-000193",
+    "0001108524-25-000195",
+    "0001108524-25-000197",
+    "0001108524-25-000199",
+    "0001108524-25-000201",
+    "0001108524-25-000203"
+   ]
+  },
+  {
+   "name": "Conway Craig",
+   "role": "consejero",
+   "sold": 4500.0,
+   "sold_value": 1172746,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 1599.0,
+   "max_quarter_pct": 0.4529,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-04",
+     "shares": 1418.0,
+     "price": 260.4958,
+     "accession": "0001108524-26-000199"
+    },
+    {
+     "date": "2026-09-04",
+     "shares": 3082.0,
+     "price": 260.6629,
+     "accession": "0001108524-26-000199"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001108524-26-000199"
+   ]
+  },
+  {
+   "name": "KROES NEELIE",
+   "role": "consejero",
+   "sold": 3893.0,
+   "sold_value": 929276,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 176.0,
+   "exercised": 1599.0,
+   "max_quarter_pct": 0.3478,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-01-14",
+     "shares": 3893.0,
+     "price": 238.7043,
+     "accession": "0001108524-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001108524-26-000004"
+   ]
+  },
+  {
+   "name": "Kirk David Blair",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 8682.0,
+   "bought_value": 2000351,
+   "tax_withheld": 0.0,
+   "exercised": 1749.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001108524-25-000240",
+    "0001108524-26-000064",
+    "0001108524-26-000212"
+   ]
+  },
+  {
+   "name": "ALBER LAURA",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 2571.0,
+   "bought_value": 500266,
+   "tax_withheld": 0.0,
+   "exercised": 1599.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001108524-26-000066"
+   ]
+  },
+  {
+   "name": "Morfit G Mason",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 96000.0,
+   "bought_value": 25015680,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001418812-25-000036"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "CRAIG CONWAY",
+   "relationship": "Officer",
+   "shares": 4500.0,
+   "value": 1172746.1,
+   "outstanding": 823000000.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009121",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "SUNDEEP REDDY",
+   "relationship": "Officer",
+   "shares": 5250.0,
+   "value": 1226925.0,
+   "outstanding": 823000000.0,
+   "approx_date": "08/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008784",
+   "filed": "2026-08-27",
+   "form": "144"
+  },
+  {
+   "person": "NEELIE KROES",
+   "relationship": "Director",
+   "shares": 3893.0,
+   "value": 929275.84,
+   "outstanding": 937000000.0,
+   "approx_date": "01/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000400",
+   "filed": "2026-01-14",
+   "form": "144"
+  },
+  {
+   "person": "Parker Harris",
+   "relationship": "Officer",
+   "shares": 134662.0,
+   "value": 31605032.16,
+   "outstanding": 952000000.0,
+   "approx_date": "12/02/2025",
+   "plan_10b5_1": false,
+   "accession": "0001628280-25-054776",
+   "filed": "2025-12-02",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 68562595.0,
+   "pct": 7.42,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-001068"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002289"
+  }
+ ],
+ "errors": []
+}

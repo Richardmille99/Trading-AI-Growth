@@ -1,0 +1,96 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 1639003000,
+   "end": "2026-07-31",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 426527000,
+   "end": "2026-07-31",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 2149664000,
+   "end": "2026-07-31",
+   "tag": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 8690459000,
+   "end": "2026-07-31",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.9608617904937702,
+ "goodwill_intang_to_assets": 0.23767789480394533,
+ "impairments": [],
+ "public_float": {
+  "usd": 73500000000,
+  "date": "2025-07-31",
+  "filed": "2026-03-20",
+  "form": "10-K",
+  "close": 223.5,
+  "close_date": "2025-07-31",
+  "float_shares": 328859060
+ },
+ "governance": [
+  {
+   "filed": "2026-07-16",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001628280-26-048373",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026048373/snow-20260715.htm"
+  },
+  {
+   "filed": "2026-02-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001628280-26-004606",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026004606/snow-20260128.htm"
+  },
+  {
+   "filed": "2025-09-03",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001640147-25-000181",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000181/snow-20250903.htm"
+  },
+  {
+   "filed": "2025-05-08",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001640147-25-000078",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000078/snow-20250507.htm"
+  },
+  {
+   "filed": "2025-03-06",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001640147-25-000027",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000027/snow-20250304.htm"
+  },
+  {
+   "filed": "2025-02-26",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001640147-25-000017",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000017/snow-20250225.htm"
+  }
+ ]
+}

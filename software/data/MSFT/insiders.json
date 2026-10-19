@@ -1,0 +1,391 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 789019,
+ "form4_count": 140,
+ "form144_count": 11,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "Nadella Satya",
+   "role": "consejero, Chief Executive Officer",
+   "sold": 86525.0,
+   "sold_value": 43388532,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 70465.844,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0861,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0000789019-26-000161"
+   ]
+  },
+  {
+   "name": "Hood Amy",
+   "role": "EVP, Chief Financial Officer",
+   "sold": 48979.0,
+   "sold_value": 24749148,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 23528.537,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0724,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0000789019-26-000212",
+    "0000789019-26-000226"
+   ]
+  },
+  {
+   "name": "SMITH BRADFORD L",
+   "role": "Vice Chair and President",
+   "sold": 42342.0,
+   "sold_value": 21652205,
+   "bought": 3842.0,
+   "bought_value": 1450221,
+   "tax_withheld": 20625.630999999998,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.077,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-04-30",
+     "shares": 30.0,
+     "price": 390.5729,
+     "accession": "0000789019-25-000120"
+    },
+    {
+     "date": "2025-05-05",
+     "shares": 3812.0,
+     "price": 438.8197,
+     "accession": "0000789019-25-000120"
+    },
+    {
+     "date": "2025-11-03",
+     "shares": 30411.0,
+     "price": 518.4907,
+     "accession": "0000789019-25-000063"
+    },
+    {
+     "date": "2025-11-03",
+     "shares": 8089.0,
+     "price": 519.2096,
+     "accession": "0000789019-25-000063"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000789019-25-000063",
+    "0000789019-25-000120"
+   ]
+  },
+  {
+   "name": "Althoff Judson",
+   "role": "EVP, Chief Commercial Officer",
+   "sold": 38250.0,
+   "sold_value": 18291073,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 21481.795,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.123,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-05",
+     "shares": 10000.0,
+     "price": 487.893,
+     "accession": "0000789019-26-000143"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 15500.0,
+     "price": 460.988,
+     "accession": "0000789019-26-000083"
+    },
+    {
+     "date": "2025-12-02",
+     "shares": 12750.0,
+     "price": 491.516,
+     "accession": "0000789019-25-000077"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000789019-25-000077",
+    "0000789019-26-000083",
+    "0000789019-26-000143"
+   ]
+  },
+  {
+   "name": "Numoto Takeshi",
+   "role": "EVP, Chief Marketing Officer",
+   "sold": 14660.353,
+   "sold_value": 6596501,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 8869.377,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1285,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-04",
+     "shares": 4810.353,
+     "price": 496.48,
+     "accession": "0000789019-26-000141"
+    },
+    {
+     "date": "2026-06-10",
+     "shares": 4500.0,
+     "price": 402.84,
+     "accession": "0000789019-26-000121"
+    },
+    {
+     "date": "2026-06-08",
+     "shares": 2500.0,
+     "price": 412.45,
+     "accession": "0000789019-26-000109"
+    },
+    {
+     "date": "2025-12-04",
+     "shares": 2850.0,
+     "price": 478.72,
+     "accession": "0000789019-25-000095"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000789019-25-000095",
+    "0000789019-26-000109",
+    "0000789019-26-000121",
+    "0000789019-26-000141"
+   ]
+  },
+  {
+   "name": "Hogan Kathleen T",
+   "role": "EVP, Strategy",
+   "sold": 12320.87,
+   "sold_value": 5045643,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 977.658,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.082,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-03-06",
+     "shares": 12320.87,
+     "price": 409.52,
+     "accession": "0000789019-26-000048"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000789019-26-000048"
+   ]
+  },
+  {
+   "name": "Coleman Amy",
+   "role": "EVP, Chief Human Resources Off",
+   "sold": 1262.312,
+   "sold_value": 519242,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4620.782999999999,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0268,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-14",
+     "shares": 1262.312,
+     "price": 411.342,
+     "accession": "0000789019-26-000075"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000789019-26-000075"
+   ]
+  },
+  {
+   "name": "STANTON JOHN W",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 5000.0,
+   "bought_value": 1986750,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0000789019-26-000028"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Amy Hood",
+   "relationship": "EVP, Chief Financial Officer",
+   "shares": 56284.0,
+   "value": 28446496.44,
+   "outstanding": 7425545491.0,
+   "approx_date": "09/14/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000598",
+   "filed": "2026-09-14",
+   "form": "144"
+  },
+  {
+   "person": "SATYA NADELLA",
+   "relationship": "Director",
+   "shares": 86525.0,
+   "value": 43893267.25,
+   "outstanding": 7425545491.0,
+   "approx_date": "09/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008927",
+   "filed": "2026-09-01",
+   "form": "144"
+  },
+  {
+   "person": "Althoff Judson",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 4878931.46,
+   "outstanding": 7425545491.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005674",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Numoto Takeshi",
+   "relationship": "Officer",
+   "shares": 6444.0,
+   "value": 3142416.6,
+   "outstanding": 6444.0,
+   "approx_date": "08/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005608",
+   "filed": "2026-08-04",
+   "form": "144"
+  },
+  {
+   "person": "Numoto Takeshi",
+   "relationship": "Officer",
+   "shares": 7000.0,
+   "value": 2988100.0,
+   "outstanding": 7428434704.0,
+   "approx_date": "06/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004364",
+   "filed": "2026-06-04",
+   "form": "144"
+  },
+  {
+   "person": "Althoff Judson",
+   "relationship": "Officer",
+   "shares": 15500.0,
+   "value": 7145315.5,
+   "outstanding": 7428434704.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004196",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "Coleman Amy",
+   "relationship": "Officer",
+   "shares": 1263.0,
+   "value": 519241.58,
+   "outstanding": 7428434704.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003593",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "Hogan Kathleen T",
+   "relationship": "Officer",
+   "shares": 12321.0,
+   "value": 5045642.68,
+   "outstanding": 7425629076.0,
+   "approx_date": "03/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002007",
+   "filed": "2026-03-06",
+   "form": "144"
+  },
+  {
+   "person": "Numoto Takeshi",
+   "relationship": "Officer",
+   "shares": 6000.0,
+   "value": 2866380.0,
+   "outstanding": 7432377655.0,
+   "approx_date": "12/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007489",
+   "filed": "2025-12-03",
+   "form": "144"
+  },
+  {
+   "person": "Althoff Judson",
+   "relationship": "Officer",
+   "shares": 12750.0,
+   "value": 6266832.3,
+   "outstanding": 7432377655.0,
+   "approx_date": "12/02/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007420",
+   "filed": "2025-12-02",
+   "form": "144"
+  },
+  {
+   "person": "BRADFORD SMITH",
+   "relationship": "Officer",
+   "shares": 38500.0,
+   "value": 19967705.45,
+   "outstanding": 7432377655.0,
+   "approx_date": "11/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008379",
+   "filed": "2025-11-03",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 555988240.0,
+   "pct": 7.48,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000820"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001884"
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,609 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1373715,
+ "form4_count": 131,
+ "form144_count": 27,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "Canney Jacqueline P",
+   "role": "Chief People & AI Enblmt. Off.",
+   "sold": 17336.0,
+   "sold_value": 2361572,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 31037.0,
+   "exercised": 63280.0,
+   "max_quarter_pct": 0.2321,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-24",
+     "shares": 8927.0,
+     "price": 89.601,
+     "accession": "0001649609-26-000019"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001649609-25-000014",
+    "0001649609-25-000016",
+    "0001649609-25-000020",
+    "0001649609-26-000019",
+    "0001649609-26-000035"
+   ]
+  },
+  {
+   "name": "Fipps Paul",
+   "role": "President, Global Customer Ops",
+   "sold": 16875.0,
+   "sold_value": 2064442,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 19825.0,
+   "exercised": 52237.0,
+   "max_quarter_pct": 0.6233,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-31",
+     "shares": 2034.0,
+     "price": 147.8747,
+     "accession": "0001667422-26-000036"
+    },
+    {
+     "date": "2025-11-18",
+     "shares": 305.0,
+     "price": 817.55,
+     "accession": "0001667422-25-000017"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001667422-25-000017",
+    "0001667422-26-000019",
+    "0001667422-26-000021",
+    "0001667422-26-000025",
+    "0001667422-26-000027",
+    "0001667422-26-000036"
+   ]
+  },
+  {
+   "name": "Sands Anita M",
+   "role": "consejero",
+   "sold": 16445.0,
+   "sold_value": 1482402,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3534,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-14",
+     "shares": 16445.0,
+     "price": 90.143,
+     "accession": "0001589849-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001589849-26-000002"
+   ]
+  },
+  {
+   "name": "Chamberlain Paul Edward",
+   "role": "consejero",
+   "sold": 7500.0,
+   "sold_value": 1079251,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0872,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-27",
+     "shares": 2700.0,
+     "price": 135.5004,
+     "accession": "0001659774-26-000012"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001659774-25-000006",
+    "0001659774-26-000002",
+    "0001659774-26-000004",
+    "0001659774-26-000010",
+    "0001659774-26-000012"
+   ]
+  },
+  {
+   "name": "Mastantuono Gina",
+   "role": "President and CFO",
+   "sold": 832.0,
+   "sold_value": 689686,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 51461.0,
+   "exercised": 100241.0,
+   "max_quarter_pct": 0.0637,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001465391-25-000021",
+    "0001465391-25-000023"
+   ]
+  },
+  {
+   "name": "Tzitzon Nicholas",
+   "role": "Vice Chairman",
+   "sold": 522.0,
+   "sold_value": 431736,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4484.0,
+   "exercised": 13215.0,
+   "max_quarter_pct": 0.1482,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001891538-25-000016"
+   ]
+  },
+  {
+   "name": "McBride Kevin Thomas",
+   "role": "Former Principal Acctg Officer",
+   "sold": 1680.0,
+   "sold_value": 383888,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4886.0,
+   "exercised": 13065.0,
+   "max_quarter_pct": 0.0522,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001723374-25-000008",
+    "0001723374-26-000008"
+   ]
+  },
+  {
+   "name": "ELMER RUSSELL S",
+   "role": "General Counsel",
+   "sold": 444.0,
+   "sold_value": 378000,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4909.0,
+   "exercised": 12512.0,
+   "max_quarter_pct": 0.093,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001197952-25-000012",
+    "0001197952-25-000014",
+    "0001197952-25-000018"
+   ]
+  },
+  {
+   "name": "Jackson Lawrence",
+   "role": "consejero",
+   "sold": 265.0,
+   "sold_value": 214708,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4507,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-28",
+     "shares": 265.0,
+     "price": 810.22,
+     "accession": "0001831384-25-000006"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001831384-25-000006"
+   ]
+  },
+  {
+   "name": "Briggs Teresa",
+   "role": "consejero",
+   "sold": 1595.0,
+   "sold_value": 173376,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1265,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-28",
+     "shares": 1595.0,
+     "price": 108.7,
+     "accession": "0001767659-26-000008"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001767659-26-000008"
+   ]
+  },
+  {
+   "name": "McDermott William R",
+   "role": "consejero, Chairman & CEO",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 28682.0,
+   "bought_value": 3000058,
+   "tax_withheld": 124429.0,
+   "exercised": 238672.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001334944-26-000020"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Fipps Paul",
+   "relationship": "Officer",
+   "shares": 2034.0,
+   "value": 300777.24,
+   "outstanding": 1034000000.0,
+   "approx_date": "08/31/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006547",
+   "filed": "2026-08-31",
+   "form": "144"
+  },
+  {
+   "person": "Canney Jacqueline P",
+   "relationship": "Officer",
+   "shares": 7847.0,
+   "value": 1082886.0,
+   "outstanding": 1034000000.0,
+   "approx_date": "08/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006508",
+   "filed": "2026-08-28",
+   "form": "144"
+  },
+  {
+   "person": "PAUL EDWARD CHAMBERLAIN",
+   "relationship": "Director",
+   "shares": 2700.0,
+   "value": 365851.08,
+   "outstanding": 1034000000.0,
+   "approx_date": "08/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008744",
+   "filed": "2026-08-27",
+   "form": "144"
+  },
+  {
+   "person": "Briggs Teresa",
+   "relationship": "Director",
+   "shares": 1595.0,
+   "value": 173376.5,
+   "outstanding": 1031000000.0,
+   "approx_date": "05/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004083",
+   "filed": "2026-05-28",
+   "form": "144"
+  },
+  {
+   "person": "Fipps Paul",
+   "relationship": "Officer",
+   "shares": 1048.0,
+   "value": 103238.48,
+   "outstanding": 1031000000.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003678",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "PAUL CHAMBERLAIN",
+   "relationship": "Director",
+   "shares": 3000.0,
+   "value": 261150.0,
+   "outstanding": 1031000000.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004517",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "Sands Anita M",
+   "relationship": "Director",
+   "shares": 16445.0,
+   "value": 1482407.16,
+   "outstanding": 1031000000.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003588",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "Fipps Paul",
+   "relationship": "Officer",
+   "shares": 151.0,
+   "value": 13660.97,
+   "outstanding": 1031000000.0,
+   "approx_date": "05/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003403",
+   "filed": "2026-05-08",
+   "form": "144"
+  },
+  {
+   "person": "Tzitzon Nicholas",
+   "relationship": "Officer",
+   "shares": 18000.0,
+   "value": 1695446.86,
+   "outstanding": 1031000000.0,
+   "approx_date": "05/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003372",
+   "filed": "2026-05-07",
+   "form": "144"
+  },
+  {
+   "person": "Canney Jacqueline P",
+   "relationship": "Officer",
+   "shares": 8927.0,
+   "value": 799868.13,
+   "outstanding": 1031000000.0,
+   "approx_date": "04/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003070",
+   "filed": "2026-04-24",
+   "form": "144"
+  },
+  {
+   "person": "Fipps Paul",
+   "relationship": "Officer",
+   "shares": 3696.0,
+   "value": 376141.92,
+   "outstanding": 1046000000.0,
+   "approx_date": "02/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001316",
+   "filed": "2026-02-23",
+   "form": "144"
+  },
+  {
+   "person": "Fipps Paul",
+   "relationship": "Officer",
+   "shares": 9641.0,
+   "value": 1021271.13,
+   "outstanding": 1046000000.0,
+   "approx_date": "02/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001116",
+   "filed": "2026-02-18",
+   "form": "144"
+  },
+  {
+   "person": "PAUL CHAMBERLAIN",
+   "relationship": "Director",
+   "shares": 1200.0,
+   "value": 120696.0,
+   "outstanding": 1046000000.0,
+   "approx_date": "02/12/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-001222",
+   "filed": "2026-02-12",
+   "form": "144"
+  },
+  {
+   "person": "Mastantuono Gina",
+   "relationship": "Officer",
+   "shares": 415.0,
+   "value": 352750.0,
+   "outstanding": 208000000.0,
+   "approx_date": "12/05/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007543",
+   "filed": "2025-12-05",
+   "form": "144"
+  },
+  {
+   "person": "Jackson Lawrence",
+   "relationship": "Director",
+   "shares": 265.0,
+   "value": 214708.3,
+   "outstanding": 208000000.0,
+   "approx_date": "11/28/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007350",
+   "filed": "2025-11-28",
+   "form": "144"
+  },
+  {
+   "person": "PAUL EDWARD CHAMBERLAIN",
+   "relationship": "Director",
+   "shares": 600.0,
+   "value": 481632.0,
+   "outstanding": 208000000.0,
+   "approx_date": "11/28/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009472",
+   "filed": "2025-11-28",
+   "form": "144"
+  },
+  {
+   "person": "Mastantuono Gina",
+   "relationship": "Officer",
+   "shares": 417.0,
+   "value": 336936.0,
+   "outstanding": 208000000.0,
+   "approx_date": "11/28/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007340",
+   "filed": "2025-11-28",
+   "form": "144"
+  },
+  {
+   "person": "Fipps Paul",
+   "relationship": "Officer",
+   "shares": 305.0,
+   "value": 249352.75,
+   "outstanding": 208000000.0,
+   "approx_date": "11/18/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007116",
+   "filed": "2025-11-18",
+   "form": "144"
+  },
+  {
+   "person": "ELMER RUSSELL S",
+   "relationship": "Officer",
+   "shares": 81.0,
+   "value": 66993.48,
+   "outstanding": 208000000.0,
+   "approx_date": "11/18/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007095",
+   "filed": "2025-11-18",
+   "form": "144"
+  },
+  {
+   "person": "Tzitzon Nicholas",
+   "relationship": "Officer",
+   "shares": 522.0,
+   "value": 431735.76,
+   "outstanding": 208000000.0,
+   "approx_date": "11/18/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007086",
+   "filed": "2025-11-18",
+   "form": "144"
+  },
+  {
+   "person": "Canney Jacqueline P",
+   "relationship": "Officer",
+   "shares": 94.0,
+   "value": 77745.52,
+   "outstanding": 208000000.0,
+   "approx_date": "11/18/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007078",
+   "filed": "2025-11-18",
+   "form": "144"
+  },
+  {
+   "person": "Canney Jacqueline P",
+   "relationship": "Officer",
+   "shares": 145.0,
+   "value": 122803.4,
+   "outstanding": 208000000.0,
+   "approx_date": "11/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007045",
+   "filed": "2025-11-17",
+   "form": "144"
+  },
+  {
+   "person": "ELMER RUSSELL S",
+   "relationship": "Officer",
+   "shares": 110.0,
+   "value": 93161.2,
+   "outstanding": 208000000.0,
+   "approx_date": "11/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007040",
+   "filed": "2025-11-17",
+   "form": "144"
+  },
+  {
+   "person": "ELMER RUSSELL S",
+   "relationship": "Officer",
+   "shares": 62.0,
+   "value": 52847.56,
+   "outstanding": 208000000.0,
+   "approx_date": "11/13/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006971",
+   "filed": "2025-11-13",
+   "form": "144"
+  },
+  {
+   "person": "Canney Jacqueline P",
+   "relationship": "Officer",
+   "shares": 66.0,
+   "value": 56257.08,
+   "outstanding": 208000000.0,
+   "approx_date": "11/13/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006968",
+   "filed": "2025-11-13",
+   "form": "144"
+  },
+  {
+   "person": "Canney Jacqueline P",
+   "relationship": "Officer",
+   "shares": 257.0,
+   "value": 222012.02,
+   "outstanding": 208000000.0,
+   "approx_date": "11/10/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006828",
+   "filed": "2025-11-10",
+   "form": "144"
+  },
+  {
+   "person": "ELMER RUSSELL S",
+   "relationship": "Officer",
+   "shares": 191.0,
+   "value": 164997.26,
+   "outstanding": 208000000.0,
+   "approx_date": "11/10/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006823",
+   "filed": "2025-11-10",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 78361628.0,
+   "pct": 7.49,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-001039"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002287"
+  }
+ ],
+ "errors": []
+}

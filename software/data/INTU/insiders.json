@@ -1,0 +1,323 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 896878,
+ "form4_count": 102,
+ "form144_count": 13,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "COOK SCOTT D",
+   "role": "consejero",
+   "sold": 494365.0,
+   "sold_value": 327541897,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0802,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001628280-25-055638",
+    "0001628280-25-055643",
+    "0001628280-25-056339",
+    "0001628280-25-059105",
+    "0001628280-25-059252",
+    "0001628280-26-000183"
+   ]
+  },
+  {
+   "name": "Goodarzi Sasan K",
+   "role": "consejero, Chairman and CEO",
+   "sold": 41000.0,
+   "sold_value": 26653960,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 19455.866,
+   "exercised": 40216.958000000006,
+   "max_quarter_pct": 0.7508,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-001365"
+   ]
+  },
+  {
+   "name": "DALZELL RICHARD L",
+   "role": "consejero",
+   "sold": 3855.0,
+   "sold_value": 1648982,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 911.0,
+   "max_quarter_pct": 0.1179,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001628280-25-056377",
+    "0001628280-25-056813",
+    "0001628280-26-017427",
+    "0001628280-26-042587",
+    "0001628280-26-044071",
+    "0001628280-26-045254",
+    "0001628280-26-061198"
+   ]
+  },
+  {
+   "name": "Aujla Sandeep",
+   "role": "EVP and CFO",
+   "sold": 2432.666,
+   "sold_value": 1581269,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 8697.819,
+   "exercised": 17018.0,
+   "max_quarter_pct": 0.8478,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-12-19",
+     "shares": 1098.032,
+     "price": 675.0,
+     "accession": "0001628280-25-058347"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-25-058347",
+    "0001628280-26-001017"
+   ]
+  },
+  {
+   "name": "Hotz Lauren D",
+   "role": "SVP, Chief Accounting Officer",
+   "sold": 906.942,
+   "sold_value": 314288,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 2478.3810000000003,
+   "exercised": 4825.0,
+   "max_quarter_pct": 0.3578,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-27",
+     "shares": 844.537,
+     "price": 346.565,
+     "accession": "0001628280-26-059416"
+    },
+    {
+     "date": "2026-08-27",
+     "shares": 62.405,
+     "price": 346.1457,
+     "accession": "0001628280-26-059416"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001628280-26-059416"
+   ]
+  },
+  {
+   "name": "PRABHU VASANT M",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 1750.0,
+   "bought_value": 541665,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001628280-26-038218"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "LAUREN DALE HOTZ",
+   "relationship": "Officer",
+   "shares": 908.0,
+   "value": 314654.6,
+   "outstanding": 273537000.0,
+   "approx_date": "08/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008790",
+   "filed": "2026-08-27",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD L DALZELL",
+   "relationship": "Director",
+   "shares": 853.0,
+   "value": 240349.81,
+   "outstanding": 273537000.0,
+   "approx_date": "06/16/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-006202",
+   "filed": "2026-06-16",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD L DALZELL",
+   "relationship": "Director",
+   "shares": 671.0,
+   "value": 197126.38,
+   "outstanding": 273537000.0,
+   "approx_date": "06/10/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-005890",
+   "filed": "2026-06-10",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD L DALZELL",
+   "relationship": "Director",
+   "shares": 1332.0,
+   "value": 630928.44,
+   "outstanding": 276550000.0,
+   "approx_date": "03/10/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-002443",
+   "filed": "2026-03-10",
+   "form": "144"
+  },
+  {
+   "person": "Sasan Goodarzi",
+   "relationship": "Officer",
+   "shares": 41000.0,
+   "value": 26653962.4,
+   "outstanding": 278400000.0,
+   "approx_date": "01/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-001124",
+   "filed": "2026-01-07",
+   "form": "144"
+  },
+  {
+   "person": "SANDEEP S AUJLA",
+   "relationship": "Officer",
+   "shares": 1335.0,
+   "value": 840327.77,
+   "outstanding": 278400000.0,
+   "approx_date": "01/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000098",
+   "filed": "2026-01-05",
+   "form": "144"
+  },
+  {
+   "person": "SCOTT D. COOK & HELEN SIGNE OSTBY 1993 FAMILY TRUST",
+   "relationship": "Director",
+   "shares": 151402.0,
+   "value": 102431023.1,
+   "outstanding": 278400000.0,
+   "approx_date": "12/29/2025",
+   "plan_10b5_1": true,
+   "accession": "0001950047-25-010742",
+   "filed": "2025-12-29",
+   "form": "144"
+  },
+  {
+   "person": "SANDEEP S AUJLA",
+   "relationship": "Officer",
+   "shares": 1103.0,
+   "value": 744525.0,
+   "outstanding": 278400000.0,
+   "approx_date": "12/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010545",
+   "filed": "2025-12-19",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD L DALZELL",
+   "relationship": "Director",
+   "shares": 999.0,
+   "value": 655583.76,
+   "outstanding": 278400000.0,
+   "approx_date": "12/09/2025",
+   "plan_10b5_1": true,
+   "accession": "0001950047-25-010002",
+   "filed": "2025-12-09",
+   "form": "144"
+  },
+  {
+   "person": "SCOTT D. COOK & HELEN SIGNE OSTBY 1993 FAMILY TRUST",
+   "relationship": "Director",
+   "shares": 149095.0,
+   "value": 100434864.85,
+   "outstanding": 278400000.0,
+   "approx_date": "12/08/2025",
+   "plan_10b5_1": true,
+   "accession": "0001950047-25-009924",
+   "filed": "2025-12-08",
+   "form": "144"
+  },
+  {
+   "person": "SCOTT D. COOK & HELEN SIGNE OSTBY 1993 FAMILY TRUST",
+   "relationship": "Director",
+   "shares": 150000.0,
+   "value": 97152000.0,
+   "outstanding": 278274000.0,
+   "approx_date": "12/04/2025",
+   "plan_10b5_1": true,
+   "accession": "0001950047-25-009796",
+   "filed": "2025-12-04",
+   "form": "144"
+  },
+  {
+   "person": "SDC 1994 CRUT",
+   "relationship": "Director",
+   "shares": 21934.0,
+   "value": 13941908.42,
+   "outstanding": 278400000.0,
+   "approx_date": "12/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009720",
+   "filed": "2025-12-03",
+   "form": "144"
+  },
+  {
+   "person": "HSO 1994 CRUT",
+   "relationship": "Director",
+   "shares": 21934.0,
+   "value": 13941908.42,
+   "outstanding": 278400000.0,
+   "approx_date": "12/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009719",
+   "filed": "2025-12-03",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 20831573.0,
+   "pct": 7.53,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000722"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001526"
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,98 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 1518587000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 355661000,
+   "end": "2026-06-30",
+   "tag": "FiniteLivedIntangibleAssetsNet",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 3163016000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 8269131000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.5925509071089112,
+ "goodwill_intang_to_assets": 0.22665598114239574,
+ "impairments": [
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-01-01",
+   "end": "2025-03-31",
+   "val": 188943000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-01-01",
+   "end": "2025-06-30",
+   "val": 188943000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-01-01",
+   "end": "2025-09-30",
+   "val": 188943000,
+   "form": "10-Q"
+  },
+  {
+   "tag": "GoodwillImpairmentLoss",
+   "start": "2025-01-01",
+   "end": "2025-12-31",
+   "val": 188943000,
+   "form": "10-K"
+  }
+ ],
+ "public_float": {
+  "usd": 102700000000,
+  "date": "2025-06-30",
+  "filed": "2026-02-19",
+  "form": "10-K",
+  "close": 350.0799865722656,
+  "close_date": "2025-06-30",
+  "float_shares": 293361529
+ },
+ "governance": [
+  {
+   "filed": "2026-04-07",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001751008-26-000014",
+   "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000014/app-20260402.htm"
+  },
+  {
+   "filed": "2025-04-09",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001751008-25-000032",
+   "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100825000032/app-20250408.htm"
+  },
+  {
+   "filed": "2025-02-12",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001751008-25-000008",
+   "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100825000008/app-20250210.htm"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 37938000,
+   "end": "2022-12-31",
+   "tag": "Goodwill",
+   "form": "10-K"
+  },
+  "intangibles": {
+   "val": 14611000,
+   "end": "2025-09-30",
+   "tag": "FiniteLivedIntangibleAssetsNet",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 9774194000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 11678564000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.0053763000816230986,
+ "goodwill_intang_to_assets": 0.004499611424829285,
+ "impairments": [],
+ "public_float": {
+  "usd": 299300000000,
+  "date": "2025-06-30",
+  "filed": "2026-02-17",
+  "form": "10-K",
+  "close": 136.32000732421875,
+  "close_date": "2025-06-30",
+  "float_shares": 2195569131
+ },
+ "governance": [
+  {
+   "filed": "2025-02-28",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001321655-25-000033",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000033/pltr-20250227.htm"
+  }
+ ]
+}

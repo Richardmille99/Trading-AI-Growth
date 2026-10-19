@@ -1,0 +1,69 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 706721000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 23157000,
+   "end": "2026-06-30",
+   "tag": "FiniteLivedIntangibleAssetsNet",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 4367160000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 7547675000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.16712875186620138,
+ "goodwill_intang_to_assets": 0.09670236198564458,
+ "impairments": [],
+ "public_float": {
+  "usd": 43000000000,
+  "date": "2025-06-30",
+  "filed": "2026-02-18",
+  "form": "10-K",
+  "close": 134.3300018310547,
+  "close_date": "2025-06-30",
+  "float_shares": 320107194
+ },
+ "governance": [
+  {
+   "filed": "2026-03-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001628280-26-013236",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026013236/ddog-20260226.htm"
+  },
+  {
+   "filed": "2025-09-11",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001561550-25-000272",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155025000272/ddog-20250911.htm"
+  },
+  {
+   "filed": "2024-12-23",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001561550-24-000240",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155024000240/ddog-20241222.htm"
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 796343,
+ "form4_count": 64,
+ "form144_count": 9,
+ "schedule13_count": 6,
+ "owners": [
+  {
+   "name": "NARAYEN SHANTANU",
+   "role": "consejero, Chair and CEO",
+   "sold": 200000.0,
+   "sold_value": 49610110,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 46044.0,
+   "exercised": 92847.0,
+   "max_quarter_pct": 0.3433,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-16",
+     "shares": 8358.0,
+     "price": 250.2245,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-16",
+     "shares": 33001.0,
+     "price": 251.0333,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-16",
+     "shares": 20716.0,
+     "price": 252.0287,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-16",
+     "shares": 11495.0,
+     "price": 253.0598,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-16",
+     "shares": 930.0,
+     "price": 253.6366,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 1378.0,
+     "price": 246.0861,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 3430.0,
+     "price": 247.3596,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 7168.0,
+     "price": 248.1427,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 10313.0,
+     "price": 249.1717,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 17595.0,
+     "price": 250.1868,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 9978.0,
+     "price": 251.0237,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-09-17",
+     "shares": 638.0,
+     "price": 251.7602,
+     "accession": "0001224154-26-000003"
+    },
+    {
+     "date": "2026-04-28",
+     "shares": 51422.0,
+     "price": 243.1937,
+     "accession": "0000796343-26-000105"
+    },
+    {
+     "date": "2026-04-28",
+     "shares": 13237.0,
+     "price": 243.8936,
+     "accession": "0000796343-26-000105"
+    },
+    {
+     "date": "2026-04-28",
+     "shares": 10341.0,
+     "price": 244.7837,
+     "accession": "0000796343-26-000105"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000796343-26-000105",
+    "0001224154-26-000003"
+   ]
+  },
+  {
+   "name": "Durn Daniel",
+   "role": "EVP & CFO",
+   "sold": 2982.0,
+   "sold_value": 816678,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 12406.0,
+   "exercised": 23657.0,
+   "max_quarter_pct": 0.0377,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-20",
+     "shares": 1336.0,
+     "price": 248.0201,
+     "accession": "0000796343-26-000103"
+    },
+    {
+     "date": "2026-01-27",
+     "shares": 1646.0,
+     "price": 294.8501,
+     "accession": "0000796343-26-000030"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000796343-26-000030",
+    "0000796343-26-000103"
+   ]
+  },
+  {
+   "name": "Forusz Jillian",
+   "role": "SVP & CAO",
+   "sold": 1320.0,
+   "sold_value": 346220,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 2862.0,
+   "exercised": 6554.0,
+   "max_quarter_pct": 0.1766,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-07-29",
+     "shares": 416.0,
+     "price": 264.33,
+     "accession": "0000796343-26-000137"
+    },
+    {
+     "date": "2026-04-30",
+     "shares": 755.0,
+     "price": 246.245,
+     "accession": "0000796343-26-000107"
+    },
+    {
+     "date": "2025-10-31",
+     "shares": 149.0,
+     "price": 337.88,
+     "accession": "0000796343-25-000133"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000796343-25-000133",
+    "0000796343-26-000107",
+    "0000796343-26-000137"
+   ]
+  },
+  {
+   "name": "Ricks David A",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 10000.0,
+   "bought_value": 1945130,
+   "tax_withheld": 0.0,
+   "exercised": 900.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0000796343-26-000118"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Narayen Family Trust",
+   "relationship": "Officer",
+   "shares": 125000.0,
+   "value": 31437500.0,
+   "outstanding": 399000000.0,
+   "approx_date": "09/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-001025",
+   "filed": "2026-09-16",
+   "form": "144"
+  },
+  {
+   "person": "Durn Daniel",
+   "relationship": "Officer",
+   "shares": 33.0,
+   "value": 8479.19,
+   "outstanding": 397500000.0,
+   "approx_date": "09/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001965301-26-000137",
+   "filed": "2026-09-08",
+   "form": "144"
+  },
+  {
+   "person": "JILLIAN FORUSZ",
+   "relationship": "Officer",
+   "shares": 416.0,
+   "value": 109961.28,
+   "outstanding": 397500000.0,
+   "approx_date": "07/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-007418",
+   "filed": "2026-07-29",
+   "form": "144"
+  },
+  {
+   "person": "Durn Daniel",
+   "relationship": "Officer",
+   "shares": 42700.0,
+   "value": 9573000.0,
+   "outstanding": 397500000.0,
+   "approx_date": "06/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001965301-26-000076",
+   "filed": "2026-06-16",
+   "form": "144"
+  },
+  {
+   "person": "JILLIAN FORUSZ",
+   "relationship": "Officer",
+   "shares": 755.0,
+   "value": 185914.98,
+   "outstanding": 404200000.0,
+   "approx_date": "04/30/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003868",
+   "filed": "2026-04-30",
+   "form": "144"
+  },
+  {
+   "person": "The Narayen Family Trust",
+   "relationship": "Officer",
+   "shares": 75000.0,
+   "value": 18300000.0,
+   "outstanding": 404200000.0,
+   "approx_date": "04/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000474",
+   "filed": "2026-04-28",
+   "form": "144"
+  },
+  {
+   "person": "Durn Daniel",
+   "relationship": "Officer",
+   "shares": 1336.0,
+   "value": 331354.8,
+   "outstanding": 404200000.0,
+   "approx_date": "04/20/2026",
+   "plan_10b5_1": false,
+   "accession": "0001965301-26-000043",
+   "filed": "2026-04-20",
+   "form": "144"
+  },
+  {
+   "person": "Durn Daniel",
+   "relationship": "Officer",
+   "shares": 1646.0,
+   "value": 485323.2,
+   "outstanding": 410500000.0,
+   "approx_date": "01/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001965301-26-000004",
+   "filed": "2026-01-27",
+   "form": "144"
+  },
+  {
+   "person": "JILLIAN FORUSZ",
+   "relationship": "Officer",
+   "shares": 149.0,
+   "value": 50344.12,
+   "outstanding": 418600000.0,
+   "approx_date": "10/31/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008332",
+   "filed": "2025-10-31",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 37230155.0,
+   "pct": 9.4,
+   "filed": "2026-07-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002012383-26-002160"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 30765197.0,
+   "pct": 7.61,
+   "filed": "2026-04-29",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000106"
+  },
+  {
+   "name": "STATE STREET CORPORATION",
+   "shares": 20538520.0,
+   "pct": 5.2,
+   "filed": "2026-08-07",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000093751-26-000403"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-000382"
+  }
+ ],
+ "errors": []
+}

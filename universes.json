@@ -14,6 +14,34 @@
    "title": "Memoria · ranking",
    "active": true,
    "cycle_notes": "Negocio cíclico de commodity: lee siempre bits, ASP por bit, días de inventario y capex de los KPIs junto al crecimiento. SKHY (SK hynix, ADR) y SIMO son emisores extranjeros: trimestres desde el 6-K (ver notas.md de cada uno)."
+  },
+  {
+   "dir": "software",
+   "name": "Software: plataformas, aplicaciones, datos, seguridad e IA aplicada",
+   "title": "Software · ranking",
+   "active": true,
+   "cycle_notes": "Perfil saas para todos: lee RPO/cRPO, retención neta y facturación junto al crecimiento. MSFT y ORCL llevan además capex de nube: mira el FCF, no solo el margen. Pregunta de fondo: modelo por usuario (CRM, NOW, ADBE, WDAY) frente a modelo por consumo (SNOW, DDOG, MDB, NET)."
+  },
+  {
+   "dir": "computo_ia",
+   "name": "Cómputo de IA: chips, foundry, equipos, redes y servidores",
+   "title": "Cómputo IA · ranking",
+   "active": true,
+   "cycle_notes": "TSM, ASML y ARM son emisores extranjeros (20-F/6-K): trimestres a mano desde los 6-K (ver notas.md). TSM publica ventas mensuales por 6-K. Equipos de fabricación: lee cartera y book-to-bill y el peso de China. Servidores (SMCI, DELL, CLS): margen bajo de integrador, mira capital circulante."
+  },
+  {
+   "dir": "nube_ia",
+   "name": "Nube de IA: hiperescalares y neoclouds",
+   "title": "Nube IA · ranking",
+   "active": true,
+   "cycle_notes": "Hiperescalares (AMZN, GOOGL, META) con perfil generic: lee capex, FCF y crecimiento de la nube. Neoclouds (CRWV, NBIS, IREN, APLD) con perfil ai_systems: cartera contratada, concentración de clientes, deuda, convertibles y ATM (aplica forensic-microcap si hay dilución fuerte). NBIS es emisor extranjero (20-F/6-K): trimestres a mano."
+  },
+  {
+   "dir": "infra_fisica",
+   "name": "Infraestructura física de la IA: electricidad, refrigeración, construcción y generación",
+   "title": "Infra física IA · ranking",
+   "active": true,
+   "cycle_notes": "Perfil industrial_energy: lee cartera de pedidos, book-to-bill y peso de centros de datos en cada informe. ETN, GEV y PWR son industriales grandes donde el centro de datos es solo una parte: estima la pureza con la nota de segmentos."
   }
  ]
 }
