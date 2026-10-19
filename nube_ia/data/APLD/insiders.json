@@ -1,0 +1,618 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1144879,
+ "form4_count": 43,
+ "form144_count": 20,
+ "schedule13_count": 14,
+ "owners": [
+  {
+   "name": "Nottenburg Richard N",
+   "role": "consejero",
+   "sold": 203606.0,
+   "sold_value": 6338922,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3599,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-10-13",
+     "shares": 31250.0,
+     "price": 21.84,
+     "accession": "0001166816-26-000007"
+    },
+    {
+     "date": "2026-08-04",
+     "shares": 75000.0,
+     "price": 31.15,
+     "accession": "0001628280-26-054432"
+    },
+    {
+     "date": "2026-04-28",
+     "shares": 12500.0,
+     "price": 32.0,
+     "accession": "0001166816-26-000005"
+    },
+    {
+     "date": "2026-04-30",
+     "shares": 12500.0,
+     "price": 34.59,
+     "accession": "0001166816-26-000005"
+    },
+    {
+     "date": "2026-01-14",
+     "shares": 11606.0,
+     "price": 35.28,
+     "accession": "0001166816-26-000002"
+    },
+    {
+     "date": "2026-01-15",
+     "shares": 12000.0,
+     "price": 35.45,
+     "accession": "0001166816-26-000002"
+    },
+    {
+     "date": "2025-10-30",
+     "shares": 5000.0,
+     "price": 34.8,
+     "accession": "0001144879-25-000086"
+    },
+    {
+     "date": "2025-10-31",
+     "shares": 9375.0,
+     "price": 35.91,
+     "accession": "0001144879-25-000086"
+    },
+    {
+     "date": "2025-10-24",
+     "shares": 34375.0,
+     "price": 33.23,
+     "accession": "0001144879-25-000082"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001144879-25-000082",
+    "0001144879-25-000086",
+    "0001166816-26-000002",
+    "0001166816-26-000005",
+    "0001166816-26-000007",
+    "0001628280-26-054432"
+   ]
+  },
+  {
+   "name": "Cummins Wes",
+   "role": "consejero, CEO; Chairman",
+   "sold": 165000.0,
+   "sold_value": 6009300,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 1057679.0,
+   "exercised": 300000.0,
+   "max_quarter_pct": 0.0073,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-01-16",
+     "shares": 165000.0,
+     "price": 36.42,
+     "accession": "0001144879-26-000012"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001144879-26-000012"
+   ]
+  },
+  {
+   "name": "Mohmand Mohammad Saidal LaVanway",
+   "role": "Chief Financial Officer",
+   "sold": 137503.0,
+   "sold_value": 4775734,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 357689.0,
+   "exercised": 175833.0,
+   "max_quarter_pct": 0.5311,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-10-24",
+     "shares": 100000.0,
+     "price": 34.08,
+     "accession": "0001144879-25-000084"
+    },
+    {
+     "date": "2025-10-28",
+     "shares": 37503.0,
+     "price": 36.47,
+     "accession": "0001144879-25-000084"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001144879-25-000084"
+   ]
+  },
+  {
+   "name": "HASTINGS CHUCK",
+   "role": "consejero",
+   "sold": 120987.0,
+   "sold_value": 4414969,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1495,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-01-29",
+     "shares": 45987.0,
+     "price": 38.57,
+     "accession": "0001144879-26-000016"
+    },
+    {
+     "date": "2025-10-29",
+     "shares": 50000.0,
+     "price": 35.69,
+     "accession": "0001144879-25-000092"
+    },
+    {
+     "date": "2025-10-31",
+     "shares": 25000.0,
+     "price": 34.27,
+     "accession": "0001144879-25-000092"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001144879-25-000092",
+    "0001144879-26-000016"
+   ]
+  },
+  {
+   "name": "Benson Ella G.",
+   "role": "consejero",
+   "sold": 51150.0,
+   "sold_value": 1701937,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4278,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-10-29",
+     "shares": 42569.0,
+     "price": 35.3,
+     "accession": "0001144879-25-000089"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001144879-25-000089",
+    "0001144879-25-000108"
+   ]
+  },
+  {
+   "name": "MILLER DOUGLAS S",
+   "role": "consejero",
+   "sold": 28000.0,
+   "sold_value": 951040,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0513,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-27",
+     "shares": 10000.0,
+     "price": 34.98,
+     "accession": "0001144879-26-000038"
+    },
+    {
+     "date": "2026-01-12",
+     "shares": 10000.0,
+     "price": 38.54,
+     "accession": "0001144879-26-000010"
+    },
+    {
+     "date": "2025-11-28",
+     "shares": 8000.0,
+     "price": 26.98,
+     "accession": "0001144879-25-000113"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001144879-25-000113",
+    "0001144879-26-000010",
+    "0001144879-26-000038"
+   ]
+  },
+  {
+   "name": "Lee Rachel H.",
+   "role": "consejero",
+   "sold": 24213.0,
+   "sold_value": 803872,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2896,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-10-24",
+     "shares": 24213.0,
+     "price": 33.2,
+     "accession": "0001144879-25-000079"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001144879-25-000079"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 62500.0,
+   "value": 1402500.0,
+   "outstanding": 302387140.0,
+   "approx_date": "10/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-010199",
+   "filed": "2026-10-13",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 75000.0,
+   "value": 2336107.5,
+   "outstanding": 291469000.0,
+   "approx_date": "08/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-007614",
+   "filed": "2026-08-04",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 12500.0,
+   "value": 432396.25,
+   "outstanding": 285769539.0,
+   "approx_date": "04/30/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003848",
+   "filed": "2026-04-30",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 12500.0,
+   "value": 400000.0,
+   "outstanding": 285769539.0,
+   "approx_date": "04/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003803",
+   "filed": "2026-04-28",
+   "form": "144"
+  },
+  {
+   "person": "DOUGLAS MILLER",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 349809.0,
+   "outstanding": 285769539.0,
+   "approx_date": "04/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-003767",
+   "filed": "2026-04-27",
+   "form": "144"
+  },
+  {
+   "person": "HASTINGS CHUCK",
+   "relationship": "Director",
+   "shares": 100000.0,
+   "value": 3876000.0,
+   "outstanding": 279585823.0,
+   "approx_date": "01/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001949846-26-000026",
+   "filed": "2026-01-29",
+   "form": "144"
+  },
+  {
+   "person": "WES CUMMINS",
+   "relationship": "Officer",
+   "shares": 165000.0,
+   "value": 6009052.5,
+   "outstanding": 279585823.0,
+   "approx_date": "01/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000527",
+   "filed": "2026-01-16",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 12000.0,
+   "value": 425406.0,
+   "outstanding": 279585823.0,
+   "approx_date": "01/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000487",
+   "filed": "2026-01-15",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 11606.0,
+   "value": 409481.73,
+   "outstanding": 279585823.0,
+   "approx_date": "01/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000394",
+   "filed": "2026-01-14",
+   "form": "144"
+  },
+  {
+   "person": "DOUGLAS MILLER",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 385410.0,
+   "outstanding": 279585823.0,
+   "approx_date": "01/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000325",
+   "filed": "2026-01-12",
+   "form": "144"
+  },
+  {
+   "person": "DOUGLAS MILLER",
+   "relationship": "Director",
+   "shares": 8000.0,
+   "value": 215840.0,
+   "outstanding": 279685875.0,
+   "approx_date": "11/28/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009460",
+   "filed": "2025-11-28",
+   "form": "144"
+  },
+  {
+   "person": "ELLA BENSON",
+   "relationship": "Director",
+   "shares": 8581.0,
+   "value": 180973.29,
+   "outstanding": 279685875.0,
+   "approx_date": "11/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009254",
+   "filed": "2025-11-24",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 9375.0,
+   "value": 336626.25,
+   "outstanding": 279685875.0,
+   "approx_date": "10/31/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008316",
+   "filed": "2025-10-31",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 5000.0,
+   "value": 173992.0,
+   "outstanding": 279685875.0,
+   "approx_date": "10/30/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008298",
+   "filed": "2025-10-30",
+   "form": "144"
+  },
+  {
+   "person": "ELLA BENSON",
+   "relationship": "Director",
+   "shares": 42569.0,
+   "value": 1502549.48,
+   "outstanding": 279685875.0,
+   "approx_date": "10/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008249",
+   "filed": "2025-10-29",
+   "form": "144"
+  },
+  {
+   "person": "MOHAMMAD SAIDAL MOHMAND",
+   "relationship": "Officer",
+   "shares": 37503.0,
+   "value": 1371113.43,
+   "outstanding": 279685875.0,
+   "approx_date": "10/28/2025",
+   "plan_10b5_1": false,
+   "accession": "0001493152-25-019906",
+   "filed": "2025-10-28",
+   "form": "144"
+  },
+  {
+   "person": "HASTINGS CHUCK",
+   "relationship": "Director",
+   "shares": 200000.0,
+   "value": 7016000.0,
+   "outstanding": 279685875.0,
+   "approx_date": "10/28/2025",
+   "plan_10b5_1": false,
+   "accession": "0001949846-25-000546",
+   "filed": "2025-10-28",
+   "form": "144"
+  },
+  {
+   "person": "MOHAMMAD SAIDAL MOHMAND",
+   "relationship": "Officer",
+   "shares": 100000.0,
+   "value": 3323000.0,
+   "outstanding": 279685875.0,
+   "approx_date": "10/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001493152-25-019346",
+   "filed": "2025-10-24",
+   "form": "144"
+  },
+  {
+   "person": "RACHEL LEE",
+   "relationship": "Director",
+   "shares": 24213.0,
+   "value": 803752.96,
+   "outstanding": 279685875.0,
+   "approx_date": "10/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008180",
+   "filed": "2025-10-24",
+   "form": "144"
+  },
+  {
+   "person": "RICHARD N NOTTENBURG",
+   "relationship": "Director",
+   "shares": 34375.0,
+   "value": 1142281.25,
+   "outstanding": 279685875.0,
+   "approx_date": "10/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008161",
+   "filed": "2025-10-24",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Applied Digital Corporation",
+   "shares": 139528227.0,
+   "pct": 96.1,
+   "filed": "2026-06-26",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "06/26/2026",
+   "accession": "0001493152-26-030373"
+  },
+  {
+   "name": "Hood River Capital Management LLC",
+   "shares": 22037431.0,
+   "pct": 7.89,
+   "filed": "2026-02-17",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001214659-26-001746"
+  },
+  {
+   "name": "Wesley Cummins",
+   "shares": 22042487.0,
+   "pct": 7.6,
+   "filed": "2026-07-08",
+   "form": "SCHEDULE 13D/A",
+   "event_date": "07/07/2026",
+   "accession": "0001493152-26-032572"
+  },
+  {
+   "name": "JANE STREET GROUP, LLC",
+   "shares": 20886105.0,
+   "pct": 7.1,
+   "filed": "2026-05-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001595888-26-000042"
+  },
+  {
+   "name": "Jane Street Global Trading, LLC",
+   "shares": 15964583.0,
+   "pct": 5.4,
+   "filed": "2026-05-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001595888-26-000042"
+  },
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 13768802.0,
+   "pct": 4.81,
+   "filed": "2026-07-31",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002100121-26-000907"
+  },
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 12199793.0,
+   "pct": 4.3,
+   "filed": "2026-07-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002012383-26-002264"
+  },
+  {
+   "name": "Jane Street Capital, LLC",
+   "shares": 3624900.0,
+   "pct": 1.2,
+   "filed": "2026-05-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001595888-26-000042"
+  },
+  {
+   "name": "Leonard Street Holdings, LP",
+   "shares": 1230629.0,
+   "pct": 0.4,
+   "filed": "2026-05-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001595888-26-000042"
+  },
+  {
+   "name": "Jane Street Options, LLC",
+   "shares": 64800.0,
+   "pct": 0.0,
+   "filed": "2026-05-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001595888-26-000042"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-000601"
+  },
+  {
+   "name": "Jane Street Singapore Pte. Ltd",
+   "shares": 1193.0,
+   "pct": 0.0,
+   "filed": "2026-05-12",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001595888-26-000042"
+  }
+ ],
+ "errors": []
+}

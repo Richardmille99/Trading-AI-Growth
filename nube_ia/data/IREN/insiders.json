@@ -1,0 +1,218 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1878848,
+ "form4_count": 7,
+ "form144_count": 0,
+ "schedule13_count": 7,
+ "owners": [
+  {
+   "name": "Guzowski Christopher",
+   "role": "consejero",
+   "sold": 11958.0,
+   "sold_value": 434315,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2069,
+   "max_quarter": "2025-T3",
+   "off_plan_sales": [
+    {
+     "date": "2025-09-16",
+     "shares": 11958.0,
+     "price": 36.32,
+     "accession": "0000950103-26-009962"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000950103-26-009962"
+   ]
+  }
+ ],
+ "form144": [],
+ "holders": [
+  {
+   "name": "THE GOLDMAN SACHS GROUP, INC.",
+   "shares": 33642054.4,
+   "pct": 9.4,
+   "filed": "2026-08-12",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000886982-26-000449"
+  },
+  {
+   "name": "GOLDMAN SACHS & CO. LLC",
+   "shares": 33642054.4,
+   "pct": 9.4,
+   "filed": "2026-08-12",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000886982-26-000449"
+  },
+  {
+   "name": "BANK OF AMERICA CORP /DE/",
+   "shares": 21027180.0,
+   "pct": 5.8,
+   "filed": "2026-08-03",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000070858-26-000397"
+  },
+  {
+   "name": "JANE STREET GROUP, LLC",
+   "shares": 15447088.34,
+   "pct": 4.7,
+   "filed": "2026-02-02",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001595888-26-000008"
+  },
+  {
+   "name": "Kenneth Griffin",
+   "shares": 18687938.0,
+   "pct": 4.7,
+   "filed": "2026-09-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/23/2026",
+   "accession": "0001104659-26-112411"
+  },
+  {
+   "name": "Citadel Securities GP LLC",
+   "shares": 17863909.0,
+   "pct": 4.5,
+   "filed": "2026-09-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/23/2026",
+   "accession": "0001104659-26-112411"
+  },
+  {
+   "name": "Citadel Securities Group LP",
+   "shares": 17863909.0,
+   "pct": 4.5,
+   "filed": "2026-09-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/23/2026",
+   "accession": "0001104659-26-112411"
+  },
+  {
+   "name": "Capital Ventures International",
+   "shares": 13954021.0,
+   "pct": 4.2,
+   "filed": "2026-02-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001446580-26-000036"
+  },
+  {
+   "name": "Susquehanna Advisors Group, Inc.",
+   "shares": 13954021.0,
+   "pct": 4.2,
+   "filed": "2026-02-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001446580-26-000036"
+  },
+  {
+   "name": "G1 Execution Services, LLC",
+   "shares": 13954021.0,
+   "pct": 4.2,
+   "filed": "2026-02-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001446580-26-000036"
+  },
+  {
+   "name": "SIG Brokerage, LP",
+   "shares": 13954021.0,
+   "pct": 4.2,
+   "filed": "2026-02-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001446580-26-000036"
+  },
+  {
+   "name": "Susquehanna Portfolio Strategies, LLC",
+   "shares": 13954021.0,
+   "pct": 4.2,
+   "filed": "2026-02-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001446580-26-000036"
+  },
+  {
+   "name": "Susquehanna Securities, LLC",
+   "shares": 13954021.0,
+   "pct": 4.2,
+   "filed": "2026-02-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001446580-26-000036"
+  },
+  {
+   "name": "Jane Street Options, LLC",
+   "shares": 11910731.0,
+   "pct": 3.6,
+   "filed": "2026-02-02",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001595888-26-000008"
+  },
+  {
+   "name": "Citadel Securities LLC",
+   "shares": 14152102.0,
+   "pct": 3.6,
+   "filed": "2026-09-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/23/2026",
+   "accession": "0001104659-26-112411"
+  },
+  {
+   "name": "Jane Street Global Trading, LLC",
+   "shares": 3404939.34,
+   "pct": 1.0,
+   "filed": "2026-02-02",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001595888-26-000008"
+  },
+  {
+   "name": "Citadel Advisors LLC",
+   "shares": 824029.0,
+   "pct": 0.2,
+   "filed": "2026-09-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/23/2026",
+   "accession": "0001104659-26-112411"
+  },
+  {
+   "name": "Citadel Advisors Holdings LP",
+   "shares": 824029.0,
+   "pct": 0.2,
+   "filed": "2026-09-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/23/2026",
+   "accession": "0001104659-26-112411"
+  },
+  {
+   "name": "Citadel GP LLC",
+   "shares": 824029.0,
+   "pct": 0.2,
+   "filed": "2026-09-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "09/23/2026",
+   "accession": "0001104659-26-112411"
+  },
+  {
+   "name": "Jane Street Capital, LLC",
+   "shares": 131418.0,
+   "pct": 0.0,
+   "filed": "2026-02-02",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0001595888-26-000008"
+  }
+ ],
+ "errors": []
+}

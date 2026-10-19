@@ -1,0 +1,96 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 19448000000,
+   "end": "2026-07-31",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 4347000000,
+   "end": "2026-07-31",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": -1427000000,
+   "end": "2026-07-31",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 127393000000,
+   "end": "2026-07-31",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": -16.674842326559215,
+ "goodwill_intang_to_assets": 0.18678420321367736,
+ "impairments": [],
+ "public_float": {
+  "usd": 39200000000,
+  "date": "2025-08-01",
+  "filed": "2026-03-16",
+  "form": "10-K",
+  "close": 127.31999969482422,
+  "close_date": "2025-08-01",
+  "float_shares": 307885643
+ },
+ "governance": [
+  {
+   "filed": "2025-11-25",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001571996-25-000120",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000120/dell-20250905.htm"
+  },
+  {
+   "filed": "2025-10-17",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001571996-25-000114",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000114/dell-20250807.htm"
+  },
+  {
+   "filed": "2025-10-02",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001571996-25-000112",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000112/dell-20250905.htm"
+  },
+  {
+   "filed": "2025-10-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001571996-25-000111",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000111/dell-20250930.htm"
+  },
+  {
+   "filed": "2025-09-08",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001571996-25-000104",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000104/dell-20250905.htm"
+  },
+  {
+   "filed": "2025-08-12",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001571996-25-000093",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000093/dell-20250807.htm"
+  }
+ ]
+}

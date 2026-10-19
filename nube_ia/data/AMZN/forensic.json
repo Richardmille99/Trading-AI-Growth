@@ -1,0 +1,51 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 23504000000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 9197000000,
+   "end": "2025-12-31",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-K"
+  },
+  "equity": {
+   "val": 551620000000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 1095689000000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.05928175193067692,
+ "goodwill_intang_to_assets": 0.029845147665076496,
+ "impairments": [],
+ "public_float": {
+  "usd": 2118061430046,
+  "date": "2025-06-30",
+  "filed": "2026-02-06",
+  "form": "10-K",
+  "close": 219.38999938964844,
+  "close_date": "2025-06-30",
+  "float_shares": 9654320780
+ },
+ "governance": [
+  {
+   "filed": "2026-09-09",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001018724-26-000036",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm"
+  }
+ ]
+}

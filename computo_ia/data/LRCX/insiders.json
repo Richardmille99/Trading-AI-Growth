@@ -1,0 +1,529 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 707549,
+ "form4_count": 51,
+ "form144_count": 23,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "ARCHER TIMOTHY",
+   "role": "President and CEO",
+   "sold": 253300.0,
+   "sold_value": 57036438,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 172294.0,
+   "exercised": 474830.0,
+   "max_quarter_pct": 0.1421,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001343600-25-000006",
+    "0001343600-26-000009",
+    "0001343600-26-000011",
+    "0001343600-26-000013"
+   ]
+  },
+  {
+   "name": "BRANDT ERIC",
+   "role": "consejero",
+   "sold": 144000.0,
+   "sold_value": 47025856,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4296,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-06",
+     "shares": 17000.0,
+     "price": 220.95,
+     "accession": "0001190639-26-000002"
+    },
+    {
+     "date": "2026-02-06",
+     "shares": 18000.0,
+     "price": 230.0,
+     "accession": "0001190639-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001190639-26-000002",
+    "0001190639-26-000004",
+    "0001190639-26-000006"
+   ]
+  },
+  {
+   "name": "Bettinger Douglas R",
+   "role": "Chief Financial Officer & EVP",
+   "sold": 130466.0,
+   "sold_value": 26534860,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 48673.0,
+   "exercised": 220980.0,
+   "max_quarter_pct": 0.0771,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-03-04",
+     "shares": 50057.0,
+     "price": 224.03,
+     "accession": "0001469469-26-000007"
+    },
+    {
+     "date": "2026-03-02",
+     "shares": 40329.0,
+     "price": 230.22,
+     "accession": "0001469469-26-000005"
+    },
+    {
+     "date": "2025-11-14",
+     "shares": 40080.0,
+     "price": 150.6,
+     "accession": "0001469469-25-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001469469-25-000004",
+    "0001469469-26-000005",
+    "0001469469-26-000007"
+   ]
+  },
+  {
+   "name": "Varadarajan Seshasayee",
+   "role": "Senior Vice President",
+   "sold": 59750.0,
+   "sold_value": 17406370,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 36913.0,
+   "exercised": 93675.0,
+   "max_quarter_pct": 0.2232,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001707827-26-000006"
+   ]
+  },
+  {
+   "name": "Fernandes Neil J",
+   "role": "Senior Vice President",
+   "sold": 25829.0,
+   "sold_value": 7007120,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 17091.0,
+   "exercised": 21570.0,
+   "max_quarter_pct": 0.3028,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0000707549-26-000024",
+    "0001966598-26-000004"
+   ]
+  },
+  {
+   "name": "TALWALKAR ABHIJIT Y",
+   "role": "consejero",
+   "sold": 18282.0,
+   "sold_value": 6124470,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1734,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001316065-26-000012"
+   ]
+  },
+  {
+   "name": "Harter Ava",
+   "role": "Chief Legal Officer",
+   "sold": 25520.0,
+   "sold_value": 5749611,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 10977.0,
+   "exercised": 12020.0,
+   "max_quarter_pct": 0.1369,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-27",
+     "shares": 6010.0,
+     "price": 258.66,
+     "accession": "0001642415-26-000008"
+    },
+    {
+     "date": "2026-03-04",
+     "shares": 1500.0,
+     "price": 222.66,
+     "accession": "0001642415-26-000006"
+    },
+    {
+     "date": "2026-03-02",
+     "shares": 4000.0,
+     "price": 232.5,
+     "accession": "0001642415-26-000004"
+    },
+    {
+     "date": "2025-10-27",
+     "shares": 3000.0,
+     "price": 157.48,
+     "accession": "0001642415-25-000005"
+    },
+    {
+     "date": "2025-10-27",
+     "shares": 6010.0,
+     "price": 157.46,
+     "accession": "0001642415-25-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001642415-25-000005",
+    "0001642415-26-000004",
+    "0001642415-26-000006",
+    "0001642415-26-000008",
+    "0001642415-26-000012"
+   ]
+  },
+  {
+   "name": "Mayer Bethany",
+   "role": "consejero",
+   "sold": 10885.0,
+   "sold_value": 3220423,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2969,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-09",
+     "shares": 9557.0,
+     "price": 314.74,
+     "accession": "0001405693-26-000011"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001405693-25-000007",
+    "0001405693-25-000009",
+    "0001405693-26-000011"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "BETHANY MAYER",
+   "relationship": "Director",
+   "shares": 9557.0,
+   "value": 3007970.18,
+   "outstanding": 1251321000.0,
+   "approx_date": "09/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-001013",
+   "filed": "2026-09-09",
+   "form": "144"
+  },
+  {
+   "person": "ARCHER TIMOTHY",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 9577800.0,
+   "outstanding": 1251321000.0,
+   "approx_date": "09/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006806",
+   "filed": "2026-09-09",
+   "form": "144"
+  },
+  {
+   "person": "Varadarajan Seshasayee",
+   "relationship": "Officer",
+   "shares": 59750.0,
+   "value": 17406370.0,
+   "outstanding": 1251321000.0,
+   "approx_date": "09/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006628",
+   "filed": "2026-09-02",
+   "form": "144"
+  },
+  {
+   "person": "Harter Ava",
+   "relationship": "Officer",
+   "shares": 5000.0,
+   "value": 1512300.0,
+   "outstanding": 1251321000.0,
+   "approx_date": "08/31/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006537",
+   "filed": "2026-08-31",
+   "form": "144"
+  },
+  {
+   "person": "ARCHER TIMOTHY",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 9000000.0,
+   "outstanding": 1250571000.0,
+   "approx_date": "08/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005699",
+   "filed": "2026-08-06",
+   "form": "144"
+  },
+  {
+   "person": "TALWALKAR ABHIJIT Y",
+   "relationship": "Director",
+   "shares": 18282.0,
+   "value": 6124470.0,
+   "outstanding": 1250571000.0,
+   "approx_date": "07/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005202",
+   "filed": "2026-07-13",
+   "form": "144"
+  },
+  {
+   "person": "ARCHER TIMOTHY",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 11700300.0,
+   "outstanding": 1250571000.0,
+   "approx_date": "07/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005041",
+   "filed": "2026-07-02",
+   "form": "144"
+  },
+  {
+   "person": "BRANDT ERIC",
+   "relationship": "Director",
+   "shares": 54500.0,
+   "value": 19586755.0,
+   "outstanding": 1250571.0,
+   "approx_date": "06/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004583",
+   "filed": "2026-06-12",
+   "form": "144"
+  },
+  {
+   "person": "BRANDT ERIC",
+   "relationship": "Director",
+   "shares": 54500.0,
+   "value": 19118337.8,
+   "outstanding": 1250571000.0,
+   "approx_date": "06/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004574",
+   "filed": "2026-06-11",
+   "form": "144"
+  },
+  {
+   "person": "Fernandes Neil J",
+   "relationship": "Officer",
+   "shares": 7659.0,
+   "value": 2371226.4,
+   "outstanding": 1250571000.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004167",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "LORD PATRICK J",
+   "relationship": "Former Officer",
+   "shares": 59490.0,
+   "value": 17856891.5,
+   "outstanding": 1250571000.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003582",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "Fernandes Neil J",
+   "relationship": "Officer",
+   "shares": 18170.0,
+   "value": 4635893.8,
+   "outstanding": 1250571000.0,
+   "approx_date": "05/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003160",
+   "filed": "2026-05-01",
+   "form": "144"
+  },
+  {
+   "person": "Harter Ava",
+   "relationship": "Officer",
+   "shares": 6010.0,
+   "value": 1554547.2,
+   "outstanding": 1250571000.0,
+   "approx_date": "04/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003094",
+   "filed": "2026-04-27",
+   "form": "144"
+  },
+  {
+   "person": "Harter Ava",
+   "relationship": "Officer",
+   "shares": 1500.0,
+   "value": 333990.0,
+   "outstanding": 1248771000.0,
+   "approx_date": "03/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001889",
+   "filed": "2026-03-04",
+   "form": "144"
+  },
+  {
+   "person": "Bettinger Douglas R",
+   "relationship": "Officer",
+   "shares": 50057.0,
+   "value": 11214164.71,
+   "outstanding": 1248771000.0,
+   "approx_date": "03/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001886",
+   "filed": "2026-03-04",
+   "form": "144"
+  },
+  {
+   "person": "Bettinger Douglas R",
+   "relationship": "Officer",
+   "shares": 40329.0,
+   "value": 9284673.0,
+   "outstanding": 1248771000.0,
+   "approx_date": "03/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001711",
+   "filed": "2026-03-02",
+   "form": "144"
+  },
+  {
+   "person": "Harter Ava",
+   "relationship": "Officer",
+   "shares": 4000.0,
+   "value": 930000.0,
+   "outstanding": 1248771000.0,
+   "approx_date": "03/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001641",
+   "filed": "2026-03-02",
+   "form": "144"
+  },
+  {
+   "person": "BRANDT ERIC",
+   "relationship": "Director",
+   "shares": 35000.0,
+   "value": 7896150.0,
+   "outstanding": 1248771000.0,
+   "approx_date": "02/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000719",
+   "filed": "2026-02-06",
+   "form": "144"
+  },
+  {
+   "person": "ARCHER TIMOTHY",
+   "relationship": "Officer",
+   "shares": 163300.0,
+   "value": 26758338.0,
+   "outstanding": 1256030000.0,
+   "approx_date": "12/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007797",
+   "filed": "2025-12-17",
+   "form": "144"
+  },
+  {
+   "person": "Bettinger Douglas R",
+   "relationship": "Officer",
+   "shares": 40080.0,
+   "value": 6036107.12,
+   "outstanding": 1256030000.0,
+   "approx_date": "11/14/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007017",
+   "filed": "2025-11-14",
+   "form": "144"
+  },
+  {
+   "person": "Mayer Bethany",
+   "relationship": "Director",
+   "shares": 30.0,
+   "value": 4785.6,
+   "outstanding": 1256030000.0,
+   "approx_date": "11/07/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006791",
+   "filed": "2025-11-07",
+   "form": "144"
+  },
+  {
+   "person": "Mayer Bethany",
+   "relationship": "Director",
+   "shares": 1298.0,
+   "value": 207667.02,
+   "outstanding": 1256030000.0,
+   "approx_date": "11/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006640",
+   "filed": "2025-11-03",
+   "form": "144"
+  },
+  {
+   "person": "Harter Ava",
+   "relationship": "Officer",
+   "shares": 9010.0,
+   "value": 1418775.2,
+   "outstanding": 1256030000.0,
+   "approx_date": "10/27/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006564",
+   "filed": "2025-10-27",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 93575293.0,
+   "pct": 7.49,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000703"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001646"
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DELL Swing Dossier</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: trading desk sheet — sticky horizontal section bar on top, single report column, verdict board up front */
+:root{
+  --bg:#f3f3f6; --paper:#ffffff; --sunk:#ebebf1; --ink:#14141f; --ink-2:#474a5c; --ink-3:#6f7286; --rule:#d9dae3;
+  --accent:#3f3dc4; --accent-ink:#ffffff; --accent-soft:#e6e6fb;
+  --up:#1d7f4e; --up-soft:#dff3e8; --down:#c23a2b; --down-soft:#fbe4e0; --warn:#9a5d00; --warn-soft:#fbefd9; --info:#2a62a8; --info-soft:#e1ebf8;
+  --verify-bg:#fff1b8; --verify-ink:#5c4400; --dot:#8a8da0;
+  --f-disp:"Space Grotesk","Segoe UI",Arial,sans-serif;
+  --f-body:"IBM Plex Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e0e15; --paper:#16161f; --sunk:#111119; --ink:#e7e7f0; --ink-2:#adafc2; --ink-3:#8487a0; --rule:#2a2b3a;
+  --accent:#9b9cff; --accent-ink:#11113a; --accent-soft:#23234a;
+  --up:#6fd39d; --up-soft:#11301f; --down:#f08a7c; --down-soft:#3a1915; --warn:#ebb45c; --warn-soft:#33260f; --info:#8db7ee; --info-soft:#152438;
+  --verify-bg:#4a3c08; --verify-ink:#ffe08a; --dot:#6f7290; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e0e15; --paper:#16161f; --sunk:#111119; --ink:#e7e7f0; --ink-2:#adafc2; --ink-3:#8487a0; --rule:#2a2b3a;
+  --accent:#9b9cff; --accent-ink:#11113a; --accent-soft:#23234a;
+  --up:#6fd39d; --up-soft:#11301f; --down:#f08a7c; --down-soft:#3a1915; --warn:#ebb45c; --warn-soft:#33260f; --info:#8db7ee; --info-soft:#152438;
+  --verify-bg:#4a3c08; --verify-ink:#ffe08a; --dot:#6f7290; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.n,.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--f-disp);text-wrap:balance;margin:0}
+/* top bar */
+.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top,0px)}
+.bar .in{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px))}
+.bar .tk{font:700 18px var(--f-disp);letter-spacing:.02em;white-space:nowrap}
+.bar .tk span{color:var(--accent)}
+.bar nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;min-width:0}
+.bar nav::-webkit-scrollbar{display:none}
+.bar nav a{font:600 12px var(--f-mono);color:var(--ink-2);text-decoration:none;padding:5px 8px;border-radius:999px;white-space:nowrap}
+.bar nav a:hover{background:var(--accent-soft);color:var(--ink)}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:16px;padding:22px max(16px,env(safe-area-inset-right,0px)) 56px max(16px,env(safe-area-inset-left,0px))}
+/* header */
+.case{display:grid;gap:12px}
+.strip{display:flex;flex-wrap:wrap;gap:6px 14px;font:600 11.5px var(--f-mono);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3)}
+.strip b{color:var(--accent)}
+.case h1{font-size:clamp(28px,4.6vw,48px);font-weight:700;line-height:1.02;letter-spacing:-.02em}
+.case h1 em{font-style:normal;color:var(--accent)}
+.desc{color:var(--ink-2);max-width:92ch;font-size:14.5px;margin:0}
+.synthetic{border:2px dashed var(--warn);background:var(--warn-soft);color:var(--ink);padding:10px 14px;border-radius:8px;font-size:14px}
+.synthetic b{color:var(--warn)}
+.board{display:grid;grid-template-columns:minmax(220px,1.1fr) repeat(5,minmax(0,1fr));gap:8px}
+.verdict{background:var(--ink);color:var(--bg);border-radius:8px;padding:14px 16px;display:grid;gap:6px;align-content:start}
+.verdict .k{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.verdict .lv{font:700 34px/1 var(--f-disp);letter-spacing:-.01em}
+.verdict .sz{font:600 13px var(--f-mono)}
+.verdict p{margin:0;font-size:13px;opacity:.9}
+.tile{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px;display:grid;gap:6px;align-content:start;min-width:0}
+.tile .k{font:600 10.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.tile .g{display:flex;align-items:baseline;gap:8px}
+.tile .g b{font:700 26px/1 var(--f-disp)}
+.tile .g span{font:600 12px var(--f-mono);color:var(--ink-2)}
+.tile p{margin:0;font-size:12.5px;color:var(--ink-2);line-height:1.4}
+.tile.up{box-shadow:inset 0 3px 0 var(--up)}.tile.up .g b{color:var(--up)}
+.tile.mid{box-shadow:inset 0 3px 0 var(--warn)}.tile.mid .g b{color:var(--warn)}
+.tile.down{box-shadow:inset 0 3px 0 var(--down)}.tile.down .g b{color:var(--down)}
+.tile.na{box-shadow:inset 0 3px 0 var(--dot)}.tile.na .g b{color:var(--ink-3)}
+@media (max-width:1060px){.board{grid-template-columns:repeat(3,minmax(0,1fr))}.verdict{grid-column:1/-1}}
+@media (max-width:620px){.board{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* sections */
+section{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:18px 22px;min-width:0;scroll-margin-top:64px}
+@media (max-width:620px){section{padding:16px 14px}}
+.sh{display:flex;gap:10px;align-items:baseline;margin-bottom:10px;border-bottom:1px solid var(--rule);padding-bottom:10px}
+.sh .no{font:700 12px var(--f-mono);color:var(--accent)}
+.sh h2{font-size:22px;font-weight:700;letter-spacing:-.01em}
+h3{font-size:15.5px;font-weight:700;margin:18px 0 8px}
+p{margin:8px 0;max-width:96ch}
+.lede{color:var(--ink-2);font-size:14px}
+.read{background:var(--accent-soft);padding:10px 14px;margin-top:12px;font-size:14px;border-radius:6px;border-left:3px solid var(--accent)}
+.v{background:var(--verify-bg);color:var(--verify-ink);font:600 10.5px/1 var(--f-mono);letter-spacing:.04em;padding:2px 5px;border-radius:3px;overflow-wrap:anywhere;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.src{font:500 11px var(--f-mono);color:var(--ink-3);text-decoration:none;border:1px solid var(--rule);border-radius:3px;padding:0 4px;white-space:nowrap}
+a.src:hover{color:var(--accent);border-color:var(--accent)}
+.kv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin:0}
+.kv>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:10px;padding:7px 0;border-bottom:1px dashed var(--rule)}
+.kv dt{font:600 11.5px var(--f-mono);color:var(--ink-3);letter-spacing:.03em;text-transform:uppercase}
+.kv dd{margin:0;font-size:14px;min-width:0}
+@media (max-width:760px){.kv{grid-template-columns:minmax(0,1fr)}.kv>div{grid-template-columns:120px minmax(0,1fr)}}
+/* tables */
+.tw{overflow-x:auto;margin-top:8px;border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:680px}
+th{background:var(--sunk);color:var(--ink-2);font:700 10.5px var(--f-mono);text-align:left;padding:8px 10px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+td{padding:8px 10px;border-top:1px solid var(--rule);vertical-align:top}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr.me td{background:var(--accent-soft);font-weight:600}
+tr.off td{color:var(--ink-3)}
+.gr{font:700 12px var(--f-mono);display:inline-grid;place-items:center;min-width:22px;height:22px;border-radius:4px;padding:0 5px}
+.gr.A{background:var(--up);color:var(--paper)}.gr.B{background:var(--up-soft);color:var(--up)}.gr.C{background:var(--warn-soft);color:var(--warn)}.gr.D{background:var(--down-soft);color:var(--down)}
+.st{font:700 10.5px var(--f-mono);padding:2px 6px;border-radius:3px;white-space:nowrap;display:inline-block;letter-spacing:.03em}
+.st.r{background:var(--down-soft);color:var(--down)}.st.a{background:var(--warn-soft);color:var(--warn)}.st.g{background:var(--up-soft);color:var(--up)}.st.b{background:var(--info-soft);color:var(--info)}.st.x{background:var(--sunk);color:var(--ink-3)}
+.fl{display:flex;flex-wrap:wrap;gap:4px}
+.pos{color:var(--up)}.neg{color:var(--down)}
+/* score breakdown */
+.parts{display:grid;gap:6px;margin-top:8px;max-width:720px}
+.part{display:grid;grid-template-columns:150px minmax(0,1fr) 64px;gap:10px;align-items:center;font-size:13px}
+.part .lb{color:var(--ink-2)}
+.part .tr{height:10px;background:var(--sunk);border-radius:5px;overflow:hidden}
+.part .tr i{display:block;height:100%;background:var(--accent);border-radius:5px}
+.part .vl{font:600 12px var(--f-mono);text-align:right}
+@media (max-width:520px){.part{grid-template-columns:110px minmax(0,1fr) 56px}}
+/* charts */
+.chart{margin-top:10px;overflow-x:auto}
+.chart svg{display:block;width:100%;min-width:600px;height:auto}
+.chart text{fill:var(--ink-2);font-family:var(--f-mono);font-size:11px}
+.chart .grid{stroke:var(--rule);stroke-width:1}
+.chart .axis{stroke:var(--ink-3);stroke-width:1}
+.chart .lbl{fill:var(--ink);font-weight:600}
+.chart .med{stroke:var(--ink-3);stroke-dasharray:4 4;stroke-width:1}
+.chart .q{fill:var(--ink-3);font-size:10.5px;letter-spacing:.04em}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--ink-2);margin-top:6px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.cap{font-size:13px;color:var(--ink-2);margin-top:8px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+@media (max-width:760px){.two{grid-template-columns:minmax(0,1fr)}}
+ul.pl{margin:6px 0 0;padding-left:18px;font-size:14px}
+ul.pl li{margin:3px 0}
+ol.trace{margin:6px 0 0;padding-left:20px;font-size:14px}
+footer{font-size:12.5px;color:var(--ink-3)}
+footer ol{padding-left:18px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+</style>
+<div class="bar"><div class="in"><span class="tk">DELL<span>·</span>swing</span><nav aria-label="Secciones"><a href="#s0">Veredicto</a><a href="#s1">§1 Snapshot</a><a href="#s2">§2 Catalizadores</a><a href="#s3">§3 Fundamentales</a><a href="#s4">§4 Calidad</a><a href="#s5">§5 Oferta</a><a href="#s6">§6 Valoración</a><a href="#s7">§7 Grupo</a><a href="#s8">§8 Setup</a><a href="#s9">§9 Eventos</a><a href="#s10">§10 Plan</a></nav></div></div><main class="wrap"><header class="case" id="s0"><div class="strip"><span>Caso <b>DELL</b></span><span>CIK 0001571996</span><span>NYSE</span><span>Corte 2026-10-19</span><span>Perfil Fabricación para terceros (foundry / OSAT)</span><span>Tema Cadena de cómputo de IA</span></div><h1>Dell Technologies <em>DELL</em></h1><p class="desc">Servidores de IA + PC. Ingresos $151.197,0M TTM; último trimestre 57,7% interanual.</p><div class="board"><div class="verdict"><span class="k">Convicción</span><span class="lv">Baja</span><span class="sz">0,25 R · régimen risk off</span><p>Fase 1 (fundamentales): sin auditoría de catalizadores, oferta ni insiders. La convicción es provisional.</p></div><div class="tile na"><span class="k">Setup</span><span class="g"><b>n/d</b><span></span></span><p>4,7% de ADR; ver §8.</p></div><div class="tile mid"><span class="k">Catalizador</span><span class="g"><b>C</b><span>40/100</span></span><p>Solo los últimos resultados; sin consenso ni sorpresa.</p></div><div class="tile up"><span class="k">Calidad</span><span class="g"><b>67</b><span>fuerte</span></span><p>Nota de fundamentales 67; 1 banderas activas.</p></div><div class="tile up"><span class="k">Oferta</span><span class="g"><b>100</b><span>limpia</span></span><p>Fase 1: sin auditoría de oferta. <span class="v">VERIFY Fase 2</span></p></div><div class="tile mid"><span class="k">Grupo</span><span class="g"><b>neutral</b><span>fund. p41 · RS p92</span></span><p>Pares = resto del universo.</p></div></div></header><section id="s1"><div class="sh"><span class="no">§1</span><h2>Snapshot</h2></div><dl class="kv"><div><dt>Negocio</dt><dd>Servidores de IA + PC</dd></div><div><dt>Subgrupo · pureza</dt><dd>Servidores y ensamblaje de sistemas de IA (SMCI, DELL, CLS) · mixto</dd></div><div><dt>Ingresos TTM</dt><dd>$151.197,0M · 49,0% interanual</dd></div><div><dt>Último trimestre</dt><dd>$46.971,0M · 57,7% · aceleración −29,8 pp</dd></div><div><dt>Margen bruto TTM</dt><dd>19,8%</dd></div><div><dt>Rule of 40</dt><dd>54,7</dd></div><div><dt>Caja neta</dt><dd>−$22.897,0M</dd></div><div><dt>Market cap / EV</dt><dd>n/d / n/d</dd></div></dl></section><section id="s2"><div class="sh"><span class="no">§2</span><h2>Catalizadores</h2></div><p class="lede">Cada catalizador se puntúa con la checklist de verificación (references/catalysts.md). La confirmación de mercado va aparte y nunca se suma: un D con mercado fuerte es una operación corta, no una tesis. Fila resaltada = catalizador principal del setup.</p><div class="tw"><table><thead><tr><th>Fecha</th><th>Titular</th><th>Tipo</th><th>Vínculo</th><th>Valor</th><th>Nota</th><th>Veredicto</th><th>Banderas</th><th class="n">Mercado</th><th>Fuente</th></tr></thead><tbody><tr class="me"><td>2026-09-01</td><td>Resultados jul-26: ingresos $46.971,0M (+58% interanual)</td><td>Resultados</td><td>—</td><td>—</td><td><span class="gr C">C</span> 40</td><td>por confirmar</td><td><span class="fl"><span class="st r">DESACELERA</span></span></td><td class="n">60</td><td><a class="src" href="https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/exhibit991earnings8kq2fy27.htm">EX-99.1 8-K 2026-09-01</a></td></tr></tbody></table></div><h3>2.1 Desglose del principal · Resultados jul-26: ingresos $46.971,0M (+58% interanual)</h3><div class="parts"><div class="part"><span class="lb">Crecimiento</span><span class="tr"><i style="width:100%"></i></span><span class="vl">25/25</span></div><div class="part"><span class="lb">Aceleracion</span><span class="tr"><i style="width:0%"></i></span><span class="vl">0/20</span></div><div class="part"><span class="lb">Sorpresa</span><span class="tr"><i style="width:0%"></i></span><span class="vl">0/20</span></div><div class="part"><span class="lb">Guia</span><span class="tr"><i style="width:20%"></i></span><span class="vl">5/25</span></div><div class="part"><span class="lb">Calidad</span><span class="tr"><i style="width:100%"></i></span><span class="vl">10/10</span></div></div><p class="cap">Fase 1: sin consenso, guía ni sorpresa. <span class="v">VERIFY consenso (finviz o búsqueda web) y guía del PR</span></p><div class="read">Fase 1: solo se registran los últimos resultados con su reacción de mercado. La checklist completa de catalizadores queda para la Fase 2.</div></section><section id="s3"><div class="sh"><span class="no">§3</span><h2>Fundamentales de crecimiento</h2></div><div class="chart" id="growth"></div><div class="legend"><span><i style="background:var(--accent)"></i>Último trimestre</span><span><i style="background:var(--dot)"></i>Trimestres anteriores</span><span><i style="background:var(--up)"></i>Acelera</span><span><i style="background:var(--down)"></i>Desacelera</span></div><div class="tw"><table><thead><tr><th>Trimestre</th><th class="n">Ingresos</th><th class="n">Interanual</th><th class="n">Aceleración</th><th class="n">M. bruto</th><th class="n">M. operativo</th><th class="n">M. FCF</th></tr></thead><tbody><tr><td>jul-26</td><td class="n">$46.971,0M</td><td class="n">57,7%</td><td class="n"><span class="neg">−29,8 pp</span></td><td class="n">20,9%</td><td class="n">11,5%</td><td class="n">2,1%</td></tr><tr><td>may-26</td><td class="n">$43.842,0M</td><td class="n">87,5%</td><td class="n"><span class="pos">+48,1 pp</span></td><td class="n">17,8%</td><td class="n">8,3%</td><td class="n">7,1%</td></tr><tr><td>ene-26</td><td class="n">$33.379,0M</td><td class="n">39,5%</td><td class="n"><span class="pos">+28,6 pp</span></td><td class="n">20,2%</td><td class="n">9,3%</td><td class="n">11,8%</td></tr><tr><td>oct-25</td><td class="n">$27.005,0M</td><td class="n">10,8%</td><td class="n"><span class="neg">−8,1 pp</span></td><td class="n">20,7%</td><td class="n">7,8%</td><td class="n">1,9%</td></tr><tr><td>ago-25</td><td class="n">$29.776,0M</td><td class="n">19,0%</td><td class="n"><span class="pos">+13,9 pp</span></td><td class="n">18,3%</td><td class="n">6,0%</td><td class="n">6,3%</td></tr><tr><td>may-25</td><td class="n">$23.378,0M</td><td class="n">5,1%</td><td class="n"><span class="neg">−2,1 pp</span></td><td class="n">21,1%</td><td class="n">5,0%</td><td class="n">9,5%</td></tr><tr><td>ene-25</td><td class="n">$23.931,0M</td><td class="n">7,2%</td><td class="n"><span class="neg">−2,3 pp</span></td><td class="n">23,7%</td><td class="n">9,0%</td><td class="n">−0,6%</td></tr><tr><td>nov-24</td><td class="n">$24.366,0M</td><td class="n">9,5%</td><td class="n"><span class="">n/d</span></td><td class="n">22,0%</td><td class="n">7,1%</td><td class="n">3,8%</td></tr></tbody></table></div><p class="cap">Trimestres de XBRL (companyfacts). <span class="v">VERIFY contrastar el último trimestre con el EX-99.1</span></p><h3>3.1 Nota de fundamentales · 67/100 (fuerte)</h3><div class="parts"><div class="part"><span class="lb">Crecimiento</span><span class="tr"><i style="width:100%"></i></span><span class="vl">100/100</span></div><div class="part"><span class="lb">Aceleración</span><span class="tr"><i style="width:0%"></i></span><span class="vl">0/100</span></div><div class="part"><span class="lb">Margen bruto</span><span class="tr"><i style="width:70%"></i></span><span class="vl">70/100</span></div><div class="part"><span class="lb">Rule of 40</span><span class="tr"><i style="width:80%"></i></span><span class="vl">80/100</span></div><div class="part"><span class="lb">Apalancamiento operativo</span><span class="tr"><i style="width:70%"></i></span><span class="vl">70/100</span></div><div class="part"><span class="lb">Calidad (banderas)</span><span class="tr"><i style="width:85%"></i></span><span class="vl">85/100</span></div></div><p class="cap">Pesos del perfil: Crecimiento 25%, Aceleración 20%, Margen bruto 10%, Rule of 40 15%, Apalancamiento operativo 15%, Calidad (banderas) 15%.</p><h3>3.2 KPIs del perfil (manuales)</h3><p class="cap">KPIs que pide el perfil: Utilización de capacidad, Capex / ventas, Ingresos mensuales (Taiwán) o por tecnología, Ingresos de encapsulado avanzado o SiPho/SiGe, Concentración de clientes.</p></section><section id="s4"><div class="sh"><span class="no">§4</span><h2>Calidad del beneficio</h2></div><div class="tw"><table><thead><tr><th>Bandera</th><th>Estado</th><th class="n">Valor</th><th>Regla</th></tr></thead><tbody><tr class="off"><td><b>COBROS &gt; VENTAS</b></td><td><span class="st g">no</span></td><td class="n">−5,2 pp</td><td>Δ cobros − Δ ingresos &gt; 20 pp</td></tr><tr class="off"><td><b>DSO AL ALZA</b></td><td><span class="st g">no</span></td><td class="n">−3,3%</td><td>DSO +15% interanual con crecimiento que desacelera</td></tr><tr class="off"><td><b>BENEFICIO SIN CAJA</b></td><td><span class="st g">no</span></td><td class="n">$12.152,0M</td><td>Beneficio neto TTM &gt; 0 y CFO TTM &lt; 0</td></tr><tr class="off"><td><b>ACCRUALS ALTOS</b></td><td><span class="st g">no</span></td><td class="n">−0,7%</td><td>Accruals de Sloan &gt; 10%</td></tr><tr class="off"><td><b>SBC PESADA</b></td><td><span class="st g">no</span></td><td class="n">0,5%</td><td>SBC &gt; 20% de ingresos TTM</td></tr><tr class="off"><td><b>DILUCIÓN</b></td><td><span class="st g">no</span></td><td class="n">−5,0%</td><td>Acciones diluidas +5% interanual (básicas si un trimestre tiene pérdidas y el otro beneficios)</td></tr><tr><td><b>INVENTARIO &gt; VENTAS</b></td><td><span class="st r">ACTIVA</span></td><td class="n">+137,5 pp</td><td>Δ inventario − Δ ingresos &gt; 25 pp</td></tr><tr class="off"><td><b>NON-GAAP AGRESIVO</b></td><td><span class="st x">n/d</span></td><td class="n">n/d</td><td>(manual) ajustes &gt; 30% de ingresos o no recurrentes repetidos</td></tr><tr class="off"><td><b>RUNWAY CORTO</b></td><td><span class="st g">no</span></td><td class="n">n/d</td><td>FCF negativo y caja &lt; 12 meses de consumo (caja bruta si CFO TTM &gt; 0; neta si no)</td></tr></tbody></table></div></section><section id="s5"><div class="sh"><span class="no">§5</span><h2>Dilución y oferta</h2></div><p class="lede">Lo que importa para un swing: cuánto papel puede venderse encima de la entrada en las próximas 8 semanas. Float de referencia n/d; oferta viva a precio actual ≈ n/d del float.</p><div class="tw"><table><thead><tr><th>Fuente</th><th>Tipo</th><th class="n">Acciones / capacidad</th><th class="n">% float</th><th>Precio base (vs actual)</th><th>Gate</th><th>Fecha</th><th>Notas</th><th>Fuente</th></tr></thead><tbody></tbody></table></div><h3>5.1 Nota de oferta · 100/100 (limpia)</h3><div class="tw"><table><thead><tr><th>Regla</th><th>Estado</th><th class="n">Puntos</th><th>Detalle</th></tr></thead><tbody><tr><td>ATM con capacidad viva</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>Shelf efectivo sin ATM</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>RIESGO DE COLOCACIÓN</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>Lock-up en ventana &gt; 10% del float</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>Lock-up en ventana 5–10% del float</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>Ventas de insiders marcadas</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>Convertibles con conversión posible en ventana</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>Dilución neta &gt; 5% interanual</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr><tr><td>SBC &gt; 20% de ingresos</td><td><span class="st x">no</span></td><td class="n">0</td><td></td></tr></tbody></table></div><div class="read">Fase 1: oferta sin auditar. <span class="v">VERIFY recompras, shelf, convertibles, Forms 4/144, 13D/13G — Fase 2</span></div></section><section id="s6"><div class="sh"><span class="no">§6</span><h2>Valoración y expectativas</h2></div><dl class="kv"><div><dt>Precio</dt><dd>$451,71 · cierre del 2026-10-16 (Yahoo Finance chart API)</dd></div><div><dt>Acciones (portada)</dt><dd>n/d</dd></div><div><dt>Market cap</dt><dd>n/d</dd></div><div><dt>Caja neta</dt><dd>−$22.897,0M</dd></div><div><dt>EV</dt><dd>n/d</dd></div><div><dt>Ingresos TTM</dt><dd>$151.197,0M</dd></div><div><dt>EV / ventas</dt><dd>n/d</dd></div><div><dt>EV / beneficio bruto</dt><dd>n/d</dd></div><div><dt>EV/ventas ÷ crecimiento</dt><dd>n/d</dd></div><div><dt>DCF inverso</dt><dd>n/d</dd></div><div><dt>Crecimiento TTM actual</dt><dd>49,0%</dd></div><div><dt>Margen FCF objetivo</dt><dd>10% (perfil) en el año 5</dd></div></dl><p class="cap">DCF inverso: crecimiento de ingresos de los años 1–5 que iguala el valor presente al EV. Margen FCF desde el TTM actual hasta el objetivo del perfil en el año 5; crecimiento que se desvanece hasta el 3% entre los años 6 y 10; descuento 10%; terminal de Gordon.</p></section><section id="s7"><div class="sh"><span class="no">§7</span><h2>Grupo y pares</h2></div><p class="lede">Posición en el grupo: <b>neutral</b>. Percentiles frente a los demás miembros (0–100). Fundamentales = media de crecimiento, aceleración, margen bruto y Rule of 40. Valor = EV/ventas ÷ crecimiento, más alto = más barato.</p><div class="chart" id="quadrant"></div><p class="cap">Líneas discontinuas = medianas del grupo. Punto resaltado = caso analizado.</p><div class="tw"><table><thead><tr><th>Ticker</th><th>Nombre</th><th class="n">Crec.</th><th class="n">Acel.</th><th class="n">M. bruto</th><th class="n">R40</th><th class="n">EV/ventas</th><th class="n">RS 3m</th><th class="n">P. fund.</th><th class="n">P. RS</th><th class="n">P. valor</th></tr></thead><tbody><tr><td><b>NVDA</b></td><td>NVIDIA</td><td class="n">105,9%</td><td class="n">+20,6 pp</td><td class="n">74,7%</td><td class="n">n/d</td><td class="n">17,1×</td><td class="n">84</td><td class="n">92</td><td class="n">77</td><td class="n">83</td></tr><tr><td><b>AVGO</b></td><td>Broadcom</td><td class="n">85,5%</td><td class="n">+37,6 pp</td><td class="n">68,8%</td><td class="n">92,9</td><td class="n">18,0×</td><td class="n">26</td><td class="n">84</td><td class="n">38</td><td class="n">67</td></tr><tr><td><b>LITE</b></td><td>Lumentum</td><td class="n">109,3%</td><td class="n">+19,2 pp</td><td class="n">41,7%</td><td class="n">93,2</td><td class="n">24,2×</td><td class="n">89</td><td class="n">77</td><td class="n">85</td><td class="n">50</td></tr><tr><td><b>ANET</b></td><td>Arista Networks</td><td class="n">37,7%</td><td class="n">+2,6 pp</td><td class="n">63,0%</td><td class="n">n/d</td><td class="n">19,9×</td><td class="n">74</td><td class="n">54</td><td class="n">62</td><td class="n">17</td></tr><tr><td><b>AMD</b></td><td>Advanced Micro Devices</td><td class="n">50,1%</td><td class="n">+12,3 pp</td><td class="n">53,2%</td><td class="n">59,9</td><td class="n">20,7×</td><td class="n">79</td><td class="n">53</td><td class="n">69</td><td class="n">42</td></tr><tr><td><b>ARM</b></td><td>Arm Holdings</td><td class="n">22,4%</td><td class="n">+2,3 pp</td><td class="n">97,5%</td><td class="n">54,3</td><td class="n">46,3×</td><td class="n">16</td><td class="n">44</td><td class="n">23</td><td class="n">0</td></tr><tr><td><b>CLS</b></td><td>Celestica</td><td class="n">62,4%</td><td class="n">+9,6 pp</td><td class="n">12,0%</td><td class="n">n/d</td><td class="n">2,2×</td><td class="n">58</td><td class="n">44</td><td class="n">54</td><td class="n">92</td></tr><tr><td><b>LRCX</b></td><td>Lam Research</td><td class="n">30,0%</td><td class="n">+6,2 pp</td><td class="n">50,5%</td><td class="n">n/d</td><td class="n">14,1×</td><td class="n">21</td><td class="n">44</td><td class="n">31</td><td class="n">25</td></tr><tr><td><b>SMCI</b></td><td>Super Micro Computer</td><td class="n">93,2%</td><td class="n">−29,5 pp</td><td class="n">10,8%</td><td class="n">59,9</td><td class="n">0,3×</td><td class="n">100</td><td class="n">43</td><td class="n">100</td><td class="n">100</td></tr><tr class="me"><td><b>DELL</b></td><td>Dell Technologies</td><td class="n">57,7%</td><td class="n">−29,8 pp</td><td class="n">19,8%</td><td class="n">54,7</td><td class="n">n/d</td><td class="n">95</td><td class="n">41</td><td class="n">92</td><td class="n">n/d</td></tr><tr><td><b>AMAT</b></td><td>Applied Materials</td><td class="n">24,8%</td><td class="n">+13,4 pp</td><td class="n">49,4%</td><td class="n">26,0</td><td class="n">10,4×</td><td class="n">0</td><td class="n">39</td><td class="n">0</td><td class="n">33</td></tr><tr><td><b>KLAC</b></td><td>KLA</td><td class="n">15,2%</td><td class="n">+3,7 pp</td><td class="n">61,3%</td><td class="n">39,4</td><td class="n">16,3×</td><td class="n">5</td><td class="n">34</td><td class="n">8</td><td class="n">8</td></tr><tr><td><b>CIEN</b></td><td>Ciena</td><td class="n">37,0%</td><td class="n">−2,5 pp</td><td class="n">44,1%</td><td class="n">46,1</td><td class="n">7,9×</td><td class="n">32</td><td class="n">31</td><td class="n">46</td><td class="n">58</td></tr><tr><td><b>COHR</b></td><td>Coherent</td><td class="n">33,7%</td><td class="n">+13,2 pp</td><td class="n">37,5%</td><td class="n">8,1</td><td class="n">6,6×</td><td class="n">11</td><td class="n">29</td><td class="n">15</td><td class="n">75</td></tr></tbody></table></div><div class="read"></div></section><section id="s8"><div class="sh"><span class="no">§8</span><h2>Precio y setup</h2></div><dl class="kv"><div><dt>Setup</dt><dd>n/d</dd></div><div><dt>Pivote</dt><dd>n/d</dd></div><div><dt>Stop</dt><dd>n/d</dd></div><div><dt>Riesgo / acción</dt><dd>n/d · n/d</dd></div><div><dt>ADR% (20 s.)</dt><dd>4,7%</dd></div><div><dt>Riesgo en ADRs</dt><dd>n/d</dd></div><div><dt>Precio vs pivote</dt><dd>n/d</dd></div><div><dt>RS 1m / 3m / 6m</dt><dd>0 / 95 / 100</dd></div><div><dt>EMAs 10 > 20 > 50</dt><dd>no</dd></div><div><dt>Régimen</dt><dd>risk off</dd></div></dl><p></p><p class="cap"><b>Régimen:</b> Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed.</p></section><section id="s9"><div class="sh"><span class="no">§9</span><h2>Riesgos y eventos</h2></div><div class="tw"><table><thead><tr><th>Fecha</th><th>Tipo</th><th>Evento · efecto esperado</th><th>Ventana</th><th>Fuente</th></tr></thead><tbody><tr><td>2026-12-01 · 31 sesiones</td><td>earnings</td><td>Próximos resultados <span class="v">VERIFY fecha estimada = últimos resultados (2026-09-01) + 91 días</span></td><td><span class="st a">en ventana</span></td><td></td></tr></tbody></table></div><h3>9.1 Riesgos de la tesis</h3><ul class="pl"></ul></section><section id="s10"><div class="sh"><span class="no">§10</span><h2>Plan y veredicto</h2></div><div class="two"><div><h3>10.1 Matriz de convicción</h3><p class="lede">Catalizador C · fundamentales 67 · oferta 100 · grupo neutral · régimen risk off · resultados en ≤ 3 sesiones: no</p><ol class="trace"><li>Media: catalizador ≥ C, fundamentales ≥ 45, oferta ≥ 50</li><li>no llega a Alta: catalizador C (pide A/B); grupo neutral (pide líder/fuerte)</li><li>régimen risk_off → máximo Baja</li></ol><p><b>Baja</b> · tamaño 0,25 R · Táctico, 1–3 sesiones, o pasar</p></div><div><h3>10.2 Plan</h3><ul class="pl"></ul></div></div><div class="read"></div></section><footer><p><b>Fuentes</b></p><ol><li><a href="https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/exhibit991earnings8kq2fy27.htm">EX-99.1 8-K 2026-09-01</a></li></ol><p>Marco mecánico de investigación; no es consejo de inversión. Las notas solo valen lo que valide el diario de calibración. Las marcas <span class="v">VERIFY</span> señalan datos que faltan o no se han contrastado. Plantilla growth-swing v1.0.</p></footer></main>
+<script type="application/json" id="chart-data">{"series": [{"period": "nov-24", "rev": 24366000000, "yoy": 0.09505190777942563, "accel": null, "gm": 0.21997865878683412}, {"period": "ene-25", "rev": 23931000000, "yoy": 0.07227350120978593, "accel": -2.2778406569639698, "gm": 0.23726547156408007}, {"period": "may-25", "rev": 23378000000, "yoy": 0.050980039561230095, "accel": -2.1293461648555834, "gm": 0.2111814526477885}, {"period": "ago-25", "rev": 29776000000, "yoy": 0.18980260529049797, "accel": 13.882256572926789, "gm": 0.1829325631380978}, {"period": "oct-25", "rev": 27005000000, "yoy": 0.10830665681687601, "accel": -8.149594847362195, "gm": 0.20710979448250325}, {"period": "ene-26", "rev": 33379000000, "yoy": 0.39480172161631355, "accel": 28.649506479943753, "gm": 0.2016237754276641}, {"period": "may-26", "rev": 43842000000, "yoy": 0.8753528958850201, "accel": 48.05511742687065, "gm": 0.1775010264130286}, {"period": "jul-26", "rev": 46971000000, "yoy": 0.5774785061794734, "accel": -29.787438970554668, "gm": 0.20927806518915926}], "peers": [{"t": "NVDA", "x": 1.0585114348672526, "y": 17.069258299284023, "s": false}, {"t": "AVGO", "x": 0.8550025075225678, "y": 18.010132183950777, "s": false}, {"t": "LITE", "x": 1.0934054503848554, "y": 24.161732394820266, "s": false}, {"t": "ANET", "x": 0.3768595791001452, "y": 19.910085839263335, "s": false}, {"t": "AMD", "x": 0.5011060507482108, "y": 20.65818129663479, "s": false}, {"t": "ARM", "x": 0.2241215574548907, "y": 46.25752320652423, "s": false}, {"t": "CLS", "x": 0.6239026750535701, "y": 2.2057140188490827, "s": false}, {"t": "LRCX", "x": 0.29988921747003183, "y": 14.135967802048876, "s": false}, {"t": "SMCI", "x": 0.931552702482286, "y": 0.3388169405768371, "s": false}, {"t": "AMAT", "x": 0.2482881402355519, "y": 10.442731271741678, "s": false}, {"t": "KLAC", "x": 0.15208012244148428, "y": 16.258701292413335, "s": false}, {"t": "CIEN", "x": 0.3704687198874843, "y": 7.936328738091882, "s": false}, {"t": "COHR", "x": 0.33744269129273796, "y": 6.580969899210884, "s": false}], "supply": [], "price": 451.7099914550781}</script>
+<script>
+(function(){
+var D=JSON.parse(document.getElementById("chart-data").textContent);
+var NS="http://www.w3.org/2000/svg";
+function el(t,a,txt){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;return e;}
+function tip(e,s){e.appendChild(el("title",{},s));return e;}
+function n1(v){return (Math.round(v*10)/10).toFixed(1).replace(".",",").replace("-","−");}
+function svg(w,h,label){return el("svg",{viewBox:"0 0 "+w+" "+h,role:"img","aria-label":label});}
+
+/* 1 · revenue growth YoY (bars) + acceleration (pp, lower strip) */
+(function(){
+  var host=document.getElementById("growth"); if(!host||!D.series.length)return;
+  var S=D.series.slice(-8), W=760, L=48, R=16, T=24, H1=190, gap=34, H2=80, B=26, H=T+H1+gap+H2+B;
+  var s=svg(W,H,"Crecimiento interanual de ingresos y aceleración por trimestre");
+  var cw=(W-L-R)/S.length, bw=Math.min(46,cw*0.56);
+  var ymax=Math.max.apply(null,S.map(function(d){return d.yoy*100;}).concat([10]));
+  var ymin=Math.min.apply(null,S.map(function(d){return d.yoy*100;}).concat([0]));
+  ymax=Math.ceil(ymax/10)*10; ymin=Math.floor(ymin/10)*10;
+  function y1(v){return T+H1-(v-ymin)/(ymax-ymin)*H1;}
+  for(var g=ymin;g<=ymax;g+=10){s.appendChild(el("line",{x1:L,x2:W-R,y1:y1(g),y2:y1(g),"class":"grid"}));
+    s.appendChild(el("text",{x:L-6,y:y1(g)+4,"text-anchor":"end"},g+"%"));}
+  s.appendChild(el("text",{x:L,y:12,"class":"lbl"},"Ingresos, crecimiento interanual"));
+  var accs=S.map(function(d){return d.accel==null?0:Math.abs(d.accel);}); var amax=Math.max.apply(null,accs.concat([5]));
+  var top2=T+H1+gap, mid2=top2+H2/2;
+  function y2(v){return mid2-v/amax*(H2/2-4);}
+  s.appendChild(el("text",{x:L,y:top2-10,"class":"lbl"},"Aceleración (pp frente al trimestre anterior)"));
+  s.appendChild(el("line",{x1:L,x2:W-R,y1:mid2,y2:mid2,"class":"axis"}));
+  S.forEach(function(d,i){
+    var cx=L+cw*i+cw/2, v=d.yoy*100, y=y1(Math.max(v,0)), h=Math.abs(y1(v)-y1(0));
+    var last=i===S.length-1;
+    tip(s.appendChild(el("rect",{x:cx-bw/2,y:v>=0?y:y1(0),width:bw,height:Math.max(h,1),rx:2,style:"fill:var("+(last?"--accent":"--dot")+")"})),d.period+": "+n1(v)+"% interanual");
+    s.appendChild(el("text",{x:cx,y:(v>=0?y:y1(v))-5+(v>=0?0:16),"text-anchor":"middle","class":last?"lbl":""},n1(v)+"%"));
+    s.appendChild(el("text",{x:cx,y:H-8,"text-anchor":"middle"},d.period));
+    if(d.accel!=null){var a=d.accel, ya=y2(Math.max(a,0)), ha=Math.abs(y2(a)-mid2);
+      tip(s.appendChild(el("rect",{x:cx-bw/2,y:a>=0?ya:mid2,width:bw,height:Math.max(ha,1),rx:2,style:"fill:var("+(a>=0?"--up":"--down")+")"})),d.period+": "+(a>=0?"+":"")+n1(a)+" pp");
+      s.appendChild(el("text",{x:cx,y:a>=0?ya-4:mid2+ha+12,"text-anchor":"middle"},(a>=0?"+":"")+n1(a)));}
+  });
+  host.appendChild(s);
+})();
+
+/* 2 · peer quadrant: growth (x) vs EV/sales (y), medians split the plane */
+(function(){
+  var host=document.getElementById("quadrant"); if(!host||D.peers.length<2)return;
+  var P=D.peers, W=760, H=380, L=56, R=20, T=22, B=40;
+  var s=svg(W,H,"Pares: crecimiento interanual frente a EV/ventas");
+  var xs=P.map(function(p){return p.x*100;}), ys=P.map(function(p){return p.y;});
+  var x0=Math.min(0,Math.floor(Math.min.apply(null,xs)/10)*10), x1=Math.ceil(Math.max.apply(null,xs)/10)*10+5;
+  var y0=0, y1=Math.ceil(Math.max.apply(null,ys)*1.12/2)*2;
+  function X(v){return L+(v-x0)/(x1-x0)*(W-L-R);} function Y(v){return T+(1-(v-y0)/(y1-y0))*(H-T-B);}
+  for(var g=x0;g<=x1;g+=10){s.appendChild(el("line",{x1:X(g),x2:X(g),y1:T,y2:H-B,"class":"grid"}));s.appendChild(el("text",{x:X(g),y:H-B+16,"text-anchor":"middle"},g+"%"));}
+  for(var h=0;h<=y1;h+=2){s.appendChild(el("line",{x1:L,x2:W-R,y1:Y(h),y2:Y(h),"class":"grid"}));s.appendChild(el("text",{x:L-6,y:Y(h)+4,"text-anchor":"end"},h+"×"));}
+  function med(a){a=a.slice().sort(function(p,q){return p-q;});var m=a.length>>1;return a.length%2?a[m]:(a[m-1]+a[m])/2;}
+  var mx=med(xs), my=med(ys);
+  s.appendChild(el("line",{x1:X(mx),x2:X(mx),y1:T,y2:H-B,"class":"med"}));
+  s.appendChild(el("line",{x1:L,x2:W-R,y1:Y(my),y2:Y(my),"class":"med"}));
+  s.appendChild(el("text",{x:W-R-4,y:H-B-8,"text-anchor":"end","class":"q"},"MÁS CRECIMIENTO · MÚLTIPLO MENOR"));
+  s.appendChild(el("text",{x:W-R-4,y:T+12,"text-anchor":"end","class":"q"},"MÁS CRECIMIENTO · MÚLTIPLO MAYOR"));
+  s.appendChild(el("text",{x:L+6,y:T+12,"class":"q"},"MENOS CRECIMIENTO · MÚLTIPLO MAYOR"));
+  s.appendChild(el("text",{x:L+6,y:H-B-8,"class":"q"},"MENOS CRECIMIENTO · MÚLTIPLO MENOR"));
+  s.appendChild(el("text",{x:(L+W-R)/2,y:H-6,"text-anchor":"middle"},"Crecimiento interanual de ingresos"));
+  P.forEach(function(p){
+    var cx=X(p.x*100), cy=Y(p.y);
+    tip(s.appendChild(el("circle",{cx:cx,cy:cy,r:p.s?8:5.5,style:"fill:var("+(p.s?"--accent":"--dot")+");stroke:var(--paper);stroke-width:2"})),p.t+": "+n1(p.x*100)+"% · "+n1(p.y)+"×");
+    s.appendChild(el("text",{x:cx+(p.s?12:9),y:cy+4,"class":p.s?"lbl":""},p.t));
+  });
+  host.appendChild(s);
+})();
+})();
+
+</script>

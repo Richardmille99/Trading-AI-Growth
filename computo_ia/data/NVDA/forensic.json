@@ -1,0 +1,114 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 21125000000,
+   "end": "2026-07-26",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 2998000000,
+   "end": "2026-07-26",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 228984000000,
+   "end": "2026-07-26",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 320272000000,
+   "end": "2026-07-26",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.10534797191070118,
+ "goodwill_intang_to_assets": 0.07532035270020483,
+ "impairments": [],
+ "public_float": {
+  "usd": 4000000000000,
+  "date": "2025-07-25",
+  "filed": "2026-02-25",
+  "form": "10-K",
+  "close": 173.5,
+  "close_date": "2025-07-25",
+  "float_shares": 23054755043
+ },
+ "governance": [
+  {
+   "filed": "2026-07-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-26-000060",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm"
+  },
+  {
+   "filed": "2026-05-08",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-26-000028",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000028/nvda-20260507.htm"
+  },
+  {
+   "filed": "2026-04-27",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-26-000026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000026/nvda-20260424.htm"
+  },
+  {
+   "filed": "2026-03-06",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-26-000024",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000024/nvda-20260302.htm"
+  },
+  {
+   "filed": "2026-01-23",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-26-000003",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000003/nvda-20260120.htm"
+  },
+  {
+   "filed": "2025-08-05",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-25-000197",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000197/nvda-20250731.htm"
+  },
+  {
+   "filed": "2025-03-07",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-25-000039",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303.htm"
+  },
+  {
+   "filed": "2024-11-07",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001045810-24-000300",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000300/nvda-20241107.htm"
+  }
+ ]
+}

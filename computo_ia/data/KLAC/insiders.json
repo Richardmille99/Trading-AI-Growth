@@ -1,0 +1,445 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 319201,
+ "form4_count": 57,
+ "form144_count": 22,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "WALLACE RICHARD P",
+   "role": "President and CEO",
+   "sold": 179414.0,
+   "sold_value": 60878622,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 334951.925,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1842,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-25-280130",
+    "0001193125-26-219897",
+    "0001193125-26-268015",
+    "0001193125-26-346811",
+    "0001193125-26-393053"
+   ]
+  },
+  {
+   "name": "Higgins Bren D.",
+   "role": "EVP & Chief Financial Officer",
+   "sold": 61455.0,
+   "sold_value": 16759004,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 129030.27700000002,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1613,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-25-324797",
+    "0001193125-26-296169",
+    "0001193125-26-349139"
+   ]
+  },
+  {
+   "name": "Lorig Brian",
+   "role": "EVP, KLA Global Services",
+   "sold": 59586.0,
+   "sold_value": 12401634,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 58402.369999999995,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4341,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-352187"
+   ]
+  },
+  {
+   "name": "Wilkinson Mary Beth",
+   "role": "EVP, CLO and Secretary",
+   "sold": 55981.0,
+   "sold_value": 12280132,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 40503.274000000005,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.6019,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-294468",
+    "0001193125-26-333148",
+    "0001193125-26-335502",
+    "0001193125-26-342339",
+    "0001193125-26-344579"
+   ]
+  },
+  {
+   "name": "Khan Ahmad A.",
+   "role": "President, Semi. Prod. & Cust.",
+   "sold": 33180.0,
+   "sold_value": 6601161,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 130510.24100000001,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1223,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-346812"
+   ]
+  },
+  {
+   "name": "Kirloskar Virendra A",
+   "role": "SVP & Chief Accounting Officer",
+   "sold": 9496.0,
+   "sold_value": 2373883,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 8419.18,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4099,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-11",
+     "shares": 297.0,
+     "price": 1879.02,
+     "accession": "0001193125-26-219368"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-219368",
+    "0001193125-26-296166",
+    "0001193125-26-333146",
+    "0001193125-26-335482",
+    "0001193125-26-342331",
+    "0001193125-26-344581"
+   ]
+  },
+  {
+   "name": "Hanley Jeneanne Michelle",
+   "role": "consejero",
+   "sold": 550.0,
+   "sold_value": 1031088,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1341,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-11",
+     "shares": 550.0,
+     "price": 1874.706,
+     "accession": "0001193125-26-219364"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-219364"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "WALLACE RICHARD P",
+   "relationship": "Officer",
+   "shares": 72019.0,
+   "value": 12378625.72,
+   "outstanding": 1306546783.0,
+   "approx_date": "09/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-006969",
+   "filed": "2026-09-15",
+   "form": "144"
+  },
+  {
+   "person": "Lorig Brian",
+   "relationship": "Officer",
+   "shares": 59586.0,
+   "value": 12401634.18,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005963",
+   "filed": "2026-08-13",
+   "form": "144"
+  },
+  {
+   "person": "Higgins Bren D.",
+   "relationship": "Officer",
+   "shares": 31500.0,
+   "value": 6610905.0,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005917",
+   "filed": "2026-08-12",
+   "form": "144"
+  },
+  {
+   "person": "Khan Ahmad A.",
+   "relationship": "Officer",
+   "shares": 33180.0,
+   "value": 6601161.0,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005869",
+   "filed": "2026-08-11",
+   "form": "144"
+  },
+  {
+   "person": "WALLACE RICHARD P",
+   "relationship": "Officer",
+   "shares": 87568.0,
+   "value": 17421653.6,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005866",
+   "filed": "2026-08-11",
+   "form": "144"
+  },
+  {
+   "person": "Wilkinson Mary Beth",
+   "relationship": "Officer",
+   "shares": 1661.0,
+   "value": 339774.16,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005862",
+   "filed": "2026-08-10",
+   "form": "144"
+  },
+  {
+   "person": "Kirloskar Virendra A",
+   "relationship": "Officer",
+   "shares": 529.0,
+   "value": 108212.24,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005833",
+   "filed": "2026-08-10",
+   "form": "144"
+  },
+  {
+   "person": "Wilkinson Mary Beth",
+   "relationship": "Officer",
+   "shares": 21831.0,
+   "value": 4313150.67,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005796",
+   "filed": "2026-08-07",
+   "form": "144"
+  },
+  {
+   "person": "Kirloskar Virendra A",
+   "relationship": "Officer",
+   "shares": 2405.0,
+   "value": 475155.85,
+   "outstanding": 1306546783.0,
+   "approx_date": "08/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005794",
+   "filed": "2026-08-07",
+   "form": "144"
+  },
+  {
+   "person": "Wilkinson Mary Beth",
+   "relationship": "Officer",
+   "shares": 13802.0,
+   "value": 2698291.0,
+   "outstanding": 130627521.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005648",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Kirloskar Virendra A",
+   "relationship": "Officer",
+   "shares": 4504.0,
+   "value": 880532.0,
+   "outstanding": 130627521.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005645",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Kirloskar Virendra A",
+   "relationship": "Officer",
+   "shares": 1565.0,
+   "value": 299838.35,
+   "outstanding": 130627521.0,
+   "approx_date": "08/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005590",
+   "filed": "2026-08-04",
+   "form": "144"
+  },
+  {
+   "person": "Wilkinson Mary Beth",
+   "relationship": "Officer",
+   "shares": 4295.0,
+   "value": 822879.05,
+   "outstanding": 130627521.0,
+   "approx_date": "08/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005581",
+   "filed": "2026-08-04",
+   "form": "144"
+  },
+  {
+   "person": "Higgins Bren D.",
+   "relationship": "Officer",
+   "shares": 27701.0,
+   "value": 7359878.69,
+   "outstanding": 130627521.0,
+   "approx_date": "07/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005069",
+   "filed": "2026-07-02",
+   "form": "144/A"
+  },
+  {
+   "person": "Kirloskar Virendra A",
+   "relationship": "Officer",
+   "shares": 196.0,
+   "value": 52075.24,
+   "outstanding": 130627521.0,
+   "approx_date": "07/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005042",
+   "filed": "2026-07-02",
+   "form": "144"
+  },
+  {
+   "person": "Higgins Bren D.",
+   "relationship": "Officer",
+   "shares": 27701.0,
+   "value": 7359878.69,
+   "outstanding": 130627521.0,
+   "approx_date": "07/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005040",
+   "filed": "2026-07-02",
+   "form": "144"
+  },
+  {
+   "person": "Wilkinson Mary Beth",
+   "relationship": "Officer",
+   "shares": 14392.0,
+   "value": 4106037.6,
+   "outstanding": 130627521.0,
+   "approx_date": "07/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005012",
+   "filed": "2026-07-01",
+   "form": "144"
+  },
+  {
+   "person": "WALLACE RICHARD P",
+   "relationship": "Officer",
+   "shares": 4512.0,
+   "value": 9986725.44,
+   "outstanding": 130627521.0,
+   "approx_date": "06/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004545",
+   "filed": "2026-06-11",
+   "form": "144"
+  },
+  {
+   "person": "WALLACE RICHARD P",
+   "relationship": "Officer",
+   "shares": 4512.0,
+   "value": 8094528.0,
+   "outstanding": 130627521.0,
+   "approx_date": "05/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003511",
+   "filed": "2026-05-12",
+   "form": "144"
+  },
+  {
+   "person": "Hanley Jeneanne Michelle",
+   "relationship": "Director",
+   "shares": 550.0,
+   "value": 1031088.19,
+   "outstanding": 130627521.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003472",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "Higgins Bren D.",
+   "relationship": "Officer",
+   "shares": 2254.0,
+   "value": 2788220.54,
+   "outstanding": 131392338.0,
+   "approx_date": "12/16/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007769",
+   "filed": "2025-12-16",
+   "form": "144"
+  },
+  {
+   "person": "WALLACE RICHARD P",
+   "relationship": "Officer",
+   "shares": 10803.0,
+   "value": 12997089.3,
+   "outstanding": 131392338.0,
+   "approx_date": "11/11/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006873",
+   "filed": "2025-11-12",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 9822421.0,
+   "pct": 7.49,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000776"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001665"
+  }
+ ],
+ "errors": []
+}

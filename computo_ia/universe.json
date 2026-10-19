@@ -1,0 +1,212 @@
+{
+ "name": "Cómputo de IA: chips, foundry, equipos, redes y servidores — otoño 2026",
+ "theme": "Cadena de cómputo de IA",
+ "created": "2026-10-19",
+ "note": "Clasificación preliminar (19-oct-2026), pendiente de revisar con la nota de segmentos en la Fase 1.",
+ "purity_levels": {
+  "puro": "≥ 70% de ingresos ligados directamente al tema del universo",
+  "mixto": "el tema pesa, pero hay otros negocios relevantes",
+  "adyacente": "se beneficia del tema sin depender de él"
+ },
+ "subgroups": {
+  "chips_ia": "Diseño de chips de IA y CPU (NVDA, AMD, AVGO, ARM)",
+  "foundry": "Fabricación para terceros (TSM)",
+  "equipos": "Equipos de fabricación de semiconductores (ASML, AMAT, LRCX, KLAC)",
+  "redes_optica": "Redes y óptica para centros de datos (ANET, CIEN, COHR, LITE)",
+  "servidores": "Servidores y ensamblaje de sistemas de IA (SMCI, DELL, CLS)"
+ },
+ "tickers": [
+  {
+   "ticker": "NVDA",
+   "issuer": "NVIDIA",
+   "cik": 1045810,
+   "subgroup": "chips_ia",
+   "purity": "puro",
+   "profile": "semis_fabless",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "enero",
+   "status": "fundamentales",
+   "notes": "GPU y sistemas de IA; concentración en hiperescalares"
+  },
+  {
+   "ticker": "AMD",
+   "issuer": "Advanced Micro Devices",
+   "cik": 2488,
+   "subgroup": "chips_ia",
+   "purity": "mixto",
+   "profile": "semis_fabless",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "GPU Instinct + CPU de servidor y PC"
+  },
+  {
+   "ticker": "AVGO",
+   "issuer": "Broadcom",
+   "cik": 1730168,
+   "subgroup": "chips_ia",
+   "purity": "mixto",
+   "profile": "semis_fabless",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "noviembre",
+   "status": "fundamentales",
+   "notes": "ASIC a medida y redes + software (VMware)"
+  },
+  {
+   "ticker": "ARM",
+   "issuer": "Arm Holdings",
+   "cik": 1973239,
+   "subgroup": "chips_ia",
+   "purity": "mixto",
+   "profile": "semis_fabless",
+   "filer": "20-F/6-K",
+   "fiscal_year_end": "marzo",
+   "status": "fundamentales",
+   "notes": "Licencias y royalties de arquitectura; emisor extranjero"
+  },
+  {
+   "ticker": "TSM",
+   "issuer": "TSMC",
+   "cik": 1046179,
+   "subgroup": "foundry",
+   "purity": "mixto",
+   "profile": "semis_manufacturing",
+   "filer": "20-F/6-K",
+   "fiscal_year_end": "diciembre",
+   "status": "pendiente",
+   "notes": "Foundry líder; ventas mensuales por 6-K; emisor extranjero"
+  },
+  {
+   "ticker": "ASML",
+   "issuer": "ASML",
+   "cik": 937966,
+   "subgroup": "equipos",
+   "purity": "puro",
+   "profile": "semis_hardware",
+   "filer": "20-F/6-K",
+   "fiscal_year_end": "diciembre",
+   "status": "pendiente",
+   "notes": "Litografía EUV; emisor extranjero"
+  },
+  {
+   "ticker": "AMAT",
+   "issuer": "Applied Materials",
+   "cik": 6951,
+   "subgroup": "equipos",
+   "purity": "puro",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "octubre",
+   "status": "fundamentales",
+   "notes": "Depósito, grabado e inspección; peso de China"
+  },
+  {
+   "ticker": "LRCX",
+   "issuer": "Lam Research",
+   "cik": 707549,
+   "subgroup": "equipos",
+   "purity": "puro",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "junio",
+   "status": "auditado",
+   "notes": "Grabado y depósito; memoria y lógica"
+  },
+  {
+   "ticker": "KLAC",
+   "issuer": "KLA",
+   "cik": 319201,
+   "subgroup": "equipos",
+   "purity": "puro",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "junio",
+   "status": "fundamentales",
+   "notes": "Inspección y metrología"
+  },
+  {
+   "ticker": "ANET",
+   "issuer": "Arista Networks",
+   "cik": 1596532,
+   "subgroup": "redes_optica",
+   "purity": "puro",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Switches Ethernet para centros de datos de IA"
+  },
+  {
+   "ticker": "CIEN",
+   "issuer": "Ciena",
+   "cik": 936395,
+   "subgroup": "redes_optica",
+   "purity": "mixto",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "octubre",
+   "status": "fundamentales",
+   "notes": "Óptica para interconexión de centros de datos"
+  },
+  {
+   "ticker": "COHR",
+   "issuer": "Coherent",
+   "cik": 820318,
+   "subgroup": "redes_optica",
+   "purity": "mixto",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "junio",
+   "status": "fundamentales",
+   "notes": "Transceptores ópticos + láseres y materiales"
+  },
+  {
+   "ticker": "LITE",
+   "issuer": "Lumentum",
+   "cik": 1633978,
+   "subgroup": "redes_optica",
+   "purity": "mixto",
+   "profile": "semis_hardware",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "junio",
+   "status": "fundamentales",
+   "notes": "Láseres y transceptores ópticos"
+  },
+  {
+   "ticker": "SMCI",
+   "issuer": "Super Micro Computer",
+   "cik": 1375365,
+   "subgroup": "servidores",
+   "purity": "puro",
+   "profile": "semis_manufacturing",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "junio",
+   "status": "fundamentales",
+   "notes": "Servidores de IA; margen bajo e historial contable a vigilar"
+  },
+  {
+   "ticker": "DELL",
+   "issuer": "Dell Technologies",
+   "cik": 1571996,
+   "subgroup": "servidores",
+   "purity": "mixto",
+   "profile": "semis_manufacturing",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "enero",
+   "status": "fundamentales",
+   "notes": "Servidores de IA + PC"
+  },
+  {
+   "ticker": "CLS",
+   "issuer": "Celestica",
+   "cik": 1030894,
+   "subgroup": "servidores",
+   "purity": "mixto",
+   "profile": "semis_manufacturing",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "EMS: switches y servidores para hiperescalares"
+  }
+ ]
+}

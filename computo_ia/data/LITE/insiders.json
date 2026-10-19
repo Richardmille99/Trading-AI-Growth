@@ -1,0 +1,1242 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1633978,
+ "form4_count": 83,
+ "form144_count": 67,
+ "schedule13_count": 12,
+ "owners": [
+  {
+   "name": "Retort Vincent",
+   "role": "SEE REMARKS",
+   "sold": 95979.0,
+   "sold_value": 69453278,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 55553.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3611,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001648256-26-000001",
+    "0001648256-26-000002",
+    "0001648256-26-000004",
+    "0001648256-26-000005",
+    "0001648256-26-000006",
+    "0001648256-26-000008"
+   ]
+  },
+  {
+   "name": "Ali Wajid",
+   "role": "EVP & CHIEF FINANCIAL OFFICER",
+   "sold": 32331.0,
+   "sold_value": 31769148,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 50808.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2464,
+   "max_quarter": "2026-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001561100-26-000002",
+    "0001561100-26-000003",
+    "0001561100-26-000008"
+   ]
+  },
+  {
+   "name": "Wupen Yuen",
+   "role": "PRESIDENT, GLOBAL BUS. UNITS",
+   "sold": 23638.0,
+   "sold_value": 18695723,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 54316.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1203,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001489550-25-000003",
+    "0001489550-25-000004",
+    "0001489550-26-000001",
+    "0001489550-26-000002",
+    "0001489550-26-000004",
+    "0001489550-26-000005",
+    "0001489550-26-000007",
+    "0001489550-26-000008",
+    "0001489550-26-000009",
+    "0001489550-26-000010",
+    "0001489550-26-000011",
+    "0001489550-26-000012",
+    "0001489550-26-000013",
+    "0001489550-26-000014",
+    "0001489550-26-000015"
+   ]
+  },
+  {
+   "name": "Kim Jae",
+   "role": "SVP, GENERAL COUNSEL",
+   "sold": 20162.0,
+   "sold_value": 16606136,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 28508.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2791,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001570465-25-000003",
+    "0001570465-26-000002",
+    "0001570465-26-000003",
+    "0001570465-26-000004",
+    "0001570465-26-000005",
+    "0001570465-26-000007"
+   ]
+  },
+  {
+   "name": "Lillie Brian",
+   "role": "consejero",
+   "sold": 12000.0,
+   "sold_value": 11780774,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4623,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001648231-26-000002",
+    "0001648231-26-000003"
+   ]
+  },
+  {
+   "name": "Small Ian",
+   "role": "consejero",
+   "sold": 8454.0,
+   "sold_value": 7489527,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2869,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-21",
+     "shares": 4954.0,
+     "price": 868.07,
+     "accession": "0001714910-26-000002"
+    },
+    {
+     "date": "2026-05-08",
+     "shares": 2037.0,
+     "price": 910.7185,
+     "accession": "0001714910-26-000001"
+    },
+    {
+     "date": "2026-05-08",
+     "shares": 892.0,
+     "price": 911.5152,
+     "accession": "0001714910-26-000001"
+    },
+    {
+     "date": "2026-05-08",
+     "shares": 571.0,
+     "price": 912.2644,
+     "accession": "0001714910-26-000001"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001714910-26-000001",
+    "0001714910-26-000002"
+   ]
+  },
+  {
+   "name": "Harris Isaac Hosojiro",
+   "role": "consejero",
+   "sold": 12616.0,
+   "sold_value": 6608019,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 1152.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4368,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-07",
+     "shares": 7200.0,
+     "price": 243.32,
+     "accession": "0001866503-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001866503-25-000003",
+    "0001866503-26-000004",
+    "0001866503-26-000005"
+   ]
+  },
+  {
+   "name": "HERSCHER PENNY",
+   "role": "consejero",
+   "sold": 8849.0,
+   "sold_value": 4985721,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.176,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-12",
+     "shares": 812.0,
+     "price": 594.4192,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 419.0,
+     "price": 595.1906,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 1037.0,
+     "price": 596.2777,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 427.0,
+     "price": 597.9037,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 363.0,
+     "price": 599.0061,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 434.0,
+     "price": 600.0402,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 349.0,
+     "price": 601.1662,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 159.0,
+     "price": 602.63,
+     "accession": "0001232019-26-000004"
+    },
+    {
+     "date": "2026-02-06",
+     "shares": 4849.0,
+     "price": 535.4798,
+     "accession": "0001232019-26-000001"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001232019-26-000001",
+    "0001232019-26-000004"
+   ]
+  },
+  {
+   "name": "Fletcher Pamela",
+   "role": "consejero",
+   "sold": 7155.0,
+   "sold_value": 4147449,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2987,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-19",
+     "shares": 3421.0,
+     "price": 273.5347,
+     "accession": "0001711035-25-000007"
+    },
+    {
+     "date": "2025-11-17",
+     "shares": 579.0,
+     "price": 250.0,
+     "accession": "0001711035-25-000006"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001711035-25-000006",
+    "0001711035-25-000007",
+    "0001711035-26-000001"
+   ]
+  },
+  {
+   "name": "Johnson Julia Suzanne",
+   "role": "consejero",
+   "sold": 10000.0,
+   "sold_value": 2703900,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4538,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-10",
+     "shares": 10000.0,
+     "price": 270.39,
+     "accession": "0001722289-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001722289-25-000003"
+   ]
+  },
+  {
+   "name": "Sepe Matthew Joseph",
+   "role": "CHIEF ACCOUNTING OFFICER",
+   "sold": 4232.0,
+   "sold_value": 1014103,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 2058.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0886,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-07",
+     "shares": 4232.0,
+     "price": 239.6274,
+     "accession": "0001743176-25-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001743176-25-000004"
+   ]
+  },
+  {
+   "name": "HURLSTON MICHAEL E.",
+   "role": "consejero, President and CEO",
+   "sold": 548.0,
+   "sold_value": 525346,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 37230.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0029,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001573338-26-000017"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "WAJID ALI",
+   "relationship": "Officer",
+   "shares": 24542.0,
+   "value": 25732287.0,
+   "outstanding": 89700000.0,
+   "approx_date": "10/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009928",
+   "filed": "2026-10-01",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 307.0,
+   "value": 290115.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009855",
+   "filed": "2026-09-29",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 474250.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009834",
+   "filed": "2026-09-28",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 467875.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009811",
+   "filed": "2026-09-25",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 460535.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009782",
+   "filed": "2026-09-24",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 473280.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009762",
+   "filed": "2026-09-23",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 467775.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009753",
+   "filed": "2026-09-22",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 479635.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009684",
+   "filed": "2026-09-21",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 460000.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009661",
+   "filed": "2026-09-18",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 466725.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009605",
+   "filed": "2026-09-17",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 428415.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009581",
+   "filed": "2026-09-16",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 420755.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009459",
+   "filed": "2026-09-15",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 431070.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009383",
+   "filed": "2026-09-14",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 472205.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009324",
+   "filed": "2026-09-11",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 480720.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009272",
+   "filed": "2026-09-10",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 489270.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009234",
+   "filed": "2026-09-09",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 447995.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009167",
+   "filed": "2026-09-08",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 430000.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009105",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 435005.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009045",
+   "filed": "2026-09-03",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 432245.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008979",
+   "filed": "2026-09-02",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 450520.0,
+   "outstanding": 89700000.0,
+   "approx_date": "09/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008881",
+   "filed": "2026-09-01",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 447500.0,
+   "outstanding": 89700000.0,
+   "approx_date": "08/31/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008841",
+   "filed": "2026-08-31",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 470475.0,
+   "outstanding": 89700000.0,
+   "approx_date": "08/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008802",
+   "filed": "2026-08-28",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL EDWARD HURLSTON",
+   "relationship": "Officer",
+   "shares": 548.0,
+   "value": 525345.68,
+   "outstanding": 89700000.0,
+   "approx_date": "08/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008740",
+   "filed": "2026-08-27",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 479330.0,
+   "outstanding": 89700000.0,
+   "approx_date": "08/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008738",
+   "filed": "2026-08-27",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 441075.0,
+   "outstanding": 89700000.0,
+   "approx_date": "08/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008702",
+   "filed": "2026-08-26",
+   "form": "144"
+  },
+  {
+   "person": "VINCENT D RETORT",
+   "relationship": "Officer",
+   "shares": 38663.0,
+   "value": 32963734.3,
+   "outstanding": 89700000.0,
+   "approx_date": "08/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008659",
+   "filed": "2026-08-25",
+   "form": "144"
+  },
+  {
+   "person": "JAE KIM",
+   "relationship": "Officer",
+   "shares": 12000.0,
+   "value": 10231015.55,
+   "outstanding": 89700000.0,
+   "approx_date": "08/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008658",
+   "filed": "2026-08-25",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 428322.5,
+   "outstanding": 89700000.0,
+   "approx_date": "08/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008645",
+   "filed": "2026-08-25",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 412120.0,
+   "outstanding": 89700000.0,
+   "approx_date": "08/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008586",
+   "filed": "2026-08-24",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 500.0,
+   "value": 449075.0,
+   "outstanding": 89700000.0,
+   "approx_date": "08/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008510",
+   "filed": "2026-08-21",
+   "form": "144"
+  },
+  {
+   "person": "JAE KIM",
+   "relationship": "Officer",
+   "shares": 1904.0,
+   "value": 1576169.28,
+   "outstanding": 89700000.0,
+   "approx_date": "08/20/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008478",
+   "filed": "2026-08-20",
+   "form": "144"
+  },
+  {
+   "person": "VINCENT D RETORT",
+   "relationship": "Officer",
+   "shares": 2483.0,
+   "value": 2055477.06,
+   "outstanding": 89700000.0,
+   "approx_date": "08/20/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008446",
+   "filed": "2026-08-20",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 1500.0,
+   "value": 1241730.0,
+   "outstanding": 89700000.0,
+   "approx_date": "08/20/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008443",
+   "filed": "2026-08-20",
+   "form": "144"
+  },
+  {
+   "person": "JAE KIM",
+   "relationship": "Officer",
+   "shares": 1366.0,
+   "value": 1242281.38,
+   "outstanding": 89700000.0,
+   "approx_date": "08/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008300",
+   "filed": "2026-08-18",
+   "form": "144"
+  },
+  {
+   "person": "VINCENT D RETORT",
+   "relationship": "Officer",
+   "shares": 3183.0,
+   "value": 2894715.69,
+   "outstanding": 89700000.0,
+   "approx_date": "08/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008297",
+   "filed": "2026-08-18",
+   "form": "144"
+  },
+  {
+   "person": "ISAAC H HARRIS",
+   "relationship": "Director",
+   "shares": 1416.0,
+   "value": 1416114.7,
+   "outstanding": 77800000.0,
+   "approx_date": "06/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005520",
+   "filed": "2026-06-02",
+   "form": "144"
+  },
+  {
+   "person": "ISAAC H HARRIS",
+   "relationship": "Officer",
+   "shares": 4000.0,
+   "value": 3440000.0,
+   "outstanding": 77800000.0,
+   "approx_date": "05/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005277",
+   "filed": "2026-05-29",
+   "form": "144"
+  },
+  {
+   "person": "JAE KIM",
+   "relationship": "Officer",
+   "shares": 1422.0,
+   "value": 1356516.9,
+   "outstanding": 77800000.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004714",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "VINCENT D RETORT",
+   "relationship": "Officer",
+   "shares": 3183.0,
+   "value": 3036422.85,
+   "outstanding": 77800000.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004672",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "WAJID ALI",
+   "relationship": "Officer",
+   "shares": 2487.0,
+   "value": 2372473.65,
+   "outstanding": 77800000.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004665",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 3210.0,
+   "value": 3062179.5,
+   "outstanding": 77800000.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004658",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "PAMELA FLETCHER",
+   "relationship": "Director",
+   "shares": 1578.0,
+   "value": 1484613.96,
+   "outstanding": 77800000.0,
+   "approx_date": "05/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004575",
+   "filed": "2026-05-15",
+   "form": "144"
+  },
+  {
+   "person": "PAMELA FLETCHER",
+   "relationship": "Director",
+   "shares": 1577.0,
+   "value": 1582322.38,
+   "outstanding": 77800000.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004501",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "BRIAN LILLIE",
+   "relationship": "Director",
+   "shares": 12000.0,
+   "value": 11780774.4,
+   "outstanding": 77800000.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004315",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "JAE KIM",
+   "relationship": "Officer",
+   "shares": 1933.0,
+   "value": 1838263.67,
+   "outstanding": 77800000.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004314",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "MATTHEW SEPE",
+   "relationship": "Officer",
+   "shares": 6279.0,
+   "value": 5494125.0,
+   "outstanding": 77800000.0,
+   "approx_date": "05/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004281",
+   "filed": "2026-05-08",
+   "form": "144"
+  },
+  {
+   "person": "Ian Small",
+   "relationship": "Director",
+   "shares": 3500.0,
+   "value": 3188902.34,
+   "outstanding": 24679.0,
+   "approx_date": "05/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-032969",
+   "filed": "2026-05-08",
+   "form": "144"
+  },
+  {
+   "person": "WAJID ALI",
+   "relationship": "Officer",
+   "shares": 5302.0,
+   "value": 3664387.17,
+   "outstanding": 71400000.0,
+   "approx_date": "02/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001881",
+   "filed": "2026-02-27",
+   "form": "144"
+  },
+  {
+   "person": "MATTHEW SEPE",
+   "relationship": "Officer",
+   "shares": 1445.0,
+   "value": 860670.76,
+   "outstanding": 71400000.0,
+   "approx_date": "02/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001487",
+   "filed": "2026-02-18",
+   "form": "144"
+  },
+  {
+   "person": "MATTHEW SEPE",
+   "relationship": "Officer",
+   "shares": 2705.0,
+   "value": 1599196.0,
+   "outstanding": 71400000.0,
+   "approx_date": "02/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001420",
+   "filed": "2026-02-17",
+   "form": "144"
+  },
+  {
+   "person": "VINCENT D RETORT",
+   "relationship": "Officer",
+   "shares": 3441.0,
+   "value": 1878025.4,
+   "outstanding": 71400000.0,
+   "approx_date": "02/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001311",
+   "filed": "2026-02-17",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 3157.0,
+   "value": 1698466.0,
+   "outstanding": 71400000.0,
+   "approx_date": "02/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001300",
+   "filed": "2026-02-17",
+   "form": "144"
+  },
+  {
+   "person": "Penelope Herscher",
+   "relationship": "Director",
+   "shares": 4000.0,
+   "value": 2389974.75,
+   "outstanding": 71400000.0,
+   "approx_date": "02/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000168",
+   "filed": "2026-02-12",
+   "form": "144"
+  },
+  {
+   "person": "VINCENT D RETORT",
+   "relationship": "Officer",
+   "shares": 45026.0,
+   "value": 26624903.16,
+   "outstanding": 71400000.0,
+   "approx_date": "02/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001190",
+   "filed": "2026-02-12",
+   "form": "144"
+  },
+  {
+   "person": "Penelope Herscher",
+   "relationship": "Director",
+   "shares": 4849.0,
+   "value": 2596536.31,
+   "outstanding": 71400000.0,
+   "approx_date": "02/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000118",
+   "filed": "2026-02-06",
+   "form": "144"
+  },
+  {
+   "person": "HAROLD COVERT JR",
+   "relationship": "Former Director",
+   "shares": 3313.0,
+   "value": 796622.11,
+   "outstanding": 70900000.0,
+   "approx_date": "11/20/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009143",
+   "filed": "2025-11-20",
+   "form": "144"
+  },
+  {
+   "person": "PAMELA FLETCHER",
+   "relationship": "Director",
+   "shares": 3421.0,
+   "value": 935762.21,
+   "outstanding": 70900000.0,
+   "approx_date": "11/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009116",
+   "filed": "2025-11-19",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 822.0,
+   "value": 212865.12,
+   "outstanding": 70900000.0,
+   "approx_date": "11/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009060",
+   "filed": "2025-11-19",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 821.0,
+   "value": 201966.0,
+   "outstanding": 70900000.0,
+   "approx_date": "11/18/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008996",
+   "filed": "2025-11-18",
+   "form": "144"
+  },
+  {
+   "person": "JAE KIM",
+   "relationship": "Officer",
+   "shares": 170.0,
+   "value": 41820.0,
+   "outstanding": 70900000.0,
+   "approx_date": "11/18/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008995",
+   "filed": "2025-11-18",
+   "form": "144"
+  },
+  {
+   "person": "PAMELA FLETCHER",
+   "relationship": "Director",
+   "shares": 579.0,
+   "value": 144750.0,
+   "outstanding": 70900000.0,
+   "approx_date": "11/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008991",
+   "filed": "2025-11-17",
+   "form": "144"
+  },
+  {
+   "person": "JAE KIM",
+   "relationship": "Officer",
+   "shares": 1367.0,
+   "value": 320069.38,
+   "outstanding": 70900000.0,
+   "approx_date": "11/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008922",
+   "filed": "2025-11-17",
+   "form": "144"
+  },
+  {
+   "person": "WUPEN YUEN",
+   "relationship": "Officer",
+   "shares": 821.0,
+   "value": 192228.94,
+   "outstanding": 70900000.0,
+   "approx_date": "11/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008914",
+   "filed": "2025-11-17",
+   "form": "144"
+  },
+  {
+   "person": "JULIA S JOHNSON",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 2703900.0,
+   "outstanding": 70900000.0,
+   "approx_date": "11/10/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008601",
+   "filed": "2025-11-10",
+   "form": "144"
+  },
+  {
+   "person": "ISAAC H HARRIS",
+   "relationship": "Director",
+   "shares": 7200.0,
+   "value": 1751904.0,
+   "outstanding": 70900000.0,
+   "approx_date": "11/07/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008584",
+   "filed": "2025-11-07",
+   "form": "144"
+  },
+  {
+   "person": "MATTHEW SEPE",
+   "relationship": "Officer",
+   "shares": 4232.0,
+   "value": 1014103.16,
+   "outstanding": 70900000.0,
+   "approx_date": "11/07/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-008579",
+   "filed": "2025-11-07",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 5252142.0,
+   "pct": 7.35,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000681"
+  },
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 5240774.0,
+   "pct": 7.3,
+   "filed": "2026-04-24",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0002012383-26-001455"
+  },
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 3712179.0,
+   "pct": 5.19,
+   "filed": "2026-04-29",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100121-26-000470"
+  },
+  {
+   "name": "FMR LLC",
+   "shares": 3611651.58,
+   "pct": 4.6,
+   "filed": "2026-07-08",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-001454"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 3611651.58,
+   "pct": 4.6,
+   "filed": "2026-07-08",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0000315066-26-001454"
+  },
+  {
+   "name": "Invesco Ltd.",
+   "shares": 2291864.0,
+   "pct": 3.3,
+   "filed": "2025-11-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0000914208-25-000410"
+  },
+  {
+   "name": "Capital World Investors",
+   "shares": 1315977.0,
+   "pct": 1.8,
+   "filed": "2026-05-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0001422849-26-000074"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001773"
+  }
+ ],
+ "errors": []
+}

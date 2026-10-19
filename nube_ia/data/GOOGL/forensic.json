@@ -1,0 +1,96 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 57828000000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 9105000000,
+   "end": "2026-06-30",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 640480000000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 921983000000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.10450443417436922,
+ "goodwill_intang_to_assets": 0.0725967832378688,
+ "impairments": [],
+ "public_float": {
+  "usd": 1900000000000,
+  "date": "2025-06-30",
+  "filed": "2026-02-05",
+  "form": "10-K",
+  "close": 176.22999572753906,
+  "close_date": "2025-06-30",
+  "float_shares": 10781365523
+ },
+ "governance": [
+  {
+   "filed": "2026-06-11",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001193125-26-267578",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/d57679d8k.htm"
+  },
+  {
+   "filed": "2026-06-05",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001652044-26-000059",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000059/goog-20260602.htm"
+  },
+  {
+   "filed": "2026-04-10",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001652044-26-000034",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000034/goog-20260407.htm"
+  },
+  {
+   "filed": "2026-04-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001652044-26-000031",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000031/goog-20260330.htm"
+  },
+  {
+   "filed": "2026-03-06",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001652044-26-000026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000026/goog-20260304.htm"
+  },
+  {
+   "filed": "2024-10-17",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001193125-24-238769",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312524238769/d627891d8k.htm"
+  }
+ ]
+}

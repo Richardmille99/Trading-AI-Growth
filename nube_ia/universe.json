@@ -1,0 +1,101 @@
+{
+ "name": "Nube de IA: hiperescalares y neoclouds — otoño 2026",
+ "theme": "Quién compra y alquila el cómputo de IA",
+ "created": "2026-10-19",
+ "note": "Clasificación preliminar (19-oct-2026), pendiente de revisar con la nota de segmentos en la Fase 1.",
+ "purity_levels": {
+  "puro": "≥ 70% de ingresos ligados directamente al tema del universo",
+  "mixto": "el tema pesa, pero hay otros negocios relevantes",
+  "adyacente": "se beneficia del tema sin depender de él"
+ },
+ "subgroups": {
+  "hiperescalares": "Nubes y plataformas con capex de IA propio (AMZN, GOOGL, META)",
+  "neoclouds": "Alquiler de GPU y centros de datos de IA (CRWV, NBIS, IREN, APLD)"
+ },
+ "tickers": [
+  {
+   "ticker": "AMZN",
+   "issuer": "Amazon",
+   "cik": 1018724,
+   "subgroup": "hiperescalares",
+   "purity": "mixto",
+   "profile": "generic",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "AWS + comercio electrónico y publicidad"
+  },
+  {
+   "ticker": "GOOGL",
+   "issuer": "Alphabet",
+   "cik": 1652044,
+   "subgroup": "hiperescalares",
+   "purity": "mixto",
+   "profile": "generic",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Google Cloud, TPU propias, búsqueda y YouTube"
+  },
+  {
+   "ticker": "META",
+   "issuer": "Meta Platforms",
+   "cik": 1326801,
+   "subgroup": "hiperescalares",
+   "purity": "adyacente",
+   "profile": "generic",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "auditado",
+   "notes": "Publicidad; capex de IA para uso propio (no vende nube)"
+  },
+  {
+   "ticker": "CRWV",
+   "issuer": "CoreWeave",
+   "cik": 1769628,
+   "subgroup": "neoclouds",
+   "purity": "puro",
+   "profile": "ai_systems",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Alquiler de GPU; deuda alta y concentración en pocos clientes"
+  },
+  {
+   "ticker": "NBIS",
+   "issuer": "Nebius Group",
+   "cik": 1513845,
+   "subgroup": "neoclouds",
+   "purity": "puro",
+   "profile": "ai_systems",
+   "filer": "20-F/6-K",
+   "fiscal_year_end": null,
+   "status": "pendiente",
+   "notes": "Nube de IA; emisor extranjero"
+  },
+  {
+   "ticker": "IREN",
+   "issuer": "IREN",
+   "cik": 1878848,
+   "subgroup": "neoclouds",
+   "purity": "mixto",
+   "profile": "ai_systems",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "junio",
+   "status": "fundamentales",
+   "notes": "Minería de bitcoin pasando a nube de IA"
+  },
+  {
+   "ticker": "APLD",
+   "issuer": "Applied Digital",
+   "cik": 1144879,
+   "subgroup": "neoclouds",
+   "purity": "puro",
+   "profile": "ai_systems",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "mayo",
+   "status": "fundamentales",
+   "notes": "Centros de datos para IA y HPC; financiación a vigilar"
+  }
+ ]
+}

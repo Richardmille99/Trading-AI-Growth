@@ -1,0 +1,393 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1375365,
+ "form4_count": 92,
+ "form144_count": 14,
+ "schedule13_count": 9,
+ "owners": [
+  {
+   "name": "Liu Liang Chiu-Chu Sara",
+   "role": "consejero, ≥10%",
+   "sold": 300000.0,
+   "sold_value": 12220584,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 15616.0,
+   "exercised": 49465.0,
+   "max_quarter_pct": 0.003,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001392941-26-000014",
+    "0001392941-26-000015"
+   ]
+  },
+  {
+   "name": "Liang Charles",
+   "role": "consejero, President and CEO, ≥10%",
+   "sold": 300000.0,
+   "sold_value": 12220584,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 15616.0,
+   "exercised": 49465.0,
+   "max_quarter_pct": 0.003,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001392942-26-000013",
+    "0001392942-26-000014"
+   ]
+  },
+  {
+   "name": "KAO GEORGE",
+   "role": "SVP, OPERATIONS",
+   "sold": 56904.0,
+   "sold_value": 1868221,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 5339.0,
+   "exercised": 175114.0,
+   "max_quarter_pct": 0.297,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-24",
+     "shares": 56904.0,
+     "price": 32.8311,
+     "accession": "0001777243-25-000018"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001777243-25-000018"
+   ]
+  },
+  {
+   "name": "TUAN SHERMAN",
+   "role": "consejero",
+   "sold": 48630.0,
+   "sold_value": 1604790,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1901,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-26",
+     "shares": 48630.0,
+     "price": 33.0,
+     "accession": "0001126026-25-000007"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001126026-25-000007"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Liu Liang Chiu-Chu Sara",
+   "relationship": "Director",
+   "shares": 100000.0,
+   "value": 4501590.0,
+   "outstanding": 656965384.0,
+   "approx_date": "10/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-001066",
+   "filed": "2026-10-07",
+   "form": "144"
+  },
+  {
+   "person": "Liu Liang Chiu-Chu Sara",
+   "relationship": "Director",
+   "shares": 100000.0,
+   "value": 4000050.0,
+   "outstanding": 656965384.0,
+   "approx_date": "09/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-001000",
+   "filed": "2026-09-04",
+   "form": "144"
+  },
+  {
+   "person": "Liu Liang Chiu-Chu Sara",
+   "relationship": "Director",
+   "shares": 100000.0,
+   "value": 3718530.0,
+   "outstanding": 656965384.0,
+   "approx_date": "09/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000990",
+   "filed": "2026-09-03",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 20216.0,
+   "value": 741956.5,
+   "outstanding": 601418482.0,
+   "approx_date": "05/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005110",
+   "filed": "2026-05-26",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 136126.0,
+   "value": 4781990.0,
+   "outstanding": 601418482.0,
+   "approx_date": "05/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005008",
+   "filed": "2026-05-22",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 54670.0,
+   "value": 1777105.0,
+   "outstanding": 601418482.0,
+   "approx_date": "05/20/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004862",
+   "filed": "2026-05-20",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 20000.0,
+   "value": 622500.0,
+   "outstanding": 601418482.0,
+   "approx_date": "05/19/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004809",
+   "filed": "2026-05-20",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 67879.0,
+   "value": 2042218.11,
+   "outstanding": 601418482.0,
+   "approx_date": "05/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004723",
+   "filed": "2026-05-18",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 30000.0,
+   "value": 997501.0,
+   "outstanding": 601418482.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004557",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 10000.0,
+   "value": 355500.0,
+   "outstanding": 601418482.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004492",
+   "filed": "2026-05-14",
+   "form": "144/A"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Former Director",
+   "shares": 10000.0,
+   "value": 330000.0,
+   "outstanding": 601418482.0,
+   "approx_date": "05/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004485",
+   "filed": "2026-05-13",
+   "form": "144"
+  },
+  {
+   "person": "YIH-SHYAN W LIAW",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 355500.0,
+   "outstanding": 601418482.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-004359",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "Sherman Tuan",
+   "relationship": "Board of Director",
+   "shares": 48630.0,
+   "value": 1604790.0,
+   "outstanding": 596971133.0,
+   "approx_date": "11/26/2025",
+   "plan_10b5_1": false,
+   "accession": "0001628280-25-054128",
+   "filed": "2025-11-26",
+   "form": "144"
+  },
+  {
+   "person": "GEORGE W KAO",
+   "relationship": "Officer",
+   "shares": 56904.0,
+   "value": 1868215.22,
+   "outstanding": 596971133.0,
+   "approx_date": "11/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009235",
+   "filed": "2025-11-24",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "JANE STREET GROUP, LLC",
+   "shares": 49247797.97,
+   "pct": 7.4,
+   "filed": "2026-08-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001595888-26-000103"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 37930655.0,
+   "pct": 6.31,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-001176"
+  },
+  {
+   "name": "Jane Street Global Trading, LLC",
+   "shares": 37119426.97,
+   "pct": 5.6,
+   "filed": "2026-08-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001595888-26-000103"
+  },
+  {
+   "name": "Capital Ventures International",
+   "shares": 33379848.0,
+   "pct": 5.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001011712-26-000027"
+  },
+  {
+   "name": "Susquehanna Advisors Group, Inc.",
+   "shares": 33379848.0,
+   "pct": 5.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001011712-26-000027"
+  },
+  {
+   "name": "G1 Execution Services, LLC",
+   "shares": 33379848.0,
+   "pct": 5.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001011712-26-000027"
+  },
+  {
+   "name": "SIG Brokerage, LP",
+   "shares": 33379848.0,
+   "pct": 5.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001011712-26-000027"
+  },
+  {
+   "name": "Susquehanna Fundamental Investments, LLC",
+   "shares": 33379848.0,
+   "pct": 5.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001011712-26-000027"
+  },
+  {
+   "name": "Susquehanna Investment Group",
+   "shares": 33379848.0,
+   "pct": 5.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001011712-26-000027"
+  },
+  {
+   "name": "Susquehanna Securities, LLC",
+   "shares": 33379848.0,
+   "pct": 5.1,
+   "filed": "2026-08-14",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001011712-26-000027"
+  },
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 32934329.0,
+   "pct": 5.09,
+   "filed": "2026-07-31",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0002100121-26-000982"
+  },
+  {
+   "name": "Jane Street Capital, LLC",
+   "shares": 12128236.0,
+   "pct": 1.8,
+   "filed": "2026-08-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001595888-26-000103"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002320"
+  },
+  {
+   "name": "Jane Street Singapore Pte. Ltd",
+   "shares": 135.0,
+   "pct": 0.0,
+   "filed": "2026-08-13",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001595888-26-000103"
+  }
+ ],
+ "errors": []
+}

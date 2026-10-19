@@ -1,0 +1,2161 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1730168,
+ "form4_count": 49,
+ "form144_count": 55,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "SAMUELI HENRY",
+   "role": "consejero",
+   "sold": 2458714.0,
+   "sold_value": 878309890,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0092,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001104659-25-119782",
+    "0001104659-26-036164",
+    "0001104659-26-078348",
+    "0001104659-26-110983"
+   ]
+  },
+  {
+   "name": "TAN HOCK E",
+   "role": "consejero, President and CEO",
+   "sold": 300000.0,
+   "sold_value": 101258092,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1903,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-01-06",
+     "shares": 27199.0,
+     "price": 346.752,
+     "accession": "0001730168-26-000004"
+    },
+    {
+     "date": "2026-01-06",
+     "shares": 33078.0,
+     "price": 347.453,
+     "accession": "0001730168-26-000004"
+    },
+    {
+     "date": "2026-01-06",
+     "shares": 9723.0,
+     "price": 348.28,
+     "accession": "0001730168-26-000004"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 4257.0,
+     "price": 339.107,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 4820.0,
+     "price": 340.256,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 11005.0,
+     "price": 341.169,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 10612.0,
+     "price": 341.998,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 2255.0,
+     "price": 343.222,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 6016.0,
+     "price": 344.175,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 5426.0,
+     "price": 345.236,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 4615.0,
+     "price": 346.427,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 5329.0,
+     "price": 347.39,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 20288.0,
+     "price": 348.38,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 24521.0,
+     "price": 349.177,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-23",
+     "shares": 856.0,
+     "price": 349.848,
+     "accession": "0001730168-25-000130"
+    },
+    {
+     "date": "2025-12-18",
+     "shares": 130000.0,
+     "price": 326.02,
+     "accession": "0001211588-25-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001211588-25-000005",
+    "0001730168-25-000130",
+    "0001730168-26-000004"
+   ]
+  },
+  {
+   "name": "Brazeal Mark David",
+   "role": "Chief Legal & Corp Affairs Ofc",
+   "sold": 285563.0,
+   "sold_value": 99869403,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 8059.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2901,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-07-10",
+     "shares": 25000.0,
+     "price": 401.329,
+     "accession": "0001730168-26-000070"
+    },
+    {
+     "date": "2026-07-08",
+     "shares": 25000.0,
+     "price": 379.188,
+     "accession": "0001730168-26-000066"
+    },
+    {
+     "date": "2026-06-25",
+     "shares": 25000.0,
+     "price": 387.0,
+     "accession": "0001730168-26-000064"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 192.0,
+     "price": 377.1,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 372.0,
+     "price": 378.585,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 776.0,
+     "price": 379.427,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 457.0,
+     "price": 380.401,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 368.0,
+     "price": 381.317,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 273.0,
+     "price": 382.803,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 202.0,
+     "price": 383.754,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 171.0,
+     "price": 386.15,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 300.0,
+     "price": 388.026,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 104.0,
+     "price": 388.75,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 40.0,
+     "price": 389.67,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 72.0,
+     "price": 390.906,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 76.0,
+     "price": 383.996,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 29.0,
+     "price": 385.163,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 220.0,
+     "price": 386.149,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 110.0,
+     "price": 388.956,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 242.0,
+     "price": 390.586,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 274.0,
+     "price": 391.734,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 408.0,
+     "price": 393.044,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 368.0,
+     "price": 394.093,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 643.0,
+     "price": 395.37,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 695.0,
+     "price": 396.236,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 797.0,
+     "price": 397.228,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 570.0,
+     "price": 398.25,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 357.0,
+     "price": 399.179,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-06-17",
+     "shares": 36.0,
+     "price": 400.29,
+     "accession": "0001730168-26-000062"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 80.0,
+     "price": 320.83,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 240.0,
+     "price": 322.12,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 2707.0,
+     "price": 323.157,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 4383.0,
+     "price": 324.241,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 6007.0,
+     "price": 324.981,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 5633.0,
+     "price": 326.097,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 5398.0,
+     "price": 327.162,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 7986.0,
+     "price": 328.173,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 760.0,
+     "price": 328.841,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 4283.0,
+     "price": 317.97,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 4757.0,
+     "price": 318.762,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 8185.0,
+     "price": 319.956,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 7671.0,
+     "price": 320.8,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 6894.0,
+     "price": 321.893,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 7289.0,
+     "price": 322.817,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3350.0,
+     "price": 323.777,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 4424.0,
+     "price": 324.817,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 2781.0,
+     "price": 325.894,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 854.0,
+     "price": 326.673,
+     "accession": "0001730168-26-000018"
+    },
+    {
+     "date": "2026-01-06",
+     "shares": 24113.0,
+     "price": 346.992,
+     "accession": "0001627720-26-000002"
+    },
+    {
+     "date": "2026-01-06",
+     "shares": 5887.0,
+     "price": 347.66,
+     "accession": "0001627720-26-000002"
+    },
+    {
+     "date": "2025-12-26",
+     "shares": 25921.0,
+     "price": 352.072,
+     "accession": "0001730168-25-000132"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 2895.0,
+     "price": 322.288,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 5473.0,
+     "price": 323.08,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 8354.0,
+     "price": 324.112,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 3640.0,
+     "price": 325.056,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 1646.0,
+     "price": 326.124,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 3274.0,
+     "price": 327.161,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 1620.0,
+     "price": 328.096,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 473.0,
+     "price": 329.055,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 257.0,
+     "price": 330.225,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 569.0,
+     "price": 331.292,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 1285.0,
+     "price": 332.419,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 2442.0,
+     "price": 333.382,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 2472.0,
+     "price": 334.19,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 1074.0,
+     "price": 335.35,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 235.0,
+     "price": 336.28,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 813.0,
+     "price": 337.406,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 79.0,
+     "price": 338.565,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 240.0,
+     "price": 339.892,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 480.0,
+     "price": 340.61,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 280.0,
+     "price": 341.813,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 400.0,
+     "price": 343.143,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 160.0,
+     "price": 343.778,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 120.0,
+     "price": 345.013,
+     "accession": "0001730168-25-000127"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 700.0,
+     "price": 337.208,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 2578.0,
+     "price": 338.131,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 4331.0,
+     "price": 339.102,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 4357.0,
+     "price": 340.166,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 4272.0,
+     "price": 341.061,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 3049.0,
+     "price": 342.182,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 2596.0,
+     "price": 343.215,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 1448.0,
+     "price": 344.034,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 676.0,
+     "price": 345.299,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 440.0,
+     "price": 346.209,
+     "accession": "0001627720-25-000005"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 80.0,
+     "price": 347.14,
+     "accession": "0001627720-25-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001627720-25-000005",
+    "0001627720-26-000002",
+    "0001730168-25-000127",
+    "0001730168-25-000132",
+    "0001730168-26-000018",
+    "0001730168-26-000062",
+    "0001730168-26-000064",
+    "0001730168-26-000066",
+    "0001730168-26-000070"
+   ]
+  },
+  {
+   "name": "Velaga S. Ram",
+   "role": "President, ISG",
+   "sold": 102594.0,
+   "sold_value": 34421294,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.401,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-10",
+     "shares": 8000.0,
+     "price": 370.5223,
+     "accession": "0001730168-26-000034"
+    },
+    {
+     "date": "2026-04-08",
+     "shares": 12955.0,
+     "price": 352.0223,
+     "accession": "0001730168-26-000030"
+    },
+    {
+     "date": "2026-04-09",
+     "shares": 17260.0,
+     "price": 352.1184,
+     "accession": "0001730168-26-000030"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 360.0,
+     "price": 322.104,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 1758.0,
+     "price": 323.129,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 3574.0,
+     "price": 324.196,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 4795.0,
+     "price": 325.008,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 4134.0,
+     "price": 326.096,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 4069.0,
+     "price": 327.129,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 6040.0,
+     "price": 328.131,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 808.0,
+     "price": 328.766,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3132.0,
+     "price": 317.946,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3839.0,
+     "price": 318.74,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 6405.0,
+     "price": 319.972,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 5796.0,
+     "price": 320.818,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 5423.0,
+     "price": 321.895,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 5632.0,
+     "price": 322.855,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 2543.0,
+     "price": 323.824,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3317.0,
+     "price": 324.843,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 2266.0,
+     "price": 325.93,
+     "accession": "0002103553-26-000004"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 488.0,
+     "price": 326.718,
+     "accession": "0002103553-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001730168-26-000030",
+    "0001730168-26-000034",
+    "0002103553-26-000004"
+   ]
+  },
+  {
+   "name": "Spears Kirsten M.",
+   "role": "CFO & Chief Accounting Officer",
+   "sold": 96247.0,
+   "sold_value": 31915758,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1551,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-03-16",
+     "shares": 120.0,
+     "price": 321.463,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 1170.0,
+     "price": 322.83,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 2394.0,
+     "price": 323.792,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 5163.0,
+     "price": 324.736,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 3776.0,
+     "price": 325.842,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 3305.0,
+     "price": 326.786,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 5147.0,
+     "price": 327.78,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 2787.0,
+     "price": 328.524,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3715.0,
+     "price": 318.05,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3290.0,
+     "price": 318.903,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 6604.0,
+     "price": 320.094,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 4890.0,
+     "price": 320.985,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 5289.0,
+     "price": 322.034,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 5255.0,
+     "price": 323.013,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 2058.0,
+     "price": 324.123,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3032.0,
+     "price": 324.98,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 1679.0,
+     "price": 326.037,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 480.0,
+     "price": 326.742,
+     "accession": "0001730168-26-000022"
+    },
+    {
+     "date": "2025-12-31",
+     "shares": 23.0,
+     "price": 346.637,
+     "accession": "0001730168-26-000002"
+    },
+    {
+     "date": "2025-12-31",
+     "shares": 29977.0,
+     "price": 347.821,
+     "accession": "0001730168-26-000002"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 117.0,
+     "price": 337.31,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 364.0,
+     "price": 338.614,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 538.0,
+     "price": 339.65,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 443.0,
+     "price": 340.698,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 272.0,
+     "price": 341.926,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 260.0,
+     "price": 342.765,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 273.0,
+     "price": 343.624,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 112.0,
+     "price": 345.799,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 548.0,
+     "price": 322.578,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 775.0,
+     "price": 323.689,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 470.0,
+     "price": 324.565,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 224.0,
+     "price": 325.489,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 309.0,
+     "price": 326.837,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 240.0,
+     "price": 327.77,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 76.0,
+     "price": 329.166,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 112.0,
+     "price": 331.583,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 170.0,
+     "price": 332.698,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 266.0,
+     "price": 333.894,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 180.0,
+     "price": 334.754,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 76.0,
+     "price": 335.592,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 80.0,
+     "price": 337.475,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 72.0,
+     "price": 340.26,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 76.0,
+     "price": 342.883,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 36.0,
+     "price": 345.04,
+     "accession": "0001730168-25-000123"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 4.0,
+     "price": 346.49,
+     "accession": "0001730168-25-000123"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001730168-25-000123",
+    "0001730168-26-000002",
+    "0001730168-26-000022"
+   ]
+  },
+  {
+   "name": "Kawwas Charlie B",
+   "role": "President, SSG",
+   "sold": 77997.0,
+   "sold_value": 25472057,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.069,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-04-08",
+     "shares": 10000.0,
+     "price": 345.227,
+     "accession": "0001730168-26-000024"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 120.0,
+     "price": 321.29,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 1691.0,
+     "price": 323.018,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 3402.0,
+     "price": 324.088,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 4912.0,
+     "price": 324.898,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 4191.0,
+     "price": 325.999,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 4214.0,
+     "price": 327.05,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 5508.0,
+     "price": 328.039,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-16",
+     "shares": 1680.0,
+     "price": 328.695,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3310.0,
+     "price": 317.972,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3716.0,
+     "price": 318.757,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 6319.0,
+     "price": 319.97,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 6100.0,
+     "price": 320.826,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 5467.0,
+     "price": 321.929,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 5581.0,
+     "price": 322.871,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 2417.0,
+     "price": 323.838,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 3472.0,
+     "price": 324.841,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 2003.0,
+     "price": 325.906,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2026-03-17",
+     "shares": 731.0,
+     "price": 326.611,
+     "accession": "0001730168-26-000020"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 90.0,
+     "price": 337.083,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 124.0,
+     "price": 338.476,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 244.0,
+     "price": 339.465,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 192.0,
+     "price": 340.411,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 190.0,
+     "price": 341.573,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 154.0,
+     "price": 342.719,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 175.0,
+     "price": 343.786,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 56.0,
+     "price": 344.929,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-16",
+     "shares": 10.0,
+     "price": 345.99,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 270.0,
+     "price": 322.333,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 324.0,
+     "price": 323.828,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 356.0,
+     "price": 324.586,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 120.0,
+     "price": 325.631,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 170.0,
+     "price": 327.107,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 131.0,
+     "price": 328.105,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 40.0,
+     "price": 330.79,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 195.0,
+     "price": 333.12,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 142.0,
+     "price": 334.251,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 40.0,
+     "price": 335.63,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 32.0,
+     "price": 337.09,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 30.0,
+     "price": 340.1,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 28.0,
+     "price": 341.79,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 30.0,
+     "price": 343.04,
+     "accession": "0001730168-25-000125"
+    },
+    {
+     "date": "2025-12-17",
+     "shares": 20.0,
+     "price": 345.04,
+     "accession": "0001730168-25-000125"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001730168-25-000125",
+    "0001730168-26-000020",
+    "0001730168-26-000024"
+   ]
+  },
+  {
+   "name": "PAGE JUSTINE",
+   "role": "consejero",
+   "sold": 5220.0,
+   "sold_value": 1865694,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.172,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-29",
+     "shares": 1602.0,
+     "price": 373.855,
+     "accession": "0001359561-26-000004"
+    },
+    {
+     "date": "2026-04-08",
+     "shares": 2018.0,
+     "price": 353.0001,
+     "accession": "0001730168-26-000026"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001359561-26-000004",
+    "0001730168-25-000112",
+    "0001730168-25-000118",
+    "0001730168-26-000026"
+   ]
+  },
+  {
+   "name": "DELLY GAYLA J",
+   "role": "consejero",
+   "sold": 2890.0,
+   "sold_value": 1086678,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0569,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-07-08",
+     "shares": 1890.0,
+     "price": 385.38,
+     "accession": "0001730168-26-000068"
+    },
+    {
+     "date": "2026-04-09",
+     "shares": 1000.0,
+     "price": 358.31,
+     "accession": "0001730168-26-000032"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001730168-26-000032",
+    "0001730168-26-000068"
+   ]
+  },
+  {
+   "name": "You Harry L.",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 2000.0,
+   "bought_value": 698699,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001432602-25-000006",
+    "0001730168-26-000056"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "D95GT, LLC",
+   "relationship": "Affiliate",
+   "shares": 631972.0,
+   "value": 225004972.58,
+   "outstanding": 4773629865.0,
+   "approx_date": "09/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000059",
+   "filed": "2026-09-23",
+   "form": "144"
+  },
+  {
+   "person": "Samueli Foundation",
+   "relationship": "Affiliate",
+   "shares": 72474.0,
+   "value": 25797598.63,
+   "outstanding": 4773629865.0,
+   "approx_date": "09/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000058",
+   "filed": "2026-09-23",
+   "form": "144"
+  },
+  {
+   "person": "H&S INVESTMENTS I LP",
+   "relationship": "Chairman of the Board of Broadcom",
+   "shares": 70218.0,
+   "value": 25000058.61,
+   "outstanding": 4773629865.0,
+   "approx_date": "09/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000057",
+   "filed": "2026-09-23",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 25000.0,
+   "value": 10033222.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "07/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000725",
+   "filed": "2026-07-10",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 25000.0,
+   "value": 9479711.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "07/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000722",
+   "filed": "2026-07-08",
+   "form": "144"
+  },
+  {
+   "person": "DELLY GAYLA J",
+   "relationship": "Director",
+   "shares": 1890.0,
+   "value": 728368.39,
+   "outstanding": 4757580198.0,
+   "approx_date": "07/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005159",
+   "filed": "2026-07-08",
+   "form": "144"
+  },
+  {
+   "person": "Samueli Foundation",
+   "relationship": "Affiliate",
+   "shares": 186089.0,
+   "value": 71206825.59,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000042",
+   "filed": "2026-06-29",
+   "form": "144/A"
+  },
+  {
+   "person": "H&S INVESTMENTS I LP",
+   "relationship": "Chairman of the Board of Broadcom",
+   "shares": 314033.0,
+   "value": 120002749.23,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000041",
+   "filed": "2026-06-29",
+   "form": "144/A"
+  },
+  {
+   "person": "D95GT, LLC",
+   "relationship": "Affiliate",
+   "shares": 340208.0,
+   "value": 130002968.6,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000040",
+   "filed": "2026-06-29",
+   "form": "144/A"
+  },
+  {
+   "person": "Rinks Foundation",
+   "relationship": "Affiliate",
+   "shares": 15784.0,
+   "value": 6039734.97,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000039",
+   "filed": "2026-06-29",
+   "form": "144/A"
+  },
+  {
+   "person": "PAGE JUSTINE",
+   "relationship": "Director",
+   "shares": 1602.0,
+   "value": 598916.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000690",
+   "filed": "2026-06-29",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 25000.0,
+   "value": 9675000.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000684",
+   "filed": "2026-06-25",
+   "form": "144"
+  },
+  {
+   "person": "D95GT, LLC",
+   "relationship": "Affiliate",
+   "shares": 340208.0,
+   "value": 130002968.6,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000038",
+   "filed": "2026-06-24",
+   "form": "144"
+  },
+  {
+   "person": "H&S INVESTMENTS I LP",
+   "relationship": "Chairman of the Board of Broadcom",
+   "shares": 314033.0,
+   "value": 120002749.23,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000037",
+   "filed": "2026-06-24",
+   "form": "144"
+  },
+  {
+   "person": "Rinks Foundation",
+   "relationship": "Affiliate",
+   "shares": 15784.0,
+   "value": 6039734.97,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000036",
+   "filed": "2026-06-24",
+   "form": "144"
+  },
+  {
+   "person": "Samueli Foundation",
+   "relationship": "Affiliate",
+   "shares": 186089.0,
+   "value": 71206825.59,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000035",
+   "filed": "2026-06-24",
+   "form": "144"
+  },
+  {
+   "person": "Spears Kirsten M.",
+   "relationship": "Officer",
+   "shares": 2968.0,
+   "value": 1172573.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000669",
+   "filed": "2026-06-17",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 4825.0,
+   "value": 1905454.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000668",
+   "filed": "2026-06-17",
+   "form": "144"
+  },
+  {
+   "person": "Spears Kirsten M.",
+   "relationship": "Officer",
+   "shares": 2048.0,
+   "value": 782266.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000663",
+   "filed": "2026-06-16",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 3327.0,
+   "value": 1270465.0,
+   "outstanding": 4757580198.0,
+   "approx_date": "06/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000662",
+   "filed": "2026-06-16",
+   "form": "144"
+  },
+  {
+   "person": "H&S INVESTMENTS I LP",
+   "relationship": "Affiliate",
+   "shares": 531741.0,
+   "value": 170000150.06,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000020",
+   "filed": "2026-04-29",
+   "form": "144/A"
+  },
+  {
+   "person": "H&S INVESTMENTS I LP",
+   "relationship": "Affiliate",
+   "shares": 531741.0,
+   "value": 170000150.06,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000019",
+   "filed": "2026-04-29",
+   "form": "144/A"
+  },
+  {
+   "person": "Velaga S. Ram",
+   "relationship": "Officer",
+   "shares": 8000.0,
+   "value": 2964179.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "04/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000390",
+   "filed": "2026-04-10",
+   "form": "144"
+  },
+  {
+   "person": "DELLY GAYLA J",
+   "relationship": "Director",
+   "shares": 1000.0,
+   "value": 358310.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "04/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002848",
+   "filed": "2026-04-09",
+   "form": "144"
+  },
+  {
+   "person": "Velaga S. Ram",
+   "relationship": "Officer",
+   "shares": 30215.0,
+   "value": 10363353.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "04/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000384",
+   "filed": "2026-04-08",
+   "form": "144"
+  },
+  {
+   "person": "PAGE JUSTINE",
+   "relationship": "Director",
+   "shares": 2018.0,
+   "value": 712354.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "04/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000383",
+   "filed": "2026-04-08",
+   "form": "144"
+  },
+  {
+   "person": "Kawwas Charlie B",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 3452265.19,
+   "outstanding": 4734668184.0,
+   "approx_date": "04/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002827",
+   "filed": "2026-04-08",
+   "form": "144"
+  },
+  {
+   "person": "D95GT, LLC",
+   "relationship": "Affiliate",
+   "shares": 250226.0,
+   "value": 80000154.82,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000012",
+   "filed": "2026-03-25",
+   "form": "144"
+  },
+  {
+   "person": "H&S INVESTMENTS I LP",
+   "relationship": "Affiliate",
+   "shares": 531741.0,
+   "value": 170000150.06,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000011",
+   "filed": "2026-03-25",
+   "form": "144"
+  },
+  {
+   "person": "Rinks Foundation",
+   "relationship": "Affiliate",
+   "shares": 9426.0,
+   "value": 3014609.18,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000010",
+   "filed": "2026-03-25",
+   "form": "144"
+  },
+  {
+   "person": "Samueli Foundation",
+   "relationship": "Affiliate",
+   "shares": 240095.0,
+   "value": 76786822.76,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000009",
+   "filed": "2026-03-25",
+   "form": "144"
+  },
+  {
+   "person": "Velaga S. Ram",
+   "relationship": "Officer",
+   "shares": 38841.0,
+   "value": 12491277.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000338",
+   "filed": "2026-03-17",
+   "form": "144"
+  },
+  {
+   "person": "Kawwas Charlie B",
+   "relationship": "Officer",
+   "shares": 39116.0,
+   "value": 12579953.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000337",
+   "filed": "2026-03-17",
+   "form": "144"
+  },
+  {
+   "person": "Spears Kirsten M.",
+   "relationship": "Officer",
+   "shares": 36292.0,
+   "value": 11671564.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000336",
+   "filed": "2026-03-17",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 50488.0,
+   "value": 16236987.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000335",
+   "filed": "2026-03-17",
+   "form": "144"
+  },
+  {
+   "person": "Velaga S. Ram",
+   "relationship": "Officer",
+   "shares": 25538.0,
+   "value": 8327831.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000329",
+   "filed": "2026-03-16",
+   "form": "144"
+  },
+  {
+   "person": "Spears Kirsten M.",
+   "relationship": "Officer",
+   "shares": 23862.0,
+   "value": 7781149.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000328",
+   "filed": "2026-03-16",
+   "form": "144"
+  },
+  {
+   "person": "Kawwas Charlie B",
+   "relationship": "Officer",
+   "shares": 25718.0,
+   "value": 8386728.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000327",
+   "filed": "2026-03-16",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 33194.0,
+   "value": 10824703.0,
+   "outstanding": 4734668184.0,
+   "approx_date": "03/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000326",
+   "filed": "2026-03-16",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 10413692.0,
+   "outstanding": 4741273799.0,
+   "approx_date": "01/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000012",
+   "filed": "2026-01-06",
+   "form": "144"
+  },
+  {
+   "person": "TAN HOCK E",
+   "relationship": "Officer",
+   "shares": 70000.0,
+   "value": 24310701.54,
+   "outstanding": 4741273799.0,
+   "approx_date": "01/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000141",
+   "filed": "2026-01-06",
+   "form": "144"
+  },
+  {
+   "person": "Spears Kirsten M.",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 10434650.6,
+   "outstanding": 4741273799.0,
+   "approx_date": "12/31/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007949",
+   "filed": "2025-12-31",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 25921.0,
+   "value": 9126069.0,
+   "outstanding": 4741273799.0,
+   "approx_date": "12/26/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001582",
+   "filed": "2025-12-29",
+   "form": "144"
+  },
+  {
+   "person": "TAN HOCK E",
+   "relationship": "Officer",
+   "shares": 100000.0,
+   "value": 34081000.0,
+   "outstanding": 4741273799.0,
+   "approx_date": "12/23/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007901",
+   "filed": "2025-12-23",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 38281.0,
+   "value": 12542609.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001569",
+   "filed": "2025-12-17",
+   "form": "144"
+  },
+  {
+   "person": "Kawwas Charlie B",
+   "relationship": "Officer",
+   "shares": 1928.0,
+   "value": 631999.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001568",
+   "filed": "2025-12-17",
+   "form": "144"
+  },
+  {
+   "person": "Spears Kirsten M.",
+   "relationship": "Officer",
+   "shares": 3714.0,
+   "value": 1217396.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/17/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001567",
+   "filed": "2025-12-17",
+   "form": "144"
+  },
+  {
+   "person": "Spears Kirsten M.",
+   "relationship": "Officer",
+   "shares": 2379.0,
+   "value": 811044.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/16/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001566",
+   "filed": "2025-12-16",
+   "form": "144"
+  },
+  {
+   "person": "Kawwas Charlie B",
+   "relationship": "Officer",
+   "shares": 1235.0,
+   "value": 421113.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/16/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001565",
+   "filed": "2025-12-16",
+   "form": "144"
+  },
+  {
+   "person": "Brazeal Mark David",
+   "relationship": "Officer",
+   "shares": 24527.0,
+   "value": 8361499.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/16/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001564",
+   "filed": "2025-12-16",
+   "form": "144"
+  },
+  {
+   "person": "PAGE JUSTINE",
+   "relationship": "Director",
+   "shares": 800.0,
+   "value": 289512.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/15/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007726",
+   "filed": "2025-12-15",
+   "form": "144"
+  },
+  {
+   "person": "Samueli Foundation",
+   "relationship": "Affiliate",
+   "shares": 65729.0,
+   "value": 26508124.47,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/09/2025",
+   "plan_10b5_1": false,
+   "accession": "0001973727-25-000053",
+   "filed": "2025-12-10",
+   "form": "144/A"
+  },
+  {
+   "person": "Samueli Foundation",
+   "relationship": "Affiliate",
+   "shares": 65729.0,
+   "value": 26508124.47,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/09/2025",
+   "plan_10b5_1": false,
+   "accession": "0001973727-25-000052",
+   "filed": "2025-12-09",
+   "form": "144"
+  },
+  {
+   "person": "D95GT, LLC",
+   "relationship": "Affiliate",
+   "shares": 320316.0,
+   "value": 128297192.49,
+   "outstanding": 4722365022.0,
+   "approx_date": "12/08/2025",
+   "plan_10b5_1": false,
+   "accession": "0001973727-25-000050",
+   "filed": "2025-12-08",
+   "form": "144"
+  },
+  {
+   "person": "PAGE JUSTINE",
+   "relationship": "Director",
+   "shares": 800.0,
+   "value": 280120.0,
+   "outstanding": 4722365022.0,
+   "approx_date": "11/14/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007002",
+   "filed": "2025-11-14",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 354715196.0,
+   "pct": 7.49,
+   "filed": "2026-04-29",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000179"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-000847"
+  }
+ ],
+ "errors": []
+}

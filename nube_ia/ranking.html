@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nube IA · ranking</title>
+<style>
+/* Layout: trading desk sheet — sticky horizontal section bar on top, single report column, verdict board up front */
+:root{
+  --bg:#f3f3f6; --paper:#ffffff; --sunk:#ebebf1; --ink:#14141f; --ink-2:#474a5c; --ink-3:#6f7286; --rule:#d9dae3;
+  --accent:#3f3dc4; --accent-ink:#ffffff; --accent-soft:#e6e6fb;
+  --up:#1d7f4e; --up-soft:#dff3e8; --down:#c23a2b; --down-soft:#fbe4e0; --warn:#9a5d00; --warn-soft:#fbefd9; --info:#2a62a8; --info-soft:#e1ebf8;
+  --verify-bg:#fff1b8; --verify-ink:#5c4400; --dot:#8a8da0;
+  --f-disp:"Space Grotesk","Segoe UI",Arial,sans-serif;
+  --f-body:"IBM Plex Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e0e15; --paper:#16161f; --sunk:#111119; --ink:#e7e7f0; --ink-2:#adafc2; --ink-3:#8487a0; --rule:#2a2b3a;
+  --accent:#9b9cff; --accent-ink:#11113a; --accent-soft:#23234a;
+  --up:#6fd39d; --up-soft:#11301f; --down:#f08a7c; --down-soft:#3a1915; --warn:#ebb45c; --warn-soft:#33260f; --info:#8db7ee; --info-soft:#152438;
+  --verify-bg:#4a3c08; --verify-ink:#ffe08a; --dot:#6f7290; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e0e15; --paper:#16161f; --sunk:#111119; --ink:#e7e7f0; --ink-2:#adafc2; --ink-3:#8487a0; --rule:#2a2b3a;
+  --accent:#9b9cff; --accent-ink:#11113a; --accent-soft:#23234a;
+  --up:#6fd39d; --up-soft:#11301f; --down:#f08a7c; --down-soft:#3a1915; --warn:#ebb45c; --warn-soft:#33260f; --info:#8db7ee; --info-soft:#152438;
+  --verify-bg:#4a3c08; --verify-ink:#ffe08a; --dot:#6f7290; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.n,.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--f-disp);text-wrap:balance;margin:0}
+/* top bar */
+.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top,0px)}
+.bar .in{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px))}
+.bar .tk{font:700 18px var(--f-disp);letter-spacing:.02em;white-space:nowrap}
+.bar .tk span{color:var(--accent)}
+.bar nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;min-width:0}
+.bar nav::-webkit-scrollbar{display:none}
+.bar nav a{font:600 12px var(--f-mono);color:var(--ink-2);text-decoration:none;padding:5px 8px;border-radius:999px;white-space:nowrap}
+.bar nav a:hover{background:var(--accent-soft);color:var(--ink)}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:16px;padding:22px max(16px,env(safe-area-inset-right,0px)) 56px max(16px,env(safe-area-inset-left,0px))}
+/* header */
+.case{display:grid;gap:12px}
+.strip{display:flex;flex-wrap:wrap;gap:6px 14px;font:600 11.5px var(--f-mono);letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3)}
+.strip b{color:var(--accent)}
+.case h1{font-size:clamp(28px,4.6vw,48px);font-weight:700;line-height:1.02;letter-spacing:-.02em}
+.case h1 em{font-style:normal;color:var(--accent)}
+.desc{color:var(--ink-2);max-width:92ch;font-size:14.5px;margin:0}
+.synthetic{border:2px dashed var(--warn);background:var(--warn-soft);color:var(--ink);padding:10px 14px;border-radius:8px;font-size:14px}
+.synthetic b{color:var(--warn)}
+.board{display:grid;grid-template-columns:minmax(220px,1.1fr) repeat(5,minmax(0,1fr));gap:8px}
+.verdict{background:var(--ink);color:var(--bg);border-radius:8px;padding:14px 16px;display:grid;gap:6px;align-content:start}
+.verdict .k{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.verdict .lv{font:700 34px/1 var(--f-disp);letter-spacing:-.01em}
+.verdict .sz{font:600 13px var(--f-mono)}
+.verdict p{margin:0;font-size:13px;opacity:.9}
+.tile{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px;display:grid;gap:6px;align-content:start;min-width:0}
+.tile .k{font:600 10.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.tile .g{display:flex;align-items:baseline;gap:8px}
+.tile .g b{font:700 26px/1 var(--f-disp)}
+.tile .g span{font:600 12px var(--f-mono);color:var(--ink-2)}
+.tile p{margin:0;font-size:12.5px;color:var(--ink-2);line-height:1.4}
+.tile.up{box-shadow:inset 0 3px 0 var(--up)}.tile.up .g b{color:var(--up)}
+.tile.mid{box-shadow:inset 0 3px 0 var(--warn)}.tile.mid .g b{color:var(--warn)}
+.tile.down{box-shadow:inset 0 3px 0 var(--down)}.tile.down .g b{color:var(--down)}
+.tile.na{box-shadow:inset 0 3px 0 var(--dot)}.tile.na .g b{color:var(--ink-3)}
+@media (max-width:1060px){.board{grid-template-columns:repeat(3,minmax(0,1fr))}.verdict{grid-column:1/-1}}
+@media (max-width:620px){.board{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* sections */
+section{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:18px 22px;min-width:0;scroll-margin-top:64px}
+@media (max-width:620px){section{padding:16px 14px}}
+.sh{display:flex;gap:10px;align-items:baseline;margin-bottom:10px;border-bottom:1px solid var(--rule);padding-bottom:10px}
+.sh .no{font:700 12px var(--f-mono);color:var(--accent)}
+.sh h2{font-size:22px;font-weight:700;letter-spacing:-.01em}
+h3{font-size:15.5px;font-weight:700;margin:18px 0 8px}
+p{margin:8px 0;max-width:96ch}
+.lede{color:var(--ink-2);font-size:14px}
+.read{background:var(--accent-soft);padding:10px 14px;margin-top:12px;font-size:14px;border-radius:6px;border-left:3px solid var(--accent)}
+.v{background:var(--verify-bg);color:var(--verify-ink);font:600 10.5px/1 var(--f-mono);letter-spacing:.04em;padding:2px 5px;border-radius:3px;overflow-wrap:anywhere;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.src{font:500 11px var(--f-mono);color:var(--ink-3);text-decoration:none;border:1px solid var(--rule);border-radius:3px;padding:0 4px;white-space:nowrap}
+a.src:hover{color:var(--accent);border-color:var(--accent)}
+.kv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin:0}
+.kv>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:10px;padding:7px 0;border-bottom:1px dashed var(--rule)}
+.kv dt{font:600 11.5px var(--f-mono);color:var(--ink-3);letter-spacing:.03em;text-transform:uppercase}
+.kv dd{margin:0;font-size:14px;min-width:0}
+@media (max-width:760px){.kv{grid-template-columns:minmax(0,1fr)}.kv>div{grid-template-columns:120px minmax(0,1fr)}}
+/* tables */
+.tw{overflow-x:auto;margin-top:8px;border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:680px}
+th{background:var(--sunk);color:var(--ink-2);font:700 10.5px var(--f-mono);text-align:left;padding:8px 10px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+td{padding:8px 10px;border-top:1px solid var(--rule);vertical-align:top}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr.me td{background:var(--accent-soft);font-weight:600}
+tr.off td{color:var(--ink-3)}
+.gr{font:700 12px var(--f-mono);display:inline-grid;place-items:center;min-width:22px;height:22px;border-radius:4px;padding:0 5px}
+.gr.A{background:var(--up);color:var(--paper)}.gr.B{background:var(--up-soft);color:var(--up)}.gr.C{background:var(--warn-soft);color:var(--warn)}.gr.D{background:var(--down-soft);color:var(--down)}
+.st{font:700 10.5px var(--f-mono);padding:2px 6px;border-radius:3px;white-space:nowrap;display:inline-block;letter-spacing:.03em}
+.st.r{background:var(--down-soft);color:var(--down)}.st.a{background:var(--warn-soft);color:var(--warn)}.st.g{background:var(--up-soft);color:var(--up)}.st.b{background:var(--info-soft);color:var(--info)}.st.x{background:var(--sunk);color:var(--ink-3)}
+.fl{display:flex;flex-wrap:wrap;gap:4px}
+.pos{color:var(--up)}.neg{color:var(--down)}
+/* score breakdown */
+.parts{display:grid;gap:6px;margin-top:8px;max-width:720px}
+.part{display:grid;grid-template-columns:150px minmax(0,1fr) 64px;gap:10px;align-items:center;font-size:13px}
+.part .lb{color:var(--ink-2)}
+.part .tr{height:10px;background:var(--sunk);border-radius:5px;overflow:hidden}
+.part .tr i{display:block;height:100%;background:var(--accent);border-radius:5px}
+.part .vl{font:600 12px var(--f-mono);text-align:right}
+@media (max-width:520px){.part{grid-template-columns:110px minmax(0,1fr) 56px}}
+/* charts */
+.chart{margin-top:10px;overflow-x:auto}
+.chart svg{display:block;width:100%;min-width:600px;height:auto}
+.chart text{fill:var(--ink-2);font-family:var(--f-mono);font-size:11px}
+.chart .grid{stroke:var(--rule);stroke-width:1}
+.chart .axis{stroke:var(--ink-3);stroke-width:1}
+.chart .lbl{fill:var(--ink);font-weight:600}
+.chart .med{stroke:var(--ink-3);stroke-dasharray:4 4;stroke-width:1}
+.chart .q{fill:var(--ink-3);font-size:10.5px;letter-spacing:.04em}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--ink-2);margin-top:6px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.cap{font-size:13px;color:var(--ink-2);margin-top:8px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+@media (max-width:760px){.two{grid-template-columns:minmax(0,1fr)}}
+ul.pl{margin:6px 0 0;padding-left:18px;font-size:14px}
+ul.pl li{margin:3px 0}
+ol.trace{margin:6px 0 0;padding-left:20px;font-size:14px}
+footer{font-size:12.5px;color:var(--ink-3)}
+footer ol{padding-left:18px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+</style>
+<main class="wrap"><header class="case"><h1>Nube IA · ranking</h1><p class="desc">Orden: convicción y, dentro de cada nivel, nota de negocio = 0,45·fundamentales + 0,20·catalizador (≤ 120 días) + 0,20·oferta + 0,15·valor relativo. * = componente sin dato, puntuado 50.</p></header><section><div class="tw"><table><thead><tr><th class="n">#</th><th>Ticker</th><th>Pureza</th><th>Convicción</th><th class="n">Negocio</th><th class="n">Fund.</th><th class="n">Crec.</th><th class="n">Acel.</th><th class="n">Banderas</th><th>Catalizador</th><th class="n">Oferta</th><th class="n">P. valor</th><th class="n">EV/ventas</th><th>Líder enfriado</th><th>Resultados</th></tr></thead><tbody><tr><td class="n">1</td><td><a href="reports/AMZN_swing.html"><b>AMZN</b></a><br><span class="lede">hiperescalares</span></td><td>mixto</td><td><span class="st x">Baja</span></td><td class="n"><b>66</b> *</td><td class="n">69</td><td class="n">19,6%</td><td class="n">+3,0 pp</td><td class="n">1</td><td>D 36 (q_202606)</td><td class="n">100</td><td class="n">n/d</td><td class="n">3,5×</td><td>—</td><td>2026-10-29 · 8 ses.</td></tr><tr><td class="n">2</td><td><a href="reports/CRWV_swing.html"><b>CRWV</b></a><br><span class="lede">neoclouds</span></td><td>puro</td><td><span class="st x">Baja</span></td><td class="n"><b>62</b> *</td><td class="n">64</td><td class="n">112,5%</td><td class="n">+0,8 pp</td><td class="n">2</td><td>C 40 (q_202606)</td><td class="n">90</td><td class="n">n/d</td><td class="n">n/d</td><td>—</td><td>2026-11-10 · 16 ses.</td></tr><tr><td class="n">3</td><td><a href="reports/APLD_swing.html"><b>APLD</b></a><br><span class="lede">neoclouds</span></td><td>puro</td><td><span class="st x">Baja</span></td><td class="n"><b>54</b> *</td><td class="n">57</td><td class="n">n/d</td><td class="n">n/d</td><td class="n">1</td><td>D 11 (q_202608)</td><td class="n">95</td><td class="n">n/d</td><td class="n">4,2×</td><td>—</td><td>2027-01-06 · 57 ses.</td></tr><tr><td class="n">4</td><td><a href="reports/GOOGL_swing.html"><b>GOOGL</b></a><br><span class="lede">hiperescalares</span></td><td>mixto</td><td><span class="st r">Descartar</span></td><td class="n"><b>67</b> *</td><td class="n">73</td><td class="n">24,2%</td><td class="n">+2,4 pp</td><td class="n">0</td><td>D 33 (q_202606)</td><td class="n">100</td><td class="n">n/d</td><td class="n">n/d</td><td>—</td><td>2026-10-21 · 2 ses.</td></tr><tr><td class="n">5</td><td><a href="reports/META_swing.html"><b>META</b></a><br><span class="lede">hiperescalares</span></td><td>adyacente</td><td><span class="st r">Descartar</span></td><td class="n"><b>60</b> *</td><td class="n">69</td><td class="n">28,0%</td><td class="n">-5,1 pp</td><td class="n">0</td><td>D 28 (q2_26)</td><td class="n">80</td><td class="n">n/d</td><td class="n">n/d</td><td>—</td><td>2026-10-21 · 2 ses.</td></tr><tr><td class="n">6</td><td><a href="reports/IREN_swing.html"><b>IREN</b></a><br><span class="lede">neoclouds</span></td><td>mixto</td><td><span class="st r">Descartar</span></td><td class="n"><b>40</b> *</td><td class="n">22</td><td class="n">-26,7%</td><td class="n">-26,7 pp</td><td class="n">3</td><td>D 18 (q_202606)</td><td class="n">95</td><td class="n">n/d</td><td class="n">16,0×</td><td>—</td><td>2026-11-26 · 28 ses.</td></tr></tbody></table></div></section></main>

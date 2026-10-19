@@ -1,0 +1,132 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 25470000000,
+   "end": "2026-06-27",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 15635000000,
+   "end": "2026-06-27",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 67224000000,
+   "end": "2026-06-27",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 84464000000,
+   "end": "2026-06-27",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.6114631679162204,
+ "goodwill_intang_to_assets": 0.4866570373176738,
+ "impairments": [],
+ "public_float": {
+  "usd": 232300000000,
+  "date": "2024-06-28",
+  "filed": "2026-02-04",
+  "form": "10-K",
+  "close": null,
+  "close_date": null,
+  "float_shares": null
+ },
+ "governance": [
+  {
+   "filed": "2026-08-19",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-26-000163",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm"
+  },
+  {
+   "filed": "2026-07-01",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-26-000115",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/amd-20260626.htm"
+  },
+  {
+   "filed": "2026-05-15",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001193125-26-226746",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm"
+  },
+  {
+   "filed": "2026-02-17",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-26-000029",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000029/amd-20260210.htm"
+  },
+  {
+   "filed": "2026-01-20",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-26-000002",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000002/amd-20260116.htm"
+  },
+  {
+   "filed": "2025-12-15",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-25-000182",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000182/amd-20251212.htm"
+  },
+  {
+   "filed": "2025-08-25",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-25-000147",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000147/amd-20250822.htm"
+  },
+  {
+   "filed": "2025-07-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-25-000099",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000099/amd-20250627.htm"
+  },
+  {
+   "filed": "2025-02-24",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-25-000026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000026/amd-20250218.htm"
+  },
+  {
+   "filed": "2024-11-18",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0000002488-24-000172",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000172/amd-20241113.htm"
+  }
+ ]
+}

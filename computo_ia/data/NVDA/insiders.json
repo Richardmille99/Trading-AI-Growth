@@ -1,0 +1,851 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1045810,
+ "form4_count": 85,
+ "form144_count": 34,
+ "schedule13_count": 5,
+ "owners": [
+  {
+   "name": "STEVENS MARK A",
+   "role": "consejero",
+   "sold": 6915922.0,
+   "sold_value": 1495924141,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1334,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-18",
+     "shares": 1356000.0,
+     "price": 219.7219,
+     "accession": "0001199039-26-000016"
+    },
+    {
+     "date": "2026-09-18",
+     "shares": 10000.0,
+     "price": 220.4199,
+     "accession": "0001199039-26-000016"
+    },
+    {
+     "date": "2026-09-03",
+     "shares": 198707.0,
+     "price": 227.6954,
+     "accession": "0001199039-26-000014"
+    },
+    {
+     "date": "2026-09-03",
+     "shares": 1293.0,
+     "price": 228.2703,
+     "accession": "0001199039-26-000014"
+    },
+    {
+     "date": "2026-09-03",
+     "shares": 200000.0,
+     "price": 229.8705,
+     "accession": "0001199039-26-000014"
+    },
+    {
+     "date": "2026-09-04",
+     "shares": 197180.0,
+     "price": 230.4039,
+     "accession": "0001199039-26-000014"
+    },
+    {
+     "date": "2026-09-04",
+     "shares": 237820.0,
+     "price": 231.1677,
+     "accession": "0001199039-26-000014"
+    },
+    {
+     "date": "2026-09-04",
+     "shares": 182628.0,
+     "price": 233.4615,
+     "accession": "0001199039-26-000014"
+    },
+    {
+     "date": "2026-09-04",
+     "shares": 4611.0,
+     "price": 234.0043,
+     "accession": "0001199039-26-000014"
+    },
+    {
+     "date": "2026-08-31",
+     "shares": 447400.0,
+     "price": 220.0959,
+     "accession": "0001199039-26-000012"
+    },
+    {
+     "date": "2026-08-31",
+     "shares": 137600.0,
+     "price": 220.9105,
+     "accession": "0001199039-26-000012"
+    },
+    {
+     "date": "2026-09-01",
+     "shares": 63501.0,
+     "price": 220.0589,
+     "accession": "0001199039-26-000012"
+    },
+    {
+     "date": "2026-09-02",
+     "shares": 300000.0,
+     "price": 220.0761,
+     "accession": "0001199039-26-000012"
+    },
+    {
+     "date": "2026-09-02",
+     "shares": 300000.0,
+     "price": 222.9204,
+     "accession": "0001199039-26-000012"
+    },
+    {
+     "date": "2026-09-02",
+     "shares": 300000.0,
+     "price": 224.0715,
+     "accession": "0001199039-26-000012"
+    },
+    {
+     "date": "2026-09-02",
+     "shares": 300000.0,
+     "price": 226.2704,
+     "accession": "0001199039-26-000012"
+    },
+    {
+     "date": "2026-06-18",
+     "shares": 319385.0,
+     "price": 209.6952,
+     "accession": "0001199039-26-000007"
+    },
+    {
+     "date": "2026-06-18",
+     "shares": 565615.0,
+     "price": 210.4372,
+     "accession": "0001199039-26-000007"
+    },
+    {
+     "date": "2026-06-02",
+     "shares": 500000.0,
+     "price": 222.3774,
+     "accession": "0001199039-26-000005"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 100000.0,
+     "price": 217.655,
+     "accession": "0001199039-26-000005"
+    },
+    {
+     "date": "2026-06-04",
+     "shares": 400000.0,
+     "price": 220.371,
+     "accession": "0001199039-26-000005"
+    },
+    {
+     "date": "2026-03-20",
+     "shares": 100000.0,
+     "price": 172.6068,
+     "accession": "0001199039-26-000003"
+    },
+    {
+     "date": "2026-03-20",
+     "shares": 121682.0,
+     "price": 174.5685,
+     "accession": "0001199039-26-000003"
+    },
+    {
+     "date": "2025-12-19",
+     "shares": 222500.0,
+     "price": 180.168,
+     "accession": "0001199039-25-000015"
+    },
+    {
+     "date": "2025-12-05",
+     "shares": 350000.0,
+     "price": 181.7259,
+     "accession": "0001199039-25-000012"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001199039-25-000012",
+    "0001199039-25-000015",
+    "0001199039-26-000003",
+    "0001199039-26-000005",
+    "0001199039-26-000007",
+    "0001199039-26-000012",
+    "0001199039-26-000014",
+    "0001199039-26-000016"
+   ]
+  },
+  {
+   "name": "Puri Ajay K",
+   "role": "EVP, Worldwide Field Ops",
+   "sold": 1000000.0,
+   "sold_value": 183002963,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 145429.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2127,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001347842-26-000002",
+    "0001347842-26-000004",
+    "0001347842-26-000009",
+    "0001347842-26-000011"
+   ]
+  },
+  {
+   "name": "HUANG JEN HSUN",
+   "role": "consejero, President and CEO",
+   "sold": 600000.0,
+   "sold_value": 110548855,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 569527.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0007,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001197649-25-000050",
+    "0001197649-25-000052",
+    "0001197649-25-000054",
+    "0001197649-25-000056"
+   ]
+  },
+  {
+   "name": "Kress Colette",
+   "role": "EVP & Chief Financial Officer",
+   "sold": 338628.0,
+   "sold_value": 63348455,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 201132.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0313,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001588670-25-000011",
+    "0001588670-25-000013",
+    "0001588670-25-000015",
+    "0001588670-26-000002",
+    "0001588670-26-000004",
+    "0001588670-26-000010",
+    "0001588670-26-000014"
+   ]
+  },
+  {
+   "name": "Shoquist Debora",
+   "role": "EVP, Operations",
+   "sold": 309840.0,
+   "sold_value": 56186172,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 171492.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1402,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001283854-25-000009",
+    "0001283854-25-000011"
+   ]
+  },
+  {
+   "name": "JONES HARVEY C",
+   "role": "consejero",
+   "sold": 250000.0,
+   "sold_value": 44333450,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0345,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-12-15",
+     "shares": 250000.0,
+     "price": 177.3338,
+     "accession": "0001197650-25-000009"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001197650-25-000009"
+   ]
+  },
+  {
+   "name": "Robertson Donald F Jr",
+   "role": "Principal Accounting Officer",
+   "sold": 109986.0,
+   "sold_value": 20556413,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 9965.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2021,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001526111-25-000011",
+    "0001526111-26-000002",
+    "0001526111-26-000005"
+   ]
+  },
+  {
+   "name": "Teter Timothy S.",
+   "role": "EVP, General Counsel and Sec",
+   "sold": 60460.0,
+   "sold_value": 13323048,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 175075.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.02,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001696841-26-000010",
+    "0001696841-26-000014"
+   ]
+  },
+  {
+   "name": "Shah Aarti S.",
+   "role": "consejero",
+   "sold": 19000.0,
+   "sold_value": 3357549,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3454,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001725292-26-000002"
+   ]
+  },
+  {
+   "name": "Neal Stephen C",
+   "role": "consejero",
+   "sold": 15500.0,
+   "sold_value": 3343863,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0838,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-03",
+     "shares": 15500.0,
+     "price": 215.7331,
+     "accession": "0001768670-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001768670-26-000002"
+   ]
+  },
+  {
+   "name": "SEAWELL A BROOKE",
+   "role": "consejero",
+   "sold": 12728.0,
+   "sold_value": 2341117,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0051,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-12-02",
+     "shares": 12728.0,
+     "price": 183.9344,
+     "accession": "0001197652-25-000009"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001197652-25-000009"
+   ]
+  },
+  {
+   "name": "Dabiri John",
+   "role": "consejero",
+   "sold": 4255.0,
+   "sold_value": 801507,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1688,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001818224-25-000005",
+    "0001818224-26-000002",
+    "0001818224-26-000004"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Teter Timothy S.",
+   "relationship": "Officer",
+   "shares": 30460.0,
+   "value": 6786532.0,
+   "outstanding": 24100000000.0,
+   "approx_date": "09/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-001040",
+   "filed": "2026-09-21",
+   "form": "144"
+  },
+  {
+   "person": "Colette Kress",
+   "relationship": "Officer",
+   "shares": 34918.0,
+   "value": 7658914.12,
+   "outstanding": 24100000000.0,
+   "approx_date": "09/17/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000615",
+   "filed": "2026-09-17",
+   "form": "144"
+  },
+  {
+   "person": "MARK A STEVENS",
+   "relationship": "Director",
+   "shares": 5000000.0,
+   "value": 1087200000.0,
+   "outstanding": 24100000000.0,
+   "approx_date": "09/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-060177",
+   "filed": "2026-09-02",
+   "form": "144"
+  },
+  {
+   "person": "Teter Timothy S.",
+   "relationship": "Officer",
+   "shares": 30000.0,
+   "value": 6536514.0,
+   "outstanding": 24100000000.0,
+   "approx_date": "08/31/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000969",
+   "filed": "2026-08-31",
+   "form": "144"
+  },
+  {
+   "person": "DONALD ROBERTSON",
+   "relationship": "Officer",
+   "shares": 4594.0,
+   "value": 967909.86,
+   "outstanding": 24200000000.0,
+   "approx_date": "06/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006396",
+   "filed": "2026-06-22",
+   "form": "144"
+  },
+  {
+   "person": "MARK A STEVENS",
+   "relationship": "Director",
+   "shares": 1700000.0,
+   "value": 347905000.0,
+   "outstanding": 24200000000.0,
+   "approx_date": "06/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-044430",
+   "filed": "2026-06-18",
+   "form": "144"
+  },
+  {
+   "person": "Neal Stephen C",
+   "relationship": "Director",
+   "shares": 15500.0,
+   "value": 3343863.05,
+   "outstanding": 24200000000.0,
+   "approx_date": "06/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001973727-26-000026",
+   "filed": "2026-06-03",
+   "form": "144"
+  },
+  {
+   "person": "Dabiri John",
+   "relationship": "Director",
+   "shares": 625.0,
+   "value": 133750.0,
+   "outstanding": 24200000000.0,
+   "approx_date": "05/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000561",
+   "filed": "2026-05-27",
+   "form": "144"
+  },
+  {
+   "person": "MARK A STEVENS",
+   "relationship": "Director",
+   "shares": 1700000.0,
+   "value": 303552000.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/20/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-020268",
+   "filed": "2026-03-20",
+   "form": "144"
+  },
+  {
+   "person": "Colette Kress",
+   "relationship": "Officer",
+   "shares": 62650.0,
+   "value": 10819655.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/20/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000168",
+   "filed": "2026-03-20",
+   "form": "144"
+  },
+  {
+   "person": "DONALD ROBERTSON",
+   "relationship": "Officer",
+   "shares": 5396.0,
+   "value": 963509.76,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/20/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-002865",
+   "filed": "2026-03-20",
+   "form": "144"
+  },
+  {
+   "person": "Puri Ajay K",
+   "relationship": "Officer",
+   "shares": 300000.0,
+   "value": 54676153.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000344",
+   "filed": "2026-03-19",
+   "form": "144/A"
+  },
+  {
+   "person": "Shah Aarti S.",
+   "relationship": "Director",
+   "shares": 19000.0,
+   "value": 3357549.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/19/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000343",
+   "filed": "2026-03-19",
+   "form": "144"
+  },
+  {
+   "person": "Puri Ajay K",
+   "relationship": "Officer",
+   "shares": 300000.0,
+   "value": 54676153.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000341",
+   "filed": "2026-03-18",
+   "form": "144"
+  },
+  {
+   "person": "Dabiri John",
+   "relationship": "Director",
+   "shares": 3004.0,
+   "value": 555440.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000315",
+   "filed": "2026-03-13",
+   "form": "144"
+  },
+  {
+   "person": "Puri Ajay K",
+   "relationship": "Officer",
+   "shares": 300000.0,
+   "value": 54756038.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "03/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000296",
+   "filed": "2026-03-10",
+   "form": "144"
+  },
+  {
+   "person": "Puri Ajay K",
+   "relationship": "Officer",
+   "shares": 200000.0,
+   "value": 36007159.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "01/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000054",
+   "filed": "2026-01-21",
+   "form": "144"
+  },
+  {
+   "person": "Puri Ajay K",
+   "relationship": "Officer",
+   "shares": 200000.0,
+   "value": 37563625.0,
+   "outstanding": 2430000000.0,
+   "approx_date": "01/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001921094-26-000026",
+   "filed": "2026-01-07",
+   "form": "144"
+  },
+  {
+   "person": "DONALD ROBERTSON",
+   "relationship": "Officer",
+   "shares": 80000.0,
+   "value": 14920000.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "01/02/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-000053",
+   "filed": "2026-01-02",
+   "form": "144"
+  },
+  {
+   "person": "MARK A STEVENS",
+   "relationship": "Director",
+   "shares": 1700000.0,
+   "value": 307700000.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "12/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001628280-25-058369",
+   "filed": "2025-12-19",
+   "form": "144"
+  },
+  {
+   "person": "DONALD ROBERTSON",
+   "relationship": "Officer",
+   "shares": 24590.0,
+   "value": 4282102.6,
+   "outstanding": 24300000000.0,
+   "approx_date": "12/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-010558",
+   "filed": "2025-12-19",
+   "form": "144"
+  },
+  {
+   "person": "HARVEY C JONES",
+   "relationship": "DIRECTOR",
+   "shares": 250000.0,
+   "value": 44323451.25,
+   "outstanding": 24300000000.0,
+   "approx_date": "12/15/2025",
+   "plan_10b5_1": false,
+   "accession": "0001628280-25-057153",
+   "filed": "2025-12-15",
+   "form": "144"
+  },
+  {
+   "person": "Colette Kress",
+   "relationship": "Officer",
+   "shares": 145780.0,
+   "value": 25514415.6,
+   "outstanding": 24300000000.0,
+   "approx_date": "12/12/2025",
+   "plan_10b5_1": true,
+   "accession": "0001958244-25-004541",
+   "filed": "2025-12-12",
+   "form": "144"
+  },
+  {
+   "person": "DEBORA C SHOQUIST REV TR 2002 U/A DTD 06/13/2002",
+   "relationship": "Officer",
+   "shares": 309840.0,
+   "value": 57490812.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "12/09/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009999",
+   "filed": "2025-12-09",
+   "form": "144"
+  },
+  {
+   "person": "SEAWELL A BROOKE",
+   "relationship": "Director",
+   "shares": 12728.0,
+   "value": 2341117.18,
+   "outstanding": 24300000000.0,
+   "approx_date": "12/02/2025",
+   "plan_10b5_1": false,
+   "accession": "0001965301-25-000175",
+   "filed": "2025-12-02",
+   "form": "144"
+  },
+  {
+   "person": "Dabiri John",
+   "relationship": "Director",
+   "shares": 626.0,
+   "value": 112317.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "11/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001416",
+   "filed": "2025-11-24",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 25000.0,
+   "value": 5197790.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001301",
+   "filed": "2025-10-29",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 25000.0,
+   "value": 4888536.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/28/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001296",
+   "filed": "2025-10-28",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 25000.0,
+   "value": 4768183.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/27/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001292",
+   "filed": "2025-10-27",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 75000.0,
+   "value": 13901543.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001288",
+   "filed": "2025-10-24",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 75000.0,
+   "value": 13635064.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/23/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001285",
+   "filed": "2025-10-23",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 75000.0,
+   "value": 13493286.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/22/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001284",
+   "filed": "2025-10-22",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 75000.0,
+   "value": 13606050.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/21/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001281",
+   "filed": "2025-10-21",
+   "form": "144"
+  },
+  {
+   "person": "HUANG JEN HSUN",
+   "relationship": "Officer",
+   "shares": 75000.0,
+   "value": 13753150.0,
+   "outstanding": 24300000000.0,
+   "approx_date": "10/20/2025",
+   "plan_10b5_1": false,
+   "accession": "0001921094-25-001276",
+   "filed": "2025-10-20",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "NVIDIA Corporation",
+   "shares": 22256412.0,
+   "pct": 9.3,
+   "filed": "2026-07-20",
+   "form": "SCHEDULE 13G",
+   "event_date": "07/13/2026",
+   "accession": "0001045810-26-000062"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 1777408252.0,
+   "pct": 7.31,
+   "filed": "2026-04-28",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000017"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-000426"
+  }
+ ],
+ "errors": []
+}

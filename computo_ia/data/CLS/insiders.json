@@ -1,0 +1,462 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1030894,
+ "form4_count": 83,
+ "form144_count": 14,
+ "schedule13_count": 2,
+ "owners": [
+  {
+   "name": "MIONIS ROBERT",
+   "role": "consejero, Chief Executive Officer",
+   "sold": 345949.0,
+   "sold_value": 130689066,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 359228.0,
+   "exercised": 912902.0,
+   "max_quarter_pct": 0.2367,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-274663",
+    "0001193125-26-274665",
+    "0001193125-26-274668",
+    "0001193125-26-330957",
+    "0001193125-26-338762",
+    "0001193125-26-338763",
+    "0001193125-26-352263",
+    "0001193125-26-401230"
+   ]
+  },
+  {
+   "name": "Phillips Jason",
+   "role": "President",
+   "sold": 120000.0,
+   "sold_value": 36892200,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 89456.0,
+   "exercised": 203535.0,
+   "max_quarter_pct": 0.9051,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-05",
+     "shares": 20000.0,
+     "price": 300.01,
+     "accession": "0001193125-26-041219"
+    },
+    {
+     "date": "2026-02-06",
+     "shares": 100000.0,
+     "price": 308.92,
+     "accession": "0001193125-26-041219"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-041219"
+   ]
+  },
+  {
+   "name": "Cooper Todd C",
+   "role": "President",
+   "sold": 110667.0,
+   "sold_value": 33266594,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 86455.0,
+   "exercised": 186548.0,
+   "max_quarter_pct": 0.4538,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-04",
+     "shares": 1065.0,
+     "price": 283.51,
+     "accession": "0001193125-26-041234"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 85923.0,
+     "price": 287.45,
+     "accession": "0001193125-26-035616"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 3561.0,
+     "price": 287.45,
+     "accession": "0001193125-26-035616"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-035616",
+    "0001193125-26-041234",
+    "0001193125-26-401231"
+   ]
+  },
+  {
+   "name": "Etienvre Yann L",
+   "role": "Chief Operations Officer",
+   "sold": 96561.0,
+   "sold_value": 28082037,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 90403.0,
+   "exercised": 186964.0,
+   "max_quarter_pct": 1.0,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-04",
+     "shares": 1145.0,
+     "price": 283.51,
+     "accession": "0001193125-26-041228"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 82705.0,
+     "price": 287.45,
+     "accession": "0001193125-26-035620"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 3524.0,
+     "price": 287.45,
+     "accession": "0001193125-26-035620"
+    },
+    {
+     "date": "2025-12-01",
+     "shares": 9187.0,
+     "price": 323.38,
+     "accession": "0001193125-25-305278"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-25-305278",
+    "0001193125-26-035620",
+    "0001193125-26-041228"
+   ]
+  },
+  {
+   "name": "Chawla Mandeep",
+   "role": "Chief Financial Officer",
+   "sold": 34000.0,
+   "sold_value": 13070062,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 114557.0,
+   "exercised": 214001.0,
+   "max_quarter_pct": 0.2062,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-274659",
+    "0001193125-26-330950",
+    "0001193125-26-338761"
+   ]
+  },
+  {
+   "name": "Wong Leila",
+   "role": "Chief Human Resources Officer",
+   "sold": 33110.0,
+   "sold_value": 9617637,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 38737.0,
+   "exercised": 72359.0,
+   "max_quarter_pct": 0.6831,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-02",
+     "shares": 28450.0,
+     "price": 286.98,
+     "accession": "0001193125-26-035625"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 1500.0,
+     "price": 287.45,
+     "accession": "0001193125-26-035625"
+    },
+    {
+     "date": "2025-12-01",
+     "shares": 3160.0,
+     "price": 323.38,
+     "accession": "0001193125-25-305283"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-25-305283",
+    "0001193125-26-035625"
+   ]
+  },
+  {
+   "name": "Parker Douglas Michael",
+   "role": "Chief Legal Officer",
+   "sold": 3672.0,
+   "sold_value": 1052271,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4234.0,
+   "exercised": 7906.0,
+   "max_quarter_pct": 1.0,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-04",
+     "shares": 538.0,
+     "price": 286.8,
+     "accession": "0001193125-26-041226"
+    },
+    {
+     "date": "2026-02-04",
+     "shares": 410.0,
+     "price": 283.51,
+     "accession": "0001193125-26-041226"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 1602.0,
+     "price": 286.98,
+     "accession": "0001193125-26-035628"
+    },
+    {
+     "date": "2026-02-02",
+     "shares": 1122.0,
+     "price": 286.98,
+     "accession": "0001193125-26-035628"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001193125-26-035628",
+    "0001193125-26-041226"
+   ]
+  },
+  {
+   "name": "KOELLNER LAURETTE T",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 6000.0,
+   "bought_value": 2050025,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001193125-25-258705"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Cooper Todd C",
+   "relationship": "Officer",
+   "shares": 20118.0,
+   "value": 7242480.0,
+   "outstanding": 114982086.0,
+   "approx_date": "09/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-007085",
+   "filed": "2026-09-23",
+   "form": "144"
+  },
+  {
+   "person": "CHAWLA MANDEEP",
+   "relationship": "Officer",
+   "shares": 17000.0,
+   "value": 5994030.0,
+   "outstanding": 114982086.0,
+   "approx_date": "07/31/2026",
+   "plan_10b5_1": true,
+   "accession": "0001193125-26-328915",
+   "filed": "2026-07-31",
+   "form": "144"
+  },
+  {
+   "person": "MIONIS ROBERT",
+   "relationship": "Officer",
+   "shares": 205949.0,
+   "value": 74141640.0,
+   "outstanding": 114973107.0,
+   "approx_date": "07/31/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005489",
+   "filed": "2026-07-31",
+   "form": "144"
+  },
+  {
+   "person": "CHAWLA MANDEEP",
+   "relationship": "Officer",
+   "shares": 17000.0,
+   "value": 6683040.0,
+   "outstanding": 114973107.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": true,
+   "accession": "0001193125-26-271232",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "MIONIS ROBERT",
+   "relationship": "Officer",
+   "shares": 140000.0,
+   "value": 56000000.0,
+   "outstanding": 114973107.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004666",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "Wilson Michael Max",
+   "relationship": "Director",
+   "shares": 4168.0,
+   "value": 1428248.6,
+   "outstanding": 114973107.0,
+   "approx_date": "05/19/2026",
+   "plan_10b5_1": false,
+   "accession": "0001193125-26-230970",
+   "filed": "2026-05-19",
+   "form": "144"
+  },
+  {
+   "person": "LUIS MULLER",
+   "relationship": "Director",
+   "shares": 39492.0,
+   "value": 10818563.0,
+   "outstanding": 0.0,
+   "approx_date": "03/23/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-020559",
+   "filed": "2026-03-23",
+   "form": "144"
+  },
+  {
+   "person": "PHILLIPS JASON",
+   "relationship": "Officer",
+   "shares": 120000.0,
+   "value": 33103200.0,
+   "outstanding": 115036621.0,
+   "approx_date": "02/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001193125-26-041237",
+   "filed": "2026-02-06",
+   "form": "144"
+  },
+  {
+   "person": "Etienvre Yann L",
+   "relationship": "Officer",
+   "shares": 86226.0,
+   "value": 24228643.74,
+   "outstanding": 115036621.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001193125-26-033693",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "Wong Leila",
+   "relationship": "Officer",
+   "shares": 29950.0,
+   "value": 8415650.5,
+   "outstanding": 115036621.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001193125-26-033692",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "Parker Douglas Michael",
+   "relationship": "Officer",
+   "shares": 2724.0,
+   "value": 765416.76,
+   "outstanding": 115036621.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001193125-26-033690",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "Cooper Todd C",
+   "relationship": "Officer",
+   "shares": 89482.0,
+   "value": 25143547.18,
+   "outstanding": 115036621.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001193125-26-033689",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "Wong Leila",
+   "relationship": "Officer",
+   "shares": 3160.0,
+   "value": 1088335.6,
+   "outstanding": 115036621.0,
+   "approx_date": "12/01/2025",
+   "plan_10b5_1": false,
+   "accession": "0001193125-25-303906",
+   "filed": "2025-12-01",
+   "form": "144"
+  },
+  {
+   "person": "Etienvre Yann L",
+   "relationship": "Officer",
+   "shares": 9186.0,
+   "value": 3163750.26,
+   "outstanding": 115036621.0,
+   "approx_date": "12/01/2025",
+   "plan_10b5_1": false,
+   "accession": "0001193125-25-303904",
+   "filed": "2025-12-01",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "FMR LLC",
+   "shares": 7409798.12,
+   "pct": 6.4,
+   "filed": "2026-02-05",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0000315066-26-000396"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 7409798.12,
+   "pct": 6.4,
+   "filed": "2026-02-05",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "12/31/2025",
+   "accession": "0000315066-26-000396"
+  },
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 6319910.0,
+   "pct": 5.5,
+   "filed": "2026-01-21",
+   "form": "SCHEDULE 13G",
+   "event_date": "12/31/2025",
+   "accession": "0002012383-26-000607"
+  }
+ ],
+ "errors": []
+}

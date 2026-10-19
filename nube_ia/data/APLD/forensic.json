@@ -1,0 +1,199 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 54387000,
+   "end": "2026-08-31",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": null,
+  "equity": {
+   "val": 1602472000,
+   "end": "2026-08-31",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 11707176000,
+   "end": "2026-08-31",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 0.03393943856741335,
+ "goodwill_intang_to_assets": 0.004645612229627367,
+ "impairments": [],
+ "public_float": {
+  "usd": 6900000000,
+  "date": "2025-11-30",
+  "filed": "2026-07-29",
+  "form": "10-K",
+  "close": 27.100000381469727,
+  "close_date": "2025-11-28",
+  "float_shares": 254612543
+ },
+ "governance": [
+  {
+   "filed": "2026-04-16",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-26-017092",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226017092/form8-k.htm"
+  },
+  {
+   "filed": "2026-03-13",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-26-010113",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226010113/form8-ka.htm"
+  },
+  {
+   "filed": "2026-03-10",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-26-009538",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226009538/form8-k.htm"
+  },
+  {
+   "filed": "2026-02-09",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-26-005788",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226005788/form8-k.htm"
+  },
+  {
+   "filed": "2026-01-16",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-26-002580",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226002580/form8-k.htm"
+  },
+  {
+   "filed": "2026-01-08",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-26-000974",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226000974/form8-k.htm"
+  },
+  {
+   "filed": "2025-12-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-25-025753",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225025753/form8-k.htm"
+  },
+  {
+   "filed": "2025-11-06",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001144879-25-000095",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487925000095/apld-20251105.htm"
+  },
+  {
+   "filed": "2025-06-20",
+   "form": "8-K",
+   "items": [
+    "4.01"
+   ],
+   "accession": "0001641172-25-015732",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000164117225015732/form8-k.htm"
+  },
+  {
+   "filed": "2025-04-17",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001641172-25-005250",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000164117225005250/form8-ka.htm"
+  },
+  {
+   "filed": "2025-04-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001641172-25-002407",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000164117225002407/form8-k.htm"
+  },
+  {
+   "filed": "2025-02-21",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-25-007903",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225007903/form8-ka.htm"
+  },
+  {
+   "filed": "2025-02-06",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-25-005230",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225005230/form8-k.htm"
+  },
+  {
+   "filed": "2025-01-08",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-25-001423",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225001423/form8-ka.htm"
+  },
+  {
+   "filed": "2025-01-06",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-25-001022",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225001022/form8-ka.htm"
+  },
+  {
+   "filed": "2024-12-04",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-24-048706",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315224048706/form8-k.htm"
+  },
+  {
+   "filed": "2024-11-21",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-24-047084",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315224047084/form8-k.htm"
+  },
+  {
+   "filed": "2024-10-15",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001493152-24-041176",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315224041176/form8-k.htm"
+  }
+ ]
+}
