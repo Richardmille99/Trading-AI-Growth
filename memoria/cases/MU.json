@@ -5,7 +5,7 @@
   "issuer": "Micron Technology",
   "cik": "0000723125",
   "exchange": "Nasdaq",
-  "report_date": "2026-10-18",
+  "report_date": "2026-10-19",
   "price_basis": "cierre del 2026-10-16 (Yahoo Finance chart API)",
   "profile": "semis_memory",
   "theme": "Memoria · ciclo de IA",
@@ -343,23 +343,23 @@
    },
    {
     "name": "Acuerdos estratégicos con clientes",
-    "value": "La compañía cita «Strategic Customer Agreements» que dan visibilidad a la demanda [VERIFY: plazos, volúmenes y prepagos en el 10-K FY26]",
-    "prior": "—",
+    "value": "Contratos take-or-pay de varios años con volúmenes vinculantes; precio fijo o renegociado, la mayoría con bandas de mínimo y máximo. A 3-sep-2026: $134.000M de obligaciones de desempeño pendientes (≈ 1/4 en 12 meses; todo en 5 años), $13.000M de depósitos de clientes (casi todos a devolver en 2029–2031) y $7.000M en cartas de crédito",
+    "prior": "Obligaciones pendientes no materiales a 28-ago-2025",
     "src": [
      [
-      "EX-99.1 8-K 30-sep-2026",
-      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+      "10-K FY26 (9-oct-2026), nota 16 y MD&A",
+      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
      ]
     ]
    },
    {
-    "name": "Bits, ASP y % de HBM",
-    "value": "[VERIFY: prepared remarks del 30-sep-2026; el PR no los da]",
-    "prior": "—",
+    "name": "Bits, ASP y mezcla (FY26)",
+    "value": "DRAM $100.679M (76%; +252%: ASP ≈ +180%, bits «mid-20%») · NAND $31.785M (24%; +274%: ASP ≈ +200%, bits «mid-20%»). Ni el 10-K ni el EX-99.1 dan el % de HBM sobre los ingresos",
+    "prior": "DRAM $28.578M · NAND $8.503M (FY25)",
     "src": [
      [
-      "",
-      ""
+      "10-K FY26 (9-oct-2026), nota 16 y MD&A",
+      "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
      ]
     ]
    }
@@ -386,6 +386,10 @@
     [
      "FXStreet: consenso ingresos ≈ $51.500M, BPA ≈ $31,82",
      "https://www.fxstreet.com/news/micron-impresses-with-542-billion-in-q4-revenue-202609302015"
+    ],
+    [
+     "finviz 2026-10-19: sorpresa BPA/ventas y fecha de resultados",
+     "https://finviz.com/quote.ashx?t=MU"
     ]
    ],
    "rev_growth_yoy": 3.7926646045072916,
@@ -396,7 +400,7 @@
    "guide_change_pct": 7.9,
    "gm_change_bp": 4209,
    "nonrecurring_in_beat": false,
-   "note": "Consenso LSEG (AskTraders); FXStreet da ≈ $51.500M de ingresos y $31,82 de BPA: con esa base la sorpresa es ≈ +5% [VERIFY]. La guía del 1T FY27 ($61.500M, margen bruto ≈ 86%) queda ≈ +8% sobre el consenso. Sin partidas no recurrentes en el beat: el BPA GAAP ($32,87) y el ajustado ($33,42) apenas difieren.",
+   "note": "Consenso LSEG (AskTraders). Las otras dos fuentes dan sorpresas algo menores: finviz +5,6% en ingresos y +5,2% en BPA, y FXStreet (≈ $51.500M y $31,82) ≈ +5,3% y +5,0%. Las tres quedan entre +5% y +6%: la nota de sorpresa no cambia. La guía del 1T FY27 ($61.500M, margen bruto ≈ 86%) queda ≈ +8% sobre el consenso. Sin partidas no recurrentes en el beat: el BPA GAAP ($32,87) y el ajustado ($33,42) apenas difieren.",
    "gap_pct": -1.04,
    "rvol": 1.46,
    "close_in_range": 0.98,
@@ -432,7 +436,7 @@
   "window_days": 56,
   "ep_recent_days": null,
   "atm_used_last_q": false,
-  "float_note": "Portada del 10-K (2026-10-09): $368.100,0M de no afiliados a 2026-02-26 ÷ cierre de $415,56 = 885,8M acciones [VERIFY: estimación; no recoge cambios posteriores]"
+  "float_note": "Portada del 10-K (2026-10-09): $368.100,0M de no afiliados a 2026-02-26 ÷ cierre de $415,56 = 885,8M acciones. La portada excluye como afiliados a los tenedores de ≥ 5% (Vanguard, 7,5%), así que el dato es conservador: hay 1.131,4M acciones en circulación a 2-oct-2026 (portada del 10-K)"
  },
  "peers": [
   {
@@ -508,7 +512,7 @@
   {
    "date": "2026-12-16",
    "kind": "earnings",
-   "text": "Resultados 1T FY27 [VERIFY: fecha estimada; el 1T FY26 se publicó el 17-dic-2025]",
+   "text": "Resultados 1T FY27 [VERIFY: fecha no anunciada; Wall Street Horizon la estima el 23-dic y otras fuentes el 16-dic; el 1T FY26 se publicó el 17-dic-2025]",
    "src": [
     [
      "8-K 17-dic-2025 (Item 2.02)",
@@ -573,14 +577,14 @@
   "valuation": [
    "EV/ventas {m.ev_sales:x1} TTM. Con la guía del 1T FY27 anualizada (≈ $246.000M) el múltiplo baja a ≈ 4×; el mercado descuenta que el pico de precios no dura. DCF inverso: {m.implied_g:pctf} anual."
   ],
-  "group_read": "Frente a SNDK, MU tiene más diversificación (DRAM, HBM y NAND) y menos caída desde máximos; frente a SKHY, menos cuota de HBM [VERIFY].",
+  "group_read": "Frente a SNDK, MU tiene más diversificación (DRAM, HBM y NAND) y menos caída desde máximos; frente a SKHY, menos cuota de HBM: 18% frente a 50% en el 2T26, y Samsung ya le supera con el 33% [[Counterpoint 2T26|https://counterpointresearch.com/ko/insights/global-hbm-market-share-q2-2026]].",
   "risks": [
    "Giro del ciclo: más capacidad de DRAM/HBM en 2027 (MU, SK hynix, Samsung) o pausa del capex de IA.",
    "Precios: la subida de ingresos es sobre todo ASP; un estancamiento de precios frena el crecimiento de golpe.",
    "Capex creciente: si la demanda se frena, el FCF cae más que los ingresos."
   ],
   "plan": [
-   "Resultados del 1T FY27 hacia el 16-dic [VERIFY].",
+   "Resultados del 1T FY27 hacia el 16–23-dic [VERIFY: fecha no anunciada].",
    "**EP A/B si:** ingresos ≥ $64.600M (+5% sobre el punto medio de la guía), margen bruto ≥ 87% y guía del 2T FY27 ≥ +5% sobre el consenso.",
    "**D si:** ingresos dentro del rango ($60.000–63.000M) con guía plana: el mercado ya descuenta un pico.",
    "Técnica: −30% desde el máximo de 52 semanas; RS 3m en percentil 78. Sin setup; esperar una base o un EP en resultados."
@@ -599,6 +603,14 @@
   [
    "FXStreet: consenso ingresos ≈ $51.500M, BPA ≈ $31,82",
    "https://www.fxstreet.com/news/micron-impresses-with-542-billion-in-q4-revenue-202609302015"
+  ],
+  [
+   "10-K FY26 (9-oct-2026), nota 16 y MD&A",
+   "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+  ],
+  [
+   "Counterpoint: cuota de HBM 2T26 (3-sep-2026)",
+   "https://counterpointresearch.com/ko/insights/global-hbm-market-share-q2-2026"
   ]
  ]
 }
