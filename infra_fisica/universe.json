@@ -1,0 +1,139 @@
+{
+ "name": "Infraestructura física de la IA: electricidad, refrigeración, construcción y generación — otoño 2026",
+ "theme": "La otra mitad del capex de IA",
+ "created": "2026-10-19",
+ "note": "Clasificación preliminar (19-oct-2026), pendiente de revisar con la nota de segmentos en la Fase 1.",
+ "purity_levels": {
+  "puro": "≥ 70% de ingresos ligados directamente al tema del universo",
+  "mixto": "el tema pesa, pero hay otros negocios relevantes",
+  "adyacente": "se beneficia del tema sin depender de él"
+ },
+ "subgroups": {
+  "refrigeracion": "Gestión térmica y refrigeración líquida (VRT, MOD, NVT)",
+  "electrico": "Equipo eléctrico, distribución y red (ETN, GEV, POWL)",
+  "construccion": "Ingeniería e instalación (PWR, FIX)",
+  "generacion": "Generación eléctrica con contratos para centros de datos (CEG, VST)"
+ },
+ "tickers": [
+  {
+   "ticker": "VRT",
+   "issuer": "Vertiv",
+   "cik": 1674101,
+   "subgroup": "refrigeracion",
+   "purity": "puro",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Energía y refrigeración para centros de datos"
+  },
+  {
+   "ticker": "MOD",
+   "issuer": "Modine",
+   "cik": 67347,
+   "subgroup": "refrigeracion",
+   "purity": "mixto",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "marzo",
+   "status": "fundamentales",
+   "notes": "Refrigeración de centros de datos + climatización y vehículos"
+  },
+  {
+   "ticker": "NVT",
+   "issuer": "nVent Electric",
+   "cik": 1720635,
+   "subgroup": "refrigeracion",
+   "purity": "mixto",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Envolventes, conexiones y refrigeración líquida"
+  },
+  {
+   "ticker": "ETN",
+   "issuer": "Eaton",
+   "cik": 1551182,
+   "subgroup": "electrico",
+   "purity": "mixto",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Gestión eléctrica; centros de datos como segmento creciente"
+  },
+  {
+   "ticker": "GEV",
+   "issuer": "GE Vernova",
+   "cik": 1996810,
+   "subgroup": "electrico",
+   "purity": "mixto",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Turbinas de gas, red eléctrica y eólica"
+  },
+  {
+   "ticker": "POWL",
+   "issuer": "Powell Industries",
+   "cik": 80420,
+   "subgroup": "electrico",
+   "purity": "mixto",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "septiembre",
+   "status": "fundamentales",
+   "notes": "Equipos de distribución eléctrica a medida"
+  },
+  {
+   "ticker": "PWR",
+   "issuer": "Quanta Services",
+   "cik": 1050915,
+   "subgroup": "construccion",
+   "purity": "mixto",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Construcción de red eléctrica e infraestructura"
+  },
+  {
+   "ticker": "FIX",
+   "issuer": "Comfort Systems USA",
+   "cik": 1035983,
+   "subgroup": "construccion",
+   "purity": "mixto",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "auditado",
+   "notes": "Instalaciones mecánicas y eléctricas; centros de datos"
+  },
+  {
+   "ticker": "CEG",
+   "issuer": "Constellation Energy",
+   "cik": 1868275,
+   "subgroup": "generacion",
+   "purity": "adyacente",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Nuclear; contratos de suministro con hiperescalares"
+  },
+  {
+   "ticker": "VST",
+   "issuer": "Vistra",
+   "cik": 1692819,
+   "subgroup": "generacion",
+   "purity": "adyacente",
+   "profile": "industrial_energy",
+   "filer": "10-K/10-Q",
+   "fiscal_year_end": "diciembre",
+   "status": "fundamentales",
+   "notes": "Generación (gas y nuclear) en Texas y otros mercados"
+  }
+ ]
+}

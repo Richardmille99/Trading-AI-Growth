@@ -1,0 +1,171 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1996810,
+ "form4_count": 31,
+ "form144_count": 4,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "Abate Victor",
+   "role": "Chief Executive Officer, Wind",
+   "sold": 4819.0,
+   "sold_value": 4568798,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 909.0,
+   "exercised": 2744.0,
+   "max_quarter_pct": 0.7212,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-01",
+     "shares": 4819.0,
+     "price": 948.08,
+     "accession": "0001996810-26-000134"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001996810-26-000134"
+   ]
+  },
+  {
+   "name": "Baert Steven",
+   "role": "Chief People Officer",
+   "sold": 5300.0,
+   "sold_value": 4505000,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 15633.0,
+   "exercised": 32329.0,
+   "max_quarter_pct": 0.2953,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-03-03",
+     "shares": 5300.0,
+     "price": 850.0,
+     "accession": "0001996810-26-000039"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001996810-26-000039"
+   ]
+  },
+  {
+   "name": "Potvin Matthew Joseph",
+   "role": "Chief Accounting Officer",
+   "sold": 2333.0,
+   "sold_value": 2470857,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 2450.0,
+   "exercised": 4783.0,
+   "max_quarter_pct": 0.3966,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-14",
+     "shares": 2333.0,
+     "price": 1059.09,
+     "accession": "0001996810-26-000095"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001996810-26-000095"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Abate Victor",
+   "relationship": "Officer",
+   "shares": 4819.0,
+   "value": 4568808.69,
+   "outstanding": 268719995.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004193",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "Baert Steven",
+   "relationship": "Officer",
+   "shares": 5300.0,
+   "value": 4505000.0,
+   "outstanding": 269529464.0,
+   "approx_date": "03/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001807",
+   "filed": "2026-03-03",
+   "form": "144"
+  },
+  {
+   "person": "Zingoni Maria Victoria",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 8850000.0,
+   "outstanding": 269529464.0,
+   "approx_date": "03/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001657",
+   "filed": "2026-03-02",
+   "form": "144"
+  },
+  {
+   "person": "Zingoni Maria Victoria",
+   "relationship": "Officer",
+   "shares": 4000.0,
+   "value": 3480000.0,
+   "outstanding": 269529464.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001541",
+   "filed": "2026-02-26",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 20150500.0,
+   "pct": 7.47,
+   "filed": "2026-04-29",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000498"
+  },
+  {
+   "name": "FMR LLC",
+   "shares": 18316285.2,
+   "pct": 6.8,
+   "filed": "2026-05-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0000315066-26-001189"
+  },
+  {
+   "name": "Abigail P. Johnson",
+   "shares": 18316285.2,
+   "pct": 6.8,
+   "filed": "2026-05-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0000315066-26-001189"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001340"
+  }
+ ],
+ "errors": []
+}

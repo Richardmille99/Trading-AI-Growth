@@ -1,0 +1,339 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1551182,
+ "form4_count": 53,
+ "form144_count": 8,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "Monesmith Heath B.",
+   "role": "See Remarks below.",
+   "sold": 36403.0,
+   "sold_value": 15775298,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 5986.0,
+   "exercised": 22903.0,
+   "max_quarter_pct": 0.2562,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-11",
+     "shares": 18036.0,
+     "price": 458.0408,
+     "accession": "0001104659-26-095928"
+    },
+    {
+     "date": "2026-05-06",
+     "shares": 18367.0,
+     "price": 409.1073,
+     "accession": "0001104659-26-058086"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-058086",
+    "0001104659-26-095928"
+   ]
+  },
+  {
+   "name": "RUIZ STERNADT PAULO",
+   "role": "consejero, See Remarks below.",
+   "sold": 10707.0,
+   "sold_value": 4178495,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4562.0,
+   "exercised": 14841.0,
+   "max_quarter_pct": 0.2786,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-12",
+     "shares": 10707.0,
+     "price": 390.2582,
+     "accession": "0001104659-26-015292"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-015292"
+   ]
+  },
+  {
+   "name": "Yelton Michael",
+   "role": "See Remarks below.",
+   "sold": 3494.0,
+   "sold_value": 1307263,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 2299.0,
+   "exercised": 1979.0,
+   "max_quarter_pct": 0.4044,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-03-02",
+     "shares": 3494.0,
+     "price": 374.145,
+     "accession": "0001104659-26-022877"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-022877"
+   ]
+  },
+  {
+   "name": "Denk Peter",
+   "role": "See Remarks below.",
+   "sold": 2000.0,
+   "sold_value": 835880,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 1577.0,
+   "exercised": 1047.0,
+   "max_quarter_pct": 0.2197,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-06",
+     "shares": 2000.0,
+     "price": 417.94,
+     "accession": "0001104659-26-058083"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-058083"
+   ]
+  },
+  {
+   "name": "Wadecki Adam A",
+   "role": "See Remarks below.",
+   "sold": 525.0,
+   "sold_value": 231285,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 477.0,
+   "exercised": 1237.0,
+   "max_quarter_pct": 0.3325,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-04",
+     "shares": 525.0,
+     "price": 440.543,
+     "accession": "0001104659-26-091116"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-091116"
+   ]
+  },
+  {
+   "name": "Galvao Antonio",
+   "role": "See Remarks below.",
+   "sold": 494.0,
+   "sold_value": 200492,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 449.0,
+   "exercised": 390.0,
+   "max_quarter_pct": 0.0511,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-13",
+     "shares": 494.0,
+     "price": 405.855,
+     "accession": "0001104659-26-061255"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-061255"
+   ]
+  },
+  {
+   "name": "Thompson Dorothy C",
+   "role": "consejero",
+   "sold": 167.0,
+   "sold_value": 64295,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 150.0,
+   "exercised": 621.0,
+   "max_quarter_pct": 0.0482,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-22",
+     "shares": 167.0,
+     "price": 385.0,
+     "accession": "0001104659-26-065726"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001104659-26-065726"
+   ]
+  },
+  {
+   "name": "Johnson Gerald",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 1461.0,
+   "bought_value": 588771,
+   "tax_withheld": 85.0,
+   "exercised": 353.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001104659-25-106527",
+    "0001104659-25-114121",
+    "0001104659-26-059459",
+    "0001104659-26-097160"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Monesmith Heath B.",
+   "relationship": "Officer",
+   "shares": 18036.0,
+   "value": 8261223.78,
+   "outstanding": 388400000.0,
+   "approx_date": "08/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005893",
+   "filed": "2026-08-11",
+   "form": "144"
+  },
+  {
+   "person": "Galvao Antonio",
+   "relationship": "Officer",
+   "shares": 494.0,
+   "value": 200492.37,
+   "outstanding": 388300000.0,
+   "approx_date": "05/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003549",
+   "filed": "2026-05-13",
+   "form": "144"
+  },
+  {
+   "person": "Denk Peter",
+   "relationship": "Officer",
+   "shares": 2000.0,
+   "value": 835880.0,
+   "outstanding": 388300000.0,
+   "approx_date": "05/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003343",
+   "filed": "2026-05-06",
+   "form": "144"
+  },
+  {
+   "person": "Monesmith Heath B.",
+   "relationship": "Officer",
+   "shares": 18367.0,
+   "value": 7514074.47,
+   "outstanding": 388300000.0,
+   "approx_date": "05/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003318",
+   "filed": "2026-05-06",
+   "form": "144"
+  },
+  {
+   "person": "LEONETTI OLIVIER",
+   "relationship": "Former Officer",
+   "shares": 17118.0,
+   "value": 7018162.54,
+   "outstanding": 387900000.0,
+   "approx_date": "04/21/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003016",
+   "filed": "2026-04-21",
+   "form": "144"
+  },
+  {
+   "person": "Yelton Michael",
+   "relationship": "Officer",
+   "shares": 3494.0,
+   "value": 1307262.98,
+   "outstanding": 387900000.0,
+   "approx_date": "03/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001646",
+   "filed": "2026-03-02",
+   "form": "144"
+  },
+  {
+   "person": "RUIZ STERNADT PAULO",
+   "relationship": "Officer",
+   "shares": 10707.0,
+   "value": 4178494.54,
+   "outstanding": 388400000.0,
+   "approx_date": "02/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000928",
+   "filed": "2026-02-12",
+   "form": "144"
+  },
+  {
+   "person": "Sapp John",
+   "relationship": "Officer",
+   "shares": 1401.0,
+   "value": 517249.92,
+   "outstanding": 388400000.0,
+   "approx_date": "02/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000701",
+   "filed": "2026-02-06",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 29042849.0,
+   "pct": 7.48,
+   "filed": "2026-04-28",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000028"
+  },
+  {
+   "name": "JPMORGAN CHASE & CO.",
+   "shares": 18306758.0,
+   "pct": 4.7,
+   "filed": "2025-10-31",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "09/30/2025",
+   "accession": "0000019617-25-001053"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001199"
+  }
+ ],
+ "errors": [
+  {
+   "accession": "0001949846-26-000224",
+   "form": "144",
+   "error": "The read operation timed out"
+  }
+ ]
+}

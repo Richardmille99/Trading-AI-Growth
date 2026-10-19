@@ -1,0 +1,429 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1050915,
+ "form4_count": 47,
+ "form144_count": 6,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "Austin Earl C. Jr.",
+   "role": "consejero, President and CEO",
+   "sold": 155992.0,
+   "sold_value": 120216530,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 38213.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.215,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-05",
+     "shares": 5509.0,
+     "price": 765.14,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 1523.0,
+     "price": 766.91,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 4062.0,
+     "price": 767.68,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 30478.0,
+     "price": 768.66,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 27368.0,
+     "price": 769.41,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 21329.0,
+     "price": 770.7,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 10712.0,
+     "price": 771.44,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 5286.0,
+     "price": 772.51,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 3098.0,
+     "price": 773.61,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 4562.0,
+     "price": 774.77,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 5313.0,
+     "price": 775.77,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 7768.0,
+     "price": 776.73,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 2992.0,
+     "price": 777.6,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 1030.0,
+     "price": 765.14,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 305.0,
+     "price": 766.92,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 998.0,
+     "price": 767.74,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 6382.0,
+     "price": 768.71,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 4846.0,
+     "price": 769.47,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 4354.0,
+     "price": 770.72,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 2187.0,
+     "price": 771.47,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 1121.0,
+     "price": 772.58,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 545.0,
+     "price": 773.69,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 934.0,
+     "price": 774.77,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 1086.0,
+     "price": 775.77,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 1590.0,
+     "price": 776.73,
+     "accession": "0001473203-26-000009"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 614.0,
+     "price": 777.6,
+     "accession": "0001473203-26-000009"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001473203-26-000009"
+   ]
+  },
+  {
+   "name": "WAYNE DONALD",
+   "role": "EVP and General Counsel",
+   "sold": 14000.0,
+   "sold_value": 6213343,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4630.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2912,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-06",
+     "shares": 7534.0,
+     "price": 442.87,
+     "accession": "0001101864-25-000003"
+    },
+    {
+     "date": "2025-11-06",
+     "shares": 2334.0,
+     "price": 444.07,
+     "accession": "0001101864-25-000003"
+    },
+    {
+     "date": "2025-11-06",
+     "shares": 3428.0,
+     "price": 445.09,
+     "accession": "0001101864-25-000003"
+    },
+    {
+     "date": "2025-11-06",
+     "shares": 135.0,
+     "price": 445.72,
+     "accession": "0001101864-25-000003"
+    },
+    {
+     "date": "2025-11-06",
+     "shares": 569.0,
+     "price": 447.03,
+     "accession": "0001101864-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001101864-25-000003"
+   ]
+  },
+  {
+   "name": "Ducey Gerald A JR",
+   "role": "Pres. - Strategic Operations",
+   "sold": 7653.0,
+   "sold_value": 3413850,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 5881.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2772,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-06",
+     "shares": 7653.0,
+     "price": 446.08,
+     "accession": "0001979521-25-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001979521-25-000004"
+   ]
+  },
+  {
+   "name": "NOBEL PAUL",
+   "role": "Chief Accounting Officer & SVP",
+   "sold": 4000.0,
+   "sold_value": 3027920,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 1647.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3324,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-04",
+     "shares": 4000.0,
+     "price": 756.98,
+     "accession": "0001247295-26-000009"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001247295-26-000009"
+   ]
+  },
+  {
+   "name": "JACKMAN WORTHING",
+   "role": "consejero",
+   "sold": 6349.0,
+   "sold_value": 2859907,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 559.0,
+   "max_quarter_pct": 0.7669,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-05",
+     "shares": 6349.0,
+     "price": 450.45,
+     "accession": "0001229832-25-000007"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001229832-25-000007"
+   ]
+  },
+  {
+   "name": "FRIED BERNARD",
+   "role": "consejero",
+   "sold": 4000.0,
+   "sold_value": 1808760,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 5382.0,
+   "max_quarter_pct": 0.188,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-03",
+     "shares": 4000.0,
+     "price": 452.19,
+     "accession": "0001284383-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001284383-25-000003"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Earl Austin Jr.",
+   "relationship": "President/CEO",
+   "shares": 155992.0,
+   "value": 123279998.26,
+   "outstanding": 150060149.0,
+   "approx_date": "05/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-030821",
+   "filed": "2026-05-05",
+   "form": "144"
+  },
+  {
+   "person": "NOBEL PAUL",
+   "relationship": "Officer",
+   "shares": 4000.0,
+   "value": 3027920.4,
+   "outstanding": 150060149.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003225",
+   "filed": "2026-05-04",
+   "form": "144"
+  },
+  {
+   "person": "WAYNE DONALD",
+   "relationship": "Officer",
+   "shares": 14000.0,
+   "value": 6213332.2,
+   "outstanding": 149115887.0,
+   "approx_date": "11/06/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006789",
+   "filed": "2025-11-06",
+   "form": "144"
+  },
+  {
+   "person": "Ducey Gerald A JR",
+   "relationship": "Officer",
+   "shares": 7653.0,
+   "value": 3413882.4,
+   "outstanding": 149115887.0,
+   "approx_date": "11/06/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006777",
+   "filed": "2025-11-06",
+   "form": "144"
+  },
+  {
+   "person": "JACKMAN WORTHING",
+   "relationship": "Director",
+   "shares": 6349.0,
+   "value": 2859898.52,
+   "outstanding": 149115887.0,
+   "approx_date": "11/05/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006749",
+   "filed": "2025-11-05",
+   "form": "144"
+  },
+  {
+   "person": "FRIED BERNARD",
+   "relationship": "Director",
+   "shares": 4000.0,
+   "value": 1808772.55,
+   "outstanding": 149115887.0,
+   "approx_date": "11/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006672",
+   "filed": "2025-11-03",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 11160325.0,
+   "pct": 7.45,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-001054"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002135"
+  }
+ ],
+ "errors": [
+  {
+   "accession": "0001422849-25-000090",
+   "form": "SCHEDULE 13G/A",
+   "error": "The read operation timed out"
+  }
+ ]
+}

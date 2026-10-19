@@ -1,0 +1,87 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 2676300000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 1793300000,
+   "end": "2026-06-30",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 3986900000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 7146300000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 1.1210715091926058,
+ "goodwill_intang_to_assets": 0.6254425366973119,
+ "impairments": [],
+ "public_float": {
+  "usd": 11651892767,
+  "date": "2025-12-31",
+  "filed": "2026-02-17",
+  "form": "10-K",
+  "close": 101.97000122070312,
+  "close_date": "2025-12-31",
+  "float_shares": 114267850
+ },
+ "governance": [
+  {
+   "filed": "2026-08-18",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001104659-26-098350",
+   "url": "https://www.sec.gov/Archives/edgar/data/1720635/000110465926098350/tm2623440d1_8k.htm"
+  },
+  {
+   "filed": "2026-06-17",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001104659-26-075152",
+   "url": "https://www.sec.gov/Archives/edgar/data/1720635/000110465926075152/tm2618033d1_8k.htm"
+  },
+  {
+   "filed": "2025-07-17",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001104659-25-068682",
+   "url": "https://www.sec.gov/Archives/edgar/data/1720635/000110465925068682/tm2521047d2_8k.htm"
+  },
+  {
+   "filed": "2025-07-17",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001104659-25-068549",
+   "url": "https://www.sec.gov/Archives/edgar/data/1720635/000110465925068549/tm2521047d1_8k.htm"
+  },
+  {
+   "filed": "2025-03-11",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001104659-25-022553",
+   "url": "https://www.sec.gov/Archives/edgar/data/1720635/000110465925022553/tm258668d1_8k.htm"
+  }
+ ]
+}

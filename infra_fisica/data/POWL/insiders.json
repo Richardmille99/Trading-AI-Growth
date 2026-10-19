@@ -1,0 +1,699 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 80420,
+ "form4_count": 53,
+ "form144_count": 20,
+ "schedule13_count": 5,
+ "owners": [
+  {
+   "name": "POWELL THOMAS W",
+   "role": "≥10%",
+   "sold": 110529.0,
+   "sold_value": 50956087,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0332,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-25",
+     "shares": 33958.0,
+     "price": 294.49,
+     "accession": "0001219199-26-000005"
+    },
+    {
+     "date": "2026-03-19",
+     "shares": 49778.0,
+     "price": 502.23,
+     "accession": "0001219199-26-000004"
+    },
+    {
+     "date": "2026-02-24",
+     "shares": 400.0,
+     "price": 560.3004,
+     "accession": "0001219199-26-000002"
+    },
+    {
+     "date": "2026-02-24",
+     "shares": 412.0,
+     "price": 561.4402,
+     "accession": "0001219199-26-000002"
+    },
+    {
+     "date": "2026-02-24",
+     "shares": 223.0,
+     "price": 562.245,
+     "accession": "0001219199-26-000002"
+    },
+    {
+     "date": "2026-02-24",
+     "shares": 124.0,
+     "price": 563.651,
+     "accession": "0001219199-26-000002"
+    },
+    {
+     "date": "2026-02-25",
+     "shares": 318.0,
+     "price": 560.3742,
+     "accession": "0001219199-26-000002"
+    },
+    {
+     "date": "2026-02-11",
+     "shares": 7976.0,
+     "price": 592.2739,
+     "accession": "0001219199-26-000001"
+    },
+    {
+     "date": "2026-02-11",
+     "shares": 2309.0,
+     "price": 593.5695,
+     "accession": "0001219199-26-000001"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 8511.0,
+     "price": 600.5607,
+     "accession": "0001219199-26-000001"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 6320.0,
+     "price": 601.3877,
+     "accession": "0001219199-26-000001"
+    },
+    {
+     "date": "2026-02-12",
+     "shares": 80.0,
+     "price": 602.575,
+     "accession": "0001219199-26-000001"
+    },
+    {
+     "date": "2026-02-13",
+     "shares": 120.0,
+     "price": 600.0633,
+     "accession": "0001219199-26-000001"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001219199-26-000001",
+    "0001219199-26-000002",
+    "0001219199-26-000004",
+    "0001219199-26-000005"
+   ]
+  },
+  {
+   "name": "COPE BRETT ALAN",
+   "role": "consejero, President & CEO",
+   "sold": 64539.0,
+   "sold_value": 7237863,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0881,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-30",
+     "shares": 4799.0,
+     "price": 187.67,
+     "accession": "0000080420-26-000113"
+    },
+    {
+     "date": "2026-07-01",
+     "shares": 36000.0,
+     "price": 0.01,
+     "accession": "0000080420-26-000096"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000080420-26-000050",
+    "0000080420-26-000058",
+    "0000080420-26-000076",
+    "0000080420-26-000087",
+    "0000080420-26-000096",
+    "0000080420-26-000098",
+    "0000080420-26-000109",
+    "0000080420-26-000113"
+   ]
+  },
+  {
+   "name": "METCALF MICHAEL WILLIAM",
+   "role": "Exec Vice President",
+   "sold": 7500.0,
+   "sold_value": 2864848,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 1401.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0974,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0000080420-26-000056",
+    "0000080420-26-000091"
+   ]
+  },
+  {
+   "name": "McKertcher Terry B",
+   "role": "Vice President, Operations",
+   "sold": 5100.0,
+   "sold_value": 2387654,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 700.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4036,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-06",
+     "shares": 500.0,
+     "price": 550.0,
+     "accession": "0000080420-26-000019"
+    },
+    {
+     "date": "2026-02-06",
+     "shares": 1300.0,
+     "price": 555.96,
+     "accession": "0000080420-26-000019"
+    },
+    {
+     "date": "2026-02-06",
+     "shares": 700.0,
+     "price": 560.05,
+     "accession": "0000080420-26-000019"
+    },
+    {
+     "date": "2026-02-06",
+     "shares": 500.0,
+     "price": 565.06,
+     "accession": "0000080420-26-000019"
+    },
+    {
+     "date": "2025-12-08",
+     "shares": 1433.0,
+     "price": 340.34,
+     "accession": "0000080420-25-000167"
+    },
+    {
+     "date": "2025-12-08",
+     "shares": 667.0,
+     "price": 341.28,
+     "accession": "0000080420-25-000167"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000080420-25-000167",
+    "0000080420-26-000019"
+   ]
+  },
+  {
+   "name": "Williams Richard E",
+   "role": "consejero",
+   "sold": 7500.0,
+   "sold_value": 2027604,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.117,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0000080420-26-000074",
+    "0000080420-26-000111"
+   ]
+  },
+  {
+   "name": "Mauney William Marshall Jr",
+   "role": "Vice President, R&D",
+   "sold": 5801.0,
+   "sold_value": 1860896,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4026,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-30",
+     "shares": 301.0,
+     "price": 187.67,
+     "accession": "0000080420-26-000131"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 927.0,
+     "price": 321.86,
+     "accession": "0000080420-26-000072"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 386.0,
+     "price": 322.7,
+     "accession": "0000080420-26-000072"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 176.0,
+     "price": 323.82,
+     "accession": "0000080420-26-000072"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 313.0,
+     "price": 324.87,
+     "accession": "0000080420-26-000072"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 623.0,
+     "price": 325.97,
+     "accession": "0000080420-26-000072"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 66.0,
+     "price": 327.06,
+     "accession": "0000080420-26-000072"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 9.0,
+     "price": 327.69,
+     "accession": "0000080420-26-000072"
+    },
+    {
+     "date": "2025-12-19",
+     "shares": 3000.0,
+     "price": 331.73,
+     "accession": "0000080420-25-000169"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000080420-25-000169",
+    "0000080420-26-000072",
+    "0000080420-26-000131"
+   ]
+  },
+  {
+   "name": "Birchall John",
+   "role": "Managing Director",
+   "sold": 2400.0,
+   "sold_value": 1398000,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 599.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2676,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-09",
+     "shares": 2400.0,
+     "price": 582.5,
+     "accession": "0000080420-26-000021"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000080420-26-000021"
+   ]
+  },
+  {
+   "name": "Singh Mohit",
+   "role": "consejero",
+   "sold": 1350.0,
+   "sold_value": 395834,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3309,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0000080420-26-000084"
+   ]
+  },
+  {
+   "name": "Eckenrode David L",
+   "role": "Assistant Secretary/Treasurer",
+   "sold": 295.0,
+   "sold_value": 168150,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 230.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3997,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-10",
+     "shares": 295.0,
+     "price": 570.0,
+     "accession": "0000080420-26-000023"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000080420-26-000023"
+   ]
+  },
+  {
+   "name": "Ni Ping",
+   "role": "Corp Controller",
+   "sold": 70.0,
+   "sold_value": 41300,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 610.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0334,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-11",
+     "shares": 70.0,
+     "price": 590.0,
+     "accession": "0000080420-26-000024"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000080420-26-000024"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Williams Richard E",
+   "relationship": "Director",
+   "shares": 2250.0,
+   "value": 456862.5,
+   "outstanding": 36432564.0,
+   "approx_date": "08/14/2026",
+   "plan_10b5_1": true,
+   "accession": "0001969171-26-000004",
+   "filed": "2026-08-14",
+   "form": "144"
+  },
+  {
+   "person": "COPE BRETT ALAN",
+   "relationship": "Officer",
+   "shares": 4500.0,
+   "value": 931545.0,
+   "outstanding": 36432564.0,
+   "approx_date": "08/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005962",
+   "filed": "2026-08-13",
+   "form": "144"
+  },
+  {
+   "person": "COPE BRETT ALAN",
+   "relationship": "Officer",
+   "shares": 4440.0,
+   "value": 1072482.0,
+   "outstanding": 36431649.0,
+   "approx_date": "07/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005168",
+   "filed": "2026-07-09",
+   "form": "144"
+  },
+  {
+   "person": "METCALF MICHAEL WILLIAM",
+   "relationship": "Officer",
+   "shares": 4500.0,
+   "value": 1280919.47,
+   "outstanding": 36431649.0,
+   "approx_date": "06/30/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004976",
+   "filed": "2026-06-30",
+   "form": "144"
+  },
+  {
+   "person": "COPE BRETT ALAN",
+   "relationship": "Officer",
+   "shares": 4440.0,
+   "value": 1210521.6,
+   "outstanding": 36431649.0,
+   "approx_date": "06/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004546",
+   "filed": "2026-06-11",
+   "form": "144"
+  },
+  {
+   "person": "Singh Mohit",
+   "relationship": "Director",
+   "shares": 1350.0,
+   "value": 395833.5,
+   "outstanding": 36431649.0,
+   "approx_date": "05/28/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004078",
+   "filed": "2026-05-28",
+   "form": "144"
+  },
+  {
+   "person": "Williams Richard E",
+   "relationship": "Director",
+   "shares": 5250.0,
+   "value": 1570734.42,
+   "outstanding": 36431649.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": true,
+   "accession": "0001969171-26-000002",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "COPE BRETT ALAN",
+   "relationship": "Officer",
+   "shares": 4440.0,
+   "value": 1336440.0,
+   "outstanding": 36431649.0,
+   "approx_date": "05/14/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003580",
+   "filed": "2026-05-14",
+   "form": "144"
+  },
+  {
+   "person": "Mauney William Marshall Jr",
+   "relationship": "Officer",
+   "shares": 2500.0,
+   "value": 787500.0,
+   "outstanding": 36431649.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003477",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "COPE BRETT ALAN",
+   "relationship": "Officer",
+   "shares": 4440.0,
+   "value": 1038855.4,
+   "outstanding": 12142283.0,
+   "approx_date": "04/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002852",
+   "filed": "2026-04-09",
+   "form": "144"
+  },
+  {
+   "person": "METCALF MICHAEL WILLIAM",
+   "relationship": "Officer",
+   "shares": 3000.0,
+   "value": 1583984.5,
+   "outstanding": 12142283.0,
+   "approx_date": "03/31/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002673",
+   "filed": "2026-03-31",
+   "form": "144"
+  },
+  {
+   "person": "COPE BRETT ALAN",
+   "relationship": "Officer",
+   "shares": 1480.0,
+   "value": 747104.0,
+   "outstanding": 12142283.0,
+   "approx_date": "03/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-002235",
+   "filed": "2026-03-12",
+   "form": "144"
+  },
+  {
+   "person": "THOMAS W POWELL",
+   "relationship": "10% Stockholder",
+   "shares": 318.0,
+   "value": 178199.0,
+   "outstanding": 12142283.0,
+   "approx_date": "02/25/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001760",
+   "filed": "2026-02-25",
+   "form": "144"
+  },
+  {
+   "person": "THOMAS W POWELL",
+   "relationship": "10% Stockholder",
+   "shares": 1159.0,
+   "value": 650706.87,
+   "outstanding": 12142283.0,
+   "approx_date": "02/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001740",
+   "filed": "2026-02-24",
+   "form": "144"
+  },
+  {
+   "person": "THOMAS W POWELL",
+   "relationship": "10% Stockholder",
+   "shares": 120.0,
+   "value": 72007.6,
+   "outstanding": 12142283.0,
+   "approx_date": "02/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001247",
+   "filed": "2026-02-13",
+   "form": "144"
+  },
+  {
+   "person": "THOMAS W POWELL",
+   "relationship": "10% Stockholder",
+   "shares": 14911.0,
+   "value": 8960349.43,
+   "outstanding": 12142283.0,
+   "approx_date": "02/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001206",
+   "filed": "2026-02-12",
+   "form": "144"
+  },
+  {
+   "person": "THOMAS W POWELL",
+   "relationship": "10% Stockholder",
+   "shares": 10285.0,
+   "value": 6094528.97,
+   "outstanding": 12142283.0,
+   "approx_date": "02/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001169",
+   "filed": "2026-02-11",
+   "form": "144"
+  },
+  {
+   "person": "Ni Ping",
+   "relationship": "Officer",
+   "shares": 70.0,
+   "value": 39410.0,
+   "outstanding": 12142283.0,
+   "approx_date": "02/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000814",
+   "filed": "2026-02-10",
+   "form": "144"
+  },
+  {
+   "person": "Eckenrode David L",
+   "relationship": "Officer",
+   "shares": 295.0,
+   "value": 165353.0,
+   "outstanding": 12142283.0,
+   "approx_date": "02/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000802",
+   "filed": "2026-02-10",
+   "form": "144"
+  },
+  {
+   "person": "Mauney William Marshall Jr",
+   "relationship": "Officer",
+   "shares": 3000.0,
+   "value": 1007700.0,
+   "outstanding": 12092083.0,
+   "approx_date": "12/19/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007857",
+   "filed": "2025-12-19",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 3517738.0,
+   "pct": 9.7,
+   "filed": "2026-07-29",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002012383-26-002932"
+  },
+  {
+   "name": "First Trust Portfolios L.P.",
+   "shares": 1658087.0,
+   "pct": 4.55,
+   "filed": "2026-07-30",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001445546-26-005567"
+  },
+  {
+   "name": "First Trust Advisors L.P.",
+   "shares": 1658087.0,
+   "pct": 4.55,
+   "filed": "2026-07-30",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001445546-26-005567"
+  },
+  {
+   "name": "The Charger Corporation",
+   "shares": 1658087.0,
+   "pct": 4.55,
+   "filed": "2026-07-30",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0001445546-26-005567"
+  },
+  {
+   "name": "Kovitz Investment Group Partners, LLC",
+   "shares": 2420.0,
+   "pct": 0.0,
+   "filed": "2025-11-06",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "10/31/2025",
+   "accession": "0001665198-25-000014"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002105"
+  }
+ ],
+ "errors": []
+}

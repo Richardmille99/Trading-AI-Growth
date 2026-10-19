@@ -1,0 +1,690 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1674101,
+ "form4_count": 91,
+ "form144_count": 17,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "FRADIN ROGER",
+   "role": "consejero",
+   "sold": 203333.0,
+   "sold_value": 51397591,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.5728,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-26",
+     "shares": 18561.0,
+     "price": 252.61,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 9056.0,
+     "price": 253.67,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 8216.0,
+     "price": 254.7,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 1251.0,
+     "price": 255.24,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 20808.0,
+     "price": 251.61,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 16275.0,
+     "price": 252.26,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 27354.0,
+     "price": 252.61,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 13287.0,
+     "price": 253.67,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 12098.0,
+     "price": 254.7,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 1844.0,
+     "price": 255.24,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 20909.0,
+     "price": 251.62,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 17293.0,
+     "price": 252.29,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 16181.0,
+     "price": 253.49,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 200.0,
+     "price": 254.09,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 5003.0,
+     "price": 252.61,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 2448.0,
+     "price": 253.67,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 2210.0,
+     "price": 254.7,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 339.0,
+     "price": 255.24,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 9470.0,
+     "price": 251.53,
+     "accession": "0000950142-26-000578"
+    },
+    {
+     "date": "2026-02-27",
+     "shares": 530.0,
+     "price": 252.02,
+     "accession": "0000950142-26-000578"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000950142-26-000578"
+   ]
+  },
+  {
+   "name": "REINEMUND STEVEN",
+   "role": "consejero",
+   "sold": 100000.00000000001,
+   "sold_value": 25394524,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.5941,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-26",
+     "shares": 19206.85,
+     "price": 250.14,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 1373.45,
+     "price": 251.69,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 10801.7,
+     "price": 252.42,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 7775.3,
+     "price": 253.51,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 406.25,
+     "price": 254.01,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 2152.15,
+     "price": 255.5,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 6474.65,
+     "price": 256.57,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 6882.2,
+     "price": 257.52,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 9927.45,
+     "price": 259.09,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 10342.15,
+     "price": 250.14,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 739.55,
+     "price": 251.69,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 5816.3,
+     "price": 252.42,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 4186.7,
+     "price": 253.51,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 218.75,
+     "price": 254.01,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 1158.85,
+     "price": 255.5,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 3486.35,
+     "price": 256.57,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 3705.8,
+     "price": 257.52,
+     "accession": "0000950142-26-000580"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 5345.55,
+     "price": 259.09,
+     "accession": "0000950142-26-000580"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000950142-26-000580"
+   ]
+  },
+  {
+   "name": "MONSER EDWARD L",
+   "role": "consejero",
+   "sold": 92581.0,
+   "sold_value": 22855036,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 92581.0,
+   "max_quarter_pct": 0.8161,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0000950142-26-000662",
+    "0000950142-26-002483"
+   ]
+  },
+  {
+   "name": "COTE DAVID M",
+   "role": "consejero, Executive Chairman",
+   "sold": 40000.0,
+   "sold_value": 10211592,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.6425,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-26",
+     "shares": 2124.0,
+     "price": 250.23,
+     "accession": "0000950142-26-000576"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 5122.0,
+     "price": 252.19,
+     "accession": "0000950142-26-000576"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 5732.0,
+     "price": 253.38,
+     "accession": "0000950142-26-000576"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 3301.0,
+     "price": 254.39,
+     "accession": "0000950142-26-000576"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 2833.0,
+     "price": 255.33,
+     "accession": "0000950142-26-000576"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 8437.0,
+     "price": 256.42,
+     "accession": "0000950142-26-000576"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 7518.0,
+     "price": 257.45,
+     "accession": "0000950142-26-000576"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 4933.0,
+     "price": 258.26,
+     "accession": "0000950142-26-000576"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000950142-26-000576"
+   ]
+  },
+  {
+   "name": "DOKKUM JAN VAN",
+   "role": "consejero",
+   "sold": 38647.0,
+   "sold_value": 9849837,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 38647.0,
+   "max_quarter_pct": 0.6072,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-26",
+     "shares": 22989.0,
+     "price": 254.49,
+     "accession": "0000950142-26-000577"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 15658.0,
+     "price": 255.42,
+     "accession": "0000950142-26-000577"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000950142-26-000577"
+   ]
+  },
+  {
+   "name": "Karlborg Anders",
+   "role": "EVP, Man., Logistics and Op Ex",
+   "sold": 30487.0,
+   "sold_value": 7527885,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 144.0,
+   "exercised": 30487.0,
+   "max_quarter_pct": 0.4669,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-26",
+     "shares": 10290.0,
+     "price": 245.17,
+     "accession": "0000950142-26-000579"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 7500.0,
+     "price": 246.54,
+     "accession": "0000950142-26-000579"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 3350.0,
+     "price": 247.66,
+     "accession": "0000950142-26-000579"
+    },
+    {
+     "date": "2026-02-26",
+     "shares": 9347.0,
+     "price": 248.89,
+     "accession": "0000950142-26-000579"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000950142-26-000579"
+   ]
+  },
+  {
+   "name": "Liang Stephen",
+   "role": "Chief Technology Officer & EVP",
+   "sold": 5501.0,
+   "sold_value": 937810,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.5759,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-24",
+     "shares": 5501.0,
+     "price": 170.48,
+     "accession": "0000950142-25-003065"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000950142-25-003065"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "EDWARD MONSER",
+   "relationship": "Director",
+   "shares": 15287.0,
+   "value": 3955052.64,
+   "outstanding": 384988173.0,
+   "approx_date": "09/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-008942",
+   "filed": "2026-09-01",
+   "form": "144"
+  },
+  {
+   "person": "O' Doherty Philip",
+   "relationship": "Forrmer Officer",
+   "shares": 500000.0,
+   "value": 132859100.0,
+   "outstanding": 382338313.0,
+   "approx_date": "03/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001972481-26-000095",
+   "filed": "2026-03-10",
+   "form": "144"
+  },
+  {
+   "person": "O' Doherty Philip",
+   "relationship": "Forrmer Officer",
+   "shares": 1000000.0,
+   "value": 263117100.0,
+   "outstanding": 382338313.0,
+   "approx_date": "03/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001972481-26-000088",
+   "filed": "2026-03-09",
+   "form": "144"
+  },
+  {
+   "person": "EDWARD MONSER",
+   "relationship": "Director",
+   "shares": 77294.0,
+   "value": 19304176.5,
+   "outstanding": 382598464.0,
+   "approx_date": "03/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-002327",
+   "filed": "2026-03-06",
+   "form": "144"
+  },
+  {
+   "person": "R VRT GRAT 2025 Dtd 2/28/2025",
+   "relationship": "Director",
+   "shares": 37083.0,
+   "value": 9339196.67,
+   "outstanding": 382300000.0,
+   "approx_date": "02/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000258",
+   "filed": "2026-02-27",
+   "form": "144"
+  },
+  {
+   "person": "S VRT GRAT 2025 Dtd 2/28/2025",
+   "relationship": "Director",
+   "shares": 54583.0,
+   "value": 13773907.29,
+   "outstanding": 382300000.0,
+   "approx_date": "02/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000257",
+   "filed": "2026-02-27",
+   "form": "144"
+  },
+  {
+   "person": "R VRT GRAT 2024 II Dtd 12/12/2024",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 2515095.91,
+   "outstanding": 382300000.0,
+   "approx_date": "02/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000256",
+   "filed": "2026-02-27",
+   "form": "144"
+  },
+  {
+   "person": "R VRT GRAT 2024 II Dtd 12/12/2024",
+   "relationship": "Director",
+   "shares": 10000.0,
+   "value": 2533709.75,
+   "outstanding": 382300000.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000250",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "R VRT GRAT 2025 Dtd 2/28/2025",
+   "relationship": "Director",
+   "shares": 37084.0,
+   "value": 9396023.45,
+   "outstanding": 382300000.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000249",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "S VRT GRAT 2025 Dtd 2/28/2025",
+   "relationship": "Director",
+   "shares": 54583.0,
+   "value": 13829771.33,
+   "outstanding": 382300000.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-000248",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "Steven Reinemund",
+   "relationship": "Director",
+   "shares": 35000.0,
+   "value": 8888050.0,
+   "outstanding": 382589464.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-000165",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "Steven Reinemund",
+   "relationship": "Director",
+   "shares": 65000.0,
+   "value": 16506379.0,
+   "outstanding": 382589464.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001968582-26-000164",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "MAUREEN COTE",
+   "relationship": "Spouse of Officer",
+   "shares": 40000.0,
+   "value": 10211588.0,
+   "outstanding": 382598464.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001831",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "ANDERS HARALD KARLBORG",
+   "relationship": "Officer",
+   "shares": 30487.0,
+   "value": 7527837.85,
+   "outstanding": 382598464.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001830",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "STEPHEN H LIANG",
+   "relationship": "Officer",
+   "shares": 73912.0,
+   "value": 18651282.34,
+   "outstanding": 382598464.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001826",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "JOSEPH JACOBUS VAN DOKKUM",
+   "relationship": "Director",
+   "shares": 38647.0,
+   "value": 9849752.2,
+   "outstanding": 382598464.0,
+   "approx_date": "02/26/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001825",
+   "filed": "2026-02-26",
+   "form": "144"
+  },
+  {
+   "person": "STEPHEN H LIANG",
+   "relationship": "Officer",
+   "shares": 5501.0,
+   "value": 937810.48,
+   "outstanding": 382338313.0,
+   "approx_date": "11/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001950047-25-009310",
+   "filed": "2025-11-24",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 29946255.0,
+   "pct": 7.8,
+   "filed": "2026-04-24",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0002012383-26-001474"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 28637577.0,
+   "pct": 7.48,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-001190"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-002519"
+  }
+ ],
+ "errors": []
+}

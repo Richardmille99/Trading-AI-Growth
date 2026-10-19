@@ -1,0 +1,581 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1692819,
+ "form4_count": 50,
+ "form144_count": 26,
+ "schedule13_count": 4,
+ "owners": [
+  {
+   "name": "BURKE JAMES A",
+   "role": "consejero, President and CEO",
+   "sold": 200119.0,
+   "sold_value": 37735947,
+   "bought": 8665.0,
+   "bought_value": 1173069,
+   "tax_withheld": 149561.0,
+   "exercised": 300052.0,
+   "max_quarter_pct": 0.4017,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001268406-25-000031",
+    "0001268406-25-000033",
+    "0001268406-25-000035",
+    "0001268406-25-000037",
+    "0001268406-25-000039",
+    "0001268406-25-000041",
+    "0001268406-25-000045",
+    "0001268406-25-000047",
+    "0001268406-26-000007",
+    "0001268406-26-000009"
+   ]
+  },
+  {
+   "name": "HUDSON SCOTT A",
+   "role": "EVP & President Vistra Retail",
+   "sold": 122666.0,
+   "sold_value": 19762336,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 54457.0,
+   "exercised": 56000.0,
+   "max_quarter_pct": 0.1544,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-14",
+     "shares": 56000.0,
+     "price": 168.86,
+     "accession": "0001728553-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001728553-25-000003",
+    "0001728553-26-000006",
+    "0001728553-26-000008"
+   ]
+  },
+  {
+   "name": "Kirby Carrie Lee",
+   "role": "EVP and Chief Admin. Officer",
+   "sold": 58275.0,
+   "sold_value": 10183556,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 34864.0,
+   "exercised": 58275.0,
+   "max_quarter_pct": 0.2107,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-14",
+     "shares": 58275.0,
+     "price": 174.75,
+     "accession": "0001703633-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001703633-25-000003"
+   ]
+  },
+  {
+   "name": "Moldovan Kristopher E.",
+   "role": "EVP and CFO",
+   "sold": 40000.0,
+   "sold_value": 6320600,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 64590.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0889,
+   "max_quarter": "2026-T4",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001940494-26-000006",
+    "0001940494-26-000008"
+   ]
+  },
+  {
+   "name": "HELM SCOTT B",
+   "role": "consejero",
+   "sold": 25000.0,
+   "sold_value": 4000000,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0972,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001711936-26-000004"
+   ]
+  },
+  {
+   "name": "Moore Stephanie Zapata",
+   "role": "EVP and General Counsel",
+   "sold": 18219.0,
+   "sold_value": 3027864,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 36643.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0933,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-24",
+     "shares": 8219.0,
+     "price": 173.35,
+     "accession": "0001703634-25-000003"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001703634-25-000003",
+    "0001703634-26-000007"
+   ]
+  },
+  {
+   "name": "Acosta Arcilia",
+   "role": "consejero",
+   "sold": 15000.0,
+   "sold_value": 2512800,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.3151,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001629039-26-000016"
+   ]
+  },
+  {
+   "name": "Montemayor Margaret",
+   "role": "SVP, Chief Accounting Officer",
+   "sold": 9600.0,
+   "sold_value": 1560800,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 2033.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.4959,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-02",
+     "shares": 4600.0,
+     "price": 160.0,
+     "accession": "0001602114-26-000006"
+    },
+    {
+     "date": "2026-05-27",
+     "shares": 5000.0,
+     "price": 164.96,
+     "accession": "0001602114-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001602114-26-000004",
+    "0001602114-26-000006"
+   ]
+  },
+  {
+   "name": "SULT JOHN R",
+   "role": "consejero",
+   "sold": 6500.0,
+   "sold_value": 1105000,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0842,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001342932-26-000004"
+   ]
+  },
+  {
+   "name": "BARBAS PAUL M",
+   "role": "consejero",
+   "sold": 488.0,
+   "sold_value": 73427,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0091,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001176453-26-000004"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "Moldovan Kristopher E.",
+   "relationship": "Officer",
+   "shares": 20000.0,
+   "value": 3095400.0,
+   "outstanding": 335635195.0,
+   "approx_date": "10/07/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-001067",
+   "filed": "2026-10-07",
+   "form": "144"
+  },
+  {
+   "person": "Scott A Hudson",
+   "relationship": "Officer",
+   "shares": 22222.0,
+   "value": 3566631.0,
+   "outstanding": 335635195.0,
+   "approx_date": "10/06/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000648",
+   "filed": "2026-10-06",
+   "form": "144"
+  },
+  {
+   "person": "Scott A Hudson",
+   "relationship": "Officer",
+   "shares": 44444.0,
+   "value": 6743043.68,
+   "outstanding": 335635195.0,
+   "approx_date": "09/08/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000579",
+   "filed": "2026-09-08",
+   "form": "144"
+  },
+  {
+   "person": "Moldovan Kristopher E.",
+   "relationship": "Officer",
+   "shares": 20000.0,
+   "value": 3020600.0,
+   "outstanding": 335635195.0,
+   "approx_date": "09/08/2026",
+   "plan_10b5_1": false,
+   "accession": "0001969223-26-001004",
+   "filed": "2026-09-08",
+   "form": "144"
+  },
+  {
+   "person": "SULT JOHN R",
+   "relationship": "Director",
+   "shares": 6500.0,
+   "value": 1032395.0,
+   "outstanding": 337182468.0,
+   "approx_date": "06/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006407",
+   "filed": "2026-06-23",
+   "form": "144/A"
+  },
+  {
+   "person": "JOHN R. SULT",
+   "relationship": "Director",
+   "shares": 6500.0,
+   "value": 1032395.0,
+   "outstanding": 337182468.0,
+   "approx_date": "06/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006326",
+   "filed": "2026-06-18",
+   "form": "144"
+  },
+  {
+   "person": "Acosta Arcilia",
+   "relationship": "Director",
+   "shares": 15000.0,
+   "value": 2512788.0,
+   "outstanding": 337182468.0,
+   "approx_date": "06/18/2026",
+   "plan_10b5_1": true,
+   "accession": "0001000275-26-000077",
+   "filed": "2026-06-18",
+   "form": "144"
+  },
+  {
+   "person": "HELM SCOTT B",
+   "relationship": "Director",
+   "shares": 25000.0,
+   "value": 4000000.0,
+   "outstanding": 337182468.0,
+   "approx_date": "06/16/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004690",
+   "filed": "2026-06-16",
+   "form": "144"
+  },
+  {
+   "person": "BARBAS PAUL M",
+   "relationship": "Director",
+   "shares": 244.0,
+   "value": 37332.0,
+   "outstanding": 337182468.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004646",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "BARBAS PAUL M",
+   "relationship": "Director",
+   "shares": 244.0,
+   "value": 36094.92,
+   "outstanding": 337182468.0,
+   "approx_date": "06/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004587",
+   "filed": "2026-06-12",
+   "form": "144"
+  },
+  {
+   "person": "Montemayor Margaret",
+   "relationship": "Officer",
+   "shares": 4600.0,
+   "value": 736000.0,
+   "outstanding": 337182468.0,
+   "approx_date": "06/02/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004255",
+   "filed": "2026-06-02",
+   "form": "144"
+  },
+  {
+   "person": "Montemayor Margaret",
+   "relationship": "Officer",
+   "shares": 5000.0,
+   "value": 824800.0,
+   "outstanding": 337182468.0,
+   "approx_date": "05/27/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-004034",
+   "filed": "2026-05-27",
+   "form": "144"
+  },
+  {
+   "person": "Stephanie Z Moore",
+   "relationship": "Officer",
+   "shares": 10000.0,
+   "value": 1636200.0,
+   "outstanding": 336954256.0,
+   "approx_date": "03/09/2026",
+   "plan_10b5_1": true,
+   "accession": "0001958244-26-000130",
+   "filed": "2026-03-09",
+   "form": "144"
+  },
+  {
+   "person": "Kirby Carrie Lee",
+   "relationship": "Officer",
+   "shares": 60000.0,
+   "value": 9280920.11,
+   "outstanding": 336954256.0,
+   "approx_date": "03/03/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-001795",
+   "filed": "2026-03-03",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 22251.0,
+   "value": 3605774.55,
+   "outstanding": 338825490.0,
+   "approx_date": "12/11/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007647",
+   "filed": "2025-12-11",
+   "form": "144"
+  },
+  {
+   "person": "Moore Stephanie Zapata",
+   "relationship": "Officer",
+   "shares": 8219.0,
+   "value": 1424764.47,
+   "outstanding": 338825490.0,
+   "approx_date": "11/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007225",
+   "filed": "2025-11-24",
+   "form": "144"
+  },
+  {
+   "person": "Kirby Carrie Lee",
+   "relationship": "Officer",
+   "shares": 58275.0,
+   "value": 10183699.1,
+   "outstanding": 338825490.0,
+   "approx_date": "11/14/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007011",
+   "filed": "2025-11-14",
+   "form": "144"
+  },
+  {
+   "person": "HUDSON SCOTT A",
+   "relationship": "Officer",
+   "shares": 56000.0,
+   "value": 9456320.31,
+   "outstanding": 338825490.0,
+   "approx_date": "11/14/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007004",
+   "filed": "2025-11-14",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 21935.0,
+   "value": 4091535.55,
+   "outstanding": 338825490.0,
+   "approx_date": "11/11/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006871",
+   "filed": "2025-11-12",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 9641.0,
+   "value": 1853964.3,
+   "outstanding": 338820324.0,
+   "approx_date": "10/29/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006593",
+   "filed": "2025-10-29",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 20473.0,
+   "value": 4169039.67,
+   "outstanding": 338820324.0,
+   "approx_date": "10/27/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006560",
+   "filed": "2025-10-27",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 19600.0,
+   "value": 3850662.8,
+   "outstanding": 338820324.0,
+   "approx_date": "10/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006541",
+   "filed": "2025-10-24",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 19613.0,
+   "value": 3670018.2,
+   "outstanding": 338820324.0,
+   "approx_date": "10/23/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006530",
+   "filed": "2025-10-23",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 19612.0,
+   "value": 3692945.08,
+   "outstanding": 338820324.0,
+   "approx_date": "10/22/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006521",
+   "filed": "2025-10-22",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 2005.0,
+   "value": 387265.75,
+   "outstanding": 338820324.0,
+   "approx_date": "10/21/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006508",
+   "filed": "2025-10-21",
+   "form": "144"
+  },
+  {
+   "person": "BURKE JAMES A",
+   "relationship": "Officer",
+   "shares": 21371.0,
+   "value": 4371778.85,
+   "outstanding": 338820324.0,
+   "approx_date": "10/20/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006496",
+   "filed": "2025-10-20",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 24565610.0,
+   "pct": 7.25,
+   "filed": "2026-04-28",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000018"
+  },
+  {
+   "name": "Vanguard Portfolio Management",
+   "shares": 16991032.0,
+   "pct": 5.01,
+   "filed": "2026-04-28",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100121-26-000044"
+  },
+  {
+   "name": "STATE STREET CORPORATION",
+   "shares": 16867244.0,
+   "pct": 5.0,
+   "filed": "2026-08-07",
+   "form": "SCHEDULE 13G",
+   "event_date": "06/30/2026",
+   "accession": "0000093751-26-000559"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-000435"
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,793 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 1720635,
+ "form4_count": 71,
+ "form144_count": 24,
+ "schedule13_count": 3,
+ "owners": [
+  {
+   "name": "Zawoyski Sara E",
+   "role": "President-Systems Protection",
+   "sold": 144969.0,
+   "sold_value": 18105352,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 10601.0,
+   "exercised": 130760.0,
+   "max_quarter_pct": 0.5853,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-13",
+     "shares": 27015.0,
+     "price": 172.4508,
+     "accession": "0000897069-26-001127"
+    },
+    {
+     "date": "2026-05-13",
+     "shares": 2397.0,
+     "price": 172.9387,
+     "accession": "0000897069-26-001127"
+    },
+    {
+     "date": "2025-11-05",
+     "shares": 14546.0,
+     "price": 113.02,
+     "accession": "0000897069-25-001651"
+    },
+    {
+     "date": "2025-11-05",
+     "shares": 53696.0,
+     "price": 112.68,
+     "accession": "0000897069-25-001651"
+    },
+    {
+     "date": "2025-11-05",
+     "shares": 47315.0,
+     "price": 112.81,
+     "accession": "0000897069-25-001651"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-25-001651",
+    "0000897069-26-001127"
+   ]
+  },
+  {
+   "name": "Lammers Jon D.",
+   "role": "EVP, Gen. Counsel & Secretary",
+   "sold": 119694.0,
+   "sold_value": 10709847,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 7676.0,
+   "exercised": 119694.0,
+   "max_quarter_pct": 0.6203,
+   "max_quarter": "2025-T3",
+   "off_plan_sales": [
+    {
+     "date": "2025-08-04",
+     "shares": 11838.0,
+     "price": 89.67,
+     "accession": "0000897069-26-000143"
+    },
+    {
+     "date": "2025-08-04",
+     "shares": 4442.0,
+     "price": 89.67,
+     "accession": "0000897069-26-000143"
+    },
+    {
+     "date": "2025-08-04",
+     "shares": 39162.0,
+     "price": 89.4151,
+     "accession": "0000897069-26-000143"
+    },
+    {
+     "date": "2025-08-04",
+     "shares": 30566.0,
+     "price": 89.4215,
+     "accession": "0000897069-26-000143"
+    },
+    {
+     "date": "2025-08-04",
+     "shares": 21637.0,
+     "price": 89.6183,
+     "accession": "0000897069-26-000143"
+    },
+    {
+     "date": "2025-08-04",
+     "shares": 9057.0,
+     "price": 89.32,
+     "accession": "0000897069-26-000143"
+    },
+    {
+     "date": "2025-08-04",
+     "shares": 2992.0,
+     "price": 89.253,
+     "accession": "0000897069-26-000143"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-26-000143"
+   ]
+  },
+  {
+   "name": "Wozniak Beth",
+   "role": "Chair & CEO",
+   "sold": 65592.0,
+   "sold_value": 9832336,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 18358.0,
+   "exercised": 50398.0,
+   "max_quarter_pct": 0.0591,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-05",
+     "shares": 4856.0,
+     "price": 162.7136,
+     "accession": "0000897069-26-001592"
+    },
+    {
+     "date": "2026-08-05",
+     "shares": 5885.0,
+     "price": 163.609,
+     "accession": "0000897069-26-001592"
+    },
+    {
+     "date": "2026-08-05",
+     "shares": 32280.0,
+     "price": 164.7311,
+     "accession": "0000897069-26-001592"
+    },
+    {
+     "date": "2026-08-05",
+     "shares": 3240.0,
+     "price": 165.3376,
+     "accession": "0000897069-26-001592"
+    },
+    {
+     "date": "2026-02-11",
+     "shares": 7597.0,
+     "price": 116.47,
+     "accession": "0000897069-26-000739"
+    },
+    {
+     "date": "2026-02-11",
+     "shares": 7597.0,
+     "price": 116.47,
+     "accession": "0000897069-26-000305"
+    },
+    {
+     "date": "2025-11-20",
+     "shares": 3705.0,
+     "price": 110.3753,
+     "accession": "0000897069-25-001719"
+    },
+    {
+     "date": "2025-11-20",
+     "shares": 432.0,
+     "price": 110.0933,
+     "accession": "0000897069-25-001719"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-25-001719",
+    "0000897069-26-000305",
+    "0000897069-26-000739",
+    "0000897069-26-001592"
+   ]
+  },
+  {
+   "name": "Heath Lynnette R",
+   "role": "EVP & Chief HR Officer",
+   "sold": 60414.0,
+   "sold_value": 8327666,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4337.0,
+   "exercised": 60414.0,
+   "max_quarter_pct": 0.5494,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-06",
+     "shares": 24360.0,
+     "price": 167.5362,
+     "accession": "0000897069-26-001058"
+    },
+    {
+     "date": "2026-05-06",
+     "shares": 3111.0,
+     "price": 167.9695,
+     "accession": "0000897069-26-001058"
+    },
+    {
+     "date": "2025-11-03",
+     "shares": 22476.0,
+     "price": 113.0592,
+     "accession": "0000897069-25-001640"
+    },
+    {
+     "date": "2025-11-03",
+     "shares": 10467.0,
+     "price": 113.004,
+     "accession": "0000897069-25-001640"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-25-001640",
+    "0000897069-26-001058"
+   ]
+  },
+  {
+   "name": "Wacker Randolph A.",
+   "role": "SVP & Chief Accounting Officer",
+   "sold": 31618.713,
+   "sold_value": 4936259,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 12130.0,
+   "exercised": 30852.0,
+   "max_quarter_pct": 0.3174,
+   "max_quarter": "2026-T3",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-05",
+     "shares": 22524.713,
+     "price": 164.62,
+     "accession": "0000897069-26-001590"
+    },
+    {
+     "date": "2026-05-04",
+     "shares": 4036.0,
+     "price": 165.5704,
+     "accession": "0000897069-26-001024"
+    },
+    {
+     "date": "2026-05-04",
+     "shares": 58.0,
+     "price": 165.5,
+     "accession": "0000897069-26-001024"
+    },
+    {
+     "date": "2025-11-06",
+     "shares": 5000.0,
+     "price": 110.0799,
+     "accession": "0000897069-25-001649"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-25-001649",
+    "0000897069-26-001024",
+    "0000897069-26-001590"
+   ]
+  },
+  {
+   "name": "Padmanabhan Aravind",
+   "role": "EVP & Chief Technology Officer",
+   "sold": 22930.0,
+   "sold_value": 3964535,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 4928.0,
+   "exercised": 29252.0,
+   "max_quarter_pct": 0.1675,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-11",
+     "shares": 15942.0,
+     "price": 174.0,
+     "accession": "0000897069-26-001104"
+    },
+    {
+     "date": "2026-05-05",
+     "shares": 6988.0,
+     "price": 170.3816,
+     "accession": "0000897069-26-001040"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-26-001040",
+    "0000897069-26-001104"
+   ]
+  },
+  {
+   "name": "van der Kolk Robert J.",
+   "role": "President of EMEA and APAC",
+   "sold": 27358.0,
+   "sold_value": 3475765,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 7818.0,
+   "exercised": 5858.0,
+   "max_quarter_pct": 0.437,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-08-10",
+     "shares": 5858.0,
+     "price": 164.3201,
+     "accession": "0000897069-26-001604"
+    },
+    {
+     "date": "2026-02-09",
+     "shares": 21500.0,
+     "price": 116.892,
+     "accession": "0000897069-26-000272"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-26-000272",
+    "0000897069-26-001604"
+   ]
+  },
+  {
+   "name": "Bennett Martha Claire",
+   "role": "EVP & Chief Marketing Officer",
+   "sold": 3778.0,
+   "sold_value": 642260,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 775.0,
+   "exercised": 2457.0,
+   "max_quarter_pct": 0.1911,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-05-11",
+     "shares": 2457.0,
+     "price": 170.0,
+     "accession": "0000897069-26-001102"
+    },
+    {
+     "date": "2026-05-11",
+     "shares": 1321.0,
+     "price": 170.0,
+     "accession": "0000897069-26-001102"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-26-001102"
+   ]
+  },
+  {
+   "name": "BURRIS JERRY W",
+   "role": "consejero",
+   "sold": 5244.0,
+   "sold_value": 588744,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 602.0,
+   "exercised": 5244.0,
+   "max_quarter_pct": 0.0971,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0000897069-26-000262"
+   ]
+  },
+  {
+   "name": "Scheu Greg",
+   "role": "consejero",
+   "sold": 5591.0,
+   "sold_value": 581688,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 355.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2505,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [
+    {
+     "date": "2025-11-24",
+     "shares": 5591.0,
+     "price": 104.04,
+     "accession": "0000897069-25-001734"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-25-001734"
+   ]
+  },
+  {
+   "name": "CAMERON SUSAN M.",
+   "role": "consejero",
+   "sold": 5000.0,
+   "sold_value": 572600,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 602.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2092,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-10",
+     "shares": 5000.0,
+     "price": 114.52,
+     "accession": "0000897069-26-000301"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-26-000301"
+   ]
+  },
+  {
+   "name": "Ostling Danita K",
+   "role": "consejero",
+   "sold": 900.0,
+   "sold_value": 106181,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 355.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.1121,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-09",
+     "shares": 900.0,
+     "price": 117.9789,
+     "accession": "0000897069-26-000269"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0000897069-26-000269"
+   ]
+  },
+  {
+   "name": "Leopold Diane",
+   "role": "consejero",
+   "sold": 0.0,
+   "sold_value": 0,
+   "bought": 2000.0,
+   "bought_value": 179703,
+   "tax_withheld": 222.0,
+   "exercised": 0.0,
+   "max_quarter_pct": null,
+   "max_quarter": null,
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0000897069-26-000145"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "van der Kolk Robert J.",
+   "relationship": "Officer",
+   "shares": 5858.0,
+   "value": 962587.15,
+   "outstanding": 161857939.0,
+   "approx_date": "08/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005838",
+   "filed": "2026-08-10",
+   "form": "144"
+  },
+  {
+   "person": "Wacker Randolph A.",
+   "relationship": "Officer",
+   "shares": 5101.0,
+   "value": 826566.04,
+   "outstanding": 161857939.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005697",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Wacker Randolph A.",
+   "relationship": "Officer",
+   "shares": 7883.0,
+   "value": 1277361.32,
+   "outstanding": 161857939.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005696",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Wacker Randolph A.",
+   "relationship": "Officer",
+   "shares": 3280.0,
+   "value": 531491.2,
+   "outstanding": 161857939.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005695",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Wacker Randolph A.",
+   "relationship": "Officer",
+   "shares": 4102.0,
+   "value": 664688.08,
+   "outstanding": 161857939.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005694",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Wacker Randolph A.",
+   "relationship": "Officer",
+   "shares": 2159.0,
+   "value": 349844.36,
+   "outstanding": 161857939.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005693",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Wozniak Beth",
+   "relationship": "Officer",
+   "shares": 46261.0,
+   "value": 7417026.13,
+   "outstanding": 161857939.0,
+   "approx_date": "08/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-005667",
+   "filed": "2026-08-05",
+   "form": "144"
+  },
+  {
+   "person": "Zawoyski Sara E",
+   "relationship": "Officer",
+   "shares": 29412.0,
+   "value": 5110629.12,
+   "outstanding": 161720452.0,
+   "approx_date": "05/13/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003565",
+   "filed": "2026-05-13",
+   "form": "144"
+  },
+  {
+   "person": "Padmanabhan Aravind",
+   "relationship": "Officer",
+   "shares": 15942.0,
+   "value": 2773908.0,
+   "outstanding": 161720452.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003464",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "Bennett Martha Claire",
+   "relationship": "Officer",
+   "shares": 3778.0,
+   "value": 642260.0,
+   "outstanding": 161720452.0,
+   "approx_date": "05/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003452",
+   "filed": "2026-05-11",
+   "form": "144"
+  },
+  {
+   "person": "Heath Lynnette R",
+   "relationship": "Officer",
+   "shares": 27471.0,
+   "value": 4603733.96,
+   "outstanding": 161720452.0,
+   "approx_date": "05/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003320",
+   "filed": "2026-05-06",
+   "form": "144"
+  },
+  {
+   "person": "Padmanabhan Aravind",
+   "relationship": "Officer",
+   "shares": 6988.0,
+   "value": 1190626.44,
+   "outstanding": 161720452.0,
+   "approx_date": "05/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003299",
+   "filed": "2026-05-05",
+   "form": "144"
+  },
+  {
+   "person": "Lammers Jon D.",
+   "relationship": "Former Officer",
+   "shares": 9600.0,
+   "value": 1615570.43,
+   "outstanding": 161720452.0,
+   "approx_date": "05/05/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003274",
+   "filed": "2026-05-05",
+   "form": "144"
+  },
+  {
+   "person": "Wacker Randolph A.",
+   "relationship": "Officer",
+   "shares": 4094.0,
+   "value": 677839.9,
+   "outstanding": 161720452.0,
+   "approx_date": "05/04/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-003234",
+   "filed": "2026-05-04",
+   "form": "144"
+  },
+  {
+   "person": "Wozniak Beth",
+   "relationship": "Officer",
+   "shares": 7597.0,
+   "value": 884822.59,
+   "outstanding": 161359550.0,
+   "approx_date": "02/11/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000857",
+   "filed": "2026-02-11",
+   "form": "144"
+  },
+  {
+   "person": "Susan Cameron",
+   "relationship": "Director",
+   "shares": 5000.0,
+   "value": 571750.0,
+   "outstanding": 161359550.0,
+   "approx_date": "02/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001628280-26-006718",
+   "filed": "2026-02-10",
+   "form": "144"
+  },
+  {
+   "person": "van der Kolk Robert J.",
+   "relationship": "Officer",
+   "shares": 21500.0,
+   "value": 2513178.88,
+   "outstanding": 161359550.0,
+   "approx_date": "02/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000772",
+   "filed": "2026-02-09",
+   "form": "144"
+  },
+  {
+   "person": "Ostling Danita K",
+   "relationship": "Director",
+   "shares": 900.0,
+   "value": 106181.0,
+   "outstanding": 161359550.0,
+   "approx_date": "02/09/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000759",
+   "filed": "2026-02-09",
+   "form": "144"
+  },
+  {
+   "person": "BURRIS JERRY W",
+   "relationship": "Director",
+   "shares": 5244.0,
+   "value": 588743.88,
+   "outstanding": 161359550.0,
+   "approx_date": "02/06/2026",
+   "plan_10b5_1": false,
+   "accession": "0001959173-26-000686",
+   "filed": "2026-02-06",
+   "form": "144"
+  },
+  {
+   "person": "Scheu Greg",
+   "relationship": "Director",
+   "shares": 5591.0,
+   "value": 581687.64,
+   "outstanding": 161359550.0,
+   "approx_date": "11/24/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007240",
+   "filed": "2025-11-24",
+   "form": "144"
+  },
+  {
+   "person": "Wozniak Beth",
+   "relationship": "Officer",
+   "shares": 4137.0,
+   "value": 456932.76,
+   "outstanding": 161359550.0,
+   "approx_date": "11/20/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-007166",
+   "filed": "2025-11-20",
+   "form": "144"
+  },
+  {
+   "person": "Wacker Randolph A.",
+   "relationship": "Officer",
+   "shares": 5000.0,
+   "value": 550399.36,
+   "outstanding": 161359550.0,
+   "approx_date": "11/06/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006784",
+   "filed": "2025-11-06",
+   "form": "144"
+  },
+  {
+   "person": "Zawoyski Sara E",
+   "relationship": "Officer",
+   "shares": 115557.0,
+   "value": 13032211.93,
+   "outstanding": 161359550.0,
+   "approx_date": "11/05/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006756",
+   "filed": "2025-11-05",
+   "form": "144"
+  },
+  {
+   "person": "Heath Lynnette R",
+   "relationship": "Officer",
+   "shares": 32943.0,
+   "value": 3723188.01,
+   "outstanding": 161359550.0,
+   "approx_date": "11/03/2025",
+   "plan_10b5_1": false,
+   "accession": "0001959173-25-006673",
+   "filed": "2025-11-03",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 17168185.0,
+   "pct": 10.6,
+   "filed": "2026-09-04",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "08/31/2026",
+   "accession": "0002012383-26-003257"
+  },
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 8484717.0,
+   "pct": 5.24,
+   "filed": "2026-04-28",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000038"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-26",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-000430"
+  }
+ ],
+ "errors": []
+}

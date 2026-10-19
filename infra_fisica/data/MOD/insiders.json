@@ -1,0 +1,502 @@
+{
+ "asof": "2026-10-19",
+ "since": "2025-10-19",
+ "cik": 67347,
+ "form4_count": 45,
+ "form144_count": 13,
+ "schedule13_count": 5,
+ "owners": [
+  {
+   "name": "Agen Brian Jon",
+   "role": "VP, CHRO",
+   "sold": 42588.0,
+   "sold_value": 12075970,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 14264.0,
+   "exercised": 5269.0,
+   "max_quarter_pct": 0.3659,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-09-10",
+     "shares": 4306.0,
+     "price": 180.3,
+     "accession": "0001729366-26-000012"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001729366-26-000010",
+    "0001729366-26-000012"
+   ]
+  },
+  {
+   "name": "McGinnis Eric S",
+   "role": "President, Commercial HVAC",
+   "sold": 39102.0,
+   "sold_value": 11156955,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 16699.0,
+   "exercised": 25383.0,
+   "max_quarter_pct": 0.5796,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-18",
+     "shares": 1020.0,
+     "price": 295.065,
+     "accession": "0001801719-26-000010"
+    },
+    {
+     "date": "2026-05-29",
+     "shares": 12030.0,
+     "price": 280.1316,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-05-29",
+     "shares": 2050.0,
+     "price": 281.0135,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 1912.0,
+     "price": 285.008,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 1511.0,
+     "price": 285.7854,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 6041.0,
+     "price": 286.998,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 7167.0,
+     "price": 287.899,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 2804.0,
+     "price": 288.8362,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 2767.0,
+     "price": 290.1054,
+     "accession": "0001801719-26-000008"
+    },
+    {
+     "date": "2026-06-01",
+     "shares": 1800.0,
+     "price": 290.7921,
+     "accession": "0001801719-26-000008"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001801719-26-000008",
+    "0001801719-26-000010"
+   ]
+  },
+  {
+   "name": "Brinker Neil David",
+   "role": "consejero, President and CEO",
+   "sold": 31871.0,
+   "sold_value": 5117337,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 94120.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.118,
+   "max_quarter": "2025-T4",
+   "off_plan_sales": [],
+   "flagged": true,
+   "accessions": [
+    "0001743693-25-000004"
+   ]
+  },
+  {
+   "name": "ASHLEMAN ERIC D",
+   "role": "consejero",
+   "sold": 15000.0,
+   "sold_value": 4328162,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.2616,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-16",
+     "shares": 4550.0,
+     "price": 286.266,
+     "accession": "0001605266-26-000004"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 4511.0,
+     "price": 287.448,
+     "accession": "0001605266-26-000004"
+    },
+    {
+     "date": "2026-06-16",
+     "shares": 5939.0,
+     "price": 291.122,
+     "accession": "0001605266-26-000004"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001605266-26-000004"
+   ]
+  },
+  {
+   "name": "Lucareli Michael B",
+   "role": "EVP, CFO",
+   "sold": 19595.0,
+   "sold_value": 4293671,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 37112.0,
+   "exercised": 19595.0,
+   "max_quarter_pct": 0.2607,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-17",
+     "shares": 4478.0,
+     "price": 217.1546,
+     "accession": "0001496134-26-000002"
+    },
+    {
+     "date": "2026-02-17",
+     "shares": 5097.0,
+     "price": 218.164,
+     "accession": "0001496134-26-000002"
+    },
+    {
+     "date": "2026-02-17",
+     "shares": 2284.0,
+     "price": 219.1892,
+     "accession": "0001496134-26-000002"
+    },
+    {
+     "date": "2026-02-17",
+     "shares": 3326.0,
+     "price": 220.4946,
+     "accession": "0001496134-26-000002"
+    },
+    {
+     "date": "2026-02-17",
+     "shares": 4356.0,
+     "price": 221.1408,
+     "accession": "0001496134-26-000002"
+    },
+    {
+     "date": "2026-02-17",
+     "shares": 54.0,
+     "price": 222.01,
+     "accession": "0001496134-26-000002"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001496134-26-000002"
+   ]
+  },
+  {
+   "name": "WILLIAMS MARSHA C",
+   "role": "consejero",
+   "sold": 12000.0,
+   "sold_value": 2816520,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0978,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [
+    {
+     "date": "2026-02-24",
+     "shares": 12000.0,
+     "price": 234.71,
+     "accession": "0001185609-26-000005"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0001185609-26-000005"
+   ]
+  },
+  {
+   "name": "Garimella Suresh V",
+   "role": "consejero",
+   "sold": 2200.0,
+   "sold_value": 367477,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 0.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0268,
+   "max_quarter": "2026-T1",
+   "off_plan_sales": [],
+   "flagged": false,
+   "accessions": [
+    "0001525982-26-000002",
+    "0001525982-26-000004"
+   ]
+  },
+  {
+   "name": "Laszlo Arthur Jr.",
+   "role": "President, Data Centers",
+   "sold": 900.0,
+   "sold_value": 266184,
+   "bought": 0.0,
+   "bought_value": 0,
+   "tax_withheld": 5436.0,
+   "exercised": 0.0,
+   "max_quarter_pct": 0.0669,
+   "max_quarter": "2026-T2",
+   "off_plan_sales": [
+    {
+     "date": "2026-06-01",
+     "shares": 900.0,
+     "price": 295.7601,
+     "accession": "0002124340-26-000010"
+    }
+   ],
+   "flagged": true,
+   "accessions": [
+    "0002124340-26-000010"
+   ]
+  }
+ ],
+ "form144": [
+  {
+   "person": "BRIAN AGEN",
+   "relationship": "Officer",
+   "shares": 4306.0,
+   "value": 776371.8,
+   "outstanding": 53112708.0,
+   "approx_date": "09/10/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-009278",
+   "filed": "2026-09-10",
+   "form": "144"
+  },
+  {
+   "person": "ERIC MCGINNIS",
+   "relationship": "Officer",
+   "shares": 1020.0,
+   "value": 300966.3,
+   "outstanding": 52815785.0,
+   "approx_date": "06/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006329",
+   "filed": "2026-06-18",
+   "form": "144"
+  },
+  {
+   "person": "BRIAN AGEN",
+   "relationship": "Officer",
+   "shares": 38282.0,
+   "value": 10867494.16,
+   "outstanding": 52815785.0,
+   "approx_date": "06/18/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006323",
+   "filed": "2026-06-18",
+   "form": "144"
+  },
+  {
+   "person": "ERIC D ASHLEMAN",
+   "relationship": "Director",
+   "shares": 15000.0,
+   "value": 4216875.0,
+   "outstanding": 52814690.0,
+   "approx_date": "06/15/2026",
+   "plan_10b5_1": false,
+   "accession": "0001605266-26-000002",
+   "filed": "2026-06-15",
+   "form": "144"
+  },
+  {
+   "person": "KATHLEEN POWERS",
+   "relationship": "Officer",
+   "shares": 18750.0,
+   "value": 5037125.63,
+   "outstanding": 52815785.0,
+   "approx_date": "06/12/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-006054",
+   "filed": "2026-06-12",
+   "form": "144"
+  },
+  {
+   "person": "ARTHUR LASZLO",
+   "relationship": "Officer",
+   "shares": 900.0,
+   "value": 266184.09,
+   "outstanding": 52815785.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005458",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "ERIC MCGINNIS REVOCABLE TRUST",
+   "relationship": "Affiliate",
+   "shares": 24002.0,
+   "value": 6909928.58,
+   "outstanding": 52816000.0,
+   "approx_date": "06/01/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005340",
+   "filed": "2026-06-01",
+   "form": "144"
+  },
+  {
+   "person": "ERIC MCGINNIS REVOCABLE TRUST",
+   "relationship": "Affiliate",
+   "shares": 14080.0,
+   "value": 3946060.8,
+   "outstanding": 52816000.0,
+   "approx_date": "05/29/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-005293",
+   "filed": "2026-05-29",
+   "form": "144"
+  },
+  {
+   "person": "MARSHA C WILLIAMS",
+   "relationship": "Director",
+   "shares": 12000.0,
+   "value": 2664000.0,
+   "outstanding": 52731197.0,
+   "approx_date": "02/24/2026",
+   "plan_10b5_1": false,
+   "accession": "0001185609-26-000003",
+   "filed": "2026-02-24",
+   "form": "144"
+  },
+  {
+   "person": "MICHAEL LUCARELI",
+   "relationship": "Officer",
+   "shares": 19595.0,
+   "value": 4293672.08,
+   "outstanding": 52731197.0,
+   "approx_date": "02/17/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-001410",
+   "filed": "2026-02-17",
+   "form": "144"
+  },
+  {
+   "person": "SURESH GARIMELLA",
+   "relationship": "Director",
+   "shares": 4400.0,
+   "value": 812504.0,
+   "outstanding": 52648568.0,
+   "approx_date": "02/02/2026",
+   "plan_10b5_1": true,
+   "accession": "0001950047-26-000823",
+   "filed": "2026-02-02",
+   "form": "144"
+  },
+  {
+   "person": "SURESH GARIMELLA",
+   "relationship": "Director",
+   "shares": 1100.0,
+   "value": 158048.0,
+   "outstanding": 52648568.0,
+   "approx_date": "01/22/2026",
+   "plan_10b5_1": false,
+   "accession": "0001950047-26-000635",
+   "filed": "2026-01-22",
+   "form": "144"
+  },
+  {
+   "person": "Brinker Neil David",
+   "relationship": "Officer",
+   "shares": 31871.0,
+   "value": 5117455.0,
+   "outstanding": 52490229.0,
+   "approx_date": "12/02/2025",
+   "plan_10b5_1": false,
+   "accession": "0001965301-25-000176",
+   "filed": "2025-12-02",
+   "form": "144"
+  }
+ ],
+ "holders": [
+  {
+   "name": "Vanguard Capital Management",
+   "shares": 2763681.0,
+   "pct": 5.24,
+   "filed": "2026-04-30",
+   "form": "SCHEDULE 13G",
+   "event_date": "03/31/2026",
+   "accession": "0002100119-26-000799"
+  },
+  {
+   "name": "BlackRock, Inc.",
+   "shares": 2569308.0,
+   "pct": 4.9,
+   "filed": "2026-07-29",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "06/30/2026",
+   "accession": "0002012383-26-002910"
+  },
+  {
+   "name": "Wellington Management Group LLP",
+   "shares": 1019921.0,
+   "pct": 1.9,
+   "filed": "2026-05-15",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0000902219-26-000183"
+  },
+  {
+   "name": "Wellington Group Holdings LLP",
+   "shares": 1019921.0,
+   "pct": 1.9,
+   "filed": "2026-05-15",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0000902219-26-000183"
+  },
+  {
+   "name": "Wellington Investment Advisors Holdings LLP",
+   "shares": 1019921.0,
+   "pct": 1.9,
+   "filed": "2026-05-15",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/31/2026",
+   "accession": "0000902219-26-000183"
+  },
+  {
+   "name": "The Vanguard Group",
+   "shares": 0.0,
+   "pct": 0.0,
+   "filed": "2026-03-27",
+   "form": "SCHEDULE 13G/A",
+   "event_date": "03/13/2026",
+   "accession": "0000102909-26-001838"
+  }
+ ],
+ "errors": []
+}

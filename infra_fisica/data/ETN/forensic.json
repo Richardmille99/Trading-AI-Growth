@@ -1,0 +1,123 @@
+{
+ "balance": {
+  "goodwill": {
+   "val": 20229000000,
+   "end": "2026-06-30",
+   "tag": "Goodwill",
+   "form": "10-Q"
+  },
+  "intangibles": {
+   "val": 12611000000,
+   "end": "2026-06-30",
+   "tag": "IntangibleAssetsNetExcludingGoodwill",
+   "form": "10-Q"
+  },
+  "equity": {
+   "val": 20254000000,
+   "end": "2026-06-30",
+   "tag": "StockholdersEquity",
+   "form": "10-Q"
+  },
+  "total_assets": {
+   "val": 56181000000,
+   "end": "2026-06-30",
+   "tag": "Assets",
+   "form": "10-Q"
+  }
+ },
+ "goodwill_intang_to_equity": 1.6214081169151773,
+ "goodwill_intang_to_assets": 0.5845392570441964,
+ "impairments": [],
+ "public_float": {
+  "usd": 139000000000,
+  "date": "2025-06-30",
+  "filed": "2026-02-26",
+  "form": "10-K",
+  "close": 356.989990234375,
+  "close_date": "2025-06-30",
+  "float_shares": 389366660
+ },
+ "governance": [
+  {
+   "filed": "2026-10-05",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-26-038523",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126038523/ef20083229_8k.htm"
+  },
+  {
+   "filed": "2026-03-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-26-007362",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007362/ef20066947_8k.htm"
+  },
+  {
+   "filed": "2026-03-02",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-26-007206",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007206/ef20066779_8k.htm"
+  },
+  {
+   "filed": "2025-12-16",
+   "form": "8-K/A",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-25-045707",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125045707/ef20061263_8ka.htm"
+  },
+  {
+   "filed": "2025-11-20",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-25-042797",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125042797/ef20059654_8k.htm"
+  },
+  {
+   "filed": "2025-07-23",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-25-026963",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125026963/ef20052482_8k.htm"
+  },
+  {
+   "filed": "2025-07-21",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-25-026628",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125026628/ef20052342_8k.htm"
+  },
+  {
+   "filed": "2025-02-27",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-25-006275",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125006275/ef20044489_8k.htm"
+  },
+  {
+   "filed": "2024-10-22",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "accession": "0001140361-24-043911",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036124043911/ef20037491_8k.htm"
+  }
+ ]
+}
