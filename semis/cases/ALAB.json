@@ -20,9 +20,7 @@
  },
  "market": {
   "price": 285.82000732421875,
-  "price_date": "2026-10-16",
-  "regime": "risk_off",
-  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+  "price_date": "2026-10-16"
  },
  "financials": {
   "source": "sec-xbrl-companyfacts",
@@ -714,7 +712,7 @@
   }
  ],
  "header": {
-  "verdict": "Crecimiento +104% con guía +34% sobre el consenso; convicción limitada por el régimen, la RS y la concentración.",
+  "verdict": "Crecimiento +104% con guía +34% sobre el consenso; la limitan la RS y la concentración.",
   "setup": "Bajo las EMA 10/20/50, −43% desde máximos; sin setup. EP posible el 3-nov.",
   "catalyst": "2T26 {m.cat_q2_26_score:sc}: beat y guía muy por encima del consenso.",
   "quality": "Nota {m.fund_score:sc}; cobros > ventas; CFO nuevo desde marzo.",
@@ -783,7 +781,7 @@
    "**D:** ingresos dentro del rango pero guía del 4T plana, o margen bruto < 70%.",
    "Sin EP: base en formación entre la SMA 200 (≈ $250) y la EMA 50; no hay setup hasta que la recupere."
   ],
-  "verdict": "Los mejores fundamentales del universo, con una guía muy por encima del consenso. Lo limitan el régimen, la RS a 3 meses, la concentración y la oferta registrada de Amazon."
+  "verdict": "Los mejores fundamentales del universo, con una guía muy por encima del consenso. Lo limitan la RS a 3 meses, la concentración y la oferta registrada de Amazon."
  },
  "sources": [
   [

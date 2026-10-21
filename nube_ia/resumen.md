@@ -2,17 +2,13 @@
 
 Investigación interna, no es consejo de inversión. Precios al cierre del 2026-10-16. Las cifras salen de los casos (`cases/<T>.json`) y de `rank.py`; cada dossier en `reports/<T>_swing.html` lleva sus fuentes.
 
-## Régimen
-
-Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed. → **risk_off**: la matriz limita la convicción a Baja.
-
 ## Ranking
 
 | # | Ticker | Negocio | Convicción | Lectura |
 |---|---|---|---|---|
-| 1 | NBIS | 69.5 | Baja | +454%, EBITDA positivo y EP del +34%; ATM, convertibles y warrants de NVIDIA. |
-| 2 | APLD | 69.0 | Baja | +322% con contratos a 15 años; cuentas en transición y pérdidas. |
-| 3 | CRWV | 62.8 | Baja | +112% y cartera de $104.000M, pero insiders vendiendo $5.800M, convertible y ATM. |
+| 1 | NBIS | 69.5 | Media | +454%, EBITDA positivo y EP del +34%; ATM, convertibles y warrants de NVIDIA. |
+| 2 | CRWV | 62.8 | Media | +112% y cartera de $104.000M, pero insiders vendiendo $5.800M, convertible y ATM. |
+| 3 | APLD | 69.0 | Baja | +322% con contratos a 15 años; cuentas en transición y pérdidas. |
 | 4 | GOOGL | 58.2 | Baja | Cloud +82% y cartera de $519.500M, pero emite acciones: ampliación de $49.600M y ATM de $40.000M. |
 | 5 | AMZN | 54.4 | Baja | AWS +37% (máximo en 18 trimestres) y EP en julio; FCF negativo por el capex. |
 | 6 | META | 60.1 | Descartar (resultados en ≤ 3 sesiones sin ser EP) | Ingresos +28%, pero FCF casi nulo por el capex y fallo de BPA. |
@@ -34,13 +30,13 @@ Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94
 
 ## Líderes enfriados
 
-Ninguno según `prices.py` (swing.md §6).
+Ninguno según `prices.py` (swing.md §5).
 
 ## Oferta y dilución a vigilar
 
 - **NBIS:** Programa de venta de hasta 25M acciones Clase A (nov-2025); Convertibles de marzo-2026: $2.590M al 1,25% 2031 ($183,22) y $1.750M al 2,625% 2033 ($180,31); Warrants prefinanciados de NVIDIA (21,07M acciones, mar-2026).
-- **APLD:** Ventas de insiders 12 meses: $25,0M; 7 marcados.
 - **CRWV:** Convertible 2,875% 2033 ($4.200M, conversión ≈ $97,85); Programa de venta de acciones Clase A con ventas a plazo (sep-2026); Ventas de insiders 12 meses: $5.809,0M; 12 marcados.
+- **APLD:** Ventas de insiders 12 meses: $25,0M; 7 marcados.
 - **GOOGL:** Ampliación de junio de 2026 (acciones A/C y preferentes obligatorias, $49.600M netos); Programa de venta en mercado (ATM) de hasta $40.000M en acciones A y C; Ventas de insiders 12 meses: $182,4M; 5 marcados.
 - **AMZN:** Compra de Globalstar con acciones o efectivo a elección; Ventas de insiders 12 meses: $456,9M; 4 marcados.
 - **META:** Shelf automático S-3ASR (30-abr-2026), usado para bonos; Ventas de insiders 12 meses: $243,1M; 10 marcados.
@@ -49,8 +45,8 @@ Ninguno según `prices.py` (swing.md §6).
 ## Lo que sigue en [VERIFY]
 
 - **NBIS:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días; fechas exactas de vencimiento; hora exacta; importes en los 6-K de los anuncios.
-- **APLD:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días.
 - **CRWV:** fecha exacta de vencimiento; fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días; importe máximo del programa y lo vendido; capacidad puesta a 0 hasta confirmarla.
+- **APLD:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días.
 - **GOOGL:** fecha de finviz; importe vendido; lo dirá el 10-Q del 3T26; reparto entre acciones ordinarias y preferentes, y precio de conversión de las series A y B, en el 8-K del 5-jun y sus 424B.
 - **AMZN:** fecha de finviz; importe y acciones máximas a emitir en el 424B3.
 - **META:** cargo fiscal en el 10-Q del 3T25; fecha de finviz.

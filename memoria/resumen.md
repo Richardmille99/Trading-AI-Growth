@@ -2,9 +2,9 @@
 
 Investigación interna, no es consejo de inversión. Precios al cierre del 16-oct-2026. El 19-oct se revisaron los [VERIFY] contra los filings y fuentes externas (ver «Método»). Las cifras salen de los casos (`cases/<T>.json`) y de `rank.py`; cada dossier en `reports/<T>_swing.html` lleva sus fuentes.
 
-## Lo primero: el régimen y el ciclo
+## Lo primero: convicción y ciclo
 
-El régimen es **risk_off**, el mismo que en semis: QQQ e IWM están por debajo de sus EMA 10/20/50. La amplitud del Nasdaq-100 es **mixta** (45% de los valores sobre su SMA 50) y no cambia el régimen. La matriz limita todo a **Baja**. **Con un régimen neutral, MU y SNDK serían «Alta»** (catalizador A, fundamentales 100, oferta 90, grupo líder/fuerte) y los otros cuatro «Media».
+**MU y SNDK salen «Alta»** (catalizador A, fundamentales 100, oferta 90, grupo líder/fuerte) y los otros cuatro, «Media».
 
 Lo segundo es el ciclo. Los cuatro fabricantes y diseñadores crecen entre el +127% y el +379% interanual, con márgenes brutos de pico (85–87% en MU y SNDK). Aun así, el mercado ya vende el pico: todo el universo está entre un 30% y un 50% por debajo de su máximo de 52 semanas, y SMH, un 20%. Las notas de fundamentales salen al máximo porque miden el trimestre, no la duración del ciclo; para eso están los KPIs de precio por bit e inventario de cada caso.
 
@@ -44,11 +44,11 @@ Lo segundo es el ciclo. Los cuatro fabricantes y diseñadores crecen entre el +1
 
 Regla de la matriz: con resultados a ≤ 3 sesiones solo vale un EP. RMBS entra en esa ventana el 21-oct, SKHY el 22-oct, SIMO el 23-oct y SNDK el 26-oct.
 
-**Sin setups activos.** Ningún caso tiene un setup claro según swing.md §2: todo el grupo está en corrección salvo PENG, que no tiene base tras el EP del 7-oct.
+**Sin setups activos.** Ningún caso tiene un setup claro según swing.md §1: todo el grupo está en corrección salvo PENG, que no tiene base tras el EP del 7-oct.
 
 ## Diario (`journal.csv`)
 
-Sin filas: ninguna convicción Media o Alta (régimen risk_off).
+Sin filas todavía: en el próximo `/ciclo` entran los valores con convicción Media o Alta que tengan setup (MU y SNDK salen Alta; el resto, Media).
 
 ## Lo que sigue en [VERIFY]
 

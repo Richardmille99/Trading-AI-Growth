@@ -20,9 +20,7 @@
  },
  "market": {
   "price": 337.57000732421875,
-  "price_date": "2026-10-16",
-  "regime": "risk_off",
-  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+  "price_date": "2026-10-16"
  },
  "financials": {
   "source": "sec-xbrl-companyfacts",

@@ -131,7 +131,7 @@ def fix():
               "**D si:** cartera plana o a la baja frente a los $14.060M de junio: el mercado ya descuenta que la contratación de centros de datos ha tocado techo.",
               "Técnica: −31% desde el máximo, bajo la SMA 50 y la 200; «líder enfriado roto». Sin setup hasta el informe."],
         verdict="Fundamentales de primera (cartera +73%, BPA +92%, caja récord) con el mercado vendiéndolo por miedo al pico del capex de IA. "
-                "El informe del ≈ 22-oct es la prueba: solo un EP con cartera al alza cambiaría la lectura; la convicción sigue limitada por el régimen.")
+                "El informe del ≈ 22-oct es la prueba: solo un EP con cartera al alza cambiaría la lectura.")
     header = dict(verdict="Cartera +73% y BPA +92%, pero el mercado lo vende: −31% desde máximos antes de resultados.",
                   setup="−31% desde máximos, bajo la SMA 200; sin setup.",
                   catalyst="2T26: beat +9% en ingresos y +20% en BPA; cerró −5%.",

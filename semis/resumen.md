@@ -2,9 +2,9 @@
 
 Investigación interna, no es consejo de inversión. Precios al cierre del 16-oct-2026. Las cifras salen de los casos (`cases/<T>.json`) y de `rank.py`; cada dossier en `reports/<T>_swing.html` lleva sus fuentes.
 
-## Lo primero: el régimen
+## Convicción
 
-El proxy de régimen es **risk_off**: QQQ (709,80) e IWM (270,44) cerraron por debajo de sus EMA 10/20/50 tras la caída de la semana. La amplitud del Nasdaq-100 (`market.py`) es **mixta** y no cambia el régimen: 45% de los valores sobre su SMA 50 y 57% sobre la SMA 20; en 10 sesiones, 44 subidas del 4% frente a 53 caídas. La matriz pone un máximo de **Baja** a todo el universo. **Con un régimen neutral, 8 de los 9 serían «Media»**; SWKS seguiría en Baja por fundamentales. No hay ninguna convicción Alta posible hoy: ningún ticker es «líder» o «fuerte» en su grupo.
+Ocho de los nueve salen **Media** (catalizador ≥ C, fundamentales ≥ 45 y oferta ≥ 50). Ninguno llega a **Alta** porque ninguno es «líder» o «fuerte» en su grupo. SWKS queda en **Baja** por fundamentales (42).
 
 ## Ranking
 
@@ -55,7 +55,7 @@ Regla de la matriz: con resultados a ≤ 3 sesiones solo vale un EP. A partir de
 
 ## Diario (`journal.csv`)
 
-Sin filas: ningún ticker tiene convicción Media o Alta. Cuando el régimen deje de ser risk_off, los 8 que pasarían a Media entrarán en el diario con su setup del momento.
+Sin filas todavía: en el próximo `/ciclo` entran los valores con convicción Media o Alta que tengan setup.
 
 ## Lo que sigue en [VERIFY]
 
@@ -74,7 +74,7 @@ Sin filas: ningún ticker tiene convicción Media o Alta. Cuando el régimen dej
 ## Cambios de método en esta ronda
 
 - `prices.py`, `edgar.py`, `insiders.py` y `forensic.py`, con tests.
-- Herramientas nuevas (18-oct): `new_case.py`, `casekit.py`, `consensus.py`, `market.py` (amplitud que ajusta el régimen), `journal.py` y `sitepage.py`; respaldo de XBRL incrustado en `xbrl.py` y sesión de publicación (bmo/amc) en `edgar.py`.
+- Herramientas nuevas (18-oct): `new_case.py`, `casekit.py`, `consensus.py`, `journal.py` y `sitepage.py`; respaldo de XBRL incrustado en `xbrl.py` y sesión de publicación (bmo/amc) en `edgar.py`.
 - **DILUCIÓN:** si un trimestre tiene pérdidas y el otro beneficios, se comparan acciones básicas.
 - **RUNWAY:** con CFO positivo se mide sobre la caja bruta.
 - **Pares:** el margen bruto se compara relativo al objetivo del perfil de cada empresa.

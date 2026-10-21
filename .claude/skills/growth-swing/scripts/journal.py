@@ -1,4 +1,4 @@
-"""Calibration journal (swing.md §5): add today's signals and fill outcomes at +5/+20/+60 sessions.
+"""Calibration journal (swing.md §4): add today's signals and fill outcomes at +5/+20/+60 sessions.
 
 Usage:
   python journal.py --universe semis/universe.json --add [--min Media] [--date AAAA-MM-DD]
@@ -56,7 +56,7 @@ def signal_row(case, day):
     return dict(fecha=day, ticker=case["meta"]["ticker"], setup=st.get("type") or "", catalizador_id=p.get("id", ""),
                 catalizador_tipo=p.get("type", ""), nota_catalizador=p.get("grade", ""), score_catalizador=_f(p.get("score")),
                 confirmacion_mercado=_f(p.get("market")), nota_fundamentales=_f(m.get("fund_score")), nota_oferta=_f(R["supply"]["total"]),
-                grupo=R["group"], regimen=R["regime"], conviccion=R["conviction"], tamano_R=_f(m.get("size_r")),
+                grupo=R["group"], conviccion=R["conviction"], tamano_R=_f(m.get("size_r")),
                 pivote=_f(st.get("pivot")), stop=_f(st.get("stop")), riesgo_adr=_f(m.get("risk_adr")), salida="", notas="")
 
 

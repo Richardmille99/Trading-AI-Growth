@@ -2,20 +2,16 @@
 
 Investigación interna, no es consejo de inversión. Precios al cierre del 2026-10-16. Las cifras salen de los casos (`cases/<T>.json`) y de `rank.py`; cada dossier en `reports/<T>_swing.html` lleva sus fuentes.
 
-## Régimen
-
-Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed. → **risk_off**: la matriz limita la convicción a Baja.
-
 ## Ranking
 
 | # | Ticker | Negocio | Convicción | Lectura |
 |---|---|---|---|---|
-| 1 | PWR | 86.2 | Baja | +41%, cartera récord de $53.400M y EP en julio: el líder del universo. |
-| 2 | NVT | 75.2 | Baja | +53% (+47% orgánico) y guía subida; líder enfriado con PER ≈ 21. |
-| 3 | GEV | 67.6 | Baja | Pedidos +88% y cartera de $176.000M, pero fallo de BPA y la valoración más alta. |
-| 4 | ETN | 64.1 | Baja | Orgánico +14%, pedidos eléctricos +41% y guía subida; deuda casi doble. |
-| 5 | MOD | 61.9 | Baja | Centros de datos +90% y separación completada; margen a la baja. |
-| 6 | VRT | 59.3 | Baja | Guía subida y caja récord, pero fallo en ventas y desaceleración: −46% desde máximos. |
+| 1 | PWR | 86.2 | Alta | +41%, cartera récord de $53.400M y EP en julio: el líder del universo. |
+| 2 | NVT | 75.2 | Media | +53% (+47% orgánico) y guía subida; líder enfriado con PER ≈ 21. |
+| 3 | GEV | 67.6 | Media | Pedidos +88% y cartera de $176.000M, pero fallo de BPA y la valoración más alta. |
+| 4 | ETN | 64.1 | Media | Orgánico +14%, pedidos eléctricos +41% y guía subida; deuda casi doble. |
+| 5 | VRT | 59.3 | Media | Guía subida y caja récord, pero fallo en ventas y desaceleración: −46% desde máximos. |
+| 6 | MOD | 61.9 | Baja | Centros de datos +90% y separación completada; margen a la baja. |
 | 7 | VST | 53.1 | Baja | EBITDA ajustado +31%, guía reafirmada; centros de datos aún sin cifras. |
 | 8 | POWL | 46.5 | Baja | Pedidos récord (book-to-bill 3,0) y cartera +69%; ingresos aún +9%. |
 | 9 | FIX | 76.9 | Descartar (resultados en ≤ 3 sesiones sin ser EP) | Cartera +73% y BPA +92%, pero el mercado lo vende: −31% desde máximos antes de resultados. |
@@ -48,8 +44,8 @@ NVT
 - **NVT:** Folleto para ventas de accionistas existentes (sep-2026); Ventas de insiders 12 meses: $61,8M; 11 marcados.
 - **GEV:** Shelf automático S-3ASR (29-ene-2026), usado para bonos; Ventas de insiders 12 meses: $11,5M; 3 marcados.
 - **ETN:** Bonos de marzo de 2026 bajo el shelf (cuatro 424B5); Ventas de insiders 12 meses: $22,6M; 7 marcados.
-- **MOD:** Ventas de insiders 12 meses: $40,4M; 7 marcados.
 - **VRT:** Shelf automático S-3ASR (19-feb-2026), usado para bonos; Ventas de insiders 12 meses: $128,2M; 7 marcados.
+- **MOD:** Ventas de insiders 12 meses: $40,4M; 7 marcados.
 - **VST:** Shelf automático S-3ASR (9-sep-2026), usado para bonos subordinados; Ventas de insiders 12 meses: $86,3M; 6 marcados.
 - **POWL:** Ventas de insiders 12 meses: $69,3M; 9 marcados.
 - **FIX:** Ventas de insiders 12 meses: $185,2M; 12 marcados.
@@ -61,8 +57,8 @@ NVT
 - **NVT:** fecha de finviz; si hay accionistas nombrados y cuántas acciones.
 - **GEV:** fecha de finviz; origen en el 10-K 2025.
 - **ETN:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días; uso de los fondos (compra) en el 424B5.
-- **MOD:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días.
 - **VRT:** cartera y book-to-bill en la presentación del 2T26; fecha de finviz.
+- **MOD:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días.
 - **VST:** fecha de finviz.
 - **POWL:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días.
 - **FIX:** fecha de finviz; la compañía aún no la ha anunciado (el 3T25 fue el 23-oct-2025); fecha no confirmada por la compañía.

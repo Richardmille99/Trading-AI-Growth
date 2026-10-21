@@ -16,7 +16,6 @@ FIN = {"atm", "registered_direct", "underwritten", "convertible", "pipe", "strat
 KINDS = {"atm", "shelf", "secondary", "convertible", "warrants", "lockup", "insider", "sbc", "pipe_resale"}
 GATES = {"live", "gated", "dated"}
 SETUPS = {"ep", "breakout_flag", "vcp", "momentum_burst", "wedge_pop", "ema_crossback", "base_n_break", "exhaustion_watch"}
-REGIMES = {"risk_on", "neutral", "risk_off", "unknown"}
 
 
 def validate(case):
@@ -33,8 +32,6 @@ def validate(case):
     except ValueError:
         E.append("meta.report_date no es AAAA-MM-DD")
     mk = case.get("market", {})
-    if mk.get("regime", "unknown") not in REGIMES:
-        E.append(f"market.regime inválido: {mk.get('regime')}")
     if mk.get("price") is None:
         W.append("market.price vacío: valoración, oferta a precio actual y DCF inverso saldrán n/d")
 

@@ -6,7 +6,7 @@ Ejemplo completo: `examples/EXMP_synthetic.json` (caso **sintético**). Importes
 `ticker`, `issuer`, `cik`, `exchange`, `report_date` (AAAA-MM-DD, fecha de corte), `price_basis` (texto), `profile` (clave de `assets/sector_profiles.json`), `theme`, `group`, `descriptor` (markup), `primary_catalyst` (id; si falta, el de mayor nota), `synthetic` (bool: muestra el aviso).
 
 ## market
-`price`, `price_date` (los rellena `prices.py --apply`), `regime` (`risk_on` / `neutral` / `risk_off` / `unknown`), `regime_evidence` (markup).
+`price`, `price_date` (los rellena `prices.py --apply`).
 
 ## financials
 `quarters[]` de antiguo a reciente, tal como los devuelve `scripts/xbrl.py`: `period`, `end`, `revenue`, `gross_profit`, `op_income`, `net_income`, `cfo`, `capex`, `capitalized_sw`, `sbc`, `diluted_shares`, `basic_shares` (opcional; se usa en la dilución cuando un trimestre tiene pérdidas y el otro beneficios), `ar`, `deferred_rev`, `rpo`, `inventory`, `cash` (incluye inversiones a corto), `debt`, `total_assets`. Flujos discretos por trimestre; saldos a fin de periodo; `null` si no hay dato. Un trimestre intermedio que no está en ningún documento (p. ej. emisor extranjero recién registrado) se deja con los flujos a `null` y `gap: true` + `gap_note` (motivo): `validate.py` lo acepta con aviso y el TTM sale n/d; nunca se rellena con estimaciones ni se omite (rompería la comparación con el trimestre de hace un año). Además `shares_out` (portada), `shares_out_date`, `source`.
@@ -26,7 +26,7 @@ Cada fuente: `id`, `kind` (`atm` / `shelf` / `secondary` / `convertible` / `warr
 
 ## setup
 `type` (ver `references/swing.md` §2), `pivot`, `stop`, `adr_pct` (en %), `rs_1m`, `rs_3m`, `rs_6m`, `ema_stack` (bool), `notes` (markup). Sin datos de precio: `null`.
-`cooled_leader`: `"cooled_leader"` / `"cooled_leader_broken"` / `null` (swing.md §6; lo escribe `scripts/prices.py --apply`).
+`cooled_leader`: `"cooled_leader"` / `"cooled_leader_broken"` / `null` (swing.md §5; lo escribe `scripts/prices.py --apply`).
 `setup_candidates[]`: propuestas mecánicas de `prices.py` (`type`, `date`, `pivot`, `stop`, `why`); no cuentan para la convicción hasta que el analista copia una a `type`/`pivot`/`stop`.
 
 ## events[]

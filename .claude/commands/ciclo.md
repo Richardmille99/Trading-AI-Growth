@@ -9,22 +9,19 @@ Lee primero CLAUDE.md, .claude/skills/growth-swing/SKILL.md (y sus references cu
 2. Comprueba que `$SEC_USER_AGENT` existe y tiene nombre y email. Si no → PARADA.
 3. Pasa los tests: `test_engines.py`, `test_prices.py`, `test_insiders.py`, `test_forensic.py` y `test_tools.py` de `.claude/skills/growth-swing/tests/`. Si alguno falla → PARADA.
 
-## 1. Mercado (una vez)
-1. `python3 $S/market.py --members market/members.json --out market/breadth.json` (amplitud del Nasdaq-100: % sobre la SMA 20/50 y ratio +4%/−4%). Si más de 10 valores fallan, anótalo en el LOG; no cambies la lista a mano salvo que un valor haya dejado de cotizar (entonces quítalo y dilo en `note`).
+## 1. Por cada universo U
 
-## 2. Por cada universo U
+### 1.1 Precios
+1. `python3 $S/prices.py --universe U/universe.json --apply` (RS, ADR, «líder enfriado» y candidatos de setup).
+2. Revisa `setup_candidates` de cada caso. Solo si hay un setup claro según swing.md §1, rellena `setup.type/pivot/stop` y explícalo en `setup.notes`; si un setup anterior se invalidó (cierre bajo el stop), ponlo a null y dilo en notas.md.
 
-### 2.1 Precios y régimen
-1. `python3 $S/prices.py --universe U/universe.json --apply` (RS, ADR, «líder enfriado», candidatos y régimen = tendencia de QQQ/IWM ajustada con la amplitud de la misma sesión). No ajustes el régimen a mano.
-2. Revisa `setup_candidates` de cada caso. Solo si hay un setup claro según swing.md §2, rellena `setup.type/pivot/stop` y explícalo en `setup.notes`; si un setup anterior se invalidó (cierre bajo el stop), ponlo a null y dilo en notas.md.
-
-### 2.2 Altas (tickers con status `pendiente`)
+### 1.2 Altas (tickers con status `pendiente`)
 1. `python3 $S/new_case.py --universe U/universe.json --ticker <T>` (CIK, filings, trimestres XBRL con respaldo del documento, precios, últimos resultados con reacción y próximos estimados). Emisores extranjeros: carga antes `U/data/<T>/quarters.json` desde los 6-K (CLAUDE.md) y pasa `--earn-date/--earn-timing/--earn-url`.
 2. Completa la Fase 1 a mano: contrasta el último trimestre con el EX-99.1, KPIs del perfil (`sector_profiles.json`) con fuente, pureza y subgrupo con la nota de segmentos, descriptor y `financials_note`.
-3. Haz la Fase 2 (auditoría) según la skill: catalizadores de 12 meses, consenso (paso 2.3.3), oferta, `insiders.py`, `forensic.py`, plan EP. Si no puedes terminarla en este ciclo, deja el status en `fundamentales` y dilo en el LOG; nunca marques `auditado` sin ella.
+3. Haz la Fase 2 (auditoría) según la skill: catalizadores de 12 meses, consenso (paso 1.3.3), oferta, `insiders.py`, `forensic.py`, plan EP. Si no puedes terminarla en este ciclo, deja el status en `fundamentales` y dilo en el LOG; nunca marques `auditado` sin ella.
 4. validate → render → commit `U: <T> <fase> <fecha>`.
 
-### 2.3 Novedades por ticker auditado (modo actualización, CLAUDE.md)
+### 1.3 Novedades por ticker auditado (modo actualización, CLAUDE.md)
 1. Refresca el índice: `python3 $S/edgar.py --cik <CIK> --ua "$SEC_USER_AGENT" --out U/data/<T>/filings.json` y lista lo nuevo con `python3 $S/edgar.py --file U/data/<T>/filings.json --after <meta.last_filing_seen>`.
 2. Si no hay nada nuevo ni PRs posteriores a `meta.report_date`, salta al siguiente.
 3. **Resultados nuevos** (8-K 2.02, 6-K de resultados, ventas mensuales):
@@ -38,16 +35,16 @@ Lee primero CLAUDE.md, .claude/skills/growth-swing/SKILL.md (y sus references cu
 7. Actualiza `meta.report_date` = hoy y `meta.last_filing_seen` = último accession revisado. Añade a `U/data/<T>/notas.md` una línea «fecha · qué cambió».
 8. `python3 $S/validate.py U/cases/<T>.json` (debe dar OK) → `python3 $S/render.py U/cases/<T>.json U/reports/<T>_swing.html` → commit `U: <T> actualización <fecha>`.
 
-### 2.4 Cierre del universo
+### 1.4 Cierre del universo
 1. `python3 $S/rank.py U/cases --universe U/universe.json --sync-peers --out-dir U --title "<title de universes.json>"` y vuelve a renderizar todos los casos (los pares cambian).
 2. Diario: `python3 $S/journal.py --universe U/universe.json --add --update` (señales con convicción ≥ Media y setup; resultados a +5/+20/+60 sesiones).
-3. Actualiza `U/resumen.md`: régimen y amplitud, tabla del ranking con una línea de por qué, líderes enfriados, calendario con plan EP (próximas 6–8 semanas) y la lista de `[VERIFY]` pendientes. Quita lo ya resuelto.
+3. Actualiza `U/resumen.md`: tabla del ranking con una línea de por qué, líderes enfriados, calendario con plan EP (próximas 6–8 semanas) y la lista de `[VERIFY]` pendientes. Quita lo ya resuelto.
 
-## 3. Cierre
+## 2. Cierre
 1. `python3 $S/sitepage.py --universes universes.json --out site` (índice local de todos los universos; `site/` no se versiona).
-2. Escribe al principio de `LOG.md` (raíz) una entrada con la fecha: régimen y amplitud, qué tickers cambiaron y por qué (por universo), altas nuevas, alertas de las próximas 3 sesiones (resultados, lock-ups), setups activos o invalidados y lo que quedó en `[VERIFY]`.
+2. Escribe al principio de `LOG.md` (raíz) una entrada con la fecha: qué tickers cambiaron y por qué (por universo), altas nuevas, alertas de las próximas 3 sesiones (resultados, lock-ups), setups activos o invalidados y lo que quedó en `[VERIFY]`.
 3. `git add` + commit (`ciclo <fecha>`) + `git push`.
-4. Termina con un resumen de 12 líneas como máximo: régimen, cambios en los rankings, convicción, alertas y qué necesita mi atención.
+4. Termina con un resumen de 12 líneas como máximo: cambios en los rankings, convicción, alertas y qué necesita mi atención.
 
 ## Reglas
 - Los números los calculan los scripts; el texto solo interpreta. Cada cifra lleva fuente o `[VERIFY: motivo]`. Nunca inventes consenso, precios, fechas ni pares.

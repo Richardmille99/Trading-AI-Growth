@@ -16,9 +16,9 @@ FASE 0 — Preparación (sin pedirme confirmación)
    - Descarga 2 años de OHLCV diario de cada ticker y de SMH, SOXX, QQQ e IWM a semis/data/<T>/prices.csv.
    - Calcula ADR% de 20 sesiones, EMAs 10/20/50, SMA 200, máximo de 52 semanas y caída desde él.
    - Calcula la rentabilidad a 1, 3, 6 y 12 meses y su percentil RS dentro del universo + ETFs.
-   - Calcula la etiqueta cooled_leader de references/swing.md §6.
+   - Calcula la etiqueta cooled_leader de references/swing.md §5.
    - Rellena setup.rs_1m/rs_3m/rs_6m, adr_pct, ema_stack y cooled_leader en cada caso.
-   - Deja pivot y stop en null salvo que haya un setup claro según swing.md §2. En ese caso, propón tipo, pivote y stop y explícalo en setup.notes.
+   - Deja pivot y stop en null salvo que haya un setup claro según swing.md §1. En ese caso, propón tipo, pivote y stop y explícalo en setup.notes.
    Añade las funciones a SKILL.md y a references/schema.md.
 
 FASE 1 — Fundamentales y clasificación (todos los tickers con status "pendiente")

@@ -18,7 +18,7 @@ semis/
   journal.csv            diario de señales (cabeceras de assets/journal_template.csv)
 ```
 
-Universos activos en `universes.json` (raíz): `semis/`, `memoria/`, `software/`, `computo_ia/`, `nube_ia/`, `infra_fisica/` (los cuatro últimos desde el 19-oct-2026, con la Fase 2 reproducible en `<univ>/data/build_fase2.py`). Emisores extranjeros con trimestres a mano: SKHY, SIMO, TSM, ASML y NBIS (ver el `financials_note` de cada caso). Amplitud de mercado común en `market/` (`market.py`). Ciclo diario: `/ciclo` (todos) o `/semis-ciclo` (solo semis); registro en `LOG.md`. Alta de un ticker: añádelo a `<univ>/universe.json` con status `pendiente` y ejecuta `new_case.py`.
+Universos activos en `universes.json` (raíz): `semis/`, `memoria/`, `software/`, `computo_ia/`, `nube_ia/`, `infra_fisica/` (los cuatro últimos desde el 19-oct-2026, con la Fase 2 reproducible en `<univ>/data/build_fase2.py`). Emisores extranjeros con trimestres a mano: SKHY, SIMO, TSM, ASML y NBIS (ver el `financials_note` de cada caso). Ciclo diario: `/ciclo` (todos) o `/semis-ciclo` (solo semis); registro en `LOG.md`. Alta de un ticker: añádelo a `<univ>/universe.json` con status `pendiente` y ejecuta `new_case.py`.
 
 ## Reglas de trabajo
 - Red: SEC exige cabecera `User-Agent` con nombre y email → usa la variable de entorno `SEC_USER_AGENT`. Máximo ~5 peticiones/s y en serie si hay 503.

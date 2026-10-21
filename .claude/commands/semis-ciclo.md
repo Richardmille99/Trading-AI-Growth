@@ -1,1 +1,1 @@
-Alias de `/ciclo` limitado al universo `semis`: lee `.claude/commands/ciclo.md` y síguelo entero con $ARGUMENTS = `semis` (mercado, precios y régimen, altas, novedades, ranking, diario, resumen, página, LOG.md, commit y push). Todas sus reglas y casos de PARADA se aplican igual.
+Alias de `/ciclo` limitado al universo `semis`: lee `.claude/commands/ciclo.md` y síguelo entero con $ARGUMENTS = `semis` (precios, altas, novedades, ranking, diario, resumen, página, LOG.md, commit y push). Todas sus reglas y casos de PARADA se aplican igual.

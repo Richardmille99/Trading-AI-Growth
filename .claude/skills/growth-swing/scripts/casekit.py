@@ -102,7 +102,7 @@ def skeleton(u, theme, group_label, report_date, fin, filings_index, earn_cat, e
                   subgroup=u.get("subgroup"), synthetic=False, primary_catalyst=earn_cat["id"] if earn_cat else None,
                   descriptor=descriptor, last_filing_seen=last.get("accession"), last_filing_seen_date=last.get("filed"),
                   phase="fundamentales"),
-        market=dict(price=None, price_date=None, regime="unknown", regime_evidence=""),
+        market=dict(price=None, price_date=None),
         financials=dict(source=fin.get("source", "sec-xbrl-companyfacts"), shares_out=fin.get("shares_out"),
                         shares_out_date=fin.get("shares_out_date"),
                         shares_out_note=fin.get("shares_out_note", "dei:EntityCommonStockSharesOutstanding (portada del último 10-Q/10-K)"),

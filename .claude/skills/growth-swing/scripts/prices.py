@@ -1,4 +1,4 @@
-"""Daily prices → setup metrics, RS percentiles and the cooled-leader tag (references/swing.md §1, §2, §6).
+"""Daily prices → setup metrics, RS percentiles and the cooled-leader tag (references/swing.md §1, §5).
 
 Usage:
   python prices.py --universe semis/universe.json [--etfs SMH,SOXX,QQQ,IWM] [--no-download] [--apply]
@@ -8,7 +8,7 @@ Usage:
   metrics   ADR% 20, EMA 10/20/50, SMA 200, 52-week high and drawdown, returns 1/3/6/12 months,
             RS percentile of each return inside universe + ETFs → <universe_dir>/data/prices_metrics.json
   --apply   writes setup.rs_1m/rs_3m/rs_6m, adr_pct, ema_stack, cooled_leader, setup_candidates and
-            market.price/price_date/regime into <universe_dir>/cases/<T>.json. pivot, stop and type are never
+            market.price/price_date into <universe_dir>/cases/<T>.json. pivot, stop and type are never
             written: candidates are proposals for the analyst (setup.notes explains the choice).
 
   --reaction T AAAA-MM-DD amc|bmo   prints the market-reaction fields (catalysts.md §6) for a catalyst and exits.
@@ -150,7 +150,7 @@ def rs_table(M):
     return out
 
 
-# ---------- candidates (swing.md §2) — proposals only ----------
+# ---------- candidates (swing.md §1) — proposals only ----------
 def candidates(rows, m):
     """Mechanical screens for a few setups. Each candidate carries a proposed pivot/stop and why.
     The analyst confirms or rejects; nothing here is written to setup.type/pivot/stop."""
@@ -190,7 +190,7 @@ def candidates(rows, m):
     return out
 
 
-# ---------- cooled leader (swing.md §6) ----------
+# ---------- cooled leader (swing.md §5) ----------
 def cooled_leader(t, M, RS, universe_tickers, fund=None):
     """'cooled_leader', 'cooled_leader_broken' or None. fund = (accel_pp, fund_score) or None if no case yet."""
     r12 = [M[x]["ret"]["12m"] for x in universe_tickers if M.get(x) and M[x]["ret"]["12m"] is not None]
@@ -227,42 +227,7 @@ def reaction(rows, day, timing="amc"):
                 reaction_date=r["date"], reaction_close_chg_pct=round((r["close"] / prev["close"] - 1) * 100, 2))
 
 
-# ---------- regime proxy (swing.md §1) ----------
-def regime_proxy(M, idx=("QQQ", "IWM"), breadth=None):
-    """Trend proxy: both indices with close > EMA20 > EMA50 → risk_on; both below EMA50 → risk_off; else neutral.
-    `breadth` (latest row of market.py's breadth.json, with 'state' and an 'evidence' text) adjusts it one step:
-    risk_on with weak breadth → neutral; risk_off with strong breadth → neutral; neutral with weak breadth and
-    < 30% of members over their SMA 50 → risk_off. Without breadth the evidence says so."""
-    if any(i not in M or M[i]["ema50"] is None for i in idx):
-        return "unknown", "Sin datos de índices."
-    up = [M[i]["close"] > M[i]["ema20"] > M[i]["ema50"] for i in idx]
-    down = [M[i]["close"] < M[i]["ema50"] for i in idx]
-    trend = "risk_on" if all(up) else "risk_off" if all(down) else "neutral"
-    ev = "; ".join(f'{i} {M[i]["close"]:.2f} vs EMA 10/20/50 {M[i]["ema10"]:.2f}/{M[i]["ema20"]:.2f}/{M[i]["ema50"]:.2f}'
-                   for i in idx)
-    ev = f"Proxy de tendencia ({M[idx[0]]['last_date']}): {ev} → {trend}."
-    if not breadth or breadth.get("state") in (None, "unknown"):
-        return trend, ev + " Sin amplitud (market.py no ejecutado o sin datos)."
-    st, reg = breadth["state"], trend
-    if trend == "risk_on" and st == "weak":
-        reg = "neutral"
-    elif trend == "risk_off" and st == "strong":
-        reg = "neutral"
-    elif trend == "neutral" and st == "weak" and (breadth.get("pct_above_sma50") or 100) < 30:
-        reg = "risk_off"
-    return reg, ev + " " + breadth.get("evidence", f"Amplitud: {st}") + (f". Régimen ajustado: {trend} → {reg}." if reg != trend else ".")
-
-
-def load_breadth(path, last_date):
-    """Latest breadth row from market.py if it is from the same session as the indices (else None)."""
-    if not path or not os.path.exists(path):
-        return None
-    b = json.load(open(path, encoding="utf-8"))
-    row = dict(b["latest"], evidence=b.get("evidence", ""))
-    return row if row["date"] == last_date else None
-
-
-def apply_to_case(case, t, M, RS, CAND, uni_tickers, regime, regime_ev, src):
+def apply_to_case(case, t, M, RS, CAND, uni_tickers, src):
     from compute import compute
     m, _, _ = compute(case)
     st = case.setdefault("setup", {})
@@ -272,7 +237,8 @@ def apply_to_case(case, t, M, RS, CAND, uni_tickers, regime, regime_ev, src):
     for k in ("type", "pivot", "stop", "notes"):
         st.setdefault(k, None)
     mk = case.setdefault("market", {})
-    mk.update(price=M[t]["close"], price_date=M[t]["last_date"], regime=regime, regime_evidence=regime_ev)
+    mk.update(price=M[t]["close"], price_date=M[t]["last_date"])
+    mk.pop("regime", None); mk.pop("regime_evidence", None)
     case["meta"]["price_basis"] = f'cierre del {M[t]["last_date"]} ({src})'
     return case
 
@@ -283,7 +249,6 @@ def main():
     ap.add_argument("--etfs", default="SMH,SOXX,QQQ,IWM")
     ap.add_argument("--no-download", action="store_true")
     ap.add_argument("--apply", action="store_true")
-    ap.add_argument("--breadth", help="breadth.json de market.py (por defecto market/breadth.json junto a la carpeta del universo)")
     ap.add_argument("--reaction", nargs=3, metavar=("TICKER", "AAAA-MM-DD", "amc|bmo"),
                     help="solo imprime la reacción de mercado a un catalizador (JSON para el caso) y sale")
     a = ap.parse_args()
@@ -315,10 +280,7 @@ def main():
         M[t] = metrics(rows)
         CAND[t] = candidates(rows, M[t])
     RS = rs_table(M)
-    bpath = a.breadth or os.path.join(os.path.dirname(root), "market", "breadth.json")
-    regime, regime_ev = regime_proxy(M, breadth=load_breadth(bpath, M.get("QQQ", {}).get("last_date")))
-    out = dict(generated=date.today().isoformat(), universe_plus_etfs=list(M), regime=regime, regime_evidence=regime_ev,
-               metrics=M, rs=RS, candidates=CAND, sources=srcs)
+    out = dict(generated=date.today().isoformat(), universe_plus_etfs=list(M), metrics=M, rs=RS, candidates=CAND, sources=srcs)
     json.dump(out, open(mpath, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     for t in M:
         r12 = M[t]["ret"]["12m"]
@@ -326,14 +288,13 @@ def main():
         print(f'{t:<5} {M[t]["close"]:>9.2f} ADR {M[t]["adr_pct"] or 0:4.1f}% dd52 {M[t]["dd_52w"] * 100:6.1f}% 12m {r12} '
               f'RS1/3/6 {RS[t]["1m"] or 0:3.0f}/{RS[t]["3m"] or 0:3.0f}/{RS[t]["6m"] or 0:3.0f} '
               f'cand {[c["type"] for c in CAND[t]]}')
-    print(f"régimen (proxy): {regime}")
     if a.apply:
         for t in tickers:
             p = os.path.join(root, "cases", f"{t}.json")
             if not os.path.exists(p) or t not in M:
                 continue
             case = json.load(open(p, encoding="utf-8"))
-            apply_to_case(case, t, M, RS, CAND, tickers, regime, regime_ev,
+            apply_to_case(case, t, M, RS, CAND, tickers,
                           {"yahoo": "Yahoo Finance chart API", "stooq": "Stooq"}.get(srcs.get(t), "prices.csv"))
             json.dump(case, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
             print(f"{t}: caso actualizado (cooled_leader={case['setup']['cooled_leader']})")

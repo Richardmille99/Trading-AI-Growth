@@ -20,9 +20,7 @@
  },
  "market": {
   "price": 39.529998779296875,
-  "price_date": "2026-10-16",
-  "regime": "risk_off",
-  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+  "price_date": "2026-10-16"
  },
  "financials": {
   "source": "6-K de resultados trimestrales de ASE (Taiwan-IFRS); 2T25 y 1T26 en versión «retrospectively adjusted» del 6-K 2T26",
@@ -606,7 +604,7 @@
   }
  ],
  "header": {
-  "verdict": "Crecimiento que acelera (+44,8% en ventas del 3T26) a 4× ventas; convicción limitada por el régimen y la rotura técnica de esta semana.",
+  "verdict": "Crecimiento que acelera (+44,8% en ventas del 3T26) a 4× ventas; lo limita la rotura técnica de esta semana.",
   "setup": "Bajo la EMA 50 tras dos sesiones de volumen alto; sin setup. EP posible en resultados.",
   "catalyst": "2T26 real parcial (beat de BPA, guía en línea); avance de ventas del 3T26 por encima de la guía.",
   "quality": "Sin non-GAAP; FCF negativo por capex financiado con deuda.",
@@ -674,7 +672,7 @@
    "**EP A/B:** margen bruto ≥ 21,5% (techo de la guía, ≥ +100 pb interanual), BPA por encima del consenso de ≈ US$0,34 [VERIFY], guía del 4T con crecimiento secuencial y ATM ≥ +35%. En el gráfico: recuperar la EMA 50 (≈ $41,8) con gap y volumen ≥ 3×.",
    "**D:** margen bruto por debajo del 20,5% o guía del 4T plana. Ya está −17% desde máximos tras perder la EMA 50: sin EP, esperar una base nueva."
   ],
-  "verdict": "El crecimiento más visible y barato del universo, ya publicado para el 3T26. Lo limitan el régimen risk_off y la pérdida de la EMA 50 esta semana. El margen del 3T es la llave."
+  "verdict": "El crecimiento más visible y barato del universo, ya publicado para el 3T26. Lo limita la pérdida de la EMA 50 esta semana. El margen del 3T es la llave."
  },
  "sources": [
   [

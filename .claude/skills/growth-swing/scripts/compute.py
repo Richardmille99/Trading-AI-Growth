@@ -139,8 +139,8 @@ def peers_table(subject, peers):
     return rows, pos
 
 
-# ---------- conviction (references/swing.md §3) ----------
-def conviction(cat, fund, supply, group, regime, earnings_soon, setup_type):
+# ---------- conviction (references/swing.md §2) ----------
+def conviction(cat, fund, supply, group, earnings_soon, setup_type):
     trace = []
     fv = fund if fund is not None else -1
     discard = []
@@ -163,10 +163,8 @@ def conviction(cat, fund, supply, group, regime, earnings_soon, setup_type):
         trace.append("no llega a Alta: " + "; ".join(alta_fail))
     else:
         level = "Baja"; trace.append("Baja: no llega a Media: " + "; ".join(media_fail))
-    if regime == "risk_off" and STEP.index(level) > 1:
-        level = "Baja"; trace.append("régimen risk_off → máximo Baja")
-    if level == "Alta" and (regime == "unknown" or group == "unknown"):
-        level = "Media"; trace.append("régimen o grupo desconocido → baja un escalón")
+    if level == "Alta" and group == "unknown":
+        level = "Media"; trace.append("grupo desconocido → baja un escalón")
     return level, trace
 
 
@@ -246,13 +244,12 @@ def compute(case):
             earnings_soon = True
         evs.append(dict(e, in_window=in_win, sessions=bd if d >= today else None))
 
-    regime = mk.get("regime", "unknown")
     cat_grade = primary["grade"] if primary else "D"
-    level, trace = conviction(cat_grade, m["fund_score"], S["total"], group, regime, earnings_soon, st.get("type"))
+    level, trace = conviction(cat_grade, m["fund_score"], S["total"], group, earnings_soon, st.get("type"))
     m.update(size_r=SIZE[level], cat_score=primary["score"] if primary else None)
 
     R = dict(fund=FA, catalysts=cats, primary=primary, supply=S, peers=P, group=group, events=evs,
-             regime=regime, earnings_soon=earnings_soon, conviction=level, trace=trace, horizon=HORIZON[level],
+             earnings_soon=earnings_soon, conviction=level, trace=trace, horizon=HORIZON[level],
              window=window)
     chart = dict(series=FA["series"],
                  peers=[dict(t=r["ticker"], x=r.get("rev_yoy"), y=r.get("ev_sales"), s=r["subject"]) for r in P
@@ -268,6 +265,6 @@ if __name__ == "__main__":
     p = R["primary"]
     print(f'fundamentales {m["fund_score"]:.0f} ({R["fund"]["score"]["label"]}) · banderas {m["flags_on"]}')
     print(f'catalizador principal {p["id"]}: {p["score"]} {p["grade"]} {p["verdict"]}')
-    print(f'oferta {R["supply"]["total"]} ({R["supply"]["label"]}) · grupo {R["group"]} · régimen {R["regime"]}')
+    print(f'oferta {R["supply"]["total"]} ({R["supply"]["label"]}) · grupo {R["group"]}')
     print(f'convicción {R["conviction"]} ({m["size_r"]} R) · {R["trace"]}')
     print(f'EV/ventas {m["ev_sales"]} · DCF inverso {m["implied_g"]}')

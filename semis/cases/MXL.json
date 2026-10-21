@@ -20,9 +20,7 @@
  },
  "market": {
   "price": 71.31999969482422,
-  "price_date": "2026-10-16",
-  "regime": "risk_off",
-  "regime_evidence": "Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed."
+  "price_date": "2026-10-16"
  },
  "financials": {
   "source": "sec-xbrl-companyfacts",
@@ -695,7 +693,7 @@
   }
  ],
  "header": {
-  "verdict": "Crecimiento que acelera y guía muy por encima del consenso; la convicción la limitan el régimen risk_off, las ventas de insiders y el arbitraje con Silicon Motion.",
+  "verdict": "Crecimiento que acelera y guía muy por encima del consenso; la convicción la limitan las ventas de insiders y el arbitraje con Silicon Motion.",
   "setup": "Resultados el 22-oct: solo EP. ADR {m.adr_pct:n1}%; −44% desde máximos.",
   "catalyst": "2T26: beat y guía +24% sobre el consenso; el mercado vendió (gap −9%).",
   "quality": "Nota {m.fund_score:sc}; NON-GAAP agresivo por reestructuraciones repetidas; cambio de auditor a KPMG sin desacuerdos.",
@@ -768,7 +766,7 @@
    "**Lo convertiría en D:** ingresos por debajo del punto medio de la guía ($215M), una guía del 4T plana o a la baja, o una caída del margen bruto. Un gap a la baja tras +300% en 12 meses invalida la tesis táctica.",
    "Sin EP: esperar una base nueva (la acción está −44% desde máximos) y no anticiparse al informe."
   ],
-  "verdict": "Fundamentales de los mejores del universo, frenados por la oferta de insiders, el riesgo del arbitraje y un régimen risk_off. Solo un EP de calidad sobre los resultados del 22-oct."
+  "verdict": "Fundamentales de los mejores del universo, frenados por la oferta de insiders, y el riesgo del arbitraje. Solo un EP de calidad sobre los resultados del 22-oct."
  },
  "sources": [
   [

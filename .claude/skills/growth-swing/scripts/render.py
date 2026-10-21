@@ -31,7 +31,6 @@ SETUP_ES = {"ep": "Episodic pivot (EP)", "breakout_flag": "Ruptura de bandera", 
 SETUP_SHORT = {"ep": "EP", "breakout_flag": "Bandera", "vcp": "VCP", "momentum_burst": "Burst", "wedge_pop": "Wedge",
                "ema_crossback": "Crossback", "base_n_break": "Base break", "exhaustion_watch": "Agotam."}
 GROUP_ES = {"leader": "líder", "strong": "fuerte", "neutral": "neutral", "weak": "débil", "unknown": "desconocido"}
-REGIME_ES = {"risk_on": "risk on", "neutral": "neutral", "risk_off": "risk off", "unknown": "desconocido"}
 COMP_ES = {"growth": "Crecimiento", "accel": "Aceleración", "gross_margin": "Margen bruto", "rule40": "Rule of 40",
            "op_leverage": "Apalancamiento operativo", "quality": "Calidad (banderas)"}
 CAT_MAX = {"verificable": 25, "vinculante": 20, "materialidad": 20, "economia": 10, "historial": 10, "juxtaposiciones": 15,
@@ -175,7 +174,7 @@ class Renderer:
                      f'<span>{html.escape(str(small))}</span></span><p>{self.t(txt)}</p></div>'
                      for k, cls, big, small, txt in tiles)
         verdict = (f'<div class="verdict"><span class="k">Convicción</span><span class="lv">{R["conviction"]}</span>'
-                   f'<span class="sz">{fmt(m["size_r"], "x2").replace("×", " R")} · régimen {REGIME_ES[R["regime"]]}</span>'
+                   f'<span class="sz">{fmt(m["size_r"], "x2").replace("×", " R")}</span>'
                    f'<p>{self.t(h.get("verdict"))}</p></div>')
         return (f'<header class="case" id="s0">{strip}<h1>{html.escape(meta["issuer"])} <em>{meta["ticker"]}</em></h1>'
                 f'<p class="desc">{self.t(meta.get("descriptor"))}</p>{syn}<div class="board">{verdict}{tl}</div></header>')
@@ -322,17 +321,16 @@ class Renderer:
         return self.section(7, "s7", "Grupo y pares", body)
 
     def s8(self):
-        st, m, mk = self.c.get("setup", {}), self.m, self.c.get("market", {})
+        st, m = self.c.get("setup", {}), self.m
         adr_flag = ' <span class="st a">&gt; 1 ADR</span>' if m["risk_adr"] and m["risk_adr"] > 1 else ""
         kv = [("Setup", SETUP_ES.get(st.get("type"), "n/d")), ("Pivote", fmt(m["pivot"], "px")), ("Stop", fmt(m["stop"], "px")),
               ("Riesgo / acción", f'{fmt(m["risk_ps"], "px")} · {fmt(m["risk_pct"], "pctf")}'),
               ("ADR% (20 s.)", fmt(m["adr_pct"], "pct")), ("Riesgo en ADRs", fmt(m["risk_adr"], "x1") + adr_flag),
               ("Precio vs pivote", fmt(m["ext_pivot"], "pctf")),
               ("RS 1m / 3m / 6m", " / ".join(fmt(st.get(k), "sc") for k in ("rs_1m", "rs_3m", "rs_6m"))),
-              ("EMAs 10 > 20 > 50", fmt(st.get("ema_stack"))), ("Régimen", REGIME_ES[self.R["regime"]])]
+              ("EMAs 10 > 20 > 50", fmt(st.get("ema_stack")))]
         rows = "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in kv)
-        body = (f'<dl class="kv">{rows}</dl><p>{self.t(st.get("notes"))}</p>'
-                f'<p class="cap"><b>Régimen:</b> {self.t(mk.get("regime_evidence"))}</p>')
+        body = f'<dl class="kv">{rows}</dl><p>{self.t(st.get("notes"))}</p>'
         return self.section(8, "s8", "Precio y setup", body)
 
     def s9(self):
@@ -351,7 +349,7 @@ class Renderer:
         R, m, txt = self.R, self.m, self.c.get("text", {})
         p = R["primary"]
         inputs = (f'Catalizador {p["grade"] if p else "—"} · fundamentales {fmt(m["fund_score"], "sc")} · oferta {R["supply"]["total"]} · '
-                  f'grupo {GROUP_ES[R["group"]]} · régimen {REGIME_ES[R["regime"]]} · resultados en ≤ 3 sesiones: {"sí" if R["earnings_soon"] else "no"}')
+                  f'grupo {GROUP_ES[R["group"]]} · resultados en ≤ 3 sesiones: {"sí" if R["earnings_soon"] else "no"}')
         trace = "".join(f"<li>{html.escape(x)}</li>" for x in R["trace"])
         plan = "".join(f"<li>{self.t(x)}</li>" for x in txt.get("plan", []))
         body = (f'<div class="two"><div><h3>10.1 Matriz de convicción</h3><p class="lede">{inputs}</p><ol class="trace">{trace}</ol>'

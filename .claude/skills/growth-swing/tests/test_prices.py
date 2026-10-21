@@ -5,7 +5,7 @@ import os, sys, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "scripts"))
-from prices import (reaction, adr_pct, candidates, cooled_leader, ema, metrics, percentile, read_csv, regime_proxy,  # noqa: E402
+from prices import (reaction, adr_pct, candidates, cooled_leader, ema, metrics, percentile, read_csv,  # noqa: E402
                     rs_table, write_csv)
 
 
@@ -68,7 +68,7 @@ def test_cooled_leader():
     print("cooled leader ok")
 
 
-def test_candidates_and_regime():
+def test_candidates_and_reaction():
     rows = series([100.0] * 100)
     last = rows[-1]
     rows.append(dict(date="2099-01-01", open=112.0, high=118.0, low=110.0, close=116.0, adj_close=116.0, volume=5e6))
@@ -77,17 +77,11 @@ def test_candidates_and_regime():
     assert ep and ep[0]["pivot"] == 118.0 and ep[0]["stop"] == 110.0, c
     assert not [x for x in candidates(series([100.0] * 100), metrics(series([100.0] * 100))) if x["type"] == "ep"]
     assert last["close"] == 100.0
-    up = metrics(series([100 * 1.01 ** i for i in range(120)]))
-    dn = metrics(series([100 * 0.99 ** i for i in range(120)]))
-    assert regime_proxy({"QQQ": up, "IWM": up})[0] == "risk_on"
-    assert regime_proxy({"QQQ": dn, "IWM": dn})[0] == "risk_off"
-    assert regime_proxy({"QQQ": up, "IWM": dn})[0] == "neutral"
-    assert regime_proxy({"QQQ": up})[0] == "unknown"
     rx = reaction(rows, rows[-2]["date"], "amc")
     assert rx["gap_pct"] == 12.0 and rx["rvol"] == 5.0 and rx["reaction_date"] == "2099-01-01" and rx["day2_follow"] is None
     assert reaction(rows, "2099-01-02", "amc") is None, "not traded yet"
-    print("candidates + regime + reaction ok")
+    print("candidates + reaction ok")
 
 
 if __name__ == "__main__":
-    test_indicators_and_csv(); test_rs_percentile(); test_cooled_leader(); test_candidates_and_regime()
+    test_indicators_and_csv(); test_rs_percentile(); test_cooled_leader(); test_candidates_and_reaction()

@@ -1,4 +1,4 @@
-"""One local page for every universe: market breadth, then per universe its ranking table and resumen.md.
+"""One local page for every universe: its ranking table and resumen.md.
 
 Usage:
   python sitepage.py --universes universes.json --out site [--title "Research · growth-swing"]
@@ -78,14 +78,6 @@ def ranking_table(path, prefix):
     return m.group(0).replace('href="reports/', f'href="{prefix}/reports/') if m else ""
 
 
-def breadth_block(root):
-    p = os.path.join(root, "market", "breadth.json")
-    if not os.path.exists(p):
-        return "<p>Sin amplitud de mercado (ejecuta market.py).</p>"
-    b = json.load(open(p, encoding="utf-8"))
-    return f"<p>{html.escape(b.get('evidence', ''))}</p>"
-
-
 def build(universes_path, out, title):
     root = os.path.dirname(os.path.abspath(universes_path))
     unis = json.load(open(universes_path, encoding="utf-8"))["universes"]
@@ -117,7 +109,7 @@ def build(universes_path, out, title):
             f'<main class="wrap"><header class="case"><h1>{html.escape(title)}</h1><p class="desc">Investigación interna, no es consejo de '
             f'inversión. Cada cifra sale de los casos y de rank.py; cada dossier lleva sus fuentes.</p>'
             f'<nav class="unav">{" · ".join(nav)}</nav></header>'
-            f"<section><h2>Mercado</h2>{breadth_block(root)}</section>{''.join(secs)}</main></body></html>")
+            f"{''.join(secs)}</main></body></html>")
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page)
     return os.path.join(out, "index.html")
 

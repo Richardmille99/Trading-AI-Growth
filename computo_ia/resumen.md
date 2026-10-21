@@ -2,29 +2,25 @@
 
 Investigación interna, no es consejo de inversión. Precios al cierre del 2026-10-16. Las cifras salen de los casos (`cases/<T>.json`) y de `rank.py`; cada dossier en `reports/<T>_swing.html` lleva sus fuentes.
 
-## Régimen
-
-Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94; IWM 270.44 vs EMA 10/20/50 276.03/279.24/285.00 → risk_off. Amplitud Nasdaq-100 (lista aproximada) (2026-10-16, 98 valores): 45% sobre la SMA 50, 57% sobre la SMA 20; +4%/−4% en 5 sesiones 24/41, en 10 sesiones 44/53 → mixed. → **risk_off**: la matriz limita la convicción a Baja.
-
 ## Ranking
 
 | # | Ticker | Negocio | Convicción | Lectura |
 |---|---|---|---|---|
-| 1 | NVDA | 87.5 | Baja | +106%, centro de datos +117% y guía +12% secuencial; PER ≈ 14. |
-| 2 | CLS | 86.0 | Baja | +62% y guía +8%, pero ampliación del 8% en agosto y directivos vendiendo. |
-| 3 | AVGO | 86.0 | Baja | IA +221%, guía +93% y cartera de $179.200M; −32% desde máximos. |
-| 4 | LITE | 82.7 | Baja | +109%, guía +24% y EP en agosto; dilución por canjes ya hecha. |
-| 5 | ASML | 82.2 | Baja | +55% en €, demanda por encima de la oferta hasta 2028 y recompras. |
-| 6 | TSM | 79.8 | Baja | +41% en US$, márgenes récord y guía +12–16% secuencial; PER ≈ 18. |
-| 7 | AMD | 79.6 | Baja | Centro de datos +107% y guía +13%, pero beat pequeño y −7% tras resultados. |
-| 8 | CIEN | 76.1 | Baja | +37%, guía FY26 +35% y margen al alza; −46% desde máximos. |
-| 9 | COHR | 70.8 | Baja | +34% y guía +12% secuencial a PER ≈ 17; FCF negativo por el capex. |
-| 10 | DELL | 69.6 | Baja | Cartera de servidores de IA de $95.000M, guía +69% y EP; Silver Lake vendiendo. |
-| 11 | ANET | 68.0 | Baja | +38%, margen 45% y sin deuda; beat amplio y guía +9%. |
-| 12 | AMAT | 67.3 | Baja | Guía +12% secuencial y caja récord; −43% desde máximos. |
-| 13 | SMCI | 66.2 | Baja | +93% y guía FY27 de $65.000–72.000M a PER ≈ 6; ampliación de ≈ $5.000M. |
-| 14 | ARM | 58.3 | Baja | +22% y margen bruto del 97%, pero PER ≈ 77 y cartera plana. |
-| 15 | KLAC | 56.4 | Baja | Margen y caja de primera, pero guía menos explosiva que LRCX y −44% desde máximos. |
+| 1 | NVDA | 87.5 | Alta | +106%, centro de datos +117% y guía +12% secuencial; PER ≈ 14. |
+| 2 | LITE | 82.7 | Alta | +109%, guía +24% y EP en agosto; dilución por canjes ya hecha. |
+| 3 | TSM | 79.8 | Alta | +41% en US$, márgenes récord y guía +12–16% secuencial; PER ≈ 18. |
+| 4 | CLS | 86.0 | Media | +62% y guía +8%, pero ampliación del 8% en agosto y directivos vendiendo. |
+| 5 | AVGO | 86.0 | Media | IA +221%, guía +93% y cartera de $179.200M; −32% desde máximos. |
+| 6 | ASML | 82.2 | Media | +55% en €, demanda por encima de la oferta hasta 2028 y recompras. |
+| 7 | AMD | 79.6 | Media | Centro de datos +107% y guía +13%, pero beat pequeño y −7% tras resultados. |
+| 8 | CIEN | 76.1 | Media | +37%, guía FY26 +35% y margen al alza; −46% desde máximos. |
+| 9 | COHR | 70.8 | Media | +34% y guía +12% secuencial a PER ≈ 17; FCF negativo por el capex. |
+| 10 | DELL | 69.6 | Media | Cartera de servidores de IA de $95.000M, guía +69% y EP; Silver Lake vendiendo. |
+| 11 | ANET | 68.0 | Media | +38%, margen 45% y sin deuda; beat amplio y guía +9%. |
+| 12 | AMAT | 67.3 | Media | Guía +12% secuencial y caja récord; −43% desde máximos. |
+| 13 | SMCI | 66.2 | Media | +93% y guía FY27 de $65.000–72.000M a PER ≈ 6; ampliación de ≈ $5.000M. |
+| 14 | ARM | 58.3 | Media | +22% y margen bruto del 97%, pero PER ≈ 77 y cartera plana. |
+| 15 | KLAC | 56.4 | Media | Margen y caja de primera, pero guía menos explosiva que LRCX y −44% desde máximos. |
 | 16 | LRCX | 68.5 | Descartar (resultados en ≤ 3 sesiones sin ser EP) | Guía +20% secuencial y EP en julio, ya devuelto (−38%). |
 
 «Descartar» lleva entre paréntesis la regla de la matriz que lo dispara; con resultados en ≤ 3 sesiones es una regla de calendario, no un juicio del negocio.
@@ -52,14 +48,14 @@ Proxy de tendencia (2026-10-16): QQQ 709.80 vs EMA 10/20/50 735.21/736.16/727.94
 
 ## Líderes enfriados
 
-Ninguno según `prices.py` (swing.md §6).
+Ninguno según `prices.py` (swing.md §5).
 
 ## Oferta y dilución a vigilar
 
 - **NVDA:** Ventas de insiders 12 meses: $1.997,1M; 9 marcados.
+- **LITE:** Canjes de convertibles por acciones (2026); Ventas de insiders 12 meses: $175,8M; 11 marcados.
 - **CLS:** Ampliación de agosto de 2026 (9,68M acciones a $310); Ventas de insiders 12 meses: $252,7M; 7 marcados.
 - **AVGO:** Ventas de insiders 12 meses: $1.174,2M; 7 marcados.
-- **LITE:** Canjes de convertibles por acciones (2026); Ventas de insiders 12 meses: $175,8M; 11 marcados.
 - **AMD:** Acciones para la compra de World Labs (≈ $8.200M); Ventas de insiders 12 meses: $368,7M; 4 marcados.
 - **CIEN:** Convertible 0% 2031 ($2.875M, conversión ≈ $746,66); Ventas de insiders 12 meses: $99,0M; 6 marcados.
 - **COHR:** Ventas de insiders 12 meses: $1.118,2M; 12 marcados.
@@ -74,11 +70,11 @@ Ninguno según `prices.py` (swing.md §6).
 ## Lo que sigue en [VERIFY]
 
 - **NVDA:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días; inventario y cobros en el 10-Q.
+- **LITE:** convertibles que quedan vivos tras los canjes, en el 10-K FY26; fecha de finviz.
+- **TSM:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días; la nota no da capex ni flujos; están en el informe de gestión trimestral y en el 20-F.
 - **CLS:** fecha de finviz.
 - **AVGO:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días.
-- **LITE:** convertibles que quedan vivos tras los canjes, en el 10-K FY26; fecha de finviz.
 - **ASML:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días.
-- **TSM:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días; la nota no da capex ni flujos; están en el informe de gestión trimestral y en el 20-F.
 - **AMD:** fecha de finviz; número de acciones al cierre de la operación.
 - **CIEN:** fecha no anunciada; fecha no anunciada; estimada como últimos resultados + 91 días; vencimiento exacto y capped call.
 - **COHR:** fecha de finviz.

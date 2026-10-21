@@ -1,4 +1,4 @@
-"""Offline tests for casekit, new_case helpers, consensus, market breadth, regime with breadth, journal, site and profiles.
+"""Offline tests for casekit, new_case helpers, consensus, journal, site and profiles.
 Run: python tests/test_tools.py   (from the skill folder)
 """
 import json, os, sys
@@ -71,41 +71,6 @@ def test_consensus():
     print("consensus ok")
 
 
-def _members(n_up, n_down, days=70):
-    """n_up members rising 1%/day; n_down members falling 1%/day with a −5% day near the end."""
-    S = {}
-    for i in range(n_up):
-        S[f"U{i}"] = series([100 * 1.01 ** k for k in range(days)])
-    for i in range(n_down):
-        closes = [100 * 0.99 ** k for k in range(days)]
-        closes[-2] = closes[-3] * 0.95
-        closes[-1] = closes[-2] * 0.99
-        S[f"D{i}"] = series(closes)
-    return S
-
-
-def test_breadth_and_regime():
-    from market import breadth, state
-    from prices import metrics, regime_proxy
-    b = breadth(_members(8, 2), days=3)[-1]
-    assert b["n"] == 10 and b["pct_above_sma50"] == 80.0 and b["down4_5d"] == 2 and b["up4_5d"] == 0
-    assert b["ratio_10d"] == 0.0 and state(b) == "strong", "only 2 moves of ±4%: the ratio does not count"
-    w = breadth(_members(3, 7), days=3)[-1]
-    assert w["pct_above_sma50"] == 30.0 and state(w) == "weak"
-    assert breadth(_members(5, 5), days=1)[-1]["state"] == "weak", "50% over SMA 50 but 0 up / 5 down moves"
-    assert state(dict(pct_above_sma50=50, ratio_10d=1.0, up4_10d=3, down4_10d=3)) == "mixed"
-    up = metrics(series([100 * 1.01 ** i for i in range(120)]))
-    dn = metrics(series([100 * 0.99 ** i for i in range(120)]))
-    M = {"QQQ": up, "IWM": up}
-    assert regime_proxy(M)[0] == "risk_on" and "Sin amplitud" in regime_proxy(M)[1]
-    assert regime_proxy(M, breadth=dict(state="weak", pct_above_sma50=35, evidence="x"))[0] == "neutral"
-    assert regime_proxy({"QQQ": dn, "IWM": dn}, breadth=dict(state="strong", pct_above_sma50=70))[0] == "neutral"
-    assert regime_proxy({"QQQ": up, "IWM": dn}, breadth=dict(state="weak", pct_above_sma50=25))[0] == "risk_off"
-    assert regime_proxy({"QQQ": up, "IWM": dn}, breadth=dict(state="weak", pct_above_sma50=35))[0] == "neutral"
-    assert regime_proxy({"QQQ": dn, "IWM": dn}, breadth=dict(state="mixed", pct_above_sma50=45))[0] == "risk_off"
-    print("breadth + regime ok")
-
-
 def test_journal_outcome():
     from journal import outcome
     closes = [100.0] * 10 + [101 + k for k in range(70)]
@@ -159,5 +124,5 @@ def test_profiles():
 
 
 if __name__ == "__main__":
-    test_casekit(); test_new_case_helpers(); test_consensus(); test_breadth_and_regime(); test_journal_outcome()
+    test_casekit(); test_new_case_helpers(); test_consensus(); test_journal_outcome()
     test_site_markdown(); test_validate_gap_quarter(); test_profiles()

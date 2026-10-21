@@ -11,19 +11,18 @@ Archivos:
 - `references/catalysts.md` — taxonomía, checklist, puntuación, topes y señales narrativas. **Léelo antes de puntuar un PR.**
 - `references/fundamentals.md` — etiquetas XBRL, métricas, banderas de calidad, DCF inverso, nota de fundamentales, pares.
 - `references/dilution_supply.md` — fuentes de oferta y nota de oferta.
-- `references/swing.md` — régimen, setups, matriz de convicción, eventos y diario de calibración.
+- `references/swing.md` — setups, matriz de convicción, eventos y diario de calibración.
 - `references/schema.md` — campos del caso, markup y métricas.
 - `examples/EXMP_synthetic.json` — caso **sintético** completo; copia su forma, nunca sus cifras.
-- `scripts/prices.py` — precios diarios (Stooq → Yahoo), ADR%, EMAs, RS, «líder enfriado», candidatos de setup y proxy de régimen.
+- `scripts/prices.py` — precios diarios (Stooq → Yahoo), ADR%, EMAs, RS, «líder enfriado» y candidatos de setup.
 - `scripts/edgar.py` — índice de filings por CIK (`--after <accession>` para el modo actualización).
 - `scripts/insiders.py` — Forms 4 (ventas, compras, 10b5-1, % de la posición por trimestre), Forms 144 y 13D/13G desde el XML de EDGAR → `data/<T>/insiders.json`.
 - `scripts/forensic.py` — fondo de comercio e intangibles frente a patrimonio, deterioros, float público de la portada del 10-K en acciones y 8-K 4.01/4.02/5.02 → `data/<T>/forensic.json`.
 - `scripts/new_case.py` — alta automática de un ticker de `universe.json` (CIK, filings, trimestres XBRL con respaldo del documento, precios, últimos resultados con su reacción y próximos estimados con `[VERIFY]`) → caso de Fase 1 validado. Emisores extranjeros: `quarters.json` a mano antes.
 - `scripts/casekit.py` — funciones para construir y actualizar casos: `earnings` (con `prices.reaction`), `contract`, `insider_supply`, `growth_at`, `usd_m`.
 - `scripts/consensus.py` — consenso de finviz (BPA próximo trimestre, sorpresa BPA/ventas, fecha de resultados) a `data/<T>/consensus.json`; si la web está bloqueada, `--set` con las fuentes de la búsqueda.
-- `scripts/market.py` — amplitud del Nasdaq-100 (`market/members.json`): % sobre la SMA 20/50 y ratio +4%/−4% → `market/breadth.json`, que `prices.py` usa para ajustar el régimen (swing.md §1).
 - `scripts/journal.py` — diario: `--add` señales del día (convicción ≥ Media con setup) y `--update` resultados a +5/+20/+60 sesiones en R.
-- `scripts/sitepage.py` — página índice de todos los universos (`universes.json`): amplitud, ranking y resumen.
+- `scripts/sitepage.py` — página índice de todos los universos (`universes.json`): ranking y resumen.
 - `scripts/xbrl.py` · `catalysts.py` · `fundamentals.py` · `compute.py` · `validate.py` · `render.py` · `rank.py` (ranking de un universo de casos) · `tests/test_engines.py`.
 - `assets/sector_profiles.json` · `assets/journal_template.csv` · `assets/report.css` · `assets/charts.js`.
 
@@ -52,9 +51,9 @@ Archivos:
    - Usa 4–8 compañías del mismo tema o industria.
    - Calcula sus métricas con el mismo método y la misma fecha de precio.
    - Sin datos de precio, `rs_3m` y `ev_sales` quedan `null` y la posición sale `unknown`.
-7. **Setup y régimen.**
-   - Precios: `python scripts/prices.py --universe <dir>/universe.json [--apply]`. Descarga 2 años de OHLCV de cada ticker y de los ETF (por defecto SMH, SOXX, QQQ, IWM) a `data/<T>/prices.csv` y escribe `data/prices_metrics.json`. Con `--apply` rellena en cada caso `setup.rs_1m/rs_3m/rs_6m` (percentil dentro del universo + ETF), `adr_pct`, `ema_stack`, `cooled_leader` (swing.md §6), `setup_candidates` y `market.price/price_date/regime` (tendencia de QQQ e IWM ajustada con la amplitud de `market/breadth.json` si es de la misma sesión; ejecuta antes `scripts/market.py`). Nunca escribe `type`, `pivot` ni `stop`: los candidatos son propuestas; confírmalos con el gráfico y explica la elección en `setup.notes`.
-   - Funciones: `download`, `metrics` (ADR% 20, EMA 10/20/50, SMA 200, máximo y caída de 52 semanas, rentabilidad 1/3/6/12 meses), `rs_table`, `candidates` (EP, breakout_flag, exhaustion_watch), `cooled_leader`, `regime_proxy`, `apply_to_case`. Test: `python tests/test_prices.py`.
+7. **Setup.**
+   - Precios: `python scripts/prices.py --universe <dir>/universe.json [--apply]`. Descarga 2 años de OHLCV de cada ticker y de los ETF (por defecto SMH, SOXX, QQQ, IWM) a `data/<T>/prices.csv` y escribe `data/prices_metrics.json`. Con `--apply` rellena en cada caso `setup.rs_1m/rs_3m/rs_6m` (percentil dentro del universo + ETF), `adr_pct`, `ema_stack`, `cooled_leader` (swing.md §5), `setup_candidates` y `market.price/price_date`. Nunca escribe `type`, `pivot` ni `stop`: los candidatos son propuestas; confírmalos con el gráfico y explica la elección en `setup.notes`.
+   - Funciones: `download`, `metrics` (ADR% 20, EMA 10/20/50, SMA 200, máximo y caída de 52 semanas, rentabilidad 1/3/6/12 meses), `rs_table`, `candidates` (EP, breakout_flag, exhaustion_watch), `cooled_leader`, `apply_to_case`. Test: `python tests/test_prices.py`.
    - Con datos de precio: pivote, stop, ADR%, RS y EMAs.
    - Sin ellos: déjalos en `null`; el informe lo muestra y la convicción no puede ser Alta.
 8. **Construir y comprobar.**
@@ -76,5 +75,5 @@ Archivos:
 - Un PR vale lo que se puede verificar fuera del emisor. Techo ≠ ingreso; MOU ≠ contrato; «seleccionada» ≠ adjudicada con fondos.
 - PR seguido de financiación con descuento en ≤ 10 días se trata como herramienta de colocación, no como catalizador.
 - La confirmación de mercado se muestra aparte. Un catalizador D con mercado fuerte es una operación táctica, no una tesis.
-- Buenos fundamentales no garantizan revalorización. La convicción exige catalizador, calidad, oferta limpia y liderazgo en el grupo a la vez, dentro del régimen.
+- Buenos fundamentales no garantizan revalorización. La convicción exige catalizador, calidad, oferta limpia y liderazgo en el grupo a la vez.
 - Cada cifra lleva fuente o `[VERIFY]`. Nunca inventes datos de precio, consenso o pares. Para probar la plantilla usa solo casos marcados `synthetic: true`.

@@ -16,9 +16,7 @@
  },
  "market": {
   "price": 14.2,
-  "price_date": "2026-10-16",
-  "regime": "risk_on",
-  "regime_evidence": "Ratio de Stockbee 10 días 2,1; 68% del universo sobre la media de 50; Nasdaq y Russell 2000 sobre sus medias de 10/20/50 (cifras ficticias)."
+  "price_date": "2026-10-16"
  },
  "financials": {
   "source": "sintético (formato de scripts/xbrl.py)",

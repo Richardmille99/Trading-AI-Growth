@@ -111,11 +111,12 @@ def test_dcf_and_conviction():
     v = dcf_value(.25, 100, .05, .2)
     g = reverse_dcf(v, 100, .05, .2)
     assert abs(g - .25) < 1e-6
-    assert conviction("A", 80, 70, "leader", "risk_on", False, "ep")[0] == "Alta"
-    assert conviction("A", 80, 70, "unknown", "risk_on", False, "ep")[0] == "Media"
-    assert conviction("A", 80, 70, "leader", "risk_off", False, "ep")[0] == "Baja"
-    assert conviction("A", 80, 30, "leader", "risk_on", False, "ep")[0] == "Descartar"
-    assert conviction("B", 80, 70, "leader", "risk_on", True, "vcp")[0] == "Descartar"
+    assert conviction("A", 80, 70, "leader", False, "ep")[0] == "Alta"
+    assert conviction("A", 80, 70, "unknown", False, "ep")[0] == "Media"
+    assert conviction("C", 50, 55, "weak", False, "ep")[0] == "Media"
+    assert conviction("D", 80, 70, "leader", False, "ep")[0] == "Baja"
+    assert conviction("A", 80, 30, "leader", False, "ep")[0] == "Descartar"
+    assert conviction("B", 80, 70, "leader", True, "vcp")[0] == "Descartar"
     print("dcf + conviction ok")
 
 
